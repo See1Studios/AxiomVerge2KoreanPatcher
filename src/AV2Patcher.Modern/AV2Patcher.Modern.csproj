@@ -14,9 +14,9 @@
     <PackageReference Include="System.Drawing.Common" Version="9.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <!-- KoreanFonts: 리포 루트 resources/KoreanFonts/ 에서 관리 -->
-    <Content Include="..\..\resources\KoreanFonts\**\*">
-      <Link>KoreanFonts\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    <!-- Fonts: 리포 루트 resources/Fonts/ 에서 관리 (Originals/는 런타임에 빌드/추출되며, Korean/은 커스텀 템플릿) -->
+    <Content Include="..\..\resources\Fonts\**\*">
+      <Link>Fonts\%(RecursiveDir)%(Filename)%(Extension)</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <!-- Tools (xnbcli 등): 리포 루트 resources/Tools/ 에서 관리 -->

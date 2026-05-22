@@ -42,8 +42,8 @@
 
 ## 커스텀 폰트 추가
 
-`resources/KoreanFonts/` 폴더에 `.fnt` + `.png` 쌍을 추가하면  
-빌드 시 자동으로 패처 `KoreanFonts/` 디렉터리에 복사됩니다.
+`resources/Fonts/Korean/` 폴더에 `.fnt` + `.png` 쌍을 추가하면  
+빌드 시 자동으로 패처 `Fonts/Korean/` 디렉터리에 복사됩니다.
 
 BMFont 형식의 비트맵 폰트를 지원합니다.
 
@@ -62,7 +62,7 @@ AxiomVerge2KoreanPatcher/
 │       ├── MainWindow.xaml(.cs)
 │       └── AV2Patcher.Modern.csproj
 └── resources/                      # 빌드 리소스 (단일 소스)
-    ├── KoreanFonts/                 # 한국어 폰트 (.fnt/.png)
+    ├── Fonts/                      # 폰트 리소스 (Originals, Korean)
     ├── Tools/                       # xnbcli (XNB 언팩 도구)
     ├── Translations/                # 번역 CSV
     └── apply_patch.sh               # Linux 패치 스크립트 (WIP)

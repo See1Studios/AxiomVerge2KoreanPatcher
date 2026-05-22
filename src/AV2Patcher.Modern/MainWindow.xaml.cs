@@ -34,7 +34,7 @@ public partial class MainWindow : Window
 {
     private Config _config = new();
     private string ConfigPath => Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.json");
-    private string CustomFontsDir => Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "KoreanFonts");
+    private string CustomFontsDir => Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts", "Korean");
 
     public ObservableCollection<CustomFont> AvailableFonts { get; } = new();
     public ObservableCollection<FontMapping> Mappings { get; } = new();
@@ -107,7 +107,7 @@ public partial class MainWindow : Window
 
     /// <summary>원본 XNB 백업 및 언팩 PNG/JSON 저장 위치 (패처 옆 Originals/Fonts/).</summary>
     private static string OriginalFontsDir =>
-        Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Originals", "Fonts");
+        Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts", "Originals");
 
     /// <summary>Linux 패치용 패키지 내보내기 폴더 — Content.zip + 빌드된 폰트 XNB.</summary>
     private static string ExportPackageDir =>
@@ -115,8 +115,9 @@ public partial class MainWindow : Window
 
     private void EnsureFolders()
     {
-        foreach (var f in new[] { "Translations", "Tools", "BuiltFonts", "KoreanFonts",
-                                   Path.Combine("Originals", "Fonts"),
+        foreach (var f in new[] { "Translations", "Tools", "Fonts",
+                                   Path.Combine("Fonts", "Originals"),
+                                   Path.Combine("Fonts", "Korean"),
                                    Path.Combine("ExportPackage", "Fonts") })
             if (!Directory.Exists(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, f)))
                 Directory.CreateDirectory(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, f));
@@ -259,7 +260,7 @@ public partial class MainWindow : Window
                 try { File.Delete(tempZipPath); } catch { }
 
                 // 6. Build and Deploy Fonts (to Content/Fonts directory)
-                string builtFontsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "BuiltFonts");
+                string builtFontsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts");
                 string fontsOriginalDir = OriginalFontsDir;
                 if (!Directory.Exists(fontsOriginalDir)) Directory.CreateDirectory(fontsOriginalDir);
 
@@ -328,20 +329,23 @@ public partial class MainWindow : Window
                     Task.WaitAll(fontTasks.ToArray());
                 }
 
-                // Linux 패치 패키지용: 빌드된 XNB를 ExportPackage/Fonts/에도 복사
+                // local Fonts/ 폴더 및 Linux 패치 패키지용 ExportPackage/Fonts/ 에 복사
                 string exportFontsDir = Path.Combine(ExportPackageDir, "Fonts");
                 Directory.CreateDirectory(exportFontsDir);
+                if (!Directory.Exists(builtFontsDir)) Directory.CreateDirectory(builtFontsDir);
                 foreach (var mapping in Mappings) {
                     string builtXnb = Path.Combine(gameDir, "Content", "Fonts", mapping.TargetXnb);
-                    if (File.Exists(builtXnb))
+                    if (File.Exists(builtXnb)) {
+                        try { File.Copy(builtXnb, Path.Combine(builtFontsDir, mapping.TargetXnb), true); } catch { }
                         try { File.Copy(builtXnb, Path.Combine(exportFontsDir, mapping.TargetXnb), true); } catch { }
+                    }
                 }
-                Log("ExportPackage 업데이트 완료 (Content.zip + Fonts/).");
+                Log("ExportPackage 및 로컬 Fonts 폴더 업데이트 완료.");
             });
             Log("PATCH SUCCESS! You can now run the game.");
-            string builtFontsDirFinal = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "BuiltFonts");
+            string builtFontsDirFinal = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts");
             var result = System.Windows.MessageBox.Show(
-                "패치 완료!\n\n'예'를 누르면 BuiltFonts 폴더를 열어 결과물을 확인할 수 있습니다.",
+                "패치 완료!\n\n'예'를 누르면 Fonts 폴더를 열어 결과물인 패치 폰트를 확인할 수 있습니다.",
                 "완료", MessageBoxButton.YesNo, MessageBoxImage.Information);
             if (result == MessageBoxResult.Yes && Directory.Exists(builtFontsDirFinal)) {
                 System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo {

@@ -83,7 +83,7 @@ public static class FontBuilder
             string pngName  = Path.GetFileNameWithoutExtension(xnbName) + ".png";
 
             // 1. Identify and Unpack Template
-            string originalsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Originals", "Fonts");
+            string originalsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts", "Originals");
             string templateJsonPath = Path.Combine(originalsDir, jsonName);
             string templatePngPath  = Path.Combine(originalsDir, pngName);
 
