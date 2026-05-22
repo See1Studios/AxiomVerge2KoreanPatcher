@@ -1,10 +1,10 @@
-using System.IO;
+﻿using System.IO;
 using System.Diagnostics;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Drawing.Imaging;
 
-namespace AV2Patcher_Modern;
+namespace AV2Patcher.Modern;
 
 /// <summary>
 /// BMFont 텍스트 형식(.fnt) 파서

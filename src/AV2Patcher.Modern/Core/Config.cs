@@ -1,6 +1,6 @@
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
-namespace AV2Patcher_Modern;
+namespace AV2Patcher.Modern;
 
 /// <summary>
 /// BMFont 텍스트 형식(.fnt)의 개별 문자 데이터

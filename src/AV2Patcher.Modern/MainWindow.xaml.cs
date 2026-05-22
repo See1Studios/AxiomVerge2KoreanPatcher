@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using System.Collections.ObjectModel;
 using Application = System.Windows.Application;
 
-namespace AV2Patcher_Modern;
+namespace AV2Patcher.Modern;
 
 public class FontInfoConverter : System.Windows.Data.IValueConverter
 {
