@@ -23,5 +23,10 @@
       <Link>Tools\%(RecursiveDir)%(Filename)%(Extension)</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <!-- Translations: 리포 루트 resources/Translations/ 에서 관리 -->
+    <Content Include="..\..\resources\Translations\**\*">
+      <Link>Translations\%(RecursiveDir)%(Filename)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 </Project>

@@ -336,6 +336,8 @@ node_modules/
 **/config.json
 # Antigravity CLI 작업 폴더
 .antigravitycli/
+# JetBrains IDE 설정
+.idea/
 
 *.ncb
 *.aps
