@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>UdugGir.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="UdugGirTexture">
+    <THSpriteAnimationData mName="Attack" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\UdugGir\Output\Attack.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="65" mHeight="35" mDelay="12" mOriginX="32" mOriginY="0" mU="0" mV="0" mUVWidth="65" mUVHeight="35" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Attack0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="8" mAngle="0.174532935" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="-2" mY="13" mAngle="0.4886922" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="-4" mY="18" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-9" mY="23" mAngle="0.959931135" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle4" mX="-14" mY="25" mAngle="1.134464" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle5" mX="-19" mY="27" mAngle="1.30899692" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-8" mY="5" mWidth="5" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="-8" mY="19" mWidth="5" mHeight="16" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-8" mY="7" mWidth="5" mHeight="12" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-8" mY="19" mWidth="8" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="65" mHeight="35" mDelay="12" mOriginX="32" mOriginY="0" mU="0" mV="37" mUVWidth="65" mUVHeight="35" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Attack0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="8" mAngle="0.174532935" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="-2" mY="13" mAngle="0.4886922" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="-4" mY="18" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-9" mY="23" mAngle="0.959931135" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle4" mX="-14" mY="25" mAngle="1.134464" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle5" mX="-19" mY="27" mAngle="1.30899692" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-31" mY="5" mWidth="31" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-32" mY="4" mWidth="32" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="65" mHeight="35" mDelay="12" mOriginX="32" mOriginY="0" mU="0" mV="74" mUVWidth="65" mUVHeight="35" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Attack0002.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="8" mAngle="0.174532935" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-2" mY="13" mAngle="0.4886922" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-4" mY="18" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle3" mX="-9" mY="23" mAngle="0.959931135" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle4" mX="-14" mY="25" mAngle="1.134464" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle5" mX="-19" mY="27" mAngle="1.30899692" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-8" mY="5" mWidth="7" mHeight="16" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="-23" mY="21" mWidth="16" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-8" mY="7" mWidth="7" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-23" mY="21" mWidth="16" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="65" mHeight="35" mDelay="12" mOriginX="32" mOriginY="0" mU="67" mV="0" mUVWidth="65" mUVHeight="35" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Attack0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="8" mAngle="0.174532935" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="-2" mY="13" mAngle="0.4886922" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="-4" mY="18" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-9" mY="23" mAngle="0.959931135" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle4" mX="-14" mY="25" mAngle="1.134464" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle5" mX="-19" mY="27" mAngle="1.30899692" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="3" mY="4" mWidth="6" mHeight="15" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="0" mY="19" mWidth="7" mHeight="16" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="4" mY="7" mWidth="5" mHeight="12" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="0" mY="19" mWidth="7" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="65" mHeight="35" mDelay="12" mOriginX="32" mOriginY="0" mU="67" mV="37" mUVWidth="65" mUVHeight="35" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Attack0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="8" mAngle="0.174532935" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="-2" mY="13" mAngle="0.4886922" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="-4" mY="18" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-9" mY="23" mAngle="0.959931135" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle4" mX="-14" mY="25" mAngle="1.134464" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle5" mX="-19" mY="27" mAngle="1.30899692" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="0" mY="3" mWidth="32" mHeight="8" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="0" mY="3" mWidth="32" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="65" mHeight="35" mDelay="12" mOriginX="32" mOriginY="0" mU="134" mV="0" mUVWidth="65" mUVHeight="35" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Attack0005.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="-1" mY="8" mAngle="2.96705985" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="1" mY="13" mAngle="2.65290046" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="3" mY="18" mAngle="2.3561945" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle3" mX="8" mY="23" mAngle="2.18166161" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle4" mX="13" mY="25" mAngle="2.00712872" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle5" mX="18" mY="27" mAngle="1.83259583" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-1" mY="5" mWidth="7" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="4" mY="20" mWidth="18" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-1" mY="7" mWidth="7" mHeight="12" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="4" mY="20" mWidth="18" mHeight="7" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Close" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\UdugGir\Output\Close.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="13" mHeight="36" mDelay="1" mOriginX="6" mOriginY="0" mU="231" mV="0" mUVWidth="13" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Close0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-2" mY="7" mWidth="4" mHeight="29" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="13" mHeight="36" mDelay="4" mOriginX="6" mOriginY="0" mU="142" mV="75" mUVWidth="13" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Close0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-2" mY="7" mWidth="4" mHeight="21" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="13" mHeight="36" mDelay="4" mOriginX="6" mOriginY="0" mU="179" mV="37" mUVWidth="13" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Close0002.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-2" mY="7" mWidth="4" mHeight="13" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="13" mHeight="36" mDelay="4" mOriginX="6" mOriginY="0" mU="216" mV="0" mUVWidth="13" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Close0003.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-2" mY="7" mWidth="4" mHeight="4" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="13" mHeight="36" mDelay="4" mOriginX="6" mOriginY="0" mU="164" mV="37" mUVWidth="13" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Close0004.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="13" mHeight="36" mDelay="4" mOriginX="6" mOriginY="0" mU="201" mV="0" mUVWidth="13" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Close0005.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="0" mWidth="9" mHeight="8" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="13" mHeight="36" mDelay="4" mOriginX="6" mOriginY="0" mU="157" mV="75" mUVWidth="13" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Close0006.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-3" mY="0" mWidth="7" mHeight="8" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="CloseIdle" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\UdugGir\Output\CloseIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="7" mHeight="8" mDelay="62" mOriginX="3" mOriginY="0" mU="246" mV="0" mUVWidth="7" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\CloseIdle0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-3" mY="0" mWidth="7" mHeight="8" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Open" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\UdugGir\Output\Open.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="13" mHeight="36" mDelay="1" mOriginX="6" mOriginY="0" mU="112" mV="74" mUVWidth="13" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Open0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-3" mY="0" mWidth="7" mHeight="8" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="13" mHeight="36" mDelay="6" mOriginX="6" mOriginY="0" mU="149" mV="37" mUVWidth="13" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Open0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="0" mWidth="9" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="13" mHeight="36" mDelay="6" mOriginX="6" mOriginY="0" mU="134" mV="37" mUVWidth="13" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Open0002.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="13" mHeight="36" mDelay="4" mOriginX="6" mOriginY="0" mU="97" mV="74" mUVWidth="13" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Open0003.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-2" mY="7" mWidth="4" mHeight="4" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="13" mHeight="36" mDelay="4" mOriginX="6" mOriginY="0" mU="82" mV="74" mUVWidth="13" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Open0004.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-2" mY="7" mWidth="4" mHeight="13" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="13" mHeight="36" mDelay="4" mOriginX="6" mOriginY="0" mU="67" mV="74" mUVWidth="13" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Open0005.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-2" mY="7" mWidth="4" mHeight="21" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="13" mHeight="36" mDelay="4" mOriginX="6" mOriginY="0" mU="127" mV="75" mUVWidth="13" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\Open0006.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-2" mY="7" mWidth="4" mHeight="29" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="OpenIdle" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\UdugGir\Output\OpenIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="13" mHeight="36" mDelay="31" mOriginX="6" mOriginY="0" mU="194" mV="38" mUVWidth="13" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugGir\Output\OpenIdle0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="0" mWidth="13" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-2" mY="7" mWidth="4" mHeight="29" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle1">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle2">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle3">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle4">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle5">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

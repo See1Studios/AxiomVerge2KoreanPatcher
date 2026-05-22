@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THSkillTreeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <THSkillCategory mName="Physiology">
+    <THSkillData mType="Health" mName="Health1" mCost="1" />
+    <THSkillData mType="Health" mName="Health2" mCost="2" mRequiredSkill="PREVIOUS"/>
+    <THSkillData mType="Health" mName="Health3" mCost="4" mRequiredSkill="PREVIOUS"/>
+    <THSkillData mType="Health" mName="Health4" mCost="4" mRequiredSkill="PREVIOUS"/>
+    <THSkillData mType="Health" mName="Health5" mCost="6" mRequiredSkill="PREVIOUS"/>
+    
+    <!-- Benefit of this is questionable; also creates too many nodes to collect-->
+    <!--
+    <THSkillData mType="Stamina" mName="Stamina1" mCost="1" mRequiredItem="ArmNinhursag"/>
+    <THSkillData mType="Stamina" mName="Stamina2" mCost="3" mRequiredSkill="PREVIOUS"/>
+    <THSkillData mType="Stamina" mName="Stamina3" mCost="5" mRequiredSkill="PREVIOUS"/>
+    -->
+
+    <THSkillData mType="NanoCloudSpeed" mName="NanoCloudSpeed1" mCost="5" mRequiredItem="ArmTilhar" />
+
+    </THSkillCategory>
+
+  <THSkillCategory mName="Combat">
+    <THSkillData mType="MeleeDamage" mName="MeleeDamage1" mCost="1" />
+    <THSkillData mType="MeleeDamage" mName="MeleeDamage2" mCost="4" mRequiredSkill="PREVIOUS"/>
+    <THSkillData mType="MeleeDamage" mName="MeleeDamage3" mCost="6" mRequiredSkill="PREVIOUS"/>
+
+    <THSkillData mType="MeleeSpeed" mName="MeleeSpeed1" mCost="1" />
+    <THSkillData mType="MeleeSpeed" mName="MeleeSpeed2" mCost="4" mRequiredSkill="PREVIOUS"/>
+    <THSkillData mType="MeleeSpeed" mName="MeleeSpeed3" mCost="6" mRequiredSkill="PREVIOUS"/>
+
+    <THSkillData mType="RangedDamage" mName="RangedDamage1" mCost="1" />
+    <THSkillData mType="RangedDamage" mName="RangedDamage2" mCost="4" mRequiredSkill="PREVIOUS"/>
+    <THSkillData mType="RangedDamage" mName="RangedDamage3" mCost="6" mRequiredSkill="PREVIOUS"/>
+
+    <THSkillData mType="RangedSpeed" mName="RangedSpeed1" mCost="1" />
+    <THSkillData mType="RangedSpeed" mName="RangedSpeed2" mCost="3" mRequiredSkill="PREVIOUS"/>
+    <THSkillData mType="RangedSpeed" mName="RangedSpeed3" mCost="5" mRequiredSkill="PREVIOUS"/>
+
+
+  </THSkillCategory>
+<!--
+    <THSkillCategory mName="Stealth">
+      <THSkillData mType="CrawlSpeed" mName="CrawlSpeed1" mCost="1" />
+      <THSkillData mType="CrawlSpeed" mName="CrawlSpeed2" mCost="2" mRequiredSkill="PREVIOUS"/>
+      <THSkillData mType="CrawlSpeed" mName="CrawlSpeed3" mCost="4" mRequiredSkill="PREVIOUS"/>
+
+      <THSkillData mType="Backstab" mName="Backstab1" mCost="1" />
+      <THSkillData mType="Backstab" mName="Backstab2" mCost="2" mRequiredSkill="PREVIOUS"/>
+      <THSkillData mType="Backstab" mName="Backstab3" mCost="4" mRequiredSkill="PREVIOUS"/>
+      <THSkillData mType="Backstab" mName="Backstab4" mCost="8" mRequiredSkill="PREVIOUS"/>
+
+    </THSkillCategory>
+-->
+
+  <THSkillCategory mName="Hacking" mRequiredItem="ArmMushhus">
+    <THSkillData mType="HackingLevel" mName="HackingLevel2" mCost="1" />
+    <THSkillData mType="HackingLevel" mName="HackingLevel3" mCost="3" mRequiredSkill="PREVIOUS"/>
+    <THSkillData mType="HackingLevel" mName="HackingLevel4" mCost="4" mRequiredSkill="PREVIOUS"/>
+
+    <THSkillData mType="NanoPoints" mName="NanoPoints1" mCost="1" />
+    <THSkillData mType="NanoPoints" mName="NanoPoints2" mCost="3" mRequiredSkill="PREVIOUS"/>
+    <THSkillData mType="NanoPoints" mName="NanoPoints3" mCost="5" mRequiredSkill="PREVIOUS"/>
+
+    <THSkillData mType="HackingSpeed" mName="HackingSpeed1" mCost="2" />
+    <THSkillData mType="HackingSpeed" mName="HackingSpeed2" mCost="5" mRequiredSkill="PREVIOUS"/>
+
+    <THSkillData mType="HackingRange" mName="HackingRange1" mCost="1" />
+    <THSkillData mType="HackingRange" mName="HackingRange2" mCost="3" mRequiredSkill="PREVIOUS"/>
+    <THSkillData mType="HackingRange" mName="HackingRange3" mCost="5" mRequiredSkill="PREVIOUS"/>
+
+
+  </THSkillCategory>
+
+
+  <THSkillCategory mName="Drone" mRequiredItem="ArmUman">
+
+    <THSkillData mType="DroneMeleeDamage" mName="DroneMeleeDamage1" mCost="1" />
+    <THSkillData mType="DroneMeleeDamage" mName="DroneMeleeDamage2" mCost="3" mRequiredSkill="PREVIOUS"/>
+    <THSkillData mType="DroneMeleeDamage" mName="DroneMeleeDamage3" mCost="5" mRequiredSkill="PREVIOUS"/>
+
+    <THSkillData mType="DroneMeleeSpeed" mName="DroneMeleeSpeed1" mCost="1" />
+    <THSkillData mType="DroneMeleeSpeed" mName="DroneMeleeSpeed2" mCost="3" mRequiredSkill="PREVIOUS"/>
+    <THSkillData mType="DroneMeleeSpeed" mName="DroneMeleeSpeed3" mCost="5" mRequiredSkill="PREVIOUS"/>
+
+    <THSkillData mType="TurboZipChargeTime" mName="TurboZipChargeTime1" mCost="3" mRequiredItem="ArmImdugBir" />
+    <THSkillData mType="TurboZipChargeTime" mName="TurboZipChargeTime2" mCost="6" mRequiredSkill="PREVIOUS"/>
+    
+
+  </THSkillCategory>
+
+</THSkillTreeData>

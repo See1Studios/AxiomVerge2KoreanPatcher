@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>2048</mMaxWidth>
+  <mMaxHeight>2048</mMaxHeight>
+  <mFileName>Drushka0.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="Drushka0Texture">
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Humans\Drushka0\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-8" mY="-60" mWidth="16" mHeight="60" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="18" mHeight="40" mDelay="12" mOriginX="10" mOriginY="40" mU="48" mV="18" mUVWidth="18" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Drushka0\Output\Idle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Talking" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Humans\Drushka0\Output\Talking.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-8" mY="-60" mWidth="16" mHeight="60" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="18" mHeight="40" mDelay="62" mOriginX="10" mOriginY="40" mU="68" mV="18" mUVWidth="18" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Drushka0\Output\Talking0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="40" mDelay="10" mOriginX="10" mOriginY="40" mU="96" mV="0" mUVWidth="18" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Drushka0\Output\Talking0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="40" mDelay="62" mOriginX="10" mOriginY="40" mU="0" mV="54" mUVWidth="18" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Drushka0\Output\Talking0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="40" mDelay="10" mOriginX="10" mOriginY="40" mU="20" mV="54" mUVWidth="18" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Drushka0\Output\Talking0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="40" mDelay="62" mOriginX="10" mOriginY="40" mU="40" mV="60" mUVWidth="18" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Drushka0\Output\Talking0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="40" mDelay="10" mOriginX="10" mOriginY="40" mU="60" mV="60" mUVWidth="18" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Drushka0\Output\Talking0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="40" mDelay="62" mOriginX="10" mOriginY="40" mU="88" mV="42" mUVWidth="18" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Drushka0\Output\Talking0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="40" mDelay="10" mOriginX="10" mOriginY="40" mU="108" mV="42" mUVWidth="18" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Drushka0\Output\Talking0007.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TentaclesIdle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Humans\Drushka0\Output\TentaclesIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="46" mHeight="48" mDelay="12" mOriginX="24" mOriginY="48" mU="0" mV="0" mUVWidth="46" mUVHeight="16" mCropX="0" mCropY="32" mSourceImageName="..\Humans\Drushka0\Output\TentaclesIdle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="46" mHeight="48" mDelay="12" mOriginX="24" mOriginY="48" mU="0" mV="18" mUVWidth="46" mUVHeight="16" mCropX="0" mCropY="32" mSourceImageName="..\Humans\Drushka0\Output\TentaclesIdle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="46" mHeight="48" mDelay="13" mOriginX="24" mOriginY="48" mU="0" mV="36" mUVWidth="46" mUVHeight="16" mCropX="0" mCropY="32" mSourceImageName="..\Humans\Drushka0\Output\TentaclesIdle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="46" mHeight="48" mDelay="12" mOriginX="24" mOriginY="48" mU="48" mV="0" mUVWidth="46" mUVHeight="16" mCropX="0" mCropY="32" mSourceImageName="..\Humans\Drushka0\Output\TentaclesIdle0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

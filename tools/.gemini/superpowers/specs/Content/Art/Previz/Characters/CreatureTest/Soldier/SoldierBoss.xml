@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THMultiSpriteData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+	<mVersion>1.0</mVersion>
+	<mWidth>832</mWidth>
+	<mHeight>400</mHeight>
+	<mStartFrame>1</mStartFrame>
+	<mEndFrame>96</mEndFrame>
+	<mFPS>60</mFPS>
+	<mHierarchyData mName="BASE_SoldierBoss" >
+		<Layer mGroupName="SoldierBossGroup" mAnimationIndex="0" >
+			<Layer mGroupName="LeftArmGroup" mAnimationIndex="1" >
+				<Layer mFileName="SoldierLeftArm.png" mAnimationIndex="2" />
+				<Layer mFileName="SoldierLeftUpperArm.png" mAnimationIndex="3" />
+				<Layer mMuzzleIndex="0" />
+				<Layer mMuzzleIndex="1" />
+				<Layer mMuzzleIndex="2" />
+				<Layer mAnimationIndex="-1" mCollisionIndex="0" />
+				<Layer mFileName="SoldierGun.png" mAnimationIndex="4" />
+			</Layer>
+			<Layer mGroupName="LeftFootGroup" mAnimationIndex="5" >
+				<Layer mProxyName="Node2" mAnimationIndex="6" />
+				<Layer mFileName="SoldierLeftFoot.png" mAnimationIndex="7" />
+			</Layer>
+			<Layer mFileName="SoldierLeftLeg.png" mAnimationIndex="8" />
+			<Layer mGroupName="BodyGroup" mAnimationIndex="9" >
+				<Layer mProxyName="Node0" mAnimationIndex="10" />
+				<Layer mProxyName="Node1" mAnimationIndex="11" />
+				<Layer mAnimationIndex="-1" mCollisionIndex="1" />
+				<Layer mAnimationIndex="-1" mCollisionIndex="2" />
+				<Layer mAnimationIndex="-1" mCollisionIndex="3" />
+				<Layer mAnimationIndex="-1" mCollisionIndex="4" />
+				<Layer mAnimationIndex="-1" mCollisionIndex="5" />
+				<Layer mAnimationIndex="-1" mCollisionIndex="6" />
+				<Layer mAnimationIndex="-1" mCollisionIndex="7" />
+				<Layer mMuzzleIndex="3" />
+				<Layer mMuzzleIndex="4" />
+				<Layer mMuzzleIndex="5" />
+				<Layer mMuzzleIndex="6" />
+				<Layer mFileName="SoldierBody.png" mAnimationIndex="12" />
+				<Layer mProxyName="Node3" mAnimationIndex="13" />
+			</Layer>
+			<Layer mFileName="SoldierRightArm.png" mAnimationIndex="14" />
+			<Layer mFileName="SoldierRightLeg.png" mAnimationIndex="15" />
+			<Layer mFileName="SoldierRightFoot.png" mAnimationIndex="16" />
+		</Layer>
+	</mHierarchyData>
+	<AnimationData mName="SoldierBossIdle_H" mDuration="65" >
+		<Layer mAnimationIndex="0" ><!-- SoldierBossGroup -->
+			<mOrigin><X>22</X><Y>88</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>217.61960983276</X><Y>96.137601137161</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="1" ><!-- LeftArmGroup -->
+			<mOrigin><X>49.927200317383</X><Y>6.9176001548767</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-10.757400095463</X><Y>-1.5018000267446</Y></mVal></TranslationKey>
+			<TranslationKey mT="32"><mVal><X>-5.1052000373602</X><Y>-2.8362000361085</Y></mVal></TranslationKey>
+			<TranslationKey mT="64"><mVal><X>-10.757400095463</X><Y>-1.5018000267446</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="2" ><!-- SoldierLeftArm.png -->
+			<mOrigin><X>32.564800262451</X><Y>0.98080003261566</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>28.881400823593</X><Y>24.165999889374</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="3" ><!-- SoldierLeftUpperArm.png -->
+			<TranslationKey mT="0"><mVal><X>46.563801169395</X><Y>8.2517996430397</Y></mVal></TranslationKey>
+			<TranslationKey mT="32"><mVal><X>45.229399204254</X><Y>10.920400172472</Y></mVal></TranslationKey>
+			<TranslationKey mT="64"><mVal><X>46.563801169395</X><Y>8.2517996430397</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="4" ><!-- SoldierGun.png -->
+			<TranslationKey mT="0"><mVal><X>-25.344800949097</X><Y>58.352202177048</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="5" ><!-- LeftFootGroup -->
+			<mOrigin><X>53.624397277832</X><Y>59.936599731445</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-0.89999996125698</X><Y>-0</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="6" mProxyName="SoldierNodeAIdle" ><!-- PROXY_SoldierNodeAIdle -->
+			<TranslationKey mT="0"><mVal><X>63.969802856445</X><Y>61.33199930191</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="7" ><!-- SoldierLeftFoot.png -->
+			<mOrigin><X>4.1700000762939</X><Y>-4.4473996162415</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>50.689601898193</X><Y>67.193400859833</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="8" ><!-- SoldierLeftLeg.png -->
+			<mOrigin><X>3.5484001636505</X><Y>-11.047800064087</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>36.786198616028</X><Y>42.309600114822</Y></mVal></TranslationKey>
+			<TranslationKey mT="32"><mVal><X>38.787800073624</X><Y>44.980001449585</Y></mVal></TranslationKey>
+			<TranslationKey mT="64"><mVal><X>36.786198616028</X><Y>42.309600114822</Y></mVal></TranslationKey>
+			<RotationKey mT="0" mVal="-0.48511800169945" />
+			<RotationKey mT="32" mVal="-0.59364098310471" />
+			<RotationKey mT="64" mVal="-0.48511800169945" />
+		</Layer>
+		<Layer mAnimationIndex="9" ><!-- BodyGroup -->
+			<mOrigin><X>24.2952003479</X><Y>36.687202453613</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>5.367000028491</X><Y>-2.9737999662757</Y></mVal></TranslationKey>
+			<TranslationKey mT="32"><mVal><X>5.367000028491</X><Y>3.1785998493433</Y></mVal></TranslationKey>
+			<TranslationKey mT="64"><mVal><X>5.367000028491</X><Y>-2.9737999662757</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="10" mProxyName="SoldierNodeBIdle" ><!-- PROXY_SoldierNodeBIdle -->
+			<TranslationKey mT="0"><mVal><X>-7.804399728775</X><Y>2.7232000604272</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="11" mProxyName="SoldierNodeAIdle" ><!-- PROXY_SoldierNodeAIdle -->
+			<TranslationKey mT="0"><mVal><X>22.466799616814</X><Y>-15.819600224495</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="12" ><!-- SoldierBody.png -->
+			<mOrigin><X>10.893599510193</X><Y>23.949800491333</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>3.5363998264074</X><Y>10.609400272369</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="13" mProxyName="SoldierGrowthIdle" ><!-- PROXY_SoldierGrowthIdle -->
+			<TranslationKey mT="0"><mVal><X>29.509800672531</X><Y>-30.43819963932</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="14" ><!-- SoldierRightArm.png -->
+			<mOrigin><X>31.908802032471</X><Y>0.98900002241135</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-25.924599170685</X><Y>22.985799610615</Y></mVal></TranslationKey>
+			<TranslationKey mT="32"><mVal><X>-21.254399418831</X><Y>20.984199643135</Y></mVal></TranslationKey>
+			<TranslationKey mT="64"><mVal><X>-25.924599170685</X><Y>22.985799610615</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="15" ><!-- SoldierRightLeg.png -->
+			<mOrigin><X>5.9562001228333</X><Y>-6.7364001274109</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>15.77360033989</X><Y>47.419801354408</Y></mVal></TranslationKey>
+			<TranslationKey mT="32"><mVal><X>14.439199864864</X><Y>48.086801171303</Y></mVal></TranslationKey>
+			<TranslationKey mT="64"><mVal><X>15.77360033989</X><Y>47.419801354408</Y></mVal></TranslationKey>
+			<RotationKey mT="0" mVal="0.40912699699402" />
+			<RotationKey mT="32" mVal="0.55975902080536" />
+			<RotationKey mT="64" mVal="0.40912699699402" />
+		</Layer>
+		<Layer mAnimationIndex="16" ><!-- SoldierRightFoot.png -->
+			<mOrigin><X>4.2458000183105</X><Y>-2.0279998779297</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>0</X><Y>67.199999094009</Y></mVal></TranslationKey>
+		</Layer>
+	</AnimationData>
+	<AnimationData mName="SoldierBossBackup" mDuration="97" >
+		<Layer mAnimationIndex="0" ><!-- SoldierBossGroup -->
+			<mOrigin><X>-72.879997253418</X><Y>88</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>217.61960983276</X><Y>96.137601137161</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="1" ><!-- LeftArmGroup -->
+			<mOrigin><X>49.927200317383</X><Y>6.9176001548767</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-105.8051943779</X><Y>-1.4999999664724</Y></mVal></TranslationKey>
+			<TranslationKey mT="24"><mVal><X>-80.849999189377</X><Y>-11.105599999428</Y></mVal></TranslationKey>
+			<TranslationKey mT="48"><mVal><X>-60.356998443604</X><Y>-1.5018000267446</Y></mVal></TranslationKey>
+			<TranslationKey mT="72"><mVal><X>-36.711201071739</X><Y>-11.100000143051</Y></mVal></TranslationKey>
+			<TranslationKey mT="96"><mVal><X>-10.757400095463</X><Y>-1.5018000267446</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="2" ><!-- SoldierLeftArm.png -->
+			<mOrigin><X>32.564800262451</X><Y>0.98080003261566</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>28.881400823593</X><Y>24.165999889374</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="3" ><!-- SoldierLeftUpperArm.png -->
+			<TranslationKey mT="0"><mVal><X>46.563801169395</X><Y>8.2517996430397</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="4" ><!-- SoldierGun.png -->
+			<TranslationKey mT="0"><mVal><X>-25.344800949097</X><Y>58.352202177048</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="5" ><!-- LeftFootGroup -->
+			<mOrigin><X>53.624397277832</X><Y>59.936599731445</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-95.459997653961</X><Y>-0</Y></mVal></TranslationKey>
+			<TranslationKey mT="48"><mVal><X>-95.459997653961</X><Y>-0</Y></mVal></TranslationKey>
+			<TranslationKey mT="72"><mVal><X>-48.179998993874</X><Y>-9.5292001962662</Y></mVal></TranslationKey>
+			<TranslationKey mT="96"><mVal><X>-0.89999996125698</X><Y>-0</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="6" mProxyName="SoldierNodeAIdle" ><!-- PROXY_SoldierNodeAIdle -->
+			<TranslationKey mT="0"><mVal><X>63.969802856445</X><Y>61.33199930191</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="7" ><!-- SoldierLeftFoot.png -->
+			<mOrigin><X>4.1700000762939</X><Y>-4.4473996162415</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>50.689601898193</X><Y>67.193400859833</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="8" ><!-- SoldierLeftLeg.png -->
+			<mOrigin><X>3.5484001636505</X><Y>-11.047800064087</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-58.359998464584</X><Y>42.300000786781</Y></mVal></TranslationKey>
+			<TranslationKey mT="24"><mVal><X>-43.84999871254</X><Y>38.964200019836</Y></mVal></TranslationKey>
+			<TranslationKey mT="48"><mVal><X>-29.339998960495</X><Y>42.300000786781</Y></mVal></TranslationKey>
+			<TranslationKey mT="72"><mVal><X>3.7229999899864</X><Y>34.965801239014</Y></mVal></TranslationKey>
+			<TranslationKey mT="96"><mVal><X>36.786198616028</X><Y>42.309600114822</Y></mVal></TranslationKey>
+			<RotationKey mT="0" mVal="-0.48511800169945" />
+			<RotationKey mT="48" mVal="0.45810300111771" />
+			<RotationKey mT="96" mVal="-0.48511800169945" />
+		</Layer>
+		<Layer mAnimationIndex="9" ><!-- BodyGroup -->
+			<mOrigin><X>24.2952003479</X><Y>36.687202453613</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-89.520001411438</X><Y>-2.9799999669194</Y></mVal></TranslationKey>
+			<TranslationKey mT="24"><mVal><X>-65.798199176788</X><Y>-10.317400097847</Y></mVal></TranslationKey>
+			<TranslationKey mT="48"><mVal><X>-42.076599597931</X><Y>-2.976799942553</Y></mVal></TranslationKey>
+			<TranslationKey mT="72"><mVal><X>-18.354800343513</X><Y>-10.580199956894</Y></mVal></TranslationKey>
+			<TranslationKey mT="96"><mVal><X>5.367000028491</X><Y>-2.9737999662757</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="10" mProxyName="SoldierNodeBIdle" ><!-- PROXY_SoldierNodeBIdle -->
+			<TranslationKey mT="0"><mVal><X>-7.804399728775</X><Y>2.7232000604272</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="11" mProxyName="SoldierNodeAIdle" ><!-- PROXY_SoldierNodeAIdle -->
+			<TranslationKey mT="0"><mVal><X>22.466799616814</X><Y>-15.819600224495</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="12" ><!-- SoldierBody.png -->
+			<mOrigin><X>10.893599510193</X><Y>23.949800491333</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>3.5363998264074</X><Y>10.609400272369</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="13" mProxyName="SoldierGrowthIdle" ><!-- PROXY_SoldierGrowthIdle -->
+			<TranslationKey mT="0"><mVal><X>29.509800672531</X><Y>-30.43819963932</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="14" ><!-- SoldierRightArm.png -->
+			<mOrigin><X>31.908802032471</X><Y>0.98900002241135</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-120.48000097275</X><Y>22.980000078678</Y></mVal></TranslationKey>
+			<TranslationKey mT="24"><mVal><X>-95.835602283478</X><Y>13.591000437737</Y></mVal></TranslationKey>
+			<TranslationKey mT="48"><mVal><X>-73.860001564026</X><Y>22.980000078678</Y></mVal></TranslationKey>
+			<TranslationKey mT="72"><mVal><X>-51.893997192383</X><Y>12.540200352669</Y></mVal></TranslationKey>
+			<TranslationKey mT="96"><mVal><X>-25.924599170685</X><Y>22.985799610615</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="15" ><!-- SoldierRightLeg.png -->
+			<mOrigin><X>5.9562001228333</X><Y>-6.7364001274109</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-80.140000581741</X><Y>47.420001029968</Y></mVal></TranslationKey>
+			<TranslationKey mT="24"><mVal><X>-39.447999000549</X><Y>41.415399312973</Y></mVal></TranslationKey>
+			<TranslationKey mT="46"><mVal><X>-2.1469999104738</X><Y>47.420001029968</Y></mVal></TranslationKey>
+			<TranslationKey mT="72"><mVal><X>7.1717999875546</X><Y>44.084000587463</Y></mVal></TranslationKey>
+			<TranslationKey mT="96"><mVal><X>15.77360033989</X><Y>47.419801354408</Y></mVal></TranslationKey>
+			<RotationKey mT="0" mVal="0.40912699699402" />
+			<RotationKey mT="48" mVal="-0.52530598640442" />
+			<RotationKey mT="96" mVal="0.40912699699402" />
+		</Layer>
+		<Layer mAnimationIndex="16" ><!-- SoldierRightFoot.png -->
+			<mOrigin><X>4.2458000183105</X><Y>-2.0279998779297</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-94.80100274086</X><Y>67.193400859833</Y></mVal></TranslationKey>
+			<TranslationKey mT="24"><mVal><X>-47.400400042534</X><Y>56.335002183914</Y></mVal></TranslationKey>
+			<TranslationKey mT="48"><mVal><X>0</X><Y>67.193400859833</Y></mVal></TranslationKey>
+			<TranslationKey mT="96"><mVal><X>0</X><Y>67.199999094009</Y></mVal></TranslationKey>
+		</Layer>
+	</AnimationData>
+	<AnimationData mName="SoldierBossWalk" mDuration="97" >
+		<Layer mAnimationIndex="0" ><!-- SoldierBossGroup -->
+			<mOrigin><X>22</X><Y>88</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>217.61960983276</X><Y>96.137601137161</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="1" ><!-- LeftArmGroup -->
+			<mOrigin><X>49.927200317383</X><Y>6.9176001548767</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-10.757400095463</X><Y>-1.5018000267446</Y></mVal></TranslationKey>
+			<TranslationKey mT="24"><mVal><X>-36.711201071739</X><Y>-11.100000143051</Y></mVal></TranslationKey>
+			<TranslationKey mT="48"><mVal><X>-60.356998443604</X><Y>-1.5018000267446</Y></mVal></TranslationKey>
+			<TranslationKey mT="72"><mVal><X>-80.849999189377</X><Y>-11.105599999428</Y></mVal></TranslationKey>
+			<TranslationKey mT="96"><mVal><X>-105.3200006485</X><Y>-1.4999999664724</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="2" ><!-- SoldierLeftArm.png -->
+			<mOrigin><X>32.564800262451</X><Y>0.98080003261566</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>28.881400823593</X><Y>24.165999889374</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="3" ><!-- SoldierLeftUpperArm.png -->
+			<TranslationKey mT="0"><mVal><X>46.563801169395</X><Y>8.2517996430397</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="4" ><!-- SoldierGun.png -->
+			<TranslationKey mT="0"><mVal><X>-25.344800949097</X><Y>58.352202177048</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="5" ><!-- LeftFootGroup -->
+			<mOrigin><X>53.624397277832</X><Y>59.936599731445</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-0.89999996125698</X><Y>-0</Y></mVal></TranslationKey>
+			<TranslationKey mT="24"><mVal><X>-48.179998993874</X><Y>-9.5292001962662</Y></mVal></TranslationKey>
+			<TranslationKey mT="48"><mVal><X>-95.459997653961</X><Y>-0</Y></mVal></TranslationKey>
+			<TranslationKey mT="96"><mVal><X>-95.459997653961</X><Y>-0</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="6" mProxyName="SoldierNodeAIdle" ><!-- PROXY_SoldierNodeAIdle -->
+			<TranslationKey mT="0"><mVal><X>63.969802856445</X><Y>61.33199930191</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="7" ><!-- SoldierLeftFoot.png -->
+			<mOrigin><X>4.1700000762939</X><Y>-4.4473996162415</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>50.689601898193</X><Y>67.193400859833</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="8" ><!-- SoldierLeftLeg.png -->
+			<mOrigin><X>3.5484001636505</X><Y>-11.047800064087</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>36.786198616028</X><Y>42.309600114822</Y></mVal></TranslationKey>
+			<TranslationKey mT="24"><mVal><X>3.7229999899864</X><Y>34.965801239014</Y></mVal></TranslationKey>
+			<TranslationKey mT="48"><mVal><X>-29.339998960495</X><Y>42.300000786781</Y></mVal></TranslationKey>
+			<TranslationKey mT="72"><mVal><X>-43.84999871254</X><Y>38.964200019836</Y></mVal></TranslationKey>
+			<TranslationKey mT="96"><mVal><X>-58.359998464584</X><Y>42.300000786781</Y></mVal></TranslationKey>
+			<RotationKey mT="0" mVal="-0.48511800169945" />
+			<RotationKey mT="48" mVal="0.45810300111771" />
+			<RotationKey mT="96" mVal="-0.48511800169945" />
+		</Layer>
+		<Layer mAnimationIndex="9" ><!-- BodyGroup -->
+			<mOrigin><X>24.2952003479</X><Y>36.687202453613</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>5.367000028491</X><Y>-2.9737999662757</Y></mVal></TranslationKey>
+			<TranslationKey mT="24"><mVal><X>-18.354800343513</X><Y>-10.580199956894</Y></mVal></TranslationKey>
+			<TranslationKey mT="48"><mVal><X>-42.076599597931</X><Y>-2.976799942553</Y></mVal></TranslationKey>
+			<TranslationKey mT="72"><mVal><X>-65.798199176788</X><Y>-10.317400097847</Y></mVal></TranslationKey>
+			<TranslationKey mT="96"><mVal><X>-89.520001411438</X><Y>-2.9799999669194</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="10" mProxyName="SoldierNodeBIdle" ><!-- PROXY_SoldierNodeBIdle -->
+			<TranslationKey mT="0"><mVal><X>-7.804399728775</X><Y>2.7232000604272</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="11" mProxyName="SoldierNodeAIdle" ><!-- PROXY_SoldierNodeAIdle -->
+			<TranslationKey mT="0"><mVal><X>22.466799616814</X><Y>-15.819600224495</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="12" ><!-- SoldierBody.png -->
+			<mOrigin><X>10.893599510193</X><Y>23.949800491333</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>3.5363998264074</X><Y>10.609400272369</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="13" mProxyName="SoldierGrowthIdle" ><!-- PROXY_SoldierGrowthIdle -->
+			<TranslationKey mT="0"><mVal><X>29.509800672531</X><Y>-30.43819963932</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="14" ><!-- SoldierRightArm.png -->
+			<mOrigin><X>31.908802032471</X><Y>0.98900002241135</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-25.924599170685</X><Y>22.985799610615</Y></mVal></TranslationKey>
+			<TranslationKey mT="24"><mVal><X>-51.893997192383</X><Y>12.540200352669</Y></mVal></TranslationKey>
+			<TranslationKey mT="48"><mVal><X>-73.860001564026</X><Y>22.980000078678</Y></mVal></TranslationKey>
+			<TranslationKey mT="72"><mVal><X>-95.835602283478</X><Y>13.591000437737</Y></mVal></TranslationKey>
+			<TranslationKey mT="96"><mVal><X>-120.48000097275</X><Y>22.980000078678</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="15" ><!-- SoldierRightLeg.png -->
+			<mOrigin><X>5.9562001228333</X><Y>-6.7364001274109</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>15.77360033989</X><Y>47.419801354408</Y></mVal></TranslationKey>
+			<TranslationKey mT="24"><mVal><X>7.1717999875546</X><Y>44.084000587463</Y></mVal></TranslationKey>
+			<TranslationKey mT="50"><mVal><X>-2.1469999104738</X><Y>47.420001029968</Y></mVal></TranslationKey>
+			<TranslationKey mT="72"><mVal><X>-39.447999000549</X><Y>41.415399312973</Y></mVal></TranslationKey>
+			<TranslationKey mT="96"><mVal><X>-80.140000581741</X><Y>47.420001029968</Y></mVal></TranslationKey>
+			<RotationKey mT="0" mVal="0.40912699699402" />
+			<RotationKey mT="48" mVal="-0.52530598640442" />
+			<RotationKey mT="96" mVal="0.40912699699402" />
+		</Layer>
+		<Layer mAnimationIndex="16" ><!-- SoldierRightFoot.png -->
+			<mOrigin><X>4.2458000183105</X><Y>-2.0279998779297</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>0</X><Y>67.199999094009</Y></mVal></TranslationKey>
+			<TranslationKey mT="48"><mVal><X>0</X><Y>67.193400859833</Y></mVal></TranslationKey>
+			<TranslationKey mT="72"><mVal><X>-47.400400042534</X><Y>56.335002183914</Y></mVal></TranslationKey>
+			<TranslationKey mT="96"><mVal><X>-94.80100274086</X><Y>67.193400859833</Y></mVal></TranslationKey>
+		</Layer>
+	</AnimationData>
+	<AnimationData mName="SoldierBossFire_H" mDuration="33" >
+		<Layer mAnimationIndex="0" ><!-- SoldierBossGroup -->
+			<mOrigin><X>22</X><Y>88</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>217.61960983276</X><Y>96.137601137161</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="1" ><!-- LeftArmGroup -->
+			<mOrigin><X>49.927200317383</X><Y>6.9176001548767</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-10.757400095463</X><Y>-1.5018000267446</Y></mVal></TranslationKey>
+			<TranslationKey mT="3"><mVal><X>1.3558000326157</X><Y>-1.7170000821352</Y></mVal></TranslationKey>
+			<TranslationKey mT="16"><mVal><X>-9.1481998562813</X><Y>-1.5018000267446</Y></mVal></TranslationKey>
+			<TranslationKey mT="32"><mVal><X>-10.757400095463</X><Y>-1.5018000267446</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="2" ><!-- SoldierLeftArm.png -->
+			<mOrigin><X>32.564800262451</X><Y>0.98080003261566</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>28.881400823593</X><Y>24.165999889374</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="3" ><!-- SoldierLeftUpperArm.png -->
+			<TranslationKey mT="0"><mVal><X>46.563801169395</X><Y>8.2517996430397</Y></mVal></TranslationKey>
+			<TranslationKey mT="3"><mVal><X>44.148200750351</X><Y>7.5846001505852</Y></mVal></TranslationKey>
+			<TranslationKey mT="16"><mVal><X>45.829799771309</X><Y>8.1904001533985</Y></mVal></TranslationKey>
+			<TranslationKey mT="32"><mVal><X>46.563801169395</X><Y>8.2517996430397</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="4" ><!-- SoldierGun.png -->
+			<TranslationKey mT="0"><mVal><X>-25.344800949097</X><Y>58.352202177048</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="5" ><!-- LeftFootGroup -->
+			<mOrigin><X>53.624397277832</X><Y>59.936599731445</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-0.89999996125698</X><Y>-0</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="6" mProxyName="SoldierNodeAIdle" ><!-- PROXY_SoldierNodeAIdle -->
+			<TranslationKey mT="0"><mVal><X>63.969802856445</X><Y>61.33199930191</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="7" ><!-- SoldierLeftFoot.png -->
+			<mOrigin><X>4.1700000762939</X><Y>-4.4473996162415</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>50.689601898193</X><Y>67.193400859833</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="8" ><!-- SoldierLeftLeg.png -->
+			<mOrigin><X>3.5484001636505</X><Y>-11.047800064087</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>36.786198616028</X><Y>42.309600114822</Y></mVal></TranslationKey>
+			<TranslationKey mT="1"><mVal><X>36.786198616028</X><Y>42.309600114822</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>51.695799827576</X><Y>41.642400622368</Y></mVal></TranslationKey>
+			<TranslationKey mT="18"><mVal><X>38.089799880981</X><Y>42.309600114822</Y></mVal></TranslationKey>
+			<TranslationKey mT="32"><mVal><X>36.786198616028</X><Y>42.309600114822</Y></mVal></TranslationKey>
+			<RotationKey mT="0" mVal="-0.48511800169945" />
+			<RotationKey mT="1" mVal="-0.48511800169945" />
+			<RotationKey mT="6" mVal="-0.0098909996449947" />
+			<RotationKey mT="18" mVal="-0.44635000824928" />
+			<RotationKey mT="32" mVal="-0.48511800169945" />
+		</Layer>
+		<Layer mAnimationIndex="9" ><!-- BodyGroup -->
+			<mOrigin><X>24.2952003479</X><Y>36.687202453613</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>5.367000028491</X><Y>-2.9737999662757</Y></mVal></TranslationKey>
+			<TranslationKey mT="1"><mVal><X>5.367000028491</X><Y>-2.9737999662757</Y></mVal></TranslationKey>
+			<TranslationKey mT="5"><mVal><X>13.478599488735</X><Y>-4.3081998825073</Y></mVal></TranslationKey>
+			<TranslationKey mT="18"><mVal><X>6.3698001205921</X><Y>-3.3431999385357</Y></mVal></TranslationKey>
+			<TranslationKey mT="32"><mVal><X>5.367000028491</X><Y>-2.9737999662757</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="10" mProxyName="SoldierNodeBIdle" ><!-- PROXY_SoldierNodeBIdle -->
+			<TranslationKey mT="0"><mVal><X>-7.804399728775</X><Y>2.7232000604272</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="11" mProxyName="SoldierNodeAIdle" ><!-- PROXY_SoldierNodeAIdle -->
+			<TranslationKey mT="0"><mVal><X>22.466799616814</X><Y>-15.819600224495</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="12" ><!-- SoldierBody.png -->
+			<mOrigin><X>10.893599510193</X><Y>23.949800491333</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>3.5363998264074</X><Y>10.609400272369</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="13" mProxyName="SoldierGrowthIdle" ><!-- PROXY_SoldierGrowthIdle -->
+			<TranslationKey mT="0"><mVal><X>29.509800672531</X><Y>-30.43819963932</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="14" ><!-- SoldierRightArm.png -->
+			<mOrigin><X>31.908802032471</X><Y>0.98900002241135</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>-25.924599170685</X><Y>22.985799610615</Y></mVal></TranslationKey>
+			<TranslationKey mT="3"><mVal><X>-13.576400279999</X><Y>22.985799610615</Y></mVal></TranslationKey>
+			<TranslationKey mT="16"><mVal><X>-23.53679984808</X><Y>22.985799610615</Y></mVal></TranslationKey>
+			<TranslationKey mT="32"><mVal><X>-25.924599170685</X><Y>22.985799610615</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="15" ><!-- SoldierRightLeg.png -->
+			<mOrigin><X>5.9562001228333</X><Y>-6.7364001274109</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>15.77360033989</X><Y>47.419801354408</Y></mVal></TranslationKey>
+			<TranslationKey mT="1"><mVal><X>15.77360033989</X><Y>47.419801354408</Y></mVal></TranslationKey>
+			<TranslationKey mT="5"><mVal><X>20.443800091743</X><Y>50.38800239563</Y></mVal></TranslationKey>
+			<TranslationKey mT="18"><mVal><X>16.529400646687</X><Y>47.964799404144</Y></mVal></TranslationKey>
+			<TranslationKey mT="32"><mVal><X>15.77360033989</X><Y>47.419801354408</Y></mVal></TranslationKey>
+			<RotationKey mT="0" mVal="0.40912699699402" />
+			<RotationKey mT="1" mVal="0.40912699699402" />
+			<RotationKey mT="5" mVal="0.74664598703384" />
+			<RotationKey mT="18" mVal="0.45620200037956" />
+			<RotationKey mT="32" mVal="0.40912699699402" />
+		</Layer>
+		<Layer mAnimationIndex="16" ><!-- SoldierRightFoot.png -->
+			<mOrigin><X>4.2458000183105</X><Y>-2.0279998779297</Y></mOrigin>
+			<TranslationKey mT="0"><mVal><X>0</X><Y>67.199999094009</Y></mVal></TranslationKey>
+		</Layer>
+	</AnimationData>
+	<Collision mCollisionIndex="0" mType="RECTANGLE" mName="COL_Invulnerable.png" mCenterX="-52.6859998703" mCenterY="60.864400863647" mWidth="85.048997402191" mHeight="48.872101306915" mColFlags="3" />
+	<Collision mCollisionIndex="1" mType="RECTANGLE" mName="COL_Vulnerable.png 2" mCenterX="35.074800252914" mCenterY="-44.73659992218" mWidth="41.827499866486" mHeight="35.348600149155" mColFlags="1" />
+	<Collision mCollisionIndex="2" mType="RECTANGLE" mName="COL_Vulnerable.png 2" mCenterX="50.68039894104" mCenterY="-20.75659930706" mWidth="23.700200021267" mHeight="28.735598921776" mColFlags="1" />
+	<Collision mCollisionIndex="3" mType="RECTANGLE" mName="COL_Vulnerable.png" mCenterX="9.9986001849175" mCenterY="-38.472801446915" mWidth="17.718499898911" mHeight="21.885600686073" mColFlags="1" />
+	<Collision mCollisionIndex="4" mType="RECTANGLE" mName="COL_Invulnerable.png 2" mCenterX="-35.778400301933" mCenterY="20.546600222588" mWidth="16.302700340748" mHeight="37.340798974037" mColFlags="3" />
+	<Collision mCollisionIndex="5" mType="RECTANGLE" mName="COL_Invulnerable.png 3" mCenterX="18.956999480724" mCenterY="43.399998545647" mWidth="70.845198631287" mHeight="18.174600601196" mColFlags="3" />
+	<Collision mCollisionIndex="6" mType="RECTANGLE" mName="COL_Invulnerable.png 2" mCenterX="20.566999912262" mCenterY="71.41860127449" mWidth="114.99049663544" mHeight="41.508901119232" mColFlags="3" />
+	<Collision mCollisionIndex="7" mType="RECTANGLE" mName="COL_Invulnerable.png" mCenterX="4.4865999370813" mCenterY="5.7410001754761" mWidth="70.426797866821" mHeight="72.780102491379" mColFlags="3" />
+	<Muzzle mName="MUZ_Primary0" mMuzzleIndex="0" mX="-90.722197294235" mY="73.340600728989" mAngle="-3.1415929794312" />
+	<Muzzle mName="MUZ_Primary1" mMuzzleIndex="1" mX="-90.722197294235" mY="62.186002731323" mAngle="-3.1415929794312" />
+	<Muzzle mName="MUZ_Primary2" mMuzzleIndex="2" mX="-90.722197294235" mY="50.375199317932" mAngle="-3.1415929794312" />
+	<Muzzle mName="MUZ_Aux3" mMuzzleIndex="3" mX="-16.400000452995" mY="-18.680000305176" mAngle="-3.1415929794312" />
+	<Muzzle mName="MUZ_Aux2" mMuzzleIndex="4" mX="-27.469798922539" mY="-18.677799403667" mAngle="-3.1415929794312" />
+	<Muzzle mName="MUZ_Aux1" mMuzzleIndex="5" mX="-24.700999259949" mY="-2.8559999540448" mAngle="-3.1415929794312" />
+	<Muzzle mName="MUZ_Aux0" mMuzzleIndex="6" mX="-35.981398820877" mY="-2.8559999540448" mAngle="-3.1415929794312" />
+</THMultiSpriteData>

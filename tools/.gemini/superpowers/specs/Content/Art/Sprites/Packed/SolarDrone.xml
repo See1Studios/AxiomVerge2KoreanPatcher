@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>2048</mMaxWidth>
+  <mMaxHeight>2048</mMaxHeight>
+  <mFileName>SolarDrone.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="SolarDroneTexture">
+    <THSpriteAnimationData mName="ChargeUp" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UtilityDrones\SolarDrone\Output\ChargeUp.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="24" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="74" mHeight="61" mDelay="4" mOriginX="39" mOriginY="23" mU="0" mV="0" mUVWidth="73" mUVHeight="61" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\SolarDrone\Output\ChargeUp0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="28" mY="-11" mAngle="-0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="28" mY="11" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-28" mY="-11" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle3" mX="-28" mY="11" mAngle="2.3561945" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="41" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-30" mY="-14" mWidth="4" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="27" mY="-15" mWidth="4" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="-31" mY="10" mWidth="5" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="27" mY="10" mWidth="5" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-30" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="24" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="0" mY="0" mWidth="15" mHeight="16" mRadius="24" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-10" mY="20" mWidth="20" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="74" mHeight="61" mDelay="4" mOriginX="39" mOriginY="23" mU="0" mV="63" mUVWidth="67" mUVHeight="61" mCropX="7" mCropY="0" mSourceImageName="..\UtilityDrones\SolarDrone\Output\ChargeUp0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="28" mY="-11" mAngle="-0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="28" mY="11" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="-28" mY="-11" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-28" mY="11" mAngle="2.3561945" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="41" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-30" mY="-14" mWidth="4" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="27" mY="-15" mWidth="4" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="-31" mY="10" mWidth="5" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="27" mY="10" mWidth="5" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-30" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="24" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="0" mY="0" mWidth="15" mHeight="16" mRadius="24" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-10" mY="20" mWidth="20" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="74" mHeight="61" mDelay="4" mOriginX="39" mOriginY="23" mU="75" mV="0" mUVWidth="67" mUVHeight="61" mCropX="7" mCropY="0" mSourceImageName="..\UtilityDrones\SolarDrone\Output\ChargeUp0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="28" mY="-11" mAngle="-0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="28" mY="11" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="-28" mY="-11" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-28" mY="11" mAngle="2.3561945" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="41" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-32" mY="-14" mWidth="4" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="27" mY="-15" mWidth="4" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="-32" mY="10" mWidth="5" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="27" mY="10" mWidth="5" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-30" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="24" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="0" mY="0" mWidth="15" mHeight="16" mRadius="24" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-10" mY="20" mWidth="20" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="74" mHeight="61" mDelay="4" mOriginX="39" mOriginY="23" mU="69" mV="63" mUVWidth="67" mUVHeight="61" mCropX="4" mCropY="0" mSourceImageName="..\UtilityDrones\SolarDrone\Output\ChargeUp0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="28" mY="-11" mAngle="-0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="28" mY="11" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="-28" mY="-11" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-28" mY="11" mAngle="2.3561945" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="41" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-32" mY="-15" mWidth="5" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="27" mY="-15" mWidth="4" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="-31" mY="10" mWidth="5" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="27" mY="10" mWidth="5" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-30" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="24" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="0" mY="0" mWidth="15" mHeight="16" mRadius="24" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-10" mY="20" mWidth="20" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UtilityDrones\SolarDrone\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="24" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="61" mHeight="61" mDelay="10" mOriginX="30" mOriginY="23" mU="144" mV="0" mUVWidth="61" mUVHeight="61" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\SolarDrone\Output\Idle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="28" mY="-11" mAngle="-0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="28" mY="11" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-28" mY="-11" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle3" mX="-28" mY="11" mAngle="2.3561945" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="41" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-30" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="24" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="0" mY="0" mWidth="15" mHeight="16" mRadius="24" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-10" mY="20" mWidth="20" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="61" mHeight="61" mDelay="10" mOriginX="30" mOriginY="23" mU="138" mV="63" mUVWidth="61" mUVHeight="61" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\SolarDrone\Output\Idle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="28" mY="-11" mAngle="-0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="28" mY="11" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="-28" mY="-11" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-28" mY="11" mAngle="2.3561945" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="41" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-30" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="24" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="0" mY="0" mWidth="15" mHeight="16" mRadius="24" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-10" mY="20" mWidth="20" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="61" mHeight="61" mDelay="10" mOriginX="30" mOriginY="23" mU="0" mV="126" mUVWidth="61" mUVHeight="61" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\SolarDrone\Output\Idle0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="28" mY="-11" mAngle="-0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="28" mY="11" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="-28" mY="-11" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-28" mY="11" mAngle="2.3561945" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="41" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-30" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="24" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="0" mY="0" mWidth="15" mHeight="16" mRadius="24" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-10" mY="20" mWidth="20" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="61" mHeight="61" mDelay="10" mOriginX="30" mOriginY="23" mU="0" mV="189" mUVWidth="61" mUVHeight="61" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\SolarDrone\Output\Idle0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="28" mY="-11" mAngle="-0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="28" mY="11" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="-28" mY="-11" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-28" mY="11" mAngle="2.3561945" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="41" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-30" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="24" mY="-13" mWidth="7" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="0" mY="0" mWidth="15" mHeight="16" mRadius="24" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-10" mY="20" mWidth="20" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle1">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle2">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle3">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Turbines">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="PowerCell">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THSaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mScreenSize>4</mScreenSize>
+  <mPlayerName>Tom</mPlayerName>
+  <mSaveArea>Antarctica</mSaveArea>
+  <mSaveWorld>Outside</mSaveWorld>
+  <mSaveRoom>SaveRoom1</mSaveRoom>
+  <mSavePoint>CheckPoint1</mSavePoint>
+
+  <mLastSelectedItem>Flashlight</mLastSelectedItem>
+  <mDroneLastSelectedItem>Flashlight</mDroneLastSelectedItem>
+  <THItemRecord mName="Flashlight" mType="USABLE" mConsumable="false" mExcludedFromCount="true" mUsableBy="ALL"/>
+
+  
+</THSaveData>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParallaxXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!-- #################################################################### -->
+	<!-- Credits background.-->
+	<!-- #################################################################### -->
+	<THParallaxSetData mName="Credits">
+    <THParallaxData>
+      <mType>FRACTAL</mType>
+      <mTechnique>JuliaSpiralTechnique</mTechnique>
+      <mTextureName>Art/Backgrounds/Filter/FractalGradient1</mTextureName>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mFractalData>
+        <!-- To aim at the center of the fractal-->
+        <mCenter>
+          <X>-0.457</X>
+          <Y>0.26</Y>
+        </mCenter>
+        <mMinZoom>100.0</mMinZoom>
+        <mMaxZoom>100.0</mMaxZoom>
+        <mZoomFrames>600</mZoomFrames>
+      </mFractalData>
+    </THParallaxData>
+	</THParallaxSetData>
+
+</THParallaxXML>

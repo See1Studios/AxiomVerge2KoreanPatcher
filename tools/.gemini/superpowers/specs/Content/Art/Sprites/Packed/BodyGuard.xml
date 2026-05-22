@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>BodyGuard.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="BodyGuardTexture">
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Humans\Bodyguard\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-31" mWidth="10" mHeight="31" mRadius="8" mColFlags="0" />
+      </mCollisionList>
+      <THFrameData mWidth="18" mHeight="32" mDelay="125" mOriginX="9" mOriginY="32" mU="0" mV="0" mUVWidth="18" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Bodyguard\Output\Idle0000.png" />
+      <THFrameData mWidth="18" mHeight="32" mDelay="10" mOriginX="9" mOriginY="32" mU="20" mV="0" mUVWidth="18" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Bodyguard\Output\Idle0001.png" />
+      <THFrameData mWidth="18" mHeight="32" mDelay="10" mOriginX="9" mOriginY="32" mU="40" mV="0" mUVWidth="18" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Bodyguard\Output\Idle0002.png" />
+      <THFrameData mWidth="18" mHeight="32" mDelay="125" mOriginX="9" mOriginY="32" mU="60" mV="0" mUVWidth="18" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Bodyguard\Output\Idle0003.png" />
+      <THFrameData mWidth="18" mHeight="32" mDelay="8" mOriginX="9" mOriginY="32" mU="80" mV="0" mUVWidth="18" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Bodyguard\Output\Idle0004.png" />
+      <THFrameData mWidth="18" mHeight="32" mDelay="93" mOriginX="9" mOriginY="32" mU="100" mV="0" mUVWidth="18" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Bodyguard\Output\Idle0005.png" />
+      <THFrameData mWidth="18" mHeight="32" mDelay="8" mOriginX="9" mOriginY="32" mU="0" mV="34" mUVWidth="18" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Bodyguard\Output\Idle0006.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Walk" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Humans\Bodyguard\Output\Walk.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-31" mWidth="10" mHeight="31" mRadius="8" mColFlags="0" />
+      </mCollisionList>
+      <THFrameData mWidth="14" mHeight="32" mDelay="10" mOriginX="6" mOriginY="32" mU="20" mV="34" mUVWidth="14" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Bodyguard\Output\Walk0000.png" />
+      <THFrameData mWidth="14" mHeight="32" mDelay="10" mOriginX="6" mOriginY="32" mU="36" mV="34" mUVWidth="14" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Bodyguard\Output\Walk0001.png" />
+      <THFrameData mWidth="14" mHeight="32" mDelay="10" mOriginX="6" mOriginY="32" mU="52" mV="34" mUVWidth="14" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Bodyguard\Output\Walk0002.png" />
+      <THFrameData mWidth="14" mHeight="32" mDelay="10" mOriginX="6" mOriginY="32" mU="68" mV="34" mUVWidth="14" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Bodyguard\Output\Walk0003.png" />
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

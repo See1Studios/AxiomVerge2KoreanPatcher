@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>GlideWing.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="GlideWingTexture">
+    <THSpriteAnimationData mName="Fly" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\GlideWing\Output\Fly.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-2" mWidth="8" mHeight="3" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="8" mHeight="8" mDelay="6" mOriginX="4" mOriginY="4" mU="10" mV="0" mUVWidth="8" mUVHeight="6" mCropX="0" mCropY="2" mSourceImageName="..\Enemies\GlideWing\Output\Fly0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-2" mWidth="8" mHeight="3" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="1" mWidth="4" mHeight="3" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="8" mDelay="6" mOriginX="4" mOriginY="4" mU="10" mV="8" mUVWidth="8" mUVHeight="4" mCropX="0" mCropY="2" mSourceImageName="..\Enemies\GlideWing\Output\Fly0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-2" mWidth="8" mHeight="3" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="8" mDelay="6" mOriginX="4" mOriginY="4" mU="0" mV="0" mUVWidth="8" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\GlideWing\Output\Fly0002.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-1" mWidth="8" mHeight="4" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="-4" mWidth="4" mHeight="3" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="8" mDelay="6" mOriginX="4" mOriginY="4" mU="0" mV="9" mUVWidth="8" mUVHeight="5" mCropX="0" mCropY="3" mSourceImageName="..\Enemies\GlideWing\Output\Fly0003.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-2" mWidth="8" mHeight="3" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="1" mWidth="3" mHeight="3" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\GlideWing\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-7" mWidth="8" mHeight="7" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="7" mHeight="8" mDelay="93" mOriginX="3" mOriginY="8" mU="0" mV="16" mUVWidth="7" mUVHeight="7" mCropX="0" mCropY="1" mSourceImageName="..\Enemies\GlideWing\Output\Idle0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-7" mWidth="8" mHeight="7" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="7" mHeight="8" mDelay="12" mOriginX="3" mOriginY="8" mU="10" mV="14" mUVWidth="5" mUVHeight="7" mCropX="1" mCropY="1" mSourceImageName="..\Enemies\GlideWing\Output\Idle0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-7" mWidth="8" mHeight="7" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="7" mHeight="8" mDelay="12" mOriginX="3" mOriginY="8" mU="20" mV="0" mUVWidth="7" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\GlideWing\Output\Idle0002.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-8" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

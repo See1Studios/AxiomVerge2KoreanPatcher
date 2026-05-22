@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParallaxXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+  <!-- #################################################################### -->
+  <!-- "PostarcticSky1" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="PostarcticSky1">
+    <!-- Snow particles -->
+    <THParallaxData>
+      <mRenderLayer>BackParallax</mRenderLayer>
+      <mType>PARTICLE</mType>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>1.0</X>
+        <Y>1.0</Y>
+      </mParallax>
+      <mWrap>true</mWrap>
+      <mParticleData>
+        <mSpawnerName>MediumSnow</mSpawnerName>
+        <mBoundsType>CAMERA_BOUNDS</mBoundsType>
+      </mParticleData>
+    </THParallaxData>
+
+    <!-- Snow particles -->
+    <THParallaxData>
+      <mRenderLayer>BackParallax</mRenderLayer>
+      <mType>PARTICLE</mType>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>1.0</X>
+        <Y>1.0</Y>
+      </mParallax>
+      <mWrap>true</mWrap>
+      <mParticleData>
+        <mSpawnerName>MediumSnow</mSpawnerName>
+      </mParticleData>
+    </THParallaxData>
+
+
+    <!-- Clouds -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds1</mTextureName>
+      <mVelocity>
+        <X>-2.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>1.0</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-64</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds1</mTextureName>
+      <mVelocity>
+        <X>-1.9</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>1.0</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-32</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds1</mTextureName>
+      <mVelocity>
+        <X>-1.8</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>1.0</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds1</mTextureName>
+      <mVelocity>
+        <X>-1.7</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.9</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>32</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds1</mTextureName>
+      <mVelocity>
+        <X>-1.6</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.8</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>64</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds1</mTextureName>
+      <mVelocity>
+        <X>-1.5</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.7</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>96</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds1</mTextureName>
+      <mVelocity>
+        <X>-1.4</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.7</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>128</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds2</mTextureName>
+      <mVelocity>
+        <X>-1.3</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.6</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>160</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds2</mTextureName>
+      <mVelocity>
+        <X>-1.2</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.6</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>184</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds2</mTextureName>
+      <mVelocity>
+        <X>-1.1</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.55</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>208</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds2</mTextureName>
+      <mVelocity>
+        <X>-0.9</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>232</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds2</mTextureName>
+      <mVelocity>
+        <X>-0.8</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.45</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>256</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds3</mTextureName>
+      <mVelocity>
+        <X>-0.7</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.40</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>280</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds3</mTextureName>
+      <mVelocity>
+        <X>-0.6</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.35</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>296</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds3</mTextureName>
+      <mVelocity>
+        <X>-0.5</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.3</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>312</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds3</mTextureName>
+      <mVelocity>
+        <X>-0.4</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.25</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>328</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCloudStrata/Clouds4</mTextureName>
+      <mVelocity>
+        <X>-0.3</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.2</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>344</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- Overcast cumulus sky -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="PostarcticCumulus">
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCumulus/Clouds</mTextureName>
+      <mParallax>
+        <X>0.25</X>
+        <Y>0.25</Y>
+      </mParallax>
+    </THParallaxData>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- Rock Caverns-->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="PostarcticCaverns1">
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/Caverns1/RockWall</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+    </THParallaxData>
+  </THParallaxSetData>
+
+
+  <!-- #################################################################### -->
+  <!-- Ice wall partially covering cumulus clouds-->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="PostarcticIceWallPartial">
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/IceWall/IceWallPartial</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Postarctica/OvercastCumulus/Clouds</mTextureName>
+      <mParallax>
+        <X>0.25</X>
+        <Y>0.25</Y>
+      </mParallax>
+    </THParallaxData>
+  </THParallaxSetData>
+
+
+
+</THParallaxXML>

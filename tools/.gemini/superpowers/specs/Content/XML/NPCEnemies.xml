@@ -1,0 +1,3416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THNPCSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ######################################################################## -->
+  <!-- Amashilama -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Amashilama" mClass="THAmashilama" mAllegiance="FOE" mHitPoints="10000">
+    <mHackable>false</mHackable>
+    <mHardness>0</mHardness>
+    <mSpriteSheet>Amashilama.xml</mSpriteSheet>
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mHealthDropChance>0.0</mHealthDropChance>
+
+    <mAdditionalSound mName="SpawnGoo" mFileName="SpawnGoo" mMaxInstances ="2" />
+
+    <mAdditionalSound mName="Death" mFileName="BossExplosion1" mMaxInstances ="1" />
+    <mAdditionalSound mName="Chargeup" mFileName="ElectricChargeup2" mMaxInstances ="1" />
+    <mAdditionalSound mName="Stun" mFileName="AmashilamaStun" mMaxInstances ="1" />
+
+    <mAdditionalSound mName="SpawnEnergyCage" mFileName="PowerOn" mMaxInstances ="1" />
+    <mAdditionalSound mName="DissolveEnergyCage" mFileName="PowerOff" mMaxInstances ="1" />
+
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathDuration>180</mDeathDuration>
+    <!-- Frames it takes to die. -->
+    <mDeathExplosionPeriod>8</mDeathExplosionPeriod>
+    <!-- Frames between death explosions-->
+    <mDeathShatter>BossSpriteShatter1</mDeathShatter>
+    <mDeathExplosion>BossDeathSpriteExplosion1</mDeathExplosion>
+    <mDeathDistortion>BossDeathSpriteDistortion1</mDeathDistortion>
+
+    <mMeleeWeapon mName="AmashilamaMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>10</mDamage>
+    </mMeleeWeapon>
+
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- Amashilama Goo Shell -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="AmashilamaGooShell" mClass="THAmashilamaGooShell" mAllegiance="FOE" mHitPoints="250">
+    <mSpriteSheet>Amashilama.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+
+    <mHurtSound>SplatB</mHurtSound>
+    <mDeathShatter>SpitbugNestSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHealthDropChance>0.3</mHealthDropChance>
+
+    <mAdditionalSound mName="Splat" mFileName="SplatD" mMaxInstances ="2" />
+
+    <mMeleeWeapon mName="AmashilamaGooShellMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>10</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- Amashilama Energy Cage-->
+  <!-- ######################################################################## -->
+  <THNPCData mName="AmashilamaEnergyCage" mClass="THAmashilamaEnergyCage" mAllegiance="FOE" mHitPoints="2500">
+    <mSpriteSheet>Amashilama.xml</mSpriteSheet>
+    <mHardness>9</mHardness>
+    <mHackable>false</mHackable>
+
+    <mAdditionalSound mName="Spawn" mFileName="PowerOn" mMaxInstances ="1" />
+    <mAdditionalSound mName="Dissolve" mFileName="PowerOff" mMaxInstances ="1" />
+
+    <mDeathShatter>SpitbugNestSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    
+    <mMeleeWeapon mName="AmashilamaEnergyCageMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>40</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- ARACHTITE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Arachtite" mClass="THArachtite" mAllegiance="FOE" mHitPoints="70">
+    <mSpriteSheet>Arachtite.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mPulseRate>1.0</mPulseRate>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar1" mFileName="Boing1" />
+    <mAdditionalSound mName="Roar2" mFileName="TraceLand" />
+    <mAdditionalSound mName="Roar3" mFileName="TrapClawShriek" />
+
+    <mHealthDropChance>0.5</mHealthDropChance>
+    <mMeleeWeapon mName="ArachtiteMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>45</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- ARACHTITE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="ArachtiteMeta" mClass="THArachtite" mAllegiance="FOE" mHitPoints="140">
+    <mSpriteSheet>Arachtite.xml</mSpriteSheet>
+    <mColorScheme>Meta</mColorScheme>
+    <mHackable>false</mHackable>
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mPulseRate>1.0</mPulseRate>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar1" mFileName="Boing1" />
+    <mAdditionalSound mName="Roar2" mFileName="TraceLand" />
+    <mAdditionalSound mName="Roar3" mFileName="TrapClawShriek" />
+    <mSpeedFactor>1.5</mSpeedFactor>
+    <mHealthDropChance>0.25</mHealthDropChance>
+    <mMeleeWeapon mName="ArachtiteMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>80</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- ARTIFACT GUARDIAN -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="ArtifactGuardian" mClass="THArtifactGuardian" mAllegiance="FOE" mHitPoints="125">
+    <mSpriteSheet>ArtifactGuardian.xml</mSpriteSheet>
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHealthDropChance>0.5</mHealthDropChance>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- ARTILLERY DRONE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="ArtilleryDrone" mClass="THArtilleryDrone" mAllegiance="FOE" mHitPoints="90" mHackPoints="20">
+    <mSpriteSheet>ArtilleryDrone.xml</mSpriteSheet>
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    
+    <THNPCHackInfo mType="SEIZE" mHackLevel="1"/>
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+
+    
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- ARTILLERY SPOTTER -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="ArtillerySpotter" mClass="THArtillerySpotter" mAllegiance="FOE" mHitPoints="60">
+    <mSpriteSheet>ArtillerySpotter.xml</mSpriteSheet>
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHealthDropChance>0.5</mHealthDropChance>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="BLIND" mHackLevel="1"/>
+  </THNPCData>
+  
+  <!-- ######################################################################## -->
+  <!-- BLAST SHELL -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="BlastShell" mClass="THBlastShell"  mAllegiance="FOE" mHitPoints="40">
+    <mSpriteSheet>BlastShell.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mAdditionalSound mName="FlameJet" mFileName="FlameJet" />
+
+    <mHealthDropChance>0.4</mHealthDropChance>
+    <mMeleeWeapon mName="BlastShellMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>40</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- BUMPR -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Bumpr" mClass="THBumpr"  mAllegiance="FOE" mHitPoints="32">
+    <mSpriteSheet>Bumpr.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mAdditionalSound mName="Boing" mFileName="Boing2" />
+
+    <mHealthDropChance>0.4</mHealthDropChance>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- BULLDRONE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="BullDrone" mClass="THBullDrone"  mAllegiance="FOE" mHitPoints="1000">
+    <mPersistent>true</mPersistent>
+    <mSpinePath>Content/Art/Sprites/Bosses/BullDrone/Output/BullDrone</mSpinePath>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mAdditionalSound mName="Roar1" mFileName="RobotRoar1" />
+    <mAdditionalSound mName="Roar2" mFileName="RobotRoar2" />
+    <mAdditionalSound mName="Roar3" mFileName="DroneMediumRoar" />
+    <mAdditionalSound mName="Roar4" mFileName="RobotHurt" />
+    <mAdditionalSound mName="Land" mFileName="Thud" />
+    <mAdditionalSound mName="Jump" mFileName="DroneJump" />
+    <mAdditionalSound mName="Death" mFileName="BossExplosion1" mMaxInstances ="1" />
+    <mAdditionalSound mName="FootStepFront" mFileName="DroneFootstepHeavy"/>
+    <mAdditionalSound mName="FootStepRear" mFileName="DroneFootstepMedium"/>
+    <mAdditionalSound mName="MissileLoad" mFileName="DoorIrisOpen"/>
+
+    <!--<THNPCHackInfo mType="SLOW" mHackLevel="1"/>-->
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathDuration>180</mDeathDuration>
+    <!-- Frames it takes to die. -->
+    <mDeathExplosionPeriod>8</mDeathExplosionPeriod>
+    <!-- Frames between death explosions-->
+    <mDeathShatter>BossSpriteShatter1</mDeathShatter>
+    <mDeathExplosion>BossDeathSpriteExplosion1</mDeathExplosion>
+    <mDeathDistortion>BossDeathSpriteDistortion1</mDeathDistortion>
+    <mHealthDropChance>1.0</mHealthDropChance>
+    <mHackable>false</mHackable>
+
+    <mMeleeWeapon mName="BullDroneMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>20</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <THNPCData mName="BullDroneBarrels" mClass="THBullDroneBarrels" mAllegiance="FOE" mHitPoints="100" mHackPoints ="100">
+    <mSpriteSheet></mSpriteSheet>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHackable>true</mHackable>
+
+    <THNPCHackInfo mType="SEIZE" mHackLevel="2" mCostOverride="200"/>
+
+  </THNPCData>
+
+
+  <THNPCData mName="BullDroneLaser" mClass="THBullDroneLaser" mAllegiance="FOE" mHitPoints="100" mHackPoints ="100">
+    <mSpriteSheet></mSpriteSheet>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHackable>true</mHackable>
+
+    <THNPCHackInfo mType="SEIZE" mHackLevel="2" mCostOverride="200"/>
+
+  </THNPCData>
+
+  <THNPCData mName="BullDroneMissiles" mClass="THBullDroneMissiles" mAllegiance="FOE" mHitPoints="100" mHackPoints ="100">
+    <mSpriteSheet></mSpriteSheet>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHackable>true</mHackable>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1" mCostOverride="150"/>
+
+  </THNPCData>
+
+  
+  <THNPCData mName="BullDroneFace" mClass="THSpineSubNPC" mAllegiance="FOE" mHitPoints="100" mHackPoints ="100">
+    <mSpriteSheet></mSpriteSheet>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHackable>false</mHackable>
+
+    <!--<THNPCHackInfo mType="SLOW" mHackLevel="1"/>-->
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- CABEZON -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Cabezon" mClass="THCabezon"  mAllegiance="FOE" mHitPoints="48">
+    <mSpriteSheet>Cabezon.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+   
+    <mHealthDropChance>0.4</mHealthDropChance>
+    <mMeleeWeapon mName="CabezonMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>50</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- CABEZON GOO -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="CabezonGoo" mClass="THCabezonGoo"  mAllegiance="FOE" mHitPoints="15">
+    <mSpriteSheet>Cabezon.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SplatB</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  
+
+  
+  <!-- ######################################################################## -->
+  <!-- CARRIER DRONE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="CarrierDrone" mClass="THCarrierDrone" mAllegiance="FOE" mHitPoints="320">
+    <mSpriteSheet>CarrierDrone.xml</mSpriteSheet>
+
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mAdditionalSound mName="EnterAggro" mFileName="DroneRoar" />
+    <mAdditionalSound mName="Confused" mFileName="DroneConfused" />
+    <mAdditionalSound mName="GiveUp" mFileName="DroneOhWell" />
+    <mAdditionalSound mName="HatchOpen" mFileName="DoorIrisOpen" />
+    <mAdditionalSound mName="HatchClose" mFileName="DoorIrisClose" />
+    <mAdditionalSound mName="Spawn" mFileName="DroneSpawn" />
+
+    <mAnimation mType="Walk" mName="Idle" />
+    <mAnimation mType="Run" mName="Idle" />
+    <mAnimation mType="Turn" mName="Turn" />
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="2"/>
+    <THNPCHackInfo mType="DROPHEALTH" mHackLevel="2" mCostOverride="200"/>
+    
+    
+    
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathShatter>LargeSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    
+    <mAIData mVisionRange="220.0" mFOV="100.0">
+      <mMinAggroRange>12.0</mMinAggroRange>
+      <mMaxAggroRange>22.0</mMaxAggroRange>
+      <mHuntDistance>128</mHuntDistance>
+      <mPatrolType>LEFT_RIGHT_LOOP</mPatrolType>
+
+      <!-- In case there was no weapon or before we first attack -->
+      <mDefaultCooldown>45</mDefaultCooldown>
+    
+    </mAIData>
+
+    <mLocomotorData mLocomotorType="FLYING" mSneakSpeed="0.5" mBaseSpeed="0.70" mMaxSpeed="1.0" >
+      <!-- This bounds figure will be used to create the room path graphs before the NPC is even spawned, since
+      we can't wait for the creature's sprite to be made, start animating, get its collision, etc.  So
+      we really need to make sure it's sprite collision is equal to or smaller than this. 
+      Also if two NPCs have similar bounds,  we'll want to just make them the same so that the
+      pathfinding graph doesn't need to change between them.-->
+      <mBounds>
+        <X>-28</X>
+        <Y>-24</Y>
+        <Width>56</Width>
+        <Height>48</Height>
+      </mBounds>
+    </mLocomotorData>
+
+    <!-- Actions-->
+    <THAIActionData mName="CarrierDroneInvestigate" mActionType="INVESTIGATE" mClass="THAIFlyingInvestigateAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+    </THAIActionData>
+    <THAIActionData mName="CarrierDroneRangedAttack" mActionType="RANGED_ATTACK" mClass="THAIFlyingRangedAttackAction">
+      <mMinRange>32.0</mMinRange>
+      <mMaxRange>200.0</mMaxRange>
+      <mMinTurretAngle>-22.5</mMinTurretAngle>
+      <mMaxTurretAngle>22.5</mMaxTurretAngle>
+      <mShotsPerVolley>3</mShotsPerVolley>
+      <mFramesPerShot>16</mFramesPerShot>
+      <mWeapon>CarrierDroneProj</mWeapon>
+      <mMuzzleName>Muzzle0</mMuzzleName>
+    </THAIActionData>
+    <THAIActionData mName="CarrierDroneSpawn" mActionType="RANGED_ATTACK" mClass="THAIBasicAction">
+      <mMinRange>32.0</mMinRange>
+      <mMaxRange>200.0</mMaxRange>
+      <mMuzzleName>SpawnPos</mMuzzleName>
+    </THAIActionData>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- CARRIER DRONE BABY -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="CarrierDroneBaby" mClass="THCarrierDroneBaby" mAllegiance="FOE" mHitPoints="42">
+    <mSpriteSheet>CarrierDroneBaby.xml</mSpriteSheet>
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHealthDropChance>0.5</mHealthDropChance>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="SEIZE" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="1"/>
+
+    <mMeleeWeapon mName="CarrierDroneBabyMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>10</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- CLOAKING DRONE DRONE (variant of Searcher Drone) -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="CloakingDrone" mClass="THSearcherDrone" mAllegiance="FOE" mHitPoints="120">
+    <mSpriteSheet>FighterDrone.xml</mSpriteSheet>
+    <mColorScheme>Cloaking</mColorScheme>
+
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mAdditionalSound mName="EnterAggro" mFileName="DroneRoar" />
+    <mAdditionalSound mName="Confused" mFileName="DroneConfused" />
+    <mAdditionalSound mName="GiveUp" mFileName="DroneOhWell" />
+    <mAdditionalSound mName="Flap" mFileName="WingFlap" />
+
+    <mAnimation mType="Walk" mName="Flap" />
+    <mAnimation mType="Run" mName="Flap" />
+    <mAnimation mType="Turn" mName="Turn" />
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="4"/>
+    <THNPCHackInfo mType="REVEAL" mHackLevel="2"/>
+    
+
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mGlitchAffectsThroughput>true</mGlitchAffectsThroughput>
+
+    <mAIData mVisionRange="220.0" mFOV="90.0" mShowVisionCone="false" mShowEmotes="false">
+      <mMinAggroRange>12.0</mMinAggroRange>
+      <mMaxAggroRange>22.0</mMaxAggroRange>
+      <mHuntDistance>128</mHuntDistance>
+      <mPatrolType>LEFT_RIGHT_LOOP</mPatrolType>
+
+      <!-- In case there was no weapon or before we first attack -->
+      <mDefaultCooldown>45</mDefaultCooldown>
+
+    </mAIData>
+
+    <mLocomotorData mLocomotorType="FLYING" mSneakSpeed="0.75" mBaseSpeed="1.25" mMaxSpeed="2.0" >
+      <!-- This bounds figure will be used to create the room path graphs before the NPC is even spawned, since
+      we can't wait for the creature's sprite to be made, start animating, get its collision, etc.  So
+      we really need to make sure it's sprite collision is equal to or smaller than this. 
+      Also if two NPCs have similar bounds,  we'll want to just make them the same so that the
+      pathfinding graph doesn't need to change between them.-->
+      <mBounds>
+        <X>-12</X>
+        <Y>-5</Y>
+        <Width>24</Width>
+        <Height>10</Height>
+      </mBounds>
+    </mLocomotorData>
+
+    <!-- Actions-->
+    <THAIActionData mName="CloakingDroneInvestigate" mActionType="INVESTIGATE" mClass="THAIFlyingInvestigateAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+    </THAIActionData>
+    <THAIActionData mName="CloakingDroneRangedAttack" mActionType="RANGED_ATTACK" mClass="THAIFlyingRangedAttackAction">
+      <mMinRange>64.0</mMinRange>
+      <mMaxRange>200.0</mMaxRange>
+      <mMinTurretAngle>10</mMinTurretAngle>
+      <mMaxTurretAngle>80</mMaxTurretAngle>
+      <mShotsPerVolley>3</mShotsPerVolley>
+      <mFramesPerShot>16</mFramesPerShot>
+      <mWeapon>CloakingDroneProj</mWeapon>
+      <mMuzzleName>EyePos</mMuzzleName>
+    </THAIActionData>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- CONDUCTIVE ROD -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="ConductiveRod" mClass="THConductiveRod"  mAllegiance="FOE" mHitPoints="999">
+    <mSpriteSheet>ConductiveRod.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHardness>9</mHardness>
+
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+
+    <mHealthDropChance>0.4</mHealthDropChance>
+    <mMeleeWeapon mName="ConductiveRodMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>25</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- DODGE CRAB -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="DodgeCrab" mClass="THDodgeCrab" mAllegiance="FOE" mHitPoints="100" >
+    <mSpriteSheet>DodgeCrab.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar2" mFileName="Boing1" />
+
+    <mMeleeWeapon mName="DodgeCrabMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>50</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+  
+  <THNPCData mName="DodgeCrabClaw" mClass="THDodgeCrabClaw" mAllegiance="FOE" mHitPoints="40" >
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Woosh" mFileName="GishruWoosh" />
+  </THNPCData>
+  
+  <!-- ######################################################################## -->
+  <!-- DODGE CRAB META -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="DodgeCrabMeta" mClass="THDodgeCrab" mAllegiance="FOE" mHitPoints="150" >
+    <mSpriteSheet>DodgeCrab.xml</mSpriteSheet>
+    <mColorScheme>Meta</mColorScheme>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar2" mFileName="Boing1" />
+
+    <mMeleeWeapon mName="DodgeCrabMetaMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>50</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- DRIFTING SPORES -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="DriftingSpore" mClass="THDriftingSpore" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>DriftingSpore.xml</mSpriteSheet>
+    <mAdditionalSound mName="Death" mFileName="SporePoof" />
+    <mHackable>false</mHackable>
+
+    <mDeathShatter>SporeSpriteShatter</mDeathShatter>
+
+    <mMeleeWeapon mName="DriftingSporeMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>45</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <THNPCData mName="SporeSpawner" mClass="THSporeSpawner" mAllegiance="FOE" mHitPoints="1000">
+    <mHackable>false</mHackable>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- EMP MINE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="EMPMine" mClass="THEMPMine" mAllegiance="FOE" mHitPoints="100">
+    <mSpriteSheet>EMPMine.xml</mSpriteSheet>
+    <mHurtSound>DroneHurt</mHurtSound>
+
+    <mAdditionalSound mName="MeleeAttack" mFileName="StunDroneZap" />
+    <mAdditionalSound mName="MetalClang" mFileName="MetalClang2" />
+    
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="DETONATE" mHackLevel="1"/>
+    
+
+
+    <mMeleeWeapon mName="EMPMineMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>40</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- EMP MINE META -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="EMPMineMeta" mClass="THEMPMine" mAllegiance="FOE" mHitPoints="150">
+    <mSpriteSheet>EMPMine.xml</mSpriteSheet>
+    <mColorScheme>Meta</mColorScheme>
+    <mHurtSound>DroneHurt</mHurtSound>
+
+    <mAdditionalSound mName="MeleeAttack" mFileName="StunDroneZap" />
+    <mAdditionalSound mName="MetalClang" mFileName="MetalClang2" />
+
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="DETONATE" mHackLevel="1"/>
+
+
+
+    <mMeleeWeapon mName="EMPMineMetaMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>60</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+  
+  
+  
+  <!-- ######################################################################## -->
+  <!-- EYESTALK -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="EyeStalk" mClass="THEyeStalk" mAllegiance="FOE" mHitPoints="100">
+    <mSpriteSheet>EyeStalk.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SplatB</mHurtSound>
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHealthDropChance>0.3</mHealthDropChance>
+    <mAdditionalSound mName="Steam" mFileName="Steam" />
+
+    <mMeleeWeapon mName="EyeStalkMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>30</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- FIGHTER DRONE (variant of Searcher Drone) -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="FighterDrone" mClass="THSearcherDrone" mAllegiance="FOE" mHitPoints="100">
+    <mSpriteSheet>FighterDrone.xml</mSpriteSheet>
+
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mAdditionalSound mName="EnterAggro" mFileName="DroneRoar" />
+    <mAdditionalSound mName="Confused" mFileName="DroneConfused" />
+    <mAdditionalSound mName="GiveUp" mFileName="DroneOhWell" />
+    <mAdditionalSound mName="Flap" mFileName="WingFlap" />
+
+    <mAnimation mType="Walk" mName="Flap" />
+    <mAnimation mType="Run" mName="Flap" />
+    <mAnimation mType="Turn" mName="Turn" />
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="3"/>
+
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mGlitchAffectsThroughput>true</mGlitchAffectsThroughput>
+
+    <mAIData mVisionRange="220.0" mFOV="90.0">
+      <mMinAggroRange>12.0</mMinAggroRange>
+      <mMaxAggroRange>22.0</mMaxAggroRange>
+      <mHuntDistance>128</mHuntDistance>
+      <mPatrolType>LEFT_RIGHT_LOOP</mPatrolType>
+
+      <!-- In case there was no weapon or before we first attack -->
+      <mDefaultCooldown>45</mDefaultCooldown>
+
+    </mAIData>
+
+    <mLocomotorData mLocomotorType="FLYING" mSneakSpeed="0.75" mBaseSpeed="1.25" mMaxSpeed="2.0" >
+      <!-- This bounds figure will be used to create the room path graphs before the NPC is even spawned, since
+      we can't wait for the creature's sprite to be made, start animating, get its collision, etc.  So
+      we really need to make sure it's sprite collision is equal to or smaller than this. 
+      Also if two NPCs have similar bounds,  we'll want to just make them the same so that the
+      pathfinding graph doesn't need to change between them.-->
+      <mBounds>
+        <X>-12</X>
+        <Y>-5</Y>
+        <Width>24</Width>
+        <Height>10</Height>
+      </mBounds>
+    </mLocomotorData>
+
+    <!-- Actions-->
+    <THAIActionData mName="FighterDroneInvestigate" mActionType="INVESTIGATE" mClass="THAIFlyingInvestigateAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+    </THAIActionData>
+    <THAIActionData mName="FighterDroneRangedAttack" mActionType="RANGED_ATTACK" mClass="THAIFlyingRangedAttackAction">
+      <mMinRange>64.0</mMinRange>
+      <mMaxRange>200.0</mMaxRange>
+      <mMinTurretAngle>10</mMinTurretAngle>
+      <mMaxTurretAngle>80</mMaxTurretAngle>
+      <mShotsPerVolley>5</mShotsPerVolley>
+      <mFramesPerShot>16</mFramesPerShot>
+      <mWeapon>FighterDroneProj</mWeapon>
+      <mMuzzleName>EyePos</mMuzzleName>
+    </THAIActionData>
+  </THNPCData>
+  
+
+  <!-- ######################################################################## -->
+  <!-- FIRE FIEND -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="FireFiend" mClass="THPliaa" mAllegiance="FOE" mHitPoints="26">
+    <mSpriteSheet>FireFiend.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SpitbugHurt</mHurtSound>    
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar1" mFileName="Splash" />
+
+    <mMeleeWeapon mName="PliaaMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>30</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- FIRE MUFFIN -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="FireMuffin" mClass="THFireMuffin"  mAllegiance="FOE" mHitPoints="48">
+  <mSpriteSheet>FireMuffin.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+   <mHurtSound>SpitbugHurt</mHurtSound>
+  <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+  <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+  <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+  <mAdditionalSound mName="Fall" mFileName="Fall" />
+    <mAdditionalSound mName="Land" mFileName="Thud" />
+  <mMeleeWeapon mName="FireMuffinMelee">
+
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>40</mDamage>
+
+  </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- FLOOR RAZOR -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="FloorRazor" mClass="THFloorRazor" mAllegiance="FOE" mHitPoints="30" mHackPoints="100">
+    <mSpriteSheet>FloorRazor.xml</mSpriteSheet>
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mPulseRate>1.0</mPulseRate>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Woosh" mFileName="GishruWoosh" />
+
+    
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="DISABLE" mHackLevel="1"/>
+      
+    <mMeleeWeapon mName="FloorRazorMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>30</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- GATLING TURRET -->
+  <!-- ######################################################################## -->
+   <THNPCData mName="GatlingTurret" mClass="THGatlingTurret" mAllegiance="FOE" mHitPoints="90">
+     <mSpriteSheet>GatlingTurret.xml</mSpriteSheet>
+
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+     <mAdditionalSound mName="GatlingClack" mFileName="GatlingClack" mMaxInstances="10"/>
+     <mAdditionalSound mName="Emerge" mFileName="Splash" />
+    
+     <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+     <THNPCHackInfo mType="SEIZE" mHackLevel="1"/>
+     <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="3"/>
+
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- GELFISH -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Gelfish" mClass="THSpungusSpore" mAllegiance="FRIEND" mHitPoints="1">
+    <mSpriteSheet>Gelfish.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mDeathExplosion>GelfishDeath</mDeathExplosion>
+    <mMountable>true</mMountable>
+  </THNPCData>
+
+  <THNPCData mName="GelfishSpawner" mClass="THSpungusSporeSpawner" mAllegiance="FRIEND" mHitPoints="1000">
+    <mAdditionalSound mName="Spawn" mFileName="SporeSpawn" />
+    <mHackable>false</mHackable>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- GELPUFF -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="GelPuff" mClass="THFungine" mAllegiance="FOE" mHitPoints="75">
+    <mSpriteSheet>GelPuff.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mSpeedFactor>2.0</mSpeedFactor>
+
+    <mMeleeWeapon mName="GelPuffMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>30</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- GLIDEWING -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="GlideWing" mClass="THSpaceBat" mAllegiance="FOE" mHitPoints="14">
+    <mSpriteSheet>GlideWing.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SpitbugHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Shriek" mFileName="SpaceBatShriek" />
+    <mHealthDropChance>0.25</mHealthDropChance>
+    <mMeleeWeapon mName="GlideWingMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>25</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- GLOB -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Glob" mClass="THGlob" mAllegiance="FOE" mHitPoints="162" >
+    <mSpriteSheet>Glob.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar" mFileName="SpitbugSpawn" />
+
+    <mMeleeWeapon mName="GlobMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>45</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <THNPCData mName="GlobBaby" mClass="THGlobBaby" mAllegiance="FOE" mHitPoints="30" >
+    <mSpriteSheet>GlobBaby.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar2" mFileName="Boing1" />
+
+    <mMeleeWeapon mName="GlobBabyMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>45</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- GUNCRAWLER -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="GunCrawler" mClass="THScorpiant" mAllegiance="FOE" mHitPoints="50">
+    <mSpriteSheet>GunCrawler.xml</mSpriteSheet>
+
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mMeleeWeapon mName="GunCrawlerMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>25</mDamage>
+
+    </mMeleeWeapon>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="1"/>
+
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- HOVERBUG -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Hoverbug" mClass="THSentryBot" mAllegiance="FOE" mHitPoints="250" mHackPoints="20">
+    <mSpriteSheet>Hoverbug.xml</mSpriteSheet>
+    <mHurtSound>RobotHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHealthDropChance>0.2</mHealthDropChance>
+    <mMeleeWeapon mName="HoverbugMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>25</mDamage>
+    </mMeleeWeapon>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="SEIZE" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="3"/>
+
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- HUNTER DRONE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="HunterDrone"  mClass="THHunterDrone" mAllegiance="FOE" mHitPoints="1200">
+    <mSpinePath>Content/Art/Sprites/Bosses/HunterDrone/Output/HunterDrone</mSpinePath>
+    <mPersistent>true</mPersistent>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mAdditionalSound mName="SoundLoop" mFileName="HunterDroneLoop" />
+    <mAdditionalSound mName="MissilePowerUp" mFileName="MissilePowerUp" />
+    <mAdditionalSound mName="CannonPowerUp" mFileName="PowerOn" />
+    <mAdditionalSound mName="MissileFire" mFileName="MissileFire" />
+    <mAdditionalSound mName="Roar1" mFileName="RobotRoar1" />
+    <mAdditionalSound mName="Roar2" mFileName="RobotRoar2" />
+    <mAdditionalSound mName="EnterAggro" mFileName="RobotRoar1" />
+    <mAdditionalSound mName="Confused" mFileName="DroneMediumConfused" />
+    <mAdditionalSound mName="GiveUp" mFileName="DroneMediumOhWell" />
+    <mAdditionalSound mName="Death" mFileName="BossExplosion1" mMaxInstances ="1" />
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1" mCostOverride="100"/>
+
+    <mSpeedFactor>1.0</mSpeedFactor>
+    <mPulseColor>
+      <X>255</X>
+      <Y>0</Y>
+      <Z>0</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>2.0</mPulseRate>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathDuration>180</mDeathDuration>
+    <!-- Frames it takes to die. -->
+    <mDeathExplosionPeriod>8</mDeathExplosionPeriod>
+    <!-- Frames between death explosions-->
+    <mDeathShatter>BossSpriteShatter2</mDeathShatter>
+    <mDeathExplosion>BossDeathSpriteExplosion1</mDeathExplosion>
+    <mDeathDistortion>BossDeathSpriteDistortion1</mDeathDistortion>
+    <mHealthDropChance>1.0</mHealthDropChance>
+    <mHackable>false</mHackable>
+
+    <mMeleeWeapon  mName="HunterDroneMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>0</mDamage>
+    </mMeleeWeapon>
+
+
+    <mAIData mVisionRange="220.0" mFOV="90.0" mShowVisionCone="false" mShowEmotes="false">
+      <!-- Min and max bounds of the melee hurtbox plus hero's width -->
+      <mMinAggroRange>12.0</mMinAggroRange>
+      <mMaxAggroRange>22.0</mMaxAggroRange>
+      <mHuntDistance>256</mHuntDistance>
+      <mPatrolType>LEFT_RIGHT_LOOP</mPatrolType>
+
+      <!-- In case there was no weapon or before we first attack -->
+      <mDefaultCooldown>45</mDefaultCooldown>
+    
+  </mAIData>
+
+    <mLocomotorData mLocomotorType="FLYING" mSneakSpeed="0.75" mBaseSpeed="1.25" mMaxSpeed="2.0" >
+      <!-- For spine sprites, the only way I've found to get this figure is to get the local collision bounds at runtime
+      and set a breakpoint. -->
+      
+      <mBounds>
+        <X>-56</X>
+        <Y>-52</Y>
+        <Width>112</Width>
+        <Height>80</Height>
+      </mBounds>
+      <!-- Making bounds even bigger because it seems to overestimate its ability to fly places-->
+      <!--
+      <mBounds>
+        <X>-60</X>
+        <Y>-80</Y>
+        <Width>120</Width>
+        <Height>96</Height>
+      </mBounds>-->
+    </mLocomotorData>
+
+    <!-- Actions-->
+    <THAIActionData mName="HunterDroneInvestigate" mActionType="INVESTIGATE" mClass="THAIFlyingInvestigateAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+    </THAIActionData>
+    <THAIActionData mName="HunterDroneCannonAttack" mActionType="RANGED_ATTACK" mClass="THAIFlyingRangedAttackAction">
+      <mMinRange>64.0</mMinRange>
+      <mMaxRange>200.0</mMaxRange>
+      <mMinTurretAngle>20</mMinTurretAngle>
+      <mMaxTurretAngle>26</mMaxTurretAngle>
+      <mShotsPerVolley>1</mShotsPerVolley>
+      <mFramesPerShot>12</mFramesPerShot>
+      <mWeapon>HunterDroneCannon</mWeapon>
+      <!-- There are 6 muzzles; this is more "central" for targeting purposes. -->
+      <mMuzzleName>root</mMuzzleName>
+    </THAIActionData>
+    <THAIActionData mName="HunterDroneMissileAttack" mActionType="RANGED_ATTACK" mClass="THAIFlyingRangedAttackAction">
+      <mMinRange>64.0</mMinRange>
+      <mMaxRange>200.0</mMaxRange>
+      <mMinTurretAngle>20</mMinTurretAngle>
+      <mMaxTurretAngle>30</mMaxTurretAngle>
+      <mShotsPerVolley>1</mShotsPerVolley>
+      <mFramesPerShot>12</mFramesPerShot>
+      <mWeapon>HunterDroneMissile</mWeapon>
+      <mMuzzleName>root</mMuzzleName>
+    </THAIActionData>
+    <THAIActionData mName="HunterDroneGatlingAttack" mActionType="RANGED_ATTACK" mClass="THAIFlyingRangedAttackAction">
+      <mMinRange>64.0</mMinRange>
+      <mMaxRange>200.0</mMaxRange>
+      <mMinTurretAngle>30</mMinTurretAngle>
+      <mMaxTurretAngle>90</mMaxTurretAngle>
+      <mShotsPerVolley>12</mShotsPerVolley>
+      <mFramesPerShot>8</mFramesPerShot>
+      <mWeapon>HunterDroneGatling</mWeapon>
+      <mMuzzleName>root</mMuzzleName>
+    </THAIActionData>
+  </THNPCData>
+
+  <THNPCData mName="HunterDroneCannon" mClass="THHunterDroneCannon" mAllegiance="FOE" mHitPoints="200" mHackPoints ="100">
+    <mSpriteSheet></mSpriteSheet>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHackable>true</mHackable>
+
+    <THNPCHackInfo mType="OVERLOAD" mHackLevel="1"/>
+  </THNPCData>
+
+  <THNPCData mName="HunterDroneGatling" mClass="THHunterDroneGatling" mAllegiance="FOE" mHitPoints="200" mHackPoints ="100">
+    <mSpriteSheet></mSpriteSheet>
+
+    <mAdditionalSound mName="GatlingClack" mFileName="GatlingClack" mMaxInstances="10"/>
+
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHackable>true</mHackable>
+
+    <THNPCHackInfo mType="SEIZE" mHackLevel="1"/>
+
+  </THNPCData>
+
+  <THNPCData mName="HunterDroneHead" mClass="THSpineSubNPC" mAllegiance="FOE" mHitPoints="100" mHackPoints ="100">
+    <mSpriteSheet></mSpriteSheet>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHackable>false</mHackable>
+
+  </THNPCData>
+  
+  <THNPCData mName="HunterDroneTail" mClass="THSpineSubNPC" mAllegiance="FOE" mHitPoints="100" mHackPoints ="100">
+    <mSpriteSheet></mSpriteSheet>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHackable>false</mHackable>
+
+  </THNPCData>
+
+  <THNPCData mName="HunterDroneEngine" mClass="THHunterDroneEngine" mAllegiance="FOE"  mHitPoints="200" mHackPoints ="100">
+    <mSpriteSheet></mSpriteSheet>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHackable>true</mHackable>
+
+    <THNPCHackInfo mType="OVERHEAT" mHackLevel="1"/>
+  </THNPCData>
+
+  
+  <!-- ######################################################################## -->
+  <!-- ICE DRONE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="IceDrone" mClass="THIceDrone" mAllegiance="FOE" mHitPoints="50">
+    <mSpriteSheet>IceDrone.xml</mSpriteSheet>
+
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mAdditionalSound mName="Fall" mFileName="Fall" />
+    <mAdditionalSound mName="Land" mFileName="Thud" />
+
+    <!-- Using this for the surface/submerge snowburst color -->
+    <mPulseColor>
+      <X>222</X>
+      <Y>239</Y>
+      <Z>242</Z>
+      <W>255</W>
+    </mPulseColor>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="SUBMERGE" mHackLevel="1"/>
+
+    <mMeleeWeapon  mName="IceDroneMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>50</mDamage>
+      <mCoolDown>60</mCoolDown>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- ICE DRONE META -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="IceDrone_Meta" mClass="THIceDrone" mAllegiance="FOE" mHitPoints="90">
+    <mSpriteSheet>IceDrone.xml</mSpriteSheet>
+    <mColorScheme>Meta</mColorScheme>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mAdditionalSound mName="Fall" mFileName="Fall" />
+    <mAdditionalSound mName="Land" mFileName="Thud" />
+
+    <!-- Using this for the surface/submerge snowburst color -->
+    <mPulseColor>
+      <X>161</X>
+      <Y>150</Y>
+      <Z>137</Z>
+      <W>255</W>
+    </mPulseColor>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="SUBMERGE" mHackLevel="1"/>
+
+    <mSpeedFactor>2.0</mSpeedFactor>
+
+    <mMeleeWeapon  mName="IceDroneMetaMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>90</mDamage>
+      <mCoolDown>60</mCoolDown>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- ICE GUARDIAN -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="IceGuardian" mClass="THZeborg" mAllegiance="FOE" mHitPoints="90">
+    <mSpriteSheet>IceGuardian.xml</mSpriteSheet>
+    <mMountable>false</mMountable>
+    <mHackable>false</mHackable>
+    <mHardness>4</mHardness>
+    <mHurtSound>MutantHurt</mHurtSound>
+    <mAdditionalSound mName="Wake" mFileName="ZeborgWake" />
+    <mAdditionalSound mName="Fire" mFileName="ZeborgFire" />
+    <mHealthDropChance>0.4</mHealthDropChance>
+    <mPulseColor>
+      <X>0</X>
+      <Y>253</Y>
+      <Z>177</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>4.0</mPulseRate>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- ICE MINE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="IceMine" mClass="THBuoyg" mAllegiance="FOE" mHitPoints="50">
+    <mSpriteSheet>IceMine.xml</mSpriteSheet>
+    <mHurtSound>SpitbugHurt</mHurtSound>
+    <mPulseColor>
+      <X>0</X>
+      <Y>251</Y>
+      <Z>255</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>1.0</mPulseRate>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion></mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="SYMPATHY" mHackLevel="1"/>
+    
+    <mMeleeWeapon mName="IceMineMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>10</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- IndraApocalypse -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="IndraApocalypse" mClass="THIndraApocalypse"  mAllegiance="FOE" mHitPoints="250">
+    <mSpriteSheet>Indra.xml</mSpriteSheet>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHackable>false</mHackable>
+    <mAdditionalSound mName="Jump" mFileName="TraceJump" />
+    <mAdditionalSound mName="Land" mFileName="TraceLand" />
+    <mAdditionalSound mName="Melee" mFileName="IndraTentacle" />
+    <mMeleeWeapon mName="IndraApocalypseMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>100</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- IndraPossessed -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="IndraPossessed" mClass="THIndraPossessed"  mAllegiance="ALL" mHitPoints="1000">
+    <mSpriteSheet>Indra.xml</mSpriteSheet>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHackable>false</mHackable>
+    
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- INKFISH -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="InkFish" mClass="THInkFish" mAllegiance="FOE" mHitPoints="65">
+    <mSpriteSheet>InkFish.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SpitbugHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar" mFileName="Bubbles" />
+    <mHealthDropChance>0.25</mHealthDropChance>
+    <mMeleeWeapon mName="InkFishMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>20</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+  
+  <!-- ######################################################################## -->
+  <!-- INKFISH -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="InkFishMeta" mClass="THInkFish" mAllegiance="FOE" mHitPoints="90">
+    <mSpriteSheet>InkFish.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mColorScheme>Meta</mColorScheme>
+    <mHurtSound>SpitbugHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar" mFileName="Bubbles" />
+    <mHealthDropChance>0.25</mHealthDropChance>
+    <mMeleeWeapon mName="InkFishMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>25</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+  
+  <!-- ######################################################################## -->
+  <!-- Jungle Goop -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="JungleGoop" mClass="THJungleGoop" mAllegiance="FOE" mHitPoints="70">
+    <mSpriteSheet>JungleGoop.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mHealthDropChance>0.4</mHealthDropChance>
+    <mMeleeWeapon mName="JungleGoopMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>30</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+  
+  
+  
+  <!-- ######################################################################## -->
+  <!-- JumpVine -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="JumpVine" mClass="THProngFish" mAllegiance="FOE" mHitPoints="160">
+    <mSpriteSheet>JumpVine.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>TrapClawHurt</mHurtSound>
+    <mAdditionalSound mName="Roar1" mFileName="ProngfishSwoop" />
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mMeleeWeapon mName="JumpVineMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>75</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- LaserCutter -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="LaserCutter" mClass="THTieFlighter" mAllegiance="FOE" mHitPoints="90">
+    <mSpriteSheet>LaserCutter.xml</mSpriteSheet>
+    <mHurtSound>RobotHurt</mHurtSound>
+    <mPulseColor>
+      <X>255</X>
+      <Y>0</Y>
+      <Z>255</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>1.0</mPulseRate>
+    <mSpeedFactor>1.0</mSpeedFactor>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion></mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHealthDropChance>0.4</mHealthDropChance>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="SYNCHRONIZE" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="3"/>
+
+    <mMeleeWeapon mName="LaserCutterMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>10</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+  
+  <!-- ######################################################################## -->
+  <!-- LURE DRONE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="LureDrone" mClass="THLureDrone"  mAllegiance="FOE" mHitPoints="75">
+    <mHackable>true</mHackable>
+    <mSpriteSheet>LureDrone.xml</mSpriteSheet>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    
+    <mAdditionalSound mName="ElectricBurst" mFileName="ElectricBurst" />
+    <mAdditionalSound mName="ElectricChargeup" mFileName="ElectricChargeup" />
+    <mAdditionalSound mName="Roar" mFileName="DroneMediumRoar" />
+    
+    <THNPCHackInfo mType="SEIZE" mHackLevel="1"/>
+    <THNPCHackInfo mType="OVERLOAD" mHackLevel="1"/>
+    
+    <mMeleeWeapon mName="LureDroneMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>100</mDamage>
+      <mCoolDown>60</mCoolDown>
+    </mMeleeWeapon>
+
+
+    <mPulseColor>
+      <X>23</X>
+      <Y>255</Y>
+      <Z>224</Z>
+      <W>255</W>
+    </mPulseColor>
+
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- NAUTILORB -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Nautilorb" mClass="THNautilorb" mAllegiance="FOE" mHitPoints="50">
+    <mSpriteSheet>Nautilorb.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mMeleeWeapon mName="NautilorbMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>35</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+  
+  <!-- ######################################################################## -->
+  <!-- NAVAL MINE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="NavalMine" mClass="THNavalMine" mAllegiance="FOE" mHitPoints="40">
+    <mSpriteSheet>NavalMine.xml</mSpriteSheet>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mAdditionalSound mName="Trigger" mFileName="MineTrigger" />
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion></mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="DETONATE" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="2"/>
+
+    <mPulseColor>
+      <X>255</X>
+      <Y>0</Y>
+      <Z>234</Z>
+      <W>255</W>
+    </mPulseColor>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- NEONITE -->
+  <!-- ######################################################################## -->
+
+  <THNPCData mName="NeoniteCyan" mClass="THEyeCopter"  mAllegiance="FOE" mHitPoints="18">
+    <mSpriteSheet>Neonite.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mColorScheme>Cyan</mColorScheme>
+    <mHurtSound>SpitbugHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Dive" mFileName="BliteSting" />
+
+    <mMeleeWeapon mName="NeoniteCyanMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>24</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <THNPCData mName="NeoniteYellow" mClass="THEyeCopter"  mAllegiance="FOE" mHitPoints="27">
+    <mSpriteSheet>Neonite.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mColorScheme>Yellow</mColorScheme>
+    <mHurtSound>SpitbugHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Dive" mFileName="BliteSting" />
+
+    <mMeleeWeapon mName="NeoniteYellowMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>28</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+  
+  <THNPCData mName="NeonitePurple" mClass="THEyeCopter"  mAllegiance="FOE" mHitPoints="36">
+    <mSpriteSheet>Neonite.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mColorScheme>Purple</mColorScheme>
+    <mHurtSound>SpitbugHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Dive" mFileName="BliteSting" />
+
+    <mMeleeWeapon mName="NeonitePurpleMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>32</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+
+  <!-- ######################################################################## -->
+  <!-- NEONSPARK -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="NeonSpark" mClass="THRailShuttle"  mAllegiance="FOE" mHitPoints="999">
+    <mSpriteSheet>NeonSpark.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHardness>9</mHardness>
+
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    
+    <mHealthDropChance>0.4</mHealthDropChance>
+    <mMeleeWeapon mName="NeonSparkMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>50</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- PIPIRD SPAWNER -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="PipirdSpawner" mClass="THCortantSpawner"  mAllegiance="FOE" mHitPoints="1000">
+    <mHackable>false</mHackable>
+    <mAdditionalSound mName="Spawn" mFileName="SpitbugSpawn" />
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- PIPIRD  -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Pipird" mClass="THCortant" mAllegiance="FOE" mHitPoints="26">
+    <mSpriteSheet>Pipird.xml</mSpriteSheet>
+    <mHurtSound>SpitbugHurt</mHurtSound>
+    <mHackable>false</mHackable>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion></mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHealthDropChance>0.2</mHealthDropChance>
+    <mMeleeWeapon mName="PipirdMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>25</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- POLLEN PUFF -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="PollenPuff" mClass="THTubeWorm" mAllegiance="FOE" mHitPoints="75">
+    <mSpriteSheet>PollenPuff.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+
+    <mHurtSound>SplatB</mHurtSound>
+    <mDeathShatter>SpitbugNestSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHealthDropChance>0.3</mHealthDropChance>
+    <mAdditionalSound mName="Steam" mFileName="SteamShort" />
+
+    <mMeleeWeapon mName="PollenPuffMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>10</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <THNPCData mName="PollenPuffYellow" mClass="THTubeWorm" mAllegiance="FOE" mHitPoints="75">
+    <mSpriteSheet>PollenPuff.xml</mSpriteSheet>
+    <mColorScheme>Yellow</mColorScheme>
+    <mHackable>false</mHackable>
+
+    <mHurtSound>SplatB</mHurtSound>
+    <mDeathShatter>SpitbugNestSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHealthDropChance>0.3</mHealthDropChance>
+    <mAdditionalSound mName="Steam" mFileName="SteamShort" />
+
+    <mMeleeWeapon mName="PollenPuffMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>10</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+  
+  <!-- ######################################################################## -->
+  <!-- POLLINATOR -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Pollinator" mClass="THMushroomPoof"  mAllegiance="FOE" mHitPoints="75">
+    <mSpriteSheet>Pollinator.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mKnockbackResistance>0.5</mKnockbackResistance>
+
+    <mMeleeWeapon mName="PollinatorMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>10</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- PoTahto -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="PoTahto" mClass="THPotato" mAllegiance="FOE" mHitPoints="48">
+    <mSpriteSheet>Potahto.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar1" mFileName="PotatoMorph" />
+
+    <mHealthDropChance>0.4</mHealthDropChance>
+    <mMeleeWeapon mName="PotatoMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>40</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  
+
+  <!-- ######################################################################## -->
+  <!-- PoTahto Meta -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="PoTahtoMeta" mClass="THPotato" mAllegiance="FOE" mHitPoints="80">
+    <mSpriteSheet>Potahto.xml</mSpriteSheet>
+    <mColorScheme>Meta</mColorScheme>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar1" mFileName="PotatoMorph" />
+
+    <mHealthDropChance>0.4</mHealthDropChance>
+    <mMeleeWeapon mName="PotatoMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>50</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- PROJECTILENPC -->
+  <!-- NPC that just exists as a proxy so we can damage certain projectiles. -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="ProjectileNPC" mClass="THProjectileNPC"  mAllegiance="FOE" mHitPoints="1">
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHealthDropChance>0.0</mHealthDropChance>
+    <mHackable>false</mHackable>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- PROTO XEDUR -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="ProtoXedur" mClass="THProtoXedur" mAllegiance="FOE" mHitPoints="200">
+    <mSpriteSheet>ProtoXedur.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPersistent>true</mPersistent>
+    <mHurtSound>CreatureHurt2</mHurtSound>
+    <mAdditionalSound mName="Roar1" mFileName="CreatureRoar2" />
+    <mAdditionalSound mName="Roar2" mFileName="CreatureRoar4" />
+    <mAdditionalSound mName="Death" mFileName="BossExplosion1" mMaxInstances ="1" />
+    <mPulseColor>
+      <X>255</X>
+      <Y>0</Y>
+      <Z>0</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>2.0</mPulseRate>
+    <mDeathDuration>180</mDeathDuration>
+    <!-- Frames it takes to die. -->
+    <mDeathExplosionPeriod>8</mDeathExplosionPeriod>
+    <!-- Frames between death explosions-->
+    <mDeathShatter>BossSpriteShatter1</mDeathShatter>
+    <mDeathExplosion>BossDeathSpriteExplosion1</mDeathExplosion>
+    <mDeathDistortion>BossDeathSpriteDistortion1</mDeathDistortion>
+    <mHealthDropChance>1.0</mHealthDropChance>
+    <mHackable>false</mHackable>
+
+    <mMeleeWeapon mName="ProtoXedurMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>0</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- RAIL SHUTTLE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="RailShuttle" mClass="THRailShuttle"  mAllegiance="FOE" mHitPoints="999">
+    <mSpriteSheet>RailShuttle.xml</mSpriteSheet>
+    <mHackable>true</mHackable>
+    <mHardness>9</mHardness>
+
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Ricochet" mFileName="Ricochet" />
+
+    <mHealthDropChance>0.4</mHealthDropChance>
+    <mMeleeWeapon mName="RailShuttleRodMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>35</mDamage>
+
+    </mMeleeWeapon>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- RazorShell-->
+  <!-- ######################################################################## -->
+  <THNPCData mName="RazorShell" mClass="THRazorShell" mAllegiance="FOE" mHitPoints="36">
+    <mSpriteSheet>RazorShell.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mHealthDropChance>0.4</mHealthDropChance>
+    <mMeleeWeapon mName="RazorShellMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>24</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- RazorShell Meta -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="RazorShellMeta" mClass="THRazorShell" mAllegiance="FOE" mHitPoints="72">
+    <mSpriteSheet>RazorShell.xml</mSpriteSheet>
+    <mColorScheme>Meta</mColorScheme>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mSpeedFactor>1.5</mSpeedFactor>
+    
+    <mHealthDropChance>0.4</mHealthDropChance>
+    <mMeleeWeapon mName="RazorShellMetaMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>40</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- RazorShell Gamma -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="RazorShellGamma" mClass="THRazorShell" mAllegiance="FOE" mHitPoints="108">
+    <mSpriteSheet>RazorShell.xml</mSpriteSheet>
+    <mColorScheme>Gamma</mColorScheme>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mSpeedFactor>1.75</mSpeedFactor>
+
+    <mHealthDropChance>0.3</mHealthDropChance>
+    <mMeleeWeapon mName="RazorShellGammaMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>60</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- REPAIR DRONE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="RepairDrone" mClass="THStunDrone" mAllegiance="FOE" mHitPoints="120">
+    <mSpriteSheet>RepairDrone.xml</mSpriteSheet>
+
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mAdditionalSound mName="EnterAggro" mFileName="DroneRoar" />
+    <mAdditionalSound mName="Confused" mFileName="DroneConfused" />
+    <mAdditionalSound mName="GiveUp" mFileName="DroneOhWell" />
+    <mAdditionalSound mName="Jump" mFileName="DroneJump" />
+    <mAdditionalSound mName="Land" mFileName="DroneLand" />
+    <mAdditionalSound mName="MeleeAttack" mFileName="StunDroneZap" />
+    <mAdditionalSound mName="FootStep" mFileName="DroneFootstep" />
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="4"/>
+
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mMeleeWeapon mName="RepairDroneMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>100</mDamage>
+      <mCoolDown>20</mCoolDown>
+    </mMeleeWeapon>
+
+    <mAIData mVisionRange="160.0" mFOV="90.0">
+      <!-- Min and max bounds of the melee hurtbox plus hero's width -->
+      <mMinAggroRange>12.0</mMinAggroRange>
+      <mMaxAggroRange>22.0</mMaxAggroRange>
+      <mPatrolType>LEFT_RIGHT_LOOP</mPatrolType>
+      <mHuntDistance>64</mHuntDistance>
+      <mSurpriseFrames>20</mSurpriseFrames>
+      <mThinkFrames>10</mThinkFrames>
+      <mSuspicionGrowthMultiplier>2.0</mSuspicionGrowthMultiplier>
+
+      <!-- In case there was no weapon or before we first attack -->
+      <mDefaultCooldown>45</mDefaultCooldown>
+    </mAIData>
+
+    <mLocomotorData mLocomotorType="WALKING" mSneakSpeed="0.5" mBaseSpeed="1.5" mMaxSpeed="2.0" mJumpHeight="112.0" mJumpTime="32.0" >
+      <!-- This bounds figure will be used to create the room path graphs before the NPC is even spawned, since
+      we can't wait for the creature's sprite to be made, start animating, get its collision, etc.  So
+      we really need to make sure it's sprite collision is equal to or smaller than this. 
+      Also if two NPCs have similar bounds,  we'll want to just make them the same so that the
+      pathfinding graph doesn't need to change between them.-->
+      <mBounds>
+        <X>-7</X>
+        <Y>-7</Y>
+        <Width>14</Width>
+        <Height>14</Height>
+      </mBounds>
+    </mLocomotorData>
+
+    <!-- Actions-->
+    <THAIActionData mName="StunDroneInvestigate" mActionType="INVESTIGATE" mClass="THAIWalkingInvestigateAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+    </THAIActionData>
+    <THAIActionData mName="StunDroneMeleeAttack" mActionType="MELEE_ATTACK" mClass="THAIWalkingMeleeAttackAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+
+      <!-- Needs to be included here as well as above bc the actoin needs to know the cooldown period -->
+
+      <mWeapon>RepairDroneMelee</mWeapon>
+    </THAIActionData>
+  </THNPCData>
+
+  
+  <!-- ######################################################################## -->
+  <!-- ROBOPEDE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Robopede" mClass="THRobopede"  mAllegiance="FOE" mHitPoints="64">
+    <mPersistent>true</mPersistent>
+    <mHackable>false</mHackable>
+    <mSpriteSheet>Robopede.xml</mSpriteSheet>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>BossDeathSpriteExplosion1</mDeathExplosion>
+    <mDeathDistortion>BossDeathSpriteDistortion1</mDeathDistortion>
+    <mDeathDuration>256</mDeathDuration>
+    <mDeathExplosionPeriod>16</mDeathExplosionPeriod>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mHealthDropChance>1</mHealthDropChance>
+
+    <mAdditionalSound mName="Death" mFileName="BossExplosion1" mMaxInstances ="1" />
+    <mAdditionalSound mName="Footstep" mFileName="DroneMultiFootstep" />
+    
+    <mMeleeWeapon mName="RobopedeMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>40</mDamage>
+    </mMeleeWeapon>
+
+  </THNPCData>
+
+
+  <THNPCData mName="RobopedeBodySeg" mClass="THRobopedeBodySeg" mAllegiance="FOE" mHitPoints="64">
+    <mSpriteSheet></mSpriteSheet>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>BossDeathSpriteExplosion1</mDeathExplosion>
+    <mDeathDistortion>BossDeathSpriteDistortion1</mDeathDistortion>
+    <mDeathDuration>128</mDeathDuration>
+    <mDeathExplosionPeriod>16</mDeathExplosionPeriod>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mHackable>false</mHackable>
+  
+    <mMeleeWeapon mName="RobopedeBodySegMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>40</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- Roborb -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Roborb" mClass="THRoborb" mAllegiance="FOE" mHitPoints="500">
+    <mPersistent>true</mPersistent>
+    <mSpriteSheet>Roborb.xml</mSpriteSheet>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mPulseColor>
+      <X>255</X>
+      <Y>0</Y>
+      <Z>255</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>1.0</mPulseRate>
+    <mSpeedFactor>1.0</mSpeedFactor>
+    <mHealthDropChance>0.4</mHealthDropChance>
+    
+    <mAdditionalSound mName="Death" mFileName="BossExplosion1" mMaxInstances ="1" />
+    <mAdditionalSound mName="Chargeup" mFileName="LaserChargeup" mMaxInstances ="1" />
+    
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="SYNCHRONIZE" mHackLevel="1"/>
+
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathDuration>180</mDeathDuration>
+    <!-- Frames it takes to die. -->
+    <mDeathExplosionPeriod>8</mDeathExplosionPeriod>
+    <!-- Frames between death explosions-->
+    <mDeathShatter>BossSpriteShatter1</mDeathShatter>
+    <mDeathExplosion>BossDeathSpriteExplosion1</mDeathExplosion>
+    <mDeathDistortion>BossDeathSpriteDistortion1</mDeathDistortion>
+
+    <mMeleeWeapon mName="RoborbMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>10</mDamage>
+    </mMeleeWeapon>
+
+  </THNPCData>
+
+
+  <!-- ######################################################################## -->
+  <!-- Roborb's Sub Laser -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="RoborbLaser" mClass="THRoborbLaser" mAllegiance="FOE" mHitPoints="350">
+    <mPersistent>true</mPersistent>
+    <mSpriteSheet>Roborb.xml</mSpriteSheet>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mPulseColor>
+      <X>255</X>
+      <Y>0</Y>
+      <Z>255</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>1.0</mPulseRate>
+    <mSpeedFactor>1.0</mSpeedFactor>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion></mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHealthDropChance>0.4</mHealthDropChance>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+
+    <mMeleeWeapon mName="RoborbLaserMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>10</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- ROLLING MINE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="RollingMine" mClass="THRollingMine" mAllegiance="FOE" mHitPoints="50">
+    <mSpriteSheet>RollingMine.xml</mSpriteSheet>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mAdditionalSound mName="Trigger" mFileName="MineTrigger" />
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion></mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="DETONATE" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="2"/>
+
+    <mMeleeWeapon mName="RollingMineMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>100</mDamage>
+
+    </mMeleeWeapon>
+
+    <mPulseColor>
+      <X>23</X>
+      <Y>255</Y>
+      <Z>224</Z>
+      <W>255</W>
+    </mPulseColor>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- ROVING MINE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="RovingMine" mClass="THRovingMine" mAllegiance="FOE" mHitPoints="20">
+    <mSpriteSheet>RovingMine.xml</mSpriteSheet>
+    <mHurtSound>DroneHurt</mHurtSound>
+
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion></mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="DETONATE" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="2"/>
+
+    <!--
+    <mGlitchNPC>Buhbull</mGlitchNPC>-->
+
+    <mMeleeWeapon mName="RovingMineMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>100</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+
+  <!-- ######################################################################## -->
+  <!-- SEARCHER DRONE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="SearcherDrone" mClass="THSearcherDrone" mAllegiance="FOE" mHitPoints="80">
+    <mSpriteSheet>SearcherDrone.xml</mSpriteSheet>
+
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mAdditionalSound mName="EnterAggro" mFileName="DroneRoar" />
+    <mAdditionalSound mName="Confused" mFileName="DroneConfused" />
+    <mAdditionalSound mName="GiveUp" mFileName="DroneOhWell" />
+    <mAdditionalSound mName="Flap" mFileName="WingFlap" />
+
+    
+    <mAnimation mType="Walk" mName="Flap" />
+    <mAnimation mType="Run" mName="Flap" />   
+    <mAnimation mType="Turn" mName="Turn" />
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="2"/>
+
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mGlitchAffectsThroughput>true</mGlitchAffectsThroughput>
+    
+    <mAIData mVisionRange="220.0" mFOV="90.0">
+      <mMinAggroRange>12.0</mMinAggroRange>
+      <mMaxAggroRange>22.0</mMaxAggroRange>
+      <mHuntDistance>128</mHuntDistance>
+      <mPatrolType>LEFT_RIGHT_LOOP</mPatrolType>
+
+      <!-- In case there was no weapon or before we first attack -->
+      <mDefaultCooldown>45</mDefaultCooldown>
+    
+    </mAIData>
+
+    <mLocomotorData mLocomotorType="FLYING" mSneakSpeed="0.75" mBaseSpeed="1.25" mMaxSpeed="2.0" >
+      <!-- This bounds figure will be used to create the room path graphs before the NPC is even spawned, since
+      we can't wait for the creature's sprite to be made, start animating, get its collision, etc.  So
+      we really need to make sure it's sprite collision is equal to or smaller than this. 
+      Also if two NPCs have similar bounds,  we'll want to just make them the same so that the
+      pathfinding graph doesn't need to change between them.-->
+      <mBounds>
+        <X>-12</X>
+        <Y>-5</Y>
+        <Width>24</Width>
+        <Height>10</Height>
+      </mBounds>
+    </mLocomotorData>
+
+    <!-- Actions-->
+    <THAIActionData mName="SearcherDroneInvestigate" mActionType="INVESTIGATE" mClass="THAIFlyingInvestigateAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+    </THAIActionData>
+    <THAIActionData mName="SearcherDroneRangedAttack" mActionType="RANGED_ATTACK" mClass="THAIFlyingRangedAttackAction">
+      <mMinRange>64.0</mMinRange>
+      <mMaxRange>200.0</mMaxRange>
+      <mMinTurretAngle>10</mMinTurretAngle>
+      <mMaxTurretAngle>80</mMaxTurretAngle>
+      <mShotsPerVolley>3</mShotsPerVolley>
+      <mFramesPerShot>12</mFramesPerShot>
+      <mWeapon>WalkerDroneProj</mWeapon>
+      <mMuzzleName>EyePos</mMuzzleName>
+    </THAIActionData>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- SEARCHER DRONE CORRUPTED -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="SearcherDroneCorrupted" mClass="THSearcherDrone" mAllegiance="FOE" mHitPoints="50">
+    <mSpriteSheet>SearcherDrone.xml</mSpriteSheet>
+    <mColorScheme>Corrupted</mColorScheme>
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mAdditionalSound mName="EnterAggro" mFileName="DroneRoar" />
+    <mAdditionalSound mName="Confused" mFileName="DroneConfused" />
+    <mAdditionalSound mName="GiveUp" mFileName="DroneOhWell" />
+    <mAdditionalSound mName="Flap" mFileName="WingFlap" />
+
+
+    <mAnimation mType="Walk" mName="Flap" />
+    <mAnimation mType="Run" mName="Flap" />
+    <mAnimation mType="Turn" mName="Turn" />
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="3"/>
+
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mGlitchAffectsThroughput>true</mGlitchAffectsThroughput>
+
+    <mAIData mVisionRange="220.0" mFOV="90.0">
+      <mMinAggroRange>12.0</mMinAggroRange>
+      <mMaxAggroRange>22.0</mMaxAggroRange>
+      <mHuntDistance>128</mHuntDistance>
+      <mPatrolType>LEFT_RIGHT_LOOP</mPatrolType>
+
+      <!-- In case there was no weapon or before we first attack -->
+      <mDefaultCooldown>45</mDefaultCooldown>
+
+    </mAIData>
+
+    <mLocomotorData mLocomotorType="FLYING" mSneakSpeed="0.75" mBaseSpeed="1.25" mMaxSpeed="2.0" >
+      <!-- This bounds figure will be used to create the room path graphs before the NPC is even spawned, since
+      we can't wait for the creature's sprite to be made, start animating, get its collision, etc.  So
+      we really need to make sure it's sprite collision is equal to or smaller than this. 
+      Also if two NPCs have similar bounds,  we'll want to just make them the same so that the
+      pathfinding graph doesn't need to change between them.-->
+      <mBounds>
+        <X>-12</X>
+        <Y>-5</Y>
+        <Width>24</Width>
+        <Height>10</Height>
+      </mBounds>
+    </mLocomotorData>
+
+    <!-- Actions-->
+    <THAIActionData mName="SearcherDroneCorruptedInvestigate" mActionType="INVESTIGATE" mClass="THAIFlyingInvestigateAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+    </THAIActionData>
+    <THAIActionData mName="SearcherDroneCorruptedRangedAttack" mActionType="RANGED_ATTACK" mClass="THAIFlyingRangedAttackAction">
+      <mMinRange>64.0</mMinRange>
+      <mMaxRange>150.0</mMaxRange>
+      <mMinTurretAngle>-80</mMinTurretAngle>
+      <mMaxTurretAngle>80</mMaxTurretAngle>
+      <mShotsPerVolley>1</mShotsPerVolley>
+      <mShotDuration>80</mShotDuration>
+      <mWeapon>CorruptedSearcherDroneLaser</mWeapon>
+      <mMuzzleName>EyePos</mMuzzleName>
+      <mCoolDown>120</mCoolDown>
+    </THAIActionData>
+  </THNPCData>
+
+
+  <!-- ######################################################################## -->
+  <!-- SILT CRAWLER -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="SiltCrawler" mClass="THSiltCrawler" mAllegiance="FOE" mHitPoints="45">
+    <mSpriteSheet>SiltCrawler.xml</mSpriteSheet>
+
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+      
+      
+  </THNPCData>
+
+
+
+
+  <!-- ######################################################################## -->
+  <!-- SERPENT DRONE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="SerpentDrone" mClass="THSerpentDrone"  mAllegiance="FOE" mHitPoints="1000">
+    <mHackable>true</mHackable>
+    <mPersistent>true</mPersistent>
+    <mHardness>3</mHardness>
+    <mSpriteSheet>SerpentDrone.xml</mSpriteSheet>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>BossDeathSpriteExplosion1</mDeathExplosion>
+    <mDeathDistortion>BossDeathSpriteDistortion1</mDeathDistortion>
+    <mDeathDuration>16</mDeathDuration>
+    <mDeathExplosionPeriod>8</mDeathExplosionPeriod>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <!-- Set to zero because it's hard to see the apocalypse node among all the green -->
+    <mNanoDropPoints>0</mNanoDropPoints>
+    
+    <!--<mMountable>true</mMountable>-->
+
+    <mAdditionalSound mName="Death" mFileName="BossExplosion1" mMaxInstances ="1" />
+    <mAdditionalSound mName="Roar1" mFileName="RobotRoar1" />
+    <mAdditionalSound mName="UnderwaterSteam" mFileName="UnderwaterSteam" mMaxInstances="6"/>
+    <mAdditionalSound mName="ElectricBurst" mFileName="ElectricBurst" />
+    <mAdditionalSound mName="ElectricChargeup" mFileName="ElectricChargeup" />
+
+    <THNPCHackInfo mType="DISABLE" mHackLevel="1"/>
+    
+    <mPulseColor>
+      <X>217</X>
+      <Y>2</Y>
+      <Z>6</Z>
+      <W>255</W>
+    </mPulseColor>
+
+  </THNPCData>
+
+
+  <THNPCData mName="SerpentDroneBodySeg" mClass="THSerpentDroneBodySeg" mAllegiance="FOE" mHitPoints="600" mHackPoints ="50">
+    <mSpriteSheet></mSpriteSheet>
+    <mHardness>3</mHardness>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>BossDeathSpriteExplosion1</mDeathExplosion>
+    <mDeathDistortion>BossDeathSpriteDistortion1</mDeathDistortion>
+    <mDeathDuration>16</mDeathDuration>
+    <mDeathExplosionPeriod>8</mDeathExplosionPeriod>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mHackable>true</mHackable>
+    <!--<mMountable>true</mMountable>-->
+
+    <THNPCHackInfo mType="DISABLE" mHackLevel="1"/>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- Silkler -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Silkler" mClass="THSpidler" mAllegiance="FOE" mHitPoints="36">
+    <mSpriteSheet>Silkler.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar1" mFileName="SpidlerDescend" />
+
+
+    <mMeleeWeapon mName="SilklerMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>30</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- Skroosh -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Skroosh" mClass="THSkroosh" mAllegiance="FOE" mHitPoints="70">
+    <mSpriteSheet>Skroosh.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar1" mFileName="GluggAttack" />
+    <mAdditionalSound mName="Roar2" mFileName="GluggBite" />
+
+    <mMeleeWeapon mName="SkrooshMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>70</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- SkyDrone -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="SkyDrone" mClass="THSkyDrone"  mAllegiance="FOE" mHitPoints="500">
+    <mHackable>false</mHackable>
+    <mPersistent>true</mPersistent>
+    <mSpriteSheet>SkyDrone.xml</mSpriteSheet>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>BossDeathSpriteExplosion1</mDeathExplosion>
+    <mDeathDistortion>BossDeathSpriteDistortion1</mDeathDistortion>
+    <mDeathDuration>256</mDeathDuration>
+    <mDeathExplosionPeriod>16</mDeathExplosionPeriod>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mHealthDropChance>1</mHealthDropChance>
+    
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+
+    <mAdditionalSound mName="Death" mFileName="BossExplosion1" mMaxInstances ="1" />
+    <mAdditionalSound mName="EnterAggro" mFileName="RobotRoar1" />
+    <mAdditionalSound mName="Roar1" mFileName="RobotRoar2" />
+    <mAdditionalSound mName="Roar2" mFileName="TurbineTransform" />
+    <mAdditionalSound mName="SpawnBomb" mFileName="SpawnBomb" />
+
+    <mMeleeWeapon mName="SkyDroneMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>25</mDamage>
+    </mMeleeWeapon>
+
+  </THNPCData>
+  
+  <THNPCData mName="SkyDroneTurbine" mClass="THSkyDroneTurbine" mAllegiance="FOE"  mHitPoints="150" mHackPoints ="100">
+    <mSpriteSheet></mSpriteSheet>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHackable>true</mHackable>
+
+    <THNPCHackInfo mType="OVERHEAT" mHackLevel="1"/>
+  </THNPCData>
+  
+  <THNPCData mName="SkyDroneMissilePod" mClass="THSkyDroneMissilePod" mAllegiance="FOE"  mHitPoints="150" mHackPoints ="100">
+    <mSpriteSheet></mSpriteSheet>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathShatter>BossPartShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mHackable>true</mHackable>
+
+    <THNPCHackInfo mType="OVERHEAT" mHackLevel="1"/>
+  </THNPCData>
+
+  <THNPCData mName="TrackingBomb" mClass="THTrackingBomb" mAllegiance="FOE" mHitPoints="2" mHackPoints ="50">
+    <mSpriteSheet></mSpriteSheet>
+    <mHurtSound>DroneHurt</mHurtSound>
+
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion></mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="DETONATE" mHackLevel="1"/>
+
+    <!--
+    <mGlitchNPC>Buhbull</mGlitchNPC>-->
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- SNAREGRASS -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="SnareGrassCyan" mClass="THSnareGrass" mAllegiance="FOE" mHitPoints="40">
+    <mSpriteSheet>SnareGrass.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mAdditionalSound mName="Attack" mFileName="GluggBite" />
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    
+    <mMeleeWeapon mName="SnareGrassCyanMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>40</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <THNPCData mName="SnareGrassPurple" mClass="THSnareGrass" mAllegiance="FOE" mHitPoints="40">
+    <mSpriteSheet>SnareGrass.xml</mSpriteSheet>
+    <mColorScheme>Purple</mColorScheme>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mAdditionalSound mName="Attack" mFileName="GluggBite" />
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mMeleeWeapon mName="SnareGrassPurpleMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>40</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <THNPCData mName="SnareGrassYellow" mClass="THSnareGrass" mAllegiance="FOE" mHitPoints="40">
+    <mSpriteSheet>SnareGrass.xml</mSpriteSheet>
+    <mColorScheme>Yellow</mColorScheme>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mAdditionalSound mName="Attack" mFileName="GluggBite" />
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mMeleeWeapon mName="SnareGrassYellowMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>40</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- SNIPER DRONE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="SniperDrone" mClass="THSniperDrone" mAllegiance="FOE" mHitPoints="90" mHackPoints="20">
+    <mSpriteSheet>SniperDrone.xml</mSpriteSheet>
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+
+    <THNPCHackInfo mType="SEIZE" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="3"/>
+
+  </THNPCData>
+  
+  <!-- ######################################################################## -->
+  <!-- SONAR DRONE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="SonarDrone" mClass="THSonarDrone"  mAllegiance="FOE" mHitPoints="90">
+    <mHackable>true</mHackable>
+    <mSpriteSheet>SonarDrone.xml</mSpriteSheet>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mAdditionalSound mName="ElectricBurst" mFileName="ElectricBurst" />
+    <mAdditionalSound mName="ElectricChargeup" mFileName="ElectricChargeup" />
+    <mAdditionalSound mName="SonarPing" mFileName="SonarPing" />
+        
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="SEIZE" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="2"/>
+    
+    <mMeleeWeapon mName="SonarDroneMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>20</mDamage>
+      <mCoolDown>60</mCoolDown>
+    </mMeleeWeapon>
+
+    <mPulseColor>
+      <X>23</X>
+      <Y>255</Y>
+      <Z>224</Z>
+      <W>255</W>
+    </mPulseColor>
+
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- SONAR DRONE META -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="SonarDrone_Meta" mClass="THSonarDrone"  mAllegiance="FOE" mHitPoints="180">
+    <mHackable>true</mHackable>
+    <mColorScheme>Meta</mColorScheme>
+    <mSpriteSheet>SonarDrone.xml</mSpriteSheet>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mSpeedFactor>1.5</mSpeedFactor>
+
+    <mAdditionalSound mName="ElectricBurst" mFileName="ElectricBurst" />
+    <mAdditionalSound mName="ElectricChargeup" mFileName="ElectricChargeup" />
+    <mAdditionalSound mName="SonarPing" mFileName="SonarPing" />
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="SEIZE" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="3"/>
+
+    <mMeleeWeapon mName="SonarDroneMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>40</mDamage>
+      <mCoolDown>60</mCoolDown>
+    </mMeleeWeapon>
+
+    <mPulseColor>
+      <X>23</X>
+      <Y>255</Y>
+      <Z>224</Z>
+      <W>255</W>
+    </mPulseColor>
+
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- SPIRABLADE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="SpiraBlade" mClass="THSpiraBlade"  mAllegiance="FOE" mHitPoints="60">
+    <mSpriteSheet>SpiraBlade.xml</mSpriteSheet>
+    <mHackable>true</mHackable>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mAdditionalSound mName="Roar1" mFileName="WeaponSlash" />
+    <mHealthDropChance>0.4</mHealthDropChance>
+    <mMeleeWeapon mName="SpiraBladeMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>60</mDamage>
+
+    </mMeleeWeapon>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- SPRINGBOARD -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="SpringBoard" mClass="THSpringBoard"  mAllegiance="ALL" mHitPoints="1000">
+    <mHackable>false</mHackable>
+    <mSpriteSheet>SpringBoard.xml</mSpriteSheet>
+    <mAdditionalSound mName="Steam" mFileName="Steam" />
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mMountable>true</mMountable>
+
+    <!-- Mark not a target-->
+    <mThreatLevel>0.0</mThreatLevel>
+    
+  </THNPCData>
+
+
+  <!-- ######################################################################## -->
+  <!-- STACKCRAWLER -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="StackCrawler" mClass="THStackCrawler" mAllegiance="FOE" mHitPoints="100">
+    <mSpriteSheet>StackCrawler.xml</mSpriteSheet>
+
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+
+    <mMeleeWeapon mName="StackCrawlerMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>20</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- STINGER MOSQUITO -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="StingerMosquito" mClass="THBlite" mAllegiance="FOE" mHitPoints="30">
+    <mSpriteSheet>StingerMosquito.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SpitbugHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mPulseColor>
+      <X>255</X>
+      <Y>224</Y>
+      <Z>0</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>1.0</mPulseRate>
+    <mAdditionalSound mName="Roar1" mFileName="BliteSting" />
+
+    <mMeleeWeapon mName="StingerMosquitoMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>20</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- STINGER MOSQUITO META -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="StingerMosquitoMeta" mClass="THBlite" mAllegiance="FOE" mHitPoints="60">
+    <mSpriteSheet>StingerMosquito.xml</mSpriteSheet>
+    <mColorScheme>Meta</mColorScheme>
+    <mHackable>false</mHackable>
+    <mHurtSound>SpitbugHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mPulseColor>
+      <X>255</X>
+      <Y>224</Y>
+      <Z>0</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>1.0</mPulseRate>
+    <mAdditionalSound mName="Roar1" mFileName="BliteSting" />
+
+    <mMeleeWeapon mName="StingerMosquitoMetaMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>30</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- STONER -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Stoner" mClass="THArtichoker" mAllegiance="FOE" mHitPoints="10" >
+    <mSpriteSheet>Stoner.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar2" mFileName="Boing1" />
+
+    <mMeleeWeapon mName="StonerMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>10</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- STRIDER DRONE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="StriderDrone" mClass="THStriderDrone" mAllegiance="FOE" mHitPoints="72">
+    <mSpriteSheet>StriderDrone.xml</mSpriteSheet>
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>StriderHurt</mHurtSound>
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar1" mFileName="StriderScreech" />
+    <mAdditionalSound mName="Roar2" mFileName="StriderJump" />
+    <mAdditionalSound mName="Land" mFileName="TraceLand" />
+    <mAdditionalSound mName="Death" mFileName="StriderDeath" />
+    <mAdditionalSound mName="FootStep" mFileName="DroneFootstep" />
+    
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="3"/>
+
+    <mHealthDropChance>0.5</mHealthDropChance>
+    <mMeleeWeapon mName="StriderDroneMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>60</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- STRIDER DRONE META -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="StriderDroneMeta" mClass="THStriderDrone" mAllegiance="FOE" mHitPoints="150">
+    <mSpriteSheet>StriderDrone.xml</mSpriteSheet>
+    <mColorScheme>Meta</mColorScheme>
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>StriderHurt</mHurtSound>
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar1" mFileName="StriderScreech" />
+    <mAdditionalSound mName="Roar2" mFileName="StriderJump" />
+    <mAdditionalSound mName="Land" mFileName="TraceLand" />
+    <mAdditionalSound mName="Death" mFileName="StriderDeath" />
+    <mAdditionalSound mName="FootStep" mFileName="DroneFootstep" />
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="4"/>
+
+    <mHealthDropChance>0.5</mHealthDropChance>
+    <mMeleeWeapon mName="StriderDroneMetaMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>120</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- STUN DRONE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="StunDrone" mClass="THStunDrone" mAllegiance="FOE" mHitPoints="50">
+    <mSpriteSheet>StunDrone.xml</mSpriteSheet>
+
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mAdditionalSound mName="EnterAggro" mFileName="DroneRoar" />
+    <mAdditionalSound mName="Confused" mFileName="DroneConfused" />
+    <mAdditionalSound mName="GiveUp" mFileName="DroneOhWell" />
+    <mAdditionalSound mName="Jump" mFileName="DroneJump" />
+    <mAdditionalSound mName="Land" mFileName="TraceLand" />
+    <mAdditionalSound mName="MeleeAttack" mFileName="StunDroneZap" />
+    <mAdditionalSound mName="FootStep" mFileName="DroneFootstep" />
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="1"/>
+
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mMeleeWeapon mName="StunDroneMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>50</mDamage>
+      <mCoolDown>60</mCoolDown>
+    </mMeleeWeapon>
+
+    <mAIData mVisionRange="160.0" mFOV="90.0">
+      <!-- Min and max bounds of the melee hurtbox plus hero's width -->
+      <mMinAggroRange>12.0</mMinAggroRange>
+      <mMaxAggroRange>22.0</mMaxAggroRange>
+      <mPatrolType>LEFT_RIGHT_LOOP</mPatrolType>
+      <mHuntDistance>64</mHuntDistance>
+
+      <!-- In case there was no weapon or before we first attack -->
+      <mDefaultCooldown>45</mDefaultCooldown>
+    </mAIData>
+
+    <mLocomotorData mLocomotorType="WALKING" mSneakSpeed="0.5" mBaseSpeed="1.0" mMaxSpeed="1.5" mJumpHeight="40.0" mJumpTime="24.0" >
+      <!-- This bounds figure will be used to create the room path graphs before the NPC is even spawned, since
+      we can't wait for the creature's sprite to be made, start animating, get its collision, etc.  So
+      we really need to make sure it's sprite collision is equal to or smaller than this. 
+      Also if two NPCs have similar bounds,  we'll want to just make them the same so that the
+      pathfinding graph doesn't need to change between them.-->
+      <mBounds>
+        <X>-7</X>
+        <Y>-7</Y>
+        <Width>14</Width>
+        <Height>14</Height>
+      </mBounds>
+    </mLocomotorData>
+
+    <!-- Actions-->
+    <THAIActionData mName="StunDroneInvestigate" mActionType="INVESTIGATE" mClass="THAIWalkingInvestigateAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+    </THAIActionData>
+    <THAIActionData mName="StunDroneMeleeAttack" mActionType="MELEE_ATTACK" mClass="THAIWalkingMeleeAttackAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+      
+      <!-- Needs to be included here as well as above bc the actoin needs to know the cooldown period -->
+      
+      <mWeapon>StunDroneMelee</mWeapon>
+    </THAIActionData>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- STUN DRONE META -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="StunDrone_Meta" mClass="THStunDrone" mAllegiance="FOE" mHitPoints="70">
+    <mSpriteSheet>StunDrone.xml</mSpriteSheet>
+    <mColorScheme>Meta</mColorScheme>
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mAdditionalSound mName="EnterAggro" mFileName="DroneRoar" />
+    <mAdditionalSound mName="Confused" mFileName="DroneConfused" />
+    <mAdditionalSound mName="GiveUp" mFileName="DroneOhWell" />
+    <mAdditionalSound mName="Jump" mFileName="DroneJump" />
+    <mAdditionalSound mName="Land" mFileName="TraceLand" />
+    <mAdditionalSound mName="MeleeAttack" mFileName="StunDroneZap" />
+    <mAdditionalSound mName="FootStep" mFileName="DroneFootstep" />
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="2"/>
+
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mGlitchAffectsThroughput>true</mGlitchAffectsThroughput>
+
+    <mMeleeWeapon mName="StunDroneMetaMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>70</mDamage>
+      <mCoolDown>50</mCoolDown>
+    </mMeleeWeapon>
+
+    <mAIData mVisionRange="160.0" mFOV="90.0">
+      <!-- Min and max bounds of the melee hurtbox plus hero's width -->
+      <mMinAggroRange>12.0</mMinAggroRange>
+      <mMaxAggroRange>22.0</mMaxAggroRange>
+      <mHuntDistance>96</mHuntDistance>
+      <mPatrolType>LEFT_RIGHT_LOOP</mPatrolType>
+
+      <!-- In case there was no weapon or before we first attack -->
+      <mDefaultCooldown>45</mDefaultCooldown>
+      <mSuspicionGrowthMultiplier>1.25</mSuspicionGrowthMultiplier>
+      
+    </mAIData>
+
+    <mLocomotorData mLocomotorType="WALKING" mSneakSpeed="0.5" mBaseSpeed="1.25" mMaxSpeed="1.75" mJumpHeight="96.0" mJumpTime="40.0" >
+      <!-- This bounds figure will be used to create the room path graphs before the NPC is even spawned, since
+      we can't wait for the creature's sprite to be made, start animating, get its collision, etc.  So
+      we really need to make sure it's sprite collision is equal to or smaller than this. 
+      Also if two NPCs have similar bounds,  we'll want to just make them the same so that the
+      pathfinding graph doesn't need to change between them.-->
+      <mBounds>
+        <X>-7</X>
+        <Y>-7</Y>
+        <Width>14</Width>
+        <Height>14</Height>
+      </mBounds>
+    </mLocomotorData>
+    
+    <!-- Actions-->
+    <THAIActionData mName="StunDroneInvestigate" mActionType="INVESTIGATE" mClass="THAIWalkingInvestigateAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+    </THAIActionData>
+    <THAIActionData mName="StunDroneMeleeAttack" mActionType="MELEE_ATTACK" mClass="THAIWalkingMeleeAttackAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+      <mWeapon>StunDroneMetaMelee</mWeapon>
+    </THAIActionData>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- STUN DRONE GAMMA -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="StunDrone_Gamma" mClass="THStunDrone" mAllegiance="FOE" mHitPoints="90">
+    <mSpriteSheet>StunDrone.xml</mSpriteSheet>
+    <mColorScheme>Gamma</mColorScheme>
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mAdditionalSound mName="EnterAggro" mFileName="DroneRoar" />
+    <mAdditionalSound mName="Confused" mFileName="DroneConfused" />
+    <mAdditionalSound mName="GiveUp" mFileName="DroneOhWell" />
+    <mAdditionalSound mName="Jump" mFileName="DroneJump" />
+    <mAdditionalSound mName="Land" mFileName="TraceLand" />
+    <mAdditionalSound mName="MeleeAttack" mFileName="StunDroneZap" />
+    <mAdditionalSound mName="FootStep" mFileName="DroneFootstep" />
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1" mCostOverride="50"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="3"/>
+
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mGlitchAffectsThroughput>true</mGlitchAffectsThroughput>
+
+    <mMeleeWeapon mName="StunDroneGammaMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>90</mDamage>
+      <mCoolDown>30</mCoolDown>
+      
+    </mMeleeWeapon>
+
+    <mAIData mVisionRange="160.0" mFOV="90.0">
+      <!-- Min and max bounds of the melee hurtbox plus hero's width -->
+      <mMinAggroRange>12.0</mMinAggroRange>
+      <mMaxAggroRange>22.0</mMaxAggroRange>
+      <mHuntDistance>96</mHuntDistance>
+      <mPatrolType>LEFT_RIGHT_LOOP</mPatrolType>
+
+      <!-- In case there was no weapon or before we first attack -->
+      <mDefaultCooldown>45</mDefaultCooldown>
+      <mSurpriseFrames>30</mSurpriseFrames>
+      <mThinkFrames>5</mThinkFrames>
+      <mSuspicionGrowthMultiplier>2.0</mSuspicionGrowthMultiplier>
+    </mAIData>
+
+    <mLocomotorData mLocomotorType="WALKING" mSneakSpeed="0.5" mBaseSpeed="1.25" mMaxSpeed="2.00" mJumpHeight="112.0" mJumpTime="40.0" >
+      <!-- This bounds figure will be used to create the room path graphs before the NPC is even spawned, since
+      we can't wait for the creature's sprite to be made, start animating, get its collision, etc.  So
+      we really need to make sure it's sprite collision is equal to or smaller than this. 
+      Also if two NPCs have similar bounds,  we'll want to just make them the same so that the
+      pathfinding graph doesn't need to change between them.-->
+      <mBounds>
+        <X>-7</X>
+        <Y>-7</Y>
+        <Width>14</Width>
+        <Height>14</Height>
+      </mBounds>
+    </mLocomotorData>
+
+    <!-- Actions-->
+    <THAIActionData mName="StunDroneInvestigate" mActionType="INVESTIGATE" mClass="THAIWalkingInvestigateAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+    </THAIActionData>
+    <THAIActionData mName="StunDroneMeleeAttack" mActionType="MELEE_ATTACK" mClass="THAIWalkingMeleeAttackAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+      <mWeapon>StunDroneMetaMelee</mWeapon>
+    </THAIActionData>
+  </THNPCData>
+  
+  
+  <!-- ######################################################################## -->
+  <!-- SUBMERSIBLE DRONE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="SubmersibleDrone" mClass="THSubmersibleDrone" mAllegiance="FOE" mHitPoints="80" mHackPoints="20">
+    <mSpriteSheet>SubmersibleDrone.xml</mSpriteSheet>
+
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    
+    <THNPCHackInfo mType="BACKWARDS" mHackLevel="1"/>
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+
+    
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- TRACKWELDER -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="TrackWelder" mClass="THTrackWelder" mAllegiance="FOE" mHitPoints="90">
+    <mSpriteSheet>TrackWelder.xml</mSpriteSheet>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mAdditionalSound mName="Roar1" mFileName="WeaponSlash" />
+    <mHealthDropChance>0.4</mHealthDropChance>
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="1"/>
+
+    <mMeleeWeapon mName="TrackWelderMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>15</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- TriHydra -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="TriHydra" mClass="THTriHydra" mAllegiance="FOE" mHitPoints="64">
+    <mSpriteSheet>TriHydra.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mStunResistance>0.5</mStunResistance>
+
+    <mAdditionalSound mName="Roar" mFileName="CreatureRoar2" />
+
+    <mHealthDropChance>0.4</mHealthDropChance>
+    <mMeleeWeapon mName="TriHydraMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>20</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- TripWire -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="TripWire" mClass="THTripWire"  mAllegiance="FOE" mHitPoints="50">
+    <mHackable>true</mHackable>
+    <mSpriteSheet>TripWire.xml</mSpriteSheet>
+    <mHurtSound>DroneHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mAdditionalSound mName="ElectricBurst" mFileName="ElectricBurst" />
+
+
+    <!--
+    <mAdditionalSound mName="ElectricChargeup" mFileName="ElectricChargeup" />
+    <mAdditionalSound mName="PowerOff" mFileName="PowerOff" />
+    <mAdditionalSound mName="PowerOn" mFileName="PowerOn" />-->
+
+    <!--<THNPCHackInfo mType="RELEASE" mHackLevel="1"/>-->
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="1"/>
+  </THNPCData>
+
+
+  <!-- ######################################################################## -->
+  <!-- UdugGir-->
+  <!-- ######################################################################## -->
+  <THNPCData mName="UdugGir" mClass="THUdugGir" mAllegiance="FOE" mHitPoints="60">
+    <mSpriteSheet>UdugGir.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    
+    <mAdditionalSound mName="Open" mFileName="BlurpOpen" />
+    <mAdditionalSound mName="Close" mFileName="BlurpClose" />
+    <mAdditionalSound mName="Fire" mFileName="Pew1" />
+    <mHealthDropChance>0.4</mHealthDropChance>
+    <mMeleeWeapon mName="UdugGirMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>60</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+
+  <!-- ######################################################################## -->
+  <!-- Udug Mite -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="UdugMite" mClass="THUdugMite" mAllegiance="FOE" mHitPoints="100">
+    <mSpriteSheet>UdugMite.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mGlitchVisual>NPCSubtleCorruptionGlitch</mGlitchVisual>
+
+    <mAdditionalSound mName="Roar1" mFileName="UdugMite" />
+    <mAdditionalSound mName="Roar2" mFileName="UdugMiteRoar" />
+    <mAdditionalSound mName="Snap" mFileName="UdugMiteSnap" />
+
+    <mMeleeWeapon mName="UdugMiteMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>40</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- Udug Mite Breach (Same as above with different sprite sheet) -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="UdugMiteBreach" mClass="THUdugMite" mAllegiance="FOE" mHitPoints="100">
+    <mSpriteSheet>UdugMiteBreach.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mGlitchVisual>NPCSubtleCorruptionGlitch</mGlitchVisual>
+
+    <mAdditionalSound mName="Roar1" mFileName="UdugMite" />
+    <mAdditionalSound mName="Roar2" mFileName="UdugMiteRoar" />
+    <mAdditionalSound mName="Snap" mFileName="UdugMiteSnap" />
+
+    <mMeleeWeapon mName="UdugMiteBreachMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>40</mDamage>
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- Udug Polyp -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="UdugPolyp" mClass="THUdugPolyp"  mAllegiance="FOE" mHitPoints="200">
+    <mSpinePath>Content/Art/Sprites/Enemies/UdugPolyp/Output/UdugPolyp</mSpinePath>
+    <mPersistent>true</mPersistent>
+    <mHackable>false</mHackable>
+    <mThreatLevel>0.0</mThreatLevel>
+
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mDoDamageGlow>false</mDoDamageGlow>
+    <mDeathShatter>LargeSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mGlitchVisual>NPCSubtleCorruptionGlitch</mGlitchVisual>
+
+    <mAdditionalSound mName="Roar1" mFileName="SpitbugSpawn" />
+    <mAdditionalSound mName="Roar2" mFileName="UdugPolypRoar" />
+
+    <mMeleeWeapon mName="UdugPolypMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>40</mDamage>
+    </mMeleeWeapon>
+
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- Udug Xul -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="UdugXul" mClass="THUdugXul"  mAllegiance="FOE" mHitPoints="200">
+    <mSpinePath>Content/Art/Sprites/Bosses/UdugXul/Output/UdugXul</mSpinePath>
+    <mPersistent>true</mPersistent>
+    <mHackable>false</mHackable>
+    <mThreatLevel>0.0</mThreatLevel>
+
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mDoDamageGlow>true</mDoDamageGlow>
+    <mDeathShatter>LargeSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+
+    <mAdditionalSound mName="Death" mFileName="BossExplosion1" mMaxInstances ="1" />
+    <mAdditionalSound mName="Roar1" mFileName="UdugMite" />
+    <mAdditionalSound mName="Roar2" mFileName="UdugPolypRoar" />
+    
+    <mMeleeWeapon mName="UdugXulMelee">
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>120</mDamage>
+    </mMeleeWeapon>
+
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- VILG -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Vilg" mClass="THVolg" mAllegiance="FOE" mHitPoints="70">
+    <mSpriteSheet>Vilg.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>YorchugHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mAdditionalSound mName="Roar1" mFileName="SpitbugSpawn" />
+    <mMeleeWeapon mName="Vilg">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>70</mDamage>
+
+    </mMeleeWeapon>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- WALKER DRONE -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="WalkerDrone" mClass="THWalkerDrone" mAllegiance="FOE" mHitPoints="90">
+    <mSpriteSheet>WalkerDrone.xml</mSpriteSheet>
+
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mAdditionalSound mName="EnterAggro" mFileName="DroneMediumRoar" />
+    <mAdditionalSound mName="Confused" mFileName="DroneMediumConfused" />
+    <mAdditionalSound mName="GiveUp" mFileName="DroneMediumOhWell" />
+    <mAdditionalSound mName="Jump" mFileName="DroneMediumJump" />
+    <mAdditionalSound mName="Land" mFileName="DroneFootstepMedium" />
+    <mAdditionalSound mName="MeleeAttack" mFileName="StunDroneZap" />
+    <mAdditionalSound mName="FootStep" mFileName="DroneFootstepMedium" />
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="2"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="2"/>
+
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mGlitchAffectsThroughput>true</mGlitchAffectsThroughput>
+    
+
+    <mAIData mVisionRange="220.0" mFOV="90.0">
+      <!-- Min and max bounds of the melee hurtbox plus hero's width -->
+      <mMinAggroRange>12.0</mMinAggroRange>
+      <mMaxAggroRange>22.0</mMaxAggroRange>
+      <mHuntDistance>128</mHuntDistance>
+      <mPatrolType>LEFT_RIGHT_LOOP</mPatrolType>
+
+      <!-- In case there was no weapon or before we first attack -->
+      <mDefaultCooldown>45</mDefaultCooldown>
+    </mAIData>
+
+    <mLocomotorData mLocomotorType="WALKING" mSneakSpeed="0.75" mBaseSpeed="1.25" mMaxSpeed="2.0" mJumpHeight="72.0" mJumpTime="40.0" >
+      <!-- This bounds figure will be used to create the room path graphs before the NPC is even spawned, since
+      we can't wait for the creature's sprite to be made, start animating, get its collision, etc.  So
+      we really need to make sure it's sprite collision is equal to or smaller than this. 
+      Also if two NPCs have similar bounds,  we'll want to just make them the same so that the
+      pathfinding graph doesn't need to change between them.-->
+      <mBounds>
+        <X>-7</X>
+        <Y>-30</Y>
+        <Width>14</Width>
+        <Height>30</Height>
+      </mBounds>
+    </mLocomotorData>
+
+    <!-- Actions-->
+    <THAIActionData mName="WalkerDroneInvestigate" mActionType="INVESTIGATE" mClass="THAIWalkingInvestigateAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+    </THAIActionData>
+    <THAIActionData mName="WalkerDroneRangedAttack" mActionType="RANGED_ATTACK" mClass="THAIWalkingRangedAttackAction">
+      <mMinRange>32.0</mMinRange>
+      <mMaxRange>200.0</mMaxRange>
+      <mMinTurretAngle>-22.5</mMinTurretAngle>
+      <mMaxTurretAngle>22.5</mMaxTurretAngle>
+      <mShotsPerVolley>3</mShotsPerVolley>
+      <mFramesPerShot>12</mFramesPerShot>
+      <mWeapon>WalkerDroneProj</mWeapon>
+      <mMuzzleName>Muzzle1</mMuzzleName>
+    </THAIActionData>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- WALKER DRONE ARMORED-->
+  <!-- ######################################################################## -->
+  <THNPCData mName="WalkerDroneArmored" mClass="THWalkerDrone" mAllegiance="FOE" mHitPoints="200">
+    <mSpriteSheet>WalkerDroneArmored.xml</mSpriteSheet>
+
+    <mHackLevel>1</mHackLevel>
+    <mStunResistance>0.5</mStunResistance>
+    <mKnockbackResistance>0.5</mKnockbackResistance>
+    
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mAdditionalSound mName="EnterAggro" mFileName="DroneMediumRoar" />
+    <mAdditionalSound mName="Confused" mFileName="DroneMediumConfused" />
+    <mAdditionalSound mName="GiveUp" mFileName="DroneMediumOhWell" />
+    <mAdditionalSound mName="Jump" mFileName="DroneMediumJump" />
+    <mAdditionalSound mName="Land" mFileName="DroneFootstepMedium" />
+    <mAdditionalSound mName="FootStep" mFileName="DroneFootstepMedium" />
+
+    <mAnimation mType="Walk" mName="Walk" />
+    <mAnimation mType="Run" mName="Run" />
+
+    <!-- Turn anim looks really bad with my "Turn whenever you flip" code.  Guess it only works
+    for flying units.
+    <mAnimation mType="Turn" mName="Turn" />-->
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="2"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="4"/>
+
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mGlitchAffectsThroughput>true</mGlitchAffectsThroughput>
+
+
+    <mAIData mVisionRange="220.0" mFOV="90.0">
+      <!-- Min and max bounds of the melee hurtbox plus hero's width -->
+      <mMinAggroRange>12.0</mMinAggroRange>
+      <mMaxAggroRange>22.0</mMaxAggroRange>
+      <mHuntDistance>128</mHuntDistance>
+      <mPatrolType>LEFT_RIGHT_LOOP</mPatrolType>
+
+      <!-- In case there was no weapon or before we first attack -->
+      <mDefaultCooldown>45</mDefaultCooldown>
+
+      <mSurpriseFrames>30</mSurpriseFrames>
+      <mThinkFrames>7</mThinkFrames>
+      <mSuspicionGrowthMultiplier>2.0</mSuspicionGrowthMultiplier>
+     
+    </mAIData>
+
+    <mLocomotorData mLocomotorType="WALKING" mSneakSpeed="0.75" mBaseSpeed="1.0" mMaxSpeed="1.5" mJumpHeight="72.0" mJumpTime="40.0" >
+      <!-- This bounds figure will be used to create the room path graphs before the NPC is even spawned, since
+      we can't wait for the creature's sprite to be made, start animating, get its collision, etc.  So
+      we really need to make sure it's sprite collision is equal to or smaller than this. 
+      Also if two NPCs have similar bounds,  we'll want to just make them the same so that the
+      pathfinding graph doesn't need to change between them.-->
+      <mBounds>
+        <X>-7</X>
+        <Y>-30</Y>
+        <Width>14</Width>
+        <Height>30</Height>
+      </mBounds>
+    </mLocomotorData>
+
+    <!-- Actions-->
+    <THAIActionData mName="WalkerDroneArmoredInvestigate" mActionType="INVESTIGATE" mClass="THAIWalkingInvestigateAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+    </THAIActionData>    
+    <THAIActionData mName="WalkerDroneArmoredCannonAttack" mActionType="RANGED_ATTACK" mClass="THAIWalkingRangedAttackAction">
+      <mMinRange>32.0</mMinRange>
+      <mMaxRange>200.0</mMaxRange>
+      <mMinTurretAngle>-22.5</mMinTurretAngle>
+      <mMaxTurretAngle>22.5</mMaxTurretAngle>
+      <mShotsPerVolley>1</mShotsPerVolley>
+      <mShotDuration>80</mShotDuration>
+      <mWeapon>WalkerDroneArmoredLaser</mWeapon>
+      <mMuzzleName>Cannon</mMuzzleName>
+    </THAIActionData>
+  </THNPCData>
+  
+  <!-- ######################################################################## -->
+  <!-- WALKER DRONE HEAVY-->
+  <!-- ######################################################################## -->
+  <THNPCData mName="WalkerDroneHeavy" mClass="THWalkerDrone" mAllegiance="FOE" mHitPoints="160">
+    <mSpriteSheet>WalkerDroneHeavy.xml</mSpriteSheet>
+
+    <mHackLevel>1</mHackLevel>
+    <mHurtSound>DroneMediumHurt</mHurtSound>
+    <mAdditionalSound mName="EnterAggro" mFileName="DroneMediumRoar" />
+    <mAdditionalSound mName="Confused" mFileName="DroneMediumConfused" />
+    <mAdditionalSound mName="GiveUp" mFileName="DroneMediumOhWell" />
+    <mAdditionalSound mName="Jump" mFileName="DroneMediumJump" />
+    <mAdditionalSound mName="Land" mFileName="DroneFootstepMedium" />
+    <mAdditionalSound mName="MeleeAttack" mFileName="StunDroneZap" />
+    <mAdditionalSound mName="FootStep" mFileName="DroneFootstepHeavy" />
+
+    <mAnimation mType="Walk" mName="Walk" />
+    <mAnimation mType="Run" mName="Run" />
+
+    <!-- Turn anim looks really bad with my "Turn whenever you flip" code.  Guess it only works
+    for flying units.
+    <mAnimation mType="Turn" mName="Turn" />-->
+
+    <THNPCHackInfo mType="SLOW" mHackLevel="2"/>
+    <THNPCHackInfo mType="ALLEGIANCE" mHackLevel="3"/>
+
+    <mDeathShatter>MediumSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mGlitchAffectsThroughput>true</mGlitchAffectsThroughput>
+
+
+    <mAIData mVisionRange="220.0" mFOV="90.0">
+      <!-- Min and max bounds of the melee hurtbox plus hero's width -->
+      <mMinAggroRange>12.0</mMinAggroRange>
+      <mMaxAggroRange>22.0</mMaxAggroRange>
+      <mHuntDistance>128</mHuntDistance>
+      <mPatrolType>LEFT_RIGHT_LOOP</mPatrolType>
+
+      <!-- In case there was no weapon or before we first attack -->
+      <mDefaultCooldown>45</mDefaultCooldown>
+
+      <mSurpriseFrames>30</mSurpriseFrames>
+      <mThinkFrames>5</mThinkFrames>
+      <mSuspicionGrowthMultiplier>2.0</mSuspicionGrowthMultiplier>
+    </mAIData>
+
+    <mLocomotorData mLocomotorType="WALKING" mSneakSpeed="0.75" mBaseSpeed="1.25" mMaxSpeed="2.0" mJumpHeight="72.0" mJumpTime="40.0" >
+      <!-- This bounds figure will be used to create the room path graphs before the NPC is even spawned, since
+      we can't wait for the creature's sprite to be made, start animating, get its collision, etc.  So
+      we really need to make sure it's sprite collision is equal to or smaller than this. 
+      Also if two NPCs have similar bounds,  we'll want to just make them the same so that the
+      pathfinding graph doesn't need to change between them.-->
+      <mBounds>
+        <X>-7</X>
+        <Y>-30</Y>
+        <Width>14</Width>
+        <Height>30</Height>
+      </mBounds>
+    </mLocomotorData>
+
+    <!-- Actions-->
+    <THAIActionData mName="WalkerDroneHeavyInvestigate" mActionType="INVESTIGATE" mClass="THAIWalkingInvestigateAction">
+      <mMinRange>12</mMinRange>
+      <mMaxRange>22</mMaxRange>
+    </THAIActionData>
+    <THAIActionData mName="WalkerDroneHeavyRangedAttack" mActionType="RANGED_ATTACK" mClass="THAIWalkingRangedAttackAction">
+      <mMinRange>32.0</mMinRange>
+      <mMaxRange>200.0</mMaxRange>
+      <mMinTurretAngle>-22.5</mMinTurretAngle>
+      <mMaxTurretAngle>22.5</mMaxTurretAngle>
+      <mShotsPerVolley>3</mShotsPerVolley>
+      <mFramesPerShot>12</mFramesPerShot>
+      <mWeapon>WalkerDroneProj</mWeapon>
+      <mMuzzleName>Muzzle1</mMuzzleName>
+    </THAIActionData>
+    <THAIActionData mName="WalkerDroneHeavyCannonAttack" mActionType="RANGED_ATTACK" mClass="THAIWalkingRangedAttackAction">
+      <mMinRange>32.0</mMinRange>
+      <mMaxRange>200.0</mMaxRange>
+      <mMinTurretAngle>-22.5</mMinTurretAngle>
+      <mMaxTurretAngle>22.5</mMaxTurretAngle>
+      <mShotsPerVolley>1</mShotsPerVolley>
+      <mShotDuration>60</mShotDuration>
+      <mWeapon>WalkerDroneHeavyLaser</mWeapon>
+      <mMuzzleName>Cannon</mMuzzleName>
+    </THAIActionData>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- WALKING STICK -->
+  <!-- ######################################################################## -->
+  <THNPCData mName="WalkingStick" mClass="THJorm" mAllegiance="FOE" mHitPoints="60" >
+    <mSpriteSheet>WalkingStick.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mHurtSound>SnailborgHurt</mHurtSound>
+    <mDeathShatter>SmallSpriteShatter</mDeathShatter>
+    <mDeathExplosion>StaticDeathSpriteExplosion</mDeathExplosion>
+    <mDeathDistortion>StaticDeathSpriteDistortion</mDeathDistortion>
+    <mSpeedFactor>1.5</mSpeedFactor>
+    <mMeleeWeapon mName="WalkingStickMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mHardness>2</mHardness>
+      <mDamage>40</mDamage>
+
+    </mMeleeWeapon>
+
+  </THNPCData>
+</THNPCSettings>

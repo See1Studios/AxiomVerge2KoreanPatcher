@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>Silkler.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="SilklerTexture">
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Silkler\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-3" mY="3" mWidth="6" mHeight="6" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="9" mHeight="15" mDelay="10" mOriginX="4" mOriginY="5" mU="13" mV="0" mUVWidth="9" mUVHeight="14" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Silkler\Output\Idle0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-4" mY="-5" mWidth="9" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-5" mWidth="9" mHeight="14" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="9" mHeight="15" mDelay="10" mOriginX="4" mOriginY="5" mU="11" mV="16" mUVWidth="7" mUVHeight="14" mCropX="1" mCropY="1" mSourceImageName="..\Enemies\Silkler\Output\Idle0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-3" mY="-4" mWidth="7" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-3" mY="-4" mWidth="7" mHeight="14" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="9" mHeight="15" mDelay="10" mOriginX="4" mOriginY="5" mU="0" mV="12" mUVWidth="9" mUVHeight="14" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Silkler\Output\Idle0002.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-4" mY="-5" mWidth="9" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-5" mWidth="9" mHeight="14" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="9" mHeight="15" mDelay="10" mOriginX="4" mOriginY="5" mU="20" mV="16" mUVWidth="7" mUVHeight="14" mCropX="1" mCropY="1" mSourceImageName="..\Enemies\Silkler\Output\Idle0003.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-3" mY="-4" mWidth="7" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-3" mY="-4" mWidth="7" mHeight="14" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Descend" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Silkler\Output\Descend.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-3" mY="3" mWidth="6" mHeight="6" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="11" mHeight="15" mDelay="5" mOriginX="5" mOriginY="5" mU="24" mV="0" mUVWidth="7" mUVHeight="13" mCropX="2" mCropY="1" mSourceImageName="..\Enemies\Silkler\Output\Descend0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-3" mY="-4" mWidth="7" mHeight="13" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-3" mY="-4" mWidth="7" mHeight="13" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="15" mDelay="5" mOriginX="5" mOriginY="5" mU="0" mV="0" mUVWidth="11" mUVHeight="10" mCropX="0" mCropY="2" mSourceImageName="..\Enemies\Silkler\Output\Descend0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-5" mY="-3" mWidth="11" mHeight="10" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-3" mWidth="11" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="15" mDelay="5" mOriginX="5" mOriginY="5" mU="33" mV="0" mUVWidth="7" mUVHeight="13" mCropX="2" mCropY="1" mSourceImageName="..\Enemies\Silkler\Output\Descend0002.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-3" mY="-4" mWidth="7" mHeight="13" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-3" mY="-4" mWidth="7" mHeight="13" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="15" mDelay="5" mOriginX="5" mOriginY="5" mU="42" mV="0" mUVWidth="5" mUVHeight="15" mCropX="3" mCropY="0" mSourceImageName="..\Enemies\Silkler\Output\Descend0003.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-2" mY="-5" mWidth="5" mHeight="15" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-5" mWidth="5" mHeight="15" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

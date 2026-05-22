@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>FuelCapsule.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="FuelCapsuleTexture">
+    <THSpriteAnimationData mName="Capsule" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\FuelCapsule\Output\Capsule.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="62" mDelay="8" mOriginX="16" mOriginY="62" mU="0" mV="0" mUVWidth="32" mUVHeight="62" mCropX="0" mCropY="0" mSourceImageName="..\Props\FuelCapsule\Output\Capsule0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Fluid" mX="0" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Fluid" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Props\FuelCapsule\Output\Fluid.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="48" mDelay="8" mOriginX="16" mOriginY="48" mU="34" mV="0" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\FuelCapsule\Output\Fluid0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="8" mOriginX="16" mOriginY="48" mU="68" mV="0" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\FuelCapsule\Output\Fluid0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="8" mOriginX="16" mOriginY="48" mU="0" mV="64" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\FuelCapsule\Output\Fluid0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="8" mOriginX="16" mOriginY="48" mU="34" mV="50" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\FuelCapsule\Output\Fluid0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="8" mOriginX="16" mOriginY="48" mU="68" mV="50" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\FuelCapsule\Output\Fluid0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="8" mOriginX="16" mOriginY="48" mU="102" mV="0" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\FuelCapsule\Output\Fluid0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="8" mOriginX="16" mOriginY="48" mU="136" mV="0" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\FuelCapsule\Output\Fluid0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="8" mOriginX="16" mOriginY="48" mU="102" mV="50" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\FuelCapsule\Output\Fluid0007.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Center">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Fluid">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

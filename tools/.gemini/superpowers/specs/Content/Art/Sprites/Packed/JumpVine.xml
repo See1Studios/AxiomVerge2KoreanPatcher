@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>JumpVine.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="JumpVineTexture">
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\JumpVine\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="1" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="26" mHeight="20" mDelay="10" mOriginX="13" mOriginY="-1" mU="0" mV="0" mUVWidth="26" mUVHeight="20" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JumpVine\Output\Idle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Tail0" mX="0" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-4" mY="0" mWidth="8" mHeight="15" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="0" mWidth="8" mHeight="15" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="26" mHeight="20" mDelay="10" mOriginX="13" mOriginY="-1" mU="28" mV="0" mUVWidth="26" mUVHeight="20" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JumpVine\Output\Idle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Tail0" mX="0" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-13" mY="4" mWidth="26" mHeight="12" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="4" mWidth="26" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="26" mHeight="20" mDelay="10" mOriginX="13" mOriginY="-1" mU="0" mV="22" mUVWidth="26" mUVHeight="20" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JumpVine\Output\Idle0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Tail0" mX="0" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-12" mY="9" mWidth="24" mHeight="12" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="9" mWidth="24" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="26" mHeight="20" mDelay="10" mOriginX="13" mOriginY="-1" mU="28" mV="22" mUVWidth="26" mUVHeight="20" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JumpVine\Output\Idle0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Tail0" mX="0" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-13" mY="4" mWidth="26" mHeight="12" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="4" mWidth="26" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TailEnd" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\JumpVine\Output\TailEnd.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-3" mY="0" mWidth="6" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="6" mHeight="8" mDelay="10" mOriginX="3" mOriginY="0" mU="10" mV="44" mUVWidth="6" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JumpVine\Output\TailEnd0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TailSeg1" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\JumpVine\Output\TailSeg1.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="2" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="4" mHeight="4" mDelay="10" mOriginX="2" mOriginY="2" mU="0" mV="52" mUVWidth="4" mUVHeight="4" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JumpVine\Output\TailSeg10000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TailSeg2" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\JumpVine\Output\TailSeg2.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-2" mWidth="8" mHeight="5" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="8" mHeight="6" mDelay="10" mOriginX="4" mOriginY="3" mU="0" mV="44" mUVWidth="8" mUVHeight="6" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JumpVine\Output\TailSeg20000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Tail0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

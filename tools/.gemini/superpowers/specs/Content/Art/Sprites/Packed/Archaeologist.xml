@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>2048</mMaxWidth>
+  <mMaxHeight>2048</mMaxHeight>
+  <mFileName>Archaeologist.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="ArchaeologistTexture">
+    <THSpriteAnimationData mName="Gesture" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Humans\Archaeologist\Output\Gesture.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-30" mWidth="10" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="21" mHeight="30" mDelay="31" mOriginX="10" mOriginY="30" mU="173" mV="32" mUVWidth="13" mUVHeight="30" mCropX="4" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Gesture0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="21" mHeight="30" mDelay="12" mOriginX="10" mOriginY="30" mU="129" mV="64" mUVWidth="13" mUVHeight="30" mCropX="4" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Gesture0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="21" mHeight="30" mDelay="26" mOriginX="10" mOriginY="30" mU="40" mV="47" mUVWidth="18" mUVHeight="30" mCropX="2" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Gesture0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="21" mHeight="30" mDelay="12" mOriginX="10" mOriginY="30" mU="0" mV="49" mUVWidth="18" mUVHeight="30" mCropX="2" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Gesture0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="21" mHeight="30" mDelay="26" mOriginX="10" mOriginY="30" mU="60" mV="54" mUVWidth="18" mUVHeight="30" mCropX="2" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Gesture0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="21" mHeight="30" mDelay="12" mOriginX="10" mOriginY="30" mU="97" mV="0" mUVWidth="20" mUVHeight="30" mCropX="1" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Gesture0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="21" mHeight="30" mDelay="26" mOriginX="10" mOriginY="30" mU="91" mV="32" mUVWidth="20" mUVHeight="30" mCropX="1" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Gesture0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="21" mHeight="30" mDelay="12" mOriginX="10" mOriginY="30" mU="158" mV="32" mUVWidth="13" mUVHeight="30" mCropX="4" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Gesture0007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="21" mHeight="30" mDelay="12" mOriginX="10" mOriginY="30" mU="179" mV="0" mUVWidth="13" mUVHeight="30" mCropX="5" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Gesture0008.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="21" mHeight="30" mDelay="41" mOriginX="10" mOriginY="30" mU="68" mV="22" mUVWidth="21" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Gesture0009.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="21" mHeight="30" mDelay="12" mOriginX="10" mOriginY="30" mU="20" mV="49" mUVWidth="18" mUVHeight="30" mCropX="2" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Gesture0010.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="21" mHeight="30" mDelay="12" mOriginX="10" mOriginY="30" mU="114" mV="64" mUVWidth="13" mUVHeight="30" mCropX="4" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Gesture0011.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Humans\Archaeologist\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-30" mWidth="10" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="15" mHeight="30" mDelay="208" mOriginX="9" mOriginY="30" mU="143" mV="32" mUVWidth="13" mUVHeight="30" mCropX="2" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Idle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="15" mHeight="30" mDelay="46" mOriginX="9" mOriginY="30" mU="149" mV="0" mUVWidth="13" mUVHeight="30" mCropX="2" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Idle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="15" mHeight="30" mDelay="7" mOriginX="9" mOriginY="30" mU="164" mV="0" mUVWidth="13" mUVHeight="30" mCropX="2" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Idle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="15" mHeight="30" mDelay="7" mOriginX="9" mOriginY="30" mU="128" mV="32" mUVWidth="13" mUVHeight="30" mCropX="2" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Idle0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="15" mHeight="30" mDelay="7" mOriginX="9" mOriginY="30" mU="97" mV="64" mUVWidth="15" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Idle0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="15" mHeight="30" mDelay="7" mOriginX="9" mOriginY="30" mU="194" mV="0" mUVWidth="13" mUVHeight="30" mCropX="2" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Idle0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="15" mHeight="30" mDelay="7" mOriginX="9" mOriginY="30" mU="113" mV="32" mUVWidth="13" mUVHeight="30" mCropX="2" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Idle0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="15" mHeight="30" mDelay="7" mOriginX="9" mOriginY="30" mU="80" mV="64" mUVWidth="15" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Idle0007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="15" mHeight="30" mDelay="12" mOriginX="9" mOriginY="30" mU="134" mV="0" mUVWidth="13" mUVHeight="30" mCropX="2" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Idle0008.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="15" mHeight="30" mDelay="31" mOriginX="9" mOriginY="30" mU="119" mV="0" mUVWidth="13" mUVHeight="30" mCropX="2" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Idle0009.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Stage1Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Humans\Archaeologist\Output\Stage1Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-30" mWidth="10" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="27" mHeight="20" mDelay="270" mOriginX="10" mOriginY="20" mU="68" mV="0" mUVWidth="27" mUVHeight="20" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Stage1Idle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Stage2Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Humans\Archaeologist\Output\Stage2Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-30" mWidth="10" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="32" mHeight="23" mDelay="12" mOriginX="15" mOriginY="23" mU="34" mV="0" mUVWidth="32" mUVHeight="22" mCropX="0" mCropY="1" mSourceImageName="..\Humans\Archaeologist\Output\Stage2Idle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="23" mDelay="12" mOriginX="15" mOriginY="23" mU="0" mV="0" mUVWidth="32" mUVHeight="23" mCropX="0" mCropY="0" mSourceImageName="..\Humans\Archaeologist\Output\Stage2Idle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="23" mDelay="12" mOriginX="15" mOriginY="23" mU="0" mV="25" mUVWidth="32" mUVHeight="22" mCropX="0" mCropY="1" mSourceImageName="..\Humans\Archaeologist\Output\Stage2Idle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="23" mDelay="20" mOriginX="15" mOriginY="23" mU="34" mV="24" mUVWidth="32" mUVHeight="21" mCropX="0" mCropY="2" mSourceImageName="..\Humans\Archaeologist\Output\Stage2Idle0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

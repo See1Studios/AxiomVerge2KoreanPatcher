@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>RussianSurvivor.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="RussianSurvivorTexture">
+    <THSpriteAnimationData mName="Idle1" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Humans\RussianSurvivor\Output\Idle1.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-29" mWidth="10" mHeight="29" mRadius="8" mColFlags="0" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="30" mDelay="135" mOriginX="8" mOriginY="30" mU="149" mV="64" mUVWidth="16" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Idle10000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle2" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Humans\RussianSurvivor\Output\Idle2.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-29" mWidth="10" mHeight="29" mRadius="8" mColFlags="0" />
+      </mCollisionList>
+      <THFrameData mWidth="18" mHeight="29" mDelay="62" mOriginX="9" mOriginY="29" mU="129" mV="64" mUVWidth="18" mUVHeight="29" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Idle20000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="29" mDelay="8" mOriginX="9" mOriginY="29" mU="172" mV="32" mUVWidth="18" mUVHeight="29" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Idle20001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="29" mDelay="31" mOriginX="9" mOriginY="29" mU="194" mV="0" mUVWidth="18" mUVHeight="29" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Idle20002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="29" mDelay="8" mOriginX="9" mOriginY="29" mU="109" mV="80" mUVWidth="18" mUVHeight="29" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Idle20003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Peek" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Humans\RussianSurvivor\Output\Peek.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-22" mWidth="10" mHeight="22" mRadius="8" mColFlags="0" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="27" mDelay="62" mOriginX="8" mOriginY="27" mU="185" mV="63" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Peek0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="27" mDelay="6" mOriginX="8" mOriginY="27" mU="147" mV="96" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Peek0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="27" mDelay="6" mOriginX="8" mOriginY="27" mU="210" mV="31" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Peek0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="27" mDelay="6" mOriginX="8" mOriginY="27" mU="232" mV="0" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Peek0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="27" mDelay="6" mOriginX="8" mOriginY="27" mU="167" mV="64" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Peek0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="27" mDelay="6" mOriginX="8" mOriginY="27" mU="192" mV="32" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Peek0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="27" mDelay="6" mOriginX="8" mOriginY="27" mU="129" mV="95" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Peek0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="27" mDelay="6" mOriginX="8" mOriginY="27" mU="214" mV="0" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Peek0007.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Run" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Humans\RussianSurvivor\Output\Run.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-29" mWidth="10" mHeight="29" mRadius="8" mColFlags="0" />
+      </mCollisionList>
+      <THFrameData mWidth="25" mHeight="32" mDelay="12" mOriginX="12" mOriginY="32" mU="30" mV="73" mUVWidth="25" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Run0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="25" mHeight="32" mDelay="12" mOriginX="12" mOriginY="32" mU="60" mV="50" mUVWidth="25" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Run0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="25" mHeight="32" mDelay="12" mOriginX="12" mOriginY="32" mU="87" mV="46" mUVWidth="25" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Run0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="25" mHeight="32" mDelay="12" mOriginX="12" mOriginY="32" mU="57" mV="84" mUVWidth="25" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Run0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Stage1Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Humans\RussianSurvivor\Output\Stage1Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-21" mWidth="10" mHeight="21" mRadius="8" mColFlags="0" />
+      </mCollisionList>
+      <THFrameData mWidth="28" mHeight="21" mDelay="270" mOriginX="8" mOriginY="21" mU="68" mV="0" mUVWidth="28" mUVHeight="21" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Stage1Idle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="28" mHeight="21" mDelay="6" mOriginX="8" mOriginY="21" mU="30" mV="50" mUVWidth="28" mUVHeight="21" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Stage1Idle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="28" mHeight="21" mDelay="6" mOriginX="8" mOriginY="21" mU="0" mV="96" mUVWidth="28" mUVHeight="21" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Stage1Idle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="28" mHeight="21" mDelay="6" mOriginX="8" mOriginY="21" mU="68" mV="23" mUVWidth="28" mUVHeight="21" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Stage1Idle0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="28" mHeight="21" mDelay="6" mOriginX="8" mOriginY="21" mU="98" mV="0" mUVWidth="28" mUVHeight="21" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Stage1Idle0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="28" mHeight="21" mDelay="6" mOriginX="8" mOriginY="21" mU="98" mV="23" mUVWidth="28" mUVHeight="21" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Stage1Idle0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="28" mHeight="21" mDelay="6" mOriginX="8" mOriginY="21" mU="0" mV="50" mUVWidth="28" mUVHeight="21" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Stage1Idle0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="28" mHeight="21" mDelay="6" mOriginX="8" mOriginY="21" mU="0" mV="73" mUVWidth="28" mUVHeight="21" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Stage1Idle0007.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Stage2Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Humans\RussianSurvivor\Output\Stage2Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-21" mWidth="10" mHeight="21" mRadius="8" mColFlags="0" />
+      </mCollisionList>
+      <THFrameData mWidth="32" mHeight="23" mDelay="12" mOriginX="8" mOriginY="23" mU="34" mV="25" mUVWidth="32" mUVHeight="23" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Stage2Idle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="23" mDelay="12" mOriginX="8" mOriginY="23" mU="34" mV="0" mUVWidth="32" mUVHeight="23" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Stage2Idle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="23" mDelay="12" mOriginX="8" mOriginY="23" mU="0" mV="25" mUVWidth="32" mUVHeight="23" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Stage2Idle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="23" mDelay="20" mOriginX="8" mOriginY="23" mU="0" mV="0" mUVWidth="32" mUVHeight="23" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Stage2Idle0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Unlock" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Humans\RussianSurvivor\Output\Unlock.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-29" mWidth="10" mHeight="29" mRadius="8" mColFlags="0" />
+      </mCollisionList>
+      <THFrameData mWidth="20" mHeight="30" mDelay="12" mOriginX="8" mOriginY="30" mU="87" mV="80" mUVWidth="20" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Unlock0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="30" mDelay="8" mOriginX="8" mOriginY="30" mU="128" mV="0" mUVWidth="20" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Unlock0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="30" mDelay="8" mOriginX="8" mOriginY="30" mU="150" mV="0" mUVWidth="20" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Unlock0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="30" mDelay="62" mOriginX="8" mOriginY="30" mU="128" mV="32" mUVWidth="20" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Unlock0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="30" mDelay="8" mOriginX="8" mOriginY="30" mU="150" mV="32" mUVWidth="20" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Unlock0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="30" mDelay="8" mOriginX="8" mOriginY="30" mU="172" mV="0" mUVWidth="20" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Humans\RussianSurvivor\Output\Unlock0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

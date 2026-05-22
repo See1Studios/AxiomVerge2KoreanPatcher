@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>HydroThermalDrone.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="HydroThermalDroneTexture">
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UtilityDrones\HydroThermalDrone\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-10" mWidth="16" mHeight="22" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="38" mHeight="26" mDelay="10" mOriginX="18" mOriginY="13" mU="0" mV="0" mUVWidth="38" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroThermalDrone\Output\Idle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="PowerCell" mX="1" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-9" mY="0" mWidth="20" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="38" mHeight="26" mDelay="10" mOriginX="18" mOriginY="13" mU="0" mV="28" mUVWidth="38" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroThermalDrone\Output\Idle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="PowerCell" mX="1" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-9" mY="0" mWidth="20" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="38" mHeight="26" mDelay="10" mOriginX="18" mOriginY="13" mU="40" mV="0" mUVWidth="38" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroThermalDrone\Output\Idle0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="PowerCell" mX="1" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-9" mY="0" mWidth="20" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="38" mHeight="26" mDelay="10" mOriginX="18" mOriginY="13" mU="40" mV="28" mUVWidth="38" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroThermalDrone\Output\Idle0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="PowerCell" mX="1" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-9" mY="0" mWidth="20" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="38" mHeight="26" mDelay="10" mOriginX="18" mOriginY="13" mU="80" mV="0" mUVWidth="38" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroThermalDrone\Output\Idle0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="PowerCell" mX="1" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-9" mY="0" mWidth="20" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="38" mHeight="26" mDelay="10" mOriginX="18" mOriginY="13" mU="80" mV="28" mUVWidth="38" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroThermalDrone\Output\Idle0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="PowerCell" mX="1" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-9" mY="0" mWidth="20" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="PowerCell">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Turbines">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

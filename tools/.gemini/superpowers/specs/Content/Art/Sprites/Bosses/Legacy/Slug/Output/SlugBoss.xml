@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THMultiSpriteData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+	<mVersion>1.0</mVersion>
+	<mWidth>832</mWidth>
+	<mHeight>480</mHeight>
+	<mStartFrame>1</mStartFrame>
+	<mEndFrame>200</mEndFrame>
+	<mFPS>30</mFPS>
+	<mHierarchyData mName="BASE_SlugBoss" >
+		<Layer mGroupName="SlugBossGroup" mAnimationIndex="0" mParentBoneIndex="-2" >
+			<Layer mProxyName="SlugDetritus" mAnimationIndex="1" mParentBoneIndex="-1" />
+			<Layer mProxyName="SlugBody10" mAnimationIndex="2" mParentBoneIndex="-1" />
+			<Layer mProxyName="SlugBody09" mAnimationIndex="3" mParentBoneIndex="-1" />
+			<Layer mProxyName="SlugBody08" mAnimationIndex="4" mParentBoneIndex="-1" />
+			<Layer mProxyName="SlugBody07" mAnimationIndex="5" mParentBoneIndex="-1" />
+			<Layer mAnimationIndex="-1" mCollisionIndex="0" mParentBoneIndex="-3" />
+			<Layer mAnimationIndex="-1" mCollisionIndex="1" mParentBoneIndex="-3" />
+			<Layer mGroupName="Body06" mAnimationIndex="6" mParentBoneIndex="-2" >
+				<Layer mProxyName="SlugLegIdle" mAnimationIndex="7" mParentBoneIndex="-2" />
+				<Layer mGroupName="SlugGun" mAnimationIndex="8" mParentBoneIndex="-2" >
+					<Layer mObjName="SlugBellyGun" mAnimationIndex="9" mParentBoneIndex="-3" />
+				</Layer>
+				<Layer mProxyName="SlugBody06" mAnimationIndex="10" mParentBoneIndex="-1" />
+				<Layer mProxyName="SlugLegIdle" mAnimationIndex="11" mParentBoneIndex="-2" />
+			</Layer>
+			<Layer mGroupName="Body05" mAnimationIndex="12" mParentBoneIndex="-2" >
+				<Layer mProxyName="SlugLegIdle" mAnimationIndex="13" mParentBoneIndex="-2" />
+				<Layer mGroupName="SlugGun" mAnimationIndex="14" mParentBoneIndex="-2" >
+					<Layer mObjName="SlugBellyGun" mAnimationIndex="15" mParentBoneIndex="-3" />
+				</Layer>
+				<Layer mProxyName="SlugBody05" mAnimationIndex="16" mParentBoneIndex="-1" />
+				<Layer mProxyName="SlugLegIdle" mAnimationIndex="17" mParentBoneIndex="-2" />
+			</Layer>
+			<Layer mGroupName="Body04" mAnimationIndex="18" mParentBoneIndex="-2" >
+				<Layer mProxyName="SlugLegIdle" mAnimationIndex="19" mParentBoneIndex="-2" />
+				<Layer mProxyName="SlugBody04" mAnimationIndex="20" mParentBoneIndex="-1" />
+				<Layer mProxyName="SlugLegIdle" mAnimationIndex="21" mParentBoneIndex="-2" />
+			</Layer>
+			<Layer mGroupName="Body03" mAnimationIndex="22" mParentBoneIndex="-2" >
+				<Layer mProxyName="SlugLegIdle" mAnimationIndex="23" mParentBoneIndex="-2" />
+				<Layer mProxyName="SlugBody03" mAnimationIndex="24" mParentBoneIndex="-1" />
+			</Layer>
+			<Layer mGroupName="Head" mAnimationIndex="25" mParentBoneIndex="-2" >
+				<Layer mProxyName="SlugLegIdle" mAnimationIndex="26" mParentBoneIndex="-2" />
+				<Layer mAnimationIndex="-1" mCollisionIndex="2" mParentBoneIndex="-3" />
+				<Layer mProxyName="SlugHead" mAnimationIndex="27" mParentBoneIndex="-1" />
+				<Layer mProxyName="SlugLegIdle" mAnimationIndex="28" mParentBoneIndex="-2" />
+			</Layer>
+			<Layer mGroupName="TopCannon" mAnimationIndex="29" mParentBoneIndex="-2" >
+				<Layer mObjName="SlugTopGun" mAnimationIndex="30" mParentBoneIndex="-1" />
+				<Layer mObjName="SlugTopGun" mAnimationIndex="31" mParentBoneIndex="-1" />
+				<Layer mObjName="SlugTopGun" mAnimationIndex="32" mParentBoneIndex="-1" />
+				<Layer mObjName="SlugCenterGun" mAnimationIndex="33" mParentBoneIndex="-1" />
+				<Layer mObjName="SlugTopGun" mAnimationIndex="34" mParentBoneIndex="-3" />
+				<Layer mObjName="SlugTopGun" mAnimationIndex="35" mParentBoneIndex="-3" />
+			</Layer>
+			<Layer mProxyName="SlugNeck" mAnimationIndex="36" mParentBoneIndex="-1" />
+			<Layer mGroupName="Body01" mAnimationIndex="37" mParentBoneIndex="-2" >
+				<Layer mObjName="SlugShoulderCannon" mAnimationIndex="38" mParentBoneIndex="-1" />
+				<Layer mProxyName="SlugLegIdle" mAnimationIndex="39" mParentBoneIndex="-2" />
+				<Layer mProxyName="SlugBody01" mAnimationIndex="40" mParentBoneIndex="-1" />
+			</Layer>
+			<Layer mGroupName="Body02" mAnimationIndex="41" mParentBoneIndex="-2" >
+				<Layer mProxyName="SlugLegIdle" mAnimationIndex="42" mParentBoneIndex="-2" />
+				<Layer mProxyName="SlugBody02" mAnimationIndex="43" mParentBoneIndex="-1" />
+			</Layer>
+		</Layer>
+	</mHierarchyData>
+	<mDrawOrderData>
+		<Layer mProxyName="SlugBody02" mAnimationIndex="43" />
+		<Layer mProxyName="SlugLegIdle" mAnimationIndex="42" />
+		<Layer mProxyName="SlugBody01" mAnimationIndex="40" />
+		<Layer mProxyName="SlugLegIdle" mAnimationIndex="39" />
+		<Layer mObjName="SlugShoulderCannon" mAnimationIndex="38" />
+		<Layer mProxyName="SlugNeck" mAnimationIndex="36" />
+		<Layer mObjName="SlugTopGun" mAnimationIndex="35" />
+		<Layer mObjName="SlugTopGun" mAnimationIndex="34" />
+		<Layer mObjName="SlugCenterGun" mAnimationIndex="33" />
+		<Layer mObjName="SlugTopGun" mAnimationIndex="32" />
+		<Layer mObjName="SlugTopGun" mAnimationIndex="31" />
+		<Layer mObjName="SlugTopGun" mAnimationIndex="30" />
+		<Layer mProxyName="SlugLegIdle" mAnimationIndex="28" />
+		<Layer mProxyName="SlugHead" mAnimationIndex="27" />
+		<Layer mProxyName="SlugLegIdle" mAnimationIndex="26" />
+		<Layer mProxyName="SlugBody03" mAnimationIndex="24" />
+		<Layer mProxyName="SlugLegIdle" mAnimationIndex="23" />
+		<Layer mProxyName="SlugLegIdle" mAnimationIndex="21" />
+		<Layer mProxyName="SlugBody04" mAnimationIndex="20" />
+		<Layer mProxyName="SlugLegIdle" mAnimationIndex="19" />
+		<Layer mProxyName="SlugLegIdle" mAnimationIndex="17" />
+		<Layer mProxyName="SlugBody05" mAnimationIndex="16" />
+		<Layer mObjName="SlugBellyGun" mAnimationIndex="15" />
+		<Layer mProxyName="SlugLegIdle" mAnimationIndex="13" />
+		<Layer mProxyName="SlugLegIdle" mAnimationIndex="11" />
+		<Layer mProxyName="SlugBody06" mAnimationIndex="10" />
+		<Layer mObjName="SlugBellyGun" mAnimationIndex="9" />
+		<Layer mProxyName="SlugLegIdle" mAnimationIndex="7" />
+		<Layer mProxyName="SlugBody07" mAnimationIndex="5" />
+		<Layer mProxyName="SlugBody08" mAnimationIndex="4" />
+		<Layer mProxyName="SlugBody09" mAnimationIndex="3" />
+		<Layer mProxyName="SlugBody10" mAnimationIndex="2" />
+		<Layer mProxyName="SlugDetritus" mAnimationIndex="1" />
+	</mDrawOrderData>
+	<AnimationData mName="SlugBossIdle" mDuration="61" mPosX="416" mPosY="240">
+		<Layer mAnimationIndex="0" ><!-- SlugBossGroup -->
+			<mOrigin><X>136</X><Y>205</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-47.382720947266</X><Y>2.3690400123596</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>1.0000674724579</X><Y>0.99993425607681</Y></mVal></ScaleKey>
+			<ScaleKey mT="30"><mVal><X>1.0207500457764</X><Y>0.97987198829651</Y></mVal></ScaleKey>
+			<ScaleKey mT="60"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="1" mProxyName="SlugDetritus" ><!-- PROXY_SlugDetritus -->
+			<mOrigin><X>-55</X><Y>76</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>193.98718261719</X><Y>126.38793182373</Y></mVal></TranslationKey>
+			<TranslationKey mT="30"><mVal><X>193.98719787598</X><Y>126.42216491699</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.99995809793472</X><Y>0.99993050098419</Y></mVal></ScaleKey>
+			<ScaleKey mT="30"><mVal><X>0.98717999458313</X><Y>0.97871601581573</Y></mVal></ScaleKey>
+			<ScaleKey mT="60"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="2" mProxyName="SlugBody10" ><!-- PROXY_SlugBody10 -->
+			<TranslationKey mT="1"><mVal><X>-90.142463684082</X><Y>121.34543609619</Y></mVal></TranslationKey>
+			<TranslationKey mT="5"><mVal><X>-90.544319152832</X><Y>121.34543609619</Y></mVal></TranslationKey>
+			<TranslationKey mT="35"><mVal><X>-87.530639648438</X><Y>121.34543609619</Y></mVal></TranslationKey>
+			<TranslationKey mT="60"><mVal><X>-90.041999816895</X><Y>121.34543609619</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="3" mProxyName="SlugBody09" ><!-- PROXY_SlugBody09 -->
+			<TranslationKey mT="1"><mVal><X>-74.337715148926</X><Y>157.27127075195</Y></mVal></TranslationKey>
+			<TranslationKey mT="4"><mVal><X>-74.639038085938</X><Y>157.27127075195</Y></mVal></TranslationKey>
+			<TranslationKey mT="34"><mVal><X>-71.625358581543</X><Y>157.27127075195</Y></mVal></TranslationKey>
+			<TranslationKey mT="60"><mVal><X>-74.237281799316</X><Y>157.27127075195</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="4" mProxyName="SlugBody08" ><!-- PROXY_SlugBody08 -->
+			<TranslationKey mT="1"><mVal><X>-46.375118255615</X><Y>177.6796875</Y></mVal></TranslationKey>
+			<TranslationKey mT="3"><mVal><X>-46.576080322266</X><Y>177.6796875</Y></mVal></TranslationKey>
+			<TranslationKey mT="33"><mVal><X>-43.562400817871</X><Y>177.6796875</Y></mVal></TranslationKey>
+			<TranslationKey mT="60"><mVal><X>-46.274639129639</X><Y>177.6796875</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="5" mProxyName="SlugBody07" ><!-- PROXY_SlugBody07 -->
+			<TranslationKey mT="1"><mVal><X>-2.4661200046539</X><Y>175.03991699219</Y></mVal></TranslationKey>
+			<TranslationKey mT="2"><mVal><X>-2.5665600299835</X><Y>175.03991699219</Y></mVal></TranslationKey>
+			<TranslationKey mT="32"><mVal><X>0.44712001085281</X><Y>175.03991699219</Y></mVal></TranslationKey>
+			<TranslationKey mT="60"><mVal><X>-2.3656799793243</X><Y>175.03991699219</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.99891495704651</X><Y>1.0017464160919</Y></mVal></ScaleKey>
+			<ScaleKey mT="2"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+			<ScaleKey mT="32"><mVal><X>0.96744298934937</X><Y>1.0349769592285</Y></mVal></ScaleKey>
+			<ScaleKey mT="60"><mVal><X>0.99782997369766</X><Y>1.0034929513931</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="6" ><!-- Body06 -->
+			<mOrigin><X>-2</X><Y>5</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>51.307678222656</X><Y>160.80792236328</Y></mVal></TranslationKey>
+			<TranslationKey mT="31"><mVal><X>54.220802307129</X><Y>160.80792236328</Y></mVal></TranslationKey>
+			<TranslationKey mT="60"><mVal><X>51.307678222656</X><Y>160.80792236328</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+			<ScaleKey mT="31"><mVal><X>0.97329998016357</X><Y>1.0236480236053</Y></mVal></ScaleKey>
+			<ScaleKey mT="60"><mVal><X>0.99735599756241</X><Y>1.0026659965515</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="7" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>7.4342398643494</X><Y>-20.423759460449</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="8" ><!-- SlugGun -->
+			<TranslationKey mT="1"><mVal><X>-14.689680099487</X><Y>-30.412559509277</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="9" ><!-- SlugGunBase.png -->
+			<TranslationKey mT="1"><mVal><X>0.19079999625683</X><Y>-0.70344001054764</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="10" mProxyName="SlugBody06" ><!-- PROXY_SlugBody06 -->
+		</Layer>
+		<Layer mAnimationIndex="11" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-55.801921844482</X><Y>-21.106079101563</Y></mVal></TranslationKey>
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="12" ><!-- Body05 -->
+			<TranslationKey mT="1"><mVal><X>137.2576751709</X><Y>135.94895935059</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.99988621473312</X><Y>1.0001041889191</Y></mVal></ScaleKey>
+			<ScaleKey mT="30"><mVal><X>0.96513301134109</X><Y>1.0320210456848</Y></mVal></ScaleKey>
+			<ScaleKey mT="60"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="13" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>4.4738402366638</X><Y>-16.427280426025</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="14" ><!-- SlugGun -->
+			<TranslationKey mT="1"><mVal><X>-29.331359863281</X><Y>-36.127437591553</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="15" ><!-- SlugGunBase.png -->
+			<TranslationKey mT="1"><mVal><X>0.19079999625683</X><Y>-0.70344001054764</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="16" mProxyName="SlugBody05" ><!-- PROXY_SlugBody05 -->
+			<TranslationKey mT="1"><mVal><X>-7.124400138855</X><Y>7.203360080719</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="17" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-80.761199951172</X><Y>-17.739358901978</Y></mVal></TranslationKey>
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="18" ><!-- Body04 -->
+			<TranslationKey mT="1"><mVal><X>184.42607116699</X><Y>109.17768096924</Y></mVal></TranslationKey>
+			<TranslationKey mT="31"><mVal><X>182.85600280762</X><Y>112.3180847168</Y></mVal></TranslationKey>
+			<TranslationKey mT="60"><mVal><X>184.37376403809</X><Y>109.28231811523</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+			<ScaleKey mT="31"><mVal><X>0.96651697158813</X><Y>1.0394819974899</Y></mVal></ScaleKey>
+			<ScaleKey mT="60"><mVal><X>0.99907302856445</X><Y>1.0009750127792</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="19" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>19.968000411987</X><Y>-22.617839813232</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="20" mProxyName="SlugBody04" ><!-- PROXY_SlugBody04 -->
+		</Layer>
+		<Layer mAnimationIndex="21" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-94.115280151367</X><Y>-23.871599197388</Y></mVal></TranslationKey>
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="22" ><!-- Body03 -->
+			<TranslationKey mT="1"><mVal><X>218.15663146973</X><Y>67.842834472656</Y></mVal></TranslationKey>
+			<TranslationKey mT="2"><mVal><X>218.20895385742</X><Y>67.847755432129</Y></mVal></TranslationKey>
+			<TranslationKey mT="32"><mVal><X>216.63887023926</X><Y>67.699440002441</Y></mVal></TranslationKey>
+			<TranslationKey mT="60"><mVal><X>218.10432434082</X><Y>67.837921142578</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>1.0001872777939</X><Y>0.99805599451065</Y></mVal></ScaleKey>
+			<ScaleKey mT="3"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+			<ScaleKey mT="6"><mVal><X>1.0002809762955</X><Y>0.9970840215683</Y></mVal></ScaleKey>
+			<ScaleKey mT="36"><mVal><X>1.0051529407501</X><Y>0.97470301389694</Y></mVal></ScaleKey>
+			<ScaleKey mT="60"><mVal><X>1.0002809762955</X><Y>0.9970840215683</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="23" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>16.698240280151</X><Y>-28.033679962158</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="24" mProxyName="SlugBody03" ><!-- PROXY_SlugBody03 -->
+		</Layer>
+		<Layer mAnimationIndex="25" ><!-- Head -->
+			<TranslationKey mT="1"><mVal><X>57.351680755615</X><Y>-7.0093197822571</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>57.581279754639</X><Y>-7.4683198928833</Y></mVal></TranslationKey>
+			<TranslationKey mT="36"><mVal><X>56.011199951172</X><Y>-4.327919960022</Y></mVal></TranslationKey>
+			<TranslationKey mT="60"><mVal><X>57.305759429932</X><Y>-6.9175200462341</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="26" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>32.103839874268</X><Y>-8.0140800476074</Y></mVal></TranslationKey>
+			<RotationKey mT="1" mVal="-3.1938319206238" />
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="27" ><!-- Head -->
+		</Layer>
+		<Layer mAnimationIndex="28" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-62.589363098145</X><Y>-12.976320266724</Y></mVal></TranslationKey>
+			<RotationKey mT="1" mVal="-2.6846849918365" />
+		</Layer>
+		<Layer mAnimationIndex="29" ><!-- TopCannon -->
+			<TranslationKey mT="1"><mVal><X>100.28382873535</X><Y>-126.01887512207</Y></mVal></TranslationKey>
+			<TranslationKey mT="34"><mVal><X>98.717758178711</X><Y>-122.88648986816</Y></mVal></TranslationKey>
+			<TranslationKey mT="60"><mVal><X>100.28784179688</X><Y>-126.02687072754</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="30" ><!-- SlugCannonBarrel.png 4 -->
+			<TranslationKey mT="1"><mVal><X>81.802795410156</X><Y>1.4553600549698</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="31" ><!-- SlugCannonBarrel.png 3 -->
+			<TranslationKey mT="1"><mVal><X>58.218719482422</X><Y>-25.315919876099</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="32" ><!-- SlugCannonBarrel.png 2 -->
+			<TranslationKey mT="1"><mVal><X>31.447441101074</X><Y>-45.713039398193</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="33" ><!-- SlugCannonCenterBarrel.png -->
+			<TranslationKey mT="1"><mVal><X>47.382720947266</X><Y>-2.3690400123596</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="34" ><!-- SlugCannonBarrel.png 2 -->
+			<TranslationKey mT="1"><mVal><X>7.8633599281311</X><Y>-20.854080200195</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="35" ><!-- SlugCannonBarrel.png -->
+			<TranslationKey mT="1"><mVal><X>-2.3352000713348</X><Y>9.7416000366211</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="36" mProxyName="SlugNeck" ><!-- PROXY_SlugNeck -->
+			<TranslationKey mT="1"><mVal><X>100.5806427002</X><Y>-49.068050384521</Y></mVal></TranslationKey>
+			<TranslationKey mT="5"><mVal><X>100.78991699219</X><Y>-49.486801147461</Y></mVal></TranslationKey>
+			<TranslationKey mT="35"><mVal><X>99.219841003418</X><Y>-46.3464012146</Y></mVal></TranslationKey>
+			<TranslationKey mT="60"><mVal><X>100.5283203125</X><Y>-48.963359832764</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="37" ><!-- Body01 -->
+			<TranslationKey mT="1"><mVal><X>179.16984558105</X><Y>-94.47966003418</Y></mVal></TranslationKey>
+			<TranslationKey mT="4"><mVal><X>179.32679748535</X><Y>-94.793762207031</Y></mVal></TranslationKey>
+			<TranslationKey mT="34"><mVal><X>177.75671386719</X><Y>-91.653358459473</Y></mVal></TranslationKey>
+			<TranslationKey mT="60"><mVal><X>179.11752319336</X><Y>-94.374961853027</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>1.0025889873505</X><Y>0.99722498655319</Y></mVal></ScaleKey>
+			<ScaleKey mT="4"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+			<ScaleKey mT="34"><mVal><X>1.025887966156</X><Y>0.97224897146225</Y></mVal></ScaleKey>
+			<ScaleKey mT="60"><mVal><X>1.0034519433975</X><Y>0.99629998207092</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="38" ><!-- SlugShoulderCannon.png -->
+			<mOrigin><X>-12</X><Y>-59</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>86.568000793457</X><Y>18.936000823975</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="39" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-9.1768808364868</X><Y>10.906319618225</Y></mVal></TranslationKey>
+			<RotationKey mT="1" mVal="-3.2336580753326" />
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="40" ><!-- SlugBody01.png -->
+		</Layer>
+		<Layer mAnimationIndex="41" ><!-- Body02 -->
+			<mOrigin><X>235</X><Y>-24</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>0.10967999696732</X><Y>-0.88495999574661</Y></mVal></TranslationKey>
+			<TranslationKey mT="3"><mVal><X>0.21432000398636</X><Y>-1.0943999290466</Y></mVal></TranslationKey>
+			<TranslationKey mT="34"><mVal><X>1.3111200332642</X><Y>2.0460000038147</Y></mVal></TranslationKey>
+			<TranslationKey mT="60"><mVal><X>0.057360000908375</X><Y>-0.78023999929428</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>1.0023819208145</X><Y>0.99778467416763</Y></mVal></ScaleKey>
+			<ScaleKey mT="3"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+			<ScaleKey mT="33"><mVal><X>1.0421390533447</X><Y>0.96098697185516</Y></mVal></ScaleKey>
+			<ScaleKey mT="60"><mVal><X>1.0035729408264</X><Y>0.99667698144913</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="42" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>233.00784301758</X><Y>-49.958641052246</Y></mVal></TranslationKey>
+			<RotationKey mT="1" mVal="-2.67316198349" />
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="43" mProxyName="SlugBody02" ><!-- PROXY_SlugBody02 -->
+			<TranslationKey mT="1"><mVal><X>221.05752563477</X><Y>-36.084239959717</Y></mVal></TranslationKey>
+		</Layer>
+	</AnimationData>
+	<AnimationData mName="SlugBossWound" mDuration="7" mPosX="416" mPosY="240">
+		<Layer mAnimationIndex="0" ><!-- SlugBossGroup -->
+			<mOrigin><X>136</X><Y>205</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-47.382720947266</X><Y>2.3690400123596</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>1.002402305603</X><Y>0.99770134687424</Y></mVal></ScaleKey>
+			<ScaleKey mT="6"><mVal><X>1.0144139528275</X><Y>0.98620802164078</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="1" mProxyName="SlugDetritus" ><!-- PROXY_SlugDetritus -->
+			<mOrigin><X>-55</X><Y>76</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>194.1957244873</X><Y>126.3935546875</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>195.23832702637</X><Y>126.42216491699</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.99962019920349</X><Y>0.99735081195831</Y></mVal></ScaleKey>
+			<ScaleKey mT="6"><mVal><X>0.99772101640701</X><Y>0.98410499095917</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="2" mProxyName="SlugBody10" ><!-- PROXY_SlugBody10 -->
+			<TranslationKey mT="1"><mVal><X>-89.310676574707</X><Y>121.45404052734</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>-85.654075622559</X><Y>121.99703979492</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>1.0043303966522</X><Y>0.99459701776505</Y></mVal></ScaleKey>
+			<ScaleKey mT="6"><mVal><X>1.0259820222855</X><Y>0.96758198738098</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="3" mProxyName="SlugBody09" ><!-- PROXY_SlugBody09 -->
+			<TranslationKey mT="1"><mVal><X>-73.489204406738</X><Y>157.27127075195</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>-69.748802185059</X><Y>157.27127075195</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>1.0060474872589</X><Y>0.99457764625549</Y></mVal></ScaleKey>
+			<ScaleKey mT="6"><mVal><X>1.0362850427628</X><Y>0.96746599674225</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="4" mProxyName="SlugBody08" ><!-- PROXY_SlugBody08 -->
+			<TranslationKey mT="1"><mVal><X>-45.614078521729</X><Y>177.6796875</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>-42.311279296875</X><Y>177.6796875</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>1.0025656223297</X><Y>0.99461984634399</Y></mVal></ScaleKey>
+			<ScaleKey mT="6"><mVal><X>1.0153939723969</X><Y>0.96771901845932</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="5" mProxyName="SlugBody07" ><!-- PROXY_SlugBody07 -->
+			<TranslationKey mT="1"><mVal><X>-1.6883599758148</X><Y>175.03991699219</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>1.6982399225235</X><Y>175.03991699219</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.99882531166077</X><Y>1.0024774074554</Y></mVal></ScaleKey>
+			<ScaleKey mT="6"><mVal><X>1.0038019418716</X><Y>0.99739998579025</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="6" ><!-- Body06 -->
+			<mOrigin><X>-2</X><Y>5</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>51.917922973633</X><Y>160.80792236328</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>55.471920013428</X><Y>160.80792236328</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.99678468704224</X><Y>1.0043351650238</Y></mVal></ScaleKey>
+			<ScaleKey mT="6"><mVal><X>0.99392801523209</X><Y>1.0126810073853</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="7" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>7.4342398643494</X><Y>-20.423759460449</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="8" ><!-- SlugGun -->
+			<TranslationKey mT="1"><mVal><X>-14.689680099487</X><Y>-30.412559509277</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="9" ><!-- SlugGunBase.png -->
+			<TranslationKey mT="1"><mVal><X>0.19079999625683</X><Y>-0.70344001054764</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="10" mProxyName="SlugBody06" ><!-- PROXY_SlugBody06 -->
+		</Layer>
+		<Layer mAnimationIndex="11" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-55.801921844482</X><Y>-21.106079101563</Y></mVal></TranslationKey>
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="12" ><!-- Body05 -->
+			<TranslationKey mT="1"><mVal><X>137.67468261719</X><Y>135.94895935059</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>139.75968933105</X><Y>135.94895935059</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.9915988445282</X><Y>1.0071707963943</Y></mVal></ScaleKey>
+			<ScaleKey mT="6"><mVal><X>0.94959300756454</X><Y>1.0430250167847</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="13" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>4.4738402366638</X><Y>-16.427280426025</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="14" ><!-- SlugGun -->
+			<TranslationKey mT="1"><mVal><X>-29.331359863281</X><Y>-36.127437591553</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="15" ><!-- SlugGunBase.png -->
+			<TranslationKey mT="1"><mVal><X>0.19079999625683</X><Y>-0.70344001054764</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="16" mProxyName="SlugBody05" ><!-- PROXY_SlugBody05 -->
+			<TranslationKey mT="1"><mVal><X>-7.124400138855</X><Y>7.203360080719</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="17" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-80.761199951172</X><Y>-17.739358901978</Y></mVal></TranslationKey>
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="18" ><!-- Body04 -->
+			<TranslationKey mT="1"><mVal><X>184.85057067871</X><Y>109.67967987061</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>187.23455810547</X><Y>111.66647338867</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.9901921749115</X><Y>1.0091960430145</Y></mVal></ScaleKey>
+			<ScaleKey mT="6"><mVal><X>0.94578802585602</X><Y>1.0503009557724</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="19" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>19.968000411987</X><Y>-22.617839813232</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="20" mProxyName="SlugBody04" ><!-- PROXY_SlugBody04 -->
+		</Layer>
+		<Layer mAnimationIndex="21" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-94.115280151367</X><Y>-23.871599197388</Y></mVal></TranslationKey>
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="22" ><!-- Body03 -->
+			<TranslationKey mT="1"><mVal><X>218.79835510254</X><Y>67.597640991211</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>222.26856994629</X><Y>66.396240234375</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.9967468380928</X><Y>0.99795782566071</Y></mVal></ScaleKey>
+			<ScaleKey mT="6"><mVal><X>0.97907602787018</X><Y>1.002326965332</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="23" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>16.698240280151</X><Y>-28.033679962158</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="24" mProxyName="SlugBody03" ><!-- PROXY_SlugBody03 -->
+		</Layer>
+		<Layer mAnimationIndex="25" ><!-- Head -->
+			<TranslationKey mT="1"><mVal><X>63.629638671875</X><Y>-13.185519218445</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>95.249038696289</X><Y>-44.525520324707</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.9903958439827</X><Y>1.0089988708496</Y></mVal></ScaleKey>
+			<ScaleKey mT="6"><mVal><X>0.94237500429153</X><Y>1.0539929866791</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="26" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>32.103839874268</X><Y>-8.0140800476074</Y></mVal></TranslationKey>
+			<RotationKey mT="1" mVal="-3.1938319206238" />
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="27" ><!-- Head -->
+		</Layer>
+		<Layer mAnimationIndex="28" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-62.589363098145</X><Y>-12.976320266724</Y></mVal></TranslationKey>
+			<RotationKey mT="1" mVal="-2.6846849918365" />
+		</Layer>
+		<Layer mAnimationIndex="29" ><!-- TopCannon -->
+			<TranslationKey mT="1"><mVal><X>102.45455932617</X><Y>-127.6882019043</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>113.28816223145</X><Y>-135.99481201172</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="30" ><!-- SlugCannonBarrel.png 4 -->
+			<TranslationKey mT="1"><mVal><X>81.802795410156</X><Y>1.4553600549698</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="31" ><!-- SlugCannonBarrel.png 3 -->
+			<TranslationKey mT="1"><mVal><X>58.218719482422</X><Y>-25.315919876099</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="32" ><!-- SlugCannonBarrel.png 2 -->
+			<TranslationKey mT="1"><mVal><X>31.447441101074</X><Y>-45.713039398193</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="33" ><!-- SlugCannonCenterBarrel.png -->
+			<TranslationKey mT="1"><mVal><X>47.382720947266</X><Y>-2.3690400123596</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="34" ><!-- SlugCannonBarrel.png 2 -->
+			<TranslationKey mT="1"><mVal><X>7.8633599281311</X><Y>-20.854080200195</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="35" ><!-- SlugCannonBarrel.png -->
+			<TranslationKey mT="1"><mVal><X>-2.3352000713348</X><Y>9.7416000366211</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="36" mProxyName="SlugNeck" ><!-- PROXY_SlugNeck -->
+			<TranslationKey mT="1"><mVal><X>105.10675811768</X><Y>-54.184482574463</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>127.99896240234</X><Y>-80.290084838867</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.98333334922791</X><Y>1.0166666507721</Y></mVal></ScaleKey>
+			<ScaleKey mT="6"><mVal><X>0.89999997615814</X><Y>1.1000000238419</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="37" ><!-- Body01 -->
+			<TranslationKey mT="1"><mVal><X>181.23344421387</X><Y>-95.433364868164</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>191.81303405762</X><Y>-100.72535705566</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.99944078922272</X><Y>1.0012961626053</Y></mVal></ScaleKey>
+			<ScaleKey mT="6"><mVal><X>0.97938501834869</X><Y>1.0262769460678</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="38" ><!-- SlugShoulderCannon.png -->
+			<mOrigin><X>-12</X><Y>-59</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>86.568000793457</X><Y>18.936000823975</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="39" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-9.1768808364868</X><Y>10.906319618225</Y></mVal></TranslationKey>
+			<RotationKey mT="1" mVal="-3.2336580753326" />
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="40" mProxyName="SlugBody01" ><!-- PROXY_SlugBody01 -->
+		</Layer>
+		<Layer mAnimationIndex="41" ><!-- Body02 -->
+			<mOrigin><X>235</X><Y>-24</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>2.0018000602722</X><Y>-1.3185601234436</Y></mVal></TranslationKey>
+			<TranslationKey mT="6"><mVal><X>11.723999977112</X><Y>-4.0101599693298</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>1.0065417289734</X><Y>0.99805963039398</Y></mVal></ScaleKey>
+			<ScaleKey mT="6"><mVal><X>1.0213860273361</X><Y>1.0049730539322</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="42" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>233.00784301758</X><Y>-49.958641052246</Y></mVal></TranslationKey>
+			<RotationKey mT="1" mVal="-2.67316198349" />
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="43" mProxyName="SlugBody02" ><!-- PROXY_SlugBody02 -->
+			<TranslationKey mT="1"><mVal><X>221.05752563477</X><Y>-36.084239959717</Y></mVal></TranslationKey>
+		</Layer>
+	</AnimationData>
+	<AnimationData mName="SlugBossFireTopCannon" mDuration="109" mPosX="416" mPosY="240">
+		<Layer mAnimationIndex="0" ><!-- SlugBossGroup -->
+			<mOrigin><X>136</X><Y>205</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-47.382720947266</X><Y>2.3690400123596</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+			<ScaleKey mT="16"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+			<ScaleKey mT="46"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+			<ScaleKey mT="52"><mVal><X>1.0327709913254</X><Y>0.96772998571396</Y></mVal></ScaleKey>
+			<ScaleKey mT="64"><mVal><X>1.0307259559631</X><Y>0.96979999542236</Y></mVal></ScaleKey>
+			<ScaleKey mT="76"><mVal><X>1.0327709913254</X><Y>0.96772998571396</Y></mVal></ScaleKey>
+			<ScaleKey mT="88"><mVal><X>1.0307259559631</X><Y>0.96979999542236</Y></mVal></ScaleKey>
+			<ScaleKey mT="100"><mVal><X>1.0327709913254</X><Y>0.96772998571396</Y></mVal></ScaleKey>
+			<ScaleKey mT="108"><mVal><X>1.0207500457764</X><Y>0.97987198829651</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="1" mProxyName="SlugDetritus" ><!-- PROXY_SlugDetritus -->
+			<mOrigin><X>-55</X><Y>76</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>193.98719787598</X><Y>126.42216491699</Y></mVal></TranslationKey>
+			<TranslationKey mT="16"><mVal><X>193.98719787598</X><Y>126.42216491699</Y></mVal></TranslationKey>
+			<TranslationKey mT="46"><mVal><X>193.98719787598</X><Y>126.42216491699</Y></mVal></TranslationKey>
+			<TranslationKey mT="52"><mVal><X>193.98719787598</X><Y>126.42216491699</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.99905002117157</X><Y>0.99842298030853</Y></mVal></ScaleKey>
+			<ScaleKey mT="16"><mVal><X>0.99905002117157</X><Y>0.99842298030853</Y></mVal></ScaleKey>
+			<ScaleKey mT="46"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+			<ScaleKey mT="52"><mVal><X>0.98717999458313</X><Y>0.97871601581573</Y></mVal></ScaleKey>
+			<ScaleKey mT="64"><mVal><X>0.98829400539398</X><Y>0.98041898012161</Y></mVal></ScaleKey>
+			<ScaleKey mT="76"><mVal><X>0.98717999458313</X><Y>0.97871601581573</Y></mVal></ScaleKey>
+			<ScaleKey mT="88"><mVal><X>0.98829400539398</X><Y>0.98041898012161</Y></mVal></ScaleKey>
+			<ScaleKey mT="100"><mVal><X>0.98717999458313</X><Y>0.97871601581573</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="2" mProxyName="SlugBody10" ><!-- PROXY_SlugBody10 -->
+			<TranslationKey mT="1"><mVal><X>-89.832725524902</X><Y>121.34543609619</Y></mVal></TranslationKey>
+			<TranslationKey mT="16"><mVal><X>-89.832725524902</X><Y>121.34543609619</Y></mVal></TranslationKey>
+			<TranslationKey mT="46"><mVal><X>-90.041999816895</X><Y>121.34543609619</Y></mVal></TranslationKey>
+			<TranslationKey mT="52"><mVal><X>-87.530639648438</X><Y>121.34543609619</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="3" mProxyName="SlugBody09" ><!-- PROXY_SlugBody09 -->
+			<TranslationKey mT="1"><mVal><X>-71.774993896484</X><Y>157.27127075195</Y></mVal></TranslationKey>
+			<TranslationKey mT="16"><mVal><X>-74.019599914551</X><Y>157.27127075195</Y></mVal></TranslationKey>
+			<TranslationKey mT="46"><mVal><X>-74.237281799316</X><Y>157.27127075195</Y></mVal></TranslationKey>
+			<TranslationKey mT="52"><mVal><X>-71.625358581543</X><Y>157.27127075195</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="4" mProxyName="SlugBody08" ><!-- PROXY_SlugBody08 -->
+			<TranslationKey mT="1"><mVal><X>-43.717784881592</X><Y>177.6796875</Y></mVal></TranslationKey>
+			<TranslationKey mT="16"><mVal><X>-46.048561096191</X><Y>177.6796875</Y></mVal></TranslationKey>
+			<TranslationKey mT="46"><mVal><X>-46.274639129639</X><Y>177.6796875</Y></mVal></TranslationKey>
+			<TranslationKey mT="52"><mVal><X>-43.562400817871</X><Y>177.6796875</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="5" mProxyName="SlugBody07" ><!-- PROXY_SlugBody07 -->
+			<TranslationKey mT="1"><mVal><X>0.28597500920296</X><Y>175.03991699219</Y></mVal></TranslationKey>
+			<TranslationKey mT="16"><mVal><X>-2.131199836731</X><Y>175.03991699219</Y></mVal></TranslationKey>
+			<TranslationKey mT="46"><mVal><X>-2.3656799793243</X><Y>175.03991699219</Y></mVal></TranslationKey>
+			<TranslationKey mT="52"><mVal><X>0.44712001085281</X><Y>175.03991699219</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.96918392181396</X><Y>1.0331732034683</Y></mVal></ScaleKey>
+			<ScaleKey mT="16"><mVal><X>0.99529802799225</X><Y>1.0061169862747</Y></mVal></ScaleKey>
+			<ScaleKey mT="46"><mVal><X>0.99782997369766</X><Y>1.0034929513931</Y></mVal></ScaleKey>
+			<ScaleKey mT="52"><mVal><X>0.96744298934937</X><Y>1.0349769592285</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="6" ><!-- Body06 -->
+			<mOrigin><X>-2</X><Y>5</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>54.185520172119</X><Y>159.01368713379</Y></mVal></TranslationKey>
+			<TranslationKey mT="16"><mVal><X>54.185520172119</X><Y>159.01368713379</Y></mVal></TranslationKey>
+			<TranslationKey mT="46"><mVal><X>54.178558349609</X><Y>158.65463256836</Y></mVal></TranslationKey>
+			<TranslationKey mT="52"><mVal><X>54.220802307129</X><Y>160.80792236328</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.99535101652145</X><Y>1.0044139623642</Y></mVal></ScaleKey>
+			<ScaleKey mT="16"><mVal><X>0.99535101652145</X><Y>1.0044139623642</Y></mVal></ScaleKey>
+			<ScaleKey mT="46"><mVal><X>0.99735599756241</X><Y>1.0026659965515</Y></mVal></ScaleKey>
+			<ScaleKey mT="52"><mVal><X>0.97329998016357</X><Y>1.0236480236053</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="7" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>7.4342398643494</X><Y>-20.423759460449</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="8" ><!-- SlugGun -->
+			<TranslationKey mT="1"><mVal><X>-14.689680099487</X><Y>-30.412559509277</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="9" ><!-- SlugGunBase.png -->
+			<TranslationKey mT="1"><mVal><X>0.19079999625683</X><Y>-0.70344001054764</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="10" mProxyName="SlugBody06" ><!-- PROXY_SlugBody06 -->
+		</Layer>
+		<Layer mAnimationIndex="11" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-55.801921844482</X><Y>-21.106079101563</Y></mVal></TranslationKey>
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="12" ><!-- Body05 -->
+			<TranslationKey mT="1"><mVal><X>139.28399658203</X><Y>133.24728393555</Y></mVal></TranslationKey>
+			<TranslationKey mT="16"><mVal><X>139.28399658203</X><Y>133.24728393555</Y></mVal></TranslationKey>
+			<TranslationKey mT="46"><mVal><X>139.41094970703</X><Y>133.07807922363</Y></mVal></TranslationKey>
+			<TranslationKey mT="52"><mVal><X>137.2576751709</X><Y>135.94895935059</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.99272900819778</X><Y>1.0067059993744</Y></mVal></ScaleKey>
+			<ScaleKey mT="16"><mVal><X>0.99272900819778</X><Y>1.0067059993744</Y></mVal></ScaleKey>
+			<ScaleKey mT="46"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+			<ScaleKey mT="52"><mVal><X>0.96513301134109</X><Y>1.0320210456848</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="13" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>4.4738402366638</X><Y>-16.427280426025</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="14" ><!-- SlugGun -->
+			<TranslationKey mT="1"><mVal><X>-29.331359863281</X><Y>-36.127437591553</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="15" ><!-- SlugGunBase.png -->
+			<TranslationKey mT="1"><mVal><X>0.19079999625683</X><Y>-0.70344001054764</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="16" mProxyName="SlugBody05" ><!-- PROXY_SlugBody05 -->
+			<TranslationKey mT="1"><mVal><X>-7.124400138855</X><Y>7.203360080719</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="17" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-80.761199951172</X><Y>-17.739358901978</Y></mVal></TranslationKey>
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="18" ><!-- Body04 -->
+			<TranslationKey mT="1"><mVal><X>186.22103881836</X><Y>106.90367889404</Y></mVal></TranslationKey>
+			<TranslationKey mT="16"><mVal><X>186.22103881836</X><Y>106.90367889404</Y></mVal></TranslationKey>
+			<TranslationKey mT="46"><mVal><X>186.52703857422</X><Y>106.41144561768</Y></mVal></TranslationKey>
+			<TranslationKey mT="52"><mVal><X>182.85600280762</X><Y>112.3180847168</Y></mVal></TranslationKey>
+			<TranslationKey mT="64"><mVal><X>182.85600280762</X><Y>111.57648468018</Y></mVal></TranslationKey>
+			<TranslationKey mT="76"><mVal><X>182.85600280762</X><Y>112.3180847168</Y></mVal></TranslationKey>
+			<TranslationKey mT="88"><mVal><X>182.85600280762</X><Y>111.57648468018</Y></mVal></TranslationKey>
+			<TranslationKey mT="100"><mVal><X>182.85600280762</X><Y>112.3180847168</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.99636000394821</X><Y>1.0041840076447</Y></mVal></ScaleKey>
+			<ScaleKey mT="16"><mVal><X>0.99636000394821</X><Y>1.0041840076447</Y></mVal></ScaleKey>
+			<ScaleKey mT="46"><mVal><X>0.99907302856445</X><Y>1.0009750127792</Y></mVal></ScaleKey>
+			<ScaleKey mT="52"><mVal><X>0.96651697158813</X><Y>1.0394819974899</Y></mVal></ScaleKey>
+			<ScaleKey mT="64"><mVal><X>0.9716249704361</X><Y>1.0329149961472</Y></mVal></ScaleKey>
+			<ScaleKey mT="76"><mVal><X>0.96651697158813</X><Y>1.0394819974899</Y></mVal></ScaleKey>
+			<ScaleKey mT="88"><mVal><X>0.9716249704361</X><Y>1.0329149961472</Y></mVal></ScaleKey>
+			<ScaleKey mT="100"><mVal><X>0.96651697158813</X><Y>1.0394819974899</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="19" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>19.968000411987</X><Y>-22.617839813232</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="20" mProxyName="SlugBody04" ><!-- PROXY_SlugBody04 -->
+		</Layer>
+		<Layer mAnimationIndex="21" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-94.115280151367</X><Y>-23.871599197388</Y></mVal></TranslationKey>
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="22" ><!-- Body03 -->
+			<TranslationKey mT="1"><mVal><X>218.45831298828</X><Y>64.824241638184</Y></mVal></TranslationKey>
+			<TranslationKey mT="16"><mVal><X>218.45831298828</X><Y>64.824241638184</Y></mVal></TranslationKey>
+			<TranslationKey mT="46"><mVal><X>218.82215881348</X><Y>64.249198913574</Y></mVal></TranslationKey>
+			<TranslationKey mT="52"><mVal><X>217.43208312988</X><Y>68.699279785156</Y></mVal></TranslationKey>
+			<TranslationKey mT="64"><mVal><X>217.43208312988</X><Y>67.215843200684</Y></mVal></TranslationKey>
+			<TranslationKey mT="76"><mVal><X>217.43208312988</X><Y>68.699279785156</Y></mVal></TranslationKey>
+			<TranslationKey mT="88"><mVal><X>217.43208312988</X><Y>67.215843200684</Y></mVal></TranslationKey>
+			<TranslationKey mT="100"><mVal><X>217.43208312988</X><Y>68.699279785156</Y></mVal></TranslationKey>
+			<TranslationKey mT="108"><mVal><X>216.63887023926</X><Y>67.699440002441</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>1.0010930299759</X><Y>0.9933540225029</Y></mVal></ScaleKey>
+			<ScaleKey mT="16"><mVal><X>1.0010930299759</X><Y>0.9933540225029</Y></mVal></ScaleKey>
+			<ScaleKey mT="46"><mVal><X>1.0002809762955</X><Y>0.9970840215683</Y></mVal></ScaleKey>
+			<ScaleKey mT="52"><mVal><X>1.0002809762955</X><Y>0.94084602594376</Y></mVal></ScaleKey>
+			<ScaleKey mT="64"><mVal><X>1.0006150007248</X><Y>0.94952702522278</Y></mVal></ScaleKey>
+			<ScaleKey mT="76"><mVal><X>1.0002809762955</X><Y>0.94084602594376</Y></mVal></ScaleKey>
+			<ScaleKey mT="88"><mVal><X>1.0006150007248</X><Y>0.94952702522278</Y></mVal></ScaleKey>
+			<ScaleKey mT="100"><mVal><X>1.0016160011292</X><Y>0.94631201028824</Y></mVal></ScaleKey>
+			<ScaleKey mT="108"><mVal><X>1.0051529407501</X><Y>0.97470301389694</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="23" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>16.698240280151</X><Y>-28.033679962158</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="24" mProxyName="SlugBody03" ><!-- PROXY_SlugBody03 -->
+		</Layer>
+		<Layer mAnimationIndex="25" ><!-- Head -->
+			<TranslationKey mT="1"><mVal><X>75.63695526123</X><Y>-24.578639984131</Y></mVal></TranslationKey>
+			<TranslationKey mT="16"><mVal><X>75.63695526123</X><Y>-24.578639984131</Y></mVal></TranslationKey>
+			<TranslationKey mT="46"><mVal><X>79.214637756348</X><Y>-28.499521255493</Y></mVal></TranslationKey>
+			<TranslationKey mT="52"><mVal><X>43.809841156006</X><Y>3.5671200752258</Y></mVal></TranslationKey>
+			<TranslationKey mT="64"><mVal><X>44.472961425781</X><Y>1.4975999593735</Y></mVal></TranslationKey>
+			<TranslationKey mT="76"><mVal><X>43.809841156006</X><Y>3.5671200752258</Y></mVal></TranslationKey>
+			<TranslationKey mT="88"><mVal><X>44.472961425781</X><Y>1.4975999593735</Y></mVal></TranslationKey>
+			<TranslationKey mT="100"><mVal><X>43.809841156006</X><Y>3.5671200752258</Y></mVal></TranslationKey>
+			<TranslationKey mT="108"><mVal><X>56.011199951172</X><Y>-4.327919960022</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.96295702457428</X><Y>1.0292969942093</Y></mVal></ScaleKey>
+			<ScaleKey mT="16"><mVal><X>0.96295702457428</X><Y>1.0292969942093</Y></mVal></ScaleKey>
+			<ScaleKey mT="46"><mVal><X>0.95712900161743</X><Y>1.034922003746</Y></mVal></ScaleKey>
+			<ScaleKey mT="52"><mVal><X>1.0373649597168</X><Y>0.95578598976135</Y></mVal></ScaleKey>
+			<ScaleKey mT="64"><mVal><X>1.0279530286789</X><Y>0.9645339846611</Y></mVal></ScaleKey>
+			<ScaleKey mT="76"><mVal><X>1.0373649597168</X><Y>0.95578598976135</Y></mVal></ScaleKey>
+			<ScaleKey mT="88"><mVal><X>1.0279530286789</X><Y>0.9645339846611</Y></mVal></ScaleKey>
+			<ScaleKey mT="100"><mVal><X>1.0325939655304</X><Y>0.95590901374817</Y></mVal></ScaleKey>
+			<ScaleKey mT="104"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+			<ScaleKey mT="108"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="26" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>32.103839874268</X><Y>-8.0140800476074</Y></mVal></TranslationKey>
+			<RotationKey mT="1" mVal="-3.1938319206238" />
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="27" ><!-- Head -->
+		</Layer>
+		<Layer mAnimationIndex="28" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-62.589363098145</X><Y>-12.976320266724</Y></mVal></TranslationKey>
+			<RotationKey mT="1" mVal="-2.6846849918365" />
+		</Layer>
+		<Layer mAnimationIndex="29" ><!-- TopCannon -->
+			<TranslationKey mT="1"><mVal><X>102.98111724854</X><Y>-134.75543212891</Y></mVal></TranslationKey>
+			<TranslationKey mT="10"><mVal><X>102.98111724854</X><Y>-134.75543212891</Y></mVal></TranslationKey>
+			<TranslationKey mT="11"><mVal><X>103.7848815918</X><Y>-138.05471801758</Y></mVal></TranslationKey>
+			<TranslationKey mT="12"><mVal><X>106.68888092041</X><Y>-139.796875</Y></mVal></TranslationKey>
+			<TranslationKey mT="13"><mVal><X>105.97776031494</X><Y>-140.11367797852</Y></mVal></TranslationKey>
+			<TranslationKey mT="14"><mVal><X>106.74744415283</X><Y>-142.53456115723</Y></mVal></TranslationKey>
+			<TranslationKey mT="15"><mVal><X>108.18288421631</X><Y>-143.25241088867</Y></mVal></TranslationKey>
+			<TranslationKey mT="16"><mVal><X>108.13344573975</X><Y>-141.07440185547</Y></mVal></TranslationKey>
+			<TranslationKey mT="17"><mVal><X>105.21311950684</X><Y>-142.56192016602</Y></mVal></TranslationKey>
+			<TranslationKey mT="18"><mVal><X>105.26976013184</X><Y>-139.69007873535</Y></mVal></TranslationKey>
+			<TranslationKey mT="19"><mVal><X>106.04447937012</X><Y>-138.36407470703</Y></mVal></TranslationKey>
+			<TranslationKey mT="20"><mVal><X>104.56391906738</X><Y>-138.53086853027</Y></mVal></TranslationKey>
+			<TranslationKey mT="21"><mVal><X>105.50256347656</X><Y>-140.8507232666</Y></mVal></TranslationKey>
+			<TranslationKey mT="22"><mVal><X>106.99224090576</X><Y>-140.92391967773</Y></mVal></TranslationKey>
+			<TranslationKey mT="23"><mVal><X>106.98095703125</X><Y>-138.84408569336</Y></mVal></TranslationKey>
+			<TranslationKey mT="24"><mVal><X>105.53448486328</X><Y>-141.17304992676</Y></mVal></TranslationKey>
+			<TranslationKey mT="25"><mVal><X>105.59495544434</X><Y>-139.08792114258</Y></mVal></TranslationKey>
+			<TranslationKey mT="26"><mVal><X>105.6556854248</X><Y>-141.59712219238</Y></mVal></TranslationKey>
+			<TranslationKey mT="27"><mVal><X>107.46864318848</X><Y>-138.69264221191</Y></mVal></TranslationKey>
+			<TranslationKey mT="28"><mVal><X>108.19464111328</X><Y>-140.87088012695</Y></mVal></TranslationKey>
+			<TranslationKey mT="29"><mVal><X>108.19464111328</X><Y>-139.41864013672</Y></mVal></TranslationKey>
+			<TranslationKey mT="30"><mVal><X>107.46864318848</X><Y>-140.14488220215</Y></mVal></TranslationKey>
+			<TranslationKey mT="31"><mVal><X>110.37312316895</X><Y>-140.87088012695</Y></mVal></TranslationKey>
+			<TranslationKey mT="32"><mVal><X>109.0495223999</X><Y>-143.04936218262</Y></mVal></TranslationKey>
+			<TranslationKey mT="33"><mVal><X>107.42231750488</X><Y>-140.87088012695</Y></mVal></TranslationKey>
+			<TranslationKey mT="34"><mVal><X>107.36087799072</X><Y>-139.41864013672</Y></mVal></TranslationKey>
+			<TranslationKey mT="35"><mVal><X>106.01640319824</X><Y>-142.35864257813</Y></mVal></TranslationKey>
+			<TranslationKey mT="36"><mVal><X>108.19464111328</X><Y>-140.14488220215</Y></mVal></TranslationKey>
+			<TranslationKey mT="37"><mVal><X>108.19464111328</X><Y>-142.32336425781</Y></mVal></TranslationKey>
+			<TranslationKey mT="38"><mVal><X>106.74240112305</X><Y>-144.50160217285</Y></mVal></TranslationKey>
+			<TranslationKey mT="39"><mVal><X>107.46864318848</X><Y>-140.87088012695</Y></mVal></TranslationKey>
+			<TranslationKey mT="40"><mVal><X>106.74240112305</X><Y>-141.59712219238</Y></mVal></TranslationKey>
+			<TranslationKey mT="41"><mVal><X>108.19464111328</X><Y>-144.50160217285</Y></mVal></TranslationKey>
+			<TranslationKey mT="42"><mVal><X>106.74240112305</X><Y>-143.04936218262</Y></mVal></TranslationKey>
+			<TranslationKey mT="43"><mVal><X>106.01640319824</X><Y>-143.77560424805</Y></mVal></TranslationKey>
+			<TranslationKey mT="44"><mVal><X>106.74744415283</X><Y>-142.53456115723</Y></mVal></TranslationKey>
+			<TranslationKey mT="50"><mVal><X>85.693916320801</X><Y>-106.74359893799</Y></mVal></TranslationKey>
+			<TranslationKey mT="98"><mVal><X>85.693916320801</X><Y>-106.74359893799</Y></mVal></TranslationKey>
+			<TranslationKey mT="108"><mVal><X>98.717758178711</X><Y>-122.88648986816</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="30" ><!-- SlugCannonBarrel.png 4 -->
+			<TranslationKey mT="1"><mVal><X>81.802810668945</X><Y>1.4553601741791</Y></mVal></TranslationKey>
+			<TranslationKey mT="48"><mVal><X>81.802795410156</X><Y>1.4553600549698</Y></mVal></TranslationKey>
+			<TranslationKey mT="50"><mVal><X>86.667358398438</X><Y>-0.76968002319336</Y></mVal></TranslationKey>
+			<TranslationKey mT="54"><mVal><X>81.802795410156</X><Y>1.4553600549698</Y></mVal></TranslationKey>
+			<TranslationKey mT="63"><mVal><X>81.802795410156</X><Y>1.4553600549698</Y></mVal></TranslationKey>
+			<TranslationKey mT="65"><mVal><X>86.667358398438</X><Y>-0.76968002319336</Y></mVal></TranslationKey>
+			<TranslationKey mT="69"><mVal><X>81.802795410156</X><Y>1.4553600549698</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="31" ><!-- SlugCannonBarrel.png 3 -->
+			<TranslationKey mT="1"><mVal><X>58.218719482422</X><Y>-25.315919876099</Y></mVal></TranslationKey>
+			<TranslationKey mT="54"><mVal><X>58.218719482422</X><Y>-25.315919876099</Y></mVal></TranslationKey>
+			<TranslationKey mT="56"><mVal><X>63.083518981934</X><Y>-26.79935836792</Y></mVal></TranslationKey>
+			<TranslationKey mT="60"><mVal><X>58.218719482422</X><Y>-25.315919876099</Y></mVal></TranslationKey>
+			<TranslationKey mT="69"><mVal><X>58.218719482422</X><Y>-25.315919876099</Y></mVal></TranslationKey>
+			<TranslationKey mT="71"><mVal><X>63.083518981934</X><Y>-26.79935836792</Y></mVal></TranslationKey>
+			<TranslationKey mT="75"><mVal><X>58.218719482422</X><Y>-25.315919876099</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="32" ><!-- SlugCannonBarrel.png 2 -->
+			<TranslationKey mT="1"><mVal><X>31.447441101074</X><Y>-45.713039398193</Y></mVal></TranslationKey>
+			<TranslationKey mT="60"><mVal><X>31.447441101074</X><Y>-45.713039398193</Y></mVal></TranslationKey>
+			<TranslationKey mT="62"><mVal><X>37.702079772949</X><Y>-47.196479797363</Y></mVal></TranslationKey>
+			<TranslationKey mT="66"><mVal><X>31.447441101074</X><Y>-45.713039398193</Y></mVal></TranslationKey>
+			<TranslationKey mT="75"><mVal><X>31.447441101074</X><Y>-45.713039398193</Y></mVal></TranslationKey>
+			<TranslationKey mT="77"><mVal><X>37.702079772949</X><Y>-47.196479797363</Y></mVal></TranslationKey>
+			<TranslationKey mT="81"><mVal><X>31.447441101074</X><Y>-45.713039398193</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="33" ><!-- SlugCannonCenterBarrel.png -->
+			<TranslationKey mT="1"><mVal><X>47.382720947266</X><Y>-2.3690400123596</Y></mVal></TranslationKey>
+			<TranslationKey mT="67"><mVal><X>47.382720947266</X><Y>-2.3690400123596</Y></mVal></TranslationKey>
+			<TranslationKey mT="68"><mVal><X>48.476638793945</X><Y>-2.3690400123596</Y></mVal></TranslationKey>
+			<TranslationKey mT="69"><mVal><X>48.33768081665</X><Y>-1.6274400949478</Y></mVal></TranslationKey>
+			<TranslationKey mT="70"><mVal><X>47.503681182861</X><Y>-3.2558400630951</Y></mVal></TranslationKey>
+			<TranslationKey mT="71"><mVal><X>47.451599121094</X><Y>-2.1631200313568</Y></mVal></TranslationKey>
+			<TranslationKey mT="72"><mVal><X>48.789360046387</X><Y>-0.70919996500015</Y></mVal></TranslationKey>
+			<TranslationKey mT="73"><mVal><X>47.357517242432</X><Y>-2.4691200256348</Y></mVal></TranslationKey>
+			<TranslationKey mT="74"><mVal><X>47.249038696289</X><Y>-2.367840051651</Y></mVal></TranslationKey>
+			<TranslationKey mT="75"><mVal><X>47.208480834961</X><Y>-1.5019199848175</Y></mVal></TranslationKey>
+			<TranslationKey mT="76"><mVal><X>49.133522033691</X><Y>-3.5517599582672</Y></mVal></TranslationKey>
+			<TranslationKey mT="77"><mVal><X>47.061599731445</X><Y>-0.96744006872177</Y></mVal></TranslationKey>
+			<TranslationKey mT="78"><mVal><X>48.772560119629</X><Y>-2.3690400123596</Y></mVal></TranslationKey>
+			<TranslationKey mT="79"><mVal><X>48.633598327637</X><Y>-1.6274400949478</Y></mVal></TranslationKey>
+			<TranslationKey mT="80"><mVal><X>47.799598693848</X><Y>-3.2558400630951</Y></mVal></TranslationKey>
+			<TranslationKey mT="81"><mVal><X>47.747520446777</X><Y>-2.1631200313568</Y></mVal></TranslationKey>
+			<TranslationKey mT="82"><mVal><X>49.08528137207</X><Y>-0.70919996500015</Y></mVal></TranslationKey>
+			<TranslationKey mT="83"><mVal><X>47.653442382813</X><Y>-2.4691200256348</Y></mVal></TranslationKey>
+			<TranslationKey mT="84"><mVal><X>47.544960021973</X><Y>-2.367840051651</Y></mVal></TranslationKey>
+			<TranslationKey mT="85"><mVal><X>47.504398345947</X><Y>-1.5019199848175</Y></mVal></TranslationKey>
+			<TranslationKey mT="86"><mVal><X>49.429439544678</X><Y>-3.5517599582672</Y></mVal></TranslationKey>
+			<TranslationKey mT="87"><mVal><X>47.357517242432</X><Y>-0.96744006872177</Y></mVal></TranslationKey>
+			<TranslationKey mT="88"><mVal><X>47.382720947266</X><Y>-2.3690400123596</Y></mVal></TranslationKey>
+			<TranslationKey mT="90"><mVal><X>62.244480133057</X><Y>-4.5940799713135</Y></mVal></TranslationKey>
+			<TranslationKey mT="96"><mVal><X>47.382720947266</X><Y>-2.3690400123596</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="34" ><!-- SlugCannonBarrel.png 2 -->
+			<TranslationKey mT="1"><mVal><X>7.8633599281311</X><Y>-20.854080200195</Y></mVal></TranslationKey>
+			<TranslationKey mT="51"><mVal><X>7.8633599281311</X><Y>-20.854080200195</Y></mVal></TranslationKey>
+			<TranslationKey mT="53"><mVal><X>13.422960281372</X><Y>-21.595680236816</Y></mVal></TranslationKey>
+			<TranslationKey mT="57"><mVal><X>7.8633599281311</X><Y>-20.854080200195</Y></mVal></TranslationKey>
+			<TranslationKey mT="66"><mVal><X>7.8633599281311</X><Y>-20.854080200195</Y></mVal></TranslationKey>
+			<TranslationKey mT="68"><mVal><X>13.422960281372</X><Y>-21.595680236816</Y></mVal></TranslationKey>
+			<TranslationKey mT="72"><mVal><X>7.8633599281311</X><Y>-20.854080200195</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="35" ><!-- SlugCannonBarrel.png -->
+			<TranslationKey mT="1"><mVal><X>-2.3352000713348</X><Y>9.7416000366211</Y></mVal></TranslationKey>
+			<TranslationKey mT="57"><mVal><X>-2.3352000713348</X><Y>9.7416000366211</Y></mVal></TranslationKey>
+			<TranslationKey mT="59"><mVal><X>1.1395199298859</X><Y>9.7416000366211</Y></mVal></TranslationKey>
+			<TranslationKey mT="63"><mVal><X>-2.3352000713348</X><Y>9.7416000366211</Y></mVal></TranslationKey>
+			<TranslationKey mT="72"><mVal><X>-2.3352000713348</X><Y>9.7416000366211</Y></mVal></TranslationKey>
+			<TranslationKey mT="74"><mVal><X>1.1395199298859</X><Y>9.7416000366211</Y></mVal></TranslationKey>
+			<TranslationKey mT="78"><mVal><X>-2.3352000713348</X><Y>9.7416000366211</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="36" mProxyName="SlugNeck" ><!-- PROXY_SlugNeck -->
+			<TranslationKey mT="1"><mVal><X>112.03031921387</X><Y>-63.196556091309</Y></mVal></TranslationKey>
+			<TranslationKey mT="15"><mVal><X>112.03031921387</X><Y>-63.196556091309</Y></mVal></TranslationKey>
+			<TranslationKey mT="45"><mVal><X>114.90287780762</X><Y>-67.245597839355</Y></mVal></TranslationKey>
+			<TranslationKey mT="51"><mVal><X>90.607200622559</X><Y>-38.451362609863</Y></mVal></TranslationKey>
+			<TranslationKey mT="63"><mVal><X>90.607200622559</X><Y>-40.676399230957</Y></mVal></TranslationKey>
+			<TranslationKey mT="75"><mVal><X>90.607200622559</X><Y>-38.451362609863</Y></mVal></TranslationKey>
+			<TranslationKey mT="87"><mVal><X>90.607200622559</X><Y>-40.676399230957</Y></mVal></TranslationKey>
+			<TranslationKey mT="99"><mVal><X>90.607200622559</X><Y>-38.451362609863</Y></mVal></TranslationKey>
+			<TranslationKey mT="108"><mVal><X>99.219841003418</X><Y>-46.3464012146</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>0.95311099290848</X><Y>1</Y></mVal></ScaleKey>
+			<ScaleKey mT="15"><mVal><X>0.95311099290848</X><Y>1</Y></mVal></ScaleKey>
+			<ScaleKey mT="45"><mVal><X>0.95311099290848</X><Y>1</Y></mVal></ScaleKey>
+			<ScaleKey mT="51"><mVal><X>1.0969669818878</X><Y>0.91044199466705</Y></mVal></ScaleKey>
+			<ScaleKey mT="63"><mVal><X>1.0755170583725</X><Y>0.92256599664688</Y></mVal></ScaleKey>
+			<ScaleKey mT="75"><mVal><X>1.0969669818878</X><Y>0.91044199466705</Y></mVal></ScaleKey>
+			<ScaleKey mT="87"><mVal><X>1.0755170583725</X><Y>0.92256599664688</Y></mVal></ScaleKey>
+			<ScaleKey mT="99"><mVal><X>1.0932370424271</X><Y>0.91324001550674</Y></mVal></ScaleKey>
+			<ScaleKey mT="108"><mVal><X>1</X><Y>1</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="37" ><!-- Body01 -->
+			<TranslationKey mT="1"><mVal><X>181.98840332031</X><Y>-104.42304229736</Y></mVal></TranslationKey>
+			<TranslationKey mT="14"><mVal><X>181.98840332031</X><Y>-104.42304229736</Y></mVal></TranslationKey>
+			<TranslationKey mT="44"><mVal><X>181.98840332031</X><Y>-104.42304229736</Y></mVal></TranslationKey>
+			<TranslationKey mT="50"><mVal><X>167.33232116699</X><Y>-78.303359985352</Y></mVal></TranslationKey>
+			<TranslationKey mT="62"><mVal><X>167.1290435791</X><Y>-79.774559020996</Y></mVal></TranslationKey>
+			<TranslationKey mT="74"><mVal><X>167.33232116699</X><Y>-78.303359985352</Y></mVal></TranslationKey>
+			<TranslationKey mT="86"><mVal><X>167.1290435791</X><Y>-79.774559020996</Y></mVal></TranslationKey>
+			<TranslationKey mT="98"><mVal><X>166.51943969727</X><Y>-78.25511932373</Y></mVal></TranslationKey>
+			<TranslationKey mT="108"><mVal><X>177.75671386719</X><Y>-91.653358459473</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>1.0684039592743</X><Y>1.0607889890671</Y></mVal></ScaleKey>
+			<ScaleKey mT="14"><mVal><X>1.0684039592743</X><Y>1.0607889890671</Y></mVal></ScaleKey>
+			<ScaleKey mT="44"><mVal><X>1.091078042984</X><Y>1.0833020210266</Y></mVal></ScaleKey>
+			<ScaleKey mT="50"><mVal><X>1.0901050567627</X><Y>0.94119399785995</Y></mVal></ScaleKey>
+			<ScaleKey mT="62"><mVal><X>1.0753400325775</X><Y>0.95318502187729</Y></mVal></ScaleKey>
+			<ScaleKey mT="74"><mVal><X>1.0901050567627</X><Y>0.94119399785995</Y></mVal></ScaleKey>
+			<ScaleKey mT="86"><mVal><X>1.0753400325775</X><Y>0.95318502187729</Y></mVal></ScaleKey>
+			<ScaleKey mT="98"><mVal><X>1.0888299942017</X><Y>0.94119399785995</Y></mVal></ScaleKey>
+			<ScaleKey mT="108"><mVal><X>1.025887966156</X><Y>0.97224897146225</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="38" ><!-- SlugShoulderCannon.png -->
+			<mOrigin><X>-12</X><Y>-59</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>86.568000793457</X><Y>18.936000823975</Y></mVal></TranslationKey>
+		</Layer>
+		<Layer mAnimationIndex="39" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>-9.1768808364868</X><Y>10.906319618225</Y></mVal></TranslationKey>
+			<RotationKey mT="1" mVal="-3.2336580753326" />
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="40" mProxyName="SlugBody01" ><!-- PROXY_SlugBody01 -->
+		</Layer>
+		<Layer mAnimationIndex="41" ><!-- Body02 -->
+			<mOrigin><X>235</X><Y>-24</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>1.4625599384308</X><Y>-6.8884801864624</Y></mVal></TranslationKey>
+			<TranslationKey mT="15"><mVal><X>1.4625599384308</X><Y>-6.8884801864624</Y></mVal></TranslationKey>
+			<TranslationKey mT="45"><mVal><X>1.4927999973297</X><Y>-8.6752796173096</Y></mVal></TranslationKey>
+			<TranslationKey mT="51"><mVal><X>-0.07871999591589</X><Y>5.7542400360107</Y></mVal></TranslationKey>
+			<TranslationKey mT="63"><mVal><X>-0.74952000379562</X><Y>4.234799861908</Y></mVal></TranslationKey>
+			<TranslationKey mT="75"><mVal><X>-0.07871999591589</X><Y>5.7542400360107</Y></mVal></TranslationKey>
+			<TranslationKey mT="87"><mVal><X>-0.74952000379562</X><Y>4.234799861908</Y></mVal></TranslationKey>
+			<TranslationKey mT="99"><mVal><X>-0.07871999591589</X><Y>5.7542400360107</Y></mVal></TranslationKey>
+			<TranslationKey mT="108"><mVal><X>1.3111200332642</X><Y>2.0460000038147</Y></mVal></TranslationKey>
+			<ScaleKey mT="1"><mVal><X>1.0100009441376</X><Y>0.99072897434235</Y></mVal></ScaleKey>
+			<ScaleKey mT="15"><mVal><X>1.0100009441376</X><Y>0.99072897434235</Y></mVal></ScaleKey>
+			<ScaleKey mT="45"><mVal><X>1.0035729408264</X><Y>0.99667698144913</Y></mVal></ScaleKey>
+			<ScaleKey mT="51"><mVal><X>1.065397977829</X><Y>0.92992699146271</Y></mVal></ScaleKey>
+			<ScaleKey mT="63"><mVal><X>1.0549989938736</X><Y>0.93562299013138</Y></mVal></ScaleKey>
+			<ScaleKey mT="75"><mVal><X>1.065397977829</X><Y>0.92992699146271</Y></mVal></ScaleKey>
+			<ScaleKey mT="87"><mVal><X>1.0549989938736</X><Y>0.93562299013138</Y></mVal></ScaleKey>
+			<ScaleKey mT="99"><mVal><X>1.0655980110168</X><Y>0.93060499429703</Y></mVal></ScaleKey>
+			<ScaleKey mT="108"><mVal><X>1.0421390533447</X><Y>0.96098697185516</Y></mVal></ScaleKey>
+		</Layer>
+		<Layer mAnimationIndex="42" mProxyName="SlugLegIdle" ><!-- PROXY_SlugLegIdle -->
+			<mOrigin><X>10</X><Y>19</Y></mOrigin>
+			<TranslationKey mT="1"><mVal><X>233.00784301758</X><Y>-49.958641052246</Y></mVal></TranslationKey>
+			<RotationKey mT="1" mVal="-2.67316198349" />
+			<FlipHKey mT="1" mVal="true" />
+		</Layer>
+		<Layer mAnimationIndex="43" mProxyName="SlugBody02" ><!-- PROXY_SlugBody02 -->
+			<TranslationKey mT="1"><mVal><X>221.05752563477</X><Y>-36.084239959717</Y></mVal></TranslationKey>
+		</Layer>
+	</AnimationData>
+	<Collision mCollisionIndex="0" mType="RECTANGLE" mName="COL_Invulnerable.png 2" mCenterX="384.24648284912" mCenterY="-199.99703407288" mWidth="19.144800305367" mHeight="19.144800305367" mColFlags="3" />
+	<Collision mCollisionIndex="1" mType="RECTANGLE" mName="COL_Invulnerable.png" mCenterX="-64.565999507904" mCenterY="217.3197555542" mWidth="19.144800305367" mHeight="19.144800305367" mColFlags="3" />
+	<Collision mCollisionIndex="2" mType="RECTANGLE" mName="COL_VulnerableHead" mCenterX="-21.676320433617" mCenterY="19.405680298805" mWidth="23.945899307728" mHeight="40.370398759842" mColFlags="1" />
+</THMultiSpriteData>

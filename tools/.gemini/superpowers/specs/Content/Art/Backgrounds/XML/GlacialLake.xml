@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParallaxXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- #################################################################### -->
+  <!-- Glacial Lake Caverns 1-->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="GlacialLakeCaverns1">
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/GlacialLake/Caverns1/RockWall</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+    </THParallaxData>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- Glacial Lake Caverns 2-->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="GlacialLakeCaverns2">
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/GlacialLake/Caverns2/RockWall</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+    </THParallaxData>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- Glacial Lake Tundra Shore-->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="TundraShore">
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/GlacialLake/TundraShore/Plains1</mTextureName>
+      <mParallax>
+        <X>0.7</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-24</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/GlacialLake/TundraShore/Plains2</mTextureName>
+      <mParallax>
+        <X>0.675</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-28</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/GlacialLake/TundraShore/Plains3</mTextureName>
+      <mParallax>
+        <X>0.65</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-32</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/GlacialLake/TundraShore/Plains4</mTextureName>
+      <mParallax>
+        <X>0.625</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-36</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/GlacialLake/TundraShore/Plains1</mTextureName>
+      <mParallax>
+        <X>0.6</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-40</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/GlacialLake/TundraShore/Plains2</mTextureName>
+      <mParallax>
+        <X>0.575</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-44</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/GlacialLake/TundraShore/Plains3</mTextureName>
+      <mParallax>
+        <X>0.55</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-48</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/GlacialLake/TundraShore/Plains4</mTextureName>
+      <mParallax>
+        <X>0.525</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-52</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <!--
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/GlacialLake/TundraShore/TundraHills1</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-96</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/GlacialLake/TundraShore/TundraHills2</mTextureName>
+      <mParallax>
+        <X>0.4</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-88</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+    -->
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/GlacialLake/TundraShore/Cliffs2</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+    </THParallaxData>
+  </THParallaxSetData>
+
+</THParallaxXML>

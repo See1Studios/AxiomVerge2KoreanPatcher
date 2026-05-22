@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>Cabezon.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="CabezonTexture">
+    <THSpriteAnimationData mName="Attack" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Cabezon\Output\Attack.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-15" mWidth="10" mHeight="15" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="17" mHeight="20" mDelay="7" mOriginX="7" mOriginY="20" mU="0" mV="0" mUVWidth="17" mUVHeight="20" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Attack0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-20" mWidth="16" mHeight="19" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="20" mDelay="7" mOriginX="7" mOriginY="20" mU="19" mV="0" mUVWidth="17" mUVHeight="20" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Attack0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-17" mWidth="17" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Fire" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Cabezon\Output\Fire.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-15" mWidth="10" mHeight="15" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="17" mHeight="17" mDelay="8" mOriginX="8" mOriginY="17" mU="95" mV="38" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="4.886922" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="25" mOriginX="8" mOriginY="17" mU="76" mV="38" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="4.886922" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="6" mOriginX="8" mOriginY="17" mU="95" mV="19" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="4.886922" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="8" mOriginX="8" mOriginY="17" mU="95" mV="0" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="4.886922" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="8" mOriginX="8" mOriginY="17" mU="76" mV="19" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0004.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="4.886922" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="8" mOriginX="8" mOriginY="17" mU="57" mV="38" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="4.886922" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="6" mOriginX="8" mOriginY="17" mU="76" mV="0" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="4.886922" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="8" mOriginX="8" mOriginY="17" mU="0" mV="60" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0007.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="4.886922" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="8" mOriginX="8" mOriginY="17" mU="57" mV="0" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0008.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="5.061455" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="8" mOriginX="8" mOriginY="17" mU="38" mV="38" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0009.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="5.061455" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="6" mOriginX="8" mOriginY="17" mU="19" mV="41" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0010.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="5.061455" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="8" mOriginX="8" mOriginY="17" mU="38" mV="19" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0011.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="5.061455" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="8" mOriginX="8" mOriginY="17" mU="57" mV="19" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0012.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="8" mOriginX="8" mOriginY="17" mU="0" mV="41" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0013.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="12" mOriginX="8" mOriginY="17" mU="19" mV="22" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0014.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="8" mOriginX="8" mOriginY="17" mU="0" mV="22" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0015.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="17" mDelay="31" mOriginX="8" mOriginY="17" mU="38" mV="0" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Fire0016.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-15" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Cabezon\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-15" mWidth="10" mHeight="15" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="16" mDelay="12" mOriginX="7" mOriginY="16" mU="19" mV="78" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Idle0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="16" mDelay="12" mOriginX="7" mOriginY="16" mU="0" mV="97" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Idle0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Walk" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Cabezon\Output\Walk.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-15" mWidth="10" mHeight="15" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="16" mDelay="6" mOriginX="7" mOriginY="16" mU="37" mV="75" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Walk0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-7" mY="-16" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="16" mDelay="6" mOriginX="7" mOriginY="16" mU="38" mV="57" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Walk0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-7" mY="-16" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="16" mDelay="6" mOriginX="7" mOriginY="16" mU="19" mV="60" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Walk0002.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-7" mY="-16" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="16" mDelay="6" mOriginX="7" mOriginY="16" mU="0" mV="79" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Walk0003.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Goo" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Cabezon\Output\Goo.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-6" mY="-6" mWidth="12" mHeight="12" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="8" mHeight="8" mDelay="6" mOriginX="4" mOriginY="4" mU="114" mV="0" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Goo0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="6" mOriginX="4" mOriginY="4" mU="18" mV="96" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Goo0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="6" mOriginX="4" mOriginY="4" mU="56" mV="57" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Goo0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="6" mOriginX="4" mOriginY="4" mU="56" mV="67" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Cabezon\Output\Goo0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

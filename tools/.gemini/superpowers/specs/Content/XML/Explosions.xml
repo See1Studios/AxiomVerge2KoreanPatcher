@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THExplosionSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ///////////////////////////// SPRITE EXPLOSIONS //////////////////////////////-->
+
+  <!-- ######################################################################## -->
+  <!-- EMOTES -->
+  <!-- ######################################################################## -->
+  <THSpriteExplosion mName="Exclamation">
+    <mAnimationName>Exclamation</mAnimationName>
+    <mMaxCount>32</mMaxCount>
+    
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- MISC -->
+  <!-- ######################################################################## -->
+  
+  <!-- Item acquisition -->
+  <THSpriteExplosion mName="AcquireItem">
+    <mAnimationName>AcquireItem</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mSoundName>Powersurge</mSoundName>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="AcquireItemDistortion">
+    <mAnimationName>DistortionRound64x64</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mFadeInDuration>0.5</mFadeInDuration>
+    <mFadeOutDuration>0.5</mFadeOutDuration>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>2</X>
+      <Y>2</Y>
+    </mEndScale>
+    <mDistortionScale>0.35</mDistortionScale>
+    <mTimeStretch>60</mTimeStretch>
+    <mRenderLayer>Distortion</mRenderLayer>
+  </THSpriteExplosion>
+
+  <!-- Health pickup burst -->
+  <THSpriteExplosion mName="HealthDrop0AcquireBurst">
+    <mAnimationName>HealthDrop1AcquireBurst</mAnimationName>
+    <mMaxCount>20</mMaxCount>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mStartScale>
+    <mEndScale>0.75</mEndScale>
+    <mSoundName>HealthDrop0</mSoundName>
+    <mSoundCount>6</mSoundCount>
+  </THSpriteExplosion>
+  <THSpriteExplosion mName="HealthDrop1AcquireBurst">
+    <mAnimationName>HealthDrop1AcquireBurst</mAnimationName>
+    <mMaxCount>20</mMaxCount>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mSoundName>HealthDrop1</mSoundName>
+    <mSoundCount>6</mSoundCount>
+  </THSpriteExplosion>
+
+
+  <!-- Nano pickup burst -->
+  <THSpriteExplosion mName="NanoDrop0AcquireBurst">
+    <mAnimationName>HealthDrop1AcquireBurst</mAnimationName>
+    <mMaxCount>20</mMaxCount>
+    <mTint>
+      <X>0.04</X>
+      <Y>1.0</Y>
+      <Z>0.88</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mStartScale>
+    <mEndScale>0.75</mEndScale>
+    <mSoundName>NanoDrop0</mSoundName>
+    <mSoundCount>6</mSoundCount>
+  </THSpriteExplosion>
+  <THSpriteExplosion mName="NanoDrop1AcquireBurst">
+    <mAnimationName>HealthDrop1AcquireBurst</mAnimationName>
+    <mMaxCount>20</mMaxCount>
+    <mTint>
+      <X>0.04</X>
+      <Y>1.0</Y>
+      <Z>0.88</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mSoundName>NanoDrop1</mSoundName>
+    <mSoundCount>6</mSoundCount>
+  </THSpriteExplosion>
+
+  <!-- Bomb pickup burst -->
+  <THSpriteExplosion mName="GlitchBombAcquireBurst">
+    <mAnimationName>HealthDrop1AcquireBurst</mAnimationName>
+    <mMaxCount>20</mMaxCount>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.2</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mSoundName>GudAnnaBombDrop</mSoundName>
+    <mSoundCount>3</mSoundCount>
+  </THSpriteExplosion>
+
+
+  <THSpriteExplosion mName="TransformToIndra">
+    <mAnimationName>TransformToIndra</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mSoundName>TransformToIndra</mSoundName>
+    <mSoundCount>2</mSoundCount>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="TransformToDrone">
+    <mAnimationName>TransformToDrone</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mSoundName>TransformToIndra</mSoundName>
+    <mSoundCount>2</mSoundCount>
+  </THSpriteExplosion>
+  
+  
+ 
+</THExplosionSettings>

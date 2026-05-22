@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>Gelfish.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="GelfishTexture">
+    <THSpriteAnimationData mName="Birth" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Gelfish\Output\Birth.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="10" mHeight="10" mDelay="6" mOriginX="5" mOriginY="4" mU="0" mV="0" mUVWidth="10" mUVHeight="10" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Gelfish\Output\Birth0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="10" mHeight="10" mDelay="6" mOriginX="5" mOriginY="4" mU="12" mV="0" mUVWidth="10" mUVHeight="10" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Gelfish\Output\Birth0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="10" mHeight="10" mDelay="6" mOriginX="5" mOriginY="4" mU="0" mV="12" mUVWidth="10" mUVHeight="10" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Gelfish\Output\Birth0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="10" mHeight="10" mDelay="8" mOriginX="5" mOriginY="4" mU="12" mV="12" mUVWidth="10" mUVHeight="10" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Gelfish\Output\Birth0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="10" mHeight="10" mDelay="7" mOriginX="5" mOriginY="4" mU="24" mV="0" mUVWidth="10" mUVHeight="10" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Gelfish\Output\Birth0004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Gelfish\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-4" mWidth="8" mHeight="7" mRadius="8" mColFlags="5" />
+      </mCollisionList>
+      <THFrameData mWidth="8" mHeight="8" mDelay="8" mOriginX="4" mOriginY="4" mU="24" mV="12" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Gelfish\Output\Idle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="8" mOriginX="4" mOriginY="4" mU="36" mV="0" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Gelfish\Output\Idle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="8" mOriginX="4" mOriginY="4" mU="46" mV="0" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Gelfish\Output\Idle0002.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

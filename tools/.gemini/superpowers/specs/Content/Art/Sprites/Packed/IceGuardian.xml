@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>IceGuardian.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="IceGuardianTexture">
+    <THSpriteAnimationData mName="Asleep" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\IceGuardian\Output\Asleep.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="16" mHeight="27" mDelay="31" mOriginX="8" mOriginY="16" mU="0" mV="0" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\IceGuardian\Output\Asleep0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-9" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-14" mWidth="4" mHeight="23" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="-14" mWidth="4" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="0" mY="-13" mWidth="8" mHeight="8" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Attack" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\IceGuardian\Output\Attack.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="16" mHeight="27" mDelay="6" mOriginX="8" mOriginY="16" mU="18" mV="0" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\IceGuardian\Output\Attack0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="9" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-14" mWidth="4" mHeight="23" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="-14" mWidth="4" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="0" mY="-13" mWidth="8" mHeight="12" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="27" mDelay="6" mOriginX="8" mOriginY="16" mU="36" mV="0" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\IceGuardian\Output\Attack0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="9" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-14" mWidth="4" mHeight="23" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="-14" mWidth="4" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="0" mY="-13" mWidth="8" mHeight="13" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="27" mDelay="6" mOriginX="8" mOriginY="16" mU="0" mV="29" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\IceGuardian\Output\Attack0002.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="9" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-14" mWidth="4" mHeight="23" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="-14" mWidth="4" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-2" mY="-13" mWidth="8" mHeight="12" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="27" mDelay="6" mOriginX="8" mOriginY="16" mU="18" mV="29" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\IceGuardian\Output\Attack0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="9" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-14" mWidth="4" mHeight="23" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="-14" mWidth="4" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-2" mY="-13" mWidth="8" mHeight="12" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="27" mDelay="6" mOriginX="8" mOriginY="16" mU="36" mV="29" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\IceGuardian\Output\Attack0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="9" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-14" mWidth="4" mHeight="23" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="-14" mWidth="4" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-1" mY="-13" mWidth="8" mHeight="12" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\IceGuardian\Output\Idle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="16" mHeight="27" mDelay="12" mOriginX="8" mOriginY="16" mU="54" mV="0" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\IceGuardian\Output\Idle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-14" mWidth="4" mHeight="23" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="-14" mWidth="4" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="0" mY="-13" mWidth="8" mHeight="12" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Wake" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\IceGuardian\Output\Wake.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="16" mHeight="27" mDelay="41" mOriginX="8" mOriginY="16" mU="72" mV="0" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\IceGuardian\Output\Wake0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-9" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-14" mWidth="4" mHeight="23" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="-14" mWidth="4" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="0" mY="-13" mWidth="8" mHeight="8" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="27" mDelay="8" mOriginX="8" mOriginY="16" mU="54" mV="29" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\IceGuardian\Output\Wake0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-14" mWidth="4" mHeight="23" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="-14" mWidth="4" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="0" mY="-13" mWidth="8" mHeight="10" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="27" mDelay="31" mOriginX="8" mOriginY="16" mU="90" mV="0" mUVWidth="16" mUVHeight="27" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\IceGuardian\Output\Wake0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-14" mWidth="4" mHeight="23" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="-14" mWidth="4" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="0" mY="-13" mWidth="8" mHeight="12" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

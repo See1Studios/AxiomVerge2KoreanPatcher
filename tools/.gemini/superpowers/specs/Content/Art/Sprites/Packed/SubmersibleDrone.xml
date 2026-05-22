@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>SubmersibleDrone.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="SubmersibleDroneTexture">
+    <THSpriteAnimationData mName="Fire" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\SubmersibleDrone\Output\Fire.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-4" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="19" mHeight="18" mDelay="10" mOriginX="11" mOriginY="5" mU="0" mV="0" mUVWidth="19" mUVHeight="18" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SubmersibleDrone\Output\Fire0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="1" mY="1" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-10" mY="-2" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="19" mHeight="18" mDelay="10" mOriginX="11" mOriginY="5" mU="21" mV="0" mUVWidth="19" mUVHeight="18" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SubmersibleDrone\Output\Fire0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-2" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-4" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="19" mHeight="18" mDelay="10" mOriginX="11" mOriginY="5" mU="42" mV="0" mUVWidth="19" mUVHeight="18" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SubmersibleDrone\Output\Fire0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="5" mY="-3" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-4" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="19" mHeight="18" mDelay="10" mOriginX="11" mOriginY="5" mU="0" mV="20" mUVWidth="19" mUVHeight="18" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SubmersibleDrone\Output\Fire0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="5" mY="-3" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-4" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\SubmersibleDrone\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-4" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="15" mDelay="10" mOriginX="8" mOriginY="5" mU="0" mV="40" mUVWidth="16" mUVHeight="15" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SubmersibleDrone\Output\Idle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="5" mY="-3" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-4" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="15" mDelay="10" mOriginX="8" mOriginY="5" mU="21" mV="20" mUVWidth="16" mUVHeight="15" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SubmersibleDrone\Output\Idle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="5" mY="-3" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-4" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="15" mDelay="10" mOriginX="8" mOriginY="5" mU="21" mV="37" mUVWidth="16" mUVHeight="15" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SubmersibleDrone\Output\Idle0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="5" mY="-3" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-4" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="15" mDelay="10" mOriginX="8" mOriginY="5" mU="39" mV="20" mUVWidth="16" mUVHeight="15" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SubmersibleDrone\Output\Idle0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="5" mY="-3" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-4" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

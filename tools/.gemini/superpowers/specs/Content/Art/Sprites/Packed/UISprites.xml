@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>UISprites.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="UISpritesTexture">
+    <THSpriteAnimationData mName="CursorSprite" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\CursorSprite.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="16" mHeight="16" mDelay="8" mOriginX="16" mOriginY="5" mU="33" mV="348" mUVWidth="12" mUVHeight="12" mCropX="2" mCropY="2" mSourceImageName="..\UI\Output\CursorSprite0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="8" mOriginX="16" mOriginY="5" mU="100" mV="272" mUVWidth="12" mUVHeight="12" mCropX="2" mCropY="2" mSourceImageName="..\UI\Output\CursorSprite0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="8" mOriginX="16" mOriginY="5" mU="33" mV="433" mUVWidth="10" mUVHeight="10" mCropX="3" mCropY="3" mSourceImageName="..\UI\Output\CursorSprite0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="8" mOriginX="16" mOriginY="5" mU="100" mV="286" mUVWidth="12" mUVHeight="12" mCropX="2" mCropY="2" mSourceImageName="..\UI\Output\CursorSprite0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="CopyArrowLarge" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\CopyArrowLarge.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="31" mHeight="138" mDelay="8" mOriginX="25" mOriginY="6" mU="0" mV="348" mUVWidth="31" mUVHeight="138" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\CopyArrowLarge0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="31" mHeight="138" mDelay="8" mOriginX="25" mOriginY="6" mU="50" mV="314" mUVWidth="31" mUVHeight="138" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\CopyArrowLarge0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="31" mHeight="138" mDelay="8" mOriginX="25" mOriginY="6" mU="149" mV="296" mUVWidth="30" mUVHeight="137" mCropX="0" mCropY="1" mSourceImageName="..\UI\Output\CopyArrowLarge0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="31" mHeight="138" mDelay="8" mOriginX="25" mOriginY="6" mU="116" mV="256" mUVWidth="31" mUVHeight="138" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\CopyArrowLarge0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="CopyArrowSmall" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\CopyArrowSmall.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="31" mHeight="74" mDelay="8" mOriginX="25" mOriginY="6" mU="83" mV="314" mUVWidth="31" mUVHeight="74" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\CopyArrowSmall0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="31" mHeight="74" mDelay="8" mOriginX="25" mOriginY="6" mU="183" mV="245" mUVWidth="31" mUVHeight="74" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\CopyArrowSmall0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="31" mHeight="74" mDelay="8" mOriginX="25" mOriginY="6" mU="216" mV="245" mUVWidth="30" mUVHeight="73" mCropX="0" mCropY="1" mSourceImageName="..\UI\Output\CopyArrowSmall0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="31" mHeight="74" mDelay="8" mOriginX="25" mOriginY="6" mU="150" mV="220" mUVWidth="31" mUVHeight="74" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\CopyArrowSmall0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="LocationSprite" mIsLooping="true" mRenderType="START">
+      <mCSVName>..\UI\Output\LocationSprite.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="5" mHeight="5" mDelay="31" mOriginX="2" mOriginY="2" mU="171" mV="153" mUVWidth="1" mUVHeight="1" mCropX="2" mCropY="2" mSourceImageName="..\UI\Output\LocationSprite0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="5" mHeight="5" mDelay="31" mOriginX="2" mOriginY="2" mU="250" mV="127" mUVWidth="3" mUVHeight="3" mCropX="1" mCropY="1" mSourceImageName="..\UI\Output\LocationSprite0001.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WeaponSelectCursor" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Items\Output\WeaponSelectCursor.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="19" mHeight="19" mDelay="31" mOriginX="10" mOriginY="17" mU="493" mV="0" mUVWidth="17" mUVHeight="17" mCropX="1" mCropY="1" mSourceImageName="..\Items\Output\WeaponSelectCursor0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="19" mHeight="19" mDelay="31" mOriginX="10" mOriginY="17" mU="171" mV="132" mUVWidth="19" mUVHeight="19" mCropX="0" mCropY="0" mSourceImageName="..\Items\Output\WeaponSelectCursor0001.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TwoFlash" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\TwoFlash.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="58" mHeight="48" mDelay="3" mOriginX="0" mOriginY="0" mU="324" mV="126" mUVWidth="58" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\TwoFlash0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="58" mHeight="48" mDelay="3" mOriginX="0" mOriginY="0" mU="196" mV="195" mUVWidth="58" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\TwoFlash0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="58" mHeight="48" mDelay="3" mOriginX="0" mOriginY="0" mU="260" mV="190" mUVWidth="58" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\TwoFlash0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="58" mHeight="48" mDelay="3" mOriginX="0" mOriginY="0" mU="384" mV="176" mUVWidth="58" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\TwoFlash0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="58" mHeight="48" mDelay="3" mOriginX="0" mOriginY="0" mU="384" mV="126" mUVWidth="58" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\TwoFlash0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="58" mHeight="48" mDelay="3" mOriginX="0" mOriginY="0" mU="324" mV="176" mUVWidth="58" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\TwoFlash0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="58" mHeight="48" mDelay="3" mOriginX="0" mOriginY="0" mU="429" mV="63" mUVWidth="58" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\TwoFlash0006.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TwoIdle" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\TwoIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="58" mHeight="48" mDelay="3" mOriginX="0" mOriginY="0" mU="444" mV="113" mUVWidth="58" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\TwoIdle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ThomasHappGamesLogo" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\ThomasHappGamesLogo.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="176" mHeight="16" mDelay="187" mOriginX="0" mOriginY="0" mU="0" mV="96" mUVWidth="169" mUVHeight="10" mCropX="3" mCropY="3" mSourceImageName="..\UI\Output\ThomasHappGamesLogo0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="176" mHeight="16" mDelay="2" mOriginX="0" mOriginY="0" mU="0" mV="84" mUVWidth="169" mUVHeight="10" mCropX="3" mCropY="3" mSourceImageName="..\UI\Output\ThomasHappGamesLogo0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="176" mHeight="16" mDelay="2" mOriginX="0" mOriginY="0" mU="0" mV="12" mUVWidth="169" mUVHeight="10" mCropX="3" mCropY="3" mSourceImageName="..\UI\Output\ThomasHappGamesLogo0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="176" mHeight="16" mDelay="2" mOriginX="0" mOriginY="0" mU="0" mV="24" mUVWidth="169" mUVHeight="10" mCropX="3" mCropY="3" mSourceImageName="..\UI\Output\ThomasHappGamesLogo0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="176" mHeight="16" mDelay="2" mOriginX="0" mOriginY="0" mU="0" mV="36" mUVWidth="169" mUVHeight="10" mCropX="3" mCropY="3" mSourceImageName="..\UI\Output\ThomasHappGamesLogo0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="176" mHeight="16" mDelay="2" mOriginX="0" mOriginY="0" mU="0" mV="48" mUVWidth="169" mUVHeight="10" mCropX="3" mCropY="3" mSourceImageName="..\UI\Output\ThomasHappGamesLogo0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="176" mHeight="16" mDelay="2" mOriginX="0" mOriginY="0" mU="0" mV="60" mUVWidth="169" mUVHeight="10" mCropX="3" mCropY="3" mSourceImageName="..\UI\Output\ThomasHappGamesLogo0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="176" mHeight="16" mDelay="2" mOriginX="0" mOriginY="0" mU="0" mV="72" mUVWidth="169" mUVHeight="10" mCropX="3" mCropY="3" mSourceImageName="..\UI\Output\ThomasHappGamesLogo0007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="176" mHeight="16" mDelay="2" mOriginX="0" mOriginY="0" mU="0" mV="0" mUVWidth="169" mUVHeight="10" mCropX="3" mCropY="3" mSourceImageName="..\UI\Output\ThomasHappGamesLogo0008.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="176" mHeight="16" mDelay="2" mOriginX="0" mOriginY="0" mU="0" mV="144" mUVWidth="169" mUVHeight="10" mCropX="3" mCropY="3" mSourceImageName="..\UI\Output\ThomasHappGamesLogo0009.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="176" mHeight="16" mDelay="2" mOriginX="0" mOriginY="0" mU="0" mV="108" mUVWidth="169" mUVHeight="10" mCropX="3" mCropY="3" mSourceImageName="..\UI\Output\ThomasHappGamesLogo0010.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="176" mHeight="16" mDelay="2" mOriginX="0" mOriginY="0" mU="0" mV="120" mUVWidth="169" mUVHeight="10" mCropX="3" mCropY="3" mSourceImageName="..\UI\Output\ThomasHappGamesLogo0011.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="176" mHeight="16" mDelay="2" mOriginX="0" mOriginY="0" mU="0" mV="132" mUVWidth="169" mUVHeight="10" mCropX="3" mCropY="3" mSourceImageName="..\UI\Output\ThomasHappGamesLogo0012.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="SaveAnimation" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\SaveAnimation.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="18" mHeight="18" mDelay="12" mOriginX="0" mOriginY="0" mU="0" mV="488" mUVWidth="18" mUVHeight="18" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\SaveAnimation0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="18" mDelay="6" mOriginX="0" mOriginY="0" mU="33" mV="393" mUVWidth="10" mUVHeight="18" mCropX="4" mCropY="0" mSourceImageName="..\UI\Output\SaveAnimation0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="18" mDelay="6" mOriginX="0" mOriginY="0" mU="103" mV="416" mUVWidth="4" mUVHeight="18" mCropX="6" mCropY="0" mSourceImageName="..\UI\Output\SaveAnimation0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="18" mDelay="6" mOriginX="0" mOriginY="0" mU="33" mV="373" mUVWidth="10" mUVHeight="18" mCropX="4" mCropY="0" mSourceImageName="..\UI\Output\SaveAnimation0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="18" mDelay="6" mOriginX="0" mOriginY="0" mU="248" mV="245" mUVWidth="18" mUVHeight="18" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\SaveAnimation0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="18" mDelay="6" mOriginX="0" mOriginY="0" mU="183" mV="220" mUVWidth="10" mUVHeight="18" mCropX="4" mCropY="0" mSourceImageName="..\UI\Output\SaveAnimation0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="18" mDelay="6" mOriginX="0" mOriginY="0" mU="258" mV="265" mUVWidth="4" mUVHeight="18" mCropX="7" mCropY="0" mSourceImageName="..\UI\Output\SaveAnimation0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="18" mDelay="6" mOriginX="0" mOriginY="0" mU="33" mV="413" mUVWidth="10" mUVHeight="18" mCropX="4" mCropY="0" mSourceImageName="..\UI\Output\SaveAnimation0007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="18" mHeight="18" mDelay="6" mOriginX="0" mOriginY="0" mU="83" mV="416" mUVWidth="18" mUVHeight="18" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\SaveAnimation0008.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="HackingCursorSprite" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\HackingCursorSprite.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="8" mHeight="8" mDelay="25" mOriginX="10" mOriginY="4" mU="248" mV="265" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\HackingCursorSprite0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="25" mOriginX="10" mOriginY="4" mU="268" mV="250" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\HackingCursorSprite0001.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="HackingEnemyPointer" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\HackingEnemyPointer.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="16" mHeight="16" mDelay="16" mOriginX="8" mOriginY="8" mU="493" mV="19" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\HackingEnemyPointer0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="16" mOriginX="8" mOriginY="8" mU="33" mV="472" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\HackingEnemyPointer0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="16" mOriginX="8" mOriginY="8" mU="181" mV="321" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\HackingEnemyPointer0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="16" mOriginX="8" mOriginY="8" mU="33" mV="454" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\HackingEnemyPointer0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="HackingEnemyReticle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\HackingEnemyReticle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="64" mDelay="8" mOriginX="32" mOriginY="32" mU="0" mV="156" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\HackingEnemyReticle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="8" mOriginX="32" mOriginY="32" mU="171" mV="66" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\HackingEnemyReticle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="8" mOriginX="32" mOriginY="32" mU="237" mV="0" mUVWidth="62" mUVHeight="62" mCropX="1" mCropY="1" mSourceImageName="..\UI\Output\HackingEnemyReticle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="8" mOriginX="32" mOriginY="32" mU="132" mV="156" mUVWidth="62" mUVHeight="62" mCropX="1" mCropY="1" mSourceImageName="..\UI\Output\HackingEnemyReticle0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="HackingHeroReticle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\HackingHeroReticle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="64" mDelay="8" mOriginX="32" mOriginY="32" mU="429" mV="0" mUVWidth="62" mUVHeight="61" mCropX="0" mCropY="2" mSourceImageName="..\UI\Output\HackingHeroReticle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="8" mOriginX="32" mOriginY="32" mU="365" mV="63" mUVWidth="62" mUVHeight="61" mCropX="0" mCropY="2" mSourceImageName="..\UI\Output\HackingHeroReticle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="8" mOriginX="32" mOriginY="32" mU="260" mV="127" mUVWidth="62" mUVHeight="61" mCropX="0" mCropY="2" mSourceImageName="..\UI\Output\HackingHeroReticle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="8" mOriginX="32" mOriginY="32" mU="365" mV="0" mUVWidth="62" mUVHeight="61" mCropX="0" mCropY="2" mSourceImageName="..\UI\Output\HackingHeroReticle0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="8" mOriginX="32" mOriginY="32" mU="301" mV="63" mUVWidth="62" mUVHeight="61" mCropX="0" mCropY="2" mSourceImageName="..\UI\Output\HackingHeroReticle0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="8" mOriginX="32" mOriginY="32" mU="196" mV="132" mUVWidth="62" mUVHeight="61" mCropX="0" mCropY="2" mSourceImageName="..\UI\Output\HackingHeroReticle0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="8" mOriginX="32" mOriginY="32" mU="237" mV="64" mUVWidth="62" mUVHeight="61" mCropX="0" mCropY="2" mSourceImageName="..\UI\Output\HackingHeroReticle0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="8" mOriginX="32" mOriginY="32" mU="301" mV="0" mUVWidth="62" mUVHeight="61" mCropX="0" mCropY="2" mSourceImageName="..\UI\Output\HackingHeroReticle0007.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="HackingEnemyAcquire" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\HackingEnemyAcquire.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="64" mDelay="4" mOriginX="32" mOriginY="32" mU="171" mV="0" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\HackingEnemyAcquire0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="4" mOriginX="32" mOriginY="32" mU="444" mV="163" mUVWidth="56" mUVHeight="56" mCropX="4" mCropY="4" mSourceImageName="..\UI\Output\HackingEnemyAcquire0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="4" mOriginX="32" mOriginY="32" mU="66" mV="222" mUVWidth="48" mUVHeight="48" mCropX="8" mCropY="8" mSourceImageName="..\UI\Output\HackingEnemyAcquire0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="4" mOriginX="32" mOriginY="32" mU="66" mV="156" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\HackingEnemyAcquire0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="4" mOriginX="32" mOriginY="32" mU="0" mV="240" mUVWidth="56" mUVHeight="56" mCropX="4" mCropY="4" mSourceImageName="..\UI\Output\HackingEnemyAcquire0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="4" mOriginX="32" mOriginY="32" mU="0" mV="298" mUVWidth="48" mUVHeight="48" mCropX="8" mCropY="8" mSourceImageName="..\UI\Output\HackingEnemyAcquire0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="4" mOriginX="32" mOriginY="32" mU="58" mV="272" mUVWidth="40" mUVHeight="40" mCropX="12" mCropY="12" mSourceImageName="..\UI\Output\HackingEnemyAcquire0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="4" mOriginX="32" mOriginY="32" mU="116" mV="222" mUVWidth="32" mUVHeight="32" mCropX="16" mCropY="16" mSourceImageName="..\UI\Output\HackingEnemyAcquire0007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="4" mOriginX="32" mOriginY="32" mU="83" mV="390" mUVWidth="24" mUVHeight="24" mCropX="20" mCropY="20" mSourceImageName="..\UI\Output\HackingEnemyAcquire0008.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="4" mOriginX="32" mOriginY="32" mU="51" mV="454" mUVWidth="16" mUVHeight="16" mCropX="24" mCropY="24" mSourceImageName="..\UI\Output\HackingEnemyAcquire0009.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="DestinationSprite" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\DestinationSprite.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="11" mHeight="7" mDelay="8" mOriginX="5" mOriginY="3" mU="255" mV="127" mUVWidth="3" mUVHeight="3" mCropX="4" mCropY="2" mSourceImageName="..\UI\Output\DestinationSprite0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="11" mHeight="7" mDelay="8" mOriginX="5" mOriginY="3" mU="199" mV="321" mUVWidth="5" mUVHeight="5" mCropX="3" mCropY="1" mSourceImageName="..\UI\Output\DestinationSprite0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="11" mHeight="7" mDelay="8" mOriginX="5" mOriginY="3" mU="109" mV="410" mUVWidth="7" mUVHeight="7" mCropX="2" mCropY="0" mSourceImageName="..\UI\Output\DestinationSprite0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="11" mHeight="7" mDelay="8" mOriginX="5" mOriginY="3" mU="109" mV="396" mUVWidth="9" mUVHeight="5" mCropX="1" mCropY="1" mSourceImageName="..\UI\Output\DestinationSprite0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="11" mHeight="7" mDelay="8" mOriginX="5" mOriginY="3" mU="237" mV="127" mUVWidth="11" mUVHeight="3" mCropX="0" mCropY="2" mSourceImageName="..\UI\Output\DestinationSprite0004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ReminderSprite" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\ReminderSprite.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="5" mHeight="5" mDelay="8" mOriginX="2" mOriginY="2" mU="69" mV="454" mUVWidth="5" mUVHeight="5" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\ReminderSprite0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="SaveSprite" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\SaveSprite.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="7" mHeight="6" mDelay="8" mOriginX="3" mOriginY="3" mU="83" mV="436" mUVWidth="7" mUVHeight="6" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\SaveSprite0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="DestinationSprite2" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\DestinationSprite2.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="11" mHeight="7" mDelay="8" mOriginX="5" mOriginY="3" mU="183" mV="240" mUVWidth="3" mUVHeight="3" mCropX="4" mCropY="2" mSourceImageName="..\UI\Output\DestinationSprite20000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="11" mHeight="7" mDelay="8" mOriginX="5" mOriginY="3" mU="32" mV="490" mUVWidth="5" mUVHeight="5" mCropX="3" mCropY="1" mSourceImageName="..\UI\Output\DestinationSprite20001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="11" mHeight="7" mDelay="8" mOriginX="5" mOriginY="3" mU="20" mV="498" mUVWidth="7" mUVHeight="7" mCropX="2" mCropY="0" mSourceImageName="..\UI\Output\DestinationSprite20002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="11" mHeight="7" mDelay="8" mOriginX="5" mOriginY="3" mU="109" mV="403" mUVWidth="9" mUVHeight="5" mCropX="1" mCropY="1" mSourceImageName="..\UI\Output\DestinationSprite20003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="11" mHeight="7" mDelay="8" mOriginX="5" mOriginY="3" mU="33" mV="368" mUVWidth="11" mUVHeight="3" mCropX="0" mCropY="2" mSourceImageName="..\UI\Output\DestinationSprite20004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="DestinationSprite2X" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\DestinationSprite2X.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="12" mHeight="8" mDelay="8" mOriginX="6" mOriginY="4" mU="248" mV="275" mUVWidth="4" mUVHeight="4" mCropX="4" mCropY="2" mSourceImageName="..\UI\Output\DestinationSprite2X0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="8" mDelay="8" mOriginX="6" mOriginY="4" mU="181" mV="339" mUVWidth="6" mUVHeight="6" mCropX="3" mCropY="1" mSourceImageName="..\UI\Output\DestinationSprite2X0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="8" mDelay="8" mOriginX="6" mOriginY="4" mU="120" mV="396" mUVWidth="8" mUVHeight="8" mCropX="2" mCropY="0" mSourceImageName="..\UI\Output\DestinationSprite2X0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="8" mDelay="8" mOriginX="6" mOriginY="4" mU="33" mV="445" mUVWidth="10" mUVHeight="6" mCropX="1" mCropY="1" mSourceImageName="..\UI\Output\DestinationSprite2X0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="8" mDelay="8" mOriginX="6" mOriginY="4" mU="100" mV="300" mUVWidth="12" mUVHeight="4" mCropX="0" mCropY="2" mSourceImageName="..\UI\Output\DestinationSprite2X0004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="DestinationSprite22X" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\DestinationSprite22X.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="12" mHeight="8" mDelay="8" mOriginX="6" mOriginY="4" mU="51" mV="472" mUVWidth="4" mUVHeight="4" mCropX="4" mCropY="2" mSourceImageName="..\UI\Output\DestinationSprite22X0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="8" mDelay="8" mOriginX="6" mOriginY="4" mU="50" mV="298" mUVWidth="6" mUVHeight="6" mCropX="3" mCropY="1" mSourceImageName="..\UI\Output\DestinationSprite22X0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="8" mDelay="8" mOriginX="6" mOriginY="4" mU="278" mV="240" mUVWidth="8" mUVHeight="8" mCropX="2" mCropY="0" mSourceImageName="..\UI\Output\DestinationSprite22X0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="8" mDelay="8" mOriginX="6" mOriginY="4" mU="100" mV="306" mUVWidth="10" mUVHeight="6" mCropX="1" mCropY="1" mSourceImageName="..\UI\Output\DestinationSprite22X0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="8" mDelay="8" mOriginX="6" mOriginY="4" mU="33" mV="362" mUVWidth="12" mUVHeight="4" mCropX="0" mCropY="2" mSourceImageName="..\UI\Output\DestinationSprite22X0004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="LocationSprite2X" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\LocationSprite2X.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="8" mHeight="8" mDelay="31" mOriginX="4" mOriginY="4" mU="109" mV="390" mUVWidth="4" mUVHeight="4" mCropX="2" mCropY="2" mSourceImageName="..\UI\Output\LocationSprite2X0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="31" mOriginX="4" mOriginY="4" mU="268" mV="240" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\LocationSprite2X0001.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ReminderSprite2X" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\ReminderSprite2X.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="6" mHeight="6" mDelay="8" mOriginX="3" mOriginY="3" mU="50" mV="306" mUVWidth="6" mUVHeight="6" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\ReminderSprite2X0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="SaveSprite2X" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\SaveSprite2X.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="10" mHeight="8" mDelay="8" mOriginX="5" mOriginY="4" mU="20" mV="488" mUVWidth="10" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\SaveSprite2X0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BreachPortalSprite" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\BreachPortalSprite.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="3" mHeight="5" mDelay="6" mOriginX="1" mOriginY="2" mU="45" mV="373" mUVWidth="3" mUVHeight="5" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\BreachPortalSprite0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="3" mHeight="5" mDelay="6" mOriginX="1" mOriginY="2" mU="45" mV="380" mUVWidth="3" mUVHeight="5" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\BreachPortalSprite0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="3" mHeight="5" mDelay="6" mOriginX="1" mOriginY="2" mU="45" mV="387" mUVWidth="3" mUVHeight="5" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\BreachPortalSprite0002.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BreachPortalSprite2X" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\BreachPortalSprite2X.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="6" mHeight="8" mDelay="6" mOriginX="3" mOriginY="4" mU="58" mV="250" mUVWidth="6" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\BreachPortalSprite2X0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="6" mHeight="8" mDelay="6" mOriginX="3" mOriginY="4" mU="58" mV="240" mUVWidth="6" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\BreachPortalSprite2X0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="6" mHeight="8" mDelay="6" mOriginX="3" mOriginY="4" mU="58" mV="260" mUVWidth="6" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\BreachPortalSprite2X0002.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="FMODLogo" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\UI\Output\FMODLogo.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="16" mDelay="62" mOriginX="0" mOriginY="0" mU="0" mV="222" mUVWidth="64" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\UI\Output\FMODLogo0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

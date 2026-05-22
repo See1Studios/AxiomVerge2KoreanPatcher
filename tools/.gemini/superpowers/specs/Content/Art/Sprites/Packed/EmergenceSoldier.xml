@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>2048</mMaxWidth>
+  <mMaxHeight>2048</mMaxHeight>
+  <mFileName>EmergenceSoldier.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="EmergenceSoldierTexture">
+    <THSpriteAnimationData mName="ArmedIdle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Humans\EmergenceSoldier\Output\ArmedIdle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-6" mY="-32" mWidth="12" mHeight="32" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="33" mHeight="33" mDelay="182" mOriginX="9" mOriginY="33" mU="91" mV="68" mUVWidth="23" mUVHeight="32" mCropX="1" mCropY="1" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedIdle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="33" mDelay="8" mOriginX="9" mOriginY="33" mU="178" mV="0" mUVWidth="23" mUVHeight="32" mCropX="1" mCropY="1" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedIdle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="33" mDelay="62" mOriginX="9" mOriginY="33" mU="126" mV="34" mUVWidth="23" mUVHeight="32" mCropX="1" mCropY="1" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedIdle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="33" mDelay="8" mOriginX="9" mOriginY="33" mU="153" mV="0" mUVWidth="23" mUVHeight="32" mCropX="1" mCropY="1" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedIdle0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="33" mDelay="182" mOriginX="9" mOriginY="33" mU="128" mV="0" mUVWidth="23" mUVHeight="32" mCropX="1" mCropY="1" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedIdle0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="33" mDelay="8" mOriginX="9" mOriginY="33" mU="31" mV="68" mUVWidth="28" mUVHeight="33" mCropX="2" mCropY="0" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedIdle0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="33" mDelay="8" mOriginX="9" mOriginY="33" mU="34" mV="34" mUVWidth="29" mUVHeight="32" mCropX="0" mCropY="1" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedIdle0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="33" mDelay="195" mOriginX="9" mOriginY="33" mU="0" mV="0" mUVWidth="32" mUVHeight="32" mCropX="1" mCropY="1" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedIdle0007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="33" mDelay="8" mOriginX="9" mOriginY="33" mU="34" mV="0" mUVWidth="32" mUVHeight="32" mCropX="1" mCropY="1" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedIdle0008.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="33" mDelay="109" mOriginX="9" mOriginY="33" mU="68" mV="0" mUVWidth="32" mUVHeight="32" mCropX="1" mCropY="1" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedIdle0009.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="33" mDelay="8" mOriginX="9" mOriginY="33" mU="0" mV="67" mUVWidth="29" mUVHeight="32" mCropX="0" mCropY="1" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedIdle0010.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="33" mDelay="8" mOriginX="9" mOriginY="33" mU="65" mV="34" mUVWidth="29" mUVHeight="32" mCropX="1" mCropY="1" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedIdle0011.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ArmedWalk" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Humans\EmergenceSoldier\Output\ArmedWalk.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-6" mY="-32" mWidth="12" mHeight="32" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="32" mHeight="32" mDelay="12" mOriginX="7" mOriginY="32" mU="96" mV="34" mUVWidth="28" mUVHeight="32" mCropX="1" mCropY="0" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedWalk0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="0" mV="34" mUVWidth="32" mUVHeight="31" mCropX="0" mCropY="1" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedWalk0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="61" mV="68" mUVWidth="28" mUVHeight="32" mCropX="1" mCropY="0" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedWalk0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="102" mV="0" mUVWidth="24" mUVHeight="31" mCropX="1" mCropY="1" mSourceImageName="..\Humans\EmergenceSoldier\Output\ArmedWalk0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="UnarmedIdle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Humans\EmergenceSoldier\Output\UnarmedIdle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-6" mY="-32" mWidth="12" mHeight="32" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="32" mDelay="62" mOriginX="8" mOriginY="32" mU="116" mV="68" mUVWidth="16" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\EmergenceSoldier\Output\UnarmedIdle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="UnarmedWalk" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Humans\EmergenceSoldier\Output\UnarmedWalk.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-6" mY="-32" mWidth="12" mHeight="32" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="32" mDelay="12" mOriginX="6" mOriginY="32" mU="169" mV="34" mUVWidth="10" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\EmergenceSoldier\Output\UnarmedWalk0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="32" mDelay="12" mOriginX="6" mOriginY="32" mU="151" mV="34" mUVWidth="16" mUVHeight="31" mCropX="0" mCropY="1" mSourceImageName="..\Humans\EmergenceSoldier\Output\UnarmedWalk0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="32" mDelay="12" mOriginX="6" mOriginY="32" mU="203" mV="0" mUVWidth="10" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Humans\EmergenceSoldier\Output\UnarmedWalk0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="32" mDelay="12" mOriginX="6" mOriginY="32" mU="134" mV="68" mUVWidth="16" mUVHeight="31" mCropX="0" mCropY="1" mSourceImageName="..\Humans\EmergenceSoldier\Output\UnarmedWalk0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

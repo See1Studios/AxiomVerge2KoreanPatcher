@@ -328,7 +328,13 @@ node_modules/
 *.dsw
 *.dsp
 
-# Visual Studio 6 technical files
+# AV2Patcher - 런타임 생성 폴더 (빌드 출력 내부)
+**/Originals/
+**/BuiltFonts/
+**/Translations/Originals/
+# config.json은 사용자별 설정이므로 제외
+**/config.json
+
 *.ncb
 *.aps
 

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>Robopede.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="RobopedeTexture">
+    <THSpriteAnimationData mName="EndSegmentWalk" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Robopede\Output\EndSegmentWalk.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-12" mY="-13" mWidth="24" mHeight="13" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="16" mDelay="8" mOriginX="12" mOriginY="16" mU="78" mV="49" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Robopede\Output\EndSegmentWalk0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-17" mWidth="12" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="0" mY="-13" mWidth="12" mHeight="13" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-11" mY="-9" mWidth="11" mHeight="6" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="16" mDelay="8" mOriginX="12" mOriginY="16" mU="78" mV="84" mUVWidth="24" mUVHeight="15" mCropX="0" mCropY="1" mSourceImageName="..\Bosses\Robopede\Output\EndSegmentWalk0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-16" mWidth="12" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="0" mY="-14" mWidth="12" mHeight="14" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-11" mY="-8" mWidth="11" mHeight="6" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="16" mDelay="8" mOriginX="12" mOriginY="16" mU="78" mV="67" mUVWidth="24" mUVHeight="15" mCropX="0" mCropY="1" mSourceImageName="..\Bosses\Robopede\Output\EndSegmentWalk0002.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-15" mWidth="12" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="0" mY="-15" mWidth="12" mHeight="15" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-11" mY="-7" mWidth="11" mHeight="6" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="16" mDelay="8" mOriginX="12" mOriginY="16" mU="52" mV="87" mUVWidth="24" mUVHeight="15" mCropX="0" mCropY="1" mSourceImageName="..\Bosses\Robopede\Output\EndSegmentWalk0003.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-16" mWidth="12" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="0" mY="-14" mWidth="12" mHeight="14" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-11" mY="-8" mWidth="11" mHeight="6" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="HeadWalk" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Robopede\Output\HeadWalk.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-12" mY="-22" mWidth="22" mHeight="22" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="24" mDelay="8" mOriginX="12" mOriginY="24" mU="0" mV="0" mUVWidth="24" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Robopede\Output\HeadWalk0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-24" mWidth="18" mHeight="24" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="6" mY="-18" mWidth="6" mHeight="16" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="24" mDelay="8" mOriginX="12" mOriginY="24" mU="26" mV="26" mUVWidth="24" mUVHeight="23" mCropX="0" mCropY="1" mSourceImageName="..\Bosses\Robopede\Output\HeadWalk0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-23" mWidth="18" mHeight="23" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="6" mY="-17" mWidth="6" mHeight="16" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="24" mDelay="8" mOriginX="12" mOriginY="24" mU="78" mV="25" mUVWidth="24" mUVHeight="22" mCropX="0" mCropY="2" mSourceImageName="..\Bosses\Robopede\Output\HeadWalk0002.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-22" mWidth="18" mHeight="22" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="6" mY="-18" mWidth="6" mHeight="16" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="24" mDelay="8" mOriginX="12" mOriginY="24" mU="52" mV="0" mUVWidth="24" mUVHeight="23" mCropX="0" mCropY="1" mSourceImageName="..\Bosses\Robopede\Output\HeadWalk0003.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-23" mWidth="18" mHeight="23" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="6" mY="-19" mWidth="6" mHeight="16" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="LargeSegmentWalk" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Robopede\Output\LargeSegmentWalk.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-12" mY="-21" mWidth="24" mHeight="21" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="24" mDelay="8" mOriginX="12" mOriginY="24" mU="52" mV="25" mUVWidth="24" mUVHeight="23" mCropX="0" mCropY="1" mSourceImageName="..\Bosses\Robopede\Output\LargeSegmentWalk0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="-23" mWidth="18" mHeight="23" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-12" mY="-21" mWidth="6" mHeight="20" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="24" mDelay="8" mOriginX="12" mOriginY="24" mU="0" mV="26" mUVWidth="24" mUVHeight="23" mCropX="0" mCropY="1" mSourceImageName="..\Bosses\Robopede\Output\LargeSegmentWalk0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="-22" mWidth="18" mHeight="22" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-12" mY="-22" mWidth="6" mHeight="20" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="24" mDelay="8" mOriginX="12" mOriginY="24" mU="78" mV="0" mUVWidth="24" mUVHeight="23" mCropX="0" mCropY="1" mSourceImageName="..\Bosses\Robopede\Output\LargeSegmentWalk0002.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="-23" mWidth="18" mHeight="23" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-12" mY="-21" mWidth="6" mHeight="21" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="24" mDelay="8" mOriginX="12" mOriginY="24" mU="26" mV="0" mUVWidth="24" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Robopede\Output\LargeSegmentWalk0003.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="-24" mWidth="18" mHeight="24" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-12" mY="-20" mWidth="6" mHeight="20" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="MediumSegmentWalk" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Robopede\Output\MediumSegmentWalk.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-12" mY="-18" mWidth="24" mHeight="18" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="20" mDelay="8" mOriginX="12" mOriginY="20" mU="0" mV="73" mUVWidth="24" mUVHeight="20" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Robopede\Output\MediumSegmentWalk0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-20" mWidth="14" mHeight="20" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-12" mY="-17" mWidth="10" mHeight="17" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="20" mDelay="8" mOriginX="12" mOriginY="20" mU="26" mV="72" mUVWidth="24" mUVHeight="19" mCropX="0" mCropY="1" mSourceImageName="..\Bosses\Robopede\Output\MediumSegmentWalk0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-19" mWidth="14" mHeight="19" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-12" mY="-18" mWidth="10" mHeight="18" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="20" mDelay="8" mOriginX="12" mOriginY="20" mU="0" mV="51" mUVWidth="24" mUVHeight="20" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Robopede\Output\MediumSegmentWalk0002.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-18" mWidth="14" mHeight="18" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-12" mY="-19" mWidth="10" mHeight="19" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="20" mDelay="8" mOriginX="12" mOriginY="20" mU="26" mV="51" mUVWidth="24" mUVHeight="19" mCropX="0" mCropY="1" mSourceImageName="..\Bosses\Robopede\Output\MediumSegmentWalk0003.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-19" mWidth="14" mHeight="19" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-12" mY="-18" mWidth="10" mHeight="18" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="SmallSegmentWalk" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Robopede\Output\SmallSegmentWalk.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-12" mY="-15" mWidth="24" mHeight="15" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="17" mDelay="8" mOriginX="12" mOriginY="17" mU="0" mV="95" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="1" mSourceImageName="..\Bosses\Robopede\Output\SmallSegmentWalk0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-16" mWidth="14" mHeight="16" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-12" mY="-16" mWidth="10" mHeight="16" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="17" mDelay="8" mOriginX="12" mOriginY="17" mU="52" mV="50" mUVWidth="24" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Robopede\Output\SmallSegmentWalk0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-17" mWidth="14" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-12" mY="-15" mWidth="10" mHeight="15" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="17" mDelay="8" mOriginX="12" mOriginY="17" mU="52" mV="69" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="1" mSourceImageName="..\Bosses\Robopede\Output\SmallSegmentWalk0002.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-16" mWidth="14" mHeight="16" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-12" mY="-16" mWidth="10" mHeight="16" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="17" mDelay="8" mOriginX="12" mOriginY="17" mU="26" mV="93" mUVWidth="24" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Robopede\Output\SmallSegmentWalk0003.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-15" mWidth="14" mHeight="15" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-12" mY="-17" mWidth="10" mHeight="17" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Tail">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

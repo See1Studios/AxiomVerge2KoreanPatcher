@@ -1,0 +1,11 @@
+{
+    "Format": "1.19.0",
+    "Changes": [      
+      {
+        "Action": "Load",
+        "Target": "Fonts/Korean, Fonts/Korean_0, Fonts/Korean_00, Fonts/Korean_1, Fonts/Korean_01, Fonts/Korean_2, Fonts/Korean_02, Fonts/Korean_3, Fonts/Korean_03, Fonts/Korean_4, Fonts/Korean_04, Fonts/Korean_5, Fonts/Korean_05, Fonts/Korean_6, Fonts/Korean_06, Fonts/Korean_7, Fonts/Korean_07, Fonts/Korean_8, Fonts/Korean_08, Fonts/Korean_09, Fonts/Korean_10, Fonts/Korean_11, Fonts/SmallFont, Fonts/SmallFont.ko-KR, Fonts/SpriteFont1, Fonts/SpriteFont1.ko-KR",
+        "FromFile": "assets/{{TargetWithoutPath}}.xnb"
+      }
+    ]
+    }
+    

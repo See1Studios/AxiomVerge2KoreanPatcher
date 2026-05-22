@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>Doors.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="DoorsTexture">
+    <THSpriteAnimationData mName="AntarcticExteriorClose" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\Output\AntarcticExteriorClose.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="48" mDelay="12" mOriginX="0" mOriginY="0" mU="132" mV="396" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticExteriorClose0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="6" mOriginX="0" mOriginY="0" mU="282" mV="264" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticExteriorClose0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="6" mOriginX="0" mOriginY="0" mU="232" mV="314" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticExteriorClose0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="6" mOriginX="0" mOriginY="0" mU="234" mV="364" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticExteriorClose0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="6" mOriginX="0" mOriginY="0" mU="200" mV="364" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticExteriorClose0004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="AntarcticExteriorIdle" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\Output\AntarcticExteriorIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="48" mDelay="12" mOriginX="0" mOriginY="0" mU="266" mV="314" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticExteriorIdle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="AntarcticExteriorOpen" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\Output\AntarcticExteriorOpen.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="48" mDelay="6" mOriginX="0" mOriginY="0" mU="330" mV="248" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticExteriorOpen0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="6" mOriginX="0" mOriginY="0" mU="462" mV="100" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticExteriorOpen0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="6" mOriginX="0" mOriginY="0" mU="166" mV="396" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticExteriorOpen0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="6" mOriginX="0" mOriginY="0" mU="398" mV="198" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticExteriorOpen0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="12" mOriginX="0" mOriginY="0" mU="330" mV="198" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticExteriorOpen0004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="AntarcticShedExterior1Close" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\Output\AntarcticShedExterior1Close.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="22" mHeight="39" mDelay="12" mOriginX="-5" mOriginY="-9" mU="390" mV="248" mUVWidth="22" mUVHeight="39" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticShedExterior1Close0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="39" mDelay="6" mOriginX="-5" mOriginY="-9" mU="200" mV="414" mUVWidth="22" mUVHeight="39" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticShedExterior1Close0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="39" mDelay="6" mOriginX="-5" mOriginY="-9" mU="300" mV="314" mUVWidth="22" mUVHeight="39" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticShedExterior1Close0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="39" mDelay="6" mOriginX="-5" mOriginY="-9" mU="462" mV="150" mUVWidth="22" mUVHeight="39" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticShedExterior1Close0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="39" mDelay="6" mOriginX="-5" mOriginY="-9" mU="324" mV="298" mUVWidth="22" mUVHeight="39" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticShedExterior1Close0004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="AntarcticShedExterior1Idle" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\Output\AntarcticShedExterior1Idle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="22" mHeight="39" mDelay="12" mOriginX="-5" mOriginY="-9" mU="432" mV="198" mUVWidth="22" mUVHeight="39" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticShedExterior1Idle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="AntarcticShedExterior1Open" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\Output\AntarcticShedExterior1Open.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="22" mHeight="39" mDelay="6" mOriginX="-5" mOriginY="-9" mU="268" mV="364" mUVWidth="22" mUVHeight="39" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticShedExterior1Open0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="39" mDelay="6" mOriginX="-5" mOriginY="-9" mU="486" mV="150" mUVWidth="22" mUVHeight="39" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticShedExterior1Open0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="39" mDelay="6" mOriginX="-5" mOriginY="-9" mU="364" mV="274" mUVWidth="22" mUVHeight="39" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticShedExterior1Open0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="39" mDelay="6" mOriginX="-5" mOriginY="-9" mU="224" mV="414" mUVWidth="22" mUVHeight="39" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticShedExterior1Open0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="39" mDelay="12" mOriginX="-5" mOriginY="-9" mU="462" mV="191" mUVWidth="22" mUVHeight="39" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\AntarcticShedExterior1Open0004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="AntarcticBayDoorOpen" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="66" mV="0" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="132" mV="0" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="0" mV="66" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="66" mV="66" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="0" mV="132" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="66" mV="132" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="132" mV="132" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="396" mV="0" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="198" mV="0" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0008.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="198" mV="66" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0009.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="264" mV="0" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0010.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="198" mV="132" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0011.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="264" mV="66" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0012.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="0" mV="0" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0013.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="330" mV="0" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0014.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="132" mV="66" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorOpen0015.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="AntarcticBayDoorIdle" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\BayDoors\Output\AntarcticBayDoorIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="64" mDelay="8" mOriginX="0" mOriginY="0" mU="264" mV="132" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\AntarcticBayDoorIdle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BreachPortalIdle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\Output\BreachPortalIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="48" mDelay="12" mOriginX="0" mOriginY="0" mU="364" mV="198" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\BreachPortalIdle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="12" mOriginX="0" mOriginY="0" mU="462" mV="50" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\BreachPortalIdle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="12" mOriginX="0" mOriginY="0" mU="198" mV="314" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\BreachPortalIdle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="48" mDelay="12" mOriginX="0" mOriginY="0" mU="248" mV="264" mUVWidth="32" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\BreachPortalIdle0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="HighDesertOrangeDoor" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\UdugDoors\Output\HighDesertOrangeDoor.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="0" mY="0" mWidth="24" mHeight="24" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="24" mDelay="31" mOriginX="0" mOriginY="0" mU="104" mV="462" mUVWidth="24" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\UdugDoors\Output\HighDesertOrangeDoor0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TaigaBlueDoor" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\UdugDoors\Output\TaigaBlueDoor.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="0" mY="0" mWidth="24" mHeight="24" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="24" mDelay="31" mOriginX="0" mOriginY="0" mU="78" mV="462" mUVWidth="24" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\UdugDoors\Output\TaigaBlueDoor0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="CavernsPinkDoor" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\UdugDoors\Output\CavernsPinkDoor.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="0" mY="0" mWidth="24" mHeight="24" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="24" mDelay="31" mOriginX="0" mOriginY="0" mU="52" mV="462" mUVWidth="24" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\UdugDoors\Output\CavernsPinkDoor0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="CavernsYellowDoor" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\UdugDoors\Output\CavernsYellowDoor.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="0" mY="0" mWidth="24" mHeight="24" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="24" mDelay="31" mOriginX="0" mOriginY="0" mU="26" mV="462" mUVWidth="24" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\UdugDoors\Output\CavernsYellowDoor0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="LakePinkDoor" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\UdugDoors\Output\LakePinkDoor.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="0" mY="0" mWidth="24" mHeight="24" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="24" mDelay="31" mOriginX="0" mOriginY="0" mU="0" mV="462" mUVWidth="24" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\UdugDoors\Output\LakePinkDoor0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="LakePurpleDoor" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\UdugDoors\Output\LakePurpleDoor.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="0" mY="0" mWidth="24" mHeight="24" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="24" mDelay="31" mOriginX="0" mOriginY="0" mU="158" mV="446" mUVWidth="24" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\UdugDoors\Output\LakePurpleDoor0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="PostarcticBlueDoor" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\UdugDoors\Output\PostarcticBlueDoor.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="0" mY="0" mWidth="24" mHeight="24" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="24" mDelay="31" mOriginX="0" mOriginY="0" mU="364" mV="248" mUVWidth="24" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\UdugDoors\Output\PostarcticBlueDoor0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="CavernsGreyDoor" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\UdugDoors\Output\CavernsGreyDoor.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="0" mY="0" mWidth="48" mHeight="48" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="48" mHeight="48" mDelay="31" mOriginX="0" mOriginY="0" mU="462" mV="0" mUVWidth="48" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\UdugDoors\Output\CavernsGreyDoor0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="RectangularDoorwayIdle" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\Output\RectangularDoorwayIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="16" mHeight="32" mDelay="12" mOriginX="-8" mOriginY="-16" mU="300" mV="355" mUVWidth="16" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\RectangularDoorwayIdle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WorldStreamBayDoorIdle" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\BayDoors\Output\WorldStreamBayDoorIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="64" mDelay="8" mOriginX="0" mOriginY="0" mU="330" mV="66" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorIdle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WorldStreamBayDoorOpen" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="66" mV="198" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="132" mV="330" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="198" mV="198" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="0" mV="396" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="66" mV="330" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="264" mV="198" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="132" mV="198" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="66" mV="264" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="330" mV="132" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0008.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="0" mV="264" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0009.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="0" mV="198" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0010.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="396" mV="132" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0011.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="396" mV="66" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0012.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="0" mV="330" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0013.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="66" mV="396" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0014.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="3" mOriginX="0" mOriginY="0" mU="132" mV="264" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\BayDoors\Output\WorldStreamBayDoorOpen0015.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="UdugGreyDoor" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\UdugDoors\Output\UdugGreyDoor.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="0" mY="0" mWidth="48" mHeight="48" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="48" mHeight="48" mDelay="31" mOriginX="0" mOriginY="0" mU="198" mV="264" mUVWidth="48" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\UdugDoors\Output\UdugGreyDoor0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="CavernDoorwayIdle" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Doors\Output\CavernDoorwayIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="24" mHeight="32" mDelay="12" mOriginX="-4" mOriginY="-16" mU="132" mV="446" mUVWidth="24" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Props\Doors\Output\CavernDoorwayIdle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

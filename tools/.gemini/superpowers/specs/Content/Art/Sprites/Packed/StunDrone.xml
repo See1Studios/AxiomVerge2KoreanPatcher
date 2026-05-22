@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>StunDrone.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <THColorSchemeData mName="Meta">
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>64</B>
+        <G>64</G>
+        <R>62</R>
+        <A>255</A>
+        <PackedValue>4282400830</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>36</B>
+        <G>36</G>
+        <R>64</R>
+        <A>255</A>
+        <PackedValue>4280558656</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>99</B>
+        <G>105</G>
+        <R>120</R>
+        <A>255</A>
+        <PackedValue>4284705144</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>65</B>
+        <G>67</G>
+        <R>126</R>
+        <A>255</A>
+        <PackedValue>4282467198</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>160</B>
+        <G>169</G>
+        <R>189</R>
+        <A>255</A>
+        <PackedValue>4288719293</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>137</B>
+        <G>140</G>
+        <R>191</R>
+        <A>255</A>
+        <PackedValue>4287204543</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>215</B>
+        <G>223</G>
+        <R>241</R>
+        <A>255</A>
+        <PackedValue>4292337649</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>211</B>
+        <G>215</G>
+        <R>236</R>
+        <A>255</A>
+        <PackedValue>4292073452</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <THColorSchemeData mName="Gamma">
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>64</B>
+        <G>64</G>
+        <R>62</R>
+        <A>255</A>
+        <PackedValue>4282400830</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>41</B>
+        <G>33</G>
+        <R>22</R>
+        <A>255</A>
+        <PackedValue>4280885526</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>99</B>
+        <G>105</G>
+        <R>120</R>
+        <A>255</A>
+        <PackedValue>4284705144</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>87</B>
+        <G>76</G>
+        <R>57</R>
+        <A>255</A>
+        <PackedValue>4283911225</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>160</B>
+        <G>169</G>
+        <R>189</R>
+        <A>255</A>
+        <PackedValue>4288719293</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>167</B>
+        <G>148</G>
+        <R>119</R>
+        <A>255</A>
+        <PackedValue>4289172599</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>215</B>
+        <G>223</G>
+        <R>241</R>
+        <A>255</A>
+        <PackedValue>4292337649</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>239</B>
+        <G>227</G>
+        <R>196</R>
+        <A>255</A>
+        <PackedValue>4293911492</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>224</B>
+        <G>255</G>
+        <R>23</R>
+        <A>255</A>
+        <PackedValue>4292935447</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>25</B>
+        <G>7</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4279830527</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>248</B>
+        <G>255</G>
+        <R>204</R>
+        <A>255</A>
+        <PackedValue>4294508492</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>222</B>
+        <G>221</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4292795903</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="StunDroneTexture">
+    <THSpriteAnimationData mName="Attack" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\StunDrone\Output\Attack.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-14" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="35" mHeight="17" mDelay="1" mOriginX="9" mOriginY="17" mU="0" mV="0" mUVWidth="35" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Attack0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="1" mY="-10" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="17" mDelay="1" mOriginX="9" mOriginY="17" mU="0" mV="57" mUVWidth="35" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Attack0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-2" mY="-9" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="17" mDelay="1" mOriginX="9" mOriginY="17" mU="74" mV="38" mUVWidth="35" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Attack0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-1" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="17" mDelay="1" mOriginX="9" mOriginY="17" mU="74" mV="19" mUVWidth="35" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Attack0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="1" mY="-15" mWidth="6" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="17" mDelay="5" mOriginX="9" mOriginY="17" mU="37" mV="38" mUVWidth="35" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Attack0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="17" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="14" mY="-11" mWidth="6" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="17" mDelay="5" mOriginX="9" mOriginY="17" mU="0" mV="76" mUVWidth="35" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Attack0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="17" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="12" mY="-12" mWidth="9" mHeight="11" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="17" mDelay="5" mOriginX="9" mOriginY="17" mU="37" mV="19" mUVWidth="35" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Attack0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="17" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="13" mY="-13" mWidth="10" mHeight="11" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="17" mDelay="5" mOriginX="9" mOriginY="17" mU="37" mV="0" mUVWidth="35" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Attack0007.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="17" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="12" mY="-13" mWidth="10" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="17" mDelay="5" mOriginX="9" mOriginY="17" mU="0" mV="38" mUVWidth="35" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Attack0008.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="17" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="12" mY="-12" mWidth="9" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="17" mDelay="5" mOriginX="9" mOriginY="17" mU="74" mV="0" mUVWidth="35" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Attack0009.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="17" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="12" mY="-12" mWidth="8" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="17" mDelay="6" mOriginX="9" mOriginY="17" mU="0" mV="19" mUVWidth="35" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Attack0010.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ElectricArcIdle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\StunDrone\Output\ElectricArcIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="3" mHeight="3" mDelay="4" mOriginX="0" mOriginY="1" mU="116" mV="0" mUVWidth="3" mUVHeight="3" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\ElectricArcIdle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="3" mHeight="3" mDelay="4" mOriginX="0" mOriginY="1" mU="5" mV="113" mUVWidth="3" mUVHeight="3" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\ElectricArcIdle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="3" mHeight="3" mDelay="4" mOriginX="0" mOriginY="1" mU="111" mV="5" mUVWidth="3" mUVHeight="3" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\ElectricArcIdle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="3" mHeight="3" mDelay="4" mOriginX="0" mOriginY="1" mU="0" mV="113" mUVWidth="3" mUVHeight="3" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\ElectricArcIdle0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="3" mHeight="3" mDelay="4" mOriginX="0" mOriginY="1" mU="111" mV="0" mUVWidth="3" mUVHeight="3" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\ElectricArcIdle0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="3" mHeight="3" mDelay="4" mOriginX="0" mOriginY="1" mU="0" mV="118" mUVWidth="3" mUVHeight="3" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\ElectricArcIdle0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\StunDrone\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-14" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="17" mHeight="16" mDelay="10" mOriginX="8" mOriginY="16" mU="21" mV="95" mUVWidth="17" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Idle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="1" mY="-10" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="16" mDelay="10" mOriginX="8" mOriginY="16" mU="79" mV="57" mUVWidth="17" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Idle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="1" mY="-9" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="16" mDelay="10" mOriginX="8" mOriginY="16" mU="40" mV="93" mUVWidth="17" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Idle0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="16" mDelay="10" mOriginX="8" mOriginY="16" mU="58" mV="75" mUVWidth="17" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Idle0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-1" mY="-9" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Walk" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\StunDrone\Output\Walk.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-14" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="19" mHeight="16" mDelay="6" mOriginX="8" mOriginY="16" mU="58" mV="57" mUVWidth="19" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Walk0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="1" mY="-10" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="19" mHeight="16" mDelay="6" mOriginX="8" mOriginY="16" mU="37" mV="75" mUVWidth="19" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Walk0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="1" mY="-9" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="19" mHeight="16" mDelay="6" mOriginX="8" mOriginY="16" mU="37" mV="57" mUVWidth="19" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Walk0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="19" mHeight="16" mDelay="6" mOriginX="8" mOriginY="16" mU="0" mV="95" mUVWidth="19" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Walk0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-9" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Jump" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\StunDrone\Output\Jump.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-14" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="17" mHeight="14" mDelay="6" mOriginX="8" mOriginY="15" mU="59" mV="93" mUVWidth="17" mUVHeight="14" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StunDrone\Output\Jump0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-9" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="MeleeHead">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="MeleeTail">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="EyePos">
+      <mColor>
+        <B>255</B>
+        <G>255</G>
+        <R>0</R>
+        <A>255</A>
+        <PackedValue>4294967040</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle1">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

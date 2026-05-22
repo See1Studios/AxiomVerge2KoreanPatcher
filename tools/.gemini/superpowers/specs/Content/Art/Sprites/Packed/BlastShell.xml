@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>BlastShell.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="BlastShellTexture">
+    <THSpriteAnimationData mName="AttackLoop" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\BlastShell\Output\AttackLoop.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="88" mHeight="41" mDelay="4" mOriginX="44" mOriginY="41" mU="0" mV="0" mUVWidth="88" mUVHeight="41" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\AttackLoop0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-4" mY="-33" mWidth="8" mHeight="17" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="-41" mY="-6" mWidth="30" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="11" mY="-6" mWidth="30" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="-11" mY="-11" mWidth="22" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-12" mWidth="24" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="88" mHeight="41" mDelay="4" mOriginX="44" mOriginY="41" mU="0" mV="43" mUVWidth="88" mUVHeight="41" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\AttackLoop0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-4" mY="-33" mWidth="8" mHeight="17" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="-40" mY="-7" mWidth="28" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="12" mY="-7" mWidth="28" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="-11" mY="-11" mWidth="22" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-12" mWidth="24" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="88" mHeight="41" mDelay="4" mOriginX="44" mOriginY="41" mU="90" mV="0" mUVWidth="88" mUVHeight="41" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\AttackLoop0002.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-4" mY="-33" mWidth="8" mHeight="17" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="-40" mY="-8" mWidth="29" mHeight="8" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="12" mY="-8" mWidth="28" mHeight="8" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="-11" mY="-11" mWidth="22" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-12" mWidth="24" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="88" mHeight="41" mDelay="4" mOriginX="44" mOriginY="41" mU="90" mV="43" mUVWidth="88" mUVHeight="41" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\AttackLoop0003.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-5" mY="-34" mWidth="7" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="-40" mY="-7" mWidth="28" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="12" mY="-7" mWidth="28" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="-11" mY="-11" mWidth="22" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-12" mWidth="24" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="FromAttack" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\BlastShell\Output\FromAttack.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="74" mHeight="34" mDelay="4" mOriginX="37" mOriginY="34" mU="0" mV="86" mUVWidth="74" mUVHeight="34" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\FromAttack0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-5" mY="-34" mWidth="7" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="-29" mY="-6" mWidth="7" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="22" mY="-6" mWidth="7" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="-20" mY="-6" mWidth="8" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox4" mType="RECTANGLE" mX="12" mY="-6" mWidth="8" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox5" mType="RECTANGLE" mX="-11" mY="-11" mWidth="22" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-12" mWidth="24" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="74" mHeight="34" mDelay="4" mOriginX="37" mOriginY="34" mU="76" mV="86" mUVWidth="74" mUVHeight="34" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\FromAttack0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox5" mType="RECTANGLE" mX="-11" mY="-11" mWidth="22" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-12" mWidth="24" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Hunker" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\BlastShell\Output\Hunker.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="16" mDelay="4" mOriginX="12" mOriginY="16" mU="180" mV="64" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\Hunker0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="-11" mY="-11" mWidth="22" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-11" mWidth="24" mHeight="11" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="16" mDelay="4" mOriginX="12" mOriginY="16" mU="68" mV="176" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\Hunker0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="-11" mY="-11" mWidth="22" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-12" mWidth="24" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\BlastShell\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="16" mDelay="12" mOriginX="12" mOriginY="16" mU="26" mV="218" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\Idle0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-11" mY="-15" mWidth="22" mHeight="15" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-16" mWidth="24" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="16" mDelay="12" mOriginX="12" mOriginY="16" mU="120" mV="122" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\Idle0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-11" mY="-15" mWidth="22" mHeight="15" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-16" mWidth="24" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="16" mDelay="12" mOriginX="12" mOriginY="16" mU="94" mV="140" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\Idle0002.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-11" mY="-15" mWidth="22" mHeight="15" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-16" mWidth="24" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="16" mDelay="12" mOriginX="12" mOriginY="16" mU="68" mV="158" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\Idle0003.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-11" mY="-15" mWidth="22" mHeight="15" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-16" mWidth="24" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ToAttack" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\BlastShell\Output\ToAttack.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="66" mHeight="30" mDelay="4" mOriginX="33" mOriginY="30" mU="152" mV="86" mUVWidth="66" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\ToAttack0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="-11" mY="-11" mWidth="22" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-12" mWidth="24" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="66" mHeight="30" mDelay="4" mOriginX="33" mOriginY="30" mU="0" mV="122" mUVWidth="66" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\ToAttack0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="-11" mY="-11" mWidth="22" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-12" mWidth="24" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="66" mHeight="30" mDelay="4" mOriginX="33" mOriginY="30" mU="0" mV="154" mUVWidth="66" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\ToAttack0002.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="-11" mY="-11" mWidth="22" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-12" mWidth="24" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="66" mHeight="30" mDelay="4" mOriginX="33" mOriginY="30" mU="0" mV="186" mUVWidth="66" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\ToAttack0003.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-5" mY="-23" mWidth="10" mHeight="8" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="-19" mY="-10" mWidth="8" mHeight="10" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="12" mY="-10" mWidth="6" mHeight="10" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="-11" mY="-11" mWidth="22" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-12" mWidth="24" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="66" mHeight="30" mDelay="4" mOriginX="33" mOriginY="30" mU="180" mV="32" mUVWidth="66" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\ToAttack0004.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-3" mY="-27" mWidth="6" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="-25" mY="-7" mWidth="13" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="12" mY="-7" mWidth="13" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="-11" mY="-11" mWidth="22" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-12" mWidth="24" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="66" mHeight="30" mDelay="4" mOriginX="33" mOriginY="30" mU="180" mV="0" mUVWidth="66" mUVHeight="30" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\ToAttack0005.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-4" mY="-30" mWidth="6" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="-33" mY="-6" mWidth="21" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="12" mY="-6" mWidth="21" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="-11" mY="-11" mWidth="22" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-12" mWidth="24" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Walk" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\BlastShell\Output\Walk.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="16" mDelay="12" mOriginX="12" mOriginY="16" mU="0" mV="218" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\Walk0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-11" mY="-15" mWidth="22" mHeight="15" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-16" mWidth="24" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="16" mDelay="12" mOriginX="12" mOriginY="16" mU="94" mV="122" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\Walk0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-11" mY="-15" mWidth="22" mHeight="15" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-16" mWidth="24" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="16" mDelay="12" mOriginX="12" mOriginY="16" mU="68" mV="140" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\Walk0002.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-11" mY="-15" mWidth="22" mHeight="15" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-16" mWidth="24" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="16" mDelay="12" mOriginX="12" mOriginY="16" mU="68" mV="122" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\Walk0003.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-11" mY="-15" mWidth="22" mHeight="15" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-16" mWidth="24" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="FromHunker" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\BlastShell\Output\FromHunker.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="24" mHeight="16" mDelay="4" mOriginX="12" mOriginY="16" mU="94" mV="158" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\FromHunker0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox3" mType="RECTANGLE" mX="-11" mY="-11" mWidth="22" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-11" mWidth="24" mHeight="11" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="24" mHeight="16" mDelay="4" mOriginX="12" mOriginY="16" mU="120" mV="140" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\BlastShell\Output\FromHunker0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-11" mY="-15" mWidth="22" mHeight="15" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-16" mWidth="24" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

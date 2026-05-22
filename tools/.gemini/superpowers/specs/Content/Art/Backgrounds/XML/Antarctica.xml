@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParallaxXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- #################################################################### -->
+  <!-- Black background.-->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="Black">
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Black</mTextureName>
+      <mParallax>
+        <X>1</X>
+        <Y>1</Y>
+      </mParallax>
+    </THParallaxData>
+  </THParallaxSetData>
+
+
+
+
+  <!-- #################################################################### -->
+  <!-- "GloomyAnatarticSky" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="GloomyAntarcticSky">
+
+
+
+
+    <!-- Snow particles -->
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mType>PARTICLE</mType>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>1.0</X>
+        <Y>1.0</Y>
+      </mParallax>
+      <mWrap>true</mWrap>
+      <mParticleData>
+        <mSpawnerName>MediumSnow</mSpawnerName>
+        <mBoundsType>CAMERA_BOUNDS</mBoundsType>
+      </mParticleData>
+    </THParallaxData>
+
+    <!-- Snow particles -->
+    <THParallaxData>
+      <mRenderLayer>BackParallax</mRenderLayer>
+      <mType>PARTICLE</mType>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>1.0</X>
+        <Y>1.0</Y>
+      </mParallax>
+      <mWrap>true</mWrap>
+      <mParticleData>
+        <mSpawnerName>MediumSnow</mSpawnerName>
+      </mParticleData>
+    </THParallaxData>
+
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticPlains1a</mTextureName>
+      <mParallax>
+        <X>1.0</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticPlains1b</mTextureName>
+      <mParallax>
+        <X>0.95</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-16</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticPlains1c</mTextureName>
+      <mParallax>
+        <X>0.90</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-32</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticPlains1d</mTextureName>
+      <mParallax>
+        <X>0.85</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-48</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticPlains2a</mTextureName>
+      <mParallax>
+        <X>0.80</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-64</Y>
+        <!-- Height of bottom of texture from bottom of background-->
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticPlains2b</mTextureName>
+      <mParallax>
+        <X>0.75</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-80</Y>
+        <!-- Height of bottom of texture from bottom of background-->
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticPlains2c</mTextureName>
+      <mParallax>
+        <X>0.70</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-96</Y>
+        <!-- Height of bottom of texture from bottom of background-->
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticPlains3</mTextureName>
+      <mParallax>
+        <X>0.65</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-112</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticPlains4</mTextureName>
+      <mParallax>
+        <X>0.6</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-128</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticPlains5</mTextureName>
+      <mParallax>
+        <X>0.55</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-144</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticMountains</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-144</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <!-- Clouds -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticClouds1</mTextureName>
+      <mVelocity>
+        <X>-1.125</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>1.0</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticClouds1</mTextureName>
+      <mVelocity>
+        <X>-1.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.9</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>16</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticClouds1</mTextureName>
+      <mVelocity>
+        <X>-0.875</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.8</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>32</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticClouds1</mTextureName>
+      <mVelocity>
+        <X>-0.75</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.7</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>48</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticClouds1</mTextureName>
+      <mVelocity>
+        <X>-0.625</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.6</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>64</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticClouds1</mTextureName>
+      <mVelocity>
+        <X>-0.5</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.55</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>80</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticClouds2</mTextureName>
+      <mVelocity>
+        <X>-0.45</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>96</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticClouds3</mTextureName>
+      <mVelocity>
+        <X>-0.375</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.45</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>104</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticClouds4</mTextureName>
+      <mVelocity>
+        <X>-0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.40</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>112</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticClouds5</mTextureName>
+      <mVelocity>
+        <X>-0.125</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.35</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>128</Y>
+      </mOffset>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+
+    <!-- Boring blue sky texture that matches up with the cloud edges.-->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Area1/GloomyAntarctic/AntarcticSky</mTextureName>
+      <mParallax>
+        <X>1</X>
+        <Y>1</Y>
+      </mParallax>
+    </THParallaxData>
+
+
+  </THParallaxSetData>
+</THParallaxXML>

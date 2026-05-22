@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>WalkerDroneHeavy.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="WalkerDroneHeavyTexture">
+    <THSpriteAnimationData mName="Crouch" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\Crouch.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-21" mWidth="14" mHeight="21" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="36" mHeight="38" mDelay="5" mOriginX="23" mOriginY="38" mU="0" mV="183" mUVWidth="36" mUVHeight="38" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Crouch0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-8" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-18" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="2" mY="-22" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="2" mY="-31" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-18" mY="-34" mWidth="20" mHeight="34" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="2" mY="-27" mWidth="9" mHeight="27" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="36" mHeight="38" mDelay="5" mOriginX="23" mOriginY="38" mU="38" mV="183" mUVWidth="36" mUVHeight="38" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Crouch0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-10" mY="-15" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="6" mY="-13" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="0" mY="-17" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="0" mY="-26" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-22" mY="-30" mWidth="22" mHeight="30" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="0" mY="-21" mWidth="9" mHeight="21" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Fall" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\Fall.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-30" mWidth="14" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="36" mHeight="44" mDelay="10" mOriginX="17" mOriginY="40" mU="248" mV="97" mUVWidth="36" mUVHeight="44" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Fall0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-2" mY="-21" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="8" mY="-31" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-14" mY="-37" mWidth="22" mHeight="35" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="8" mY="-26" mWidth="10" mHeight="28" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="36" mHeight="44" mDelay="10" mOriginX="17" mOriginY="40" mU="363" mV="0" mUVWidth="36" mUVHeight="44" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Fall0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-2" mY="-21" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Cannon" mX="8" mY="-31" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-14" mY="-37" mWidth="22" mHeight="40" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="8" mY="-26" mWidth="10" mHeight="32" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Fire" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\Fire.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-30" mWidth="14" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="34" mHeight="41" mDelay="6" mOriginX="18" mOriginY="41" mU="282" mV="143" mUVWidth="34" mUVHeight="41" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Fire0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-7" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="3" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="3" mY="-34" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="34" mHeight="41" mDelay="6" mOriginX="18" mOriginY="41" mU="399" mV="46" mUVWidth="34" mUVHeight="41" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Fire0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-6" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="10" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="4" mY="-34" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="34" mHeight="41" mDelay="12" mOriginX="18" mOriginY="41" mU="322" mV="136" mUVWidth="34" mUVHeight="41" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Fire0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-5" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="11" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="5" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="5" mY="-34" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="FireCannon" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\FireCannon.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-30" mWidth="14" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="34" mHeight="41" mDelay="4" mOriginX="18" mOriginY="41" mU="324" mV="93" mUVWidth="34" mUVHeight="41" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\FireCannon0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-7" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="3" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="3" mY="-34" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="34" mHeight="41" mDelay="4" mOriginX="18" mOriginY="41" mU="437" mV="0" mUVWidth="34" mUVHeight="41" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\FireCannon0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-6" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="10" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="7" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="4" mY="-34" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="34" mHeight="41" mDelay="4" mOriginX="18" mOriginY="41" mU="360" mV="93" mUVWidth="34" mUVHeight="41" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\FireCannon0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-5" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="11" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="5" mY="-34" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="34" mHeight="41" mDelay="4" mOriginX="18" mOriginY="41" mU="473" mV="0" mUVWidth="34" mUVHeight="41" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\FireCannon0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="11" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Cannon" mX="4" mY="-34" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="FromFire" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\FromFire.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-30" mWidth="14" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="33" mHeight="41" mDelay="6" mOriginX="16" mOriginY="41" mU="434" mV="89" mUVWidth="33" mUVHeight="41" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\FromFire0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-4" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="11" mY="-21" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="6" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="6" mY="-34" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="FromFireCannon" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\FromFireCannon.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-30" mWidth="14" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="33" mHeight="41" mDelay="6" mOriginX="16" mOriginY="41" mU="472" mV="43" mUVWidth="33" mUVHeight="41" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\FromFireCannon0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-4" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="11" mY="-21" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="6" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="6" mY="-34" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-30" mWidth="14" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="34" mHeight="42" mDelay="12" mOriginX="17" mOriginY="42" mU="363" mV="46" mUVWidth="34" mUVHeight="42" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Idle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-4" mY="-24" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="6" mY="-26" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="6" mY="-35" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="34" mHeight="42" mDelay="12" mOriginX="17" mOriginY="42" mU="401" mV="0" mUVWidth="34" mUVHeight="42" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Idle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-5" mY="-24" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="5" mY="-26" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="5" mY="-35" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="34" mHeight="42" mDelay="12" mOriginX="17" mOriginY="42" mU="246" mV="143" mUVWidth="34" mUVHeight="42" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Idle0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-5" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="5" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="5" mY="-34" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="34" mHeight="42" mDelay="12" mOriginX="17" mOriginY="42" mU="286" mV="97" mUVWidth="34" mUVHeight="42" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Idle0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-4" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="6" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="6" mY="-34" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Jump" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\Jump.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-30" mWidth="14" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="36" mHeight="50" mDelay="10" mOriginX="17" mOriginY="41" mU="248" mV="45" mUVWidth="36" mUVHeight="50" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Jump0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="5" mY="-27" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Turret" mX="-5" mY="-22" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="4" mY="-36" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-16" mY="-37" mWidth="30" mHeight="22" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-16" mY="-15" mWidth="9" mHeight="24" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="36" mHeight="50" mDelay="10" mOriginX="17" mOriginY="41" mU="325" mV="0" mUVWidth="36" mUVHeight="50" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Jump0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="7" mY="-24" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Turret" mX="-4" mY="-22" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="7" mY="-34" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-16" mY="-37" mWidth="31" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-16" mY="-10" mWidth="9" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="36" mHeight="50" mDelay="10" mOriginX="17" mOriginY="41" mU="286" mV="45" mUVWidth="36" mUVHeight="50" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Jump0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="9" mY="-21" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Turret" mX="-3" mY="-22" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="6" mY="-33" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-37" mWidth="22" mHeight="37" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-26" mWidth="8" mHeight="19" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Land" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\Land.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-30" mWidth="14" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="35" mHeight="39" mDelay="8" mOriginX="17" mOriginY="39" mU="164" mV="183" mUVWidth="35" mUVHeight="39" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Land0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-5" mY="-21" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="7" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="4" mY="-32" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-36" mWidth="22" mHeight="36" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-28" mWidth="7" mHeight="15" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="39" mDelay="8" mOriginX="17" mOriginY="39" mU="324" mV="52" mUVWidth="35" mUVHeight="39" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Land0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-5" mY="-15" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="7" mY="-17" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="3" mY="-26" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-15" mY="-30" mWidth="22" mHeight="30" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="7" mY="-21" mWidth="9" mHeight="14" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="LookAround" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\LookAround.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-30" mWidth="14" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="39" mHeight="46" mDelay="6" mOriginX="20" mOriginY="46" mU="123" mV="138" mUVWidth="39" mUVHeight="46" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\LookAround0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-7" mY="-24" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="1" mY="-26" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-11" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-17" mY="-26" mWidth="6" mHeight="21" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="39" mHeight="46" mDelay="6" mOriginX="20" mOriginY="46" mU="0" mV="135" mUVWidth="39" mUVHeight="46" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\LookAround0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-1" mY="-21" mAngle="0" mSpriteIndex="1" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="39" mHeight="46" mDelay="6" mOriginX="20" mOriginY="46" mU="166" mV="90" mUVWidth="39" mUVHeight="46" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\LookAround0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="7" mY="-24" mAngle="0" mSpriteIndex="2" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="-2" mY="-26" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-27" mWidth="8" mHeight="22" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="39" mHeight="46" mDelay="62" mOriginX="20" mOriginY="46" mU="207" mV="90" mUVWidth="39" mUVHeight="46" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\LookAround0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="1" mY="-28" mAngle="0" mSpriteIndex="2" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="-9" mY="-30" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-43" mWidth="23" mHeight="43" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-19" mY="-36" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="39" mHeight="46" mDelay="6" mOriginX="20" mOriginY="46" mU="82" mV="138" mUVWidth="39" mUVHeight="46" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\LookAround0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="7" mY="-24" mAngle="0" mSpriteIndex="2" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="-2" mY="-26" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-26" mWidth="8" mHeight="20" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="39" mHeight="46" mDelay="6" mOriginX="20" mOriginY="46" mU="125" mV="90" mUVWidth="39" mUVHeight="46" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\LookAround0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-1" mY="-21" mAngle="0" mSpriteIndex="1" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-39" mWidth="24" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-20" mY="-26" mWidth="8" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="39" mHeight="46" mDelay="6" mOriginX="20" mOriginY="46" mU="41" mV="135" mUVWidth="39" mUVHeight="46" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\LookAround0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-9" mY="-24" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="10" mY="-26" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-18" mY="-22" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="39" mHeight="46" mDelay="62" mOriginX="20" mOriginY="46" mU="84" mV="90" mUVWidth="39" mUVHeight="46" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\LookAround0007.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-2" mY="-28" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="9" mY="-30" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-43" mWidth="22" mHeight="43" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-35" mWidth="8" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Run" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\Run.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-30" mWidth="14" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="51" mHeight="43" mDelay="8" mOriginX="31" mOriginY="43" mU="53" mV="0" mUVWidth="51" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Run0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-4" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-26" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="5" mY="-36" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="8" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="51" mHeight="43" mDelay="8" mOriginX="31" mOriginY="43" mU="0" mV="0" mUVWidth="51" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Run0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-5" mY="-24" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="6" mY="-26" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="6" mY="-35" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="51" mHeight="43" mDelay="8" mOriginX="31" mOriginY="43" mU="0" mV="45" mUVWidth="51" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Run0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-3" mY="-21" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="7" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="7" mY="-32" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-36" mWidth="22" mHeight="36" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-28" mWidth="6" mHeight="15" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="51" mHeight="43" mDelay="8" mOriginX="31" mOriginY="43" mU="53" mV="45" mUVWidth="51" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Run0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-4" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-27" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="5" mY="-36" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-32" mWidth="8" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="51" mHeight="43" mDelay="8" mOriginX="31" mOriginY="43" mU="106" mV="45" mUVWidth="51" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Run0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-3" mY="-24" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="9" mY="-26" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="7" mY="-34" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="8" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="51" mHeight="43" mDelay="8" mOriginX="31" mOriginY="43" mU="106" mV="0" mUVWidth="51" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Run0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-4" mY="-21" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="6" mY="-31" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-36" mWidth="22" mHeight="36" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-28" mWidth="8" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ToFire" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\ToFire.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-30" mWidth="14" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="33" mHeight="42" mDelay="6" mOriginX="17" mOriginY="42" mU="318" mV="179" mUVWidth="33" mUVHeight="42" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\ToFire0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-6" mY="-24" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="11" mY="-22" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="5" mY="-26" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="5" mY="-35" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="33" mHeight="42" mDelay="6" mOriginX="17" mOriginY="42" mU="358" mV="136" mUVWidth="33" mUVHeight="42" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\ToFire0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-6" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="11" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="5" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="5" mY="-34" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ToFireCannon" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\ToFireCannon.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-30" mWidth="14" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="33" mHeight="42" mDelay="6" mOriginX="17" mOriginY="42" mU="399" mV="89" mUVWidth="33" mUVHeight="42" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\ToFireCannon0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-6" mY="-24" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="11" mY="-22" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="5" mY="-26" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="5" mY="-35" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="33" mHeight="42" mDelay="6" mOriginX="17" mOriginY="42" mU="437" mV="43" mUVWidth="33" mUVHeight="42" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\ToFireCannon0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-6" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="11" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="5" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="5" mY="-34" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ToJump" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\ToJump.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-30" mWidth="14" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="36" mHeight="32" mDelay="10" mOriginX="17" mOriginY="32" mU="76" mV="186" mUVWidth="36" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\ToJump0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-4" mY="-14" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-19" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="0" mY="-27" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-15" mY="-30" mWidth="22" mHeight="30" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="7" mY="-25" mWidth="9" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Turn" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\Turn.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-30" mWidth="14" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="39" mHeight="43" mDelay="8" mOriginX="20" mOriginY="43" mU="284" mV="0" mUVWidth="39" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Turn0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-11" mY="-24" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="0" mY="-27" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="3" mY="-36" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-41" mWidth="22" mHeight="41" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-30" mWidth="8" mHeight="21" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="39" mHeight="43" mDelay="8" mOriginX="20" mOriginY="43" mU="243" mV="0" mUVWidth="39" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Turn0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-1" mY="-21" mAngle="0" mSpriteIndex="1" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="4" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="-1" mY="-32" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-38" mWidth="25" mHeight="38" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-20" mY="-24" mWidth="7" mHeight="14" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="39" mHeight="43" mDelay="8" mOriginX="20" mOriginY="43" mU="205" mV="138" mUVWidth="39" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Turn0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="9" mY="-24" mAngle="0" mSpriteIndex="2" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="-2" mY="-26" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="-5" mY="-35" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-10" mY="-40" mWidth="24" mHeight="40" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-19" mY="-29" mWidth="9" mHeight="29" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="39" mHeight="43" mDelay="8" mOriginX="20" mOriginY="43" mU="164" mV="138" mUVWidth="39" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Turn0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="5" mY="-25" mAngle="0" mSpriteIndex="3" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="-7" mY="-27" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="-8" mY="-35" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-10" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-16" mY="-32" mWidth="6" mHeight="15" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Walk" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\WalkerDroneHeavy\Output\Walk.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-30" mWidth="14" mHeight="30" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="40" mHeight="43" mDelay="12" mOriginX="19" mOriginY="43" mU="42" mV="90" mUVWidth="40" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Walk0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-4" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos" mX="7" mY="-27" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="7" mY="-36" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="40" mHeight="43" mDelay="12" mOriginX="19" mOriginY="43" mU="159" mV="45" mUVWidth="40" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Walk0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-4" mY="-21" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="7" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="7" mY="-32" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-14" mY="-36" mWidth="22" mHeight="36" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="40" mHeight="43" mDelay="12" mOriginX="19" mOriginY="43" mU="201" mV="45" mUVWidth="40" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Walk0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-4" mY="-24" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-26" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="7" mY="-35" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-16" mY="-39" mWidth="26" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="10" mY="-31" mWidth="6" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="40" mHeight="43" mDelay="12" mOriginX="19" mOriginY="43" mU="0" mV="90" mUVWidth="40" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Walk0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-4" mY="-25" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="7" mY="-27" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="7" mY="-36" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="15" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="40" mHeight="43" mDelay="12" mOriginX="19" mOriginY="43" mU="159" mV="0" mUVWidth="40" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Walk0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-4" mY="-21" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="7" mY="-23" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="7" mY="-32" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-11" mY="-36" mWidth="21" mHeight="36" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="10" mY="-28" mWidth="6" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="40" mHeight="43" mDelay="12" mOriginX="19" mOriginY="43" mU="201" mV="0" mUVWidth="40" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\WalkerDroneHeavy\Output\Walk0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Turret" mX="-4" mY="-24" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="9" mY="-20" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos" mX="7" mY="-26" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Cannon" mX="7" mY="-35" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-13" mY="-39" mWidth="22" mHeight="39" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="9" mY="-31" mWidth="6" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Turret">
+      <mColor>
+        <B>64</B>
+        <G>128</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4282417407</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle1">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="EyePos">
+      <mColor>
+        <B>255</B>
+        <G>255</G>
+        <R>0</R>
+        <A>255</A>
+        <PackedValue>4294967040</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Cannon">
+      <mColor>
+        <B>0</B>
+        <G>128</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4278223103</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

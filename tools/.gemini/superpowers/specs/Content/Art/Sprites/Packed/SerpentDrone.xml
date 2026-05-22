@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>SerpentDrone.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="SerpentDroneTexture">
+    <THSpriteAnimationData mName="BodyIdle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SerpentDrone\Output\BodyIdle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="-1" mWidth="16" mHeight="16" mRadius="30" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="0" mV="0" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-27" mY="-27" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-26" mY="26" mAngle="2.3561945" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="8" mY="32" mAngle="1.04719758" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="216" mV="156" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-25" mY="-29" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-27" mY="24" mAngle="2.3561945" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="3" mY="33" mAngle="1.04719758" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="288" mV="78" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-23" mY="-30" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-29" mY="21" mAngle="2.3561945" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="2" mY="32" mAngle="1.22173047" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="360" mV="0" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-22" mY="-31" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-30" mY="19" mAngle="2.3561945" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-2" mY="34" mAngle="1.22173047" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="216" mV="78" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-21" mY="-33" mAngle="4.01425743" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-31" mY="13" mAngle="2.87979341" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-3" mY="35" mAngle="1.22173047" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="288" mV="0" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-20" mY="-34" mAngle="4.01425743" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-31" mY="11" mAngle="2.87979341" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-5" mY="35" mAngle="1.30899692" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="216" mV="0" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-18" mY="-35" mAngle="4.310963" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-31" mY="8" mAngle="3.0543263" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-9" mY="36" mAngle="1.51843643" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="432" mV="0" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0007.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-16" mY="-35" mAngle="4.310963" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-31" mY="6" mAngle="3.0543263" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-11" mY="37" mAngle="1.51843643" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="72" mV="156" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0008.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-13" mY="-38" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-29" mY="0" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-13" mY="37" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="144" mV="78" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0009.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-11" mY="-38" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-29" mY="-3" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-14" mY="36" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="0" mV="156" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0010.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-7" mY="-37" mAngle="4.764749" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-30" mY="-10" mAngle="3.35103226" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-16" mY="35" mAngle="1.95476878" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="72" mV="78" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0011.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-6" mY="-37" mAngle="4.764749" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-30" mY="-13" mAngle="3.35103226" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-18" mY="34" mAngle="1.95476878" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="0" mV="78" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0012.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-3" mY="-37" mAngle="4.8345623" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-30" mY="-16" mAngle="3.49065852" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-20" mY="32" mAngle="2.18166161" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="144" mV="0" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0013.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-2" mY="-36" mAngle="4.8345623" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-30" mY="-19" mAngle="3.49065852" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-22" mY="31" mAngle="2.18166161" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="144" mV="156" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0014.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="1" mY="-34" mAngle="5.113815" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-30" mY="-22" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-23" mY="30" mAngle="2.268928" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="70" mHeight="76" mDelay="4" mOriginX="37" mOriginY="38" mU="72" mV="0" mUVWidth="70" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\BodyIdle0015.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-33" mAngle="5.113815" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-29" mY="-24" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="-25" mY="29" mAngle="2.268928" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="HeadIdle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SerpentDrone\Output\HeadIdle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="24" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="55" mHeight="50" mDelay="8" mOriginX="27" mOriginY="24" mU="128" mV="234" mUVWidth="55" mUVHeight="50" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\HeadIdle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Tail" mX="-37" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle0" mX="10" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="HeadOpen" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SerpentDrone\Output\HeadOpen.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="24" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="62" mHeight="56" mDelay="8" mOriginX="34" mOriginY="27" mU="0" mV="292" mUVWidth="62" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\HeadOpen0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="10" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Tail" mX="-37" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="24" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="62" mHeight="56" mDelay="8" mOriginX="34" mOriginY="27" mU="424" mV="136" mUVWidth="62" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\HeadOpen0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="10" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Tail" mX="-37" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="24" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="62" mHeight="56" mDelay="8" mOriginX="34" mOriginY="27" mU="0" mV="234" mUVWidth="62" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\HeadOpen0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="10" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Tail" mX="-37" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="8" mY="-8" mWidth="9" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-15" mY="-25" mWidth="35" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-15" mY="10" mWidth="35" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-22" mY="-8" mWidth="30" mHeight="18" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="62" mHeight="56" mDelay="8" mOriginX="34" mOriginY="27" mU="416" mV="194" mUVWidth="62" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\HeadOpen0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="12" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Tail" mX="-37" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="5" mY="-8" mWidth="14" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-14" mY="-27" mWidth="30" mHeight="19" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-12" mY="10" mWidth="30" mHeight="18" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-25" mY="-8" mWidth="30" mHeight="18" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="HeadOpenIdle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SerpentDrone\Output\HeadOpenIdle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="24" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="62" mHeight="56" mDelay="8" mOriginX="34" mOriginY="27" mU="0" mV="350" mUVWidth="62" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\HeadOpenIdle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="16" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Tail" mX="-37" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="7" mY="-8" mWidth="16" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-14" mY="-27" mWidth="30" mHeight="19" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-14" mY="10" mWidth="30" mHeight="18" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-24" mY="-8" mWidth="30" mHeight="18" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="62" mHeight="56" mDelay="8" mOriginX="34" mOriginY="27" mU="352" mV="194" mUVWidth="62" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\HeadOpenIdle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="15" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Tail" mX="-37" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="6" mY="-8" mWidth="16" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-14" mY="-27" mWidth="30" mHeight="19" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-14" mY="10" mWidth="30" mHeight="18" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-24" mY="-8" mWidth="30" mHeight="18" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="62" mHeight="56" mDelay="8" mOriginX="34" mOriginY="27" mU="424" mV="78" mUVWidth="62" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\HeadOpenIdle0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="14" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Tail" mX="-37" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="5" mY="-8" mWidth="16" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-14" mY="-27" mWidth="30" mHeight="19" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-14" mY="10" mWidth="30" mHeight="18" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-24" mY="-8" mWidth="30" mHeight="18" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="62" mHeight="56" mDelay="8" mOriginX="34" mOriginY="27" mU="360" mV="136" mUVWidth="62" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\HeadOpenIdle0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="15" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Tail" mX="-37" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="6" mY="-8" mWidth="16" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-14" mY="-27" mWidth="30" mHeight="19" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-14" mY="10" mWidth="30" mHeight="18" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-24" mY="-8" mWidth="30" mHeight="18" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="HeadClose" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SerpentDrone\Output\HeadClose.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="24" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="62" mHeight="56" mDelay="8" mOriginX="34" mOriginY="27" mU="288" mV="156" mUVWidth="62" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\HeadClose0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Tail" mX="-37" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle0" mX="12" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="8" mY="-8" mWidth="9" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-15" mY="-25" mWidth="35" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-15" mY="10" mWidth="35" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-22" mY="-8" mWidth="30" mHeight="18" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="62" mHeight="56" mDelay="8" mOriginX="34" mOriginY="27" mU="360" mV="78" mUVWidth="62" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\HeadClose0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Tail" mX="-37" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="10" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="7" mY="-8" mWidth="10" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-15" mY="-25" mWidth="35" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="-15" mY="10" mWidth="35" mHeight="17" mRadius="8" mColFlags="3" />
+        <mHurtbox mName="Hurtbox3" mType="RECTANGLE" mX="-22" mY="-8" mWidth="30" mHeight="18" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="62" mHeight="56" mDelay="8" mOriginX="34" mOriginY="27" mU="64" mV="234" mUVWidth="62" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\HeadClose0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Tail" mX="-37" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="10" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="24" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="62" mHeight="56" mDelay="8" mOriginX="34" mOriginY="27" mU="64" mV="292" mUVWidth="62" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SerpentDrone\Output\HeadClose0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Tail" mX="-37" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="10" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="24" mColFlags="3" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle1">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle2">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Tail">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

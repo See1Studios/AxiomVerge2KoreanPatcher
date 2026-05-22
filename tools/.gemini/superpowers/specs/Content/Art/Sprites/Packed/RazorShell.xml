@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>RazorShell.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <THColorSchemeData mName="Meta">
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>226</B>
+        <G>61</G>
+        <R>150</R>
+        <A>255</A>
+        <PackedValue>4293016982</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>114</B>
+        <G>134</G>
+        <R>0</R>
+        <A>255</A>
+        <PackedValue>4285695488</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>198</B>
+        <G>6</G>
+        <R>0</R>
+        <A>255</A>
+        <PackedValue>4291167744</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>168</B>
+        <G>41</G>
+        <R>138</R>
+        <A>255</A>
+        <PackedValue>4289210762</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <THColorSchemeData mName="Gamma">
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>226</B>
+        <G>61</G>
+        <R>150</R>
+        <A>255</A>
+        <PackedValue>4293016982</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>143</B>
+        <G>32</G>
+        <R>31</R>
+        <A>255</A>
+        <PackedValue>4287569951</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>198</B>
+        <G>6</G>
+        <R>0</R>
+        <A>255</A>
+        <PackedValue>4291167744</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>201</B>
+        <G>35</G>
+        <R>151</R>
+        <A>255</A>
+        <PackedValue>4291371927</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>165</B>
+        <G>255</G>
+        <R>242</R>
+        <A>255</A>
+        <PackedValue>4289069042</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>183</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4290183423</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="RazorShellTexture">
+    <THSpriteAnimationData mName="Attack" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\RazorShell\Output\Attack.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-7" mWidth="8" mHeight="7" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="8" mHeight="7" mDelay="12" mOriginX="4" mOriginY="7" mU="20" mV="0" mUVWidth="8" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\RazorShell\Output\Attack0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="-3" mY="-3" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="0" mY="-6" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-1" mY="-2" mAngle="3.52556515" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle4" mX="2" mY="-3" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle5" mX="-2" mY="-5" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle6" mX="0" mY="-4" mAngle="5.88175964" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="7" mDelay="12" mOriginX="4" mOriginY="7" mU="10" mV="10" mUVWidth="8" mUVHeight="6" mCropX="0" mCropY="1" mSourceImageName="..\Enemies\RazorShell\Output\Attack0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="-3" mY="-3" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="0" mY="-6" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-1" mY="-2" mAngle="3.52556515" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle4" mX="2" mY="-3" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle5" mX="-2" mY="-5" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle6" mX="0" mY="-4" mAngle="5.88175964" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="7" mDelay="12" mOriginX="4" mOriginY="7" mU="10" mV="18" mUVWidth="8" mUVHeight="6" mCropX="0" mCropY="1" mSourceImageName="..\Enemies\RazorShell\Output\Attack0002.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="-3" mY="-3" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="0" mY="-6" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-1" mY="-2" mAngle="3.52556515" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle4" mX="2" mY="-3" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle5" mX="-2" mY="-5" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle6" mX="0" mY="-4" mAngle="5.88175964" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="7" mDelay="12" mOriginX="4" mOriginY="7" mU="20" mV="9" mUVWidth="8" mUVHeight="6" mCropX="0" mCropY="1" mSourceImageName="..\Enemies\RazorShell\Output\Attack0003.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="-3" mY="-3" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="0" mY="-6" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-1" mY="-2" mAngle="3.52556515" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle4" mX="2" mY="-3" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle5" mX="-2" mY="-5" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle6" mX="0" mY="-4" mAngle="5.88175964" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="7" mDelay="12" mOriginX="4" mOriginY="7" mU="20" mV="17" mUVWidth="8" mUVHeight="6" mCropX="0" mCropY="1" mSourceImageName="..\Enemies\RazorShell\Output\Attack0004.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="-3" mY="-3" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="0" mY="-6" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle3" mX="-1" mY="-2" mAngle="3.52556515" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle4" mX="2" mY="-3" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle5" mX="-2" mY="-5" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle6" mX="0" mY="-4" mAngle="5.88175964" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="7" mDelay="12" mOriginX="4" mOriginY="7" mU="30" mV="0" mUVWidth="8" mUVHeight="6" mCropX="0" mCropY="1" mSourceImageName="..\Enemies\RazorShell\Output\Attack0005.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="-3" mY="-3" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="0" mY="-6" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-1" mY="-2" mAngle="3.52556515" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle4" mX="2" mY="-3" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle5" mX="-2" mY="-5" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle6" mX="0" mY="-4" mAngle="5.88175964" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="7" mDelay="12" mOriginX="4" mOriginY="7" mU="30" mV="8" mUVWidth="8" mUVHeight="6" mCropX="0" mCropY="1" mSourceImageName="..\Enemies\RazorShell\Output\Attack0006.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="-3" mY="-3" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="0" mY="-6" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-1" mY="-2" mAngle="3.52556515" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle4" mX="2" mY="-3" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle5" mX="-2" mY="-5" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle6" mX="0" mY="-4" mAngle="5.88175964" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="7" mDelay="12" mOriginX="4" mOriginY="7" mU="40" mV="0" mUVWidth="8" mUVHeight="6" mCropX="0" mCropY="1" mSourceImageName="..\Enemies\RazorShell\Output\Attack0007.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="-3" mY="-3" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="0" mY="-6" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-1" mY="-2" mAngle="3.52556515" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle4" mX="2" mY="-3" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle5" mX="-2" mY="-5" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle6" mX="0" mY="-4" mAngle="5.88175964" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="7" mDelay="25" mOriginX="4" mOriginY="7" mU="30" mV="16" mUVWidth="8" mUVHeight="6" mCropX="0" mCropY="1" mSourceImageName="..\Enemies\RazorShell\Output\Attack0008.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="-3" mY="-3" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="0" mY="-6" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-1" mY="-2" mAngle="3.52556515" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle4" mX="2" mY="-3" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle5" mX="-2" mY="-5" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle6" mX="0" mY="-4" mAngle="5.88175964" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="7" mDelay="12" mOriginX="4" mOriginY="7" mU="40" mV="8" mUVWidth="8" mUVHeight="6" mCropX="0" mCropY="1" mSourceImageName="..\Enemies\RazorShell\Output\Attack0009.png" mFrameFlags="ACTION_END">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="-3" mY="-3" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle2" mX="0" mY="-6" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle3" mX="-1" mY="-2" mAngle="3.52556515" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle4" mX="2" mY="-3" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle5" mX="-2" mY="-5" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle6" mX="0" mY="-4" mAngle="5.88175964" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\RazorShell\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-8" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="8" mHeight="8" mDelay="12" mOriginX="4" mOriginY="8" mU="0" mV="0" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\RazorShell\Output\Idle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Walk" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\RazorShell\Output\Walk.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-8" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="8" mHeight="8" mDelay="12" mOriginX="4" mOriginY="8" mU="10" mV="0" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\RazorShell\Output\Walk0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="12" mOriginX="4" mOriginY="8" mU="0" mV="10" mUVWidth="8" mUVHeight="7" mCropX="0" mCropY="1" mSourceImageName="..\Enemies\RazorShell\Output\Walk0001.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle1">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle2">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle3">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle4">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle5">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle6">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

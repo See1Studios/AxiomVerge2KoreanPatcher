@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>1</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>SpriteTiles.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="SpriteTilesTexture">
+    <THSpriteAnimationData mName="TentacleGrassIdle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Creatures\TentacleGrass\Output\TentacleGrassIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="891" mV="551" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Creatures\TentacleGrass\Output\TentacleGrassIdle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="644" mV="891" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Creatures\TentacleGrass\Output\TentacleGrassIdle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="677" mV="858" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Creatures\TentacleGrass\Output\TentacleGrassIdle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="571" mV="963" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Creatures\TentacleGrass\Output\TentacleGrassIdle0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="604" mV="930" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Creatures\TentacleGrass\Output\TentacleGrassIdle0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="758" mV="777" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Creatures\TentacleGrass\Output\TentacleGrassIdle0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="957" mV="553" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Creatures\TentacleGrass\Output\TentacleGrassIdle0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="791" mV="714" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Creatures\TentacleGrass\Output\TentacleGrassIdle0007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="847" mV="681" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Creatures\TentacleGrass\Output\TentacleGrassIdle0008.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="924" mV="584" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Creatures\TentacleGrass\Output\TentacleGrassIdle0009.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="710" mV="793" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Creatures\TentacleGrass\Output\TentacleGrassIdle0010.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="891" mV="617" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Creatures\TentacleGrass\Output\TentacleGrassIdle0011.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="AntarcticLCDs" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\AntarcticLCDs.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="333" mV="816" mUVWidth="64" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\AntarcticLCDs0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="260" mV="860" mUVWidth="64" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\AntarcticLCDs0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="130" mV="957" mUVWidth="64" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\AntarcticLCDs0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="260" mV="827" mUVWidth="64" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\AntarcticLCDs0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="195" mV="925" mUVWidth="64" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\AntarcticLCDs0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="406" mV="718" mUVWidth="64" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\AntarcticLCDs0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="471" mV="662" mUVWidth="64" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\AntarcticLCDs0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="641" mV="500" mUVWidth="64" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\AntarcticLCDs0007.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WaterB" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\WaterB.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="578" mV="833" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterB0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="682" mV="597" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterB0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="505" mV="881" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterB0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="692" mV="694" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterB0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="932" mV="454" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterB0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="825" mV="551" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterB0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ForceBarrier" mIsLooping="true" mRenderType="START">
+      <mCSVName>..\SpriteTiles\Output\ForceBarrier.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="16" mDelay="4" mOriginX="0" mOriginY="0" mU="213" mV="999" mUVWidth="32" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\ForceBarrier0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="16" mDelay="4" mOriginX="0" mOriginY="0" mU="824" mV="714" mUVWidth="32" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\ForceBarrier0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="16" mDelay="4" mOriginX="0" mOriginY="0" mU="924" mV="617" mUVWidth="32" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\ForceBarrier0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="16" mDelay="4" mOriginX="0" mOriginY="0" mU="935" mV="340" mUVWidth="32" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\ForceBarrier0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Trigger" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\Trigger.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="16" mHeight="16" mDelay="9" mOriginX="0" mOriginY="0" mU="690" mV="550" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\Trigger0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="9" mOriginX="0" mOriginY="0" mU="512" mV="728" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\Trigger0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="9" mOriginX="0" mOriginY="0" mU="682" mV="567" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\Trigger0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="9" mOriginX="0" mOriginY="0" mU="512" mV="745" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\Trigger0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TundraGrass" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\TundraGrass.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="160" mHeight="16" mDelay="31" mOriginX="0" mOriginY="0" mU="322" mV="299" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TundraGrass0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="469" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TundraGrass0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="322" mV="316" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TundraGrass0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="486" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TundraGrass0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="322" mV="333" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TundraGrass0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="322" mV="350" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TundraGrass0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TaigaGrass" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\TaigaGrass.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="322" mV="231" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TaigaGrass0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="384" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TaigaGrass0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="367" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TaigaGrass0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="265" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TaigaGrass0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="0" mV="345" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TaigaGrass0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="31" mOriginX="0" mOriginY="0" mU="0" mV="328" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TaigaGrass0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WaterBOpaque" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\WaterBOpaque.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="130" mV="827" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterBOpaque0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="511" mV="500" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterBOpaque0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="195" mV="827" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterBOpaque0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="268" mV="755" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterBOpaque0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="341" mV="661" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterBOpaque0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="446" mV="499" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterBOpaque0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WaterFallB" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\WaterFallB.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="758" mV="744" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallB0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="725" mV="727" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallB0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="676" mV="792" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallB0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="611" mV="858" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallB0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WaterFallBWhiteCaps" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\WaterFallBWhiteCaps.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="80" mHeight="96" mDelay="6" mOriginX="0" mOriginY="0" mU="0" mV="595" mUVWidth="80" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallBWhiteCaps0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="80" mHeight="96" mDelay="6" mOriginX="0" mOriginY="0" mU="81" mV="503" mUVWidth="80" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallBWhiteCaps0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="80" mHeight="96" mDelay="6" mOriginX="0" mOriginY="0" mU="162" mV="503" mUVWidth="80" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallBWhiteCaps0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="80" mHeight="96" mDelay="6" mOriginX="0" mOriginY="0" mU="81" mV="600" mUVWidth="80" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallBWhiteCaps0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TaigaBush" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\TaigaBush.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="96" mHeight="64" mDelay="31" mOriginX="0" mOriginY="0" mU="838" mV="243" mUVWidth="96" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TaigaBush0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="96" mHeight="64" mDelay="10" mOriginX="0" mOriginY="0" mU="725" mV="338" mUVWidth="96" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TaigaBush0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="96" mHeight="64" mDelay="10" mOriginX="0" mOriginY="0" mU="725" mV="403" mUVWidth="96" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TaigaBush0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="96" mHeight="64" mDelay="10" mOriginX="0" mOriginY="0" mU="322" mV="401" mUVWidth="96" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TaigaBush0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="96" mHeight="64" mDelay="10" mOriginX="0" mOriginY="0" mU="870" mV="113" mUVWidth="96" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TaigaBush0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="96" mHeight="64" mDelay="10" mOriginX="0" mOriginY="0" mU="870" mV="178" mUVWidth="96" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TaigaBush0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="SubmergedTundraGrass" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\SubmergedTundraGrass.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="160" mHeight="16" mDelay="31" mOriginX="0" mOriginY="0" mU="322" mV="384" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SubmergedTundraGrass0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="435" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SubmergedTundraGrass0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="333" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SubmergedTundraGrass0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="0" mV="481" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SubmergedTundraGrass0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="316" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SubmergedTundraGrass0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="0" mV="464" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SubmergedTundraGrass0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="GreenLakeGrass" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\GreenLakeGrass.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="160" mHeight="16" mDelay="31" mOriginX="0" mOriginY="0" mU="0" mV="447" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\GreenLakeGrass0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="282" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\GreenLakeGrass0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="350" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\GreenLakeGrass0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="0" mV="430" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\GreenLakeGrass0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="0" mV="413" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\GreenLakeGrass0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="248" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\GreenLakeGrass0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="SeaWeed" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\SeaWeed.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="64" mDelay="20" mOriginX="0" mOriginY="0" mU="65" mV="922" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SeaWeed0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="20" mOriginX="0" mOriginY="0" mU="130" mV="892" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SeaWeed0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="20" mOriginX="0" mOriginY="0" mU="162" mV="625" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SeaWeed0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="20" mOriginX="0" mOriginY="0" mU="65" mV="857" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SeaWeed0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="SteppeGrassYellow" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\SteppeGrassYellow.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="160" mHeight="32" mDelay="31" mOriginX="0" mOriginY="0" mU="322" mV="33" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeGrassYellow0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="198" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeGrassYellow0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="322" mV="66" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeGrassYellow0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="322" mV="99" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeGrassYellow0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="322" mV="132" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeGrassYellow0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="322" mV="165" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeGrassYellow0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="SteppeGrassGreen" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\SteppeGrassGreen.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="160" mHeight="32" mDelay="31" mOriginX="0" mOriginY="0" mU="322" mV="198" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeGrassGreen0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="0" mV="262" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeGrassGreen0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="0" mV="295" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeGrassGreen0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="165" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeGrassGreen0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="0" mV="229" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeGrassGreen0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="322" mV="0" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeGrassGreen0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="SteppeBush" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\SteppeBush.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="32" mDelay="31" mOriginX="0" mOriginY="0" mU="644" mV="825" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeBush0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="10" mOriginX="0" mOriginY="0" mU="814" mV="648" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeBush0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="10" mOriginX="0" mOriginY="0" mU="924" mV="551" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeBush0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="10" mOriginX="0" mOriginY="0" mU="538" mV="930" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeBush0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="10" mOriginX="0" mOriginY="0" mU="758" mV="711" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeBush0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="10" mOriginX="0" mOriginY="0" mU="725" mV="760" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SteppeBush0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BreachFireGreen" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\BreachFireGreen.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="814" mV="681" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachFireGreen0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="847" mV="648" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachFireGreen0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="644" mV="858" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachFireGreen0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="611" mV="891" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachFireGreen0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BreachClouds" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\BreachClouds.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="160" mHeight="48" mDelay="8" mOriginX="0" mOriginY="0" mU="0" mV="98" mUVWidth="160" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachClouds0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="48" mDelay="8" mOriginX="0" mOriginY="0" mU="0" mV="49" mUVWidth="160" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachClouds0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="48" mDelay="8" mOriginX="0" mOriginY="0" mU="0" mV="0" mUVWidth="160" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachClouds0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="48" mDelay="8" mOriginX="0" mOriginY="0" mU="0" mV="147" mUVWidth="160" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachClouds0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="GateBreakerPower" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\GateBreakerPower.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="32" mDelay="10" mOriginX="0" mOriginY="0" mU="965" mV="487" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\GateBreakerPower0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="10" mOriginX="0" mOriginY="0" mU="677" mV="825" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\GateBreakerPower0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="10" mOriginX="0" mOriginY="0" mU="571" mV="930" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\GateBreakerPower0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="10" mOriginX="0" mOriginY="0" mU="538" mV="963" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\GateBreakerPower0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BreachWater1" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\BreachWater1.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="24" mHeight="16" mDelay="9" mOriginX="0" mOriginY="0" mU="438" mV="629" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachWater10000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="16" mDelay="9" mOriginX="0" mOriginY="0" mU="838" mV="225" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachWater10001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="16" mDelay="9" mOriginX="0" mOriginY="0" mU="412" mV="499" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachWater10002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="16" mDelay="9" mOriginX="0" mOriginY="0" mU="387" mV="507" mUVWidth="24" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachWater10003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WaterD" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\WaterD.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="792" mV="517" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterD0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="366" mV="913" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterD0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="399" mV="913" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterD0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="715" mV="597" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterD0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="866" mV="454" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterD0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="512" mV="784" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterD0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WaterDOpaque" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\WaterDOpaque.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="73" mV="722" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterDOpaque0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="243" mV="553" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterDOpaque0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="146" mV="697" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterDOpaque0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="227" mV="625" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterDOpaque0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="316" mV="531" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterDOpaque0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="373" mV="596" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterDOpaque0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WaterE" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\WaterE.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="577" mV="736" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterE0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="439" mV="857" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterE0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="472" mV="857" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterE0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="626" mV="695" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterE0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="984" mV="340" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterE0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="748" mV="597" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterE0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WaterEOpaque" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\WaterEOpaque.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="65" mV="792" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterEOpaque0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="203" mV="762" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterEOpaque0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="138" mV="762" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterEOpaque0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="211" mV="690" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterEOpaque0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="308" mV="596" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterEOpaque0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="381" mV="531" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterEOpaque0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WaterFallE" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\WaterFallE.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="965" mV="520" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallE0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="498" mV="978" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallE0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="611" mV="825" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallE0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="6" mOriginX="0" mOriginY="0" mU="891" mV="584" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallE0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WaterFallEWhiteCaps" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\WaterFallEWhiteCaps.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="80" mHeight="96" mDelay="6" mOriginX="0" mOriginY="0" mU="903" mV="357" mUVWidth="80" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallEWhiteCaps0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="80" mHeight="96" mDelay="6" mOriginX="0" mOriginY="0" mU="935" mV="243" mUVWidth="80" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallEWhiteCaps0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="80" mHeight="96" mDelay="6" mOriginX="0" mOriginY="0" mU="0" mV="498" mUVWidth="80" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallEWhiteCaps0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="80" mHeight="96" mDelay="6" mOriginX="0" mOriginY="0" mU="822" mV="357" mUVWidth="80" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterFallEWhiteCaps0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="OasisGroundCover" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\OasisGroundCover.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="128" mHeight="224" mDelay="46" mOriginX="0" mOriginY="0" mU="483" mV="0" mUVWidth="128" mUVHeight="224" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\OasisGroundCover0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="128" mHeight="224" mDelay="18" mOriginX="0" mOriginY="0" mU="612" mV="0" mUVWidth="128" mUVHeight="224" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\OasisGroundCover0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="128" mHeight="224" mDelay="18" mOriginX="0" mOriginY="0" mU="483" mV="225" mUVWidth="128" mUVHeight="224" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\OasisGroundCover0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="128" mHeight="224" mDelay="18" mOriginX="0" mOriginY="0" mU="741" mV="0" mUVWidth="128" mUVHeight="224" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\OasisGroundCover0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="OasisVineCoveredTrees" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\OasisVineCoveredTrees.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="112" mHeight="112" mDelay="46" mOriginX="0" mOriginY="0" mU="725" mV="225" mUVWidth="112" mUVHeight="112" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\OasisVineCoveredTrees0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="112" mHeight="112" mDelay="18" mOriginX="0" mOriginY="0" mU="612" mV="338" mUVWidth="112" mUVHeight="112" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\OasisVineCoveredTrees0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="112" mHeight="112" mDelay="18" mOriginX="0" mOriginY="0" mU="870" mV="0" mUVWidth="112" mUVHeight="112" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\OasisVineCoveredTrees0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="112" mHeight="112" mDelay="18" mOriginX="0" mOriginY="0" mU="612" mV="225" mUVWidth="112" mUVHeight="112" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\OasisVineCoveredTrees0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="UdugBramblesIdle" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\UdugBramblesIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="24" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="679" mV="965" mUVWidth="24" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\UdugBramblesIdle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="982" mV="660" mUVWidth="24" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\UdugBramblesIdle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="654" mV="965" mUVWidth="24" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\UdugBramblesIdle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="849" mV="764" mUVWidth="24" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\UdugBramblesIdle0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="OasisBreachFlowers" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\OasisBreachFlowers.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="56" mHeight="40" mDelay="62" mOriginX="0" mOriginY="0" mU="419" mV="401" mUVWidth="56" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\OasisBreachFlowers0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="56" mHeight="40" mDelay="6" mOriginX="0" mOriginY="0" mU="967" mV="113" mUVWidth="56" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\OasisBreachFlowers0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="56" mHeight="40" mDelay="62" mOriginX="0" mOriginY="0" mU="967" mV="154" mUVWidth="56" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\OasisBreachFlowers0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="56" mHeight="40" mDelay="6" mOriginX="0" mOriginY="0" mU="195" mV="958" mUVWidth="56" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\OasisBreachFlowers0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="UdugBramblesStrobe" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\UdugBramblesStrobe.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="24" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="662" mV="932" mUVWidth="24" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\UdugBramblesStrobe0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="982" mV="627" mUVWidth="24" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\UdugBramblesStrobe0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="849" mV="731" mUVWidth="24" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\UdugBramblesStrobe0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="629" mV="965" mUVWidth="24" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\UdugBramblesStrobe0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ElectrifiedFloorIdle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\ElectrifiedFloorIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="16" mDelay="6" mOriginX="0" mOriginY="0" mU="984" mV="437" mUVWidth="32" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\ElectrifiedFloorIdle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="16" mDelay="6" mOriginX="0" mOriginY="0" mU="531" mV="996" mUVWidth="32" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\ElectrifiedFloorIdle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="16" mDelay="6" mOriginX="0" mOriginY="0" mU="880" mV="650" mUVWidth="32" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\ElectrifiedFloorIdle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="16" mDelay="6" mOriginX="0" mOriginY="0" mU="180" mV="999" mUVWidth="32" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\ElectrifiedFloorIdle0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BreachBeachPlants" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\BreachBeachPlants.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="32" mDelay="9" mOriginX="0" mOriginY="0" mU="576" mV="557" mUVWidth="64" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachBeachPlants0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="32" mDelay="9" mOriginX="0" mOriginY="0" mU="471" mV="629" mUVWidth="64" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachBeachPlants0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="32" mDelay="9" mOriginX="0" mOriginY="0" mU="333" mV="783" mUVWidth="64" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachBeachPlants0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="32" mDelay="9" mOriginX="0" mOriginY="0" mU="195" mV="892" mUVWidth="64" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachBeachPlants0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BreachNeonBeams" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\BreachNeonBeams.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="24" mHeight="120" mDelay="9" mOriginX="0" mOriginY="0" mU="924" mV="634" mUVWidth="24" mUVHeight="120" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachNeonBeams0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="120" mDelay="9" mOriginX="0" mOriginY="0" mU="824" mV="731" mUVWidth="24" mUVHeight="120" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachNeonBeams0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="120" mDelay="9" mOriginX="0" mOriginY="0" mU="791" mV="772" mUVWidth="24" mUVHeight="120" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachNeonBeams0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="120" mDelay="9" mOriginX="0" mOriginY="0" mU="710" mV="851" mUVWidth="24" mUVHeight="120" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachNeonBeams0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="120" mDelay="9" mOriginX="0" mOriginY="0" mU="957" mV="586" mUVWidth="24" mUVHeight="120" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachNeonBeams0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="120" mDelay="9" mOriginX="0" mOriginY="0" mU="743" mV="810" mUVWidth="24" mUVHeight="120" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachNeonBeams0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="120" mDelay="9" mOriginX="0" mOriginY="0" mU="998" mV="454" mUVWidth="24" mUVHeight="120" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachNeonBeams0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="120" mDelay="9" mOriginX="0" mOriginY="0" mU="880" mV="667" mUVWidth="24" mUVHeight="120" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachNeonBeams0007.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BreachLakeGoo" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\BreachLakeGoo.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="56" mDelay="9" mOriginX="0" mOriginY="0" mU="406" mV="661" mUVWidth="64" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachLakeGoo0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="56" mDelay="9" mOriginX="0" mOriginY="0" mU="511" mV="565" mUVWidth="64" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachLakeGoo0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="56" mDelay="9" mOriginX="0" mOriginY="0" mU="576" mV="500" mUVWidth="64" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachLakeGoo0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="56" mDelay="9" mOriginX="0" mOriginY="0" mU="341" mV="726" mUVWidth="64" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachLakeGoo0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BreachLakeMushrooms" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\BreachLakeMushrooms.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="40" mHeight="48" mDelay="9" mOriginX="0" mOriginY="0" mU="983" mV="0" mUVWidth="40" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachLakeMushrooms0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="40" mHeight="48" mDelay="9" mOriginX="0" mOriginY="0" mU="983" mV="49" mUVWidth="40" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachLakeMushrooms0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="40" mHeight="48" mDelay="9" mOriginX="0" mOriginY="0" mU="252" mV="959" mUVWidth="40" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachLakeMushrooms0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="40" mHeight="48" mDelay="9" mOriginX="0" mOriginY="0" mU="792" mV="468" mUVWidth="40" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachLakeMushrooms0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BreachPostarcticText" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\BreachPostarcticText.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="72" mHeight="24" mDelay="15" mOriginX="0" mOriginY="0" mU="162" mV="600" mUVWidth="72" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticText0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="72" mHeight="24" mDelay="15" mOriginX="0" mOriginY="0" mU="0" mV="767" mUVWidth="72" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticText0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="72" mHeight="24" mDelay="15" mOriginX="0" mOriginY="0" mU="73" mV="697" mUVWidth="72" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticText0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="72" mHeight="24" mDelay="15" mOriginX="0" mOriginY="0" mU="243" mV="503" mUVWidth="72" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticText0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="72" mHeight="24" mDelay="15" mOriginX="0" mOriginY="0" mU="0" mV="742" mUVWidth="72" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticText0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="72" mHeight="24" mDelay="15" mOriginX="0" mOriginY="0" mU="0" mV="717" mUVWidth="72" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticText0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="72" mHeight="24" mDelay="15" mOriginX="0" mOriginY="0" mU="243" mV="528" mUVWidth="72" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticText0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="72" mHeight="24" mDelay="15" mOriginX="0" mOriginY="0" mU="0" mV="692" mUVWidth="72" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticText0007.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BreachPostarcticSigils" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\BreachPostarcticSigils.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="24" mHeight="40" mDelay="62" mOriginX="0" mOriginY="0" mU="677" mV="891" mUVWidth="24" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticSigils0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="40" mDelay="15" mOriginX="0" mOriginY="0" mU="637" mV="924" mUVWidth="24" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticSigils0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="40" mDelay="15" mOriginX="0" mOriginY="0" mU="604" mV="963" mUVWidth="24" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticSigils0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="40" mDelay="15" mOriginX="0" mOriginY="0" mU="545" mV="784" mUVWidth="24" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticSigils0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="40" mDelay="62" mOriginX="0" mOriginY="0" mU="293" mV="959" mUVWidth="24" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticSigils0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="40" mDelay="15" mOriginX="0" mOriginY="0" mU="439" mV="784" mUVWidth="24" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticSigils0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="40" mDelay="15" mOriginX="0" mOriginY="0" mU="387" mV="466" mUVWidth="24" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticSigils0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="24" mHeight="40" mDelay="15" mOriginX="0" mOriginY="0" mU="982" mV="586" mUVWidth="24" mUVHeight="40" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticSigils0007.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BreachIceCrystals" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\BreachIceCrystals.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="24" mDelay="125" mOriginX="0" mOriginY="0" mU="710" mV="826" mUVWidth="32" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachIceCrystals0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="24" mDelay="8" mOriginX="0" mOriginY="0" mU="465" mV="987" mUVWidth="32" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachIceCrystals0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="24" mDelay="8" mOriginX="0" mOriginY="0" mU="432" mV="987" mUVWidth="32" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachIceCrystals0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="24" mDelay="8" mOriginX="0" mOriginY="0" mU="791" mV="747" mUVWidth="32" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachIceCrystals0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="24" mDelay="8" mOriginX="0" mOriginY="0" mU="147" mV="990" mUVWidth="32" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachIceCrystals0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="24" mDelay="8" mOriginX="0" mOriginY="0" mU="292" mV="661" mUVWidth="32" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachIceCrystals0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BreachPostarcticWindows" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\BreachPostarcticWindows.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="40" mHeight="128" mDelay="46" mOriginX="0" mOriginY="0" mU="585" mV="607" mUVWidth="40" mUVHeight="128" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticWindows0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="40" mHeight="128" mDelay="15" mOriginX="0" mOriginY="0" mU="641" mV="566" mUVWidth="40" mUVHeight="128" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticWindows0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="40" mHeight="128" mDelay="15" mOriginX="0" mOriginY="0" mU="398" mV="784" mUVWidth="40" mUVHeight="128" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticWindows0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="40" mHeight="128" mDelay="15" mOriginX="0" mOriginY="0" mU="751" mV="468" mUVWidth="40" mUVHeight="128" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticWindows0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="40" mHeight="128" mDelay="46" mOriginX="0" mOriginY="0" mU="536" mV="655" mUVWidth="40" mUVHeight="128" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticWindows0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="40" mHeight="128" mDelay="15" mOriginX="0" mOriginY="0" mU="710" mV="468" mUVWidth="40" mUVHeight="128" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticWindows0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="40" mHeight="128" mDelay="15" mOriginX="0" mOriginY="0" mU="471" mV="728" mUVWidth="40" mUVHeight="128" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticWindows0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="40" mHeight="128" mDelay="15" mOriginX="0" mOriginY="0" mU="325" mV="882" mUVWidth="40" mUVHeight="128" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BreachPostarcticWindows0007.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="LamassuInterior" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\LamassuInterior.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="96" mHeight="48" mDelay="16" mOriginX="0" mOriginY="0" mU="838" mV="308" mUVWidth="96" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\LamassuInterior0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="96" mHeight="48" mDelay="16" mOriginX="0" mOriginY="0" mU="613" mV="451" mUVWidth="96" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\LamassuInterior0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="96" mHeight="48" mDelay="16" mOriginX="0" mOriginY="0" mU="419" mV="450" mUVWidth="96" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\LamassuInterior0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="96" mHeight="48" mDelay="16" mOriginX="0" mOriginY="0" mU="516" mV="451" mUVWidth="96" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\LamassuInterior0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WaterC" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\WaterC.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="545" mV="833" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterC0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="858" mV="551" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterC0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="781" mV="614" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterC0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="833" mV="454" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterC0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="659" mV="695" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterC0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="96" mDelay="14" mOriginX="0" mOriginY="0" mU="899" mV="454" mUVWidth="32" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterC0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WaterCOpaque" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\WaterCOpaque.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="0" mV="922" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterCOpaque0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="0" mV="792" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterCOpaque0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="322" mV="466" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterCOpaque0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="0" mV="857" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterCOpaque0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="276" mV="690" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterCOpaque0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="64" mHeight="64" mDelay="14" mOriginX="0" mOriginY="0" mU="446" mV="564" mUVWidth="64" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WaterCOpaque0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WorldStreamFungusBlocks" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\WorldStreamFungusBlocks.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="48" mHeight="16" mDelay="15" mOriginX="0" mOriginY="0" mU="98" mV="990" mUVWidth="48" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WorldStreamFungusBlocks0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="48" mHeight="16" mDelay="15" mOriginX="0" mOriginY="0" mU="0" mV="987" mUVWidth="48" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WorldStreamFungusBlocks0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="48" mHeight="16" mDelay="15" mOriginX="0" mOriginY="0" mU="49" mV="987" mUVWidth="48" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WorldStreamFungusBlocks0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="48" mHeight="16" mDelay="15" mOriginX="0" mOriginY="0" mU="576" mV="590" mUVWidth="48" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\WorldStreamFungusBlocks0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="UpstreamPortLights" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\UpstreamPortLights.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="0" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\UpstreamPortLights0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="33" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\UpstreamPortLights0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="66" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\UpstreamPortLights0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="99" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\UpstreamPortLights0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="132" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\UpstreamPortLights0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="0" mV="196" mUVWidth="160" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\UpstreamPortLights0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BunkerLights" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\BunkerLights.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="48" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="536" mV="622" mUVWidth="48" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BunkerLights0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="48" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="325" mV="849" mUVWidth="48" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BunkerLights0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="48" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="406" mV="751" mUVWidth="48" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BunkerLights0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="48" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="967" mV="195" mUVWidth="48" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BunkerLights0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="48" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="471" mV="695" mUVWidth="48" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BunkerLights0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="48" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="641" mV="533" mUVWidth="48" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BunkerLights0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="48" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="260" mV="926" mUVWidth="48" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BunkerLights0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="48" mHeight="32" mDelay="8" mOriginX="0" mOriginY="0" mU="260" mV="893" mUVWidth="48" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\BunkerLights0007.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="MeridianPortalBottomLight" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\MeridianPortalBottomLight.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="432" mV="954" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\MeridianPortalBottomLight0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="610" mV="792" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\MeridianPortalBottomLight0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="725" mV="694" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\MeridianPortalBottomLight0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="465" mV="954" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\MeridianPortalBottomLight0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="965" mV="454" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\MeridianPortalBottomLight0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="643" mV="792" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\MeridianPortalBottomLight0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ForceBarrierBreach" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\ForceBarrierBreach.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="16" mHeight="8" mDelay="4" mOriginX="0" mOriginY="0" mU="0" mV="1004" mUVWidth="16" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\ForceBarrierBreach0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="8" mDelay="4" mOriginX="0" mOriginY="0" mU="429" mV="516" mUVWidth="16" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\ForceBarrierBreach0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="8" mDelay="4" mOriginX="0" mOriginY="0" mU="17" mV="1004" mUVWidth="16" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\ForceBarrierBreach0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="8" mDelay="4" mOriginX="0" mOriginY="0" mU="412" mV="516" mUVWidth="16" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\ForceBarrierBreach0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TriggerBreach" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\TriggerBreach.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="8" mHeight="8" mDelay="9" mOriginX="0" mOriginY="0" mU="292" mV="636" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TriggerBreach0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="9" mOriginX="0" mOriginY="0" mU="292" mV="627" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TriggerBreach0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="9" mOriginX="0" mOriginY="0" mU="292" mV="618" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TriggerBreach0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="9" mOriginX="0" mOriginY="0" mU="437" mV="499" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\TriggerBreach0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="EmergenceGrass" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\EmergenceGrass.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="160" mHeight="16" mDelay="31" mOriginX="0" mOriginY="0" mU="322" mV="265" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\EmergenceGrass0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="299" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\EmergenceGrass0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="0" mV="396" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\EmergenceGrass0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="231" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\EmergenceGrass0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="0" mV="379" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\EmergenceGrass0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="0" mV="362" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\EmergenceGrass0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="SubmergedEmergenceGrass" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\SubmergedEmergenceGrass.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="160" mHeight="16" mDelay="31" mOriginX="0" mOriginY="0" mU="322" mV="367" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SubmergedEmergenceGrass0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="322" mV="282" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SubmergedEmergenceGrass0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="452" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SubmergedEmergenceGrass0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="418" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SubmergedEmergenceGrass0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="322" mV="248" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SubmergedEmergenceGrass0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="160" mHeight="16" mDelay="12" mOriginX="0" mOriginY="0" mU="161" mV="401" mUVWidth="160" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\SubmergedEmergenceGrass0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Gregg" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\SpriteTiles\Output\Gregg.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="16" mHeight="16" mDelay="9" mOriginX="0" mOriginY="0" mU="690" mV="533" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\Gregg0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="9" mOriginX="0" mOriginY="0" mU="374" mV="849" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\Gregg0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="9" mOriginX="0" mOriginY="0" mU="366" mV="883" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\Gregg0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="9" mOriginX="0" mOriginY="0" mU="374" mV="866" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\SpriteTiles\Output\Gregg0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

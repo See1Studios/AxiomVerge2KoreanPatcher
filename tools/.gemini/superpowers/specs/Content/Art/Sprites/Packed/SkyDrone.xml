@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>SkyDrone.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="SkyDroneTexture">
+    <THSpriteAnimationData mName="ElectricArc" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\ElectricArc.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="31" mHeight="28" mDelay="4" mOriginX="5" mOriginY="14" mU="41" mV="404" mUVWidth="30" mUVHeight="26" mCropX="1" mCropY="1" mSourceImageName="..\Bosses\SkyDrone\Output\ElectricArc0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="0" mY="-6" mWidth="26" mHeight="11" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="31" mHeight="28" mDelay="4" mOriginX="5" mOriginY="14" mU="90" mV="343" mUVWidth="31" mUVHeight="28" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\ElectricArc0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="0" mY="-8" mWidth="26" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="31" mHeight="28" mDelay="4" mOriginX="5" mOriginY="14" mU="130" mV="335" mUVWidth="27" mUVHeight="26" mCropX="4" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\ElectricArc0002.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="0" mY="-6" mWidth="26" mHeight="11" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="31" mHeight="28" mDelay="4" mOriginX="5" mOriginY="14" mU="164" mV="300" mUVWidth="29" mUVHeight="25" mCropX="2" mCropY="2" mSourceImageName="..\Bosses\SkyDrone\Output\ElectricArc0003.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="0" mY="-6" mWidth="26" mHeight="11" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Head" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\Head.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-16" mY="-8" mWidth="32" mHeight="16" mRadius="8" mColFlags="0" />
+      </mCollisionList>
+      <THFrameData mWidth="51" mHeight="38" mDelay="6" mOriginX="28" mOriginY="18" mU="338" mV="0" mUVWidth="50" mUVHeight="28" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\Head0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-13" mY="8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-13" mY="2" mWidth="26" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-11" mY="-18" mWidth="19" mHeight="23" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-28" mY="-12" mWidth="16" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="8" mY="-12" mWidth="12" mHeight="19" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="51" mHeight="38" mDelay="6" mOriginX="28" mOriginY="18" mU="256" mV="102" mUVWidth="50" mUVHeight="24" mCropX="0" mCropY="5" mSourceImageName="..\Bosses\SkyDrone\Output\Head0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-13" mY="8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-13" mY="2" mWidth="26" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-11" mY="-13" mWidth="19" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-28" mY="-10" mWidth="16" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="8" mY="-9" mWidth="12" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="51" mHeight="38" mDelay="6" mOriginX="28" mOriginY="18" mU="60" mV="237" mUVWidth="50" mUVHeight="16" mCropX="0" mCropY="10" mSourceImageName="..\Bosses\SkyDrone\Output\Head0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-11" mY="6" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-12" mY="1" mWidth="26" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-16" mY="-8" mWidth="26" mHeight="12" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-28" mY="-5" mWidth="16" mHeight="12" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="8" mY="-5" mWidth="12" mHeight="11" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="51" mHeight="38" mDelay="6" mOriginX="28" mOriginY="18" mU="311" mV="51" mUVWidth="50" mUVHeight="14" mCropX="0" mCropY="12" mSourceImageName="..\Bosses\SkyDrone\Output\Head0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-11" mY="5" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-12" mY="0" mWidth="26" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-14" mY="-6" mWidth="25" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-28" mY="-3" mWidth="16" mHeight="10" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="8" mY="-3" mWidth="12" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="51" mHeight="38" mDelay="6" mOriginX="28" mOriginY="18" mU="338" mV="30" mUVWidth="50" mUVHeight="18" mCropX="0" mCropY="12" mSourceImageName="..\Bosses\SkyDrone\Output\Head0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-10" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-11" mY="-5" mWidth="26" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-11" mY="-6" mWidth="19" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-28" mY="-1" mWidth="16" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="8" mY="1" mWidth="12" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="51" mHeight="38" mDelay="6" mOriginX="28" mOriginY="18" mU="234" mV="128" mUVWidth="50" mUVHeight="22" mCropX="0" mCropY="12" mSourceImageName="..\Bosses\SkyDrone\Output\Head0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-10" mY="-2" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-11" mY="-7" mWidth="26" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-11" mY="-6" mWidth="19" mHeight="22" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-28" mY="-1" mWidth="16" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="8" mY="0" mWidth="13" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="51" mHeight="38" mDelay="6" mOriginX="28" mOriginY="18" mU="120" mV="227" mUVWidth="50" mUVHeight="26" mCropX="1" mCropY="12" mSourceImageName="..\Bosses\SkyDrone\Output\Head0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-11" mY="-4" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-11" mY="-9" mWidth="26" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-11" mY="-7" mWidth="22" mHeight="27" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-27" mY="-3" mWidth="16" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="RECTANGLE" mX="8" mY="-2" mWidth="13" mHeight="18" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="LargeSegment" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\LargeSegment.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="53" mHeight="39" mDelay="6" mOriginX="31" mOriginY="18" mU="283" mV="0" mUVWidth="53" mUVHeight="25" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\LargeSegment0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="53" mHeight="39" mDelay="6" mOriginX="31" mOriginY="18" mU="256" mV="59" mUVWidth="53" mUVHeight="21" mCropX="0" mCropY="5" mSourceImageName="..\Bosses\SkyDrone\Output\LargeSegment0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="53" mHeight="39" mDelay="6" mOriginX="31" mOriginY="18" mU="256" mV="82" mUVWidth="53" mUVHeight="18" mCropX="0" mCropY="10" mSourceImageName="..\Bosses\SkyDrone\Output\LargeSegment0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="53" mHeight="39" mDelay="6" mOriginX="31" mOriginY="18" mU="283" mV="27" mUVWidth="53" mUVHeight="22" mCropX="0" mCropY="12" mSourceImageName="..\Bosses\SkyDrone\Output\LargeSegment0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="53" mHeight="39" mDelay="6" mOriginX="31" mOriginY="18" mU="226" mV="31" mUVWidth="53" mUVHeight="26" mCropX="0" mCropY="13" mSourceImageName="..\Bosses\SkyDrone\Output\LargeSegment0004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="MediumSegment" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\MediumSegment.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="31" mHeight="39" mDelay="6" mOriginX="18" mOriginY="18" mU="75" mV="373" mUVWidth="30" mUVHeight="25" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MediumSegment0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="31" mHeight="39" mDelay="6" mOriginX="18" mOriginY="18" mU="0" mV="445" mUVWidth="31" mUVHeight="21" mCropX="0" mCropY="5" mSourceImageName="..\Bosses\SkyDrone\Output\MediumSegment0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="31" mHeight="39" mDelay="6" mOriginX="18" mOriginY="18" mU="130" mV="315" mUVWidth="31" mUVHeight="18" mCropX="0" mCropY="10" mSourceImageName="..\Bosses\SkyDrone\Output\MediumSegment0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="31" mHeight="39" mDelay="6" mOriginX="18" mOriginY="18" mU="174" mV="270" mUVWidth="31" mUVHeight="22" mCropX="0" mCropY="12" mSourceImageName="..\Bosses\SkyDrone\Output\MediumSegment0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="31" mHeight="39" mDelay="6" mOriginX="18" mOriginY="18" mU="209" mV="229" mUVWidth="31" mUVHeight="26" mCropX="0" mCropY="13" mSourceImageName="..\Bosses\SkyDrone\Output\MediumSegment0004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="MissileFlight" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\MissileFlight.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="40" mHeight="43" mDelay="3" mOriginX="21" mOriginY="24" mU="135" mV="255" mUVWidth="37" mUVHeight="43" mCropX="3" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissileFlight0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="40" mHeight="43" mDelay="3" mOriginX="21" mOriginY="24" mU="0" mV="370" mUVWidth="39" mUVHeight="42" mCropX="1" mCropY="1" mSourceImageName="..\Bosses\SkyDrone\Output\MissileFlight0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="40" mHeight="43" mDelay="3" mOriginX="21" mOriginY="24" mU="93" mV="255" mUVWidth="40" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissileFlight0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="40" mHeight="43" mDelay="3" mOriginX="21" mOriginY="24" mU="50" mV="325" mUVWidth="38" mUVHeight="37" mCropX="2" mCropY="6" mSourceImageName="..\Bosses\SkyDrone\Output\MissileFlight0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="40" mHeight="43" mDelay="3" mOriginX="21" mOriginY="24" mU="174" mV="229" mUVWidth="33" mUVHeight="39" mCropX="7" mCropY="4" mSourceImageName="..\Bosses\SkyDrone\Output\MissileFlight0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="40" mHeight="43" mDelay="3" mOriginX="21" mOriginY="24" mU="93" mV="300" mUVWidth="35" mUVHeight="41" mCropX="5" mCropY="2" mSourceImageName="..\Bosses\SkyDrone\Output\MissileFlight0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="MissileLaunchFlames" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\MissileLaunchFlames.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="33" mHeight="39" mDelay="2" mOriginX="22" mOriginY="28" mU="378" mV="50" mUVWidth="7" mUVHeight="8" mCropX="16" mCropY="22" mSourceImageName="..\Bosses\SkyDrone\Output\MissileLaunchFlames0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="39" mDelay="2" mOriginX="22" mOriginY="28" mU="363" mV="50" mUVWidth="13" mUVHeight="14" mCropX="10" mCropY="16" mSourceImageName="..\Bosses\SkyDrone\Output\MissileLaunchFlames0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="39" mDelay="2" mOriginX="22" mOriginY="28" mU="311" mV="129" mUVWidth="15" mUVHeight="19" mCropX="7" mCropY="12" mSourceImageName="..\Bosses\SkyDrone\Output\MissileLaunchFlames0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="39" mDelay="2" mOriginX="22" mOriginY="28" mU="242" mV="214" mUVWidth="23" mUVHeight="20" mCropX="1" mCropY="9" mSourceImageName="..\Bosses\SkyDrone\Output\MissileLaunchFlames0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="39" mDelay="2" mOriginX="22" mOriginY="28" mU="267" mV="214" mUVWidth="18" mUVHeight="22" mCropX="6" mCropY="7" mSourceImageName="..\Bosses\SkyDrone\Output\MissileLaunchFlames0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="39" mDelay="2" mOriginX="22" mOriginY="28" mU="107" mV="373" mUVWidth="19" mUVHeight="25" mCropX="4" mCropY="4" mSourceImageName="..\Bosses\SkyDrone\Output\MissileLaunchFlames0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="39" mDelay="2" mOriginX="22" mOriginY="28" mU="75" mV="400" mUVWidth="20" mUVHeight="27" mCropX="2" mCropY="2" mSourceImageName="..\Bosses\SkyDrone\Output\MissileLaunchFlames0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="39" mDelay="2" mOriginX="22" mOriginY="28" mU="34" mV="432" mUVWidth="22" mUVHeight="30" mCropX="1" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissileLaunchFlames0007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="39" mDelay="2" mOriginX="22" mOriginY="28" mU="209" mV="257" mUVWidth="25" mUVHeight="29" mCropX="0" mCropY="4" mSourceImageName="..\Bosses\SkyDrone\Output\MissileLaunchFlames0008.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="39" mDelay="2" mOriginX="22" mOriginY="28" mU="286" mV="128" mUVWidth="23" mUVHeight="21" mCropX="4" mCropY="11" mSourceImageName="..\Bosses\SkyDrone\Output\MissileLaunchFlames0009.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="39" mDelay="2" mOriginX="22" mOriginY="28" mU="242" mV="236" mUVWidth="19" mUVHeight="25" mCropX="11" mCropY="10" mSourceImageName="..\Bosses\SkyDrone\Output\MissileLaunchFlames0010.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="33" mHeight="39" mDelay="2" mOriginX="22" mOriginY="28" mU="0" mV="468" mUVWidth="23" mUVHeight="30" mCropX="10" mCropY="9" mSourceImageName="..\Bosses\SkyDrone\Output\MissileLaunchFlames0011.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="SmallSegment" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\SmallSegment.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="22" mDelay="6" mOriginX="19" mOriginY="10" mU="0" mV="414" mUVWidth="32" mUVHeight="15" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\SmallSegment0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="22" mDelay="6" mOriginX="19" mOriginY="10" mU="130" mV="300" mUVWidth="32" mUVHeight="13" mCropX="0" mCropY="2" mSourceImageName="..\Bosses\SkyDrone\Output\SmallSegment0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="22" mDelay="6" mOriginX="19" mOriginY="10" mU="0" mV="431" mUVWidth="32" mUVHeight="12" mCropX="0" mCropY="5" mSourceImageName="..\Bosses\SkyDrone\Output\SmallSegment0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="22" mDelay="6" mOriginX="19" mOriginY="10" mU="41" mV="388" mUVWidth="32" mUVHeight="14" mCropX="0" mCropY="6" mSourceImageName="..\Bosses\SkyDrone\Output\SmallSegment0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="32" mHeight="22" mDelay="6" mOriginX="19" mOriginY="10" mU="41" mV="370" mUVWidth="32" mUVHeight="16" mCropX="0" mCropY="6" mSourceImageName="..\Bosses\SkyDrone\Output\SmallSegment0004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TurbineBase" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\TurbineBase.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="55" mHeight="43" mDelay="6" mOriginX="31" mOriginY="22" mU="226" mV="0" mUVWidth="55" mUVHeight="29" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TurbineBase0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="LeftTurbine" mX="-30" mY="-19" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="RightTurbine" mX="23" mY="-19" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="55" mHeight="43" mDelay="6" mOriginX="31" mOriginY="22" mU="177" mV="198" mUVWidth="55" mUVHeight="29" mCropX="0" mCropY="1" mSourceImageName="..\Bosses\SkyDrone\Output\TurbineBase0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="LeftTurbine" mX="-30" mY="-19" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="RightTurbine" mX="23" mY="-19" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="55" mHeight="43" mDelay="6" mOriginX="31" mOriginY="22" mU="177" mV="166" mUVWidth="55" mUVHeight="30" mCropX="0" mCropY="2" mSourceImageName="..\Bosses\SkyDrone\Output\TurbineBase0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="LeftTurbine" mX="-30" mY="-18" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="RightTurbine" mX="23" mY="-18" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="55" mHeight="43" mDelay="6" mOriginX="31" mOriginY="22" mU="177" mV="129" mUVWidth="55" mUVHeight="35" mCropX="0" mCropY="3" mSourceImageName="..\Bosses\SkyDrone\Output\TurbineBase0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="LeftTurbine" mX="-30" mY="-17" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="RightTurbine" mX="23" mY="-17" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="55" mHeight="43" mDelay="6" mOriginX="31" mOriginY="22" mU="120" mV="186" mUVWidth="55" mUVHeight="39" mCropX="0" mCropY="4" mSourceImageName="..\Bosses\SkyDrone\Output\TurbineBase0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="LeftTurbine" mX="-30" mY="-16" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="RightTurbine" mX="23" mY="-16" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TurbineIdle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\TurbineIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="55" mHeight="55" mDelay="2" mOriginX="7" mOriginY="24" mU="142" mV="72" mUVWidth="55" mUVHeight="55" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TurbineIdle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="RightTurbine" mX="0" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="LeftTurbine" mX="28" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-24" mWidth="26" mHeight="25" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="3" mY="-15" mWidth="28" mHeight="30" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="28" mY="11" mWidth="26" mHeight="32" mRadius="20" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="55" mHeight="55" mDelay="2" mOriginX="7" mOriginY="24" mU="63" mV="180" mUVWidth="55" mUVHeight="55" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TurbineIdle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="RightTurbine" mX="0" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="LeftTurbine" mX="28" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-24" mWidth="26" mHeight="25" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="3" mY="-15" mWidth="28" mHeight="30" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="28" mY="11" mWidth="26" mHeight="32" mRadius="20" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TurbineRotate" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\TurbineRotate.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="67" mHeight="69" mDelay="8" mOriginX="18" mOriginY="38" mU="120" mV="129" mUVWidth="55" mUVHeight="55" mCropX="11" mCropY="14" mSourceImageName="..\Bosses\SkyDrone\Output\TurbineRotate0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="RightTurbine" mX="0" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="LeftTurbine" mX="28" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle0" mX="-3" mY="-22" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-24" mWidth="26" mHeight="25" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="3" mY="-15" mWidth="28" mHeight="30" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="28" mY="11" mWidth="26" mHeight="32" mRadius="20" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="67" mHeight="69" mDelay="8" mOriginX="18" mOriginY="38" mU="81" mV="72" mUVWidth="59" mUVHeight="41" mCropX="8" mCropY="19" mSourceImageName="..\Bosses\SkyDrone\Output\TurbineRotate0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="RightTurbine" mX="0" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="LeftTurbine" mX="28" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="-11" mY="0" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-10" mY="-13" mWidth="26" mHeight="28" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="28" mY="1" mWidth="26" mHeight="32" mRadius="21" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="67" mHeight="69" mDelay="8" mOriginX="18" mOriginY="38" mU="199" mV="67" mUVWidth="55" mUVHeight="55" mCropX="11" mCropY="9" mSourceImageName="..\Bosses\SkyDrone\Output\TurbineRotate0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="RightTurbine" mX="0" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="LeftTurbine" mX="28" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="-4" mY="20" mAngle="2.3561945" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-1" mWidth="26" mHeight="25" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="27" mY="-8" mWidth="26" mHeight="32" mRadius="21" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="1" mY="-8" mWidth="26" mHeight="27" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="67" mHeight="69" mDelay="8" mOriginX="18" mOriginY="38" mU="50" mV="255" mUVWidth="41" mUVHeight="68" mCropX="14" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TurbineRotate0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="RightTurbine" mX="0" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="LeftTurbine" mX="28" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="16" mY="30" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-37" mWidth="36" mHeight="67" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="67" mHeight="69" mDelay="8" mOriginX="18" mOriginY="38" mU="63" mV="123" mUVWidth="55" mUVHeight="55" mCropX="0" mCropY="4" mSourceImageName="..\Bosses\SkyDrone\Output\TurbineRotate0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="RightTurbine" mX="0" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="LeftTurbine" mX="28" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="24" mY="8" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="11" mY="-4" mWidth="26" mHeight="25" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="1" mY="-14" mWidth="26" mHeight="32" mRadius="21" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="3" mY="-15" mWidth="26" mHeight="27" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="67" mHeight="69" mDelay="3" mOriginX="18" mOriginY="38" mU="0" mV="186" mUVWidth="58" mUVHeight="58" mCropX="0" mCropY="4" mSourceImageName="..\Bosses\SkyDrone\Output\TurbineRotate0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="RightTurbine" mX="0" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="LeftTurbine" mX="28" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="27" mY="11" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="14" mY="-1" mWidth="26" mHeight="25" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="1" mY="-14" mWidth="26" mHeight="32" mRadius="21" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="3" mY="-15" mWidth="26" mHeight="27" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="67" mHeight="69" mDelay="3" mOriginX="18" mOriginY="38" mU="0" mV="123" mUVWidth="61" mUVHeight="61" mCropX="0" mCropY="4" mSourceImageName="..\Bosses\SkyDrone\Output\TurbineRotate0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="RightTurbine" mX="0" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="LeftTurbine" mX="28" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="30" mY="14" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="17" mY="2" mWidth="26" mHeight="25" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="1" mY="-14" mWidth="26" mHeight="32" mRadius="21" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="3" mY="-15" mWidth="26" mHeight="31" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="67" mHeight="69" mDelay="35" mOriginX="18" mOriginY="38" mU="159" mV="0" mUVWidth="65" mUVHeight="65" mCropX="0" mCropY="4" mSourceImageName="..\Bosses\SkyDrone\Output\TurbineRotate0007.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="RightTurbine" mX="0" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="LeftTurbine" mX="28" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="34" mY="18" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="21" mY="6" mWidth="26" mHeight="25" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="1" mY="-14" mWidth="26" mHeight="32" mRadius="21" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="3" mY="-15" mWidth="28" mHeight="31" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="MissilePodLeft" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\MissilePodLeft.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="48" mHeight="60" mDelay="6" mOriginX="27" mOriginY="15" mU="284" mV="152" mUVWidth="48" mUVHeight="60" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodLeft0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="1" mY="8" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="6" mY="32" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="6" mY="16" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle3" mX="11" mY="40" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle4" mX="-4" mY="16" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle5" mX="11" mY="24" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle6" mX="16" mY="32" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle7" mX="1" mY="24" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="-10" mY="10" mWidth="16" mHeight="16" mRadius="14" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="0" mY="23" mWidth="18" mHeight="16" mRadius="11" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="11" mY="34" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="CIRCLE" mX="-17" mY="-4" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="MissilePodRight" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\MissilePodRight.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="48" mHeight="60" mDelay="6" mOriginX="23" mOriginY="17" mU="440" mV="0" mUVWidth="48" mUVHeight="60" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodRight0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="15" mY="6" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="5" mY="22" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="20" mY="14" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle3" mX="0" mY="30" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle4" mX="15" mY="22" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle5" mX="5" mY="38" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle6" mX="10" mY="14" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle7" mX="10" mY="30" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="1" mY="12" mWidth="16" mHeight="16" mRadius="21" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="-3" mY="-9" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="4" mY="34" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="MissilePodsBase" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\MissilePodsBase.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="80" mHeight="47" mDelay="6" mOriginX="41" mOriginY="18" mU="0" mV="0" mUVWidth="80" mUVHeight="43" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodsBase0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="LeftPod" mX="-35" mY="15" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="RightPod" mX="31" mY="17" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="80" mHeight="47" mDelay="6" mOriginX="41" mOriginY="18" mU="0" mV="45" mUVWidth="79" mUVHeight="39" mCropX="1" mCropY="5" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodsBase0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="LeftPod" mX="-35" mY="16" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="RightPod" mX="31" mY="18" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="80" mHeight="47" mDelay="6" mOriginX="41" mOriginY="18" mU="0" mV="86" mUVWidth="77" mUVHeight="35" mCropX="3" mCropY="10" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodsBase0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="LeftPod" mX="-35" mY="17" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="RightPod" mX="31" mY="19" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="80" mHeight="47" mDelay="6" mOriginX="41" mOriginY="18" mU="82" mV="36" mUVWidth="75" mUVHeight="34" mCropX="5" mCropY="12" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodsBase0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="LeftPod" mX="-35" mY="18" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="RightPod" mX="31" mY="20" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="80" mHeight="47" mDelay="6" mOriginX="41" mOriginY="18" mU="82" mV="0" mUVWidth="75" mUVHeight="34" mCropX="5" mCropY="13" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodsBase0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="LeftPod" mX="-35" mY="19" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="RightPod" mX="31" mY="21" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TrackingBombLaunch" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\TrackingBombLaunch.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="7" mHeight="7" mDelay="5" mOriginX="3" mOriginY="3" mU="195" mV="303" mUVWidth="7" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TrackingBombLaunch0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="7" mHeight="7" mDelay="5" mOriginX="3" mOriginY="3" mU="207" mV="288" mUVWidth="7" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TrackingBombLaunch0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="7" mHeight="7" mDelay="5" mOriginX="3" mOriginY="3" mU="34" mV="464" mUVWidth="7" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TrackingBombLaunch0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="7" mHeight="7" mDelay="5" mOriginX="3" mOriginY="3" mU="97" mV="400" mUVWidth="7" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TrackingBombLaunch0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="7" mHeight="7" mDelay="5" mOriginX="3" mOriginY="3" mU="195" mV="294" mUVWidth="7" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TrackingBombLaunch0004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TrackingBomb" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\TrackingBomb.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="3" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="7" mHeight="7" mDelay="5" mOriginX="3" mOriginY="3" mU="132" mV="363" mUVWidth="7" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TrackingBomb0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="7" mHeight="7" mDelay="5" mOriginX="3" mOriginY="3" mU="123" mV="363" mUVWidth="7" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TrackingBomb0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="7" mHeight="7" mDelay="5" mOriginX="3" mOriginY="3" mU="25" mV="468" mUVWidth="7" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TrackingBomb0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="7" mHeight="7" mDelay="5" mOriginX="3" mOriginY="3" mU="163" mV="327" mUVWidth="7" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TrackingBomb0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="7" mHeight="7" mDelay="5" mOriginX="3" mOriginY="3" mU="490" mV="0" mUVWidth="7" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TrackingBomb0004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TrackingBombCountdown" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\TrackingBombCountdown.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="3" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="7" mHeight="7" mDelay="5" mOriginX="3" mOriginY="3" mU="58" mV="432" mUVWidth="7" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TrackingBombCountdown0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="7" mHeight="7" mDelay="5" mOriginX="3" mOriginY="3" mU="50" mV="246" mUVWidth="7" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\TrackingBombCountdown0001.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="MissilePodLeftFire" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\MissilePodLeftFire.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="50" mHeight="62" mDelay="3" mOriginX="29" mOriginY="17" mU="334" mV="129" mUVWidth="48" mUVHeight="60" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodLeftFire0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-1" mY="6" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="4" mY="30" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="4" mY="14" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle3" mX="9" mY="38" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle4" mX="-6" mY="14" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle5" mX="9" mY="22" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle6" mX="14" mY="30" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle7" mX="-1" mY="22" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="-12" mY="8" mWidth="16" mHeight="16" mRadius="14" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="-2" mY="21" mWidth="18" mHeight="16" mRadius="11" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="9" mY="32" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="CIRCLE" mX="-19" mY="-6" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="50" mHeight="62" mDelay="3" mOriginX="29" mOriginY="17" mU="384" mV="129" mUVWidth="48" mUVHeight="60" mCropX="1" mCropY="1" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodLeftFire0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="7" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="5" mY="31" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="5" mY="15" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle3" mX="10" mY="39" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle4" mX="-5" mY="15" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle5" mX="10" mY="23" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle6" mX="15" mY="31" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle7" mX="0" mY="23" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="-11" mY="9" mWidth="16" mHeight="16" mRadius="14" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="-1" mY="22" mWidth="18" mHeight="16" mRadius="11" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="10" mY="33" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="CIRCLE" mX="-18" mY="-5" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="50" mHeight="62" mDelay="3" mOriginX="29" mOriginY="17" mU="434" mV="186" mUVWidth="48" mUVHeight="60" mCropX="2" mCropY="2" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodLeftFire0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="1" mY="8" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="6" mY="32" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="6" mY="16" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle3" mX="11" mY="40" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle4" mX="-4" mY="16" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle5" mX="11" mY="24" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle6" mX="16" mY="32" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle7" mX="1" mY="24" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="-10" mY="10" mWidth="16" mHeight="16" mRadius="14" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="0" mY="23" mWidth="18" mHeight="16" mRadius="11" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="11" mY="34" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="CIRCLE" mX="-17" mY="-4" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="MissilePodRightFire" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\MissilePodRightFire.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="50" mHeight="62" mDelay="3" mOriginX="25" mOriginY="19" mU="334" mV="191" mUVWidth="48" mUVHeight="60" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodRightFire0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="13" mY="4" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="3" mY="20" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="18" mY="12" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle3" mX="-2" mY="28" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle4" mX="13" mY="20" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle5" mX="3" mY="36" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle6" mX="8" mY="12" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle7" mX="8" mY="28" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="-1" mY="10" mWidth="16" mHeight="16" mRadius="21" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="-5" mY="-11" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="2" mY="32" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="50" mHeight="62" mDelay="3" mOriginX="25" mOriginY="19" mU="434" mV="124" mUVWidth="48" mUVHeight="60" mCropX="1" mCropY="1" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodRightFire0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="14" mY="5" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="4" mY="21" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="19" mY="13" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle3" mX="-1" mY="29" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle4" mX="14" mY="21" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle5" mX="4" mY="37" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle6" mX="9" mY="13" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle7" mX="9" mY="29" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="0" mY="11" mWidth="15" mHeight="16" mRadius="21" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="-4" mY="-10" mWidth="15" mHeight="16" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="3" mY="33" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="50" mHeight="62" mDelay="6" mOriginX="25" mOriginY="19" mU="311" mV="67" mUVWidth="48" mUVHeight="60" mCropX="2" mCropY="2" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodRightFire0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="15" mY="6" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="5" mY="22" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle2" mX="20" mY="14" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle3" mX="0" mY="30" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle4" mX="15" mY="22" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle5" mX="5" mY="38" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle6" mX="10" mY="14" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle7" mX="10" mY="30" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="1" mY="12" mWidth="16" mHeight="16" mRadius="21" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="-3" mY="-9" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="4" mY="34" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="MissilePodLeftLoading" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\MissilePodLeftLoading.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="48" mHeight="60" mDelay="8" mOriginX="27" mOriginY="15" mU="384" mV="191" mUVWidth="48" mUVHeight="60" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodLeftLoading0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="-10" mY="10" mWidth="16" mHeight="16" mRadius="14" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="0" mY="23" mWidth="18" mHeight="16" mRadius="11" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="11" mY="34" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="CIRCLE" mX="-17" mY="-4" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="48" mHeight="60" mDelay="8" mOriginX="27" mOriginY="15" mU="461" mV="62" mUVWidth="48" mUVHeight="60" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodLeftLoading0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="-10" mY="10" mWidth="16" mHeight="16" mRadius="14" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="0" mY="23" mWidth="18" mHeight="16" mRadius="11" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="11" mY="34" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="CIRCLE" mX="-17" mY="-4" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="48" mHeight="60" mDelay="7" mOriginX="27" mOriginY="15" mU="411" mV="62" mUVWidth="48" mUVHeight="60" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodLeftLoading0002.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="-10" mY="10" mWidth="16" mHeight="16" mRadius="14" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="0" mY="23" mWidth="18" mHeight="16" mRadius="11" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="11" mY="34" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="CIRCLE" mX="-17" mY="-4" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="48" mHeight="60" mDelay="7" mOriginX="27" mOriginY="15" mU="361" mV="67" mUVWidth="48" mUVHeight="60" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodLeftLoading0003.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="-10" mY="10" mWidth="16" mHeight="16" mRadius="14" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="0" mY="23" mWidth="18" mHeight="16" mRadius="11" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="11" mY="34" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+        <mHurtbox mName="Hurtbox3" mType="CIRCLE" mX="-17" mY="-4" mWidth="16" mHeight="16" mRadius="10" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="MissilePodRightLoading" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Bosses\SkyDrone\Output\MissilePodRightLoading.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="48" mHeight="60" mDelay="8" mOriginX="23" mOriginY="17" mU="390" mV="0" mUVWidth="48" mUVHeight="60" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodRightLoading0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="1" mY="12" mWidth="16" mHeight="16" mRadius="21" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="-3" mY="-9" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="4" mY="34" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="48" mHeight="60" mDelay="8" mOriginX="23" mOriginY="17" mU="234" mV="152" mUVWidth="48" mUVHeight="60" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodRightLoading0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="1" mY="12" mWidth="16" mHeight="16" mRadius="21" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="-3" mY="-9" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="4" mY="34" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="48" mHeight="60" mDelay="7" mOriginX="23" mOriginY="17" mU="0" mV="308" mUVWidth="48" mUVHeight="60" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodRightLoading0002.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="1" mY="12" mWidth="16" mHeight="16" mRadius="21" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="-3" mY="-9" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="4" mY="34" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="48" mHeight="60" mDelay="7" mOriginX="23" mOriginY="17" mU="0" mV="246" mUVWidth="48" mUVHeight="60" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\SkyDrone\Output\MissilePodRightLoading0003.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="CIRCLE" mX="1" mY="12" mWidth="16" mHeight="16" mRadius="21" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="CIRCLE" mX="-3" mY="-9" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox2" mType="CIRCLE" mX="4" mY="34" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="LeftTurbine">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="RightTurbine">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="LeftPod">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="RightPod">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle1">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle3">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle4">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle5">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle6">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle7">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

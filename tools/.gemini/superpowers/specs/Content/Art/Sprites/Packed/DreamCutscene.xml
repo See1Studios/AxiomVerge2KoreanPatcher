@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>DreamCutscene.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="DreamCutsceneTexture">
+    <THSpriteAnimationData mName="DiamondCA" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Cutscenes\Output\DiamondCA.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="180" mV="275" mUVWidth="1" mUVHeight="1" mCropX="29" mCropY="16" mSourceImageName="..\Cutscenes\Output\DiamondCA0000.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="173" mV="346" mUVWidth="3" mUVHeight="3" mCropX="28" mCropY="15" mSourceImageName="..\Cutscenes\Output\DiamondCA0001.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="498" mV="65" mUVWidth="5" mUVHeight="5" mCropX="27" mCropY="14" mSourceImageName="..\Cutscenes\Output\DiamondCA0002.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="104" mV="454" mUVWidth="7" mUVHeight="7" mCropX="26" mCropY="13" mSourceImageName="..\Cutscenes\Output\DiamondCA0003.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="104" mV="433" mUVWidth="9" mUVHeight="9" mCropX="25" mCropY="12" mSourceImageName="..\Cutscenes\Output\DiamondCA0004.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="498" mV="52" mUVWidth="11" mUVHeight="11" mCropX="24" mCropY="11" mSourceImageName="..\Cutscenes\Output\DiamondCA0005.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="347" mV="344" mUVWidth="13" mUVHeight="13" mCropX="23" mCropY="10" mSourceImageName="..\Cutscenes\Output\DiamondCA0006.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="187" mV="494" mUVWidth="15" mUVHeight="15" mCropX="22" mCropY="9" mSourceImageName="..\Cutscenes\Output\DiamondCA0007.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="271" mV="415" mUVWidth="17" mUVHeight="17" mCropX="21" mCropY="8" mSourceImageName="..\Cutscenes\Output\DiamondCA0008.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="348" mV="323" mUVWidth="19" mUVHeight="19" mCropX="20" mCropY="7" mSourceImageName="..\Cutscenes\Output\DiamondCA0009.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="361" mV="222" mUVWidth="21" mUVHeight="21" mCropX="19" mCropY="6" mSourceImageName="..\Cutscenes\Output\DiamondCA0010.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="316" mV="355" mUVWidth="23" mUVHeight="23" mCropX="18" mCropY="5" mSourceImageName="..\Cutscenes\Output\DiamondCA0011.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="395" mV="269" mUVWidth="25" mUVHeight="25" mCropX="17" mCropY="4" mSourceImageName="..\Cutscenes\Output\DiamondCA0012.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="363" mV="292" mUVWidth="27" mUVHeight="27" mCropX="16" mCropY="3" mSourceImageName="..\Cutscenes\Output\DiamondCA0013.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="187" mV="463" mUVWidth="29" mUVHeight="29" mCropX="15" mCropY="2" mSourceImageName="..\Cutscenes\Output\DiamondCA0014.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="328" mV="222" mUVWidth="31" mUVHeight="31" mCropX="14" mCropY="1" mSourceImageName="..\Cutscenes\Output\DiamondCA0015.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="231" mV="292" mUVWidth="33" mUVHeight="33" mCropX="13" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0016.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="53" mV="468" mUVWidth="35" mUVHeight="33" mCropX="12" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0017.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="289" mV="222" mUVWidth="37" mUVHeight="33" mCropX="11" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0018.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="178" mV="326" mUVWidth="39" mUVHeight="33" mCropX="10" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0019.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="118" mV="381" mUVWidth="41" mUVHeight="33" mCropX="9" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0020.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="240" mV="257" mUVWidth="43" mUVHeight="33" mCropX="8" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0021.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="57" mV="433" mUVWidth="45" mUVHeight="33" mCropX="7" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0022.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="240" mV="222" mUVWidth="47" mUVHeight="33" mCropX="6" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0023.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="180" mV="291" mUVWidth="49" mUVHeight="33" mCropX="5" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0024.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="0" mV="466" mUVWidth="51" mUVHeight="33" mCropX="4" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0025.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="118" mV="346" mUVWidth="53" mUVHeight="33" mCropX="3" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0026.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="121" mV="311" mUVWidth="55" mUVHeight="33" mCropX="2" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0027.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="0" mV="380" mUVWidth="57" mUVHeight="33" mCropX="1" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0028.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="384" mV="178" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0029.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="445" mV="142" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0030.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="384" mV="213" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0031.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="446" mV="107" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0032.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="384" mV="108" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0033.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="446" mV="72" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0034.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="384" mV="143" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0035.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="445" mV="177" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0036.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="0" mV="310" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0037.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="61" mV="275" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0038.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="0" mV="345" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0039.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="61" mV="240" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0040.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="445" mV="212" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0041.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="0" mV="240" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0042.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="122" mV="240" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0043.png" />
+      <THFrameData mWidth="59" mHeight="33" mDelay="1" mOriginX="29" mOriginY="16" mU="0" mV="275" mUVWidth="59" mUVHeight="33" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\DiamondCA0044.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Scanline" mIsLooping="true" mRenderType="START">
+      <mCSVName>..\Cutscenes\Output\Scanline.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="258" mV="396" mUVWidth="28" mUVHeight="17" mCropX="2" mCropY="0" mSourceImageName="..\Cutscenes\Output\Scanline0000.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="104" mV="450" mUVWidth="30" mUVHeight="2" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Scanline0001.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="64" mV="506" mUVWidth="30" mUVHeight="3" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Scanline0002.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="384" mV="263" mUVWidth="30" mUVHeight="4" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Scanline0003.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="316" mV="329" mUVWidth="30" mUVHeight="5" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Scanline0004.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="214" mV="433" mUVWidth="30" mUVHeight="4" mCropX="0" mCropY="2" mSourceImageName="..\Cutscenes\Output\Scanline0005.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="363" mV="286" mUVWidth="30" mUVHeight="4" mCropX="0" mCropY="3" mSourceImageName="..\Cutscenes\Output\Scanline0006.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="226" mV="406" mUVWidth="30" mUVHeight="5" mCropX="0" mCropY="3" mSourceImageName="..\Cutscenes\Output\Scanline0007.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="331" mV="314" mUVWidth="30" mUVHeight="7" mCropX="0" mCropY="2" mSourceImageName="..\Cutscenes\Output\Scanline0008.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="187" mV="452" mUVWidth="30" mUVHeight="9" mCropX="0" mCropY="1" mSourceImageName="..\Cutscenes\Output\Scanline0009.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="32" mV="503" mUVWidth="30" mUVHeight="6" mCropX="0" mCropY="5" mSourceImageName="..\Cutscenes\Output\Scanline0010.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="0" mV="501" mUVWidth="30" mUVHeight="8" mCropX="0" mCropY="4" mSourceImageName="..\Cutscenes\Output\Scanline0011.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="258" mV="387" mUVWidth="30" mUVHeight="7" mCropX="0" mCropY="6" mSourceImageName="..\Cutscenes\Output\Scanline0012.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="155" mV="488" mUVWidth="30" mUVHeight="8" mCropX="0" mCropY="6" mSourceImageName="..\Cutscenes\Output\Scanline0013.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="271" mV="368" mUVWidth="30" mUVHeight="10" mCropX="0" mCropY="5" mSourceImageName="..\Cutscenes\Output\Scanline0014.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="363" mV="274" mUVWidth="30" mUVHeight="10" mCropX="0" mCropY="6" mSourceImageName="..\Cutscenes\Output\Scanline0015.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="284" mV="349" mUVWidth="30" mUVHeight="12" mCropX="0" mCropY="5" mSourceImageName="..\Cutscenes\Output\Scanline0016.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="11" mOriginX="0" mOriginY="0" mU="284" mV="363" mUVWidth="30" mUVHeight="3" mCropX="0" mCropY="14" mSourceImageName="..\Cutscenes\Output\Scanline0017.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="EKGMonitor" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Cutscenes\Output\EKGMonitor.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="55" mHeight="49" mDelay="12" mOriginX="0" mOriginY="0" mU="183" mV="240" mUVWidth="55" mUVHeight="49" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\EKGMonitor0000.png" />
+      <THFrameData mWidth="55" mHeight="49" mDelay="12" mOriginX="0" mOriginY="0" mU="0" mV="415" mUVWidth="55" mUVHeight="49" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\EKGMonitor0001.png" />
+      <THFrameData mWidth="55" mHeight="49" mDelay="12" mOriginX="0" mOriginY="0" mU="61" mV="346" mUVWidth="55" mUVHeight="49" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\EKGMonitor0002.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ReverseExplosion" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Cutscenes\Output\ReverseExplosion.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="190" mHeight="72" mDelay="140" mOriginX="0" mOriginY="0" mU="0" mV="74" mUVWidth="190" mUVHeight="72" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseExplosion0000.png" />
+      <THFrameData mWidth="190" mHeight="72" mDelay="8" mOriginX="0" mOriginY="0" mU="192" mV="0" mUVWidth="190" mUVHeight="72" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseExplosion0001.png" />
+      <THFrameData mWidth="190" mHeight="72" mDelay="8" mOriginX="0" mOriginY="0" mU="192" mV="74" mUVWidth="190" mUVHeight="72" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseExplosion0002.png" />
+      <THFrameData mWidth="190" mHeight="72" mDelay="8" mOriginX="0" mOriginY="0" mU="192" mV="148" mUVWidth="190" mUVHeight="72" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseExplosion0003.png" />
+      <THFrameData mWidth="190" mHeight="72" mDelay="8" mOriginX="0" mOriginY="0" mU="0" mV="148" mUVWidth="190" mUVHeight="72" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseExplosion0004.png" />
+      <THFrameData mWidth="190" mHeight="72" mDelay="140" mOriginX="0" mOriginY="0" mU="0" mV="0" mUVWidth="190" mUVHeight="72" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseExplosion0005.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ReverseDiamondCA" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Cutscenes\Output\ReverseDiamondCA.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="149" mV="416" mUVWidth="31" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0000.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="90" mV="468" mUVWidth="31" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0001.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="219" mV="346" mUVWidth="31" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0002.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="266" mV="311" mUVWidth="31" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0003.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="266" mV="292" mUVWidth="31" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0004.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="90" mV="487" mUVWidth="31" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0005.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="319" mV="257" mUVWidth="31" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0006.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="161" mV="395" mUVWidth="31" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0007.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="219" mV="327" mUVWidth="31" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0008.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="316" mV="336" mUVWidth="29" mUVHeight="17" mCropX="1" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0009.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="416" mV="248" mUVWidth="27" mUVHeight="17" mCropX="2" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0010.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="219" mV="439" mUVWidth="25" mUVHeight="17" mCropX="3" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0011.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="246" mV="415" mUVWidth="23" mUVHeight="17" mCropX="4" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0012.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="219" mV="458" mUVWidth="21" mUVHeight="17" mCropX="5" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0013.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="290" mV="380" mUVWidth="19" mUVHeight="17" mCropX="6" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0014.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="246" mV="434" mUVWidth="17" mUVHeight="17" mCropX="7" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0015.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="422" mV="267" mUVWidth="15" mUVHeight="15" mCropX="8" mCropY="1" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0016.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="369" mV="321" mUVWidth="13" mUVHeight="13" mCropX="9" mCropY="2" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0017.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="498" mV="26" mUVWidth="11" mUVHeight="11" mCropX="10" mCropY="3" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0018.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="228" mV="222" mUVWidth="9" mUVHeight="9" mCropX="11" mCropY="4" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0019.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="161" mV="381" mUVWidth="7" mUVHeight="7" mCropX="12" mCropY="5" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0020.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="228" mV="233" mUVWidth="5" mUVHeight="5" mCropX="13" mCropY="6" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0021.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="235" mV="233" mUVWidth="3" mUVHeight="3" mCropX="14" mCropY="7" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0022.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="1" mOriginX="15" mOriginY="8" mU="180" mV="278" mUVWidth="1" mUVHeight="1" mCropX="15" mCropY="8" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0023.png" />
+      <THFrameData mWidth="31" mHeight="17" mDelay="21" mOriginX="0" mOriginY="0" mU="180" mV="281" mUVWidth="1" mUVHeight="1" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\ReverseDiamondCA0024.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Spiral" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Cutscenes\Output\Spiral.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="60" mHeight="34" mDelay="6" mOriginX="0" mOriginY="0" mU="61" mV="310" mUVWidth="58" mUVHeight="34" mCropX="1" mCropY="0" mSourceImageName="..\Cutscenes\Output\Spiral0000.png" />
+      <THFrameData mWidth="60" mHeight="34" mDelay="6" mOriginX="0" mOriginY="0" mU="384" mV="72" mUVWidth="60" mUVHeight="34" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Spiral0001.png" />
+      <THFrameData mWidth="60" mHeight="34" mDelay="6" mOriginX="0" mOriginY="0" mU="59" mV="397" mUVWidth="54" mUVHeight="34" mCropX="3" mCropY="0" mSourceImageName="..\Cutscenes\Output\Spiral0002.png" />
+      <THFrameData mWidth="60" mHeight="34" mDelay="6" mOriginX="0" mOriginY="0" mU="122" mV="275" mUVWidth="56" mUVHeight="34" mCropX="2" mCropY="0" mSourceImageName="..\Cutscenes\Output\Spiral0003.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Cubes1" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Cutscenes\Output\Cubes1.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="252" mV="330" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10000.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="123" mV="473" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10001.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="299" mV="291" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10002.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="226" mV="387" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10003.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="123" mV="454" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10004.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="149" mV="435" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10005.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="194" mV="395" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10006.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="207" mV="365" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10007.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="284" mV="330" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10008.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="352" mV="255" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10009.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="123" mV="492" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10010.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="182" mV="433" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10011.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="252" mV="349" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10012.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="182" mV="414" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10013.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="299" mV="310" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10014.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="155" mV="454" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10015.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="155" mV="473" mUVWidth="30" mUVHeight="13" mCropX="0" mCropY="2" mSourceImageName="..\Cutscenes\Output\Cubes10016.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="384" mV="248" mUVWidth="30" mUVHeight="13" mCropX="0" mCropY="2" mSourceImageName="..\Cutscenes\Output\Cubes10017.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="331" mV="295" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10018.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="214" mV="414" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10019.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="331" mV="276" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10020.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="239" mV="368" mUVWidth="30" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10021.png" />
+      <THFrameData mWidth="30" mHeight="17" mDelay="6" mOriginX="0" mOriginY="0" mU="180" mV="284" mUVWidth="1" mUVHeight="1" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\Cubes10022.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TraceHair" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Cutscenes\Output\TraceHair.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="11" mHeight="11" mDelay="12" mOriginX="0" mOriginY="0" mU="498" mV="39" mUVWidth="11" mUVHeight="11" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\TraceHair0000.png" />
+      <THFrameData mWidth="11" mHeight="11" mDelay="12" mOriginX="0" mOriginY="0" mU="498" mV="0" mUVWidth="11" mUVHeight="11" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\TraceHair0001.png" />
+      <THFrameData mWidth="11" mHeight="11" mDelay="12" mOriginX="0" mOriginY="0" mU="498" mV="13" mUVWidth="11" mUVHeight="11" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\TraceHair0002.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TraceMonitor" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Cutscenes\Output\TraceMonitor.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="285" mV="257" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\TraceMonitor0000.png" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="173" mV="361" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\TraceMonitor0001.png" />
+      <THFrameData mWidth="32" mHeight="32" mDelay="12" mOriginX="0" mOriginY="0" mU="115" mV="416" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\TraceMonitor0002.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TraceOscilloscope" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Cutscenes\Output\TraceOscilloscope.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="16" mHeight="21" mDelay="12" mOriginX="0" mOriginY="0" mU="311" mV="380" mUVWidth="16" mUVHeight="21" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\TraceOscilloscope0000.png" />
+      <THFrameData mWidth="16" mHeight="21" mDelay="12" mOriginX="0" mOriginY="0" mU="290" mV="399" mUVWidth="16" mUVHeight="21" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\TraceOscilloscope0001.png" />
+      <THFrameData mWidth="16" mHeight="21" mDelay="12" mOriginX="0" mOriginY="0" mU="392" mV="296" mUVWidth="16" mUVHeight="21" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\TraceOscilloscope0002.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TraceEyes" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Cutscenes\Output\TraceEyes.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="112" mHeight="16" mDelay="4" mOriginX="0" mOriginY="0" mU="114" mV="222" mUVWidth="112" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\TraceEyes0000.png" />
+      <THFrameData mWidth="112" mHeight="16" mDelay="6" mOriginX="0" mOriginY="0" mU="384" mV="18" mUVWidth="112" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\TraceEyes0001.png" />
+      <THFrameData mWidth="112" mHeight="16" mDelay="4" mOriginX="0" mOriginY="0" mU="384" mV="36" mUVWidth="112" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\TraceEyes0002.png" />
+      <THFrameData mWidth="112" mHeight="16" mDelay="83" mOriginX="0" mOriginY="0" mU="384" mV="54" mUVWidth="112" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\TraceEyes0003.png" />
+      <THFrameData mWidth="112" mHeight="16" mDelay="8" mOriginX="0" mOriginY="0" mU="0" mV="222" mUVWidth="112" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\TraceEyes0004.png" />
+      <THFrameData mWidth="112" mHeight="16" mDelay="62" mOriginX="0" mOriginY="0" mU="384" mV="0" mUVWidth="112" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Cutscenes\Output\TraceEyes0005.png" />
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

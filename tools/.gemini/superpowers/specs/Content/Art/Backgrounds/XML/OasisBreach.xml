@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParallaxXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- #################################################################### -->
+  <!-- "GreenHills" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="OasisGreenHillsBreach">
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/OasisBreach/GreenHills</mTextureName>
+      <mTechnique>OverlayBitmapTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mGradientData>
+        <mStartColor>
+          <R>254</R>
+          <G>250</G>
+          <B>37</B>
+          <A>0</A>
+        </mStartColor>
+        <mEndColor>
+          <R>254</R>
+          <G>250</G>
+          <B>37</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>80</mStartY>
+        <mEndY>200</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+      <mAnchor>BottomLeft</mAnchor>
+    </THParallaxData>
+
+    <!-- Breach background colors-->
+    <mBreachEffectParams>     
+      <mGradientStartColor>
+        <R>223</R>
+        <G>220</G>
+        <B>104</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>134</R>
+        <G>174</G>
+        <B>17</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>120</mGradientStartY>
+      <mGradientEndY>240</mGradientEndY>
+      <mReflected>true</mReflected>
+
+      <VignetteColor>
+        <R>79</R>
+        <G>128</G>
+        <B>77</B>
+        <A>128</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+
+    </mBreachEffectParams>
+  </THParallaxSetData>
+  
+  
+  <!-- #################################################################### -->
+  <!-- "Purple Hills" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="OasisPurpleHillsBreach">
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/OasisBreach/PurpleHills</mTextureName>
+      <mTechnique>OverlayBitmapTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mGradientData>
+        <mStartColor>
+          <R>202</R>
+          <G>153</G>
+          <B>211</B>
+          <A>0</A>
+        </mStartColor>
+        <mEndColor>
+          <R>202</R>
+          <G>153</G>
+          <B>211</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>80</mStartY>
+        <mEndY>200</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+      <mAnchor>BottomLeft</mAnchor>
+    </THParallaxData>
+
+    <!-- Breach background colors-->
+    <mBreachEffectParams>     
+      <mGradientStartColor>
+        <R>223</R>
+        <G>220</G>
+        <B>104</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>134</R>
+        <G>174</G>
+        <B>17</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>120</mGradientStartY>
+      <mGradientEndY>240</mGradientEndY>
+      <mReflected>true</mReflected>
+
+      <VignetteColor>
+        <R>79</R>
+        <G>128</G>
+        <B>77</B>
+        <A>128</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+
+  <!-- #################################################################### -->
+  <!-- "Purple Mesas" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="OasisPurpleMesasBreach">
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/OasisBreach/PurpleMesas</mTextureName>
+      <mTechnique>OverlayBitmapTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mGradientData>
+        <mStartColor>
+          <R>30</R>
+          <G>198</G>
+          <B>139</B>
+          <A>0</A>
+        </mStartColor>
+        <mEndColor>
+          <R>30</R>
+          <G>198</G>
+          <B>139</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>80</mStartY>
+        <mEndY>200</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+      <mAnchor>BottomLeft</mAnchor>
+    </THParallaxData>
+
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mGradientStartColor>
+        <R>0</R>
+        <G>199</G>
+        <B>101</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>3</R>
+        <G>54</G>
+        <B>95</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>120</mGradientStartY>
+      <mGradientEndY>240</mGradientEndY>
+      <mReflected>true</mReflected>
+
+      <VignetteColor>
+        <R>32</R>
+        <G>180</G>
+        <B>180</B>
+        <A>24i6</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+
+  <!-- #################################################################### -->
+  <!-- "Green Gradient" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="OasisGreenGradientBreach">
+
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mGradientStartColor>
+        <R>6</R>
+        <G>157</G>
+        <B>76</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>0</R>
+        <G>110</G>
+        <B>86</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>120</mGradientStartY>
+      <mGradientEndY>240</mGradientEndY>
+      <mReflected>true</mReflected>
+
+      <VignetteColor>
+        <R>22</R>
+        <G>155</G>
+        <B>231</B>
+        <A>128</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.05</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- "Blue Gradient" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="OasisBlueGradientBreach">
+
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mGradientStartColor>
+        <R>32</R>
+        <G>150</G>
+        <B>179</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>15</R>
+        <G>69</G>
+        <B>82</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>60</mGradientStartY>
+      <mGradientEndY>84</mGradientEndY>
+      <mReflected>true</mReflected>
+
+      <VignetteColor>
+        <R>155</R>
+        <G>168</G>
+        <B>249</B>
+        <A>244</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.05</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+</THParallaxXML>

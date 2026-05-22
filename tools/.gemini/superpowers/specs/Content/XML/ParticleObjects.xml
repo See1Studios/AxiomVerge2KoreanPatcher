@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParticleObjectSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <THParticleObjectData mName="Steam">
+    <mParticleSpawner>Steam</mParticleSpawner>
+    <mWeapon>Steam</mWeapon>
+    <mPeriodLength>60</mPeriodLength>
+    <mSoundEffect>Steam</mSoundEffect>
+  </THParticleObjectData>
+
+  <THParticleObjectData mName="HydrothermalVent">
+    <mParticleSpawner>HydrothermalBubbles</mParticleSpawner>
+    <mParticleSpawner>HydrothermalDistortion</mParticleSpawner>
+    <mWeapon>Steam</mWeapon>
+    <mPeriodLength>-1</mPeriodLength>
+    <mDamageEndAge>0.15</mDamageEndAge>
+   
+    <mSoundEffect>BubblesLoop</mSoundEffect>
+  </THParticleObjectData>
+  
+</THParticleObjectSettings>

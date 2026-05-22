@@ -1,0 +1,1279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THExplosionSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ///////////////////////////// SPRITE EXPLOSIONS //////////////////////////////-->
+
+
+
+  <!-- ######################################################################## -->
+  <!-- WEAPONS -->
+  <!-- ######################################################################## -->
+
+  <!-- ######################################################################## -->
+  <!-- COPPER DAGGER -->
+  <!-- ######################################################################## -->
+
+  <!--Impact data -->
+  <THSpriteExplosion mName="CopperDaggerProjImpact">
+    <mAnimationName>DataDisruptorImpact1</mAnimationName>
+    <mMaxCount>6</mMaxCount>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.92</Y>
+      <Z>0.76</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>DataDisruptorImpact1</mSoundName>
+    <mRenderLayer>PreFGWater</mRenderLayer>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- BRONZE AXE -->
+  <!-- ######################################################################## -->
+
+  <!--Impact data -->
+  <THSpriteExplosion mName="BronzeAxeProjImpact">
+    <mAnimationName>DataDisruptorImpact1</mAnimationName>
+    <mMaxCount>6</mMaxCount>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.88</Y>
+      <Z>0.85</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>DataDisruptorImpact1</mSoundName>
+    <mRenderLayer>PreFGWater</mRenderLayer>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="BronzeAxeChargeFlash">
+    <mAnimationName>ChargeAttackFlash</mAnimationName>
+    <mMaxCount>3</mMaxCount>
+    <mTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mRenderLayer>PreFGWater</mRenderLayer>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- DRONE DISRUPTOR -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="DroneDisruptorFlash">
+    <mAnimationName>DroneDisruptorFlash</mAnimationName>
+    <mMaxCount>4</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.9</X>
+      <Y>1.0</Y>
+      <Z>0.25</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mSoundName>DroneDisruptor</mSoundName>
+  </THSpriteExplosion>
+
+  <!--Impact data -->
+  <THSpriteExplosion mName="DroneDisruptorImpact">
+    <mAnimationName>DroneDisruptorImpact</mAnimationName>
+    <mMaxCount>5</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mTint>
+      <X>0.9</X>
+      <Y>1.0</Y>
+      <Z>0.25</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>DroneDisruptorImpact</mSoundName>
+  </THSpriteExplosion>
+
+  <!-- Distortion to play on impact -->
+  <THSpriteExplosion mName="DroneDisruptorImpactDistortion1">
+    <mAnimationName>DistortionRound32x32</mAnimationName>
+    <mMaxCount>5</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mFadeInDuration>0.5</mFadeInDuration>
+    <mFadeOutDuration>0.5</mFadeOutDuration>
+    <mStartScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mDistortionScale>0.10</mDistortionScale>
+    <mTimeStretch>16</mTimeStretch>
+    <mRenderLayer>Distortion</mRenderLayer>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- GUD AN-NA -->
+  <!-- ######################################################################## -->
+  <THSpriteExplosion mName="GudAnnaDamagewave">
+    <mAnimationName>AlphaRingThick192x192</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mFadeInDuration>0.1</mFadeInDuration>
+    <mFadeOutDuration>0.25</mFadeOutDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>0.04</X>
+      <Y>0.04</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>2.0</X>
+      <Y>2.0</Y>
+    </mEndScale>
+    <mTimeStretch>15</mTimeStretch>
+    <mRenderLayer>PreFGWater</mRenderLayer>
+  </THSpriteExplosion>
+
+
+  <THSpriteExplosion mName="GudAnnaShockwaveSlow">
+    <mAnimationName>AlphaRing192x192</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mFadeInDuration>0.1</mFadeInDuration>
+    <mFadeOutDuration>0.25</mFadeOutDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+      <W>0.25</W>
+    </mTint>
+    <mStartScale>
+      <X>0.04</X>
+      <Y>0.04</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>3.0</X>
+      <Y>3.0</Y>
+    </mEndScale>
+    <mTimeStretch>90</mTimeStretch>
+    <mRenderLayer>PreFGWater</mRenderLayer>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="GudAnnaShockwaveFast">
+    <mAnimationName>DistortionRing192x192</mAnimationName>
+    <mMaxCount>7</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mFadeInDuration>0.25</mFadeInDuration>
+    <mFadeOutDuration>0.5</mFadeOutDuration>
+    
+    <mStartScale>
+      <X>0.04</X>
+      <Y>0.04</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>3.0</X>
+      <Y>3.0</Y>
+    </mEndScale>
+    <mTimeStretch>45</mTimeStretch>
+    <mDistortionScale>0.25</mDistortionScale>
+    <mRenderLayer>Distortion</mRenderLayer>
+  </THSpriteExplosion>
+
+
+  <THSpriteExplosion mName="GudAnnaCenterDistortion">
+    <mAnimationName>DistortionRing192x192</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mFadeInDuration>0.5</mFadeInDuration>
+    <mFadeOutDuration>0.5</mFadeOutDuration>
+    <mStartScale>
+      <X>0.04</X>
+      <Y>0.04</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>3</X>
+      <Y>3</Y>
+    </mEndScale>
+    <mDistortionScale>0.25</mDistortionScale>
+    <mTimeStretch>15</mTimeStretch>
+    <mRenderLayer>Distortion</mRenderLayer>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="GudAnnaCenterFlash">
+    <mAnimationName>StaticDeath1</mAnimationName>
+    <mCacheDuration>AREA</mCacheDuration>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mMaxCount>1</mMaxCount>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1</X>
+      <Y>1</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1</X>
+      <Y>1</Y>
+    </mEndScale>
+    <mRenderLayer>PreFGWater</mRenderLayer>
+  </THSpriteExplosion>
+ 
+
+  <THSpriteExplosion mName="GudAnnaScreenDarken">
+    <mAnimationName>Black32x32</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mFadeInDuration>0.00</mFadeInDuration>
+    <mFadeOutDuration>0.75</mFadeOutDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>0.5</W>
+    </mTint>
+    <mStartScale>
+      <X>100</X>
+      <Y>100</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>100</X>
+      <Y>100</Y>
+    </mEndScale>
+    <mTimeStretch>90</mTimeStretch>
+  </THSpriteExplosion>
+  
+  <!-- ######################################################################## -->
+  <!-- Double Axe -->
+  <!-- ######################################################################## -->
+  <THSpriteExplosion mName="GroundPoundDamagewave">
+    <mAnimationName>AlphaRingThick192x192</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mCacheDuration>AREA</mCacheDuration>    
+    <mFadeInDuration>0.1</mFadeInDuration>
+    <mFadeOutDuration>0.5</mFadeOutDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.75</W>
+    </mTint>
+    <mStartScale>
+      <X>0.04</X>
+      <Y>0.04</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>0.4</X>
+      <Y>0.4</Y>
+    </mEndScale>
+    <mTimeStretch>15</mTimeStretch>
+    <mRenderLayer>PreFGWater</mRenderLayer>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- HACKING TOOL -->
+  <!-- ######################################################################## -->
+  
+
+  <THSpriteExplosion mName="HackingToolShockWave">
+    <mAnimationName>AlphaRing192x192</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mFadeInDuration>0.1</mFadeInDuration>
+    <mFadeOutDuration>0.25</mFadeOutDuration>
+    <mTint>
+      <X>0.9</X>
+      <Y>0.91</Y>
+      <Z>1.0</Z>
+      <W>0.5</W>
+    </mTint>
+    <mStartScale>
+      <X>0.04</X>
+      <Y>0.04</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>3.0</X>
+      <Y>3.0</Y>
+    </mEndScale>
+    <mTimeStretch>90</mTimeStretch>
+    <mRenderLayer>PreFGWater</mRenderLayer>
+    <mMaxCount>3</mMaxCount>
+  </THSpriteExplosion>
+  
+  <!-- ######################################################################## -->
+  <!-- Ice Axe -->
+  <!-- ######################################################################## -->
+  <THSpriteExplosion mName="SlashHitSmall">
+    <mAnimationName>SlashHitSmall</mAnimationName>
+    <mMaxCount>5</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.6</X>
+      <Y>0.9</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>SlashHit</mSoundName>
+    <mRenderLayer>PreFGWater</mRenderLayer>
+  </THSpriteExplosion>
+  <THSpriteExplosion mName="MetalClang1">
+    <mAnimationName>Ricochet</mAnimationName>
+    <mMaxCount>5</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.6</X>
+      <Y>0.9</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>MetalClang1</mSoundName>
+    <mRenderLayer>PreFGWater</mRenderLayer>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- ROLLING RAZOR -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="RollingRazorSpark">
+    <mAnimationName>RollingRazorSpark</mAnimationName>
+    <mMaxCount>5</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>Ricochet</mSoundName>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+  </THSpriteExplosion>
+
+  <!--Impact data -->
+  <THSpriteExplosion mName="RollingRazorImpact1">
+    <mAnimationName>DataDisruptorImpact1</mAnimationName>
+    <mMaxCount>5</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.25</Y>
+      <Z>0.5</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>NovaImpact</mSoundName>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+  </THSpriteExplosion>
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  <!-- ######################################################################## -->
+  <!-- DATA DISRUPTOR -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="DataDisruptorFlash1">
+    <mAnimationName>MultiDisruptorFlash1</mAnimationName>
+    <mMaxCount>4</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.25</Y>
+      <Z>0.25</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mEndScale>
+    <mSoundName>DataDisruptor1</mSoundName>
+  </THSpriteExplosion>
+
+  <!--Impact data -->
+  <THSpriteExplosion mName="DataDisruptorImpact1">
+    <mAnimationName>DataDisruptorImpact1</mAnimationName>
+    <mMaxCount>5</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.25</Y>
+      <Z>0.25</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>DataDisruptorImpact1</mSoundName>
+  </THSpriteExplosion>
+
+  <!-- Distortion to play on impact -->
+  <THSpriteExplosion mName="DataDisruptorImpactDistortion1">
+    <mAnimationName>DistortionRound32x32</mAnimationName>
+    <mMaxCount>6</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mFadeInDuration>0.5</mFadeInDuration>
+    <mFadeOutDuration>0.5</mFadeOutDuration>
+    <mStartScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mDistortionScale>0.10</mDistortionScale>
+    <mTimeStretch>16</mTimeStretch>
+    <mRenderLayer>Distortion</mRenderLayer>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- DATA GRENADE -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="DataGrenadeFlash">
+    <mAnimationName>MultiDisruptorFlash1</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.15</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>NovaFlash</mSoundName>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="DataGrenadeExplosion">
+    <mAnimationName>StaticDeath1</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.15</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>DataGrenade</mSoundName>
+  </THSpriteExplosion>
+
+  <!-- Distortion to play on impact -->
+  <THSpriteExplosion mName="DataGrenadeDistortion">
+    <mAnimationName>DistortionRound64x64</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mFadeInDuration>0.5</mFadeInDuration>
+    <mFadeOutDuration>0.5</mFadeOutDuration>
+    <mStartScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mDistortionScale>0.35</mDistortionScale>
+    <mTimeStretch>32</mTimeStretch>
+    <mRenderLayer>Distortion</mRenderLayer>
+  </THSpriteExplosion>
+
+
+  <!-- ######################################################################## -->
+  <!-- DRONE -->
+  <!-- ######################################################################## -->
+  <THSpriteExplosion mName="DroneSpriteExplosion">
+    <mAnimationName>StaticDeath1</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="DroneHatchInFlight">
+    <mAnimationName>DroneHatchInFlight</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+  </THSpriteExplosion>
+
+  <!-- Teleport explosion. -->
+  <THSpriteExplosion mName="DroneTeleportOutExplosion">
+    <mAnimationName>StaticDeath1</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.2</Y>
+      <Z>0.2</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.25</X>
+      <Y>1.25</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+  </THSpriteExplosion>
+
+
+  <!-- Teleport explosion. -->
+  <THSpriteExplosion mName="DroneTeleportInExplosion">
+    <mAnimationName>StaticDeath1</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.2</Y>
+      <Z>0.2</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+  </THSpriteExplosion>
+
+  <!-- Teleport out distortion. -->
+  <THSpriteExplosion mName="DroneTeleportOutDistortion">
+    <mAnimationName>DistortionRound64x64</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mFadeInDuration>0.5</mFadeInDuration>
+    <mFadeOutDuration>0.5</mFadeOutDuration>
+    <mStartScale>
+      <X>-1.5</X>
+      <Y>-2.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>-0.75</X>
+      <Y>-1.0</Y>
+    </mEndScale>
+    <mDistortionScale>1.0</mDistortionScale>
+    <mTimeStretch>20</mTimeStretch>
+    <mRenderLayer>Distortion</mRenderLayer>
+  </THSpriteExplosion>
+
+  <!-- Teleport in distortion. -->
+  <THSpriteExplosion mName="DroneTeleportInDistortion">
+    <mAnimationName>DistortionRound64x64</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mFadeInDuration>0.5</mFadeInDuration>
+    <mFadeOutDuration>0.5</mFadeOutDuration>
+    <mStartScale>
+      <X>1.5</X>
+      <Y>2.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>0.75</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mDistortionScale>1.0</mDistortionScale>
+    <mTimeStretch>20</mTimeStretch>
+    <mRenderLayer>Distortion</mRenderLayer>
+  </THSpriteExplosion>
+
+
+  <!-- ######################################################################## -->
+  <!-- FIREWALL -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="FireWallFlash1">
+    <mAnimationName>MultiDisruptorFlash1</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.3</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>Reflector</mSoundName>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- HEATSEEKER -->
+  <!-- ######################################################################## -->
+  <THSpriteExplosion mName="HeatSeekerFlash">
+    <mAnimationName>AlphaImpact1</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.5</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- GLICHBOMB -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="GlitchBombFlash">
+    <mAnimationName>MultiDisruptorFlash1</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mTint>
+      <X>1.0</X>
+      <Y>0.2</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>NovaFlash</mSoundName>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="GlitchBombFilledDiamondExplosionSlow">
+    <mAnimationName>DiamondCAFilled</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mFadeInDuration>0.0</mFadeInDuration>
+    <mFadeOutDuration>0.5</mFadeOutDuration>
+    <mStartScale>
+      <X>16.0</X>
+      <Y>16.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>16.0</X>
+      <Y>16.0</Y>
+    </mEndScale>
+    <mTint>
+      <X>0.85</X>
+      <Y>0.2</Y>
+      <Z>0.65</Z>
+      <W>1.0</W>
+    </mTint>
+
+    <mTimeStretch>3</mTimeStretch>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="GlitchBombFilledDiamondExplosionFast">
+    <mAnimationName>DiamondCAFilled</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mFadeInDuration>0.0</mFadeInDuration>
+    <mFadeOutDuration>0.5</mFadeOutDuration>
+    <mStartScale>
+      <X>8.0</X>
+      <Y>8.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>16.0</X>
+      <Y>16.0</Y>
+    </mEndScale>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.2</Y>
+      <Z>0.4</Z>
+      <W>1.0</W>
+    </mTint>
+
+    <mTimeStretch>1.5</mTimeStretch>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="GlitchBombTiles">
+    <mAnimationName>DistortionTile8x8</mAnimationName>
+    <mCacheDuration>AREA</mCacheDuration>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mMaxCount>120</mMaxCount>
+    <!-- diamond shaped explosion with a radius of 30 tiles at max-->
+    <mFadeInDuration>0.0</mFadeInDuration>
+    <mFadeOutDuration>0.0</mFadeOutDuration>
+    <mStartScale>
+      <X>4.0</X>
+      <Y>4.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>4.0</X>
+      <Y>4.0</Y>
+    </mEndScale>
+    <mDistortionScale>1.0</mDistortionScale>
+    <mTimeStretch>6</mTimeStretch>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="GlitchBombCenterDistortion">
+    <mAnimationName>DistortionRound64x64</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mFadeInDuration>0.5</mFadeInDuration>
+    <mFadeOutDuration>0.5</mFadeOutDuration>
+    <mStartScale>
+      <X>1</X>
+      <Y>1</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>6</X>
+      <Y>6</Y>
+    </mEndScale>
+    <mDistortionScale>0.25</mDistortionScale>
+    <mTimeStretch>15</mTimeStretch>
+    <mRenderLayer>Distortion</mRenderLayer>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="GlitchBombCenterFlash">
+    <mAnimationName>StaticDeath1</mAnimationName>
+    <mCacheDuration>AREA</mCacheDuration>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mMaxCount>1</mMaxCount>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1</X>
+      <Y>1</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>2</X>
+      <Y>2</Y>
+    </mEndScale>
+
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="GlitchBombDiamondShadow">
+    <mAnimationName>DiamondShadow</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mFadeInDuration>0.1</mFadeInDuration>
+    <mFadeOutDuration>0.75</mFadeOutDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>0.5</W>
+    </mTint>
+    <mStartScale>
+      <X>0.25</X>
+      <Y>0.25</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>16</X>
+      <Y>16</Y>
+    </mEndScale>
+    <mTimeStretch>90</mTimeStretch>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="GlitchBombScreenDarken">
+    <mAnimationName>Black32x32</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+    <!-- These use their own shader so initialize on first use, not entire game.-->
+    <mFadeInDuration>0.025</mFadeInDuration>
+    <mFadeOutDuration>0.75</mFadeOutDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>0.5</W>
+    </mTint>
+    <mStartScale>
+      <X>100</X>
+      <Y>100</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>100</X>
+      <Y>100</Y>
+    </mEndScale>
+    <mTimeStretch>90</mTimeStretch>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- GRAPPLE -->
+  <!-- ######################################################################## -->
+  <THSpriteExplosion mName="GrappleRicochet">
+    <mAnimationName>Ricochet</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.8</X>
+      <Y>0.9</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+  </THSpriteExplosion>
+
+
+
+  <!-- ######################################################################## -->
+  <!-- KILVER -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="KilverFlash1">
+    <mAnimationName>KilverFlash1</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.0</X>
+      <Y>1.0</Y>
+      <Z>0.25</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>GenericExplosion1</mSoundName>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- MULTI DISRUPTOR -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="MultiDisruptorFlash1">
+    <mAnimationName>MultiDisruptorFlash1</mAnimationName>
+    <mMaxCount>3</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mEndScale>
+    <mSoundName>DataDisruptor1</mSoundName>
+  </THSpriteExplosion>
+
+
+
+  <!--Impact data -->
+  <THSpriteExplosion mName="MultiDisruptorImpact1">
+    <mAnimationName>DataDisruptorImpact1</mAnimationName>
+    <mMaxCount>3</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>DataDisruptorImpact1</mSoundName>
+  </THSpriteExplosion>
+
+
+  <!-- ######################################################################## -->
+  <!-- NOVA SHARD -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="NovaFlash1">
+    <mAnimationName>MultiDisruptorFlash1</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>NovaFlash</mSoundName>
+  </THSpriteExplosion>
+
+  <!--Impact data -->
+  <THSpriteExplosion mName="NovaImpact1">
+    <mAnimationName>DataDisruptorImpact1</mAnimationName>
+    <mMaxCount>6</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>0.25</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>NovaImpact</mSoundName>
+  </THSpriteExplosion>
+
+
+
+
+  <!-- ######################################################################## -->
+  <!-- Reflect -->
+  <!-- ######################################################################## -->
+  <THSpriteExplosion mName="ReflectFlash1">
+    <mAnimationName>MultiDisruptorFlash1</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.5</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mEndScale>
+    <mSoundName>Reflector</mSoundName>
+  </THSpriteExplosion>
+
+
+
+  <!--Impact data -->
+  <THSpriteExplosion mName="ReflectImpact1">
+    <mAnimationName>Ricochet</mAnimationName>
+    <mMaxCount>5</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.5</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>Ricochet</mSoundName>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- Scythe -->
+  <!-- ######################################################################## -->
+
+  <!--Impact data -->
+  <THSpriteExplosion mName="ScytheImpact">
+    <mAnimationName>DataDisruptorImpact1</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>DataDisruptorImpact1</mSoundName>
+  </THSpriteExplosion>
+
+
+  <!-- ######################################################################## -->
+  <!-- SWIM -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="SwimFlash1">
+    <mAnimationName>MultiDisruptorFlash1</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>0.5</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mEndScale>
+    <mSoundName>SecurityWormFire</mSoundName>
+  </THSpriteExplosion>
+
+  <!--Impact data -->
+  <THSpriteExplosion mName="SwimImpact1">
+    <mAnimationName>DataDisruptorImpact1</mAnimationName>
+    <mMaxCount>5</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>0.5</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>DataDisruptorImpact1</mSoundName>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- TriCone -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="TriConeFlash1">
+    <mAnimationName>DataDisruptorImpact1</mAnimationName>
+    <mMaxCount>4</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.0</X>
+      <Y>1.0</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>0.25</X>
+      <Y>0.25</Y>
+    </mEndScale>
+  </THSpriteExplosion>
+
+  <!--Impact data -->
+  <THSpriteExplosion mName="TriConeImpact1">
+    <mAnimationName>DataDisruptorImpact1</mAnimationName>
+    <mMaxCount>8</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.0</X>
+      <Y>1.0</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>NovaImpact</mSoundName>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- Vertical Spread -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="VerticalSpreadFlash1">
+    <mAnimationName>MultiDisruptorFlash1</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.2</X>
+      <Y>0.2</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mEndScale>
+    <mSoundName>NovaFlash</mSoundName>
+  </THSpriteExplosion>
+
+  <!--Impact data -->
+  <THSpriteExplosion mName="VerticalSpreadImpact1">
+    <mAnimationName>DataDisruptorImpact1</mAnimationName>
+    <mMaxCount>8</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.2</X>
+      <Y>0.2</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>0.25</X>
+      <Y>0.25</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>0.25</X>
+      <Y>0.25</Y>
+    </mEndScale>
+    <mSoundName>DataDisruptorImpact1</mSoundName>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- Voranj -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="VoranjFlash1">
+    <mAnimationName>MultiDisruptorFlash1</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.0</X>
+      <Y>1.0</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mSoundName>LaserWhipDeep</mSoundName>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- WALL TRACE -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="WallTraceFlash1">
+    <mAnimationName>MultiDisruptorFlash1</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>0.5</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>Reflector</mSoundName>
+  </THSpriteExplosion>
+
+  <!--Impact data -->
+  <THSpriteExplosion mName="WallTraceImpact1">
+    <mAnimationName>DataDisruptorImpact1</mAnimationName>
+    <mMaxCount>5</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>0.5</Z>
+      <W>1.0</W>
+    </mTint>
+    <mSoundName>NovaImpact</mSoundName>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+  </THSpriteExplosion>
+
+
+  <THSpriteExplosion mName="WallTraceDeath">
+    <mAnimationName>DataDisruptorImpact1</mAnimationName>
+    <mMaxCount>5</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>1.0</X>
+      <Y>0.5</Y>
+      <Z>0.75</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+  </THSpriteExplosion>
+
+
+  <!-- ######################################################################## -->
+  <!-- WEB SLICER -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="WebSlicerFlash">
+    <mAnimationName>MultiDisruptorFlash1</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.9</X>
+      <Y>1.0</Y>
+      <Z>0.3</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mEndScale>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- TENDRIL WEAPONS -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="TendrilsDefaultImpact">
+    <mAnimationName>TendrilsDefaultImpact</mAnimationName>
+    <mMaxCount>4</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mSoundName>NovaImpact</mSoundName>
+  </THSpriteExplosion>
+
+
+
+
+
+
+
+
+</THExplosionSettings>

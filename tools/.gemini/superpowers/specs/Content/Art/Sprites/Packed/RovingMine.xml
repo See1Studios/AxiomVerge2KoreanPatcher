@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>RovingMine.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="RovingMineTexture">
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\RovingMine\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-7" mWidth="15" mHeight="7" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="15" mHeight="13" mDelay="8" mOriginX="7" mOriginY="13" mU="0" mV="0" mUVWidth="15" mUVHeight="13" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\RovingMine\Output\Idle0000.png" />
+      <THFrameData mWidth="15" mHeight="13" mDelay="8" mOriginX="7" mOriginY="13" mU="0" mV="15" mUVWidth="15" mUVHeight="13" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\RovingMine\Output\Idle0001.png">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-7" mY="-7" mWidth="15" mHeight="7" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="15" mHeight="13" mDelay="8" mOriginX="7" mOriginY="13" mU="17" mV="0" mUVWidth="15" mUVHeight="13" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\RovingMine\Output\Idle0002.png">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-7" mY="-7" mWidth="15" mHeight="7" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="15" mHeight="13" mDelay="8" mOriginX="7" mOriginY="13" mU="17" mV="15" mUVWidth="15" mUVHeight="13" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\RovingMine\Output\Idle0003.png">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-7" mY="-7" mWidth="15" mHeight="7" mRadius="8" mColFlags="1" />
+      </THFrameData>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="CountDown" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\RovingMine\Output\CountDown.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-7" mWidth="15" mHeight="7" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="15" mHeight="13" mDelay="4" mOriginX="7" mOriginY="13" mU="34" mV="0" mUVWidth="15" mUVHeight="13" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\RovingMine\Output\CountDown0000.png" />
+      <THFrameData mWidth="15" mHeight="13" mDelay="4" mOriginX="7" mOriginY="13" mU="34" mV="15" mUVWidth="15" mUVHeight="13" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\RovingMine\Output\CountDown0001.png" />
+      <THFrameData mWidth="15" mHeight="13" mDelay="4" mOriginX="7" mOriginY="13" mU="0" mV="30" mUVWidth="15" mUVHeight="13" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\RovingMine\Output\CountDown0002.png" />
+      <THFrameData mWidth="15" mHeight="13" mDelay="4" mOriginX="7" mOriginY="13" mU="0" mV="45" mUVWidth="15" mUVHeight="13" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\RovingMine\Output\CountDown0003.png" />
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="EyePos">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

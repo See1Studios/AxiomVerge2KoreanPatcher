@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>StriderDrone.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <THColorSchemeData mName="Meta">
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>238</B>
+        <G>230</G>
+        <R>212</R>
+        <A>255</A>
+        <PackedValue>4293846740</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>247</B>
+        <G>203</G>
+        <R>231</R>
+        <A>255</A>
+        <PackedValue>4294429671</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>102</B>
+        <G>96</G>
+        <R>81</R>
+        <A>255</A>
+        <PackedValue>4284899409</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>109</B>
+        <G>74</G>
+        <R>96</R>
+        <A>255</A>
+        <PackedValue>4285352544</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>175</B>
+        <G>166</G>
+        <R>146</R>
+        <A>255</A>
+        <PackedValue>4289701522</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>185</B>
+        <G>136</G>
+        <R>167</R>
+        <A>255</A>
+        <PackedValue>4290349223</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>44</B>
+        <G>44</G>
+        <R>46</R>
+        <A>255</A>
+        <PackedValue>4281084974</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>47</B>
+        <G>42</G>
+        <R>32</R>
+        <A>255</A>
+        <PackedValue>4281281056</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>54</B>
+        <G>23</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4281735167</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>23</B>
+        <G>255</G>
+        <R>208</R>
+        <A>255</A>
+        <PackedValue>4279762896</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="StriderDroneTexture">
+    <THSpriteAnimationData mName="Fall" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\StriderDrone\Output\Fall.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-13" mY="-14" mWidth="26" mHeight="14" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="56" mHeight="49" mDelay="12" mOriginX="28" mOriginY="28" mU="0" mV="0" mUVWidth="56" mUVHeight="49" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Fall0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="7" mY="-2" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="9" mY="-6" mWidth="10" mHeight="12" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="12" mY="-13" mWidth="16" mHeight="11" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="-25" mY="-19" mWidth="21" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-14" mWidth="16" mHeight="15" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="56" mHeight="49" mDelay="12" mOriginX="28" mOriginY="28" mU="58" mV="0" mUVWidth="56" mUVHeight="49" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Fall0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="5" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-4" mY="2" mWidth="6" mHeight="19" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="7" mY="0" mWidth="11" mHeight="16" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="-27" mY="-26" mWidth="25" mHeight="10" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-9" mY="-14" mWidth="16" mHeight="17" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\StriderDrone\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-13" mY="-14" mWidth="26" mHeight="14" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="32" mHeight="17" mDelay="12" mOriginX="16" mOriginY="17" mU="0" mV="114" mUVWidth="32" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Idle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="16" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="17" mDelay="12" mOriginX="16" mOriginY="17" mU="192" mV="92" mUVWidth="32" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Idle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="16" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="17" mDelay="12" mOriginX="16" mOriginY="17" mU="216" mV="65" mUVWidth="32" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Idle0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="16" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="17" mDelay="12" mOriginX="16" mOriginY="17" mU="216" mV="46" mUVWidth="32" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Idle0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="16" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Jump" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\StriderDrone\Output\Jump.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-13" mY="-14" mWidth="26" mHeight="14" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="48" mHeight="44" mDelay="12" mOriginX="21" mOriginY="29" mU="166" mV="46" mUVWidth="48" mUVHeight="44" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Jump0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="6" mY="-16" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-12" mY="-21" mWidth="14" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="6" mY="-18" mWidth="17" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="-18" mWidth="16" mHeight="13" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="48" mHeight="44" mDelay="12" mOriginX="21" mOriginY="29" mU="174" mV="0" mUVWidth="48" mUVHeight="44" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Jump0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="5" mY="-18" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-2" mY="-29" mWidth="12" mHeight="13" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="8" mY="-26" mWidth="15" mHeight="8" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="-20" mWidth="15" mHeight="14" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="48" mHeight="44" mDelay="12" mOriginX="21" mOriginY="29" mU="116" mV="42" mUVWidth="48" mUVHeight="44" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Jump0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="7" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="3" mY="-17" mWidth="15" mHeight="15" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="10" mY="-19" mWidth="17" mHeight="8" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="-21" mY="-12" mWidth="15" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-15" mWidth="17" mHeight="12" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Land" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\StriderDrone\Output\Land.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-13" mY="-14" mWidth="26" mHeight="14" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="36" mHeight="32" mDelay="12" mOriginX="20" mOriginY="32" mU="116" mV="88" mUVWidth="36" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Land0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="6" mY="-13" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-8" mY="-18" mWidth="6" mHeight="18" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="7" mY="-19" mWidth="9" mHeight="19" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="-20" mY="-32" mWidth="30" mHeight="9" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-24" mWidth="13" mHeight="15" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="36" mHeight="32" mDelay="12" mOriginX="20" mOriginY="32" mU="154" mV="92" mUVWidth="36" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Land0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-7" mY="-14" mWidth="8" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="5" mY="-14" mWidth="11" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox2" mType="RECTANGLE" mX="-16" mY="-14" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="16" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ToJump" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\StriderDrone\Output\ToJump.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-13" mY="-14" mWidth="26" mHeight="14" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="32" mHeight="15" mDelay="4" mOriginX="16" mOriginY="15" mU="0" mV="133" mUVWidth="32" mUVHeight="15" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\ToJump0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="7" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="-12" mWidth="16" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="15" mDelay="4" mOriginX="16" mOriginY="15" mU="34" mV="114" mUVWidth="32" mUVHeight="15" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\ToJump0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="7" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="16" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Walk" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\StriderDrone\Output\Walk.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-13" mY="-14" mWidth="26" mHeight="14" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="56" mHeight="19" mDelay="6" mOriginX="28" mOriginY="19" mU="58" mV="93" mUVWidth="56" mUVHeight="19" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Walk0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="16" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="56" mHeight="19" mDelay="6" mOriginX="28" mOriginY="19" mU="58" mV="72" mUVWidth="56" mUVHeight="19" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Walk0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="16" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="56" mHeight="19" mDelay="6" mOriginX="28" mOriginY="19" mU="58" mV="51" mUVWidth="56" mUVHeight="19" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Walk0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="16" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="56" mHeight="19" mDelay="6" mOriginX="28" mOriginY="19" mU="0" mV="93" mUVWidth="56" mUVHeight="19" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Walk0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="16" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="56" mHeight="19" mDelay="6" mOriginX="28" mOriginY="19" mU="0" mV="72" mUVWidth="56" mUVHeight="19" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Walk0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="16" mHeight="11" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="56" mHeight="19" mDelay="6" mOriginX="28" mOriginY="19" mU="0" mV="51" mUVWidth="56" mUVHeight="19" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Walk0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="16" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="56" mHeight="19" mDelay="6" mOriginX="28" mOriginY="19" mU="116" mV="0" mUVWidth="56" mUVHeight="19" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Walk0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="16" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="56" mHeight="19" mDelay="6" mOriginX="28" mOriginY="19" mU="116" mV="21" mUVWidth="56" mUVHeight="19" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\StriderDrone\Output\Walk0007.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="8" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="16" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="EyePos">
+      <mColor>
+        <B>255</B>
+        <G>255</G>
+        <R>0</R>
+        <A>255</A>
+        <PackedValue>4294967040</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

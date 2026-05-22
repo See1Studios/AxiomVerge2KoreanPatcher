@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParallaxXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- #################################################################### -->
+  <!-- "Beach" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="Beach">
+
+
+    <!-- Bottom Clouds -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/FGWhiteClouds1</mTextureName>
+      <mVelocity>
+        <X>0.125</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.9</X>
+        <Y>0.9</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-16</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/FGWhiteClouds2</mTextureName>
+      <mVelocity>
+        <X>0.125</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.8</X>
+        <Y>0.8</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-80</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+   
+
+
+    <!--Top Clouds -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Clouds1</mTextureName>
+      <mVelocity>
+        <X>0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.9</X>
+        <Y>0.9</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-208</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Clouds2</mTextureName>
+      <mVelocity>
+        <X>0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.8</X>
+        <Y>0.8</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-224</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Clouds3</mTextureName>
+      <mVelocity>
+        <X>0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.7</X>
+        <Y>0.7</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-240</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Clouds4</mTextureName>
+      <mVelocity>
+        <X>0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.6</X>
+        <Y>0.6</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-248</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <!-- Mountains -->
+<!--
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Mountains1</mTextureName>
+      <mParallax>
+        <X>0.3</X>
+        <Y>0.3</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>64</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+-->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Mountains2</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-32</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+
+    <!-- Continent Clouds -->
+    <THParallaxData>
+      <mType>TUBE</mType>
+      <!--
+      <mTextureName>Art/Backgrounds/Beach/Grid</mTextureName>
+      -->
+
+      <mTextureName>Art/Backgrounds/HighDesert/ContinentalClouds</mTextureName>
+
+      <mTechnique>TubeTechnique</mTechnique>
+      <mVelocity>
+        <X>0.125</X>
+        <Y>0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.15</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mColorMultiply>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <!--
+        <A>208</A>-->
+      </mColorMultiply>
+      <mFogColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>0</A>
+      </mFogColor>
+
+      <mGradientData>
+        <mStartColor>
+          <R>176</R>
+          <G>222</G>
+          <B>235</B>
+          <A>0</A>
+        </mStartColor>
+        <mEndColor>
+          <R>176</R>
+          <G>222</G>
+          <B>235</B>
+          <A>0</A>
+        </mEndColor>
+        <mStartY>32</mStartY>
+        <mEndY>320</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+    </THParallaxData>
+
+    <!-- Continent -->
+    <THParallaxData>
+      <mType>TUBE</mType>
+      <!--
+      <mTextureName>Art/Backgrounds/Beach/Grid</mTextureName>
+      -->
+
+      <mTextureName>Art/Backgrounds/Taiga/ContinentalSky</mTextureName>
+
+      <mTechnique>TubeTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.125</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mFogColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>85</A>
+      </mFogColor>
+
+      <mGradientData>
+        <mStartColor>
+          <R>78</R>
+          <G>156</G>
+          <B>222</B>
+          <A>64</A>
+        </mStartColor>
+        <mEndColor>
+          <R>187</R>
+          <G>219</G>
+          <B>232</B>
+          <A>64</A>
+        </mEndColor>
+        <mStartY>400</mStartY>
+        <mEndY>480</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+    </THParallaxData>
+
+
+
+
+  </THParallaxSetData>
+  
+  
+  
+  <!-- #################################################################### -->
+  <!-- "CitySuburbs" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="CitySuburbs">
+
+    <!-- Suburbs1 -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Suburbs1</mTextureName>
+      <mParallax>
+        <X>0.75</X>
+        <Y>0.75</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-48</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+<!--
+   
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Suburbs2</mTextureName>
+      <mParallax>
+        <X>0.625</X>
+        <Y>0.625</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-64</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+-->
+
+    <!-- Canyon -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Canyon</mTextureName>
+      <mParallax>
+        <X>0.6</X>
+        <Y>0.6</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-64</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+
+    <!-- Continent Clouds -->
+    <THParallaxData>
+      <mType>TUBE</mType>
+      <!--
+      <mTextureName>Art/Backgrounds/Beach/Grid</mTextureName>
+      -->
+
+      <mTextureName>Art/Backgrounds/HighDesert/ContinentalClouds</mTextureName>
+
+      <mTechnique>TubeTechnique</mTechnique>
+      <mVelocity>
+        <X>0.125</X>
+        <Y>0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.15</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mColorMultiply>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <!--
+        <A>208</A>-->
+      </mColorMultiply>
+      <mFogColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>0</A>
+      </mFogColor>
+
+      <mGradientData>
+        <mStartColor>
+          <R>176</R>
+          <G>222</G>
+          <B>235</B>
+          <A>0</A>
+        </mStartColor>
+        <mEndColor>
+          <R>176</R>
+          <G>222</G>
+          <B>235</B>
+          <A>0</A>
+        </mEndColor>
+        <mStartY>32</mStartY>
+        <mEndY>320</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+    </THParallaxData>
+
+    <!-- Continent -->
+    <THParallaxData>
+      <mType>TUBE</mType>
+      <!--
+      <mTextureName>Art/Backgrounds/Beach/Grid</mTextureName>
+      -->
+      
+      <mTextureName>Art/Backgrounds/Taiga/ContinentalSky</mTextureName>
+      
+      <mTechnique>TubeTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.125</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mFogColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>85</A>
+      </mFogColor>
+
+      <mGradientData>
+        <mStartColor>
+          <R>176</R>
+          <G>222</G>
+          <B>235</B>
+          <A>0</A>
+        </mStartColor>
+        <mEndColor>
+          <R>176</R>
+          <G>222</G>
+          <B>235</B>
+          <A>0</A>
+        </mEndColor>
+        <mStartY>32</mStartY>
+        <mEndY>320</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+    </THParallaxData>
+  </THParallaxSetData>
+
+
+
+
+  <!-- #################################################################### -->
+  <!-- "DownTown" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="DownTown">
+
+    <!-- Suburbs1 -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Suburbs1</mTextureName>
+      <mParallax>
+        <X>0.75</X>
+        <Y>0.75</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-48</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+    
+   
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Suburbs2</mTextureName>
+      <mParallax>
+        <X>0.625</X>
+        <Y>0.625</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-64</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/City1</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-160</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/City2</mTextureName>
+      <mParallax>
+        <X>0.4</X>
+        <Y>0.4</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-192</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+
+    <!-- Continent Clouds -->
+    <THParallaxData>
+      <mType>TUBE</mType>
+      <!--
+      <mTextureName>Art/Backgrounds/Beach/Grid</mTextureName>
+      -->
+
+      <mTextureName>Art/Backgrounds/HighDesert/ContinentalClouds</mTextureName>
+
+      <mTechnique>TubeTechnique</mTechnique>
+      <mVelocity>
+        <X>0.125</X>
+        <Y>0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.15</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <!-- Remove distortion due to stretching so it scrolls more smoothly-->
+      <mTubeStretchAmount>1.0</mTubeStretchAmount>
+      <mColorMultiply>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <!--
+        <A>208</A>-->
+      </mColorMultiply>
+      <mFogColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>127</A>
+      </mFogColor>
+
+      <mGradientData>
+        <mStartColor>
+          <R>176</R>
+          <G>222</G>
+          <B>235</B>
+          <A>0</A>
+        </mStartColor>
+        <mEndColor>
+          <R>176</R>
+          <G>222</G>
+          <B>235</B>
+          <A>0</A>
+        </mEndColor>
+        <mStartY>32</mStartY>
+        <mEndY>320</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+    </THParallaxData>
+
+    <!-- Continent -->
+    <THParallaxData>
+      <mType>TUBE</mType>
+      <!--
+      <mTextureName>Art/Backgrounds/Beach/Grid</mTextureName>
+      -->
+
+      <mTextureName>Art/Backgrounds/Taiga/ContinentalSky</mTextureName>
+
+      <mTechnique>TubeTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.125</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mFogColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>127</A>
+      </mFogColor>
+
+      <mGradientData>
+        <mStartColor>
+          <R>176</R>
+          <G>222</G>
+          <B>235</B>
+          <A>0</A>
+        </mStartColor>
+        <mEndColor>
+          <R>176</R>
+          <G>222</G>
+          <B>235</B>
+          <A>0</A>
+        </mEndColor>
+        <mStartY>32</mStartY>
+        <mEndY>320</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+    </THParallaxData>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- "Foundation" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="Foundation">
+
+    <!-- Arches -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Foundation1</mTextureName>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.75</X>
+        <Y>0.75</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-56</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+    </THParallaxData>
+ 
+    <!-- More arches -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Foundation2</mTextureName>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-96</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+    </THParallaxData>
+
+
+    <!-- Bricks -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Foundation3</mTextureName>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.25</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+    </THParallaxData>
+
+  </THParallaxSetData>
+
+</THParallaxXML>

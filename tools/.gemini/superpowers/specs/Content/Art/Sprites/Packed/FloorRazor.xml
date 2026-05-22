@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>FloorRazor.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="FloorRazorTexture">
+    <THSpriteAnimationData mName="Emerge" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\FloorRazor\Output\Emerge.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-6" mWidth="8" mHeight="10" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="11" mDelay="6" mOriginX="8" mOriginY="6" mU="0" mV="0" mUVWidth="16" mUVHeight="11" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FloorRazor\Output\Emerge0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="11" mDelay="6" mOriginX="8" mOriginY="6" mU="0" mV="13" mUVWidth="16" mUVHeight="11" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FloorRazor\Output\Emerge0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="11" mDelay="6" mOriginX="8" mOriginY="6" mU="18" mV="0" mUVWidth="16" mUVHeight="11" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FloorRazor\Output\Emerge0002.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\FloorRazor\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-6" mWidth="8" mHeight="10" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="8" mHeight="10" mDelay="6" mOriginX="4" mOriginY="6" mU="54" mV="0" mUVWidth="8" mUVHeight="10" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FloorRazor\Output\Idle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Spin" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\FloorRazor\Output\Spin.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-8" mY="-3" mWidth="16" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="9" mDelay="4" mOriginX="8" mOriginY="4" mU="18" mV="13" mUVWidth="16" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FloorRazor\Output\Spin0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="9" mDelay="4" mOriginX="8" mOriginY="4" mU="36" mV="0" mUVWidth="16" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FloorRazor\Output\Spin0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="9" mDelay="4" mOriginX="8" mOriginY="4" mU="36" mV="11" mUVWidth="16" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FloorRazor\Output\Spin0002.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

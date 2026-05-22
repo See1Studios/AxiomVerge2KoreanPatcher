@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>JungleGoop.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="JungleGoopTexture">
+    <THSpriteAnimationData mName="SmallGoop" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\JungleGoop\Output\SmallGoop.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-2" mY="-4" mWidth="4" mHeight="4" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="6" mHeight="5" mDelay="12" mOriginX="3" mOriginY="5" mU="117" mV="0" mUVWidth="6" mUVHeight="5" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\SmallGoop0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-2" mY="-4" mWidth="4" mHeight="4" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-4" mWidth="4" mHeight="4" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="6" mHeight="5" mDelay="12" mOriginX="3" mOriginY="5" mU="20" mV="94" mUVWidth="6" mUVHeight="5" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\SmallGoop0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-3" mY="-3" mWidth="6" mHeight="3" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-3" mY="-4" mWidth="6" mHeight="4" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="6" mHeight="5" mDelay="12" mOriginX="3" mOriginY="5" mU="10" mV="103" mUVWidth="6" mUVHeight="5" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\SmallGoop0002.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-2" mY="-4" mWidth="4" mHeight="4" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-4" mWidth="4" mHeight="4" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="6" mHeight="5" mDelay="12" mOriginX="3" mOriginY="5" mU="0" mV="112" mUVWidth="6" mUVHeight="5" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\SmallGoop0003.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-2" mY="-5" mWidth="4" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-5" mWidth="4" mHeight="5" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Strand" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\JungleGoop\Output\Strand.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-1" mY="-30" mWidth="2" mHeight="28" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="2" mHeight="32" mDelay="62" mOriginX="1" mOriginY="32" mU="65" mV="56" mUVWidth="2" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\Strand0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StrandCap" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\JungleGoop\Output\StrandCap.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="2" mHeight="2" mDelay="62" mOriginX="0" mOriginY="0" mU="0" mV="119" mUVWidth="2" mUVHeight="2" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\StrandCap0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Stretch" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\JungleGoop\Output\Stretch.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-3" mY="-6" mWidth="6" mHeight="6" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="11" mHeight="45" mDelay="6" mOriginX="7" mOriginY="45" mU="39" mV="47" mUVWidth="11" mUVHeight="45" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\Stretch0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-6" mY="-6" mWidth="9" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="-6" mWidth="9" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="45" mDelay="6" mOriginX="7" mOriginY="45" mU="26" mV="47" mUVWidth="11" mUVHeight="45" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\Stretch0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-7" mY="-4" mWidth="11" mHeight="4" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-6" mWidth="11" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="45" mDelay="6" mOriginX="7" mOriginY="45" mU="13" mV="47" mUVWidth="11" mUVHeight="45" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\Stretch0002.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-6" mY="-6" mWidth="9" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="-6" mWidth="9" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="45" mDelay="6" mOriginX="7" mOriginY="45" mU="52" mV="47" mUVWidth="11" mUVHeight="45" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\Stretch0003.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-5" mY="-7" mWidth="8" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-7" mWidth="8" mHeight="7" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="45" mDelay="6" mOriginX="7" mOriginY="45" mU="104" mV="0" mUVWidth="11" mUVHeight="45" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\Stretch0004.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-4" mY="-10" mWidth="6" mHeight="10" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-10" mWidth="6" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="45" mDelay="6" mOriginX="7" mOriginY="45" mU="0" mV="0" mUVWidth="11" mUVHeight="45" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\Stretch0005.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-2" mY="-25" mWidth="4" mHeight="25" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-3" mY="-25" mWidth="5" mHeight="25" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="45" mDelay="6" mOriginX="7" mOriginY="45" mU="78" mV="0" mUVWidth="11" mUVHeight="45" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\Stretch0006.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-1" mY="-43" mWidth="2" mHeight="43" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-43" mWidth="4" mHeight="43" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="LargeGoop" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\JungleGoop\Output\LargeGoop.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-3" mY="-6" mWidth="6" mHeight="6" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="8" mHeight="7" mDelay="12" mOriginX="4" mOriginY="7" mU="0" mV="94" mUVWidth="8" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\LargeGoop0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-3" mY="-6" mWidth="6" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-3" mY="-6" mWidth="6" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="7" mDelay="12" mOriginX="4" mOriginY="7" mU="0" mV="103" mUVWidth="8" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\LargeGoop0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-4" mY="-5" mWidth="8" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-6" mWidth="8" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="7" mDelay="12" mOriginX="4" mOriginY="7" mU="10" mV="94" mUVWidth="8" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\LargeGoop0002.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-3" mY="-6" mWidth="6" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-3" mY="-6" mWidth="6" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="7" mDelay="12" mOriginX="4" mOriginY="7" mU="65" mV="47" mUVWidth="8" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\LargeGoop0003.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-3" mY="-7" mWidth="6" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-3" mY="-7" mWidth="6" mHeight="7" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Compress" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\JungleGoop\Output\Compress.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-3" mY="-6" mWidth="6" mHeight="6" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="11" mHeight="45" mDelay="6" mOriginX="7" mOriginY="45" mU="65" mV="0" mUVWidth="11" mUVHeight="45" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\Compress0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-1" mY="-43" mWidth="2" mHeight="43" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-43" mWidth="4" mHeight="43" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="45" mDelay="6" mOriginX="7" mOriginY="45" mU="52" mV="0" mUVWidth="11" mUVHeight="45" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\Compress0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-2" mY="-25" mWidth="4" mHeight="25" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-3" mY="-25" mWidth="5" mHeight="25" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="45" mDelay="6" mOriginX="7" mOriginY="45" mU="39" mV="0" mUVWidth="11" mUVHeight="45" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\Compress0002.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-4" mY="-10" mWidth="6" mHeight="10" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-10" mWidth="6" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="45" mDelay="6" mOriginX="7" mOriginY="45" mU="26" mV="0" mUVWidth="11" mUVHeight="45" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\Compress0003.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-5" mY="-7" mWidth="8" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-7" mWidth="8" mHeight="7" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="45" mDelay="6" mOriginX="7" mOriginY="45" mU="13" mV="0" mUVWidth="11" mUVHeight="45" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\Compress0004.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-6" mY="-6" mWidth="9" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="-6" mWidth="9" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="45" mDelay="6" mOriginX="7" mOriginY="45" mU="91" mV="0" mUVWidth="11" mUVHeight="45" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\Compress0005.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-7" mY="-4" mWidth="11" mHeight="4" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-6" mWidth="11" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="45" mDelay="6" mOriginX="7" mOriginY="45" mU="0" mV="47" mUVWidth="11" mUVHeight="45" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\JungleGoop\Output\Compress0006.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-6" mY="-6" mWidth="9" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="-6" mWidth="9" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

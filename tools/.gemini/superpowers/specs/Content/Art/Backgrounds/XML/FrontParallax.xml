@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParallaxXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+  <!-- #################################################################### -->
+  <!-- Ending dust clouds -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="EndingDustClouds">
+    <!-- FG Clouds -->
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mTextureName>Art/Backgrounds/Oasis/FGClouds</mTextureName>
+      <mParallax>
+        <X>1.1</X>
+        <Y>1.1</Y>
+      </mParallax>
+      <mVelocity>
+        <X>-0.125</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mOffset>
+        <X>0</X>
+        <Y>-24</Y>
+      </mOffset>
+      <mColorMultiply>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>120</A>
+      </mColorMultiply>
+    </THParallaxData>
+
+    <!-- FG Clouds -->
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mTextureName>Art/Backgrounds/Oasis/FGClouds</mTextureName>
+      <mParallax>
+        <X>1.1</X>
+        <Y>1.1</Y>
+      </mParallax>
+      <mVelocity>
+        <X>-0.0625</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mOffset>
+        <X>64</X>
+        <Y>200</Y>
+      </mOffset>
+      <mColorMultiply>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>80</A>
+      </mColorMultiply>
+    </THParallaxData>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- LamassuFGClouds -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="LamassuFGClouds">
+
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mTextureName>Art/Backgrounds/HighDesert/FGRedClouds1</mTextureName>
+      <mVelocity>
+        <X>-0.75</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>1.3</X>
+        <Y>1.0</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <!-- Because the FrontParallax bounds are global, this is determined by finding the world cooridnate in the map editor-->
+        <Y>4984</Y>
+      </mOffset>
+      <mAnchor>TopLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mTextureName>Art/Backgrounds/HighDesert/FGRedClouds1</mTextureName>
+      <mVelocity>
+        <X>-0.625</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>1.2</X>
+        <Y>1.0</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <!-- Because the FrontParallax bounds are global, this is determined by finding the world cooridnate in the map editor-->
+        <Y>4920</Y>
+      </mOffset>
+      <mAnchor>TopLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mTextureName>Art/Backgrounds/HighDesert/FGRedClouds1</mTextureName>
+      <mVelocity>
+        <X>-0.5</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>1.1</X>
+        <Y>1.0</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <!-- Because the FrontParallax bounds are global, this is determined by finding the world cooridnate in the map editor-->
+        <Y>4856</Y>        
+      </mOffset>
+      <mAnchor>TopLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <!-- FG Clouds -->
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mTextureName>Art/Backgrounds/HighDesert/FGRedClouds1</mTextureName>
+      <mVelocity>
+        <X>-0.375</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>1.0</X>
+        <Y>1.0</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <!-- Because the FrontParallax bounds are global, this is determined by finding the world cooridnate in the map editor-->
+        <Y>4792</Y>
+      </mOffset>
+      <mAnchor>TopLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+  </THParallaxSetData>
+
+
+
+  <!-- #################################################################### -->
+  <!-- OasisFogWhisps -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="OasisFogWisps">
+
+    <!-- Rain particles -->
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mType>PARTICLE</mType>
+      <mVelocity>
+        <X>0</X>
+        <Y>0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>1.2</X>
+        <Y>1.2</Y>
+      </mParallax>
+      <mWrap>true</mWrap>
+      <mParticleData>
+        <mSpawnerName>Rain</mSpawnerName>
+        <mBoundsType>CAMERA_BOUNDS</mBoundsType>
+      </mParticleData>
+    </THParallaxData>    
+    
+    <!-- FG Clouds -->
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mTextureName>Art/Backgrounds/Oasis/FGClouds</mTextureName>
+      <mParallax>
+        <X>1.1</X>
+        <Y>1.1</Y>
+      </mParallax>
+      <mVelocity>
+        <X>-0.125</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mColorMultiply>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>120</A>
+      </mColorMultiply>
+    </THParallaxData>
+
+    <!-- FG Clouds -->
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mTextureName>Art/Backgrounds/Oasis/FGClouds</mTextureName>
+      <mParallax>
+        <X>1.1</X>
+        <Y>1.1</Y>
+      </mParallax>
+      <mVelocity>
+        <X>-0.0625</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mOffset>
+        <X>64</X>
+        <Y>224</Y>
+      </mOffset>
+      <mColorMultiply>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>80</A>
+      </mColorMultiply>
+    </THParallaxData>
+  </THParallaxSetData>
+
+
+  <!-- #################################################################### -->
+  <!-- LakePurpleFogBreach -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="LakePurpleFogBreach">
+
+    <!-- Fog Texture -->
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mTextureName>Art/Backgrounds/GlacialLakeBreach/PurpleFog</mTextureName>
+      <mParallax>
+        <X>0</X>
+        <Y>0</Y>
+      </mParallax>
+      <mColorMultiply>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>192</A>
+      </mColorMultiply>
+    </THParallaxData>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- LakeGreyFogBreach -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="LakeGreyFogBreach">
+
+    <!-- Fog Texture -->
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mTextureName>Art/Backgrounds/GlacialLakeBreach/GreyFog</mTextureName>
+      <mParallax>
+        <X>0</X>
+        <Y>0</Y>
+      </mParallax>
+      <mColorMultiply>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </mColorMultiply>
+    </THParallaxData>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- PostarcticBlackFogBreach -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="PostarcticBlackFogBreach">
+
+    <!-- Fog Texture -->
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mTextureName>Art/Backgrounds/PostarcticaBreach/BlackFog</mTextureName>
+      <mParallax>
+        <X>0</X>
+        <Y>0</Y>
+      </mParallax>
+      <mColorMultiply>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </mColorMultiply>
+    </THParallaxData>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- PostarcticCyanFogBreach -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="PostarcticCyanFogBreach">
+
+    <!-- Fog Texture -->
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mTextureName>Art/Backgrounds/PostarcticaBreach/CyanFog</mTextureName>
+      <mParallax>
+        <X>0</X>
+        <Y>0</Y>
+      </mParallax>
+      <mColorMultiply>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </mColorMultiply>
+    </THParallaxData>
+
+    <!-- Snow particles -->
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mType>PARTICLE</mType>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>1.0</X>
+        <Y>1.0</Y>
+      </mParallax>
+      <mWrap>true</mWrap>
+      <mParticleData>
+        <mSpawnerName>BreachSnow</mSpawnerName>
+        <mBoundsType>CAMERA_BOUNDS</mBoundsType>
+      </mParticleData>
+    </THParallaxData>
+    
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- PostarcticLightCyanFogBreach -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="PostarcticLightCyanFogBreach">
+
+    <!-- Fog Texture -->
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mTextureName>Art/Backgrounds/PostarcticaBreach/LightCyanFog</mTextureName>
+      <mParallax>
+        <X>0</X>
+        <Y>0</Y>
+      </mParallax>
+      <mColorMultiply>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </mColorMultiply>
+    </THParallaxData>
+
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- PostarcticThickerBlackFogBreach -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="PostarcticThickerBlackFogBreach">
+
+    <!-- Fog Texture -->
+    <THParallaxData>
+      <mRenderLayer>FrontParallax</mRenderLayer>
+      <mTextureName>Art/Backgrounds/PostarcticaBreach/ThickerBlackFog</mTextureName>
+      <mParallax>
+        <X>0</X>
+        <Y>0</Y>
+      </mParallax>
+      <mColorMultiply>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </mColorMultiply>
+    </THParallaxData>
+  </THParallaxSetData>
+
+</THParallaxXML>

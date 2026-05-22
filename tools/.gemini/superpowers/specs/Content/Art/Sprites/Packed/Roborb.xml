@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>Roborb.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="RoborbTexture">
+    <THSpriteAnimationData mName="Deploy" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Roborb\Output\Deploy.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="32" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="64" mHeight="76" mDelay="8" mOriginX="32" mOriginY="38" mU="456" mV="0" mUVWidth="64" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Deploy0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-1" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="64" mHeight="76" mDelay="8" mOriginX="32" mOriginY="38" mU="384" mV="414" mUVWidth="64" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Deploy0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-1" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="64" mHeight="76" mDelay="12" mOriginX="32" mOriginY="38" mU="384" mV="336" mUVWidth="64" mUVHeight="76" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Deploy0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-1" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Fire" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Roborb\Output\Fire.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="32" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="112" mHeight="84" mDelay="3" mOriginX="56" mOriginY="42" mU="114" mV="344" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="20" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="112" mHeight="84" mDelay="3" mOriginX="56" mOriginY="42" mU="228" mV="172" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="19" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="112" mHeight="84" mDelay="3" mOriginX="56" mOriginY="42" mU="114" mV="258" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="21" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="112" mHeight="84" mDelay="3" mOriginX="56" mOriginY="42" mU="0" mV="344" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="20" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="112" mHeight="84" mDelay="3" mOriginX="56" mOriginY="42" mU="114" mV="172" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="19" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="112" mHeight="84" mDelay="3" mOriginX="56" mOriginY="42" mU="228" mV="258" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="20" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="112" mHeight="84" mDelay="3" mOriginX="56" mOriginY="42" mU="0" mV="172" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="20" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="112" mHeight="84" mDelay="3" mOriginX="56" mOriginY="42" mU="342" mV="86" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0007.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="20" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="112" mHeight="84" mDelay="3" mOriginX="56" mOriginY="42" mU="342" mV="0" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0008.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="19" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="112" mHeight="84" mDelay="3" mOriginX="56" mOriginY="42" mU="0" mV="258" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0009.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="20" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="112" mHeight="84" mDelay="3" mOriginX="56" mOriginY="42" mU="228" mV="86" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0010.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="20" mY="1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="112" mHeight="84" mDelay="3" mOriginX="56" mOriginY="42" mU="228" mV="0" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0011.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="20" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="112" mHeight="84" mDelay="3" mOriginX="56" mOriginY="42" mU="114" mV="86" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0012.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="19" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="112" mHeight="84" mDelay="16" mOriginX="56" mOriginY="42" mU="0" mV="0" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0013.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="20" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="112" mHeight="84" mDelay="1" mOriginX="56" mOriginY="42" mU="0" mV="86" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0014.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="20" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="112" mHeight="84" mDelay="3" mOriginX="56" mOriginY="42" mU="114" mV="0" mUVWidth="112" mUVHeight="84" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Fire0015.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="20" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="SecondaryLaserTurn" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Roborb\Output\SecondaryLaserTurn.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-6" mWidth="11" mHeight="13" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="15" mHeight="15" mDelay="12" mOriginX="7" mOriginY="7" mU="456" mV="78" mUVWidth="15" mUVHeight="15" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\SecondaryLaserTurn0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="1" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="15" mHeight="15" mDelay="12" mOriginX="7" mOriginY="7" mU="522" mV="0" mUVWidth="15" mUVHeight="15" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\SecondaryLaserTurn0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="15" mHeight="15" mDelay="12" mOriginX="7" mOriginY="7" mU="522" mV="17" mUVWidth="15" mUVHeight="15" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\SecondaryLaserTurn0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-1" mY="0" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Shield" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Roborb\Output\Shield.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="40" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="80" mHeight="80" mDelay="10" mOriginX="40" mOriginY="40" mU="342" mV="254" mUVWidth="80" mUVHeight="80" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Shield0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="80" mHeight="80" mDelay="10" mOriginX="40" mOriginY="40" mU="342" mV="172" mUVWidth="80" mUVHeight="80" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Shield0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="80" mHeight="80" mDelay="10" mOriginX="40" mOriginY="40" mU="424" mV="172" mUVWidth="80" mUVHeight="80" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Shield0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="80" mHeight="80" mDelay="10" mOriginX="40" mOriginY="40" mU="228" mV="344" mUVWidth="80" mUVHeight="80" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Shield0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Turn" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Roborb\Output\Turn.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="32" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="72" mHeight="64" mDelay="8" mOriginX="36" mOriginY="32" mU="310" mV="344" mUVWidth="72" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Turn0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="20" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SubLaser" mX="-11" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="72" mHeight="64" mDelay="8" mOriginX="36" mOriginY="32" mU="222" mV="430" mUVWidth="72" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Turn0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="14" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SubLaser" mX="-11" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="72" mHeight="64" mDelay="8" mOriginX="36" mOriginY="32" mU="0" mV="430" mUVWidth="72" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Turn0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="11" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SubLaser" mX="-11" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="72" mHeight="64" mDelay="8" mOriginX="36" mOriginY="32" mU="74" mV="430" mUVWidth="72" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Turn0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SubLaser" mX="-11" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="72" mHeight="64" mDelay="8" mOriginX="36" mOriginY="32" mU="148" mV="430" mUVWidth="72" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Turn0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-11" mY="0" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SubLaser" mX="-11" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="72" mHeight="64" mDelay="8" mOriginX="36" mOriginY="32" mU="310" mV="410" mUVWidth="72" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Turn0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-15" mY="-1" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SubLaser" mX="-11" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="72" mHeight="64" mDelay="8" mOriginX="36" mOriginY="32" mU="424" mV="254" mUVWidth="72" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Roborb\Output\Turn0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-21" mY="-1" mAngle="3.14159274" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SubLaser" mX="-11" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="SubLaser">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

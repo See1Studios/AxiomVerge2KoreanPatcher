@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParallaxXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- #################################################################### -->
+  <!-- "PinkGradient" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="CavernsPinkGradientBreach">
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mGradientStartColor>
+        <R>40</R>
+        <G>17</G>
+        <B>42</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>190</R>
+        <G>66</G>
+        <B>141</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>180</mGradientStartY>
+      <mGradientEndY>360</mGradientEndY>
+      <mReflected>true</mReflected>
+
+      <VignetteColor>
+        <R>78</R>
+        <G>40</G>
+        <B>137</B>
+        <A>167</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+
+  <!-- #################################################################### -->
+  <!-- "PurpleCaverns" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="PurpleCavernsBreach">
+
+    <!-- Cavern wall-->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/CavernsBreach/PurpleCaverns</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+    </THParallaxData>
+    
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mGradientStartColor>
+        <R>40</R>
+        <G>17</G>
+        <B>42</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>190</R>
+        <G>66</G>
+        <B>141</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>180</mGradientStartY>
+      <mGradientEndY>360</mGradientEndY>
+      <mReflected>true</mReflected>
+
+      <VignetteColor>
+        <R>78</R>
+        <G>40</G>
+        <B>137</B>
+        <A>167</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- "VioletCaverns" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="VioletCavernsBreach">
+
+    <!-- Cavern wall-->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/CavernsBreach/VioletCaverns</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+    </THParallaxData>
+
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mGradientStartColor>
+        <R>40</R>
+        <G>17</G>
+        <B>42</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>190</R>
+        <G>66</G>
+        <B>141</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>180</mGradientStartY>
+      <mGradientEndY>360</mGradientEndY>
+      <mReflected>true</mReflected>
+
+      <VignetteColor>
+        <R>78</R>
+        <G>40</G>
+        <B>137</B>
+        <A>167</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- "GreyCaverns" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="GreyCavernsBreach">
+
+    <!-- Cavern wall-->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/CavernsBreach/GreyCaverns</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+    </THParallaxData>
+
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mGradientStartColor>
+        <R>40</R>
+        <G>17</G>
+        <B>42</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>190</R>
+        <G>66</G>
+        <B>141</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>180</mGradientStartY>
+      <mGradientEndY>360</mGradientEndY>
+      <mReflected>true</mReflected>
+
+      <VignetteColor>
+        <R>78</R>
+        <G>40</G>
+        <B>137</B>
+        <A>167</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- "Blocks" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="CavernsBlocksBreach">
+
+    <!-- Cavern wall-->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/CavernsBreach/Blocks</mTextureName>
+      <mTechnique>OverlayBitmapTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mGradientData>
+        <mStartColor>
+          <R>180</R>
+          <G>156</G>
+          <B>213</B>
+          <A>0</A>
+        </mStartColor>
+        <mEndColor>
+          <R>180</R>
+          <G>156</G>
+          <B>213</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>0</mStartY>
+        <mEndY>240</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+      <mAnchor>BottomLeft</mAnchor>
+    </THParallaxData>
+
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mTechnique>CircuitsTechnique</mTechnique>
+      <mGradientStartColor>
+        <R>216</R>
+        <G>110</G>
+        <B>244</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>249</R>
+        <G>172</G>
+        <B>227</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>180</mGradientStartY>
+      <mGradientEndY>360</mGradientEndY>
+      <mReflected>true</mReflected>
+
+      <VignetteColor>
+        <R>29</R>
+        <G>194</G>
+        <B>228</B>
+        <A>187</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+    </mBreachEffectParams>
+  </THParallaxSetData>
+  
+</THParallaxXML>

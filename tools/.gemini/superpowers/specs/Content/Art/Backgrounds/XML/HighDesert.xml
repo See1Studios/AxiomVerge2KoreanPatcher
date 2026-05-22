@@ -1,0 +1,936 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParallaxXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- #################################################################### -->
+  <!-- "CliffTown" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="CliffTown">
+
+    <!-- 
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/FGBlueClouds1</mTextureName>
+      <mVelocity>
+        <X>-0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>64</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/FGBlueClouds2</mTextureName>
+      <mVelocity>
+        <X>-0.375</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.4</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-32</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/FGBlueClouds3</mTextureName>
+      <mVelocity>
+        <X>-0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.3</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-64</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/FGBlueClouds4</mTextureName>
+      <mVelocity>
+        <X>-0.125</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.2</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-96</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+-->
+    <!-- Sky -->
+    <THParallaxData>
+      <mType>TUBE</mType>
+      <mTextureName>Art/Backgrounds/HighDesert/ContinentalSkyGreyscale</mTextureName>
+      <mTechnique>TubeTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.125</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <!-- Remove distortion due to stretching so it scrolls more smoothly-->
+      <mTubeStretchAmount>1.0</mTubeStretchAmount>
+      <mGradientData>
+        <mStartColor>
+          <R>254</R>
+          <G>211</G>
+          <B>176</B>
+          <A>255</A>
+        </mStartColor>
+        <mEndColor>
+          <R>141</R>
+          <G>208</G>
+          <B>234</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>32</mStartY>
+        <mEndY>320</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+    </THParallaxData>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- "Lamassu" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="Lamassu">
+
+    <!-- Clouds -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/FGRedClouds1</mTextureName>
+      <mVelocity>
+        <X>-0.5</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-48</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/FGRedClouds2</mTextureName>
+      <mVelocity>
+        <X>-0.375</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.4</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-144</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/FGRedClouds3</mTextureName>
+      <mVelocity>
+        <X>-0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.3</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-160</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/FGRedClouds4</mTextureName>
+      <mVelocity>
+        <X>-0.125</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.2</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-192</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mType>GRADIENT</mType>
+      <mGradientData>
+        <mStartColor>
+          <R>209</R>
+          <G>152</G>
+          <B>134</B>
+          <A>0</A>
+        </mStartColor>
+        <mEndColor>
+          <R>212</R>
+          <G>189</G>
+          <B>186</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>0</mStartY>
+        <mEndY>240</mEndY>
+        <mParallax>
+          <X>0.25</X>
+          <Y>0.25</Y>
+        </mParallax>
+      </mGradientData>
+    </THParallaxData>
+
+
+    <!-- Sky -->
+    
+    <!-- No worky
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/ContinentalSkyGreyscale</mTextureName>
+      <mVelocity>
+        <X>0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.125</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>-4752</X>
+        <Y>-4080</Y>
+      </mOffset>
+      <mGradientData>
+        <mStartColor>
+          <R>197</R>
+          <G>210</G>
+          <B>201</B>
+          <A>255</A>
+        </mStartColor>
+        <mEndColor>
+          <R>255</R>
+          <G>157</G>
+          <B>120</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>32</mStartY>
+        <mEndY>160</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>-->
+    
+    <THParallaxData>
+      <mType>TUBE</mType>
+      <mTextureName>Art/Backgrounds/HighDesert/ContinentalSkyGreyscale</mTextureName>
+      <mTechnique>TubeTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.125</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <!-- Remove distortion due to stretching so it scrolls more smoothly-->
+      <mTubeStretchAmount>1.0</mTubeStretchAmount>
+      <mGradientData>
+        <mStartColor>
+          <R>197</R>
+          <G>210</G>
+          <B>201</B>
+          <A>255</A>
+        </mStartColor>
+        <mEndColor>
+          <R>255</R>
+          <G>157</G>
+          <B>120</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>32</mStartY>
+        <mEndY>160</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+    </THParallaxData>
+    
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- "Fortress" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="Fortress">
+
+
+    <!-- Sky -->
+    <THParallaxData>
+      <mType>TUBE</mType>
+      <mTextureName>Art/Backgrounds/HighDesert/ContinentalSkyGreyscale</mTextureName>
+      <mTechnique>TubeTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.125</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mGradientData>
+        <mStartColor>
+          <R>254</R>
+          <G>211</G>
+          <B>176</B>
+          <A>255</A>
+        </mStartColor>
+        <mEndColor>
+          <R>141</R>
+          <G>208</G>
+          <B>234</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>32</mStartY>
+        <mEndY>320</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+    </THParallaxData>
+  </THParallaxSetData>
+
+ 
+
+
+  <!-- #################################################################### -->
+  <!-- "HangingTemple" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="HangingTemple">
+
+    <!-- Clouds -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/FGRedClouds1</mTextureName>
+      <mVelocity>
+        <X>-0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>64</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/FGRedClouds2</mTextureName>
+      <mVelocity>
+        <X>-0.375</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.4</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-32</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/FGRedClouds3</mTextureName>
+      <mVelocity>
+        <X>-0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.3</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-64</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/FGRedClouds4</mTextureName>
+      <mVelocity>
+        <X>-0.125</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.2</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-96</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <!-- Sky -->
+    <THParallaxData>
+      <mType>TUBE</mType>
+      <mTextureName>Art/Backgrounds/HighDesert/ContinentalSkyGreyscale</mTextureName>
+      <mTechnique>TubeTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.125</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mGradientData>
+        <mStartColor>
+          <R>181</R>
+          <G>218</G>
+          <B>249</B>
+          <A>255</A>
+        </mStartColor>
+        <mEndColor>
+          <R>255</R>
+          <G>157</G>
+          <B>120</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>32</mStartY>
+        <mEndY>320</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+    </THParallaxData>
+  </THParallaxSetData>
+
+
+  <!-- #################################################################### -->
+  <!-- "Steppe" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="Steppe">
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/SteppePlains1</mTextureName>
+      <mParallax>
+        <X>1.0</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/SteppePlains1</mTextureName>
+      <mParallax>
+        <X>0.95</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>80</X>
+        <Y>-16</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/SteppePlains1</mTextureName>
+      <mParallax>
+        <X>0.90</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>40</X>
+        <Y>-32</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/SteppePlains2</mTextureName>
+      <mParallax>
+        <X>0.85</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-48</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/SteppePlains3</mTextureName>
+      <mParallax>
+        <X>0.80</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-64</Y>
+        <!-- Height of bottom of texture from bottom of background-->
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/SteppePlains3</mTextureName>
+      <mParallax>
+        <X>0.75</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>200</X>
+        <Y>-80</Y>
+        <!-- Height of bottom of texture from bottom of background-->
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/SteppePlains4</mTextureName>
+      <mParallax>
+        <X>0.70</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-96</Y>
+        <!-- Height of bottom of texture from bottom of background-->
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/SteppePlains1</mTextureName>
+      <mParallax>
+        <X>0.65</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>20</X>
+        <Y>-112</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/SteppePlains5</mTextureName>
+      <mParallax>
+        <X>0.6</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-128</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/SteppeMountains</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-144</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+
+    <!-- Clouds -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/SteppeClouds1</mTextureName>
+      <mVelocity>
+        <X>-0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.4</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-144</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/SteppeClouds2</mTextureName>
+      <mVelocity>
+        <X>-0.5</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.3</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-208</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mType>GRADIENT</mType>
+      <mGradientData>
+        <mStartColor>
+          <R>185</R>
+          <G>213</G>
+          <B>255</B>
+          <A>0</A>
+        </mStartColor>
+        <mEndColor>
+          <R>185</R>
+          <G>213</G>
+          <B>255</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>0</mStartY>
+        <mEndY>192</mEndY>
+        <mParallax>
+          <X>0.25</X>
+          <Y>0.25</Y>
+        </mParallax>
+      </mGradientData>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mType>TUBE</mType>
+      <mTextureName>Art/Backgrounds/HighDesert/ContinentalSkySteppe</mTextureName>
+      <mTechnique>TubeTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.125</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <!-- Remove distortion due to stretching so it scrolls more smoothly-->
+      <mTubeStretchAmount>1.0</mTubeStretchAmount>
+      <mGradientData>
+        <mStartColor>
+          <R>127</R>
+          <G>127</G>
+          <B>127</B>
+          <A>255</A>
+        </mStartColor>
+        <mEndColor>
+          <R>127</R>
+          <G>127</G>
+          <B>127</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>32</mStartY>
+        <mEndY>320</mEndY>
+      </mGradientData>
+    </THParallaxData>
+
+
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- "High Desert" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="HighDesert">
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/HighDesertPlains1</mTextureName>
+      <mParallax>
+        <X>1.0</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/HighDesertPlains1</mTextureName>
+      <mParallax>
+        <X>0.95</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>80</X>
+        <Y>-16</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/HighDesertPlains1</mTextureName>
+      <mParallax>
+        <X>0.90</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>40</X>
+        <Y>-32</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/HighDesertPlains2</mTextureName>
+      <mParallax>
+        <X>0.85</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-48</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/HighDesertPlains3</mTextureName>
+      <mParallax>
+        <X>0.80</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-64</Y>
+        <!-- Height of bottom of texture from bottom of background-->
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/HighDesertPlains3</mTextureName>
+      <mParallax>
+        <X>0.75</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>200</X>
+        <Y>-80</Y>
+        <!-- Height of bottom of texture from bottom of background-->
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/HighDesertPlains1</mTextureName>
+      <mParallax>
+        <X>0.70</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-96</Y>
+        <!-- Height of bottom of texture from bottom of background-->
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/HighDesertPlains1</mTextureName>
+      <mParallax>
+        <X>0.65</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>20</X>
+        <Y>-112</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/HighDesertPlains4</mTextureName>
+      <mParallax>
+        <X>0.6</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-128</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/HighDesertMountains</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-144</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/RedSwitchBacks</mTextureName>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.25</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+    </THParallaxData>
+
+
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- "Red Switchbacks" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="RedSwitchBacks">
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/RedSwitchBacks</mTextureName>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.25</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+    </THParallaxData>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- "Yellow Switchbacks" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="YellowSwitchBacks">
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/HighDesert/YellowSwitchBacks</mTextureName>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.25</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+    </THParallaxData>
+  </THParallaxSetData>
+
+</THParallaxXML>

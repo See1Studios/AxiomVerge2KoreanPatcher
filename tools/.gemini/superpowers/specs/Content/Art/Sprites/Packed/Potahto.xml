@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>Potahto.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <THColorSchemeData mName="Meta">
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>190</B>
+        <G>51</G>
+        <R>186</R>
+        <A>255</A>
+        <PackedValue>4290655162</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>51</G>
+        <R>133</R>
+        <A>255</A>
+        <PackedValue>4294914949</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>191</B>
+        <G>161</G>
+        <R>249</R>
+        <A>255</A>
+        <PackedValue>4290748921</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>151</G>
+        <R>232</R>
+        <A>255</A>
+        <PackedValue>4294940648</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>103</B>
+        <G>27</G>
+        <R>71</R>
+        <A>255</A>
+        <PackedValue>4284947271</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>160</B>
+        <G>0</G>
+        <R>0</R>
+        <A>255</A>
+        <PackedValue>4288675840</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="PotahtoTexture">
+    <THSpriteAnimationData mName="Crawl" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\PoeTahto\Output\Crawl.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-8" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="8" mDelay="6" mOriginX="12" mOriginY="8" mU="0" mV="0" mUVWidth="16" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\PoeTahto\Output\Crawl0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-9" mWidth="15" mHeight="9" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="8" mDelay="6" mOriginX="12" mOriginY="8" mU="0" mV="10" mUVWidth="16" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\PoeTahto\Output\Crawl0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-12" mY="-9" mWidth="16" mHeight="9" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="8" mDelay="6" mOriginX="12" mOriginY="8" mU="0" mV="20" mUVWidth="16" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\PoeTahto\Output\Crawl0002.png" mFrameFlags="NONE" />
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Morph" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\PoeTahto\Output\Morph.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-8" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="12" mHeight="9" mDelay="6" mOriginX="8" mOriginY="9" mU="18" mV="0" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\PoeTahto\Output\Morph0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-10" mWidth="12" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="12" mHeight="9" mDelay="6" mOriginX="8" mOriginY="9" mU="18" mV="11" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\PoeTahto\Output\Morph0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="-9" mWidth="10" mHeight="9" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Roll" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\PoeTahto\Output\Roll.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-8" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="8" mHeight="8" mDelay="5" mOriginX="4" mOriginY="8" mU="18" mV="22" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\PoeTahto\Output\Roll0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-8" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="8" mDelay="5" mOriginX="4" mOriginY="8" mU="46" mV="0" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\PoeTahto\Output\Roll0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-8" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="8" mDelay="5" mOriginX="4" mOriginY="8" mU="28" mV="22" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\PoeTahto\Output\Roll0002.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-8" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="8" mHeight="8" mDelay="5" mOriginX="4" mOriginY="8" mU="46" mV="10" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\PoeTahto\Output\Roll0003.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-8" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Unmorph" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\PoeTahto\Output\Unmorph.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-8" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="12" mHeight="9" mDelay="6" mOriginX="8" mOriginY="9" mU="32" mV="0" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\PoeTahto\Output\Unmorph0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="-9" mWidth="10" mHeight="9" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="12" mHeight="9" mDelay="6" mOriginX="8" mOriginY="9" mU="32" mV="11" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\PoeTahto\Output\Unmorph0001.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-10" mWidth="12" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

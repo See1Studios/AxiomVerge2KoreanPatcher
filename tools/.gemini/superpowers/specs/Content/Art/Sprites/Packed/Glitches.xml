@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>0</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>Glitches.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <mSpriteData mTextureName="GlitchesTexture">
+    <THSpriteAnimationData mName="FlickerSquare" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Effects\Glitches\Flicker\Output\FlickerSquare.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="4" mHeight="4" mDelay="1" mOriginX="0" mOriginY="0" mU="8" mV="24" mUVWidth="4" mUVHeight="4" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare0000.png" />
+      <THFrameData mWidth="4" mHeight="4" mDelay="1" mOriginX="0" mOriginY="0" mU="12" mV="24" mUVWidth="4" mUVHeight="4" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare0001.png" />
+      <THFrameData mWidth="4" mHeight="4" mDelay="1" mOriginX="0" mOriginY="0" mU="0" mV="24" mUVWidth="4" mUVHeight="4" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare0002.png" />
+      <THFrameData mWidth="4" mHeight="4" mDelay="1" mOriginX="0" mOriginY="0" mU="4" mV="24" mUVWidth="4" mUVHeight="4" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare0003.png" />
+      <THFrameData mWidth="4" mHeight="4" mDelay="1" mOriginX="0" mOriginY="0" mU="28" mV="24" mUVWidth="4" mUVHeight="4" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare0004.png" />
+      <THFrameData mWidth="4" mHeight="4" mDelay="1" mOriginX="0" mOriginY="0" mU="48" mV="8" mUVWidth="4" mUVHeight="4" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare0005.png" />
+      <THFrameData mWidth="4" mHeight="4" mDelay="1" mOriginX="0" mOriginY="0" mU="24" mV="24" mUVWidth="4" mUVHeight="4" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare0006.png" />
+      <THFrameData mWidth="4" mHeight="4" mDelay="1" mOriginX="0" mOriginY="0" mU="16" mV="24" mUVWidth="4" mUVHeight="4" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare0007.png" />
+      <THFrameData mWidth="4" mHeight="4" mDelay="1" mOriginX="0" mOriginY="0" mU="20" mV="24" mUVWidth="4" mUVHeight="4" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare0008.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="FlickerSquare8x8" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Effects\Glitches\Flicker\Output\FlickerSquare8x8.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="40" mV="0" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare8x80000.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="40" mV="8" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare8x80001.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="48" mV="0" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare8x80002.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="32" mV="16" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare8x80003.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="32" mV="8" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare8x80004.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="16" mV="0" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare8x80005.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="16" mV="8" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare8x80006.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="0" mV="0" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare8x80007.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="8" mV="0" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerSquare8x80008.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="FlickerTopDown8x8" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Effects\Glitches\Flicker\Output\FlickerTopDown8x8.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="0" mV="8" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerTopDown8x80000.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="24" mV="0" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerTopDown8x80001.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="16" mV="16" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerTopDown8x80002.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="24" mV="16" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerTopDown8x80003.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="32" mV="0" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerTopDown8x80004.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="24" mV="8" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerTopDown8x80005.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="0" mV="16" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerTopDown8x80006.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="8" mV="16" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerTopDown8x80007.png" />
+      <THFrameData mWidth="8" mHeight="8" mDelay="1" mOriginX="0" mOriginY="0" mU="8" mV="8" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\Flicker\Output\FlickerTopDown8x80008.png" />
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

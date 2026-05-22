@@ -1,0 +1,4499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParticleSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// UI PARTICLES //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// COMPASS PARTICLES //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+
+  <THParticleSpawner mName="CompassArmsParticles" mPPS="16">
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>CompassParticleTechnique</mTechnique>
+    
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <mSpeedVariation>0.2</mSpeedVariation>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.0</mScaleInAge>
+    <mScaleOutAge>1.0</mScaleOutAge>
+    <mScaleStart>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.5</mFadeInAge>
+    <mFadeOutAge>0.5</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>120.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>240</mMaxCount>
+
+  </THParticleSpawner>
+
+  <THParticleSpawner mName="CompassPortalsParticles" mPPS="12">
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>CompassParticleTechnique</mTechnique>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <mSpeedVariation>0.2</mSpeedVariation>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.0</mScaleInAge>
+    <mScaleOutAge>1.0</mScaleOutAge>
+    <mScaleStart>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.5</mFadeInAge>
+    <mFadeOutAge>0.5</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>120.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>180</mMaxCount>
+
+  </THParticleSpawner>
+  
+  
+  
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// WEAPON PARTICLES //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// Gishru Turbo particles  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="GishruTurbo" mPPS="20">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>GishruSpark</mAnimation>
+    <mFrameDelay>5</mFrameDelay>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>TintedAdditiveTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.25</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.01</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mInitialRotationVariation>360</mInitialRotationVariation>
+    <mInitialRotationIncrement>90</mInitialRotationIncrement>
+    <mVelocityAngleVariation>360</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mVelocityInheritPercent>0.1</mVelocityInheritPercent>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.5</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>0.7</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.90</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>24.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>32</mMaxCount>
+
+  </THParticleSpawner>
+
+  <THParticleSpawner mName="UlGishruTurbo" mPPS="20">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>GishruSpark</mAnimation>
+    <mFrameDelay>5</mFrameDelay>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>TintedAdditiveTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.25</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.01</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mInitialRotationVariation>360</mInitialRotationVariation>
+    <mInitialRotationIncrement>90</mInitialRotationIncrement>
+    <mVelocityAngleVariation>360</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mVelocityInheritPercent>0.1</mVelocityInheritPercent>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>0.38</Z>
+      <W>0.7</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.90</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>24.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>32</mMaxCount>
+
+  </THParticleSpawner>
+
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// HACKING RAY PARTICLES //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+
+  <THParticleSpawner mName="HackingRayVortex" mPPS="180">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>IndraSwarmRandom2</mAnimation>
+    <mHoldFirstFrame>false</mHoldFirstFrame>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>DefaultTechnique</mTechnique>
+    <mRenderLayer>BG</mRenderLayer>
+    <mFrameDelay>2</mFrameDelay>
+
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.0</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.0</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>1.00</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>90.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>360</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <THParticleSpawner mName="HackingRayVortexDrone" mPPS="120">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>DroneSwarmRandom2</mAnimation>
+    <mHoldFirstFrame>false</mHoldFirstFrame>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>DefaultTechnique</mTechnique>
+    <mRenderLayer>BG</mRenderLayer>
+    <mFrameDelay>2</mFrameDelay>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.0</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.0</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>1.00</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>90.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>360</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <THParticleSpawner mName="HackingRayCone" mPPS="360">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>IndraSwarmRandom2</mAnimation>
+    <mHoldFirstFrame>true</mHoldFirstFrame>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>DefaultTechnique</mTechnique>
+    <mRenderLayer>FG</mRenderLayer>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.0</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.0</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.25</X>
+      <Y>0.25</Y>
+      <Z>0.25</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>1.00</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>40.0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mMaxCount>360</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <THParticleSpawner mName="HackingRayConeDrone" mPPS="180">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>DroneSwarmRandom2</mAnimation>
+    <mHoldFirstFrame>true</mHoldFirstFrame>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>DefaultTechnique</mTechnique>
+    <mRenderLayer>FG</mRenderLayer>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.0</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.0</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.25</X>
+      <Y>0.25</Y>
+      <Z>0.25</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>1.00</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>40.0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mMaxCount>180</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <THParticleSpawner mName="HackingRayConeRandomSparks" mPPS="120">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>NanoSparkRandom</mAnimation>
+    <mHoldFirstFrame>true</mHoldFirstFrame>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>DefaultTechnique</mTechnique>
+    <mRenderLayer>FG</mRenderLayer>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.0</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.0</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mVelocityAligned>false</mVelocityAligned>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <!-- This gets aligned by a plugin-->
+    <!--<mInitialRotationVariation>360</mInitialRotationVariation>-->
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.25</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.5</X>
+      <Y>0.8</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.8</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.9</X>
+      <Y>0.75</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.1</mFadeInAge>
+    <mFadeOutAge>0.1</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>10.0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mMaxCount>60</mMaxCount>
+
+  </THParticleSpawner>
+
+  <THParticleSpawner mName="HackingRayConeRandomSparksDrone" mPPS="60">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>NanoSparkRandom</mAnimation>
+    <mHoldFirstFrame>true</mHoldFirstFrame>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>DefaultTechnique</mTechnique>
+    <mRenderLayer>FG</mRenderLayer>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.0</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.0</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mVelocityAligned>false</mVelocityAligned>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <!-- This gets aligned by a plugin-->
+    <!--<mInitialRotationVariation>360</mInitialRotationVariation>-->
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.25</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>0.8</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.8</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.9</X>
+      <Y>0.75</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.1</mFadeInAge>
+    <mFadeOutAge>0.1</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>10.0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mMaxCount>60</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// Liru Bubbles //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="LiruBubbles" mPPS="240">
+    <mSpawnShape>RECTANGLE</mSpawnShape>
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mHoldFirstFrame>true</mHoldFirstFrame>
+    <mAnimation>BubblesSmallRandom</mAnimation>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>TintedAdditiveTechnique</mTechnique>
+    <mRenderLayer>BG</mRenderLayer>
+    
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <mBounds>
+      <X>-4</X>
+      <Y>-4</Y>
+      <Width>8</Width>
+      <Height>8</Height>
+    </mBounds>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0</X>
+      <Y>1.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>-0.05</Y>
+    </mAcceleration>
+    <mDrag>0.05</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>360</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+    
+    <!-- Scale start/end -->
+    <mScaleInAge>0.25</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.25</X>
+      <Y>0.25</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.0</X>
+      <Y>0.4</Y>
+      <Z>0.5</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>0.8</mFadeEnd>
+    <mFadeInAge>0.1</mFadeInAge>
+    <mFadeOutAge>0.5</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>60</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>384</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// Tethered Charge Sparks //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="TetheredChargeSparks" mPPS="10">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>TetheredChargeSpark</mAnimation>
+    <mFrameDelay>3</mFrameDelay>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>TintedAdditiveTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.25</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.01</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.1</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mInitialRotationVariation>360</mInitialRotationVariation>
+    <mInitialRotationIncrement>90</mInitialRotationIncrement>
+    <mVelocityAngleVariation>360</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mVelocityInheritPercent>0.1</mVelocityInheritPercent>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.54</X>
+      <Y>0.54</Y>
+      <Z>1.00</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.90</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>24.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>32</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <THParticleSpawner mName="TetheredChargeSparks2" mPPS="10">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>TetheredChargeSpark</mAnimation>
+    <mFrameDelay>3</mFrameDelay>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>TintedAdditiveTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.25</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.01</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.1</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mInitialRotationVariation>360</mInitialRotationVariation>
+    <mInitialRotationIncrement>90</mInitialRotationIncrement>
+    <mVelocityAngleVariation>360</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mVelocityInheritPercent>0.1</mVelocityInheritPercent>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.9</X>
+      <Y>0.9</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.9</X>
+      <Y>0.9</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.9</X>
+      <Y>0.9</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.75</X>
+      <Y>0.54</Y>
+      <Z>1.00</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.90</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>24.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>32</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// Turbo Zip Sparks //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="TurboZipSparks" mPPS="20">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>NanoSparkRandom</mAnimation>
+    <mHoldFirstFrame>true</mHoldFirstFrame>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>TintedAdditiveTechnique</mTechnique>
+    <mRenderLayer>FG</mRenderLayer>
+    <mSpawnShape>RECTANGLE</mSpawnShape>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <mBounds>
+      <X>-8</X>
+      <Y>-8</Y>
+      <Width>16</Width>
+      <Height>16</Height>
+    </mBounds>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.0</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.0</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.01</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mVelocityAligned>false</mVelocityAligned>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mInitialRotationVariation>360</mInitialRotationVariation>
+    <mVelocityInheritPercent>0.1</mVelocityInheritPercent>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.3</X>
+      <Y>0.3</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.5</X>
+      <Y>0.4</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.7</X>
+      <Y>0.5</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.02</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.1</mFadeInAge>
+    <mFadeOutAge>0.1</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>50.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>60</mMaxCount>
+
+  </THParticleSpawner>
+
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// DISTORTION FIELD  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="DistortionField" mPPS="60">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>DistortionSmoothed64x64</mAnimation>
+    <mRenderLayer>Distortion</mRenderLayer>
+    <mRenderType>Distortion</mRenderType>
+    <mTechnique>DistortionTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>6.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.03</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>60</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.25</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.125</X>
+      <Y>0.125</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.2</X>
+      <Y>0.2</Y>
+      <Z>0.2</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.15</mFadeInAge>
+    <mFadeOutAge>0.50</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>7.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>120</mMaxCount>
+
+  </THParticleSpawner>
+
+  <THParticleSpawner mName="DistortionFieldCircle" mPPS="60">
+    <mSpriteSheet>WeaponEffects.xml</mSpriteSheet>
+    <mAnimation>DistortionFieldCircle</mAnimation>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>6.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.03</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>45</mVelocityAngleVariation>
+    <mInitialVelocityAligned>true</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.25</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.1</X>
+      <Y>0.3</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.33</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.25</X>
+      <Y>0.75</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.95</X>
+      <Y>0.9</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.1</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>7.0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mMaxCount>120</mMaxCount>
+
+  </THParticleSpawner>
+
+  
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// DRONE DRILL  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="DroneDrill" mPPS="90">
+    <mSpriteSheet>WeaponEffects.xml</mSpriteSheet>
+    <mAnimation>DroneDrillWave</mAnimation>
+    <mFrameDelay>2</mFrameDelay>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>TintedAdditiveTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>4.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.00</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>true</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.25</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>2.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>2.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.7</X>
+      <Y>0.1</Y>
+      <Z>0.1</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.8</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>10.0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mMaxCount>512</mMaxCount>
+
+    <!-- disable animation frame randomization -->
+    <mUniqueIDs>false</mUniqueIDs>
+
+  </THParticleSpawner>
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// FIREWALL  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="FireWall" mPPS="20">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>FlameThrower1</mAnimation>
+    <mFrameDelay>5</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>3</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.01</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.5</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.5</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.90</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>25.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>32</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// FLAMETHROWER  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="FlameThrower" mPPS="20">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>FlameThrower1</mAnimation>
+    <mFrameDelay>5</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>2</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>4</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation><!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.01</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.5</X>
+      <Y>1.5</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.90</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>20.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>32</mMaxCount>
+
+  </THParticleSpawner>
+  
+  
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// GLITCHABLE TILE EXPLOSION //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="GlitchableTileExplosion" mPPS="0"><!-- PPS is 0 because it is intended to call Spawn(numParticles) directly -->
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>SmoothCircle128x128</mAnimation>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>DefaultTechnique</mTechnique>
+
+    <!-- Initial offset from center -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>1.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>1.0</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.025</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>360</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.5</mScaleInAge>
+    <mScaleOutAge>0.5</mScaleOutAge>
+    <mScaleStart>
+      <X>0.1</X>
+      <Y>0.1</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.2</X>
+      <Y>0.2</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.1</X>
+      <Y>0.1</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.4</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>0.5</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.80</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>40.0</mMaxAge>
+    <mAgeVariation>0.5</mAgeVariation>
+    <mMaxCount>120</mMaxCount>
+
+    
+
+  </THParticleSpawner>
+  
+  
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// GLITCH RAY PARTICLES //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  
+  <!-- ///////////////////////////// The glitch gun cellular automata grid effect //////////////////////////////// -->
+  <THParticleSpawner mName="GlitchGunMain" mPPS="60">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>GlitchGridMask12x12</mAnimation>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>DefaultTechnique</mTechnique>
+    
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>6</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>4.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.025</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>45</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.25</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>2.0</X>
+      <Y>2.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>0.250</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.80</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>44.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>120</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- ///////////////////////////// OUtline for the glitch gun grid. //////////////////////////////// -->
+  <THParticleSpawner mName="GridOutline" mPPS="15">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>SmoothCircle128x128</mAnimation>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>OutlineTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>6</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>4.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.03</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>45</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.25</mScaleInAge>
+    <mScaleOutAge>0.75</mScaleOutAge>
+    <mScaleStart>
+      <X>.1</X>
+      <Y>.1</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.3</X>
+      <Y>0.3</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>.1</X>
+      <Y>.1</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.4</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>0.25</mFadeEnd>
+    <mFadeInAge>0.05</mFadeInAge>
+    <mFadeOutAge>0.75</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>44.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>30</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- /////////////////////////////Shadows for the glitch gun grid. //////////////////////////////// -->
+  <THParticleSpawner mName="GridShadows" mPPS="15">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>GlitchGridMask12x12</mAnimation>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ShadowTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>6</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>4.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.03</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>45</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.25</mScaleInAge>
+    <mScaleOutAge>0.75</mScaleOutAge>
+    <mScaleStart>
+      <X>1</X>
+      <Y>1</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>2</X>
+      <Y>2</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1</X>
+      <Y>1</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.0</X>
+      <Y>0.05</Y>
+      <Z>0.2</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.25</mFadeStart>
+    <mFadeEnd>0.55</mFadeEnd>
+    <mFadeInAge>0.00</mFadeInAge>
+    <mFadeOutAge>0.75</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>44.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>30</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- /////////////////////////////The central glitch gun wave what actually causes the damage //////////////////////////////// -->
+  <THParticleSpawner mName="GlitchGunConcentricWave" mPPS="20">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>GlitchSquareTall</mAnimation>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>6</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>6.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.0</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>true</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.80</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>0.1</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>0.8</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.2</X>
+      <Y>0.6</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>0.95</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.40</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>16.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>40</mMaxCount>
+
+  </THParticleSpawner>
+
+
+
+  <THParticleSpawner mName="GlitchGunDistortion" mPPS="60">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>DistortionSmoothed64x64</mAnimation>
+    <mRenderLayer>Distortion</mRenderLayer>
+    <mRenderType>Distortion</mRenderType>
+    <mTechnique>DistortionTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>6</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>6.0</X>
+      <Y>0.0</Y>
+    </mVelocity>    
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.03</mDrag>
+    
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>45</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.25</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.015</X>
+      <Y>0.015</Y>
+      <Z>0.015</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.25</mFadeInAge>
+    <mFadeOutAge>0.50</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>40.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>120</mMaxCount>
+    
+  </THParticleSpawner>
+
+  <THParticleSpawner mName="GlitchGunDistortion2" mPPS="10">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>DistortionScanlines64x64</mAnimation>
+    <mRenderLayer>Distortion</mRenderLayer>
+    <mRenderType>Distortion</mRenderType>
+    <mTechnique>DistortionTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>6</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>6.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.03</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>45</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.5</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>2.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.5</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.015</X>
+      <Y>0.015</Y>
+      <Z>0.015</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>0.75</mFadeEnd>
+    <mFadeInAge>0.50</mFadeInAge>
+    <mFadeOutAge>0.50</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>32.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>120</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// ADDRESS DISRUPTOR PARTICLES //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+
+  <!-- ///////////////////////////// The glitch gun cellular automata grid effect //////////////////////////////// -->
+  <THParticleSpawner mName="AddressDisruptorMain" mPPS="60">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>AddressDisruptorGridMask12x12</mAnimation>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>DefaultTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>6</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>4.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.025</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>45</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.25</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>2.0</X>
+      <Y>2.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>0.250</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.80</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>55.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>120</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- ///////////////////////////// OUtline for the glitch gun grid. //////////////////////////////// -->
+  <THParticleSpawner mName="AddressDisruptorOutline" mPPS="15">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>SmoothCircle128x128</mAnimation>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>OutlineTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>6</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>4.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.03</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>45</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.25</mScaleInAge>
+    <mScaleOutAge>0.75</mScaleOutAge>
+    <mScaleStart>
+      <X>.1</X>
+      <Y>.1</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.3</X>
+      <Y>0.3</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>.1</X>
+      <Y>.1</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>0.4</Y>
+      <Z>0.4</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>0.25</mFadeEnd>
+    <mFadeInAge>0.05</mFadeInAge>
+    <mFadeOutAge>0.75</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>55.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>30</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- /////////////////////////////Shadows for the glitch gun grid. //////////////////////////////// -->
+  <THParticleSpawner mName="AddressDisruptorShadows" mPPS="15">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>AddressDisruptorGridMask12x12</mAnimation>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ShadowTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>6</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>4.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.03</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>45</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.25</mScaleInAge>
+    <mScaleOutAge>0.75</mScaleOutAge>
+    <mScaleStart>
+      <X>1</X>
+      <Y>1</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>2</X>
+      <Y>2</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1</X>
+      <Y>1</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.2</X>
+      <Y>0.00</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.25</mFadeStart>
+    <mFadeEnd>0.55</mFadeEnd>
+    <mFadeInAge>0.00</mFadeInAge>
+    <mFadeOutAge>0.75</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>55.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>30</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- /////////////////////////////The central glitch gun wave what actually causes the damage //////////////////////////////// -->
+  <THParticleSpawner mName="AddressDisruptorConcentricWave" mPPS="20">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>GlitchSquareTall</mAnimation>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>6</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>6.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.0</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>true</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.80</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>0.1</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>0.8</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>0.4</Y>
+      <Z>0.5</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>0.95</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.40</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>20.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>40</mMaxCount>
+
+  </THParticleSpawner>
+  
+	<!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// OVERCLOCK  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="OverclockGhosts" mPPS="20">
+    <mSpriteSheet>TraceCoat.xml</mSpriteSheet>
+		<mColorScheme>Black</mColorScheme>
+    <mRenderType>Additive</mRenderType>
+		<mRenderLayer>FG</mRenderLayer>
+    <mTechnique>DefaultTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.1</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.5</mSpeedVariation>
+		
+		
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.01</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+		<mVelocityAngleVariation>360</mVelocityAngleVariation>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+		<mIntensity>2.0</mIntensity>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.75</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>35.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>32</mMaxCount>
+
+  </THParticleSpawner>
+	
+	
+	<THParticleSpawner mName="OverclockHighlight" mPPS="10">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>SmoothCircle32x32</mAnimation>
+    <mRenderType>Additive</mRenderType>
+		<mRenderLayer>BG</mRenderLayer>
+    <mTechnique>DefaultTechnique</mTechnique>
+		
+		
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>1.5</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.025</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>360</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>0.5</Y>
+      <Z>0.5</Z>
+      <W>1.0</W>
+    </mColor>
+		<mIntensity>1.5</mIntensity>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.5</mFadeInAge>
+    <mFadeOutAge>0.5</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>20.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>120</mMaxCount>
+
+  </THParticleSpawner>
+	
+	<THParticleSpawner mName="OverclockSquares" mPPS="15">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>OverclockSquares</mAnimation>
+    <mRenderType>Alpha</mRenderType>
+		<mRenderLayer>BG</mRenderLayer>
+    <mTechnique>ParticleTechnique</mTechnique>
+		<mFrameDelay>8</mFrameDelay>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.2</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.01</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mVelocityAngleVariation>360</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.25</mScaleInAge>
+    <mScaleOutAge>0.75</mScaleOutAge>
+    <mScaleStart>
+      <X>2.5</X>
+      <Y>2.5</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>2.5</X>
+      <Y>2.5</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>2.5</X>
+      <Y>2.5</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.15</X>
+      <Y>0.00</Y>
+      <Z>0.0</Z>
+      <W>0.35</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.25</mFadeInAge>
+    <mFadeOutAge>0.5</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>35.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>30</mMaxCount>
+
+  </THParticleSpawner>
+	
+  <THParticleSpawner mName="OverclockShadows" mPPS="15">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>AddressDisruptorGridMask12x12</mAnimation>
+    <mRenderType>Alpha</mRenderType>
+		<mRenderLayer>BG</mRenderLayer>
+    <mTechnique>ShadowTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.2</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>		
+		
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.03</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>360</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.25</mScaleInAge>
+    <mScaleOutAge>0.75</mScaleOutAge>
+    <mScaleStart>
+      <X>1</X>
+      <Y>1</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>2</X>
+      <Y>2</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1</X>
+      <Y>1</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.1</X>
+      <Y>0.00</Y>
+      <Z>0.0</Z>
+      <W>0.25</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.00</mFadeInAge>
+    <mFadeOutAge>0.75</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>35.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>30</mMaxCount>
+
+  </THParticleSpawner>
+  
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// SHARDS  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="Shards" mPPS="35">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>Shards</mAnimation>
+    <mFrameDelay>5</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mRenderLayer>BG</mRenderLayer>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>-10</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>5</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.00</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>45</mVelocityAngleVariation>
+    <mInitialVelocityAligned>true</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.90</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>25.0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mMaxCount>96</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// Environment  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// BREACH PORTAL PARTICLES //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+
+  <THParticleSpawner mName="BreachPortal" mPPS="32">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>BreachPortalParticle</mAnimation>
+    <mFrameDelay>8</mFrameDelay>
+    <mRenderType>Additive</mRenderType>
+    <mRenderLayer>BG</mRenderLayer>
+    <mHoldFirstFrame>true</mHoldFirstFrame>
+    
+    <mTechnique>BreachPortalTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.0</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.0</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.0</mScaleInAge>
+    <mScaleOutAge>1.0</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>0.27</Y>
+      <Z>0.27</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.5</mFadeInAge>
+    <mFadeOutAge>0.5</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>10.0</mMaxAge>
+    <mAgeVariation>0.3</mAgeVariation>
+    <mMaxCount>100</mMaxCount>
+
+  </THParticleSpawner>
+  
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// BREACH SNOW //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="BreachSnow" mPPS="0">
+    <mSpawnShape>RECTANGLE</mSpawnShape>
+    <mInitialCount>256</mInitialCount>
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>BreachSnow</mAnimation>
+    <mFrameDelay>20</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+		<mSeed>3</mSeed>
+
+		<mBounds>
+			<X>0</X>
+			<Y>0</Y>
+			<Width>480</Width>
+			<Height>272</Height>
+		</mBounds>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>-0.35</X>
+      <Y>0.35</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>1.0</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mMaxCount>256</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// BREACH LIGHT SNOW //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="BreachLightSnow" mPPS="0">
+    <mSpawnShape>RECTANGLE</mSpawnShape>
+    <mInitialCount>64</mInitialCount>
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>BreachSnow</mAnimation>
+    <mFrameDelay>20</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+    <mSeed>3</mSeed>
+
+    <mBounds>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>480</Width>
+      <Height>272</Height>
+    </mBounds>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>-0.35</X>
+      <Y>0.35</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>1.0</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mMaxCount>256</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// DUST PLUME //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="DustPlume" mPPS="120">
+    <mSpawnShape>RECTANGLE</mSpawnShape>
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>Smoke1</mAnimation>
+    <mFrameDelay>8</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <mBounds>
+      <X>-176</X>
+      <Y>-16</Y>
+      <Width>352</Width>
+      <Height>16</Height>
+    </mBounds>
+    
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0</X>
+      <Y>-1.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.02</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>true</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.10</mFadeInAge>
+    <mFadeOutAge>0.80</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>60.0</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>600</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// MUD PLUME (underwater) //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="MudPlume" mPPS="60">
+    <mSpawnShape>RECTANGLE</mSpawnShape>
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mHoldFirstFrame>true</mHoldFirstFrame>
+    <mAnimation>DustPoofsSmallRandom</mAnimation>
+    <mFrameDelay>8</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mRenderLayer>PostFG</mRenderLayer>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <mBounds>
+      <X>-3</X>
+      <Y>-2</Y>
+      <Width>6</Width>
+      <Height>2</Height>
+    </mBounds>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0</X>
+      <Y>-0.625</Y>
+    </mVelocity>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.005</Y>
+    </mAcceleration>
+    <mDrag>0.04</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>180</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mVelocityInheritPercent>0.5</mVelocityInheritPercent>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.42</X>
+      <Y>0.73</Y>
+      <Z>0.82</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>0.75</mFadeEnd>
+    <mFadeInAge>0.40</mFadeInAge>
+    <mFadeOutAge>0.60</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>60.0</mMaxAge>
+    <mAgeVariation>0.5</mAgeVariation>
+    <mMaxCount>600</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// Hydrothermal Bubbles //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="HydrothermalBubbles" mPPS="25">
+    <mSpawnShape>RECTANGLE</mSpawnShape>
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mHoldFirstFrame>true</mHoldFirstFrame>
+    <mAnimation>BubblesSmallRandom</mAnimation>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>TintedAdditiveTechnique</mTechnique>
+    <mRenderLayer>BG</mRenderLayer>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.75</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>-0.01</Y>
+    </mAcceleration>
+    <mDrag>0.01</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>30</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.25</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.25</X>
+      <Y>0.25</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.0</X>
+      <Y>0.4</Y>
+      <Z>0.5</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>0.8</mFadeEnd>
+    <mFadeInAge>0.1</mFadeInAge>
+    <mFadeOutAge>0.5</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>110</mMaxAge>
+    <mAgeVariation>0.2</mAgeVariation>
+    <mMaxCount>300</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// HYDROTHERMAL HEAT DISTORTION  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="HydrothermalDistortion" mPPS="15">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>DistortionSmoothed64x64</mAnimation>
+    <mRenderLayer>Distortion</mRenderLayer>
+    <mRenderType>Distortion</mRenderType>
+    <mTechnique>DistortionTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.75</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>-0.01</Y>
+    </mAcceleration>
+    <mDrag>0.01</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>40</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mVelocityInheritPercent>0.0</mVelocityInheritPercent>
+
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.5</mScaleInAge>
+    <mScaleOutAge>1.0</mScaleOutAge>
+    <mScaleStart>
+      <X>0.125</X>
+      <Y>0.125</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.25</X>
+      <Y>0.25</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.00</X>
+      <Y>1.00</Y>
+      <Z>1.00</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>0.03</mFadeEnd>
+    <mFadeInAge>0.15</mFadeInAge>
+    <mFadeOutAge>0.50</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>60.0</mMaxAge>
+    <mAgeVariation>0.5</mAgeVariation>
+    <mMaxCount>300</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// RAIN //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="Rain" mPPS="0">
+    <mSpawnShape>RECTANGLE</mSpawnShape>
+    <mInitialCount>32</mInitialCount>
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>Rain</mAnimation>
+    <mFrameDelay>24</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+    <mSeed>1</mSeed>
+
+    <mBounds>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>480</Width>
+      <Height>272</Height>
+    </mBounds>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>-6</X>
+      <Y>12</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.00</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>true</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>0.25</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>0.25</Y>
+    </mScaleMid>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>0.25</Y>
+    </mScaleMid>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>0.73</W>
+    </mColor>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>1.0</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mMaxCount>100</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// SNOW FLURRIES //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="SnowFlurries" mPPS="0">
+    <mSpawnShape>RECTANGLE</mSpawnShape>
+    <mInitialCount>16</mInitialCount>
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>Snowflake1</mAnimation>
+    <mFrameDelay>24</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+		<mSeed>1</mSeed>
+
+		<mBounds>
+			<X>0</X>
+			<Y>0</Y>
+			<Width>480</Width>
+			<Height>272</Height>
+		</mBounds>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>-0.25</X>
+      <Y>0.25</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.00</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>1.0</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mMaxCount>100</mMaxCount>
+
+  </THParticleSpawner>
+  
+  
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// LIGHT SNOW  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="LightSnow" mPPS="0">
+    <mSpawnShape>RECTANGLE</mSpawnShape>
+    <mInitialCount>64</mInitialCount>
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>Snowflake1</mAnimation>
+    <mFrameDelay>20</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+		<mSeed>2</mSeed>
+
+		<mBounds>
+			<X>0</X>
+			<Y>0</Y>
+			<Width>480</Width>
+			<Height>272</Height>
+		</mBounds>
+    
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>-0.25</X>
+      <Y>0.25</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.00</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>1.0</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mMaxCount>100</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// MEDIUM SNOW //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="MediumSnow" mPPS="0">
+    <mSpawnShape>RECTANGLE</mSpawnShape>
+    <mInitialCount>256</mInitialCount>
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>Snowflake1</mAnimation>
+    <mFrameDelay>20</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+		<mSeed>3</mSeed>
+
+		<mBounds>
+			<X>0</X>
+			<Y>0</Y>
+			<Width>480</Width>
+			<Height>272</Height>
+		</mBounds>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>-0.35</X>
+      <Y>0.35</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.00</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>1.0</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mMaxCount>256</mMaxCount>
+
+  </THParticleSpawner>
+  
+  
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// HEAVY SNOW //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="HeavySnow" mPPS="0">
+    <mSpawnShape>RECTANGLE</mSpawnShape>
+    <mInitialCount>512</mInitialCount>
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>Snowflake1</mAnimation>
+    <mFrameDelay>15</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+		<mSeed>4</mSeed>
+
+    <mBounds>
+      <X>0</X>
+      <Y>0</Y>
+			<Width>480</Width>
+			<Height>272</Height>
+    </mBounds>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>-0.75</X>
+      <Y>0.5</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.00</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>1.0</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mMaxCount>512</mMaxCount>
+
+  </THParticleSpawner>
+
+
+	<!-- //////////////////////////////////////////////////////////////////////-->
+	<!-- ///////////////////////////// MEMORY TRASHER PARTICLES //////////////////////////////-->
+	<!-- //////////////////////////////////////////////////////////////////////-->
+
+	<THParticleSpawner mName="MemoryTrasher" mPPS="1.5">
+		<mRenderType>Alpha</mRenderType>
+		<mTechnique>MemoryTrasherTechnique</mTechnique>
+
+		<!-- Initial offset from muzzle -->
+		<mStartOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</mStartOffset>
+
+		<!-- Velocity / Acceleration / Drag -->
+		<mVelocity>
+			<X>0.0</X>
+			<Y>0.0</Y>
+		</mVelocity>
+		<mSpeedVariation>0.0</mSpeedVariation>
+		<mAcceleration>
+			<X>0.0</X>
+			<Y>0.00</Y>
+		</mAcceleration>
+		<mDrag>0.0</mDrag>
+
+		<!-- Rotation / Spawn angle-->
+		<mRotationRate>0.00</mRotationRate>
+		<mRotationRateVariation>0.0</mRotationRateVariation>
+		<mVelocityAngleVariation>0</mVelocityAngleVariation>
+		<mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+		<!-- Scale start/end -->
+		<mScaleInAge>0.0</mScaleInAge>
+		<mScaleOutAge>1.0</mScaleOutAge>
+		<mScaleStart>
+			<X>1.0</X>
+			<Y>1.0</Y>
+		</mScaleStart>
+		<mScaleMid>
+			<X>1.0</X>
+			<Y>1.0</Y>
+		</mScaleMid>
+		<mScaleEnd>
+			<X>1.0</X>
+			<Y>1.0</Y>
+		</mScaleEnd>
+
+		<!-- Color / fade -->
+		<mColor>
+			<X>1.0</X>
+			<Y>1.0</Y>
+			<Z>1.0</Z>
+			<W>1.0</W>
+		</mColor>
+		<mFadeStart>0.0</mFadeStart>
+		<mFadeEnd>1.0</mFadeEnd>
+		<mFadeInAge>0.1</mFadeInAge>
+		<mFadeOutAge>0.9</mFadeOutAge>
+
+		<!-- Age / Count -->
+		<mMaxAge>300.0</mMaxAge>
+		<mAgeVariation>0.2</mAgeVariation>
+		<mMaxCount>2048</mMaxCount>
+
+	</THParticleSpawner>
+
+
+
+	<!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// STEAM  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="Steam" mPPS="10">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>Smoke1</mAnimation>
+    <mFrameDelay>8</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>-4</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>2</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.00</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>true</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.2</X>
+      <Y>0.2</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.6</X>
+      <Y>0.6</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.25</mFadeInAge>
+    <mFadeOutAge>0.80</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>35.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>200</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// NPC PARTICLES  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// EYESTALK GAS  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="EyeStalkGas" mPPS="30">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mHoldFirstFrame>true</mHoldFirstFrame>
+    <mAnimation>DustPoofsMediumRandom</mAnimation>
+    <mFrameDelay>8</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0.0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>1.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.01</Y>
+    </mAcceleration>
+    <mDrag>0.005</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>90</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.5</X>
+      <Y>1.5</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>2.0</X>
+      <Y>2.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.5</X>
+      <Y>1.0</Y>
+      <Z>0.8</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.05</mFadeInAge>
+    <mFadeOutAge>0.80</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>150.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>50</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// INKFISH INK  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="InkFishInk" mPPS="30">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mHoldFirstFrame>true</mHoldFirstFrame>
+    <mAnimation>DustPoofsMediumRandom</mAnimation>
+    <mFrameDelay>8</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0.0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>1.25</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>-0.01</Y>
+    </mAcceleration>
+    <mDrag>0.005</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>90</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.5</X>
+      <Y>1.5</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>2.0</X>
+      <Y>2.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.5</X>
+      <Y>0.0</Y>
+      <Z>0.8</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.05</mFadeInAge>
+    <mFadeOutAge>0.80</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>200.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>50</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// POLLEN PUFF GAS  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="PollenPuffGas" mPPS="30">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mHoldFirstFrame>true</mHoldFirstFrame>
+    <mAnimation>PollenRandom</mAnimation>
+    <mFrameDelay>8</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0.0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>3.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.05</Y>
+    </mAcceleration>
+    <mDrag>0.005</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>90</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>2.0</X>
+      <Y>2.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>2.0</X>
+      <Y>2.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>2.0</X>
+      <Y>2.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.8</X>
+      <Y>1.0</Y>
+      <Z>0.5</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.05</mFadeInAge>
+    <mFadeOutAge>0.80</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>150.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>50</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// SEALER DRONE MIST  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="SealerDroneMist" mPPS="30">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mHoldFirstFrame>true</mHoldFirstFrame>
+    <mAnimation>DustPoofsMediumRandom</mAnimation>
+    <mFrameDelay>8</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0.0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>1.25</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.02</Y>
+    </mAcceleration>
+    <mDrag>0.007</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>15</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>0.75</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.05</mFadeInAge>
+    <mFadeOutAge>0.80</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>75.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>50</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// SERPENT DRONE STEAM  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="SerpentDroneSteam" mPPS="15">
+    <mSpawnShape>RECTANGLE</mSpawnShape>
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mHoldFirstFrame>true</mHoldFirstFrame>
+    <mAnimation>DustPoofsMediumRandom</mAnimation>
+    <mFrameDelay>8</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mRenderLayer>PostFG</mRenderLayer>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>1.5</X>
+      <Y>0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.25</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>-0.02</Y>
+    </mAcceleration>
+    <mDrag>0.05</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>20</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mVelocityInheritPercent>0.0</mVelocityInheritPercent>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.75</X>
+      <Y>0.75</Y>      
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.9</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>0.75</mFadeEnd>
+    <mFadeInAge>0.10</mFadeInAge>
+    <mFadeOutAge>0.60</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>30.0</mMaxAge>
+    <mAgeVariation>0.5</mAgeVariation>
+    <mMaxCount>250</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// SERPENT DRONE HEAT DISTORTION  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="SerpentDroneDistortion" mPPS="15">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>DistortionSmoothed64x64</mAnimation>
+    <mRenderLayer>Distortion</mRenderLayer>
+    <mRenderType>Distortion</mRenderType>
+    <mTechnique>DistortionTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>2.0</X>
+      <Y>0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.25</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>-0.02</Y>
+    </mAcceleration>
+    <mDrag>0.05</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>30</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mVelocityInheritPercent>0.0</mVelocityInheritPercent>
+
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.5</mScaleInAge>
+    <mScaleOutAge>1.0</mScaleOutAge>
+    <mScaleStart>
+      <X>0.125</X>
+      <Y>0.125</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.25</X>
+      <Y>0.25</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.05</X>
+      <Y>0.05</Y>
+      <Z>0.05</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.15</mFadeInAge>
+    <mFadeOutAge>0.50</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>30.0</mMaxAge>
+    <mAgeVariation>0.5</mAgeVariation>
+    <mMaxCount>250</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// SERPENT DRONE SPARKS  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="SerpentDroneSparks" mPPS="15">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>ElectricBurst</mAnimation>
+    <mFrameDelay>3</mFrameDelay>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>4.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.03</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.2</X>
+      <Y>1.2</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>1.0</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>36.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>200</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// SCORPION FLAMES  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="SkyDroneFlames" mPPS="100">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>FlameThrowerLarge</mAnimation>
+    <mFrameDelay>5</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+    <mRenderLayer>PostFG</mRenderLayer>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>2</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>5</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.01</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>17</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.5</X>
+      <Y>1.5</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.90</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>50.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>256</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// SOLAR DRONE SPARKS  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="SolarDroneSparks" mPPS="15">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>ElectricBurst</mAnimation>
+    <mFrameDelay>3</mFrameDelay>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>2.75</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.03</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.2</X>
+      <Y>1.2</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>1.0</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>48.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>200</mMaxCount>
+
+  </THParticleSpawner>
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// SONAR DRONE SPARKS  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="SonarDroneSparks" mPPS="15">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>ElectricBurst</mAnimation>
+    <mFrameDelay>3</mFrameDelay>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+    
+    <!-- Happ 6/28/2021 - 
+    Currently RenderLayer has no effect because the Sonar drone manages its OWN particles so that it each drone
+    only does damage with the particles it emitted.  Currently I am drawing them within THSonarDrone.DrawGlow.
+    Could it be possible to have such particle buffers be owned by the creature but still rendered by the particlemanager?
+    Option 1:  NPC adds and removes buffer to special "RenderOnlyList" in the ParticleManager
+    *Option 2:  ParticleManager allocator has special "Unique" flag that forces it to not share the buffer with like spawners.
+    NPC still has to remove the spawner/buffer when it is removed itself.
+    -->
+    <!--
+    <mRenderLayer>PreFGWater</mRenderLayer> -->
+    
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>2.75</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.03</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.2</X>
+      <Y>1.2</Y>
+    </mScaleEnd>
+    
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>1.0</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>24.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>200</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// TRACKWELDER  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="TrackWelderFlame" mPPS="20">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>TrackWelderFlame</mAnimation>
+    <mFrameDelay>4</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>3</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.01</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.25</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>2.0</X>
+      <Y>2.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>2.0</X>
+      <Y>2.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.90</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>30.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>32</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// TRIPWIRE SPARKS  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="TripWireSparks" mPPS="60">
+    <mSpawnShape>RECTANGLE</mSpawnShape>
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>NanoSparkRandom</mAnimation>
+    <mHoldFirstFrame>true</mHoldFirstFrame>
+    <mRenderType>Additive</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+    <mRenderLayer>FG</mRenderLayer>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.0</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.0</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mVelocityAligned>false</mVelocityAligned>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mInitialRotationVariation>360</mInitialRotationVariation>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.25</X>
+      <Y>0.25</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>0.1</X>
+      <Y>0.1</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.25</X>
+      <Y>0.95</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.1</mFadeInAge>
+    <mFadeOutAge>0.1</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>10.0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mMaxCount>60</mMaxCount>
+
+  </THParticleSpawner>
+  
+  
+  
+  
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// DROMETON GAS  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="DrometonGas" mPPS="10">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>Smoke1</mAnimation>
+    <mFrameDelay>8</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>-10.0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>2</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.075</Y>
+    </mAcceleration>
+    <mDrag>0.00</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>true</mInitialVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.2</X>
+      <Y>0.2</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.6</X>
+      <Y>0.6</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>0.7</Y>
+      <Z>0.5</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.25</mFadeInAge>
+    <mFadeOutAge>0.80</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>25.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>200</mMaxCount>
+
+  </THParticleSpawner>
+
+
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// TUBEPUFF GAS  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="TubePuffGass" mPPS="10">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>Smoke1</mAnimation>
+    <mFrameDelay>8</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>-10.0</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>3</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.1</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.075</Y>
+    </mAcceleration>
+    <mDrag>0.00</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>0</mVelocityAngleVariation>
+    <mInitialVelocityAligned>true</mInitialVelocityAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>0.2</X>
+      <Y>0.2</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>0.6</X>
+      <Y>0.6</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>0.5</X>
+      <Y>1.0</Y>
+      <Z>0.8</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.05</mFadeInAge>
+    <mFadeOutAge>0.80</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>150.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>50</mMaxCount>
+
+  </THParticleSpawner>
+
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <!-- ///////////////////////////// SCORPION FLAMES  //////////////////////////////-->
+  <!-- //////////////////////////////////////////////////////////////////////-->
+  <THParticleSpawner mName="ScorpionFlames" mPPS="100">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mAnimation>FlameThrower1</mAnimation>
+    <mFrameDelay>5</mFrameDelay>
+    <mRenderType>Alpha</mRenderType>
+    <mTechnique>ParticleTechnique</mTechnique>
+
+    <!-- Initial offset from muzzle -->
+    <mStartOffset>
+      <X>2</X>
+      <Y>0</Y>
+    </mStartOffset>
+
+    <!-- Velocity / Acceleration / Drag -->
+    <mVelocity>
+      <X>5</X>
+      <Y>0.0</Y>
+    </mVelocity>
+    <mSpeedVariation>0.2</mSpeedVariation>
+    <!-- appears necessary for sprites to look good -->
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.0</Y>
+    </mAcceleration>
+    <mDrag>0.01</mDrag>
+
+    <!-- Rotation / Spawn angle-->
+    <mRotationRate>0.00</mRotationRate>
+    <mRotationRateVariation>0.0</mRotationRateVariation>
+    <mVelocityAngleVariation>17</mVelocityAngleVariation>
+    <mInitialVelocityAligned>false</mInitialVelocityAligned>
+    <mInitialRotationVariation>360</mInitialRotationVariation>
+    <mInitialRotationIncrement>90</mInitialRotationIncrement>
+
+    <!-- Scale start/end -->
+    <mScaleInAge>0.50</mScaleInAge>
+    <mScaleOutAge>0.50</mScaleOutAge>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleMid>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleMid>
+    <mScaleEnd>
+      <X>1.5</X>
+      <Y>1.5</Y>
+    </mScaleEnd>
+
+    <!-- Color / fade -->
+    <mColor>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.90</mFadeOutAge>
+
+    <!-- Age / Count -->
+    <mMaxAge>50.0</mMaxAge>
+    <mAgeVariation>0.1</mAgeVariation>
+    <mMaxCount>1024</mMaxCount>
+
+  </THParticleSpawner>
+
+</THParticleSettings>

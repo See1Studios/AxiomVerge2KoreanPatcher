@@ -1,0 +1,1602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>Drone.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>217</B>
+        <G>178</G>
+        <R>174</R>
+        <A>255</A>
+        <PackedValue>4292457134</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>229</G>
+        <R>188</R>
+        <A>255</A>
+        <PackedValue>4294960572</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>156</B>
+        <G>122</G>
+        <R>122</R>
+        <A>255</A>
+        <PackedValue>4288445050</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>157</B>
+        <G>143</G>
+        <R>81</R>
+        <A>255</A>
+        <PackedValue>4288515921</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>91</B>
+        <G>61</G>
+        <R>66</R>
+        <A>255</A>
+        <PackedValue>4284169538</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>84</B>
+        <G>59</G>
+        <R>35</R>
+        <A>255</A>
+        <PackedValue>4283710243</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>166</B>
+        <G>135</G>
+        <R>112</R>
+        <A>255</A>
+        <PackedValue>4289103728</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>185</B>
+        <G>123</G>
+        <R>123</R>
+        <A>255</A>
+        <PackedValue>4290345851</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>230</B>
+        <G>197</G>
+        <R>161</R>
+        <A>255</A>
+        <PackedValue>4293313953</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>244</B>
+        <G>181</G>
+        <R>197</R>
+        <A>255</A>
+        <PackedValue>4294227397</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>37</B>
+        <G>25</G>
+        <R>28</R>
+        <A>255</A>
+        <PackedValue>4280621340</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>63</B>
+        <G>22</G>
+        <R>12</R>
+        <A>255</A>
+        <PackedValue>4282324492</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <THColorSchemeData mName="Lattice1">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <THColorSchemeData mName="Lattice2">
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>217</B>
+        <G>178</G>
+        <R>174</R>
+        <A>255</A>
+        <PackedValue>4292457134</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>247</B>
+        <G>224</G>
+        <R>98</R>
+        <A>255</A>
+        <PackedValue>4294434914</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>156</B>
+        <G>122</G>
+        <R>122</R>
+        <A>255</A>
+        <PackedValue>4288445050</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>190</B>
+        <G>155</G>
+        <R>95</R>
+        <A>255</A>
+        <PackedValue>4290681695</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>91</B>
+        <G>61</G>
+        <R>66</R>
+        <A>255</A>
+        <PackedValue>4284169538</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>104</B>
+        <G>65</G>
+        <R>49</R>
+        <A>255</A>
+        <PackedValue>4285022513</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>37</B>
+        <G>25</G>
+        <R>28</R>
+        <A>255</A>
+        <PackedValue>4280621340</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>69</B>
+        <G>21</G>
+        <R>11</R>
+        <A>255</A>
+        <PackedValue>4282717451</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>230</B>
+        <G>197</G>
+        <R>161</R>
+        <A>255</A>
+        <PackedValue>4293313953</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>250</B>
+        <G>255</G>
+        <R>141</R>
+        <A>255</A>
+        <PackedValue>4294639501</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>166</B>
+        <G>135</G>
+        <R>112</R>
+        <A>255</A>
+        <PackedValue>4289103728</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>180</B>
+        <G>145</G>
+        <R>96</R>
+        <A>255</A>
+        <PackedValue>4290023776</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>84</B>
+        <G>47</G>
+        <R>35</R>
+        <A>255</A>
+        <PackedValue>4283707171</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>121</B>
+        <G>89</G>
+        <R>71</R>
+        <A>255</A>
+        <PackedValue>4286142791</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <THColorSchemeData mName="Lattice3">
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>217</B>
+        <G>178</G>
+        <R>174</R>
+        <A>255</A>
+        <PackedValue>4292457134</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>184</G>
+        <R>176</R>
+        <A>255</A>
+        <PackedValue>4294949040</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>156</B>
+        <G>122</G>
+        <R>122</R>
+        <A>255</A>
+        <PackedValue>4288445050</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>206</B>
+        <G>134</G>
+        <R>127</R>
+        <A>255</A>
+        <PackedValue>4291724927</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>91</B>
+        <G>61</G>
+        <R>66</R>
+        <A>255</A>
+        <PackedValue>4284169538</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>129</B>
+        <G>50</G>
+        <R>56</R>
+        <A>255</A>
+        <PackedValue>4286657080</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>37</B>
+        <G>25</G>
+        <R>28</R>
+        <A>255</A>
+        <PackedValue>4280621340</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>55</B>
+        <G>10</G>
+        <R>0</R>
+        <A>255</A>
+        <PackedValue>4281797120</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>230</B>
+        <G>197</G>
+        <R>161</R>
+        <A>255</A>
+        <PackedValue>4293313953</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>241</B>
+        <G>161</G>
+        <R>229</R>
+        <A>255</A>
+        <PackedValue>4294025701</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>166</B>
+        <G>135</G>
+        <R>112</R>
+        <A>255</A>
+        <PackedValue>4289103728</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>198</B>
+        <G>93</G>
+        <R>111</R>
+        <A>255</A>
+        <PackedValue>4291190127</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>84</B>
+        <G>47</G>
+        <R>35</R>
+        <A>255</A>
+        <PackedValue>4283707171</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>121</B>
+        <G>43</G>
+        <R>56</R>
+        <A>255</A>
+        <PackedValue>4286131000</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="DroneTexture">
+    <THSpriteAnimationData mName="Death" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\Death.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="28" mHeight="19" mDelay="1" mOriginX="14" mOriginY="19" mU="242" mV="71" mUVWidth="16" mUVHeight="14" mCropX="6" mCropY="5" mSourceImageName="..\Drone\Output\Death0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="4" mOriginX="14" mOriginY="19" mU="347" mV="15" mUVWidth="16" mUVHeight="12" mCropX="6" mCropY="7" mSourceImageName="..\Drone\Output\Death0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="4" mOriginX="14" mOriginY="19" mU="235" mV="233" mUVWidth="18" mUVHeight="9" mCropX="5" mCropY="10" mSourceImageName="..\Drone\Output\Death0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="72" mV="236" mUVWidth="20" mUVHeight="9" mCropX="4" mCropY="10" mSourceImageName="..\Drone\Output\Death0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="152" mV="153" mUVWidth="20" mUVHeight="13" mCropX="4" mCropY="6" mSourceImageName="..\Drone\Output\Death0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="51" mV="182" mUVWidth="22" mUVHeight="18" mCropX="2" mCropY="1" mSourceImageName="..\Drone\Output\Death0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="155" mV="104" mUVWidth="25" mUVHeight="19" mCropX="1" mCropY="0" mSourceImageName="..\Drone\Output\Death0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="187" mV="50" mUVWidth="26" mUVHeight="19" mCropX="2" mCropY="0" mSourceImageName="..\Drone\Output\Death0007.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="0" mV="105" mUVWidth="28" mUVHeight="19" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\Death0008.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="127" mV="104" mUVWidth="26" mUVHeight="19" mCropX="1" mCropY="0" mSourceImageName="..\Drone\Output\Death0009.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="0" mV="173" mUVWidth="24" mUVHeight="17" mCropX="2" mCropY="2" mSourceImageName="..\Drone\Output\Death0010.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="51" mV="202" mUVWidth="22" mUVHeight="14" mCropX="2" mCropY="5" mSourceImageName="..\Drone\Output\Death0011.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="311" mV="90" mUVWidth="12" mUVHeight="10" mCropX="7" mCropY="9" mSourceImageName="..\Drone\Output\Death0012.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="4" mOriginX="14" mOriginY="19" mU="324" mV="102" mUVWidth="10" mUVHeight="7" mCropX="9" mCropY="12" mSourceImageName="..\Drone\Output\Death0013.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="4" mOriginX="0" mOriginY="0" mU="204" mV="113" mUVWidth="8" mUVHeight="8" mCropX="10" mCropY="11" mSourceImageName="..\Drone\Output\Death0014.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Emerge" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\Emerge.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="28" mHeight="19" mDelay="4" mOriginX="14" mOriginY="19" mU="267" mV="162" mUVWidth="8" mUVHeight="8" mCropX="10" mCropY="11" mSourceImageName="..\Drone\Output\Emerge0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-8" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="4" mOriginX="14" mOriginY="19" mU="393" mV="33" mUVWidth="10" mUVHeight="7" mCropX="9" mCropY="12" mSourceImageName="..\Drone\Output\Emerge0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-7" mWidth="10" mHeight="7" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="82" mV="113" mUVWidth="12" mUVHeight="10" mCropX="7" mCropY="9" mSourceImageName="..\Drone\Output\Emerge0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="81" mV="163" mUVWidth="22" mUVHeight="14" mCropX="2" mCropY="5" mSourceImageName="..\Drone\Output\Emerge0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="56" mV="113" mUVWidth="24" mUVHeight="17" mCropX="2" mCropY="2" mSourceImageName="..\Drone\Output\Emerge0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-2" mWidth="10" mHeight="2" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="225" mV="31" mUVWidth="26" mUVHeight="19" mCropX="1" mCropY="0" mSourceImageName="..\Drone\Output\Emerge0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-2" mWidth="10" mHeight="2" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="96" mV="107" mUVWidth="28" mUVHeight="19" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\Emerge0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-3" mWidth="10" mHeight="3" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="187" mV="71" mUVWidth="26" mUVHeight="19" mCropX="2" mCropY="0" mSourceImageName="..\Drone\Output\Emerge0007.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-5" mWidth="10" mHeight="5" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="187" mV="92" mUVWidth="25" mUVHeight="19" mCropX="1" mCropY="0" mSourceImageName="..\Drone\Output\Emerge0008.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-6" mWidth="10" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="25" mV="213" mUVWidth="22" mUVHeight="18" mCropX="2" mCropY="1" mSourceImageName="..\Drone\Output\Emerge0009.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-8" mWidth="10" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="98" mV="207" mUVWidth="20" mUVHeight="13" mCropX="4" mCropY="6" mSourceImageName="..\Drone\Output\Emerge0010.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-8" mWidth="10" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="5" mOriginX="14" mOriginY="19" mU="176" mV="128" mUVWidth="20" mUVHeight="9" mCropX="4" mCropY="10" mSourceImageName="..\Drone\Output\Emerge0011.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-9" mWidth="10" mHeight="9" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="4" mOriginX="14" mOriginY="19" mU="253" mV="0" mUVWidth="18" mUVHeight="9" mCropX="5" mCropY="10" mSourceImageName="..\Drone\Output\Emerge0012.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-9" mWidth="10" mHeight="9" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="4" mOriginX="14" mOriginY="19" mU="296" mV="59" mUVWidth="16" mUVHeight="12" mCropX="6" mCropY="7" mSourceImageName="..\Drone\Output\Emerge0013.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="28" mHeight="19" mDelay="1" mOriginX="14" mOriginY="19" mU="242" mV="55" mUVWidth="16" mUVHeight="14" mCropX="6" mCropY="5" mSourceImageName="..\Drone\Output\Emerge0014.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StandingFall_D" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\StandingFall_D.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-11" mWidth="8" mHeight="11" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="21" mHeight="17" mDelay="8" mOriginX="12" mOriginY="13" mU="75" mV="182" mUVWidth="21" mUVHeight="12" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\StandingFall_D0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-2" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="17" mDelay="8" mOriginX="12" mOriginY="13" mU="130" mV="169" mUVWidth="20" mUVHeight="14" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\StandingFall_D0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-2" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="17" mDelay="8" mOriginX="12" mOriginY="13" mU="141" mV="187" mUVWidth="19" mUVHeight="16" mCropX="1" mCropY="1" mSourceImageName="..\Drone\Output\StandingFall_D0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-3" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StandingFall_DH" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\StandingFall_DH.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-11" mWidth="8" mHeight="11" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="21" mHeight="17" mDelay="8" mOriginX="12" mOriginY="13" mU="25" mV="233" mUVWidth="21" mUVHeight="12" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\StandingFall_DH0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-2" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="17" mDelay="8" mOriginX="12" mOriginY="13" mU="72" mV="220" mUVWidth="20" mUVHeight="14" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\StandingFall_DH0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-2" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="17" mDelay="8" mOriginX="12" mOriginY="13" mU="152" mV="168" mUVWidth="19" mUVHeight="17" mCropX="1" mCropY="0" mSourceImageName="..\Drone\Output\StandingFall_DH0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-3" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StandingFall_H" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\StandingFall_H.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="21" mHeight="17" mDelay="8" mOriginX="12" mOriginY="13" mU="130" mV="125" mUVWidth="21" mUVHeight="12" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\StandingFall_H0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="17" mDelay="8" mOriginX="12" mOriginY="13" mU="153" mV="137" mUVWidth="20" mUVHeight="14" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\StandingFall_H0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="17" mDelay="8" mOriginX="12" mOriginY="13" mU="94" mV="222" mUVWidth="19" mUVHeight="17" mCropX="1" mCropY="0" mSourceImageName="..\Drone\Output\StandingFall_H0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-5" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StandingFall_U" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\StandingFall_U.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-11" mWidth="8" mHeight="11" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="21" mHeight="16" mDelay="8" mOriginX="12" mOriginY="12" mU="130" mV="139" mUVWidth="21" mUVHeight="12" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\StandingFall_U0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-11" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="16" mDelay="8" mOriginX="12" mOriginY="12" mU="98" mV="191" mUVWidth="20" mUVHeight="14" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\StandingFall_U0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-11" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="16" mDelay="8" mOriginX="12" mOriginY="12" mU="120" mV="211" mUVWidth="19" mUVHeight="16" mCropX="1" mCropY="0" mSourceImageName="..\Drone\Output\StandingFall_U0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-12" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StandingFall_UH" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\StandingFall_UH.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-11" mWidth="8" mHeight="11" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="21" mHeight="17" mDelay="8" mOriginX="12" mOriginY="13" mU="49" mV="218" mUVWidth="21" mUVHeight="12" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\StandingFall_UH0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-8" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="17" mDelay="8" mOriginX="12" mOriginY="13" mU="130" mV="153" mUVWidth="20" mUVHeight="14" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\StandingFall_UH0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-8" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="17" mDelay="8" mOriginX="12" mOriginY="13" mU="198" mV="128" mUVWidth="19" mUVHeight="17" mCropX="1" mCropY="0" mSourceImageName="..\Drone\Output\StandingFall_UH0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-9" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle_D" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\Idle_D.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="347" mV="0" mUVWidth="16" mUVHeight="13" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\Idle_D0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-4" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="332" mV="30" mUVWidth="16" mUVHeight="12" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\Idle_D0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-3" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="278" mV="59" mUVWidth="16" mUVHeight="13" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\Idle_D0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-4" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="311" mV="0" mUVWidth="16" mUVHeight="14" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\Idle_D0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-5" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle_DH" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\Idle_DH.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="278" mV="44" mUVWidth="16" mUVHeight="13" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\Idle_DH0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="260" mV="101" mUVWidth="16" mUVHeight="12" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\Idle_DH0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-4" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="329" mV="15" mUVWidth="16" mUVHeight="13" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\Idle_DH0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="311" mV="16" mUVWidth="16" mUVHeight="14" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\Idle_DH0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-6" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle_H" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\Idle_H.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="278" mV="74" mUVWidth="16" mUVHeight="13" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\Idle_H0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-9" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="314" mV="32" mUVWidth="16" mUVHeight="12" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\Idle_H0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="260" mV="71" mUVWidth="16" mUVHeight="13" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\Idle_H0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-9" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="242" mV="87" mUVWidth="16" mUVHeight="14" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\Idle_H0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-10" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle_U" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\Idle_U.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="329" mV="0" mUVWidth="16" mUVHeight="13" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\Idle_U0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-13" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="241" mV="118" mUVWidth="16" mUVHeight="12" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\Idle_U0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-12" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="260" mV="86" mUVWidth="16" mUVHeight="13" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\Idle_U0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-13" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="260" mV="55" mUVWidth="16" mUVHeight="14" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\Idle_U0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-14" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle_UH" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\Idle_UH.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="296" mV="44" mUVWidth="16" mUVHeight="13" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\Idle_UH0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-11" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="314" mV="46" mUVWidth="16" mUVHeight="12" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\Idle_UH0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-10" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="241" mV="103" mUVWidth="16" mUVHeight="13" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\Idle_UH0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-11" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="14" mDelay="10" mOriginX="8" mOriginY="14" mU="291" mV="28" mUVWidth="16" mUVHeight="14" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\Idle_UH0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-12" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StandingJump_D" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\StandingJump_D.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="272" mV="137" mUVWidth="11" mUVHeight="19" mCropX="6" mCropY="0" mSourceImageName="..\Drone\Output\StandingJump_D0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-2" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="366" mV="16" mUVWidth="13" mUVHeight="15" mCropX="5" mCropY="0" mSourceImageName="..\Drone\Output\StandingJump_D0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-3" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="175" mV="231" mUVWidth="18" mUVHeight="12" mCropX="3" mCropY="1" mSourceImageName="..\Drone\Output\StandingJump_D0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-2" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="49" mV="232" mUVWidth="21" mUVHeight="10" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\StandingJump_D0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-2" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StandingJump_DH" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\StandingJump_DH.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="290" mV="120" mUVWidth="11" mUVHeight="19" mCropX="6" mCropY="0" mSourceImageName="..\Drone\Output\StandingJump_DH0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-4" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="398" mV="0" mUVWidth="13" mUVHeight="15" mCropX="5" mCropY="0" mSourceImageName="..\Drone\Output\StandingJump_DH0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-4" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="222" mV="180" mUVWidth="18" mUVHeight="12" mCropX="3" mCropY="1" mSourceImageName="..\Drone\Output\StandingJump_DH0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-3" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="153" mV="125" mUVWidth="21" mUVHeight="10" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\StandingJump_DH0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-3" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StandingJump_H" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\StandingJump_H.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="331" mV="74" mUVWidth="11" mUVHeight="19" mCropX="6" mCropY="0" mSourceImageName="..\Drone\Output\StandingJump_H0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-10" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="381" mV="16" mUVWidth="13" mUVHeight="15" mCropX="5" mCropY="0" mSourceImageName="..\Drone\Output\StandingJump_H0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="5" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="181" mV="217" mUVWidth="18" mUVHeight="12" mCropX="3" mCropY="1" mSourceImageName="..\Drone\Output\StandingJump_H0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="5" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="75" mV="196" mUVWidth="21" mUVHeight="10" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\StandingJump_H0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="5" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StandingJump_U" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\StandingJump_U.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="311" mV="102" mUVWidth="11" mUVHeight="18" mCropX="6" mCropY="1" mSourceImageName="..\Drone\Output\StandingJump_U0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-11" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="275" mV="120" mUVWidth="13" mUVHeight="15" mCropX="5" mCropY="0" mSourceImageName="..\Drone\Output\StandingJump_U0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-12" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="235" mV="166" mUVWidth="18" mUVHeight="12" mCropX="3" mCropY="1" mSourceImageName="..\Drone\Output\StandingJump_U0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-11" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="98" mV="179" mUVWidth="21" mUVHeight="10" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\StandingJump_U0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-11" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StandingJump_UH" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\StandingJump_UH.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="347" mV="62" mUVWidth="11" mUVHeight="19" mCropX="6" mCropY="0" mSourceImageName="..\Drone\Output\StandingJump_UH0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-9" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="348" mV="45" mUVWidth="13" mUVHeight="15" mCropX="5" mCropY="0" mSourceImageName="..\Drone\Output\StandingJump_UH0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-10" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="215" mV="166" mUVWidth="18" mUVHeight="12" mCropX="3" mCropY="1" mSourceImageName="..\Drone\Output\StandingJump_UH0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-9" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="21" mHeight="19" mDelay="8" mOriginX="11" mOriginY="12" mU="75" mV="208" mUVWidth="21" mUVHeight="10" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\StandingJump_UH0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-9" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StandingLand_D" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\StandingLand_D.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="18" mHeight="15" mDelay="8" mOriginX="10" mOriginY="15" mU="161" mV="209" mUVWidth="18" mUVHeight="15" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\StandingLand_D0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-6" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-15" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="15" mDelay="8" mOriginX="10" mOriginY="15" mU="222" mV="207" mUVWidth="18" mUVHeight="11" mCropX="0" mCropY="4" mSourceImageName="..\Drone\Output\StandingLand_D0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-2" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="15" mDelay="8" mOriginX="10" mOriginY="15" mU="273" mV="0" mUVWidth="17" mUVHeight="13" mCropX="1" mCropY="2" mSourceImageName="..\Drone\Output\StandingLand_D0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-4" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StandingLand_DH" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\StandingLand_DH.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="18" mHeight="16" mDelay="8" mOriginX="10" mOriginY="16" mU="182" mV="184" mUVWidth="18" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\StandingLand_DH0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-7" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-16" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="16" mDelay="8" mOriginX="10" mOriginY="16" mU="222" mV="220" mUVWidth="18" mUVHeight="11" mCropX="0" mCropY="5" mSourceImageName="..\Drone\Output\StandingLand_DH0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-3" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="16" mDelay="8" mOriginX="10" mOriginY="16" mU="292" mV="0" mUVWidth="17" mUVHeight="12" mCropX="1" mCropY="4" mSourceImageName="..\Drone\Output\StandingLand_DH0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-4" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StandingLand_H" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\StandingLand_H.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="18" mHeight="16" mDelay="8" mOriginX="10" mOriginY="16" mU="135" mV="229" mUVWidth="18" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\StandingLand_H0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-16" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="16" mDelay="8" mOriginX="10" mOriginY="16" mU="222" mV="194" mUVWidth="18" mUVHeight="11" mCropX="0" mCropY="5" mSourceImageName="..\Drone\Output\StandingLand_H0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="16" mDelay="8" mOriginX="10" mOriginY="16" mU="292" mV="14" mUVWidth="17" mUVHeight="12" mCropX="1" mCropY="4" mSourceImageName="..\Drone\Output\StandingLand_H0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StandingLand_U" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\StandingLand_U.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="18" mHeight="15" mDelay="8" mOriginX="10" mOriginY="15" mU="155" mV="229" mUVWidth="18" mUVHeight="15" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\StandingLand_U0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="1" mY="-14" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-15" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="15" mDelay="8" mOriginX="10" mOriginY="15" mU="215" mV="233" mUVWidth="18" mUVHeight="10" mCropX="0" mCropY="5" mSourceImageName="..\Drone\Output\StandingLand_U0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-10" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="15" mDelay="8" mOriginX="10" mOriginY="15" mU="253" mV="41" mUVWidth="17" mUVHeight="12" mCropX="1" mCropY="3" mSourceImageName="..\Drone\Output\StandingLand_U0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="StandingLand_UH" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\StandingLand_UH.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="18" mHeight="16" mDelay="8" mOriginX="10" mOriginY="16" mU="115" mV="229" mUVWidth="18" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\StandingLand_UH0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-16" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="16" mDelay="8" mOriginX="10" mOriginY="16" mU="195" mV="231" mUVWidth="18" mUVHeight="11" mCropX="0" mCropY="5" mSourceImageName="..\Drone\Output\StandingLand_UH0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="16" mDelay="8" mOriginX="10" mOriginY="16" mU="272" mV="30" mUVWidth="17" mUVHeight="12" mCropX="1" mCropY="4" mSourceImageName="..\Drone\Output\StandingLand_UH0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Run_DH" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\Run_DH.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="242" mV="180" mUVWidth="10" mUVHeight="13" mCropX="4" mCropY="1" mSourceImageName="..\Drone\Output\Run_DH0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="396" mV="17" mUVWidth="10" mUVHeight="13" mCropX="4" mCropY="1" mSourceImageName="..\Drone\Output\Run_DH0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="331" mV="60" mUVWidth="14" mUVHeight="12" mCropX="2" mCropY="2" mSourceImageName="..\Drone\Output\Run_DH0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-4" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="202" mV="198" mUVWidth="18" mUVHeight="12" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\Run_DH0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-4" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="278" mV="105" mUVWidth="14" mUVHeight="13" mCropX="2" mCropY="1" mSourceImageName="..\Drone\Output\Run_DH0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="253" mV="26" mUVWidth="17" mUVHeight="13" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\Run_DH0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="295" mV="104" mUVWidth="13" mUVHeight="14" mCropX="2" mCropY="0" mSourceImageName="..\Drone\Output\Run_DH0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-6" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="381" mV="33" mUVWidth="10" mUVHeight="14" mCropX="4" mCropY="0" mSourceImageName="..\Drone\Output\Run_DH0007.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-6" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Run_H" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\Run_H.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="375" mV="49" mUVWidth="10" mUVHeight="13" mCropX="4" mCropY="1" mSourceImageName="..\Drone\Output\Run_H0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-9" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="255" mV="162" mUVWidth="10" mUVHeight="13" mCropX="4" mCropY="1" mSourceImageName="..\Drone\Output\Run_H0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-9" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="256" mV="132" mUVWidth="14" mUVHeight="12" mCropX="2" mCropY="2" mSourceImageName="..\Drone\Output\Run_H0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="202" mV="184" mUVWidth="18" mUVHeight="12" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\Run_H0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="295" mV="89" mUVWidth="14" mUVHeight="13" mCropX="2" mCropY="1" mSourceImageName="..\Drone\Output\Run_H0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-9" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="253" mV="11" mUVWidth="17" mUVHeight="13" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\Run_H0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-9" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="366" mV="33" mUVWidth="13" mUVHeight="14" mCropX="2" mCropY="0" mSourceImageName="..\Drone\Output\Run_H0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-10" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="363" mV="49" mUVWidth="10" mUVHeight="14" mCropX="4" mCropY="0" mSourceImageName="..\Drone\Output\Run_H0007.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-10" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Run_UH" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\Run_UH.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="408" mV="17" mUVWidth="10" mUVHeight="13" mCropX="4" mCropY="1" mSourceImageName="..\Drone\Output\Run_UH0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-11" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="425" mV="0" mUVWidth="10" mUVHeight="13" mCropX="4" mCropY="1" mSourceImageName="..\Drone\Output\Run_UH0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-11" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="313" mV="76" mUVWidth="14" mUVHeight="12" mCropX="2" mCropY="2" mSourceImageName="..\Drone\Output\Run_UH0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-10" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="202" mV="212" mUVWidth="18" mUVHeight="12" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\Run_UH0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-10" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="239" mV="148" mUVWidth="14" mUVHeight="13" mCropX="2" mCropY="1" mSourceImageName="..\Drone\Output\Run_UH0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-11" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="272" mV="15" mUVWidth="17" mUVHeight="13" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\Run_UH0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-11" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="256" mV="146" mUVWidth="13" mUVHeight="14" mCropX="2" mCropY="0" mSourceImageName="..\Drone\Output\Run_UH0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-12" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="14" mDelay="3" mOriginX="9" mOriginY="14" mU="413" mV="0" mUVWidth="10" mUVHeight="14" mCropX="4" mCropY="0" mSourceImageName="..\Drone\Output\Run_UH0007.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-12" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-14" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Wound" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\Wound.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="18" mHeight="13" mDelay="8" mOriginX="7" mOriginY="13" mU="182" mV="202" mUVWidth="18" mUVHeight="13" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\Wound0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-7" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Projectile" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\Projectile.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="8" mHeight="8" mDelay="4" mOriginX="4" mOriginY="8" mU="360" mV="65" mUVWidth="8" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\Projectile0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-4" mAngle="0" mSpriteIndex="3" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-8" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="GrappleHang_D" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\GrappleHang_D.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="15" mHeight="14" mDelay="10" mOriginX="8" mOriginY="13" mU="239" mV="132" mUVWidth="15" mUVHeight="14" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\GrappleHang_D0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-4" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="GrappleHang_DH" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\GrappleHang_DH.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="15" mHeight="14" mDelay="10" mOriginX="8" mOriginY="13" mU="314" mV="60" mUVWidth="15" mUVHeight="14" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\GrappleHang_DH0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-5" mAngle="0.7853982" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="GrappleHang_H" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\GrappleHang_H.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="15" mHeight="14" mDelay="10" mOriginX="8" mOriginY="13" mU="296" mV="73" mUVWidth="15" mUVHeight="14" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\GrappleHang_H0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-9" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="GrappleHang_U" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\GrappleHang_U.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="15" mHeight="14" mDelay="10" mOriginX="8" mOriginY="13" mU="278" mV="89" mUVWidth="15" mUVHeight="14" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\GrappleHang_U0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-13" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="GrappleHang_UH" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\GrappleHang_UH.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="15" mHeight="14" mDelay="10" mOriginX="8" mOriginY="13" mU="365" mV="0" mUVWidth="15" mUVHeight="14" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\GrappleHang_UH0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="3" mY="-11" mAngle="5.49778748" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-13" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TurboZip" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\TurboZip.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="16" mDelay="2" mOriginX="8" mOriginY="14" mU="259" mV="115" mUVWidth="14" mUVHeight="14" mCropX="1" mCropY="1" mSourceImageName="..\Drone\Output\TurboZip0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-7" mY="-13" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="16" mDelay="2" mOriginX="8" mOriginY="14" mU="332" mV="44" mUVWidth="14" mUVHeight="14" mCropX="1" mCropY="1" mSourceImageName="..\Drone\Output\TurboZip0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-7" mY="-13" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="16" mDelay="2" mOriginX="8" mOriginY="14" mU="350" mV="29" mUVWidth="14" mUVHeight="14" mCropX="1" mCropY="1" mSourceImageName="..\Drone\Output\TurboZip0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-7" mY="-13" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="16" mDelay="2" mOriginX="8" mOriginY="14" mU="382" mV="0" mUVWidth="14" mUVHeight="14" mCropX="1" mCropY="1" mSourceImageName="..\Drone\Output\TurboZip0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="2" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-7" mY="-13" mWidth="14" mHeight="14" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Fly_H" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\Fly_H.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="18" mHeight="22" mDelay="1" mOriginX="10" mOriginY="20" mU="195" mV="162" mUVWidth="18" mUVHeight="20" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\Fly_H0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="22" mDelay="1" mOriginX="10" mOriginY="20" mU="219" mV="122" mUVWidth="18" mUVHeight="21" mCropX="0" mCropY="1" mSourceImageName="..\Drone\Output\Fly_H0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="22" mDelay="1" mOriginX="10" mOriginY="20" mU="141" mV="205" mUVWidth="18" mUVHeight="22" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\Fly_H0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="22" mDelay="1" mOriginX="10" mOriginY="20" mU="162" mV="187" mUVWidth="18" mUVHeight="20" mCropX="0" mCropY="2" mSourceImageName="..\Drone\Output\Fly_H0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="22" mDelay="1" mOriginX="10" mOriginY="20" mU="219" mV="145" mUVWidth="18" mUVHeight="19" mCropX="0" mCropY="3" mSourceImageName="..\Drone\Output\Fly_H0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="FromFly_H" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\FromFly_H.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="19" mHeight="19" mDelay="8" mOriginX="11" mOriginY="15" mU="175" mV="139" mUVWidth="19" mUVHeight="18" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\FromFly_H0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="19" mHeight="19" mDelay="8" mOriginX="11" mOriginY="15" mU="196" mV="147" mUVWidth="19" mUVHeight="13" mCropX="0" mCropY="3" mSourceImageName="..\Drone\Output\FromFly_H0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-6" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="19" mHeight="19" mDelay="8" mOriginX="11" mOriginY="15" mU="174" mV="159" mUVWidth="19" mUVHeight="16" mCropX="0" mCropY="3" mSourceImageName="..\Drone\Output\FromFly_H0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-4" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ToFly_H" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\ToFly_H.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="20" mHeight="18" mDelay="4" mOriginX="11" mOriginY="16" mU="182" mV="113" mUVWidth="20" mUVHeight="13" mCropX="0" mCropY="3" mSourceImageName="..\Drone\Output\ToFly_H0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="20" mHeight="18" mDelay="4" mOriginX="11" mOriginY="16" mU="120" mV="191" mUVWidth="19" mUVHeight="18" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\ToFly_H0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-7" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-11" mWidth="10" mHeight="10" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="EnergyCageForm" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\EnergyCageForm.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="30" mHeight="48" mDelay="7" mOriginX="13" mOriginY="36" mU="214" mV="102" mUVWidth="25" mUVHeight="18" mCropX="4" mCropY="19" mSourceImageName="..\Drone\Output\EnergyCageForm0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="30" mHeight="48" mDelay="7" mOriginX="16" mOriginY="36" mU="81" mV="132" mUVWidth="23" mUVHeight="29" mCropX="6" mCropY="10" mSourceImageName="..\Drone\Output\EnergyCageForm0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="30" mHeight="48" mDelay="7" mOriginX="16" mOriginY="36" mU="30" mV="112" mUVWidth="24" mUVHeight="40" mCropX="6" mCropY="4" mSourceImageName="..\Drone\Output\EnergyCageForm0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="30" mHeight="48" mDelay="7" mOriginX="16" mOriginY="36" mU="0" mV="192" mUVWidth="23" mUVHeight="48" mCropX="6" mCropY="0" mSourceImageName="..\Drone\Output\EnergyCageForm0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="30" mHeight="48" mDelay="7" mOriginX="16" mOriginY="36" mU="56" mV="132" mUVWidth="23" mUVHeight="48" mCropX="5" mCropY="0" mSourceImageName="..\Drone\Output\EnergyCageForm0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="30" mHeight="48" mDelay="7" mOriginX="16" mOriginY="36" mU="157" mV="54" mUVWidth="28" mUVHeight="48" mCropX="2" mCropY="0" mSourceImageName="..\Drone\Output\EnergyCageForm0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="30" mHeight="48" mDelay="7" mOriginX="16" mOriginY="36" mU="104" mV="0" mUVWidth="29" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\EnergyCageForm0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="30" mHeight="48" mDelay="7" mOriginX="16" mOriginY="36" mU="165" mV="0" mUVWidth="28" mUVHeight="48" mCropX="1" mCropY="0" mSourceImageName="..\Drone\Output\EnergyCageForm0007.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="EnergyCage" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\EnergyCage.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="35" mHeight="60" mDelay="7" mOriginX="18" mOriginY="39" mU="0" mV="0" mUVWidth="34" mUVHeight="50" mCropX="0" mCropY="3" mSourceImageName="..\Drone\Output\EnergyCage0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="60" mDelay="7" mOriginX="18" mOriginY="39" mU="135" mV="0" mUVWidth="28" mUVHeight="52" mCropX="6" mCropY="3" mSourceImageName="..\Drone\Output\EnergyCage0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="60" mDelay="7" mOriginX="18" mOriginY="39" mU="33" mV="52" mUVWidth="30" mUVHeight="58" mCropX="5" mCropY="2" mSourceImageName="..\Drone\Output\EnergyCage0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="60" mDelay="7" mOriginX="18" mOriginY="39" mU="71" mV="0" mUVWidth="31" mUVHeight="51" mCropX="3" mCropY="0" mSourceImageName="..\Drone\Output\EnergyCage0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="60" mDelay="7" mOriginX="18" mOriginY="39" mU="36" mV="0" mUVWidth="33" mUVHeight="50" mCropX="0" mCropY="3" mSourceImageName="..\Drone\Output\EnergyCage0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="60" mDelay="7" mOriginX="18" mOriginY="39" mU="96" mV="53" mUVWidth="29" mUVHeight="52" mCropX="6" mCropY="3" mSourceImageName="..\Drone\Output\EnergyCage0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="60" mDelay="7" mOriginX="18" mOriginY="39" mU="65" mV="53" mUVWidth="29" mUVHeight="58" mCropX="5" mCropY="2" mSourceImageName="..\Drone\Output\EnergyCage0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="35" mHeight="60" mDelay="7" mOriginX="18" mOriginY="39" mU="0" mV="52" mUVWidth="31" mUVHeight="51" mCropX="3" mCropY="0" mSourceImageName="..\Drone\Output\EnergyCage0007.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="EnergyCageDissolve" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Drone\Output\EnergyCageDissolve.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-5" mY="-12" mWidth="10" mHeight="12" mRadius="4" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="29" mHeight="48" mDelay="7" mOriginX="13" mOriginY="36" mU="195" mV="0" mUVWidth="28" mUVHeight="48" mCropX="1" mCropY="0" mSourceImageName="..\Drone\Output\EnergyCageDissolve0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="29" mHeight="48" mDelay="7" mOriginX="13" mOriginY="36" mU="127" mV="54" mUVWidth="28" mUVHeight="48" mCropX="0" mCropY="0" mSourceImageName="..\Drone\Output\EnergyCageDissolve0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="29" mHeight="48" mDelay="7" mOriginX="13" mOriginY="36" mU="215" mV="52" mUVWidth="25" mUVHeight="48" mCropX="2" mCropY="0" mSourceImageName="..\Drone\Output\EnergyCageDissolve0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="29" mHeight="48" mDelay="7" mOriginX="13" mOriginY="36" mU="106" mV="128" mUVWidth="22" mUVHeight="48" mCropX="6" mCropY="0" mSourceImageName="..\Drone\Output\EnergyCageDissolve0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="29" mHeight="48" mDelay="7" mOriginX="13" mOriginY="36" mU="0" mV="126" mUVWidth="24" mUVHeight="45" mCropX="5" mCropY="3" mSourceImageName="..\Drone\Output\EnergyCageDissolve0004.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="29" mHeight="48" mDelay="7" mOriginX="13" mOriginY="36" mU="26" mV="171" mUVWidth="23" mUVHeight="40" mCropX="4" mCropY="4" mSourceImageName="..\Drone\Output\EnergyCageDissolve0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="29" mHeight="48" mDelay="7" mOriginX="13" mOriginY="36" mU="225" mV="0" mUVWidth="26" mUVHeight="29" mCropX="3" mCropY="10" mSourceImageName="..\Drone\Output\EnergyCageDissolve0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="29" mHeight="48" mDelay="7" mOriginX="13" mOriginY="36" mU="26" mV="154" mUVWidth="24" mUVHeight="15" mCropX="3" mCropY="21" mSourceImageName="..\Drone\Output\EnergyCageDissolve0007.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="4" mY="-8" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="AmashilamaTarget" mX="12" mY="-12" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Handle">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="GrabPoint">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Flashlight">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Weapon">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="AmashilamaTarget">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

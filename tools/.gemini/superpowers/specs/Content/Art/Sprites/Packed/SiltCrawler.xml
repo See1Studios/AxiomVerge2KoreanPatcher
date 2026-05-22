@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>SiltCrawler.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="SiltCrawlerTexture">
+    <THSpriteAnimationData mName="Crawl" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\SiltCrawler\Output\Crawl.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-16" mY="-8" mWidth="32" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="32" mHeight="8" mDelay="6" mOriginX="16" mOriginY="8" mU="0" mV="0" mUVWidth="32" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\Crawl0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-16" mY="-4" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="8" mDelay="6" mOriginX="16" mOriginY="8" mU="0" mV="10" mUVWidth="32" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\Crawl0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-16" mY="-3" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="8" mDelay="6" mOriginX="16" mOriginY="8" mU="0" mV="20" mUVWidth="32" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\Crawl0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-16" mY="-4" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="8" mDelay="6" mOriginX="16" mOriginY="8" mU="0" mV="30" mUVWidth="32" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\Crawl0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-16" mY="-5" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Fire" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\SiltCrawler\Output\Fire.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-16" mY="-8" mWidth="32" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="31" mHeight="7" mDelay="12" mOriginX="15" mOriginY="7" mU="34" mV="0" mUVWidth="31" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\Fire0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-14" mY="-4" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="31" mHeight="7" mDelay="12" mOriginX="15" mOriginY="7" mU="34" mV="9" mUVWidth="31" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\Fire0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-15" mY="-4" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="FireUpright" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\SiltCrawler\Output\FireUpright.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-16" mY="-23" mWidth="32" mHeight="23" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="18" mHeight="23" mDelay="10" mOriginX="2" mOriginY="23" mU="98" mV="25" mUVWidth="18" mUVHeight="23" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\FireUpright0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-20" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-23" mWidth="18" mHeight="23" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="23" mDelay="10" mOriginX="2" mOriginY="23" mU="54" mV="70" mUVWidth="18" mUVHeight="23" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\FireUpright0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-1" mY="-20" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-23" mWidth="18" mHeight="23" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="18" mHeight="23" mDelay="10" mOriginX="2" mOriginY="23" mU="74" mV="70" mUVWidth="18" mUVHeight="23" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\FireUpright0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-2" mY="-20" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-23" mWidth="18" mHeight="23" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\SiltCrawler\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-16" mY="-8" mWidth="32" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="32" mHeight="7" mDelay="125" mOriginX="16" mOriginY="7" mU="0" mV="40" mUVWidth="32" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\Idle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-16" mY="-4" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="7" mDelay="12" mOriginX="16" mOriginY="7" mU="0" mV="49" mUVWidth="32" mUVHeight="7" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\Idle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-16" mY="-4" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ToCrawl" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\SiltCrawler\Output\ToCrawl.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-16" mY="-8" mWidth="32" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="30" mHeight="20" mDelay="12" mOriginX="14" mOriginY="20" mU="66" mV="23" mUVWidth="30" mUVHeight="20" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\ToCrawl0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-6" mY="-17" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-6" mY="-20" mWidth="22" mHeight="20" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="30" mHeight="20" mDelay="12" mOriginX="14" mOriginY="20" mU="0" mV="58" mUVWidth="30" mUVHeight="20" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\ToCrawl0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-9" mY="-14" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-9" mY="-18" mWidth="25" mHeight="18" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="30" mHeight="20" mDelay="12" mOriginX="14" mOriginY="20" mU="0" mV="80" mUVWidth="30" mUVHeight="20" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\ToCrawl0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-14" mY="-5" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-14" mY="-11" mWidth="30" mHeight="11" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ToUpright" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\SiltCrawler\Output\ToUpright.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-16" mY="-23" mWidth="32" mHeight="23" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="30" mHeight="21" mDelay="8" mOriginX="14" mOriginY="21" mU="34" mV="18" mUVWidth="30" mUVHeight="21" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\ToUpright0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-13" mY="-4" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-14" mY="-11" mWidth="30" mHeight="11" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="30" mHeight="21" mDelay="8" mOriginX="14" mOriginY="21" mU="67" mV="0" mUVWidth="30" mUVHeight="21" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\ToUpright0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-7" mY="-13" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-9" mY="-18" mWidth="25" mHeight="18" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="30" mHeight="21" mDelay="8" mOriginX="14" mOriginY="21" mU="34" mV="41" mUVWidth="30" mUVHeight="21" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\ToUpright0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-6" mY="-17" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-21" mWidth="23" mHeight="21" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="IdleUpright" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\SiltCrawler\Output\IdleUpright.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-16" mY="-23" mWidth="32" mHeight="23" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="20" mHeight="23" mDelay="10" mOriginX="4" mOriginY="23" mU="99" mV="0" mUVWidth="20" mUVHeight="23" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\IdleUpright0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-3" mY="-20" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-3" mY="-23" mWidth="19" mHeight="23" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="20" mHeight="23" mDelay="10" mOriginX="4" mOriginY="23" mU="66" mV="45" mUVWidth="20" mUVHeight="23" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\IdleUpright0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-2" mY="-20" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="-23" mWidth="18" mHeight="23" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="20" mHeight="23" mDelay="10" mOriginX="4" mOriginY="23" mU="32" mV="64" mUVWidth="20" mUVHeight="23" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\IdleUpright0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-3" mY="-18" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-3" mY="-21" mWidth="19" mHeight="21" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="20" mHeight="23" mDelay="10" mOriginX="4" mOriginY="23" mU="32" mV="89" mUVWidth="20" mUVHeight="23" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SiltCrawler\Output\IdleUpright0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="-4" mY="-18" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="-21" mWidth="20" mHeight="21" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

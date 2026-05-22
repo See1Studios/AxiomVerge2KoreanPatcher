@@ -1,0 +1,2532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THWeaponSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mDefaultSpriteSheet>WeaponEffects.xml</mDefaultSpriteSheet>
+  <!-- ######################################################################## -->
+  <!-- Address Disruptor 1 -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="AddressDisruptor1">
+    <mType>PROJECTILE</mType>
+    <THDamageType>HACK</THDamageType>
+
+    <mDamage>0</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mHackLevel>1</mHackLevel>
+    <mHackDamage>14</mHackDamage>
+    <mHackDamagePerLevel>2</mHackDamagePerLevel>
+    <mGlitchType>ADDRESS</mGlitchType>
+    <mOwnerType>PC</mOwnerType>
+    <mParticleLifeSpanPerLevel>1</mParticleLifeSpanPerLevel>
+    <mParticleScalePerLevel>
+      <X>0.01</X>
+      <Y>0.01</Y>
+    </mParticleScalePerLevel>
+    <mAnimation>GlitchRayMuzzleFlash</mAnimation>
+    <mMaxSkewer>32</mMaxSkewer>
+    <mDamagePeriod>8</mDamagePeriod>
+    <mHasRecoil>false</mHasRecoil>
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Address Disruptor 2 -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="AddressDisruptor2">
+    <mType>PROJECTILE</mType>
+    <THDamageType>HACK</THDamageType>
+
+    <mDamage>0</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mHackLevel>2</mHackLevel>
+    <mHackDamage>18</mHackDamage>
+    <mHackDamagePerLevel>2</mHackDamagePerLevel>
+    <mGlitchType>ADDRESS</mGlitchType>
+    <mOwnerType>PC</mOwnerType>
+    <mParticleLifeSpanPerLevel>1</mParticleLifeSpanPerLevel>
+    <mParticleScalePerLevel>
+      <X>0.01</X>
+      <Y>0.01</Y>
+    </mParticleScalePerLevel>
+    <mAnimation>GlitchRayMuzzleFlash</mAnimation>
+    <mMaxSkewer>32</mMaxSkewer>
+    <mDamagePeriod>8</mDamagePeriod>
+    <mHasRecoil>false</mHasRecoil>
+  </THWeaponData>
+
+
+
+  <!-- ######################################################################## -->
+  <!-- DATA DISRUPTOR -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="DataDisruptor">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>20</mDamage>
+    <mDamagePerLevel>10</mDamagePerLevel>
+    <mCoolDown>9</mCoolDown>
+    <mCoolDownPerLevel>0.2</mCoolDownPerLevel>
+    <mMuzzleFlashScale>
+      <X>0.8</X>
+      <Y>0.8</Y>
+    </mMuzzleFlashScale>
+    <mMuzzleFlashScalePerLevel>
+      <X>0.2</X>
+      <Y>0.2</Y>
+    </mMuzzleFlashScalePerLevel>
+    <mProjectileScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mProjectileScale>
+    <mProjectileScalePerLevel>
+      <X>0.15</X>
+      <Y>0.15</Y>
+    </mProjectileScalePerLevel>
+
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+
+    <mMaxProjectiles>12</mMaxProjectiles>
+    <mProjectileSpeed>6.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>8.0</mMaxProjectileSpeed>
+    <!-- When accounding for Trace's velocity as well-->
+    <mProjectileLifeSpan>108</mProjectileLifeSpan>
+    <mProjectileAnimation>DataDisruptorProj1</mProjectileAnimation>
+    <mMuzzleFlash>DataDisruptorFlash1</mMuzzleFlash>
+    <mImpact>DataDisruptorImpact1</mImpact>
+    <mProjectileDeathExplosion>DataDisruptorImpact1</mProjectileDeathExplosion>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.25</Y>
+      <Z>0.25</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mHasRecoil>true</mHasRecoil>
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Data Grenade -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="DataGrenade">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>26</mDamage>
+    <mDamagePerLevel>13</mDamagePerLevel>
+
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+
+    <mMaxProjectiles>7</mMaxProjectiles>
+    <mProjectileSpeed>4</mProjectileSpeed>
+    <mMaxProjectileSpeed>8</mMaxProjectileSpeed>
+    <mProjectileLifeSpan>90</mProjectileLifeSpan>
+
+    <mDetonationScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mDetonationScale>
+    <mDetonationScalePerLevel>
+      <X>0.1</X>
+      <Y>0.1</Y>
+    </mDetonationScalePerLevel>
+
+
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>18</mDamagePeriod>
+    <mCoolDown>12</mCoolDown>
+
+    <mProjectileAnimation>WallTraceProj</mProjectileAnimation>
+    <mImpact>DataGrenadeExplosion</mImpact>
+    <mImpactDistortion>DataGrenadeDistortion</mImpactDistortion>
+    <mProjectileDeathExplosion>DataGrenadeExplosion</mProjectileDeathExplosion>
+    <mMuzzleFlash>DataGrenadeFlash</mMuzzleFlash>
+
+    <mProjectileTint>
+      <X>0.15</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+
+    <mDetonateOnCollision>true</mDetonateOnCollision>
+    <mProjectileCausesDamage>true</mProjectileCausesDamage>
+    <mExplosionCausesDamage>true</mExplosionCausesDamage>
+    <mAngleAligned>true</mAngleAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Distortion Field -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="DistortionField">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>14</mDamage>
+    <mDamagePerLevel>7</mDamagePerLevel>
+    <mOwnerType>PC</mOwnerType>
+    <mParticleLifeSpanPerLevel>0.3</mParticleLifeSpanPerLevel>
+    <mParticleScalePerLevel>
+      <X>0.015</X>
+      <Y>0.015</Y>
+    </mParticleScalePerLevel>
+
+    <mAnimation>GlitchRayMuzzleFlash</mAnimation>
+    <mMaxSkewer>32</mMaxSkewer>
+    <mDamagePeriod>8</mDamagePeriod>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>true</mCausesStun>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Drill -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="Drill">
+    <mType>LASER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>18</mDamage>
+    <mDamagePerLevel>9</mDamagePerLevel>
+    <mLength>34</mLength>
+    <mLengthPerLevel>5</mLengthPerLevel>
+    <mWidth>10</mWidth>
+    <mWidthPerLevel>1.0</mWidthPerLevel>
+    <mImpactLoopSoundName>DrillImpactLoop</mImpactLoopSoundName>
+    <mDamageLoopSoundName>DrillStoneLoop</mDamageLoopSoundName>
+
+    <mHardness>1</mHardness>
+    <mOwnerType>PC</mOwnerType>
+
+    <mAnimation>Drill1_H</mAnimation>
+    <mLaserTexture>DrillLaser1</mLaserTexture>
+    <mImpact>DrillLaser1Sparks</mImpact>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>5</mDamagePeriod>
+    <mCausesStun>false</mCausesStun>
+    <mHasRecoil>false</mHasRecoil>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- DroneDrill -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="DroneDrill">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>12</mDamage>
+    <mDamagePerLevel>6</mDamagePerLevel>
+    <mHardness>1</mHardness>
+    <mOwnerType>PC</mOwnerType>
+    <mParticleLifeSpanPerLevel>0.5</mParticleLifeSpanPerLevel>
+    <mParticleScalePerLevel>
+      <X>0.01</X>
+      <Y>0.01</Y>
+    </mParticleScalePerLevel>
+
+    <mAnimation>GlitchRayMuzzleFlash</mAnimation>
+    <mMaxSkewer>32</mMaxSkewer>
+    <mDamagePeriod>8</mDamagePeriod>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <!--
+  <THWeaponData mName="DroneDrill">
+    <mType>OTHER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>16</mDamage>
+    <mDamagePerLevel>8</mDamagePerLevel>
+    <mLength>40</mLength>
+    <mLengthPerLevel>3</mLengthPerLevel>
+    <mWidth>2</mWidth>
+    <mWidthPerLevel>0</mWidthPerLevel>
+    <mImpactLoopSoundName>DrillImpactLoop</mImpactLoopSoundName>
+    <mDamageLoopSoundName>DrillStoneLoop</mDamageLoopSoundName>
+    <mHardness>1</mHardness>
+    <mOwnerType>PC</mOwnerType>
+		<mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+
+    <mAnimation>Drill1_H</mAnimation>
+    <mLaserTexture>DroneDrillLaser1</mLaserTexture>
+    <mImpact>DroneDrillLaser1Sparks</mImpact>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>6</mDamagePeriod>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>-->
+
+
+
+
+  <!-- ######################################################################## -->
+  <!-- FAT BEAM -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="FatBeam">
+    <mType>LASER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>10</mDamage>
+    <mDamagePerLevel>5</mDamagePerLevel>
+    <mLength>960</mLength>
+    <mLengthPerLevel>0</mLengthPerLevel>
+    <mWidth>48</mWidth>
+    <mWidthPerLevel>1</mWidthPerLevel>
+    <mHardness>0</mHardness>
+    <mOwnerType>PC</mOwnerType>
+
+    <mLaserTexture>IonBeam1</mLaserTexture>
+    <mImpact>IonBeamSparks</mImpact>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>6</mDamagePeriod>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- FIREWALL -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="FireWall">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>16</mDamage>
+    <mDamagePerLevel>8</mDamagePerLevel>
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+
+    <mMaxProjectiles>7</mMaxProjectiles>
+    <mProjectileSpeed>3</mProjectileSpeed>
+    <mMaxProjectileSpeed>4</mMaxProjectileSpeed>
+    <mInheritVelocity>false</mInheritVelocity>
+    <mGravity>0.2</mGravity>
+
+    <!-- When accounding for Trace's velocity as well-->
+    <mCoolDown>10</mCoolDown>
+
+    <mBypassPhysics>true</mBypassPhysics>
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>true</mVelocityAligned>
+    <mDetonateOnCollision>false</mDetonateOnCollision>
+    <mProjectileCausesDamage>false</mProjectileCausesDamage>
+    <mParticleLifeSpanPerLevel>2</mParticleLifeSpanPerLevel>
+    <mParticleScalePerLevel>
+      <X>0.025</X>
+      <Y>0.025</Y>
+    </mParticleScalePerLevel>
+
+    <mProjectileAnimation>FireWall1</mProjectileAnimation>
+    <mMuzzleFlash>FireWallFlash1</mMuzzleFlash>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+
+    <mMaxSkewer>32</mMaxSkewer>
+    <mDamagePeriod>10</mDamagePeriod>
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Flamethrower -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="FlameThrower">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>16</mDamage>
+    <mDamagePerLevel>8</mDamagePerLevel>
+    <mOwnerType>PC</mOwnerType>
+
+    <mAnimation>GlitchRayMuzzleFlash</mAnimation>
+    <mMaxSkewer>32</mMaxSkewer>
+    <mDamagePeriod>8</mDamagePeriod>
+    <mParticleLifeSpanPerLevel>2.5</mParticleLifeSpanPerLevel>
+    <mParticleScalePerLevel>
+      <X>0.025</X>
+      <Y>0.025</Y>
+    </mParticleScalePerLevel>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- HACK BOMB -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="GlitchBomb">
+    <mType>PROJECTILE</mType>
+    <THDamageType>HACK</THDamageType>
+    <mDamage>0</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mHackLevel>3</mHackLevel>
+    <mHackDamage>1000</mHackDamage>
+    <mHackDamagePerLevel>4</mHackDamagePerLevel>
+    <mGlitchType>ADDRESS</mGlitchType>
+
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+
+    <mMaxProjectiles>1</mMaxProjectiles>
+    <mProjectileSpeed>3</mProjectileSpeed>
+    <mMaxProjectileSpeed>3</mMaxProjectileSpeed>
+    <mProjectileLifeSpan>25</mProjectileLifeSpan>
+    <mProjectileRenderLayer>FG</mProjectileRenderLayer>
+
+    <mInheritVelocity>false</mInheritVelocity>
+    <mAngleAligned>true</mAngleAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+
+    <mCoolDown>20</mCoolDown>
+
+    <mBypassPhysics>false</mBypassPhysics>
+    <mDetonateOnCollision>false</mDetonateOnCollision>
+    <mCollidesWithTiles>false</mCollidesWithTiles>
+    <mProjectileCausesDamage>false</mProjectileCausesDamage>
+
+    <mProjectileAnimation>GlitchBombProj</mProjectileAnimation>
+
+    <mMuzzleFlash>GlitchBombFlash</mMuzzleFlash>
+    <mFireSoundName>GlitchBombFire</mFireSoundName>
+
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+
+
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- Grapple -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="Grapple">
+    <mType>OTHER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>12</mDamage>
+    <mDamagePerLevel>6</mDamagePerLevel>
+    <mLength>66</mLength>
+    <mLengthPerLevel>0</mLengthPerLevel>
+    <mWidth>5</mWidth>
+    <mWidthPerLevel>0</mWidthPerLevel>
+    <mHardness>0</mHardness>
+    <mOwnerType>PC</mOwnerType>
+    <mFireSoundName>GrappleFire</mFireSoundName>
+    <mLaserTexture>GrappleCord</mLaserTexture>
+    <mImpact>IonBeamSparks</mImpact>
+    <mMaxSkewer>1</mMaxSkewer>
+    <mDamagePeriod>6</mDamagePeriod>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>true</mCausesStun>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- HeatSeeker -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="HeatSeeker">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>16</mDamage>
+    <mDamagePerLevel>8</mDamagePerLevel>
+    <mCoolDown>9</mCoolDown>
+    <mCoolDownPerLevel>0.0</mCoolDownPerLevel>
+    <mMuzzleFlashScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mMuzzleFlashScale>
+    <mProjectileScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mProjectileScale>
+    <mProjectileScalePerLevel>
+      <X>0.1</X>
+      <Y>0.1</Y>
+    </mProjectileScalePerLevel>
+
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+    <mMaxProjectiles>12</mMaxProjectiles>
+    <mProjectileSpeed>5.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>5.0</mMaxProjectileSpeed>
+    <mProjectileLifeSpan>60</mProjectileLifeSpan>
+    <mProjectileLifeSpanPerLevel>6</mProjectileLifeSpanPerLevel>
+    <mAngularVelocity>0.1</mAngularVelocity>
+    <mAngularVelocityPerLevel>0.0</mAngularVelocityPerLevel>
+
+    <mProjectileAnimation>SentinelHeatSeeker1</mProjectileAnimation>
+    <mMuzzleFlash>HeatSeekerFlash</mMuzzleFlash>
+    <mFireSoundName>SecurityWormFire</mFireSoundName>
+    <mImpact>DataDisruptorImpact1</mImpact>
+    <mProjectileDeathExplosion>DataDisruptorImpact1</mProjectileDeathExplosion>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.5</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+    <mVelocityAligned>true</mVelocityAligned>
+    <mHasRecoil>false</mHasRecoil>
+
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- IntertialPulse -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="InertialPulse">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>28</mDamage>
+    <mDamagePerLevel>14</mDamagePerLevel>
+    <mCoolDown>10</mCoolDown>
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+    <mMaxProjectiles>9</mMaxProjectiles>
+    <mProjectileSpeed>5</mProjectileSpeed>
+    <mMaxProjectileSpeed>8.0</mMaxProjectileSpeed>
+
+
+    <mProjectileScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mProjectileScale>
+    <mProjectileScalePerLevel>
+      <X>0.1</X>
+      <Y>0.1</Y>
+    </mProjectileScalePerLevel>
+    <mProjectileLifeSpan>150</mProjectileLifeSpan>
+    <mProjectileLifeSpanPerLevel>1</mProjectileLifeSpanPerLevel>
+
+    <mProjectileAnimation>InertialPulse</mProjectileAnimation>
+    <mFireSoundName>InertialPulse</mFireSoundName>
+    <mMuzzleFlash>MultiDisruptorFlash1</mMuzzleFlash>
+    <mImpact>MultiDisruptorImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+    <mProjectileTint>
+      <X>0.2</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+    <mCollidesWithEnemies>false</mCollidesWithEnemies>
+    <mMaxSkewer>32</mMaxSkewer>
+    <mDamagePeriod>20</mDamagePeriod>
+    <mVelocityAligned>false</mVelocityAligned>
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Ion Beam -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="IonBeam">
+    <mType>LASER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>12</mDamage>
+    <mDamagePerLevel>6</mDamagePerLevel>
+    <mLength>960</mLength>
+    <mLengthPerLevel>0</mLengthPerLevel>
+    <mWidth>7</mWidth>
+    <mWidthPerLevel>0</mWidthPerLevel>
+    <mHardness>0</mHardness>
+    <mOwnerType>PC</mOwnerType>
+    <mLaserTexture>IonBeam1</mLaserTexture>
+    <mImpact>IonBeamSparks</mImpact>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>6</mDamagePeriod>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- KILVER -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="Kilver">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>34</mDamage>
+    <mDamagePerLevel>17</mDamagePerLevel>
+    <mOwnerType>PC</mOwnerType>
+    <mNumProjectiles>0</mNumProjectiles>
+    <!-- Damage is done solely through muzzle flash. -->
+    <mMuzzleFlashScale>
+      <X>0.7</X>
+      <Y>0.7</Y>
+    </mMuzzleFlashScale>
+    <mMuzzleFlashScalePerLevel>
+      <X>0.05</X>
+      <Y>0.05</Y>
+    </mMuzzleFlashScalePerLevel>
+    <mDetonateOnCollision>false</mDetonateOnCollision>
+    <mProjectileCausesDamage>false</mProjectileCausesDamage>
+    <mExplosionCausesDamage>false</mExplosionCausesDamage>
+    <mFlashCausesDamage>true</mFlashCausesDamage>
+    <mMuzzleFlash>KilverFlash1</mMuzzleFlash>
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>18</mDamagePeriod>
+    <mCoolDown>18</mCoolDown>
+
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- LIGHTNING GUN-->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="LightningGun">
+    
+    <mType>LASER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>10</mDamage>
+    <mDamagePerLevel>5</mDamagePerLevel>
+    <mLength>128</mLength>
+    <mLengthPerLevel>3</mLengthPerLevel>
+    <mWidth>13</mWidth>
+    <mWidthPerLevel>0</mWidthPerLevel>
+    <mHardness>0</mHardness>
+    <mOwnerType>PC</mOwnerType>
+
+    <mLaserTexture>LightningBolt1</mLaserTexture>
+    <mImpact>LightningGunSparks</mImpact>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>6</mDamagePeriod>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- MULTI DISRUPTOR -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="MultiDisruptor">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>12</mDamage>
+    <mDamagePerLevel>6</mDamagePerLevel>
+    <mCoolDown>10</mCoolDown>
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+
+    <mNumProjectiles>3</mNumProjectiles>
+    <mMaxProjectiles>15</mMaxProjectiles>
+    <mProjectileScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mProjectileScale>
+    <mProjectileScalePerLevel>
+      <X>0.075</X>
+      <Y>0.075</Y>
+    </mProjectileScalePerLevel>
+
+    <mProjectileSpreadAngle>60</mProjectileSpreadAngle>
+    <mProjectileSpeed>5.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>8.0</mMaxProjectileSpeed>
+    <!-- When accounding for Trace's velocity as well-->
+    <mProjectileLifeSpan>16</mProjectileLifeSpan>
+    <mProjectileLifeSpanPerLevel>3</mProjectileLifeSpanPerLevel>
+
+    <mProjectileAnimation>MultiDisruptorProj1</mProjectileAnimation>
+    <mMuzzleFlash>MultiDisruptorFlash1</mMuzzleFlash>
+    <mImpact>MultiDisruptorImpact1</mImpact>
+    <mProjectileTint>
+      <X>0.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- NOVA -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="Nova">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>30</mDamage>
+    <mDamagePerLevel>15</mDamagePerLevel>
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+    <mCoolDown>12</mCoolDown>
+    <mCoolDownPerLevel>0.4</mCoolDownPerLevel>
+
+    <mMaxProjectiles>1</mMaxProjectiles>
+    <mProjectileSpeed>4.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>8.0</mMaxProjectileSpeed>
+    <!-- When accounding for Trace's velocity as well-->
+    <mProjectileLifeSpan>-1</mProjectileLifeSpan>
+    <mProjectileScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mProjectileScale>
+    <mProjectileScalePerLevel>
+      <X>0.1</X>
+      <Y>0.1</Y>
+    </mProjectileScalePerLevel>
+
+    <mProjectileAnimation>NovaProj1</mProjectileAnimation>
+    <mMuzzleFlash>NovaFlash1</mMuzzleFlash>
+    <mImpact>NovaImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- NOVA SHARD -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="NovaShard">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>18</mDamage>
+    <mDamagePerLevel>9</mDamagePerLevel>
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+
+    <mMaxProjectiles>6</mMaxProjectiles>
+    <mProjectileSpeed>4.0</mProjectileSpeed>
+    <mProjectileLifeSpan>12</mProjectileLifeSpan>
+    <mProjectileLifeSpanPerLevel>2</mProjectileLifeSpanPerLevel>
+    <mProjectileScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mProjectileScale>
+    <mProjectileScalePerLevel>
+      <X>0.1</X>
+      <Y>0.1</Y>
+    </mProjectileScalePerLevel>
+
+    <mProjectileAnimation>NovaProj1Shard</mProjectileAnimation>
+    <mImpact>NovaImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+    <mProjectileDeathExplosion>NovaImpact1</mProjectileDeathExplosion>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mHasRecoil>false</mHasRecoil>
+
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- OVERCLOCK WEAPON -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="OverclockWeapon">
+    <mType>OTHER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>30</mDamage>
+    <mDamagePerLevel>10</mDamagePerLevel>
+    <mHardness>1</mHardness>
+    <mOwnerType>PC</mOwnerType>
+    <mMaxSkewer>32</mMaxSkewer>
+    <mDamagePeriod>8</mDamagePeriod>
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- OVERCLOCK TILE DESTROYER -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="OverclockTileDestroyer">
+    <mType>OTHER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>10000</mDamage>
+    <mDamagePerLevel>1000</mDamagePerLevel>
+    <mHardness>2</mHardness>
+    <mOwnerType>PC</mOwnerType>
+    <mMaxSkewer>32</mMaxSkewer>
+    <mDamagePeriod>8</mDamagePeriod>
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Reflect -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="Reflect">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>16</mDamage>
+    <mDamagePerLevel>8</mDamagePerLevel>
+    <mCoolDown>10</mCoolDown>
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+
+    <mNumProjectiles>1</mNumProjectiles>
+    <mMaxProjectiles>12</mMaxProjectiles>
+    <mProjectileScale>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mProjectileScale>
+    <mProjectileScalePerLevel>
+      <X>0.1</X>
+      <Y>0.1</Y>
+    </mProjectileScalePerLevel>
+    <mProjectileSpreadAngle>50</mProjectileSpreadAngle>
+    <mProjectileSpeed>4.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>8.0</mMaxProjectileSpeed>
+    <!-- When accounding for Trace's velocity as well-->
+    <mProjectileLifeSpan>64</mProjectileLifeSpan>
+    <mProjectileLifeSpanPerLevel>12</mProjectileLifeSpanPerLevel>
+
+    <mProjectileAnimation>ReflectProj</mProjectileAnimation>
+    <mMuzzleFlash>ReflectFlash1</mMuzzleFlash>
+    <mImpact>ReflectImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.5</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mReflect>true</mReflect>
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>true</mVelocityAligned>
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- Scythe -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="Scythe">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>24</mDamage>
+    <mDamagePerLevel>12</mDamagePerLevel>
+    <mCoolDown>15</mCoolDown>
+    <mCoolDownPerLevel>0.2</mCoolDownPerLevel>
+    <mProjectileScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mProjectileScale>
+    <mProjectileScalePerLevel>
+      <X>0.05</X>
+      <Y>0.05</Y>
+    </mProjectileScalePerLevel>
+
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+
+    <mMaxProjectiles>8</mMaxProjectiles>
+    <mProjectileSpeed>4.0</mProjectileSpeed>
+    <mProjectileSpeedPerLevel>0.1</mProjectileSpeedPerLevel>
+    <mMaxProjectileSpeed>6.0</mMaxProjectileSpeed>
+    <mInheritVelocity>false</mInheritVelocity>
+    <!-- When accounding for Trace's velocity as well-->
+    <mProjectileLifeSpan>116</mProjectileLifeSpan>
+    <mProjectileLifeSpanPerLevel>2</mProjectileLifeSpanPerLevel>
+    <mProjectileAnimation>Scythe</mProjectileAnimation>
+    <mMuzzleFlash></mMuzzleFlash>
+    <mFireSoundName>WeaponSlash</mFireSoundName>
+    <mImpact>ScytheImpact</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+    <mForceFullCollisionOnFlaggedTiles>true</mForceFullCollisionOnFlaggedTiles>
+
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+    <mCollidesWithEnemies>false</mCollidesWithEnemies>
+    <mCollidesWithTiles>false</mCollidesWithTiles>
+    <mMaxSkewer>32</mMaxSkewer>
+    <mDamagePeriod>20</mDamagePeriod>
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Shards -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="Shards">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>12</mDamage>
+    <mDamagePerLevel>6</mDamagePerLevel>
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+
+    <mAnimation></mAnimation>
+    <mMaxSkewer>32</mMaxSkewer>
+    <mDamagePeriod>4</mDamagePeriod>
+    <mParticleLifeSpanPerLevel>2.5</mParticleLifeSpanPerLevel>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- SWIM -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="Swim">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>18</mDamage>
+    <mDamagePerLevel>9</mDamagePerLevel>
+
+    <!-- This regulates rate of fire-->
+    <mCoolDown>8</mCoolDown>
+    <mCoolDownPerLevel>0.0</mCoolDownPerLevel>
+    <mMuzzleFlashScale>
+      <X>0.8</X>
+      <Y>0.8</Y>
+    </mMuzzleFlashScale>
+    <mMuzzleFlashScalePerLevel>
+      <X>0.2</X>
+      <Y>0.2</Y>
+    </mMuzzleFlashScalePerLevel>
+    <mProjectileScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mProjectileScale>
+    <mProjectileScalePerLevel>
+      <X>0.1</X>
+      <Y>0.1</Y>
+    </mProjectileScalePerLevel>
+
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+
+    <mMaxProjectiles>12</mMaxProjectiles>
+    <mProjectileSpeed>7.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>8.0</mMaxProjectileSpeed>
+    <!-- When accounding for Trace's velocity as well-->
+    <mProjectileLifeSpan>100</mProjectileLifeSpan>
+    <mProjectileAnimation>DataDisruptorProj1</mProjectileAnimation>
+    <mMuzzleFlash>SwimFlash1</mMuzzleFlash>
+    <mImpact>SwimImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>0.5</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+    <mVelocityAligned>true</mVelocityAligned>
+    <mHasRecoil>false</mHasRecoil>
+
+  </THWeaponData>
+
+
+
+  <!-- ######################################################################## -->
+  <!-- TriCone -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="TriCone">
+    <mType>LASER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+
+    <mMuzzleFlash>TriConeFlash1</mMuzzleFlash>
+
+    <mDamage>18</mDamage>
+    <mDamagePerLevel>9</mDamagePerLevel>
+    <mLength>8</mLength>
+    <mLengthPerLevel>1</mLengthPerLevel>
+    <mWidth>20</mWidth>
+    <mWidthPerLevel>0</mWidthPerLevel>
+    <mHardness>0</mHardness>
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>5</mDamagePeriod>
+
+    <mLaserTexture>TriCone1</mLaserTexture>
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- TriConeShard -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="TriConeShard">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>6</mDamage>
+    <mDamagePerLevel>3</mDamagePerLevel>
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+
+
+    <mCoolDown>10</mCoolDown>
+    <mMaxProjectiles>48</mMaxProjectiles>
+    <mProjectileSpeed>5.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>8.0</mMaxProjectileSpeed>
+    <!-- When accounding for Trace's velocity as well-->
+    <mProjectileLifeSpan>150</mProjectileLifeSpan>
+
+    <mProjectileAnimation>NovaProj1Shard</mProjectileAnimation>
+
+    <mImpact>TriConeImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+    <mProjectileTint>
+      <X>0.0</X>
+      <Y>1.0</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mProjectileScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mProjectileScale>
+    <mProjectileScalePerLevel>
+      <X>0.1</X>
+      <Y>0.1</Y>
+    </mProjectileScalePerLevel>
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Vertical Spread -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="VerticalSpread">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>18</mDamage>
+    <mDamagePerLevel>9</mDamagePerLevel>
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+
+    <mMaxProjectiles>14</mMaxProjectiles>
+    <mProjectileSpeed>4.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>8.0</mMaxProjectileSpeed>
+    <mProjectileLifeSpan>180</mProjectileLifeSpan>
+    <mCoolDown>10</mCoolDown>
+
+    <mProjectileScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mProjectileScale>
+    <mProjectileScalePerLevel>
+      <X>0.1</X>
+      <Y>0.1</Y>
+    </mProjectileScalePerLevel>
+
+    <mProjectileAnimation>NovaProj1Shard</mProjectileAnimation>
+    <mMuzzleFlash>VerticalSpreadFlash1</mMuzzleFlash>
+    <mImpact>VerticalSpreadImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+    <mProjectileTint>
+      <X>0.2</X>
+      <Y>0.2</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Vertical Spread SHARD -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="VerticalSpreadShard">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>8</mDamage>
+    <mDamagePerLevel>4</mDamagePerLevel>
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+
+    <mMaxProjectiles>60</mMaxProjectiles>
+    <mProjectileSpeed>2.0</mProjectileSpeed>
+    <mProjectileLifeSpan>10</mProjectileLifeSpan>
+    <mProjectileLifeSpanPerLevel>2</mProjectileLifeSpanPerLevel>
+
+    <mProjectileScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mProjectileScale>
+    <mProjectileScalePerLevel>
+      <X>0.1</X>
+      <Y>0.1</Y>
+    </mProjectileScalePerLevel>
+
+    <mProjectileAnimation>NovaProj1Shard</mProjectileAnimation>
+    <mImpact>VerticalSpreadImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+    <mProjectileDeathExplosion>VerticalSpreadImpact1</mProjectileDeathExplosion>
+    <mProjectileTint>
+      <X>0.5</X>
+      <Y>0.5</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Voranj -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="Voranj">
+    <mType>LASER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+
+    <mMuzzleFlash>VoranjFlash1</mMuzzleFlash>
+
+    <mDamage>12</mDamage>
+    <mDamagePerLevel>6</mDamagePerLevel>
+    <mLength>8</mLength>
+    <mLengthPerLevel>0</mLengthPerLevel>
+    <mWidth>20</mWidth>
+    <mWidthPerLevel>0</mWidthPerLevel>
+    <mHardness>0</mHardness>
+    <mOwnerType>PC</mOwnerType>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>5</mDamagePeriod>
+
+    <mLaserTexture>Voranj1</mLaserTexture>
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+    <mImpact>DrillLaser1Sparks</mImpact>
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- WALLTRACE -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="WallTrace">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>22</mDamage>
+    <mDamagePerLevel>11</mDamagePerLevel>
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+
+    <mMaxProjectiles>10</mMaxProjectiles>
+    <mProjectileSpeed>4.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>8.0</mMaxProjectileSpeed>
+    <!-- When accounting for Trace's velocity as well-->
+    <mProjectileLifeSpan>96</mProjectileLifeSpan>
+    <mProjectileLifeSpanPerLevel>7</mProjectileLifeSpanPerLevel>
+    <mCoolDown>10</mCoolDown>
+
+    <mProjectileScale>
+      <X>1</X>
+      <Y>1</Y>
+    </mProjectileScale>
+    <mProjectileScalePerLevel>
+      <X>0.125</X>
+      <Y>0.125</Y>
+    </mProjectileScalePerLevel>
+
+    <mBypassPhysics>true</mBypassPhysics>
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>true</mVelocityAligned>
+    <mDetonateOnCollision>true</mDetonateOnCollision>
+    <mProjectileCausesDamage>true</mProjectileCausesDamage>
+
+    <mProjectileAnimation>WallTraceProj</mProjectileAnimation>
+    <mMuzzleFlash>WallTraceFlash1</mMuzzleFlash>
+    <mImpact>WallTraceImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+    <mProjectileDeathExplosion>WallTraceDeath</mProjectileDeathExplosion>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>0.75</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Web Slicer -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="WebSlicer">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mNumProjectiles>0</mNumProjectiles>
+
+    <!-- This can be greater than 8 since it uses line intersection only.-->
+    <mCoolDown>10</mCoolDown>
+    <mCoolDownPerLevel>0.0</mCoolDownPerLevel>
+    <mDamage>18</mDamage>
+    <mDamagePerLevel>9</mDamagePerLevel>
+    <mLength>160</mLength>
+    <mLengthPerLevel>3</mLengthPerLevel>
+    <mWidth>3</mWidth>
+    <mWidthPerLevel>0</mWidthPerLevel>
+    <mHardness>0</mHardness>
+    <mOwnerType>PC</mOwnerType>
+    <mMuzzleFlash>WebSlicerFlash</mMuzzleFlash>
+    <mFireSoundName>WebSlicer</mFireSoundName>
+    <mLaserTexture>WebSlicer1</mLaserTexture>
+    <mImpact>IonBeamSparks</mImpact>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>6</mDamagePeriod>
+
+    <mHasRecoil>true</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- TENDRIL WEAPONS -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="TendrilsDefault">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>16</mDamage>
+    <mDamagePerLevel>8</mDamagePerLevel>
+    <mCoolDown>30</mCoolDown>
+    <mOwnerType>PC</mOwnerType>
+    <mProjectileCacheDuration>FULLGAME</mProjectileCacheDuration>
+    <mMaxProjectiles>5</mMaxProjectiles>
+    <mProjectileSpeed>4</mProjectileSpeed>
+    <mProjectileLifeSpan>60</mProjectileLifeSpan>
+    <mProjectileLifeSpanPerLevel>4</mProjectileLifeSpanPerLevel>
+    <mGravity>0.00</mGravity>
+    <mProjectileAnimation>TendrilsDefaultProj</mProjectileAnimation>
+    <mFireSoundName>TendrilsFire</mFireSoundName>
+    <mImpact>TendrilsDefaultImpact</mImpact>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- ENEMY WEAPONS -->
+  <!-- ######################################################################## -->
+  <!-- ######################################################################## -->
+  <!-- Arachnoptopus -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="ArachnoptopusProj">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>30</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mCoolDown>10</mCoolDown>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mProjectileScale>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mProjectileScale>
+
+    <mMaxProjectiles>6</mMaxProjectiles>
+    <mProjectileSpeed>4.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>4.0</mMaxProjectileSpeed>
+    <!-- When accounding for Trace's velocity as well-->
+    <mProjectileLifeSpan>64</mProjectileLifeSpan>
+    <mProjectileLifeSpanPerLevel>0</mProjectileLifeSpanPerLevel>
+
+    <mProjectileAnimation>MultiDisruptorProj1</mProjectileAnimation>
+    <mMuzzleFlash>ArachnoptopusFlash1</mMuzzleFlash>
+    <mImpact>ArachnoptopusImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.2</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mFireSoundName>SecurityWormFire</mFireSoundName>
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- BUOYG BOMB -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="BuoygBomb">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mOwnerType>NPC</mOwnerType>
+    <mDamage>100</mDamage>
+    <mExplosionCausesDamage>true</mExplosionCausesDamage>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- DISKKO -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="DiskkoLaser">
+    <mType>LASER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>400</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mLength>480</mLength>
+    <mLengthPerLevel>0</mLengthPerLevel>
+    <mWidth>5</mWidth>
+    <mWidthPerLevel>0</mWidthPerLevel>
+    <mHardness>0</mHardness>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mFireSoundName>DiskkoLaser</mFireSoundName>
+    <mLaserTexture>GreyscaleBeam</mLaserTexture>
+    <mImpact>IonBeamSparks</mImpact>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>6</mDamagePeriod>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Donaught Laser -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="DonaughtLaser">
+    <mType>LASER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>200</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mLength>960</mLength>
+    <mLengthPerLevel>0</mLengthPerLevel>
+    <mWidth>14</mWidth>
+    <mWidthPerLevel>0</mWidthPerLevel>
+    <mHardness>0</mHardness>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mFireSoundName>GillLaser</mFireSoundName>
+    <mLaserTexture>GreyscaleAlphaBeamWide</mLaserTexture>
+    <mImpact>WideAlphaBeamSparks</mImpact>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>6</mDamagePeriod>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <THWeaponData mName="DonaughtBullet">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>200</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mCoolDown>10</mCoolDown>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mNumProjectiles>3</mNumProjectiles>
+    <mMaxProjectiles>60</mMaxProjectiles>
+    <mProjectileScale>
+      <X>1</X>
+      <Y>1</Y>
+    </mProjectileScale>
+    <mProjectileSpreadAngle>8</mProjectileSpreadAngle>
+    <mProjectileSpeed>5.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>8.0</mMaxProjectileSpeed>
+    <!-- When accounding for Trace's velocity as well-->
+    <mProjectileLifeSpan>192</mProjectileLifeSpan>
+    <mProjectileLifeSpanPerLevel>0</mProjectileLifeSpanPerLevel>
+
+    <mProjectileAnimation>MultiDisruptorProj1</mProjectileAnimation>
+    <mMuzzleFlash>ScorpiantProjFlash1</mMuzzleFlash>
+    <mImpact>ScorpiantProjImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.1</Y>
+      <Z>0.6</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mFireSoundName>SecurityWormFire</mFireSoundName>
+
+  </THWeaponData>
+
+  <THWeaponData mName="DonaughtGrenade">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>200</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+    <mMaxProjectiles>30</mMaxProjectiles>
+    <mProjectileSpeed>5</mProjectileSpeed>
+    <mMaxProjectileSpeed>5</mMaxProjectileSpeed>
+    <mProjectileLifeSpan>180</mProjectileLifeSpan>
+    <mGravity>0.00</mGravity>
+    <mProjectileAnimation>SlugBossProj1</mProjectileAnimation>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.1</Y>
+      <Z>0.6</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mProjectileScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mProjectileScale>
+
+    <mImpact>ZeborgProjExplosion</mImpact>
+    <mProjectileDeathExplosion>ZeborgProjExplosion</mProjectileDeathExplosion>
+    <mImpactDistortion>SlugTopGunDistortion</mImpactDistortion>
+    <mMuzzleFlash>ZeborgFlash</mMuzzleFlash>
+
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>true</mVelocityAligned>
+    <mCollidesWithEnemies>true</mCollidesWithEnemies>
+    <mExplosionCausesDamage>true</mExplosionCausesDamage>
+    <mCollidesWithTiles>true</mCollidesWithTiles>
+
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>18</mDamagePeriod>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- DROMETON GAS -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="DrometonGas">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>200</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxSkewer>32</mMaxSkewer>
+    <mDamagePeriod>8</mDamagePeriod>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- ELSENOVA -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="ElsenovaFatBeam">
+    <mSpriteSheet>SpriteEffects.xml</mSpriteSheet>
+    <mType>LASER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>0</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mLength>960</mLength>
+    <mLengthPerLevel>0</mLengthPerLevel>
+    <mWidth>32</mWidth>
+    <mWidthPerLevel>1</mWidthPerLevel>
+    <mHardness>0</mHardness>
+    <mOwnerType>PC</mOwnerType>
+
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.95</Y>
+      <Z>0.64</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+    <mLaserTexture>IonBeam1</mLaserTexture>
+    <mImpact>IonBeamSparks</mImpact>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>6</mDamagePeriod>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- GILL -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="GillLaser">
+    <mType>LASER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>75</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mLength>480</mLength>
+    <mLengthPerLevel>0</mLengthPerLevel>
+    <mWidth>5</mWidth>
+    <mWidthPerLevel>0</mWidthPerLevel>
+    <mHardness>0</mHardness>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mFireSoundName>GillLaser</mFireSoundName>
+    <mLaserTexture>IonBeam1</mLaserTexture>
+    <mImpact>IonBeamSparks</mImpact>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>6</mDamagePeriod>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <THWeaponData mName="GlitchedGillLaser">
+    <mType>LASER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>100</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mLength>480</mLength>
+    <mLengthPerLevel>0</mLengthPerLevel>
+    <mWidth>5</mWidth>
+    <mWidthPerLevel>0</mWidthPerLevel>
+    <mHardness>2</mHardness>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mFireSoundName>GillLaser</mFireSoundName>
+    <mLaserTexture>GreyscaleBeam</mLaserTexture>
+    <mImpact>IonBeamSparks</mImpact>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>6</mDamagePeriod>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- GLUGG -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="GluggTileDestroyer">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>10000</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+    <mHardness>1</mHardness>
+  </THWeaponData>
+
+  <THWeaponData mName="GlitchedGluggTileDestroyer">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>10000</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+    <mHardness>2</mHardness>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Goolumn -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="GoolumnProj">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>100</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxProjectiles>8</mMaxProjectiles>
+    <mProjectileSpeed>0.75</mProjectileSpeed>
+    <mProjectileAnimation>GoolumnProj</mProjectileAnimation>
+    <mProjectileTint>
+      <X>0.72</X>
+      <Y>0.97</Y>
+      <Z>0.09</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mFireSoundName>Goolumn</mFireSoundName>
+    <mImpact>GoolumnImpact</mImpact>
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Fungine -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="FungineProj">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>100</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+    <mMaxProjectiles>12</mMaxProjectiles>
+    <mProjectileSpeed>3.0</mProjectileSpeed>
+    <mProjectileAnimation>SpitBugProj</mProjectileAnimation>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mFireSoundName>SpitbugFire</mFireSoundName>
+    <mImpact>SpitBugImpact</mImpact>
+  </THWeaponData>
+
+  
+
+  <!-- ######################################################################## -->
+  <!-- Manta RAY -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="MantaBullet1">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>0</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxProjectiles>24</mMaxProjectiles>
+    <mProjectileSpeed>1.5</mProjectileSpeed>
+    <mCoolDown>9</mCoolDown>
+
+    <mProjectileAnimation>SecurityWormBullet1</mProjectileAnimation>
+    <mFireSoundName>SecurityWormFire</mFireSoundName>
+    <mImpact>DataDisruptorImpact1</mImpact>
+    <mMuzzleFlash>SecurityWormBulletFlash</mMuzzleFlash>
+
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+
+  </THWeaponData>
+
+  <THWeaponData mName="MantaBomb">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxProjectiles>12</mMaxProjectiles>
+    <mProjectileSpeed>2</mProjectileSpeed>
+    <mMaxProjectileSpeed>5</mMaxProjectileSpeed>
+    <mProjectileLifeSpan>120</mProjectileLifeSpan>
+    <mGravity>0.1</mGravity>
+    <mMaxProjectileSpeed>5</mMaxProjectileSpeed>
+    <mCoolDown>18</mCoolDown>
+
+    <!-- Maximum speed after applying acceleration.-->
+    <mProjectileAnimation>SecurityWormBomb</mProjectileAnimation>
+    <mProjectileDeathExplosion>SecurityWormBombExplosion</mProjectileDeathExplosion>
+    <mFireSoundName>SecurityWormDropBomb</mFireSoundName>
+    <mMuzzleFlash>SecurityWormBulletFlash</mMuzzleFlash>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mDetonateOnCollision>false</mDetonateOnCollision>
+    <mProjectileCausesDamage>false</mProjectileCausesDamage>
+    <mExplosionCausesDamage>true</mExplosionCausesDamage>
+    <mDamage>0</mDamage>
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+  </THWeaponData>
+
+
+ 
+  <!-- ######################################################################## -->
+  <!-- PORCUPINE BOMB -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="PorcupineBomb">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mOwnerType>NPC</mOwnerType>
+    <mDamage>350</mDamage>
+    <mExplosionCausesDamage>true</mExplosionCausesDamage>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- QUADROPUS -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="QuadropusProj">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>40</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mCoolDown>10</mCoolDown>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxProjectiles>2</mMaxProjectiles>
+    <mProjectileSpeed>2.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>5.0</mMaxProjectileSpeed>
+    <mGravity>0.1</mGravity>
+    <mProjectileLifeSpan>120</mProjectileLifeSpan>
+    <mProjectileLifeSpanPerLevel>0</mProjectileLifeSpanPerLevel>
+
+    <mProjectileAnimation>AcidDrop</mProjectileAnimation>
+    <mImpact>QuadropusImpact1</mImpact>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>0.25</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mFireSoundName>SplatA</mFireSoundName>
+    <mExplosionCausesDamage>true</mExplosionCausesDamage>
+    <mAngleAligned>true</mAngleAligned>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- REPAIR DRONE -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="RepairDroneZap">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>100</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mHardness>1</mHardness>
+    <mOwnerType>NPC</mOwnerType>
+    <mNumProjectiles>0</mNumProjectiles>
+    <!-- Damage is done solely through muzzle flash. -->
+    <mMuzzleFlashScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mMuzzleFlashScale>
+    <mMuzzleFlashScalePerLevel>
+      <X>0.00</X>
+      <Y>0.00</Y>
+    </mMuzzleFlashScalePerLevel>
+    <mDetonateOnCollision>false</mDetonateOnCollision>
+    <mProjectileCausesDamage>false</mProjectileCausesDamage>
+    <mExplosionCausesDamage>false</mExplosionCausesDamage>
+    <mFlashCausesDamage>true</mFlashCausesDamage>
+    <mMuzzleFlash>RepairDroneZap</mMuzzleFlash>
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>18</mDamagePeriod>
+    <mCoolDown>18</mCoolDown>
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- SCORPIANT-->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="ScorpiantProj">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>60</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mCoolDown>24</mCoolDown>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mNumProjectiles>3</mNumProjectiles>
+    <mMaxProjectiles>12</mMaxProjectiles>
+    <mProjectileScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mProjectileScale>
+    <mProjectileSpreadAngle>20</mProjectileSpreadAngle>
+    <mProjectileSpeed>3.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>8.0</mMaxProjectileSpeed>
+    <!-- When accounding for Trace's velocity as well-->
+    <mProjectileLifeSpan>64</mProjectileLifeSpan>
+    <mProjectileLifeSpanPerLevel>0</mProjectileLifeSpanPerLevel>
+
+    <mProjectileAnimation>MultiDisruptorProj1</mProjectileAnimation>
+    <mMuzzleFlash>ScorpiantProjFlash1</mMuzzleFlash>
+    <mImpact>ScorpiantProjImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.72</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mFireSoundName>SecurityWormFire</mFireSoundName>
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Scorpion Boss Arm Proj -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="ScorpionArmProj">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>100</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxProjectiles>6</mMaxProjectiles>
+    <mProjectileSpeed>5</mProjectileSpeed>
+    <mMaxProjectileSpeed>5</mMaxProjectileSpeed>
+    <mProjectileLifeSpan>120</mProjectileLifeSpan>
+    <mGravity>0.00</mGravity>
+    <mProjectileAnimation>SlugBossProj1</mProjectileAnimation>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.2</Y>
+      <Z>0.8</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mProjectileScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mProjectileScale>
+
+    <mImpact>ScorpionArmGunExplosion</mImpact>
+    <mProjectileDeathExplosion>ScorpionArmGunExplosion</mProjectileDeathExplosion>
+    <mImpactDistortion>SlugTopGunDistortion</mImpactDistortion>
+    <mMuzzleFlash>ScorpionArmGunFlash</mMuzzleFlash>
+
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>true</mVelocityAligned>
+    <mCollidesWithEnemies>false</mCollidesWithEnemies>
+    <mExplosionCausesDamage>false</mExplosionCausesDamage>
+    <mCollidesWithTiles>true</mCollidesWithTiles>
+
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>18</mDamagePeriod>
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- SCORPION FLAMES -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="ScorpionFlames">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>200</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Security WORM-->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="SecurityWormBullet1">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>30</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxProjectiles>15</mMaxProjectiles>
+    <mProjectileSpeed>1.5</mProjectileSpeed>
+
+    <mProjectileAnimation>SecurityWormBullet1</mProjectileAnimation>
+    <mFireSoundName>SecurityWormFire</mFireSoundName>
+    <mImpact>DataDisruptorImpact1</mImpact>
+    <mMuzzleFlash>SecurityWormBulletFlash</mMuzzleFlash>
+
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+
+  </THWeaponData>
+
+  <THWeaponData mName="SecurityWormBomb">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mOwnerType>NPC</mOwnerType>
+    <mMaxProjectiles>3</mMaxProjectiles>
+    <mProjectileSpeed>2</mProjectileSpeed>
+    <mMaxProjectileSpeed>5</mMaxProjectileSpeed>
+    <mProjectileLifeSpan>120</mProjectileLifeSpan>
+    <mGravity>0.1</mGravity>
+    <mMaxProjectileSpeed>5</mMaxProjectileSpeed>
+    <!-- Maximum speed after applying acceleration.-->
+    <mProjectileAnimation>SecurityWormBomb</mProjectileAnimation>
+    <mProjectileDeathExplosion>SecurityWormBombExplosion</mProjectileDeathExplosion>
+    <mFireSoundName>SecurityWormDropBomb</mFireSoundName>
+    <mMuzzleFlash>SecurityWormBulletFlash</mMuzzleFlash>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mDetonateOnCollision>false</mDetonateOnCollision>
+    <mProjectileCausesDamage>false</mProjectileCausesDamage>
+    <mExplosionCausesDamage>true</mExplosionCausesDamage>
+    <mDamage>50</mDamage>
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Security WORM Advanced-->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="SecurityWormAdvancedBullet1">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>500</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxProjectiles>27</mMaxProjectiles>
+    <mProjectileSpeed>4</mProjectileSpeed>
+
+    <mProjectileAnimation>SecurityWormBullet1</mProjectileAnimation>
+    <mFireSoundName>SecurityWormFire</mFireSoundName>
+    <mImpact>DataDisruptorImpact1</mImpact>
+    <mMuzzleFlash>SecurityWormAdvancedBulletFlash</mMuzzleFlash>
+
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.5</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+
+  </THWeaponData>
+
+  <THWeaponData mName="SecurityWormAdvancedBomb">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mOwnerType>NPC</mOwnerType>
+    <mProjectileSpeed>3</mProjectileSpeed>
+    <mMaxProjectiles>3</mMaxProjectiles>
+    <mProjectileLifeSpan>40</mProjectileLifeSpan>
+    <mGravity>0.1</mGravity>
+    <mMaxProjectileSpeed>5</mMaxProjectileSpeed>
+    <!-- Maximum speed after applying acceleration.-->
+    <mProjectileAnimation>SecurityWormBomb</mProjectileAnimation>
+    <mImpactDistortion>SecurityWormAdvancedBombDistortion</mImpactDistortion>
+    <mImpact>SecurityWormAdvancedBombExplosion</mImpact>
+    <mProjectileDeathExplosion>SecurityWormAdvancedBombExplosion</mProjectileDeathExplosion>
+    <mFireSoundName>SecurityWormDropBomb</mFireSoundName>
+    <mMuzzleFlash>SecurityWormBulletFlash</mMuzzleFlash>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.5</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mDetonateOnCollision>true</mDetonateOnCollision>
+    <mProjectileCausesDamage>false</mProjectileCausesDamage>
+    <mExplosionCausesDamage>true</mExplosionCausesDamage>
+    <mDamage>1000</mDamage>
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- SENTINEL -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="SentinelHeatSeeker">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>200</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mCoolDown>7</mCoolDown>
+    <mCoolDownPerLevel>0.0</mCoolDownPerLevel>
+    <mMuzzleFlashScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mMuzzleFlashScale>
+    <mProjectileScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mProjectileScale>
+
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxProjectiles>50</mMaxProjectiles>
+    <mProjectileSpeed>2.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>2.0</mMaxProjectileSpeed>
+    <mProjectileLifeSpan>120</mProjectileLifeSpan>
+    <mAngularVelocity>0.035</mAngularVelocity>
+
+    <mProjectileAnimation>SentinelHeatSeeker1</mProjectileAnimation>
+    <mMuzzleFlash>SentinelHeatSeekerFlash</mMuzzleFlash>
+    <mFireSoundName>SecurityWormFire</mFireSoundName>
+    <mImpact>DataDisruptorImpact1</mImpact>
+    <mProjectileDeathExplosion>DataDisruptorImpact1</mProjectileDeathExplosion>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+    <mVelocityAligned>true</mVelocityAligned>
+    <mHasRecoil>false</mHasRecoil>
+
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- Sentinel Eye Laser -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="SentinelEyeLaser">
+    <mType>LASER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>350</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mLength>960</mLength>
+    <mLengthPerLevel>0</mLengthPerLevel>
+    <mWidth>14</mWidth>
+    <mWidthPerLevel>0</mWidthPerLevel>
+    <mHardness>0</mHardness>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mFireSoundName>SlugLaser</mFireSoundName>
+    <mLaserTexture>GreyscaleAlphaBeamWide</mLaserTexture>
+    <mImpact>WideAlphaBeamSparks</mImpact>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>6</mDamagePeriod>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- Sentinel Swim -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="SentinelSwim">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>150</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mCoolDown>7</mCoolDown>
+    <mCoolDownPerLevel>0.0</mCoolDownPerLevel>
+
+    <mMuzzleFlashScale>
+      <X>0.8</X>
+      <Y>0.8</Y>
+    </mMuzzleFlashScale>
+    <mMuzzleFlashScalePerLevel>
+      <X>0.2</X>
+      <Y>0.2</Y>
+    </mMuzzleFlashScalePerLevel>
+    <mProjectileScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mProjectileScale>
+    <mProjectileScalePerLevel>
+      <X>0.1</X>
+      <Y>0.1</Y>
+    </mProjectileScalePerLevel>
+
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxProjectiles>50</mMaxProjectiles>
+    <mProjectileSpeed>4.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>4.0</mMaxProjectileSpeed>
+    <!-- When accounding for Trace's velocity as well-->
+    <mProjectileLifeSpan>160</mProjectileLifeSpan>
+    <mProjectileAnimation>SentinelSwimProj</mProjectileAnimation>
+    <mMuzzleFlash>SentinelHeatSeekerFlash</mMuzzleFlash>
+    <mFireSoundName>SentinelSwim</mFireSoundName>
+    <mImpact>SwimImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+    <mVelocityAligned>true</mVelocityAligned>
+    <mHasRecoil>false</mHasRecoil>
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- SENTRY BOT-->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="SentryBotProj">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>110</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mCoolDown>10</mCoolDown>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mNumProjectiles>1</mNumProjectiles>
+    <mMaxProjectiles>24</mMaxProjectiles>
+    <mProjectileScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mProjectileScale>
+    <mProjectileSpreadAngle>0</mProjectileSpreadAngle>
+    <mProjectileSpeed>3.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>8.0</mMaxProjectileSpeed>
+    <!-- When accounding for Trace's velocity as well-->
+    <mProjectileLifeSpan>64</mProjectileLifeSpan>
+    <mProjectileLifeSpanPerLevel>0</mProjectileLifeSpanPerLevel>
+
+    <mProjectileAnimation>MultiDisruptorProj1</mProjectileAnimation>
+    <mMuzzleFlash>SentryBotProjFlash1</mMuzzleFlash>
+    <mImpact>SentryBotProjImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mFireSoundName>SecurityWormFire</mFireSoundName>
+
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- SENTRY BOT META-->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="SentryBot_MetaProj">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>500</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mCoolDown>10</mCoolDown>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mNumProjectiles>1</mNumProjectiles>
+    <mMaxProjectiles>36</mMaxProjectiles>
+    <mProjectileScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mProjectileScale>
+    <mProjectileSpreadAngle>0</mProjectileSpreadAngle>
+    <mProjectileSpeed>3.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>8.0</mMaxProjectileSpeed>
+    <!-- When accounding for Trace's velocity as well-->
+    <mProjectileLifeSpan>64</mProjectileLifeSpan>
+    <mProjectileLifeSpanPerLevel>0</mProjectileLifeSpanPerLevel>
+
+    <mProjectileAnimation>MultiDisruptorProj1</mProjectileAnimation>
+    <mMuzzleFlash>SentryBotProjFlash1</mMuzzleFlash>
+    <mImpact>SentryBotProjImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mFireSoundName>SecurityWormFire</mFireSoundName>
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Slug Boss BELLY proj -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="SlugBellyProj">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>50</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxProjectiles>24</mMaxProjectiles>
+    <mProjectileSpeed>6</mProjectileSpeed>
+    <mMaxProjectileSpeed>6</mMaxProjectileSpeed>
+    <mProjectileLifeSpan>180</mProjectileLifeSpan>
+    <mGravity>0.08</mGravity>
+    <mProjectileAnimation>GoolumnProj</mProjectileAnimation>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.2</Y>
+      <Z>0.9</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+    <mImpact>SlugBellyExplosion</mImpact>
+    <mImpactDistortion>SlugBellyDistortion</mImpactDistortion>
+    <mProjectileDeathExplosion>SlugBellyExplosion</mProjectileDeathExplosion>
+    <mMuzzleFlash>SlugBellyFlash</mMuzzleFlash>
+
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+    <mCollidesWithEnemies>false</mCollidesWithEnemies>
+    <mExplosionCausesDamage>true</mExplosionCausesDamage>
+
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>18</mDamagePeriod>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Slug Boss Top GUN proj -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="SlugTopGunProj">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>50</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxProjectiles>25</mMaxProjectiles>
+    <mProjectileSpeed>6</mProjectileSpeed>
+    <mMaxProjectileSpeed>6</mMaxProjectileSpeed>
+    <mProjectileLifeSpan>120</mProjectileLifeSpan>
+    <mGravity>0.00</mGravity>
+    <mProjectileAnimation>SlugBossProj1</mProjectileAnimation>
+    <mProjectileTint>
+      <X>0.9</X>
+      <Y>1.0</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mProjectileScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mProjectileScale>
+
+    <mImpact>SlugTopGunExplosion</mImpact>
+    <mProjectileDeathExplosion>SlugTopGunExplosion</mProjectileDeathExplosion>
+    <mImpactDistortion>SlugTopGunDistortion</mImpactDistortion>
+    <mMuzzleFlash>SlugTopGunFlash</mMuzzleFlash>
+
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>true</mVelocityAligned>
+    <mCollidesWithEnemies>false</mCollidesWithEnemies>
+    <mExplosionCausesDamage>true</mExplosionCausesDamage>
+    <mCollidesWithTiles>true</mCollidesWithTiles>
+
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>18</mDamagePeriod>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- Slug Boss Center Gun proj -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="SlugCenterGunProj">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>75</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+    <mMaxProjectiles>4</mMaxProjectiles>
+    <mProjectileSpeed>6</mProjectileSpeed>
+    <mMaxProjectileSpeed>6</mMaxProjectileSpeed>
+    <mProjectileLifeSpan>120</mProjectileLifeSpan>
+    <mGravity>0.00</mGravity>
+    <mProjectileAnimation>SlugBossProj1</mProjectileAnimation>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.2</Y>
+      <Z>0.9</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+    <mImpact>SlugCenterGunExplosion</mImpact>
+    <mProjectileDeathExplosion>SlugCenterGunExplosion</mProjectileDeathExplosion>
+    <mImpactDistortion>SlugTopGunDistortion</mImpactDistortion>
+    <mMuzzleFlash>SlugCenterGunFlash</mMuzzleFlash>
+
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>true</mVelocityAligned>
+    <mCollidesWithEnemies>false</mCollidesWithEnemies>
+    <mExplosionCausesDamage>true</mExplosionCausesDamage>
+    <mCollidesWithTiles>true</mCollidesWithTiles>
+
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>18</mDamagePeriod>
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- Slug Shoulder Cannon -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="SlugShoulderCannon">
+    <mType>LASER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>50</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mLength>960</mLength>
+    <mLengthPerLevel>0</mLengthPerLevel>
+    <mWidth>19</mWidth>
+    <mWidthPerLevel>0</mWidthPerLevel>
+    <mHardness>0</mHardness>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mFireSoundName>SlugLaser</mFireSoundName>
+    <mLaserTexture>SlugLaser1</mLaserTexture>
+    <mImpact>IonBeamSparks</mImpact>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>6</mDamagePeriod>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- Spiru (after glitched -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="SpiruBlockBreaker">
+    <mType>OTHER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>100</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+    <mHardness>2</mHardness>
+  </THWeaponData>
+
+  
+
+
+  <!-- ######################################################################## -->
+  <!-- SpitBug Boss Proj -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="SpitBugBossProj">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>300</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxProjectiles>2</mMaxProjectiles>
+    <mProjectileSpeed>3</mProjectileSpeed>
+    <mMaxProjectileSpeed>4</mMaxProjectileSpeed>
+    <mProjectileLifeSpan>120</mProjectileLifeSpan>
+    <mGravity>0.1</mGravity>
+    <mProjectileAnimation>SpitBugBossProj</mProjectileAnimation>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.2</Y>
+      <Z>0.8</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mProjectileScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mProjectileScale>
+
+    <mImpact>SpitBugBossProjImpact</mImpact>
+    <mProjectileDeathExplosion>SpitBugBossProjImpact</mProjectileDeathExplosion>
+
+    <mFireSoundName>SplatA</mFireSoundName>
+    <mExplosionCausesDamage>true</mExplosionCausesDamage>
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>true</mVelocityAligned>
+    <mCollidesWithEnemies>false</mCollidesWithEnemies>
+    <mCollidesWithTiles>true</mCollidesWithTiles>
+
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>18</mDamagePeriod>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- SwarmilyParent -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="SwarmilyProj">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>60</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+    <mMaxProjectiles>2</mMaxProjectiles>
+    <mProjectileSpeed>2</mProjectileSpeed>
+    <mProjectileAnimation>SwarmilyProj</mProjectileAnimation>
+    <mFireSoundName>SpitbugFire</mFireSoundName>
+    <mImpact>SwarmilyImpact</mImpact>
+  </THWeaponData>
+
+
+
+
+  <!-- ######################################################################## -->
+  <!-- Soldier BOSS -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="SoldierBossBullet1">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>50</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxProjectiles>12</mMaxProjectiles>
+    <mProjectileSpeed>1.5</mProjectileSpeed>
+
+    <mProjectileAnimation>SecurityWormBullet1</mProjectileAnimation>
+    <mFireSoundName>SecurityWormFire</mFireSoundName>
+    <mImpact>DataDisruptorImpact1</mImpact>
+    <mMuzzleFlash>SecurityWormBulletFlash</mMuzzleFlash>
+
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>false</mVelocityAligned>
+  </THWeaponData>
+
+  <THWeaponData mName="SoldierBossDisruptor">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>75</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+    <mMaxProjectiles>6</mMaxProjectiles>
+    <mProjectileSpeed>2</mProjectileSpeed>
+    <mMuzzleFlashScale>
+      <X>2.0</X>
+      <Y>2.0</Y>
+    </mMuzzleFlashScale>
+    <mProjectileScale>
+      <X>2.0</X>
+      <Y>2.0</Y>
+    </mProjectileScale>
+    <mProjectileAnimation>DataDisruptorProj1</mProjectileAnimation>
+    <mMuzzleFlash>DataDisruptorFlash1</mMuzzleFlash>
+    <mImpact>DataDisruptorImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- TIE FLIGHTER -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="TieFlighterLaser">
+    <mType>LASER</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+
+    <mDamage>700</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mLength>480</mLength>
+    <mLengthPerLevel>0</mLengthPerLevel>
+    <mWidth>5</mWidth>
+    <mWidthPerLevel>0</mWidthPerLevel>
+    <mHardness>0</mHardness>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mFireSoundName>GillLaser</mFireSoundName>
+    <mLaserTexture>GreyscaleBeam</mLaserTexture>
+    <mImpact>IonBeamSparks</mImpact>
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>6</mDamagePeriod>
+
+    <mHasRecoil>false</mHasRecoil>
+    <mCausesStun>false</mCausesStun>
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- TUBEWORM -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="TubeWormGun">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>40</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+    <mCoolDown>7</mCoolDown>
+    <mCoolDownPerLevel>0.0</mCoolDownPerLevel>
+    <mMuzzleFlashScale>
+      <X>0.8</X>
+      <Y>0.8</Y>
+    </mMuzzleFlashScale>
+    <mMuzzleFlashScalePerLevel>
+      <X>0.2</X>
+      <Y>0.2</Y>
+    </mMuzzleFlashScalePerLevel>
+    <mProjectileScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mProjectileScale>
+    <mProjectileScalePerLevel>
+      <X>0.1</X>
+      <Y>0.1</Y>
+    </mProjectileScalePerLevel>
+
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxProjectiles>90</mMaxProjectiles>
+    <!-- 2 volleys * 9 muzzles * 5 tubeworms on screen-->
+    <mProjectileSpeed>3.0</mProjectileSpeed>
+    <mMaxProjectileSpeed>3.0</mMaxProjectileSpeed>
+    <!-- When accounding for Trace's velocity as well-->
+    <mProjectileLifeSpan>160</mProjectileLifeSpan>
+    <mProjectileAnimation>TubeWormProj</mProjectileAnimation>
+    <!--<mMuzzleFlash>SwimFlash1</mMuzzleFlash>-->
+    <mFireSoundName>SpitbugSpawn</mFireSoundName>
+    <mImpact>SwimImpact1</mImpact>
+    <mImpactDistortion>DataDisruptorImpactDistortion1</mImpactDistortion>
+
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.0</Y>
+      <Z>0.5</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+
+    <mVelocityAligned>true</mVelocityAligned>
+    <mHasRecoil>false</mHasRecoil>
+
+  </THWeaponData>
+
+  <!-- ######################################################################## -->
+  <!-- TUBEPUFF -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="TubePuffSteam">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>300</mDamage>
+    <mDamagePerLevel>0</mDamagePerLevel>
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- Yorchug -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="YorchugLaser">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>60</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+    <mMaxProjectiles>4</mMaxProjectiles>
+    <mProjectileSpeed>3</mProjectileSpeed>
+    <mProjectileAnimation>YorchugLaser</mProjectileAnimation>
+    <mFireSoundName>LaserWhipShort</mFireSoundName>
+    <mImpact>SwarmilyImpact</mImpact>
+  </THWeaponData>
+
+
+  <!-- ######################################################################## -->
+  <!-- Zeborg Proj -->
+  <!-- ######################################################################## -->
+  <THWeaponData mName="ZeborgProj">
+    <mType>PROJECTILE</mType>
+    <THDamageType>PHYSICAL</THDamageType>
+    <mDamage>50</mDamage>
+    <mOwnerType>NPC</mOwnerType>
+
+    <mMaxProjectiles>6</mMaxProjectiles>
+    <mProjectileSpeed>3</mProjectileSpeed>
+    <mMaxProjectileSpeed>3</mMaxProjectileSpeed>
+    <mProjectileLifeSpan>180</mProjectileLifeSpan>
+    <mGravity>0.00</mGravity>
+    <mProjectileAnimation>SlugBossProj1</mProjectileAnimation>
+    <mProjectileTint>
+      <X>1.0</X>
+      <Y>0.2</Y>
+      <Z>0.9</Z>
+      <W>1.0</W>
+    </mProjectileTint>
+    <mProjectileScale>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mProjectileScale>
+
+    <mImpact>ZeborgProjExplosion</mImpact>
+    <mProjectileDeathExplosion>ZeborgProjExplosion</mProjectileDeathExplosion>
+    <mImpactDistortion>SlugTopGunDistortion</mImpactDistortion>
+    <mMuzzleFlash>ZeborgFlash</mMuzzleFlash>
+
+    <mAngleAligned>false</mAngleAligned>
+    <mVelocityAligned>true</mVelocityAligned>
+    <mCollidesWithEnemies>false</mCollidesWithEnemies>
+    <mExplosionCausesDamage>true</mExplosionCausesDamage>
+    <mCollidesWithTiles>true</mCollidesWithTiles>
+
+    <mMaxSkewer>10</mMaxSkewer>
+    <mDamagePeriod>18</mDamagePeriod>
+  </THWeaponData>
+</THWeaponSettings>

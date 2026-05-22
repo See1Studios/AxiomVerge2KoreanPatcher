@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParallaxXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- #################################################################### -->
+  <!-- Shot1-->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="Shot1">
+    <THParallaxData>
+      <mTextureName>Art/Cutscenes/FilterRepair/Backgrounds/Shot1BG1</mTextureName>
+      <mParallax>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mParallax>
+    </THParallaxData>
+    
+    <THParallaxData>
+      <mTextureName>Art/Cutscenes/FilterRepair/Backgrounds/Shot1BG0</mTextureName>
+      <mParallax>
+        <X>1.0</X>
+        <Y>1.0</Y>
+      </mParallax>
+    </THParallaxData>
+    
+    
+  </THParallaxSetData>
+
+
+  <!-- #################################################################### -->
+  <!-- Shot2-->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="Shot2">
+    <THParallaxData>
+      <mTextureName>Art/Cutscenes/FilterRepair/Backgrounds/Shot2BG0</mTextureName>
+      <mParallax>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+    </THParallaxData>
+  </THParallaxSetData>    
+
+  <!-- #################################################################### -->
+  <!-- AthetosPan-->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="AthetosPan">
+    <THParallaxData>
+      <mTextureName>Art/Cutscenes/FilterRepair/Backgrounds/Shot1BG1</mTextureName>
+      <mParallax>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Cutscenes/FilterRepair/Backgrounds/Shot3BG2</mTextureName>
+      <mParallax>
+        <X>0.0</X>
+        <Y>1.0</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Cutscenes/FilterRepair/Backgrounds/Shot3BG1</mTextureName>
+      <mParallax>
+        <X>0.0</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+    </THParallaxData>
+
+
+    <THParallaxData>
+      <mTextureName>Art/Cutscenes/FilterRepair/Backgrounds/Shot3BG0</mTextureName>
+      <mParallax>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+    </THParallaxData>
+    
+  </THParallaxSetData>
+	
+	
+	<!-- #################################################################### -->
+  <!-- AthetosPanLeotard-->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="AthetosPanLeotard">
+    <THParallaxData>
+      <mTextureName>Art/Cutscenes/FilterRepair/Backgrounds/Shot1BG1</mTextureName>
+      <mParallax>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Cutscenes/FilterRepair/Backgrounds/Shot3BG2Leotard</mTextureName>
+      <mParallax>
+        <X>0.0</X>
+        <Y>1.0</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Cutscenes/FilterRepair/Backgrounds/Shot3BG1</mTextureName>
+      <mParallax>
+        <X>0.0</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+    </THParallaxData>
+
+
+    <THParallaxData>
+      <mTextureName>Art/Cutscenes/FilterRepair/Backgrounds/Shot3BG0</mTextureName>
+      <mParallax>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+    </THParallaxData>
+    
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- Shot4-->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="Shot4">
+    <THParallaxData>
+      <mTextureName>Art/Cutscenes/FilterRepair/Backgrounds/Shot1BG1</mTextureName>
+      <mParallax>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+    </THParallaxData>
+    
+    <THParallaxData>
+      <mTextureName>Art/Cutscenes/FilterRepair/Backgrounds/Shot4BG0</mTextureName>
+      <mVelocity>
+        <X>-0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mOffset>
+        <X>112</X>
+        <Y>24</Y>
+      </mOffset>
+    </THParallaxData>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- Shot5-->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="Shot5">
+    <THParallaxData>
+      <mTextureName>Art/Cutscenes/FilterRepair/Backgrounds/Shot5BG0</mTextureName>
+      <mParallax>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+    </THParallaxData>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- Shot6-->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="Shot6">
+    <THParallaxData>
+      <mTextureName>Art/Cutscenes/FilterRepair/Backgrounds/Shot6BG0</mTextureName>
+      <mParallax>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+    </THParallaxData>
+  </THParallaxSetData>
+
+</THParallaxXML>

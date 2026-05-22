@@ -1,0 +1,940 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THExplosionSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ///////////////////////////// SPRITE EXPLOSIONS //////////////////////////////-->
+
+  <!-- ######################################################################## -->
+  <!-- ENVIRONMENT -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="DustPoof">
+    <mAnimationName>DustPoof</mAnimationName>
+    <mMaxCount>8</mMaxCount>
+    <mRenderLayer>FG</mRenderLayer>
+    <!-- Should be FG since we use this on crates/stalactites, which are in the FG and would otherwise cover up the effect-->
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="JumpingSandPoof">
+    <mAnimationName>JumpingSandPoof</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mRenderLayer>PostFG</mRenderLayer>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="LandingSandPoof">
+    <mAnimationName>LandingSandPoof</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mRenderLayer>PostFG</mRenderLayer>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="RunningSandPoof">
+    <mAnimationName>RunningSandPoof</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mRenderLayer>PostFG</mRenderLayer>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="JumpingSnowPoof">
+    <mAnimationName>JumpingSnowPoof</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mRenderLayer>PostFG</mRenderLayer>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="LandingSnowPoof">
+    <mAnimationName>LandingSnowPoof</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mRenderLayer>PostFG</mRenderLayer>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="RunningSnowPoof">
+    <mAnimationName>RunningSnowPoof</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mRenderLayer>PostFG</mRenderLayer>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- DAMAGEABLE TILES -->
+  <!-- ######################################################################## -->
+  <THSpriteExplosion mName="UdugBramblesDestruct">
+    <mAnimationName>UdugBramblesDestruct</mAnimationName>
+    <mMaxCount>20</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="VioletGooDestruct">
+    <mAnimationName>VioletGooDestruct</mAnimationName>
+    <mMaxCount>20</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="VioletGooRebirth">
+    <mAnimationName>VioletGooRebirth</mAnimationName>
+    <mMaxCount>20</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+    <mType>REBIRTH</mType>
+  </THSpriteExplosion>
+
+
+  <THSpriteExplosion mName="MagentaGooDestruct">
+    <mAnimationName>MagentaGooDestruct</mAnimationName>
+    <mMaxCount>20</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="MagentaGooRebirth">
+    <mAnimationName>MagentaGooRebirth</mAnimationName>
+    <mMaxCount>20</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+    <mType>REBIRTH</mType>
+  </THSpriteExplosion>
+  
+
+  <THSpriteExplosion mName="RedGooDestruct">
+    <mAnimationName>RedGooDestruct</mAnimationName>
+    <mMaxCount>20</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="RedGooRebirth">
+    <mAnimationName>RedGooRebirth</mAnimationName>
+    <mMaxCount>20</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+    <mType>REBIRTH</mType>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="GreggOpen">
+    <mAnimationName>GreggOpen</mAnimationName>
+    <mMaxCount>1</mMaxCount>
+    <mCacheDuration>ROOM</mCacheDuration>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="ForceField01Destruct">
+    <mAnimationName>ForceField01Destruct</mAnimationName>
+    <mMaxCount>10</mMaxCount>
+    <mCacheDuration>ROOM</mCacheDuration>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="ForceField02Destruct">
+    <mAnimationName>ForceField02Destruct</mAnimationName>
+    <mMaxCount>10</mMaxCount>
+    <mCacheDuration>ROOM</mCacheDuration>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- SURFACE EFFECTS -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="BubblingFluidSplash">
+    <mAnimationName>BubblingFluidSplash</mAnimationName>
+    <mMaxCount>7</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="GreenFireSplash">
+    <mAnimationName>BubblingFluidSplash</mAnimationName>
+    <mTint>
+      <X>0.0</X>
+      <Y>1.0</Y>
+      <Z>0.79</Z>
+      <W>1.0</W>
+    </mTint>
+    <mMaxCount>7</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+  </THSpriteExplosion>
+
+  <THSpriteExplosion mName="WaterSplash02">
+    <mAnimationName>WaterSplash02</mAnimationName>
+    <mMaxCount>2</mMaxCount>
+    <mCacheDuration>AREA</mCacheDuration>
+  </THSpriteExplosion>
+
+
+  <!-- ######################################################################## -->
+  <!-- GLITCH EFFECTS -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="DistortionTiles">
+    <mAnimationName>DistortionTile8x8</mAnimationName>
+    <mMaxCount>10</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <!-- Needs to be full game since the THGameplayState references them directly. -->
+    <mFadeInDuration>0.5</mFadeInDuration>
+    <mFadeOutDuration>0.5</mFadeOutDuration>
+    <mStartScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mDistortionScale>1.0</mDistortionScale>
+    <mTimeStretch>2</mTimeStretch>
+    <mRenderLayer>Distortion</mRenderLayer>
+  </THSpriteExplosion>
+
+  <!-- Explosion played when a tile becomes fully glitched. -->
+  <THSpriteExplosion mName="GlitchTileExplosion">
+    <mAnimationName>SquareExplosion48x48</mAnimationName>
+    <mMaxCount>20</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mColor>
+      <X>0.9</X>
+      <Y>0.75</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mColor>
+    <mStartScale>
+      <X>0.25</X>
+      <Y>0.25</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mTimeStretch>1.5</mTimeStretch>
+  </THSpriteExplosion>
+
+  <!-- Distortion played when a tile is fully glitched.-->
+  <THSpriteExplosion mName="GlitchTileDistortion">
+    <mAnimationName>DistortionScanlines64x64</mAnimationName>
+    <mMaxCount>20</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mFadeInDuration>0.5</mFadeInDuration>
+    <mFadeOutDuration>0.5</mFadeOutDuration>
+    <mStartScale>
+      <X>0.25</X>
+      <Y>0.25</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>0.75</X>
+      <Y>0.75</Y>
+    </mEndScale>
+    <mDistortionScale>0.33</mDistortionScale>
+    <mTimeStretch>32</mTimeStretch>
+    <mRenderLayer>Distortion</mRenderLayer>
+  </THSpriteExplosion>
+
+  <!-- Explosion played when a tile becomes fully glitched. -->
+  <THSpriteExplosion mName="AddressDisruptorTileExplosion">
+    <mAnimationName>SquareExplosion48x48</mAnimationName>
+    <mMaxCount>20</mMaxCount>
+    <mCacheDuration>FULLGAME</mCacheDuration>
+    <mTint>
+      <X>0.9</X>
+      <Y>0.75</Y>
+      <Z>1.0</Z>
+      <W>1.0</W>
+    </mTint>
+    <mStartScale>
+      <X>0.25</X>
+      <Y>0.25</Y>
+    </mStartScale>
+    <mEndScale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mEndScale>
+    <mTimeStretch>1.5</mTimeStretch>
+  </THSpriteExplosion>
+
+  <!-- ######################################################################## -->
+  <!-- PROPS -->
+  <!-- ######################################################################## -->
+
+
+  <!-- ######################################################################## -->
+  <!-- CRATES -->
+  <!-- ######################################################################## -->
+
+  <THSpriteExplosion mName="WoodChips">
+    <mAnimationName>WoodChips</mAnimationName>
+    <mMaxCount>12</mMaxCount>
+  </THSpriteExplosion>
+
+
+  <!-- ######################################################################## -->
+  <!-- ///////////////////////////// DEATH SHATTERS  //////////////////////////////-->
+  <!-- ######################################################################## -->
+
+  <!-- ######################################################################## -->
+  <!-- BUSHES -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="BushSpriteShatter" mWidthFragments="4" mHeightFragments="8">
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>3.0</mRadialSpeed>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.05</Y>
+    </mAcceleration>
+    <mDrag>0.05</mDrag>
+    <mRotationRate>0.05</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>30.0</mMaxAge>
+    <mAgeVariation>1.0</mAgeVariation>
+    <mNumIterations>3</mNumIterations>
+    <mExplosionsInBuffer>9</mExplosionsInBuffer>
+  </THSpriteShatter>
+
+  <!-- ######################################################################## -->
+  <!-- GRASS -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="GrassSpriteShatter" mWidthFragments="8" mHeightFragments="3">
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>3.0</mRadialSpeed>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.05</Y>
+    </mAcceleration>
+    <mDrag>0.05</mDrag>
+    <mRotationRate>0.05</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>30.0</mMaxAge>
+    <mAgeVariation>1.0</mAgeVariation>
+    <mNumIterations>3</mNumIterations>
+    <mExplosionsInBuffer>9</mExplosionsInBuffer>
+  </THSpriteShatter>
+  
+
+  <!-- Sprite shatter with no movement to test the fracturing fidelity-->
+  <THSpriteShatter mName="DebugSpriteShatter" mWidthFragments="4" mHeightFragments="4">
+    <mRadialSpeed>0.0</mRadialSpeed>
+    <mSpeedVariation>0.0</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.00</Y>
+    </mAcceleration>
+    <mDrag>0.00</mDrag>
+    <mRotationRate>0.0</mRotationRate>
+    <mRotationVariation>0.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>80.0</mMaxAge>
+    <mAgeVariation>1.0</mAgeVariation>
+    <mNumIterations>1</mNumIterations>
+  </THSpriteShatter>
+
+  <!-- /////////////////////////////  Damageable tiles //////////////////////////////// -->
+
+  <!-- ######################################################################## -->
+  <!-- DEMOLISHABLE BUILDING -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="DemolishableBuildingSpriteShatter" mWidthFragments="4" mHeightFragments="4">
+    <mWidthVariation>0.2</mWidthVariation>
+    <mHeightVariation>0.2</mHeightVariation>
+
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>3.5</mRadialSpeed>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.125</Y>
+    </mAcceleration>
+    <mDrag>0.02</mDrag>
+    <mRotationRate>0.05</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+
+    <mFadeStart>0.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mFadeInAge>0.0</mFadeInAge>
+    <mFadeOutAge>0.80</mFadeOutAge>
+
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>25.0</mMaxAge>
+    <mAgeVariation>1.0</mAgeVariation>
+    <mNumIterations>1</mNumIterations>
+    <mExplosionsInBuffer>50</mExplosionsInBuffer>
+    <!-- Need a lot of explosions for demolishable building-->
+  </THSpriteShatter>
+
+  <!-- ######################################################################## -->
+  <!-- COLLAPSING SLAB -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="CollapsingSlabSpriteShatter" mWidthFragments="6" mHeightFragments="6">
+
+    <mWidthVariation>0.2</mWidthVariation>
+    <mHeightVariation>0.2</mHeightVariation>
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>0.4</mRadialSpeed>
+    <mSpeedVariation>1.0</mSpeedVariation>
+    <mInitialVelocity>
+      <X>0</X>
+      <Y>1.5</Y>
+    </mInitialVelocity>
+    <mVelocityVariation>1</mVelocityVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.2</Y>
+    </mAcceleration>
+    <mDrag>0.02</mDrag>
+    <mRotationRate>0.1</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mScaleEnd>
+    <mMaxAge>50.0</mMaxAge>
+    <mAgeVariation>0.5</mAgeVariation>
+    <mNumIterations>2</mNumIterations>
+  </THSpriteShatter>
+
+  <!-- ######################################################################## -->
+  <!-- STALACTITE -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="StalactiteSpriteShatter" mWidthFragments="8" mHeightFragments="16">
+
+    <mWidthVariation>0.2</mWidthVariation>
+    <mHeightVariation>0.2</mHeightVariation>
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>1.5</mRadialSpeed>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.125</Y>
+    </mAcceleration>
+    <mDrag>0.02</mDrag>
+    <mRotationRate>0.1</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>50.0</mMaxAge>
+    <mAgeVariation>0.5</mAgeVariation>
+    <mNumIterations>2</mNumIterations>
+
+
+  </THSpriteShatter>
+
+  <!-- ######################################################################## -->
+  <!-- UDUG BRAMBLES -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="UdugBramblesSpriteShatter" mWidthFragments="4" mHeightFragments="4">
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>3.0</mRadialSpeed>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.05</Y>
+    </mAcceleration>
+    <mDrag>0.05</mDrag>
+    <mRotationRate>0.05</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>30.0</mMaxAge>
+    <mAgeVariation>1.0</mAgeVariation>
+    <mNumIterations>3</mNumIterations>
+    <mExplosionsInBuffer>12</mExplosionsInBuffer>
+  </THSpriteShatter>
+
+  <!-- ######################################################################## -->
+  <!-- WOODCRATESMALLH -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="WoodCrateSmallHSpriteShatter" mWidthFragments="2" mHeightFragments ="11">
+    <mWidthVariation>0.9</mWidthVariation>
+    <mHeightVariation>0.1</mHeightVariation>
+
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>2.0</mRadialSpeed>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.125</Y>
+    </mAcceleration>
+    <mDrag>0.02</mDrag>
+    <mRotationRate>0.02</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>45.0</mMaxAge>
+    <mAgeVariation>1.0</mAgeVariation>
+    <mNumIterations>2</mNumIterations>
+  </THSpriteShatter>
+
+  <!-- ######################################################################## -->
+  <!-- WOODCRATESMALLV -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="WoodCrateSmallVSpriteShatter" mWidthFragments="11" mHeightFragments ="2">
+    <mWidthVariation>0.1</mWidthVariation>
+    <mHeightVariation>0.9</mHeightVariation>
+
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>2.0</mRadialSpeed>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.125</Y>
+    </mAcceleration>
+    <mDrag>0.02</mDrag>
+    <mRotationRate>0.02</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>45.0</mMaxAge>
+    <mAgeVariation>1.0</mAgeVariation>
+    <mNumIterations>2</mNumIterations>
+  </THSpriteShatter>
+
+  <!-- ######################################################################## -->
+  <!-- WOODCRATEMEDIUMH -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="WoodCrateMediumHSpriteShatter" mWidthFragments="2" mHeightFragments ="11">
+    <mWidthVariation>0.9</mWidthVariation>
+    <mHeightVariation>0.1</mHeightVariation>
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>2.0</mRadialSpeed>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.125</Y>
+    </mAcceleration>
+    <mDrag>0.02</mDrag>
+    <mRotationRate>0.02</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>45.0</mMaxAge>
+    <mAgeVariation>1.0</mAgeVariation>
+    <mNumIterations>2</mNumIterations>
+  </THSpriteShatter>
+
+  <!-- ######################################################################## -->
+  <!-- WOODCRATESMEDIUMV -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="WoodCrateMediumVSpriteShatter" mWidthFragments="11" mHeightFragments ="2">
+    <mWidthVariation>0.1</mWidthVariation>
+    <mHeightVariation>0.9</mHeightVariation>
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>2.0</mRadialSpeed>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.125</Y>
+    </mAcceleration>
+    <mDrag>0.02</mDrag>
+    <mRotationRate>0.02</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>45.0</mMaxAge>
+    <mAgeVariation>0.0</mAgeVariation>
+    <mNumIterations>2</mNumIterations>
+  </THSpriteShatter>
+
+  <!-- ######################################################################## -->
+  <!-- WOODCRATESLARGEV -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="WoodCrateLargeVSpriteShatter" mWidthFragments="16" mHeightFragments ="2">
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mWidthVariation>0.1</mWidthVariation>
+    <mHeightVariation>0.9</mHeightVariation>
+    <mRadialSpeed>2.0</mRadialSpeed>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.125</Y>
+    </mAcceleration>
+    <mDrag>0.02</mDrag>
+    <mRotationRate>0.02</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>45.0</mMaxAge>
+    <mAgeVariation>1.0</mAgeVariation>
+    <mNumIterations>2</mNumIterations>
+  </THSpriteShatter>
+
+  <!-- ######################################################################## -->
+  <!-- LIGHBULB -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="LightBulbSpriteShatter" mWidthFragments="4" mHeightFragments ="5">
+    <mWidthVariation>0.2</mWidthVariation>
+    <mHeightVariation>0.2</mHeightVariation>
+
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>1.5</mRadialSpeed>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.125</Y>
+    </mAcceleration>
+    <mDrag>0.02</mDrag>
+    <mRotationRate>0.05</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>45.0</mMaxAge>
+    <mAgeVariation>1.0</mAgeVariation>
+    <mNumIterations>2</mNumIterations>
+  </THSpriteShatter>
+
+  <!-- ######################################################################## -->
+  <!-- POTTERY -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="PotterySpriteShatter" mWidthFragments="4" mHeightFragments ="5">
+    <mWidthVariation>0.2</mWidthVariation>
+    <mHeightVariation>0.2</mHeightVariation>
+
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>2.0</mRadialSpeed>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.125</Y>
+    </mAcceleration>
+    <mDrag>0.02</mDrag>
+    <mRotationRate>0.05</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>45.0</mMaxAge>
+    <mAgeVariation>1.0</mAgeVariation>
+    <mNumIterations>2</mNumIterations>
+  </THSpriteShatter>
+
+  
+  
+  
+  <!-- ######################################################################## -->
+  <!-- CILIA -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="CiliaSpriteShatter" mWidthFragments="4" mHeightFragments="4">
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>3.0</mRadialSpeed>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.05</Y>
+    </mAcceleration>
+    <mDrag>0.03</mDrag>
+    <mRotationRate>0.05</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>30.0</mMaxAge>
+    <mAgeVariation>1.0</mAgeVariation>
+    <mNumIterations>4</mNumIterations>
+  </THSpriteShatter>
+
+
+  <!-- ######################################################################## -->
+  <!-- RED GOO -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="RedGooSpriteShatter" mWidthFragments="5" mHeightFragments="5">
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>3.0</mRadialSpeed>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.05</Y>
+    </mAcceleration>
+    <mDrag>0.03</mDrag>
+    <mRotationRate>0.05</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>30.0</mMaxAge>
+    <mAgeVariation>1.0</mAgeVariation>
+    <mNumIterations>2</mNumIterations>
+    <mExplosionsInBuffer>9</mExplosionsInBuffer>
+
+    <!-- note:  Given my propensity for layering these on top of one another, it is best not to place the sound effect in them.-->
+  </THSpriteShatter>
+
+  <!-- ######################################################################## -->
+  <!-- BREAKABLE STONE -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="BreakableStone1SpriteShatter" mWidthFragments="3" mHeightFragments="3">
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>1.0</Y>
+      <Z>1.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>3.5</mRadialSpeed>
+    <mSpeedVariation>0.5</mSpeedVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.125</Y>
+    </mAcceleration>
+    <mDrag>0.02</mDrag>
+    <mRotationRate>0.05</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleEnd>
+    <mMaxAge>45.0</mMaxAge>
+    <mAgeVariation>1.0</mAgeVariation>
+    <mNumIterations>2</mNumIterations>
+  </THSpriteShatter>
+
+
+  <!-- ######################################################################## -->
+  <!-- COLLAPSING STONE -->
+  <!-- ######################################################################## -->
+  <THSpriteShatter mName="CollapsingStoneSpriteShatter" mWidthFragments="3" mHeightFragments="3">
+    <!-- Value I added to scale back the contributon of damage flashes.-->
+    <mStaticHeatBlackenW>
+      <X>0.0</X>
+      <Y>0.0</Y>
+      <Z>0.0</Z>
+      <W>0.0</W>
+    </mStaticHeatBlackenW>
+    <mRadialSpeed>0.2</mRadialSpeed>
+    <mSpeedVariation>1.0</mSpeedVariation>
+    <mInitialVelocity>
+      <X>0</X>
+      <Y>2</Y>
+    </mInitialVelocity>
+    <mVelocityVariation>1</mVelocityVariation>
+    <mAcceleration>
+      <X>0.0</X>
+      <Y>0.2</Y>
+    </mAcceleration>
+    <mDrag>0.02</mDrag>
+    <mRotationRate>0.1</mRotationRate>
+    <mRotationVariation>1.0</mRotationVariation>
+    <mFadeStart>1.0</mFadeStart>
+    <mFadeEnd>1.0</mFadeEnd>
+    <mScaleStart>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </mScaleStart>
+    <mScaleEnd>
+      <X>0.5</X>
+      <Y>0.5</Y>
+    </mScaleEnd>
+    <mMaxAge>50.0</mMaxAge>
+    <mAgeVariation>0.25</mAgeVariation>
+    <mNumIterations>3</mNumIterations>
+  </THSpriteShatter>
+
+
+
+
+</THExplosionSettings>

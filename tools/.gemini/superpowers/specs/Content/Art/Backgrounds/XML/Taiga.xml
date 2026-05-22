@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParallaxXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+  <!-- #################################################################### -->
+  <!-- "TaigaForest" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="TaigaForest">
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Taiga/GreenForest</mTextureName>
+      <mParallax>
+        <X>0.4</X>
+        <Y>0.4</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-16</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Taiga/CraggyMountains</mTextureName>
+      <mParallax>
+        <X>0.33</X>
+        <Y>0.33</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-128</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Taiga/CraggyMountains</mTextureName>
+      <mParallax>
+        <X>0.20</X>
+        <Y>0.20</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-112</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <!-- Clouds -->
+    <THParallaxData>
+      <mType>TUBE</mType>
+      <mTextureName>Art/Backgrounds/Taiga/ContinentalSky</mTextureName>
+      <mTechnique>TubeTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.125</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      
+      <mFogColor>
+        <R>191</R>
+        <G>232</G>
+        <B>255</B>
+        <A>127</A>
+      </mFogColor>
+      <mGradientData>
+        <mStartColor>
+          <R>127</R>
+          <G>127</G>
+          <B>127</B>
+          <A>255</A>
+        </mStartColor>
+        <mEndColor>
+          <R>127</R>
+          <G>127</G>
+          <B>127</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>32</mStartY>
+        <mEndY>320</mEndY>
+      </mGradientData>
+    </THParallaxData>
+
+
+  </THParallaxSetData>
+
+
+  <!-- #################################################################### -->
+  <!-- "TaigaForest" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="TaigaSnowForest">
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Taiga/SnowForest</mTextureName>
+      <mParallax>
+        <X>0.4</X>
+        <Y>0.4</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <!-- Clouds -->
+    <THParallaxData>
+      <mType>TUBE</mType>
+      <mTextureName>Art/Backgrounds/Taiga/ContinentalSky</mTextureName>
+      <mTechnique>TubeTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.125</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mFogColor>
+        <R>191</R>
+        <G>232</G>
+        <B>255</B>
+        <A>127</A>
+      </mFogColor>
+      <mGradientData>
+        <mStartColor>
+          <R>127</R>
+          <G>127</G>
+          <B>127</B>
+          <A>255</A>
+        </mStartColor>
+        <mEndColor>
+          <R>127</R>
+          <G>127</G>
+          <B>127</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>32</mStartY>
+        <mEndY>320</mEndY>
+      </mGradientData>
+    </THParallaxData>
+
+
+  </THParallaxSetData>
+
+
+
+  <!-- #################################################################### -->
+  <!-- "Tundra" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="Tundra">
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Taiga/TundraPlains1</mTextureName>
+      <mParallax>
+        <X>0.95</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-32</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Taiga/TundraPlains2</mTextureName>
+      <mParallax>
+        <X>0.9</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-40</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Taiga/TundraPlains3</mTextureName>
+      <mParallax>
+        <X>0.85</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-48</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Taiga/TundraPlains4</mTextureName>
+      <mParallax>
+        <X>0.8</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-56</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Taiga/TundraPlains1</mTextureName>
+      <mParallax>
+        <X>0.75</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-64</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Taiga/TundraPlains2</mTextureName>
+      <mParallax>
+        <X>0.7</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-72</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Taiga/TundraPlains3</mTextureName>
+      <mParallax>
+        <X>0.65</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-80</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Taiga/TundraPlains4</mTextureName>
+      <mParallax>
+        <X>0.6</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-88</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Taiga/TundraHills1</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-96</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Taiga/TundraHills2</mTextureName>
+      <mParallax>
+        <X>0.4</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-88</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <!-- Clouds -->
+    <THParallaxData>
+      <mType>TUBE</mType>
+      <mTextureName>Art/Backgrounds/Taiga/ContinentalSky</mTextureName>
+      <mTechnique>TubeTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.125</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mFogColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>127</A>
+      </mFogColor>
+      <!-- Remove distortion due to stretching so it scrolls more smoothly-->
+      <mTubeStretchAmount>1.0</mTubeStretchAmount>
+      <mGradientData>
+        <mStartColor>
+          <R>127</R>
+          <G>127</G>
+          <B>127</B>
+          <A>255</A>
+        </mStartColor>
+        <mEndColor>
+          <R>127</R>
+          <G>127</G>
+          <B>127</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>32</mStartY>
+        <mEndY>320</mEndY>
+      </mGradientData>
+    </THParallaxData>
+
+
+  </THParallaxSetData>
+
+
+
+</THParallaxXML>

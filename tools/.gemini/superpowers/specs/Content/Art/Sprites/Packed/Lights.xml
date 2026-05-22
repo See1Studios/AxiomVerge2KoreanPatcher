@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>0</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>Lights.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="LightsTexture">
+    <THSpriteAnimationData mName="LightCone" mIsLooping="false" mRenderType="START">
+      <mCSVName>..\Props\Lights\Output\LightCone.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="512" mHeight="256" mDelay="62" mOriginX="256" mOriginY="0" mU="0" mV="512" mUVWidth="512" mUVHeight="256" mCropX="0" mCropY="0" mSourceImageName="..\Props\Lights\Output\LightCone0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="LightBulb" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Lights\Output\LightBulb.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-3" mY="5" mWidth="5" mHeight="6" mRadius="8" mColFlags="0" />
+      </mCollisionList>
+      <THFrameData mWidth="4" mHeight="5" mDelay="62" mOriginX="2" mOriginY="-6" mU="517" mV="928" mUVWidth="4" mUVHeight="5" mCropX="0" mCropY="0" mSourceImageName="..\Props\Lights\Output\LightBulb0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="LightConeTexture" mIsLooping="false" mRenderType="START">
+      <mCSVName>..\Props\Lights\Output\LightConeTexture.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="512" mHeight="256" mDelay="62" mOriginX="256" mOriginY="0" mU="0" mV="768" mUVWidth="512" mUVHeight="256" mCropX="0" mCropY="0" mSourceImageName="..\Props\Lights\Output\LightConeTexture0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="LightConeNoFallOff" mIsLooping="false" mRenderType="START">
+      <mCSVName>..\Props\Lights\Output\LightConeNoFallOff.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="512" mHeight="256" mDelay="62" mOriginX="256" mOriginY="0" mU="512" mV="512" mUVWidth="512" mUVHeight="256" mCropX="0" mCropY="0" mSourceImageName="..\Props\Lights\Output\LightConeNoFallOff0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="MiningLightBulb" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Lights\Output\MiningLightBulb.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="3" mWidth="6" mHeight="11" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="5" mHeight="10" mDelay="62" mOriginX="3" mOriginY="-4" mU="512" mV="928" mUVWidth="5" mUVHeight="10" mCropX="0" mCropY="0" mSourceImageName="..\Props\Lights\Output\MiningLightBulb0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="LightRadius" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Lights\Output\LightRadius.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="512" mHeight="512" mDelay="62" mOriginX="256" mOriginY="256" mU="0" mV="0" mUVWidth="512" mUVHeight="512" mCropX="0" mCropY="0" mSourceImageName="..\Props\Lights\Output\LightRadius0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="LightRadiusTexture" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Props\Lights\Output\LightRadiusTexture.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="512" mHeight="512" mDelay="62" mOriginX="256" mOriginY="256" mU="512" mV="0" mUVWidth="512" mUVHeight="512" mCropX="0" mCropY="0" mSourceImageName="..\Props\Lights\Output\LightRadiusTexture0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="NPCLightCone" mIsLooping="false" mRenderType="START">
+      <mCSVName>..\Props\Lights\Output\NPCLightCone.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="128" mHeight="160" mDelay="62" mOriginX="0" mOriginY="80" mU="512" mV="768" mUVWidth="128" mUVHeight="160" mCropX="0" mCropY="0" mSourceImageName="..\Props\Lights\Output\NPCLightCone0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="NPCLightTexture" mIsLooping="false" mRenderType="START">
+      <mCSVName>..\Props\Lights\Output\NPCLightTexture.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="128" mHeight="160" mDelay="62" mOriginX="0" mOriginY="80" mU="640" mV="768" mUVWidth="128" mUVHeight="160" mCropX="0" mCropY="0" mSourceImageName="..\Props\Lights\Output\NPCLightTexture0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THDamageableTileSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- #################################################################### -->
+  <!-- Damageable tiles-->
+  <!-- #################################################################### -->
+
+
+  <THDamageableTileData mName="Bushes">
+    <mDestructSpriteShatter>BushSpriteShatter</mDestructSpriteShatter>
+    <mHitPoints>1</mHitPoints>
+    <mMaxHitPoints>1</mMaxHitPoints>
+    <mDestructSoundName>Splash</mDestructSoundName>
+    <mItemDrop>true</mItemDrop>
+    <mHealthDropChance>0.125</mHealthDropChance>
+    <mHealthDropPoints>25</mHealthDropPoints>
+    <mNanoDropChance>0.125</mNanoDropChance>
+    <mNanoDropPoints>25</mNanoDropPoints>
+    <mTrophyType>WeedWhacker</mTrophyType>
+  </THDamageableTileData>
+
+  <!-- LIghter breakable stone for the drone-->
+  <THDamageableTileData mName="BreakableStoneLight">
+    <mDestructSpriteShatter>BreakableStone1SpriteShatter</mDestructSpriteShatter>
+    <mHitPoints>20</mHitPoints>
+    <mMaxHitPoints>20</mMaxHitPoints>
+    <mHardness>1</mHardness>
+    <mDamageSoundName>StoneCrack</mDamageSoundName>
+    <mDestructSoundName>StoneShatter</mDestructSoundName>
+    <mPersistent>true</mPersistent>
+    <mTrophyType>Demolitionist</mTrophyType>
+  </THDamageableTileData>
+  
+
+  <THDamageableTileData mName="BreakableStone">
+    <mDestructSpriteShatter>BreakableStone1SpriteShatter</mDestructSpriteShatter>
+    <mHitPoints>75</mHitPoints>
+    <mMaxHitPoints>75</mMaxHitPoints>
+    <mHardness>1</mHardness>
+    <mDamageSoundName>StoneCrack</mDamageSoundName>
+    <mDestructSoundName>StoneShatter</mDestructSoundName>
+    <mPersistent>true</mPersistent>
+    <mTrophyType>Demolitionist</mTrophyType>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="Grass">
+    <mDestructSpriteShatter>GrassSpriteShatter</mDestructSpriteShatter>
+    <mHitPoints>1</mHitPoints>
+    <mMaxHitPoints>1</mMaxHitPoints>
+    <mDestructSoundName>Splash</mDestructSoundName>
+    <mTrophyType>WeedWhacker</mTrophyType>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="GrassSlope">
+    <mDestructSpriteShatter>GrassSpriteShatter</mDestructSpriteShatter>
+    <mHitPoints>1</mHitPoints>
+    <mMaxHitPoints>1</mMaxHitPoints>
+    <mDestructSoundName>Splash</mDestructSoundName>
+    <mPreserveCollision>true</mPreserveCollision>
+    <mTrophyType>WeedWhacker</mTrophyType>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="VisibleCrackStoneLight">
+    <mDestructSpriteShatter>BreakableStone1SpriteShatter</mDestructSpriteShatter>
+    <mHitPoints>30</mHitPoints>
+    <mMaxHitPoints>30</mMaxHitPoints>
+    <mHardness>1</mHardness>
+    <mDamageSoundName>StoneCrack</mDamageSoundName>
+    <mDestructSoundName>StoneShatter</mDestructSoundName>
+    <mCrackVisible>true</mCrackVisible>
+    <mPersistent>true</mPersistent>
+    <mTrophyType>Demolitionist</mTrophyType>
+  </THDamageableTileData>
+  
+  <THDamageableTileData mName="VisibleCrackStone">
+    <mDestructSpriteShatter>BreakableStone1SpriteShatter</mDestructSpriteShatter>
+    <mHitPoints>75</mHitPoints>
+    <mMaxHitPoints>75</mMaxHitPoints>
+    <mHardness>1</mHardness>
+    <mDamageSoundName>StoneCrack</mDamageSoundName>
+    <mDestructSoundName>StoneShatter</mDestructSoundName>
+    <mCrackVisible>true</mCrackVisible>
+    <mPersistent>true</mPersistent>
+    <mTrophyType>Demolitionist</mTrophyType>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="BreakableStoneStrong">
+    <mDestructSpriteShatter>BreakableStone1SpriteShatter</mDestructSpriteShatter>
+    <mHitPoints>300</mHitPoints>
+    <mMaxHitPoints>300</mMaxHitPoints>
+    <mHardness>1</mHardness>
+    <mDamageSoundName>StoneCrack</mDamageSoundName>
+    <mDestructSoundName>StoneShatter</mDestructSoundName>
+    <mPersistent>true</mPersistent>
+    <mTrophyType>Demolitionist</mTrophyType>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="BreakableStone2">
+    <mDestructSpriteShatter>BreakableStone1SpriteShatter</mDestructSpriteShatter>
+    <mHitPoints>100</mHitPoints>
+    <mMaxHitPoints>100</mMaxHitPoints>
+    <mHardness>2</mHardness>
+    <mDamageSoundName>StoneCrack</mDamageSoundName>
+    <mDestructSoundName>StoneShatter</mDestructSoundName>
+    <mPersistent>true</mPersistent>
+    <mTrophyType>Demolitionist</mTrophyType>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="BreakableStone3">
+    <mDestructSpriteShatter>BreakableStone1SpriteShatter</mDestructSpriteShatter>
+    <mHitPoints>200</mHitPoints>
+    <mMaxHitPoints>200</mMaxHitPoints>
+    <mHardness>3</mHardness>
+    <mDamageSoundName>StoneCrack</mDamageSoundName>
+    <mDestructSoundName>StoneShatter</mDestructSoundName>
+    <mPersistent>true</mPersistent>
+    <mTrophyType>Demolitionist</mTrophyType>
+  </THDamageableTileData>
+
+  <!-- This is the one you need Gudanna for -->
+  <THDamageableTileData mName="VisibleCrackStone2">
+    <mDestructSpriteShatter>BreakableStone1SpriteShatter</mDestructSpriteShatter>
+    <mHitPoints>100</mHitPoints>
+    <mMaxHitPoints>100</mMaxHitPoints>
+    <mHardness>2</mHardness>
+    <mDamageSoundName>StoneCrack</mDamageSoundName>
+    <mDestructSoundName>StoneShatter</mDestructSoundName>
+    <mCrackVisible>true</mCrackVisible>
+    <mPersistent>true</mPersistent>
+    <mTrophyType>Demolitionist</mTrophyType>
+  </THDamageableTileData>
+
+ 
+  <THDamageableTileData mName="UdugBrambles">
+    <mDestructSpriteExplosion>UdugBramblesDestruct</mDestructSpriteExplosion>
+    <mDestructSpriteShatter>UdugBramblesSpriteShatter</mDestructSpriteShatter>
+    <mHardness>4</mHardness>
+    <mHitPoints>1000</mHitPoints>
+    <mMaxHitPoints>1000</mMaxHitPoints>
+    <mDestructSoundName>SplatC</mDestructSoundName>
+    <mPersistent>true</mPersistent>
+    <mTransWorld>true</mTransWorld>
+    <mTrophyType>WeedWhacker</mTrophyType>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="UdugBramblesBreach">
+    <mDestructSpriteExplosion>UdugBramblesDestruct</mDestructSpriteExplosion>
+    <mDestructSpriteShatter>UdugBramblesSpriteShatter</mDestructSpriteShatter>
+    <mHitPoints>1</mHitPoints>
+    <mMaxHitPoints>1</mMaxHitPoints>
+    <mDestructSoundName>SplatC</mDestructSoundName>
+    <mPersistent>true</mPersistent>
+    <mTransWorld>true</mTransWorld>
+    <mTrophyType>WeedWhacker</mTrophyType>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="VioletGoo">
+    <mTimeUntilReconstruct>300</mTimeUntilReconstruct>
+    <mDestructSpriteExplosion>VioletGooDestruct</mDestructSpriteExplosion>
+    <mDestructSpriteShatter>RedGooSpriteShatter</mDestructSpriteShatter>
+    <mRebirthExplosion>VioletGooRebirth</mRebirthExplosion>
+    <mHitPoints>1</mHitPoints>
+    <mMaxHitPoints>1</mMaxHitPoints>
+    <mDestructSoundName>SplatC</mDestructSoundName>
+    <mRebirthSoundName>GooRebirth</mRebirthSoundName>
+    <mTrophyType>BubbleBreaker</mTrophyType>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="MagentaGoo">
+    <mTimeUntilReconstruct>300</mTimeUntilReconstruct>
+    <mDestructSpriteExplosion>MagentaGooDestruct</mDestructSpriteExplosion>
+    <mDestructSpriteShatter>RedGooSpriteShatter</mDestructSpriteShatter>
+    <mRebirthExplosion>MagentaGooRebirth</mRebirthExplosion>
+    <mHitPoints>1</mHitPoints>
+    <mMaxHitPoints>1</mMaxHitPoints>
+    <mDestructSoundName>SplatC</mDestructSoundName>
+    <mRebirthSoundName>GooRebirth</mRebirthSoundName>
+    <mTrophyType>BubbleBreaker</mTrophyType>
+  </THDamageableTileData>
+
+
+  <THDamageableTileData mName="Cilia1">
+    <mTimeUntilReconstruct>300</mTimeUntilReconstruct>
+    <mDestructSpriteShatter>CiliaSpriteShatter</mDestructSpriteShatter>
+    <mRebirthExplosion>Cilia1Rebirth</mRebirthExplosion>
+    <mHitPoints>1</mHitPoints>
+    <mMaxHitPoints>1</mMaxHitPoints>
+    <mDestructSoundName>SplatC</mDestructSoundName>
+    <mRebirthSoundName>RedGooRebirth</mRebirthSoundName>
+    <mTrophyType>NONE</mTrophyType>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="Cilia1Side">
+    <mTimeUntilReconstruct>300</mTimeUntilReconstruct>
+    <mDestructSpriteShatter>CiliaSpriteShatter</mDestructSpriteShatter>
+    <mRebirthExplosion>Cilia1RebirthSide</mRebirthExplosion>
+    <mHitPoints>1</mHitPoints>
+    <mMaxHitPoints>1</mMaxHitPoints>
+    <mDestructSoundName>SplatC</mDestructSoundName>
+    <mRebirthSoundName>RedGooRebirth</mRebirthSoundName>
+    <mTrophyType>NONE</mTrophyType>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="Cilia2">
+    <mTimeUntilReconstruct>300</mTimeUntilReconstruct>
+    <mDestructSpriteShatter>CiliaSpriteShatter</mDestructSpriteShatter>
+    <mRebirthExplosion>Cilia2Rebirth</mRebirthExplosion>
+    <mHitPoints>1</mHitPoints>
+    <mMaxHitPoints>1</mMaxHitPoints>
+    <mDestructSoundName>SplatC</mDestructSoundName>
+    <mRebirthSoundName>RedGooRebirth</mRebirthSoundName>
+    <mTrophyType>NONE</mTrophyType>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="Cilia2Side">
+    <mTimeUntilReconstruct>300</mTimeUntilReconstruct>
+    <mDestructSpriteShatter>CiliaSpriteShatter</mDestructSpriteShatter>
+    <mRebirthExplosion>Cilia2RebirthSide</mRebirthExplosion>
+    <mHitPoints>1</mHitPoints>
+    <mMaxHitPoints>1</mMaxHitPoints>
+    <mDestructSoundName>SplatC</mDestructSoundName>
+    <mRebirthSoundName>RedGooRebirth</mRebirthSoundName>
+    <mTrophyType>NONE</mTrophyType>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="CollapsingStone">
+    <mDestructSpriteShatter>CollapsingStoneSpriteShatter</mDestructSpriteShatter>
+    <mHitPoints>1</mHitPoints>
+    <mMaxHitPoints>1</mMaxHitPoints>
+    <mHardness>0</mHardness>
+    <mDamageSoundName>StoneCrack</mDamageSoundName>
+    <mDestructSoundName>StoneShatter</mDestructSoundName>
+    <mPersistent>true</mPersistent>
+    <mTrophyType>Demolitionist</mTrophyType>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="ForceField">
+    <mDestructSpriteExplosion>ForceField01Destruct</mDestructSpriteExplosion>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="ForceField2">
+    <mDestructSpriteExplosion>ForceField02Destruct</mDestructSpriteExplosion>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="Gregg">
+    <mDestructSpriteExplosion>GreggOpen</mDestructSpriteExplosion>
+    <mDestructSoundName>SplatC</mDestructSoundName>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="FungusNodes">
+    <mDestructSpriteShatter>CiliaSpriteShatter</mDestructSpriteShatter>
+    <mHitPoints>1</mHitPoints>
+    <mMaxHitPoints>1</mMaxHitPoints>
+    <mDestructSoundName>SplatC</mDestructSoundName>
+  </THDamageableTileData>
+
+  <THDamageableTileData mName="RedGoo">
+    <mTimeUntilReconstruct>300</mTimeUntilReconstruct>
+    <mDestructSpriteExplosion>RedGooDestruct</mDestructSpriteExplosion>
+    <mDestructSpriteShatter>RedGooSpriteShatter</mDestructSpriteShatter>
+    <mRebirthExplosion>RedGooRebirth</mRebirthExplosion>
+    <mHitPoints>1</mHitPoints>
+    <mMaxHitPoints>1</mMaxHitPoints>
+    <mDestructSoundName>SplatC</mDestructSoundName>
+    <mRebirthSoundName>GooRebirth</mRebirthSoundName>
+    <mTrophyType>BubbleBreaker</mTrophyType>
+  </THDamageableTileData>
+</THDamageableTileSettings>

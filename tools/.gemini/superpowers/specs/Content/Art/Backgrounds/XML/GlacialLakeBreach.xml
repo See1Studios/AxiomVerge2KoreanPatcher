@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParallaxXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- #################################################################### -->
+  <!-- "Purple Gradient" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="LakePurpleGradientBreach">
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mGradientStartColor>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>47</R>
+        <G>0</G>
+        <B>143</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>120</mGradientStartY>
+      <mGradientEndY>180</mGradientEndY>
+      <mReflected>true</mReflected>
+
+      <VignetteColor>
+        <R>63</R>
+        <G>163</G>
+        <B>135</B>
+        <A>205</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+
+  <!-- #################################################################### -->
+  <!-- "Purple Gradient Alt" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="LakePurpleGradientAltBreach">
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mTechnique>CausticsTechnique</mTechnique>
+      <mGradientStartColor>
+        <R>25</R>
+        <G>0</G>
+        <B>68</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>40</R>
+        <G>0</G>
+        <B>130</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>120</mGradientStartY>
+      <mGradientEndY>240</mGradientEndY>
+      <mReflected>true</mReflected>
+
+      <VignetteColor>
+        <R>245</R>
+        <G>91</G>
+        <B>130</B>
+        <A>147</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+
+
+  <!-- #################################################################### -->
+  <!-- "Violet Gradient" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="LakeVioletGradientBreach">
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mTechnique>CausticsTechnique</mTechnique>
+      <mGradientStartColor>
+        <R>14</R>
+        <G>0</G>
+        <B>68</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>27</R>
+        <G>0</G>
+        <B>130</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>120</mGradientStartY>
+      <mGradientEndY>240</mGradientEndY>
+      <mReflected>true</mReflected>
+
+      <VignetteColor>
+        <R>140</R>
+        <G>196</G>
+        <B>146</B>
+        <A>158</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- "Blue Ice" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="LakeBlueIceBreach">
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/GlacialLakeBreach/BlueMountains</mTextureName>
+      <mTechnique>OverlayBitmapTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mGradientData>
+        <mStartColor>
+          <R>12</R>
+          <G>5</G>
+          <B>120</B>
+          <A>0</A>
+        </mStartColor>
+        <mEndColor>
+          <R>12</R>
+          <G>5</G>
+          <B>120</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>180</mStartY>
+        <mEndY>240</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+      <mAnchor>BottomLeft</mAnchor>
+    </THParallaxData>
+
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mTechnique>CausticsTechnique</mTechnique>
+      <mGradientStartColor>
+        <R>0</R>
+        <G>136</G>
+        <B>207</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>138</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>120</mGradientStartY>
+      <mGradientEndY>240</mGradientEndY>
+      <mReflected>true</mReflected>
+
+      <VignetteColor>
+        <R>88</R>
+        <G>103</G>
+        <B>146</B>
+        <A>118</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+
+    </mBreachEffectParams>
+  </THParallaxSetData>
+</THParallaxXML>

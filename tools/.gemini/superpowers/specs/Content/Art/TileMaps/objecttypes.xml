@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="AreaAfterworld" color="#ffffff">
+  <property name="MapBounds" type="string" default="Afterworld"/>
+ </objecttype>
+ <objecttype name="AreaAntarctica" color="#ebfbff">
+  <property name="MapBounds" type="string" default="Earth"/>
+ </objecttype>
+ <objecttype name="AreaBeach" color="#6fd2ff">
+  <property name="MapBounds" type="string" default="KiEnGir"/>
+ </objecttype>
+ <objecttype name="AreaBeachBreach" color="#6fa2ff">
+  <property name="MapBounds" type="string" default="KiEnGir"/>
+ </objecttype>
+ <objecttype name="AreaCaverns" color="#ffe7bd">
+  <property name="MapBounds" type="string" default="KiEnGir"/>
+ </objecttype>
+ <objecttype name="AreaCavernsBreach" color="#ffc4bc">
+  <property name="MapBounds" type="string" default="KiEnGir"/>
+ </objecttype>
+ <objecttype name="AreaFilter" color="#00aa7f">
+  <property name="MapBounds" type="string" default="Filter"/>
+ </objecttype>
+ <objecttype name="AreaGlacialLake" color="#7790ff">
+  <property name="MapBounds" type="string" default="KiEnGir"/>
+ </objecttype>
+ <objecttype name="AreaGlacialLakeBreach" color="#8c69ff">
+  <property name="MapBounds" type="string" default="KiEnGir"/>
+ </objecttype>
+ <objecttype name="AreaHighDesert" color="#ffaa20">
+  <property name="MapBounds" type="string" default="KiEnGir"/>
+ </objecttype>
+ <objecttype name="AreaHighDesertBreach" color="#ff4b14">
+  <property name="MapBounds" type="string" default="KiEnGir"/>
+ </objecttype>
+ <objecttype name="AreaOasis" color="#acc600">
+  <property name="MapBounds" type="string" default="KiEnGir"/>
+ </objecttype>
+ <objecttype name="AreaOasisBreach" color="#ceff47">
+  <property name="MapBounds" type="string" default="KiEnGir"/>
+ </objecttype>
+ <objecttype name="AreaPostarctica" color="#94ddff">
+  <property name="MapBounds" type="string" default="KiEnGir"/>
+ </objecttype>
+ <objecttype name="AreaPostarcticaBreach" color="#aaffff">
+  <property name="MapBounds" type="string" default="KiEnGir"/>
+ </objecttype>
+ <objecttype name="AreaTaiga" color="#01ffab">
+  <property name="MapBounds" type="string" default="KiEnGir"/>
+ </objecttype>
+ <objecttype name="AreaTaigaBreach" color="#ff00ff">
+  <property name="MapBounds" type="string" default="KiEnGir"/>
+ </objecttype>
+ <objecttype name="AreaWorldStream" color="#aa00ff">
+  <property name="MapBounds" type="string" default="WorldStream"/>
+ </objecttype>
+</objecttypes>

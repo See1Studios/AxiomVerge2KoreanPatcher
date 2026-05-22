@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THCreditsXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mLanguage>English</mLanguage>
+
+  <THCreditSection mHeadingColor="3EEEF1" mEntryColor="FFFFFF" mTitle="公理边缘2">
+  </THCreditSection>
+
+  <THCreditSection mHeadingColor="3EEEF1" mEntryColor="FFFFFF" mTitle="开发者：">
+    <THCreditsEntry>Tom Happ</THCreditsEntry>
+  </THCreditSection>
+  <THCreditSection mHeadingColor="3EEEF1" mEntryColor="FFFFFF" mTitle="献给">
+    <THCreditsEntry>Alastair Happ</THCreditsEntry>
+  </THCreditSection>
+  <THCreditSection mHeadingColor="3EEEF1" mEntryColor="FFFFFF" mTitle="声乐：">
+    <THCreditsEntry>Mayssa Karaa</THCreditsEntry>
+  </THCreditSection>
+  <THCreditSection mHeadingColor="3EEEF1" mEntryColor="FFFFFF" mTitle="商务与营销：">
+    <THCreditsEntry>Dan Adelman</THCreditsEntry>
+  </THCreditSection>
+  <THCreditSection mHeadingColor="3EEEF1" mEntryColor="FFFFFF" mTitle="簿记：">
+    <THCreditsEntry>Esther Chloe Happ</THCreditsEntry>
+  </THCreditSection>
+
+  <THCreditSection mHeadingColor="3EEEF1" mEntryColor="FFFFFF" mTitle="本地化">
+    <THCreditsEntry>Arina Bedrina &amp; Alexander Preymak</THCreditsEntry>
+    <THCreditsEntry>Ricardo Douglas da Silva</THCreditsEntry>
+    <THCreditsEntry>Carlo De Rensis</THCreditsEntry>
+    <THCreditsEntry>Guido Di Carlo &amp; Ian Gonzalez</THCreditsEntry>
+    <THCreditsEntry>Gwladys Gaye-Williams</THCreditsEntry>
+    <THCreditsEntry>Toki Okada &amp; On Takahashi</THCreditsEntry>
+    <THCreditsEntry>Albert Wei</THCreditsEntry>
+    <THCreditsEntry>Marcel Weyers</THCreditsEntry>
+  </THCreditSection>
+
+  <THCreditSection mHeadingColor="3EEEF1" mEntryColor="FFFFFF" mTitle="游戏开发所用软件">
+
+    <THCreditsEntry>BRUTE</THCreditsEntry>
+    <THCreditsEntry>FMOD</THCreditsEntry>
+    <THCreditsEntry>GraphicsGale</THCreditsEntry>
+    <THCreditsEntry>Monogame</THCreditsEntry>
+    <THCreditsEntry>Perforce</THCreditsEntry>
+    <THCreditsEntry>Photoshop</THCreditsEntry>
+    <THCreditsEntry>Shadertoy</THCreditsEntry>
+    <THCreditsEntry>Sonar</THCreditsEntry>
+    <THCreditsEntry>Sound Forge</THCreditsEntry>
+    <THCreditsEntry>Spine</THCreditsEntry>
+    <THCreditsEntry>Tiled</THCreditsEntry>
+    <THCreditsEntry>UltraEdit</THCreditsEntry>
+    <THCreditsEntry>Visual Studio</THCreditsEntry>
+    <THCreditsEntry>WaveLab Elements</THCreditsEntry>
+  </THCreditSection>
+
+  <THCreditSection mHeadingColor="3EEEF1" mEntryColor="FFFFFF" mTitle="特别鸣谢">
+    <THCreditsEntry>Alena Alambeigi</THCreditsEntry>
+    <THCreditsEntry>Thomas Altenburger</THCreditsEntry>
+    <THCreditsEntry>Damon Baker</THCreditsEntry>
+    <THCreditsEntry>Ryan Barrett</THCreditsEntry>
+    <THCreditsEntry>bartwe</THCreditsEntry>
+    <THCreditsEntry>BitBull Ltd</THCreditsEntry>
+    <THCreditsEntry>Juan Keller Blanch</THCreditsEntry>
+    <THCreditsEntry>Douglas Bogart</THCreditsEntry>
+    <THCreditsEntry>Julie Boyer</THCreditsEntry>
+    <THCreditsEntry>Rob Boyer</THCreditsEntry>
+    <THCreditsEntry>Patrick Briola</THCreditsEntry>
+    <THCreditsEntry>Jacque Burgess</THCreditsEntry>
+    <THCreditsEntry>BustahWuff</THCreditsEntry>
+    <THCreditsEntry>cacheflowe</THCreditsEntry>
+    <THCreditsEntry>Indie Gamer Chick</THCreditsEntry>
+    <THCreditsEntry>Christopher Couture</THCreditsEntry>
+    <THCreditsEntry>Patty Deroian</THCreditsEntry>
+    <THCreditsEntry>Steven Deroian</THCreditsEntry>
+    <THCreditsEntry>Shadie El-Haddad</THCreditsEntry>
+    <THCreditsEntry>Josh Fairhurst</THCreditsEntry>
+    <THCreditsEntry>Tyler Glaiel</THCreditsEntry>
+    <THCreditsEntry>Kara Gooch</THCreditsEntry>
+    <THCreditsEntry>Tom Gough</THCreditsEntry>
+    <THCreditsEntry>Mark Griffin</THCreditsEntry>
+    <THCreditsEntry>Jerry Happ</THCreditsEntry>
+    <THCreditsEntry>Judy Happ</THCreditsEntry>
+    <THCreditsEntry>Laura Happ</THCreditsEntry>
+    <THCreditsEntry>Greg Hjelstrom</THCreditsEntry>
+    <THCreditsEntry>David Hoskins</THCreditsEntry>
+    <THCreditsEntry>IndieCade Festival</THCreditsEntry>
+    <THCreditsEntry>Mike Foster</THCreditsEntry>
+    <THCreditsEntry>Jonathan Holmes</THCreditsEntry>
+    <THCreditsEntry>Jennifer Knight</THCreditsEntry>
+    <THCreditsEntry>John Kopp</THCreditsEntry>
+    <THCreditsEntry>Ben Lamoreux</THCreditsEntry>
+    <THCreditsEntry>Susan Lai</THCreditsEntry>
+    <THCreditsEntry>Candice Lee</THCreditsEntry>
+    <THCreditsEntry>Ethan Lee</THCreditsEntry>
+    <THCreditsEntry>Rachel Lee</THCreditsEntry>
+    <THCreditsEntry>Vincent "Leemyy" Lehmann</THCreditsEntry>
+    <THCreditsEntry>Paul Levering</THCreditsEntry>
+    <THCreditsEntry>Megan Lewis</THCreditsEntry>
+    <THCreditsEntry>Dimitrios "GVirus" Lianopoulos</THCreditsEntry>
+    <THCreditsEntry>Caroline Liddick</THCreditsEntry>
+    <THCreditsEntry>Kristen Lynch</THCreditsEntry>
+    <THCreditsEntry>Justin Massongill</THCreditsEntry>
+    <THCreditsEntry>monsieur_max</THCreditsEntry>
+    <THCreditsEntry>Corey Mccumber</THCreditsEntry>
+    <THCreditsEntry>Ben McGraw</THCreditsEntry>
+    <THCreditsEntry>Nick "Pozzum" McMahon</THCreditsEntry>
+    <THCreditsEntry>Pedro "Saint11" Medeiros</THCreditsEntry>
+    <THCreditsEntry>Jonathan Metts</THCreditsEntry>
+    <THCreditsEntry>Joe Modzeleski</THCreditsEntry>
+    <THCreditsEntry>mrange</THCreditsEntry>
+    <THCreditsEntry>Alex Neuse</THCreditsEntry>
+    <THCreditsEntry>Jeremy Parish</THCreditsEntry>
+    <THCreditsEntry>Kevan Peterson</THCreditsEntry>
+    <THCreditsEntry>James Petruzzi</THCreditsEntry>
+    <THCreditsEntry>Inigo Quilez</THCreditsEntry>
+    <THCreditsEntry>Mark Rawls</THCreditsEntry>
+    <THCreditsEntry>Greg Rice</THCreditsEntry>
+    <THCreditsEntry>Sickhead Games</THCreditsEntry>
+    <THCreditsEntry>smk</THCreditsEntry>
+    <THCreditsEntry>Tom Spilman</THCreditsEntry>
+    <THCreditsEntry>srtuss</THCreditsEntry>
+    <THCreditsEntry>Erik Swanson</THCreditsEntry>
+    <THCreditsEntry>Jane Swanson</THCreditsEntry>
+    <THCreditsEntry>Joe Swanson</THCreditsEntry>
+    <THCreditsEntry>Joseph Swanson</THCreditsEntry>
+    <THCreditsEntry>Laura Swanson</THCreditsEntry>
+    <THCreditsEntry>Nathan Sweet</THCreditsEntry>
+    <THCreditsEntry>Andre Tugan</THCreditsEntry>
+    <THCreditsEntry>VileR (https://int10h.org)</THCreditsEntry>
+    <THCreditsEntry>James White</THCreditsEntry>
+  </THCreditSection>
+
+  <THCreditSection mHeadingColor="3EEEF1" mEntryColor="FFFFFF" mTitle="当然……">
+    <THCreditsEntry>也感谢你！</THCreditsEntry>
+  </THCreditSection>
+
+</THCreditsXML>

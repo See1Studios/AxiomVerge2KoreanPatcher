@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>HydroDrone.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="HydroDroneTexture">
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UtilityDrones\HydroDrone\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-11" mY="-4" mWidth="22" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="14" mHeight="19" mDelay="6" mOriginX="7" mOriginY="10" mU="92" mV="27" mUVWidth="14" mUVHeight="19" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Idle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="4" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Turbines" mX="0" mY="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="-4" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="14" mHeight="19" mDelay="6" mOriginX="7" mOriginY="10" mU="108" mV="24" mUVWidth="14" mUVHeight="19" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Idle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="5" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Turbines" mX="0" mY="1" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="-3" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="14" mHeight="19" mDelay="6" mOriginX="7" mOriginY="10" mU="0" mV="57" mUVWidth="14" mUVHeight="19" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Idle0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="4" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Turbines" mX="0" mY="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="-4" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="14" mHeight="19" mDelay="6" mOriginX="7" mOriginY="10" mU="24" mV="46" mUVWidth="14" mUVHeight="19" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Idle0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="3" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Turbines" mX="0" mY="-1" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="-5" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Turbines" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UtilityDrones\HydroDrone\Output\Turbines.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="22" mHeight="17" mDelay="6" mOriginX="11" mOriginY="5" mU="0" mV="0" mUVWidth="22" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Turbines0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="17" mDelay="6" mOriginX="11" mOriginY="5" mU="24" mV="0" mUVWidth="22" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Turbines0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="17" mDelay="6" mOriginX="11" mOriginY="5" mU="0" mV="19" mUVWidth="22" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Turbines0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="17" mDelay="6" mOriginX="11" mOriginY="5" mU="0" mV="38" mUVWidth="22" mUVHeight="17" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Turbines0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Walk" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\UtilityDrones\HydroDrone\Output\Walk.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-11" mY="-4" mWidth="22" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="25" mDelay="6" mOriginX="8" mOriginY="13" mU="24" mV="19" mUVWidth="16" mUVHeight="25" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Walk0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="4" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Turbines" mX="0" mY="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="-4" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="25" mDelay="6" mOriginX="8" mOriginY="13" mU="42" mV="19" mUVWidth="16" mUVHeight="25" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Walk0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="4" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Turbines" mX="0" mY="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="-4" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="25" mDelay="6" mOriginX="8" mOriginY="13" mU="60" mV="0" mUVWidth="16" mUVHeight="25" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Walk0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="4" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Turbines" mX="0" mY="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="-4" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="16" mHeight="25" mDelay="6" mOriginX="8" mOriginY="13" mU="78" mV="0" mUVWidth="16" mUVHeight="25" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Walk0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="4" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Turbines" mX="0" mY="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="-4" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Fire" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\UtilityDrones\HydroDrone\Output\Fire.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-11" mY="-4" mWidth="22" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="14" mHeight="22" mDelay="8" mOriginX="7" mOriginY="10" mU="60" mV="27" mUVWidth="14" mUVHeight="22" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Fire0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="1" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Turbines" mX="0" mY="-3" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="-7" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="14" mHeight="22" mDelay="4" mOriginX="7" mOriginY="10" mU="96" mV="0" mUVWidth="14" mUVHeight="22" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Fire0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="2" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Turbines" mX="0" mY="-2" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="-6" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="14" mHeight="22" mDelay="6" mOriginX="7" mOriginY="10" mU="76" mV="27" mUVWidth="14" mUVHeight="22" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Fire0002.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="6" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Turbines" mX="0" mY="2" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="-2" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="14" mHeight="22" mDelay="6" mOriginX="7" mOriginY="10" mU="112" mV="0" mUVWidth="14" mUVHeight="22" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\HydroDrone\Output\Fire0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="5" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Turbines" mX="0" mY="1" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="PowerCell" mX="0" mY="-3" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Turbines">
+      <mColor>
+        <B>0</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4278255615</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="PowerCell">
+      <mColor>
+        <B>64</B>
+        <G>255</G>
+        <R>0</R>
+        <A>255</A>
+        <PackedValue>4282449664</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

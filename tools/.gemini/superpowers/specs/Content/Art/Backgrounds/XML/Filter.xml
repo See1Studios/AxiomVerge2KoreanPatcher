@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParallaxXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+    
+  <!-- #################################################################### -->
+  <!-- SpinningRIngs  -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="SpinningRings">
+
+   <THParallaxData>
+      <mType>FRACTAL</mType>
+      <mTechnique>RingsTechnique</mTechnique>
+      <mTextureName>Art/Backgrounds/Filter/FractalGradient1</mTextureName>      
+      <mParallax>
+        <X>0.125</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mFractalData>
+        <!-- To aim at the center of the fractal-->
+        <mCenter>
+          <X>0.39</X>
+          <Y>-0.05</Y>
+        </mCenter>
+        <mMinZoom>5.0</mMinZoom>
+        <mMaxZoom>10.0</mMaxZoom>
+        <mZoomFrames>1200</mZoomFrames>        
+        <mColor1>
+          <R>104</R>
+          <G>214</G>
+          <B>224</B>
+          <A>255</A>
+        </mColor1>
+        <mColor2>
+          <R>120</R>
+          <G>64</G>
+          <B>188</B>
+          <A>255</A>
+        </mColor2>
+        <mColor3>
+          <R>72</R>
+          <G>82</G>
+          <B>167</B>
+          <A>255</A>
+        </mColor3>
+        <mColor4>
+          <R>152</R>
+          <G>82</G>
+          <B>167</B>
+          <A>255</A>
+        </mColor4>
+      </mFractalData>
+    </THParallaxData>
+  </THParallaxSetData>
+
+</THParallaxXML>

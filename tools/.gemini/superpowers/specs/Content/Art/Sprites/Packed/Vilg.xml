@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>Vilg.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="VilgTexture">
+    <THSpriteAnimationData mName="CloseIdle" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Vilg\Output\CloseIdle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="6" mWidth="14" mHeight="18" mRadius="8" mColFlags="2" />
+      </mCollisionList>
+      <THFrameData mWidth="14" mHeight="24" mDelay="6" mOriginX="7" mOriginY="0" mU="102" mV="0" mUVWidth="14" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Vilg\Output\CloseIdle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Open" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Vilg\Output\Open.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="24" mDelay="6" mOriginX="16" mOriginY="0" mU="28" mV="78" mUVWidth="14" mUVHeight="24" mCropX="9" mCropY="0" mSourceImageName="..\Enemies\Vilg\Output\Open0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="6" mWidth="13" mHeight="18" mRadius="8" mColFlags="2" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="24" mDelay="6" mOriginX="16" mOriginY="0" mU="28" mV="52" mUVWidth="16" mUVHeight="24" mCropX="8" mCropY="0" mSourceImageName="..\Enemies\Vilg\Output\Open0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-8" mY="4" mWidth="16" mHeight="20" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="4" mWidth="16" mHeight="20" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="24" mDelay="6" mOriginX="16" mOriginY="0" mU="0" mV="52" mUVWidth="26" mUVHeight="24" mCropX="3" mCropY="0" mSourceImageName="..\Enemies\Vilg\Output\Open0002.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-13" mY="3" mWidth="26" mHeight="21" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-9" mY="4" mWidth="18" mHeight="20" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="24" mDelay="6" mOriginX="16" mOriginY="0" mU="0" mV="0" mUVWidth="32" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Vilg\Output\Open0003.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-16" mY="2" mWidth="32" mHeight="22" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-10" mY="4" mWidth="20" mHeight="20" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="OpenIdle" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Vilg\Output\OpenIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="24" mDelay="6" mOriginX="16" mOriginY="0" mU="0" mV="26" mUVWidth="32" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Vilg\Output\OpenIdle0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-16" mY="0" mWidth="32" mHeight="24" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-10" mY="4" mWidth="20" mHeight="20" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="24" mDelay="6" mOriginX="16" mOriginY="0" mU="34" mV="0" mUVWidth="32" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Vilg\Output\OpenIdle0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-16" mY="0" mWidth="32" mHeight="24" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-10" mY="4" mWidth="20" mHeight="20" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="24" mDelay="6" mOriginX="16" mOriginY="0" mU="34" mV="26" mUVWidth="32" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Vilg\Output\OpenIdle0002.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-16" mY="2" mWidth="32" mHeight="21" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-10" mY="4" mWidth="20" mHeight="20" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="24" mDelay="6" mOriginX="16" mOriginY="0" mU="68" mV="0" mUVWidth="32" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Vilg\Output\OpenIdle0003.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-16" mY="2" mWidth="32" mHeight="22" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-10" mY="4" mWidth="20" mHeight="20" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Close" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Vilg\Output\Close.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="32" mHeight="24" mDelay="6" mOriginX="16" mOriginY="0" mU="68" mV="26" mUVWidth="32" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Vilg\Output\Close0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-16" mY="1" mWidth="32" mHeight="23" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-10" mY="4" mWidth="20" mHeight="20" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="24" mDelay="6" mOriginX="16" mOriginY="0" mU="0" mV="78" mUVWidth="26" mUVHeight="24" mCropX="3" mCropY="0" mSourceImageName="..\Enemies\Vilg\Output\Close0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-13" mY="3" mWidth="26" mHeight="21" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-9" mY="6" mWidth="18" mHeight="18" mRadius="8" mColFlags="0" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="24" mDelay="6" mOriginX="16" mOriginY="0" mU="46" mV="52" mUVWidth="16" mUVHeight="24" mCropX="8" mCropY="0" mSourceImageName="..\Enemies\Vilg\Output\Close0002.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-8" mY="4" mWidth="16" mHeight="20" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="6" mWidth="13" mHeight="18" mRadius="8" mColFlags="0" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="24" mDelay="6" mOriginX="16" mOriginY="0" mU="64" mV="52" mUVWidth="14" mUVHeight="24" mCropX="9" mCropY="0" mSourceImageName="..\Enemies\Vilg\Output\Close0003.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="6" mWidth="13" mHeight="18" mRadius="8" mColFlags="2" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

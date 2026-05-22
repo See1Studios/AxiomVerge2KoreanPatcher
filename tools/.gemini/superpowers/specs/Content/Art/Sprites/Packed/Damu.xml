@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>2048</mMaxWidth>
+  <mMaxHeight>2048</mMaxHeight>
+  <mFileName>Damu.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="DamuTexture">
+    <THSpriteAnimationData mName="Idle" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\ApocalypseGhosts\Damu\Output\Idle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="7" mHeight="24" mDelay="12" mOriginX="3" mOriginY="24" mU="117" mV="52" mUVWidth="7" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Idle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Gesture" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\ApocalypseGhosts\Damu\Output\Gesture.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="12" mHeight="24" mDelay="12" mOriginX="5" mOriginY="24" mU="162" mV="26" mUVWidth="7" mUVHeight="24" mCropX="2" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="24" mDelay="12" mOriginX="5" mOriginY="24" mU="160" mV="0" mUVWidth="10" mUVHeight="24" mCropX="1" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="24" mDelay="12" mOriginX="5" mOriginY="24" mU="102" mV="78" mUVWidth="12" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="24" mDelay="12" mOriginX="5" mOriginY="24" mU="132" mV="26" mUVWidth="10" mUVHeight="24" mCropX="1" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="24" mDelay="125" mOriginX="5" mOriginY="24" mU="135" mV="52" mUVWidth="7" mUVHeight="24" mCropX="2" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture0004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ExcitedJump" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\ApocalypseGhosts\Damu\Output\ExcitedJump.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="17" mHeight="26" mDelay="6" mOriginX="8" mOriginY="26" mU="147" mV="0" mUVWidth="11" mUVHeight="23" mCropX="3" mCropY="3" mSourceImageName="..\ApocalypseGhosts\Damu\Output\ExcitedJump0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="17" mHeight="26" mDelay="6" mOriginX="8" mOriginY="26" mU="72" mV="54" mUVWidth="13" mUVHeight="25" mCropX="2" mCropY="1" mSourceImageName="..\ApocalypseGhosts\Damu\Output\ExcitedJump0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="17" mHeight="26" mDelay="6" mOriginX="8" mOriginY="26" mU="57" mV="27" mUVWidth="17" mUVHeight="25" mCropX="0" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\ExcitedJump0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="17" mHeight="26" mDelay="6" mOriginX="8" mOriginY="26" mU="100" mV="0" mUVWidth="17" mUVHeight="25" mCropX="0" mCropY="1" mSourceImageName="..\ApocalypseGhosts\Damu\Output\ExcitedJump0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="17" mHeight="26" mDelay="6" mOriginX="8" mOriginY="26" mU="0" mV="53" mUVWidth="17" mUVHeight="23" mCropX="0" mCropY="3" mSourceImageName="..\ApocalypseGhosts\Damu\Output\ExcitedJump0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="17" mHeight="26" mDelay="6" mOriginX="8" mOriginY="26" mU="76" mV="27" mUVWidth="17" mUVHeight="25" mCropX="0" mCropY="1" mSourceImageName="..\ApocalypseGhosts\Damu\Output\ExcitedJump0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="17" mHeight="26" mDelay="6" mOriginX="8" mOriginY="26" mU="81" mV="0" mUVWidth="17" mUVHeight="25" mCropX="0" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\ExcitedJump0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="17" mHeight="26" mDelay="6" mOriginX="8" mOriginY="26" mU="62" mV="0" mUVWidth="17" mUVHeight="25" mCropX="0" mCropY="1" mSourceImageName="..\ApocalypseGhosts\Damu\Output\ExcitedJump0007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="17" mHeight="26" mDelay="6" mOriginX="8" mOriginY="26" mU="95" mV="27" mUVWidth="17" mUVHeight="23" mCropX="0" mCropY="3" mSourceImageName="..\ApocalypseGhosts\Damu\Output\ExcitedJump0008.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="17" mHeight="26" mDelay="6" mOriginX="8" mOriginY="26" mU="38" mV="26" mUVWidth="17" mUVHeight="25" mCropX="0" mCropY="1" mSourceImageName="..\ApocalypseGhosts\Damu\Output\ExcitedJump0009.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="17" mHeight="26" mDelay="6" mOriginX="8" mOriginY="26" mU="0" mV="26" mUVWidth="17" mUVHeight="25" mCropX="0" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\ExcitedJump0010.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="17" mHeight="26" mDelay="6" mOriginX="8" mOriginY="26" mU="19" mV="26" mUVWidth="17" mUVHeight="25" mCropX="0" mCropY="1" mSourceImageName="..\ApocalypseGhosts\Damu\Output\ExcitedJump0011.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="17" mHeight="26" mDelay="6" mOriginX="8" mOriginY="26" mU="52" mV="80" mUVWidth="13" mUVHeight="23" mCropX="2" mCropY="3" mSourceImageName="..\ApocalypseGhosts\Damu\Output\ExcitedJump0012.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="17" mHeight="26" mDelay="26" mOriginX="8" mOriginY="26" mU="126" mV="52" mUVWidth="7" mUVHeight="24" mCropX="5" mCropY="2" mSourceImageName="..\ApocalypseGhosts\Damu\Output\ExcitedJump0013.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Gesture2" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\ApocalypseGhosts\Damu\Output\Gesture2.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="20" mHeight="24" mDelay="12" mOriginX="9" mOriginY="24" mU="102" mV="52" mUVWidth="13" mUVHeight="24" mCropX="3" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture20000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="24" mDelay="26" mOriginX="9" mOriginY="24" mU="18" mV="79" mUVWidth="16" mUVHeight="24" mCropX="2" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture20001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="24" mDelay="12" mOriginX="9" mOriginY="24" mU="37" mV="53" mUVWidth="16" mUVHeight="24" mCropX="2" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture20002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="24" mDelay="26" mOriginX="9" mOriginY="24" mU="0" mV="78" mUVWidth="16" mUVHeight="24" mCropX="2" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture20003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="24" mDelay="12" mOriginX="9" mOriginY="24" mU="42" mV="0" mUVWidth="18" mUVHeight="24" mCropX="1" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture20004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="24" mDelay="26" mOriginX="9" mOriginY="24" mU="22" mV="0" mUVWidth="18" mUVHeight="24" mCropX="1" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture20005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="24" mDelay="12" mOriginX="9" mOriginY="24" mU="119" mV="26" mUVWidth="11" mUVHeight="24" mCropX="4" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture20006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="24" mDelay="12" mOriginX="9" mOriginY="24" mU="36" mV="79" mUVWidth="14" mUVHeight="24" mCropX="3" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture20007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="24" mDelay="26" mOriginX="9" mOriginY="24" mU="0" mV="0" mUVWidth="20" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture20008.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="24" mDelay="12" mOriginX="9" mOriginY="24" mU="19" mV="53" mUVWidth="16" mUVHeight="24" mCropX="2" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture20009.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="24" mDelay="12" mOriginX="9" mOriginY="24" mU="87" mV="54" mUVWidth="13" mUVHeight="24" mCropX="3" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture20010.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="20" mHeight="24" mDelay="12" mOriginX="9" mOriginY="24" mU="181" mV="0" mUVWidth="7" mUVHeight="24" mCropX="6" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Gesture20011.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Shrug" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\ApocalypseGhosts\Damu\Output\Shrug.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="7" mHeight="24" mDelay="12" mOriginX="3" mOriginY="24" mU="153" mV="26" mUVWidth="7" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Shrug0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="7" mHeight="24" mDelay="26" mOriginX="3" mOriginY="24" mU="190" mV="0" mUVWidth="7" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Shrug0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="7" mHeight="24" mDelay="62" mOriginX="3" mOriginY="24" mU="172" mV="0" mUVWidth="7" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Shrug0002.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Shrug2" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\ApocalypseGhosts\Damu\Output\Shrug2.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="15" mHeight="24" mDelay="12" mOriginX="7" mOriginY="24" mU="144" mV="26" mUVWidth="7" mUVHeight="24" mCropX="4" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Shrug20000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="15" mHeight="24" mDelay="12" mOriginX="7" mOriginY="24" mU="119" mV="0" mUVWidth="12" mUVHeight="24" mCropX="2" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Shrug20001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="15" mHeight="24" mDelay="26" mOriginX="7" mOriginY="24" mU="55" mV="54" mUVWidth="15" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Shrug20002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="15" mHeight="24" mDelay="12" mOriginX="7" mOriginY="24" mU="133" mV="0" mUVWidth="12" mUVHeight="24" mCropX="2" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Shrug20003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="15" mHeight="24" mDelay="12" mOriginX="7" mOriginY="24" mU="116" mV="78" mUVWidth="7" mUVHeight="24" mCropX="4" mCropY="0" mSourceImageName="..\ApocalypseGhosts\Damu\Output\Shrug20004.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

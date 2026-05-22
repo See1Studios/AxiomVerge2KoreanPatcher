@@ -1,0 +1,2054 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THCutsceneXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <THCutsceneData mName="DLG_TitleScroll" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>4</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="40" mY="8" mWidth="192" mHeight="224" mSkipBreather="false">
+      <mDoTeletype>false</mDoTeletype>
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TITLESCROLL_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="184" mY="8" mWidth="192" mHeight="224" mSkipBreather="false">
+      <mDoTeletype>false</mDoTeletype>
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TITLESCROLL_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="40" mY="8" mWidth="192" mHeight="224" mSkipBreather="false">
+      <mDoTeletype>false</mDoTeletype>
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TITLESCROLL_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="184" mY="8" mWidth="192" mHeight="224" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TITLESCROLL_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_IntroFlight" mProgressionType="TIMED" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>10</mNextTextID>
+    <THCutsceneEventData mType="PAUSE" mDuration="300" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="BodyGuard" mDuration="300" mStyle="Speech" mX="209" mY="160" mWidth="199" mHeight="25" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="300">DLG_INTROFLIGHT_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="300" mStyle="Speech" mX="33" mY="160" mWidth="189" mHeight="26" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="300">DLG_INTROFLIGHT_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="BodyGuard" mDuration="300" mStyle="Speech" mX="209" mY="160" mWidth="185" mHeight="26" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="300">DLG_INTROFLIGHT_7</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_IntroLanding" mProgressionType="PROMPT" mDelay="120">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>3</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="25" mY="51" mWidth="226" mHeight="48" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INTROLANDING_0</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INTROLANDING_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="BodyGuard" mDuration="0" mStyle="Speech" mX="194" mY="54" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INTROLANDING_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_BodyGuardCold" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>3</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="BodyGuard" mDuration="0" mStyle="Speech" mX="30" mY="164" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BODYGUARDCOLD_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_AntarcticAnsibleOld" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>6</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Thought" mX="90" mY="171" mWidth="240" mHeight="37" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ANTARCTICANSIBLEOLD_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_AntarcticAnsibleOn" mProgressionType="TIMED" mDelay="60">
+    <mEndCurrentCutscenes>false</mEndCurrentCutscenes>
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mPauseHeroInput>false</mPauseHeroInput>
+    <mNextTextID>1</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="600" mStyle="Thought" mX="33" mY="159" mWidth="226" mHeight="48" mSkipBreather="false">
+      <mDoTeletype>false</mDoTeletype>
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>120</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ANTARCTICANSIBLEON_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_AntarcticAnsible" mProgressionType="PROMPT" mDelay="30">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>11</mNextTextID>
+    <THCutsceneCharMovementEventData mType="CHAR_MOVEMENT" mCharacter="Indra" mDuration="0" mDestX="17912" mDestY="416" mSpeed="1" />
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="ToIdleKeyboard" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="IdleKeyboard" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ansible" mDuration="0" mStyle="Ansible" mX="125" mY="24" mWidth="149" mHeight="55" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ANTARCTICANSIBLE_10</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Ansible" mX="132" mY="151" mWidth="128" mHeight="60" mSkipBreather="false">
+      <mTailRadius>5</mTailRadius>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="3" mCharsPerSoundBlip="2" mDuration="0">DLG_ANTARCTICANSIBLE_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneEventData mType="PAUSE" mDuration="60" />
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="FromIdleKeyboard" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Idle" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Thought" mX="90" mY="150" mWidth="224" mHeight="28" mSkipBreather="false">
+      <mTailRadius>4</mTailRadius>
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ANTARCTICANSIBLE_3</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ANTARCTICANSIBLE_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_UndergroundExplosion" mProgressionType="PROMPT" mDelay="120">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>7</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="88" mY="94" mWidth="189" mHeight="32" mSkipBreather="false">
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_UNDERGROUNDEXPLOSION_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="0" mStyle="Thought" mX="120" mY="176" mWidth="189" mHeight="32" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_UNDERGROUNDEXPLOSION_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="88" mY="94" mWidth="229" mHeight="32" mSkipBreather="false">
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_UNDERGROUNDEXPLOSION_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="0" mStyle="Thought" mX="120" mY="176" mWidth="189" mHeight="32" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_UNDERGROUNDEXPLOSION_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="88" mY="94" mWidth="189" mHeight="32" mSkipBreather="false">
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_UNDERGROUNDEXPLOSION_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_BreatheUnderwater" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>3</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="0" mStyle="Thought" mX="127" mY="17" mWidth="189" mHeight="32" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BREATHEUNDERWATER_0</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BREATHEUNDERWATER_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Thought" mX="132" mY="52" mWidth="189" mHeight="32" mSkipBreather="true">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BREATHEUNDERWATER_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_CompassAcquire" mProgressionType="PROMPT" mDelay="20">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>4</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="225" mY="74" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_COMPASSACQUIRE_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="0" mStyle="Thought" mX="19" mY="63" mWidth="197" mHeight="33" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_COMPASSACQUIRE_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="225" mY="74" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_COMPASSACQUIRE_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Falling" mProgressionType="TIMED" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mPauseHeroInput>false</mPauseHeroInput>
+    <mNextTextID>1</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="68" mY="42" mWidth="273" mHeight="33" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_FALLING_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Swimming" mProgressionType="PROMPT" mDelay="300">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>5</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="248" mY="47" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SWIMMING_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="180" mStyle="Thought" mX="24" mY="43" mWidth="158" mHeight="29" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SWIMMING_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="248" mY="47" mWidth="158" mHeight="29" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SWIMMING_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_WaterRising" mProgressionType="TIMED" mDelay="240">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mPauseHeroInput>false</mPauseHeroInput>
+    <mNextTextID>5</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="222" mY="155" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_WATERRISING_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="180" mStyle="Thought" mX="28" mY="155" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_WATERRISING_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="222" mY="155" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_WATERRISING_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_FoundUrn" mProgressionType="TIMED" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mPauseHeroInput>false</mPauseHeroInput>
+    <mNextTextID>5</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Thought" mX="222" mY="155" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_FOUNDURN_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Thought" mX="222" mY="155" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>45</mFadeInDuration>
+      <mFadeOutDuration>45</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_FOUNDURN_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_LastBreaths" mProgressionType="TIMED" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mPauseHeroInput>false</mPauseHeroInput>
+    <mNextTextID>2</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Thought" mX="21" mY="138" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LASTBREATHES_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Drowning" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>3</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Thought" mX="249" mY="72" mWidth="174" mHeight="29" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DROWNING_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Thought" mX="231" mY="117" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DROWNING_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Thought" mX="138" mY="179" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DROWNING_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_AfterDrown" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>18</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="43" mY="49" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AFTERDROWN_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="180" mStyle="Thought" mX="248" mY="127" mWidth="168" mHeight="30" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AFTERDROWN_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="43" mY="49" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AFTERDROWN_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="180" mStyle="Thought" mX="248" mY="127" mWidth="168" mHeight="30" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AFTERDROWN_10</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="ShakeHead" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="105" mY="54" mWidth="97" mHeight="36" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AFTERDROWN_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="180" mStyle="Thought" mX="246" mY="127" mWidth="168" mHeight="30" mSkipBreather="false">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AFTERDROWN_14</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Thought" mX="34" mY="35" mWidth="189" mHeight="36" mSkipBreather="true">
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AFTERDROWN_15</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Drones" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>4</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="212" mY="20" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRONES_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="180" mStyle="Thought" mX="107" mY="45" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRONES_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRONES_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Thought" mX="242" mY="151" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRONES_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_ArmSheshkalaAcquire" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>3</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Sheshkala" mDuration="180" mStyle="Thought" mX="257" mY="52" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SHESHKALAACQUIRE_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="ShakeHead" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="83" mY="87" mWidth="111" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SHESHKALAACQUIRE_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="180" mStyle="Thought" mX="257" mY="52" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SHESHKALAACQUIRE_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_ArmUmanAcquire" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>12</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="180" mStyle="Thought" mX="219" mY="90" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMUMANACQUIRE_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="25" mY="100" mWidth="207" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMUMANACQUIRE_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Damu" mDuration="0" mCharacterAnim="Gesture" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="180" mStyle="Thought" mX="227" mY="68" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMUMANACQUIRE_2</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMUMANACQUIRE_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="31" mY="87" mWidth="207" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMUMANACQUIRE_5</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMUMANACQUIRE_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="180" mStyle="Thought" mX="257" mY="52" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMUMANACQUIRE_7</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="31" mY="82" mWidth="207" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMUMANACQUIRE_10</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="180" mStyle="Thought" mX="257" mY="52" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMUMANACQUIRE_8</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMUMANACQUIRE_11</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_DroneFirstUse" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>6</mNextTextID>
+    <THCutsceneEventData mType="PAUSE" mDuration="45" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="180" mStyle="Thought" mX="257" mY="52" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRONEFIRSTUSE_3</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRONEFIRSTUSE_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="64" mY="106" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRONEFIRSTUSE_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="180" mStyle="Thought" mX="257" mY="52" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRONEFIRSTUSE_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Archaeologist1" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>24</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Archaeologist" mDuration="180" mStyle="Speech" mX="24" mY="89" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="163" mY="52" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Archaeologist" mDuration="0" mCharacterAnim="Gesture" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Archaeologist" mDuration="180" mStyle="Speech" mX="24" mY="56" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_2</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="163" mY="79" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Archaeologist" mDuration="0" mCharacterAnim="Gesture" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Archaeologist" mDuration="180" mStyle="Speech" mX="24" mY="39" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_7</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_16</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="172" mY="60" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_9</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Archaeologist" mDuration="180" mStyle="Speech" mX="24" mY="37" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_10</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_11</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_14</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="176" mY="63" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_12</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Archaeologist" mDuration="180" mStyle="Speech" mX="24" mY="13" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_17</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="176" mY="63" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_19</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Archaeologist" mDuration="180" mStyle="Speech" mX="24" mY="23" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_20</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_21</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="176" mY="53" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_22</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Archaeologist" mDuration="180" mStyle="Speech" mX="24" mY="47" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_13</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST1_23</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Archaeologist2" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>4</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="210" mY="71" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST2_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Archaeologist" mDuration="180" mStyle="Speech" mX="8" mY="27" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST2_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST2_2</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST2_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Archaeologist3" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>2</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Archaeologist" mDuration="180" mStyle="Speech" mX="22" mY="86" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST3_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="205" mY="84" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGIST3_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_ArchaeologistInfected" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>1</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Archaeologist" mDuration="180" mStyle="Speech" mX="30" mY="70" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARCHAEOLOGISTINFECTED_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_JonestownAnsible" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>6</mNextTextID>
+    <THCutsceneCharMovementEventData mType="CHAR_MOVEMENT" mCharacter="" mDuration="0" mDestX="18199" mDestY="5231" mSpeed="1" />
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="ToIdleKeyboard" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="IdleKeyboard" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ansible" mDuration="0" mStyle="Ansible" mX="150" mY="16" mWidth="132" mHeight="60" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_JONESTOWNANSIBLE_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Ansible" mX="167" mY="160" mWidth="108" mHeight="27" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="3" mCharsPerSoundBlip="2" mDuration="0">DLG_JONESTOWNANSIBLE_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ansible" mDuration="0" mStyle="Ansible" mX="150" mY="16" mWidth="123" mHeight="-34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_JONESTOWNANSIBLE_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="FromIdleKeyboard" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Idle" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Thought" mX="115" mY="147" mWidth="200" mHeight="45" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_JONESTOWNANSIBLE_4</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_JONESTOWNANSIBLE_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_SiteManager1" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>22</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="82" mY="53" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="SiteManager" mDuration="180" mStyle="Speech" mX="267" mY="35" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_2</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="29" mY="28" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_3</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="SiteManager" mDuration="180" mStyle="Speech" mX="264" mY="18" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_6</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_7</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="29" mY="28" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="SiteManager" mDuration="0" mCharacterAnim="Gesture" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="SiteManager" mDuration="180" mStyle="Speech" mX="265" mY="18" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_10</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_11</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="47" mY="41" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_12</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="SiteManager" mDuration="180" mStyle="Speech" mX="271" mY="20" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_13</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_14</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_15</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="47" mY="41" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_16</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="SiteManager" mDuration="0" mCharacterAnim="Gesture" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="SiteManager" mDuration="180" mStyle="Speech" mX="271" mY="6" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_18</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_19</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="47" mY="41" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER1_21</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_SiteManager2" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>8</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="47" mY="41" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER2_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="SiteManager" mDuration="0" mCharacterAnim="Gesture" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="SiteManager" mDuration="180" mStyle="Speech" mX="263" mY="4" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER2_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER2_2</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER2_3</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER2_4</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER2_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="44" mY="27" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER2_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="SiteManager" mDuration="180" mStyle="Speech" mX="268" mY="5" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER2_7</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_SiteManager3" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>1</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="SiteManager" mDuration="180" mStyle="Speech" mX="268" mY="45" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGER3_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_SiteManagerInfected" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>1</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="SiteManager" mDuration="180" mStyle="Speech" mX="262" mY="58" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_SITEMANAGERINFECTED_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_TelescopeAnsible" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>9</mNextTextID>
+    <THCutsceneCharMovementEventData mType="CHAR_MOVEMENT" mDuration="0" mDestX="0" mDestY="0" mSpeed="1" />
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="ToIdleKeyboard" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="IdleKeyboard" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Ansible" mX="158" mY="154" mWidth="122" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="3" mCharsPerSoundBlip="2" mDuration="0">DLG_TELESCOPEANSIBLE_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ansible" mDuration="180" mStyle="Ansible" mX="136" mY="33" mWidth="159" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TELESCOPEANSIBLE_3</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TELESCOPEANSIBLE_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Ansible" mX="152" mY="155" mWidth="132" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="3" mCharsPerSoundBlip="2" mDuration="0">DLG_TELESCOPEANSIBLE_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ansible" mDuration="180" mStyle="Ansible" mX="136" mY="33" mWidth="159" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TELESCOPEANSIBLE_7</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TELESCOPEANSIBLE_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="FromIdleKeyboard" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Idle" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="157" mY="148" mWidth="122" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TELESCOPEANSIBLE_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Biologist1" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>12</mNextTextID>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Gesture1" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="221" mY="34" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BIOLOGIST1_10</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BIOLOGIST1_11</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Biologist" mDuration="180" mStyle="Speech" mX="24" mY="24" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BIOLOGIST1_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BIOLOGIST1_3</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BIOLOGIST1_4</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BIOLOGIST1_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="221" mY="34" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BIOLOGIST1_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Biologist2" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>7</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="221" mY="34" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BIOLOGIST2_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Biologist" mDuration="180" mStyle="Speech" mX="24" mY="24" mWidth="169" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BIOLOGIST2_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BIOLOGIST2_2</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BIOLOGIST2_3</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BIOLOGIST2_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="221" mY="34" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BIOLOGIST2_5</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BIOLOGIST2_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_BiologistInfected" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>1</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Biologist" mDuration="180" mStyle="Speech" mX="24" mY="24" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_BIOLOGISTINFECTED_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_CliffTownAnsible" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>13</mNextTextID>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="ToIdleKeyboard" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="IdleKeyboard" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ansible" mDuration="180" mStyle="Ansible" mX="146" mY="24" mWidth="136" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_CLIFFTOWNANSIBLE_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Ansible" mX="155" mY="155" mWidth="136" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="3" mCharsPerSoundBlip="2" mDuration="0">DLG_CLIFFTOWNANSIBLE_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ansible" mDuration="180" mStyle="Ansible" mX="150" mY="24" mWidth="136" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_CLIFFTOWNANSIBLE_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Ansible" mX="143" mY="192" mWidth="157" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="3" mCharsPerSoundBlip="2" mDuration="0">DLG_CLIFFTOWNANSIBLE_7</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ansible" mDuration="180" mStyle="Ansible" mX="150" mY="24" mWidth="136" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_CLIFFTOWNANSIBLE_9</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="FromIdleKeyboard" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Idle" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="121" mY="155" mWidth="200" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_CLIFFTOWNANSIBLE_10</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_CLIFFTOWNANSIBLE_11</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_CLIFFTOWNANSIBLE_12</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_RussianBaseAnsible" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>8</mNextTextID>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="ToIdleKeyboard" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="IdleKeyboard" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Ansible" mX="53" mY="157" mWidth="142" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="3" mCharsPerSoundBlip="2" mDuration="0">DLG_RUSSIANBASEANSIBLE_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ansible" mDuration="180" mStyle="Ansible" mX="143" mY="71" mWidth="142" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANBASEANSIBLE_4</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANBASEANSIBLE_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Ansible" mX="65" mY="163" mWidth="130" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="3" mCharsPerSoundBlip="2" mDuration="0">DLG_RUSSIANBASEANSIBLE_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ansible" mDuration="180" mStyle="Ansible" mX="143" mY="71" mWidth="142" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANBASEANSIBLE_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="FromIdleKeyboard" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Idle" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="120" mY="88" mWidth="200" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANBASEANSIBLE_7</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_ArmNinhursagAcquire" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>7</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ninhursag" mDuration="180" mStyle="Thought" mX="263" mY="147" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMNINHURSAGACQUIRE_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="59" mY="24" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMNINHURSAGACQUIRE_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMNINHURSAGACQUIRE_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ninhursag" mDuration="180" mStyle="Thought" mX="263" mY="147" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMNINHURSAGACQUIRE_3</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMNINHURSAGACQUIRE_4</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMNINHURSAGACQUIRE_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="58" mY="24" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMNINHURSAGACQUIRE_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Lamassu1" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>15</mNextTextID>
+    <THCutsceneCharMovementEventData mType="CHAR_MOVEMENT" mCharacter="Indra" mDuration="0" mDestX="6295" mDestY="4735" mSpeed="1" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Lamassu" mDuration="180" mStyle="Speech" mX="260" mY="132" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mTailLength>0</mTailLength>
+      <mTailRadius>0</mTailRadius>
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU1_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="51" mY="36" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU1_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Lamassu" mDuration="180" mStyle="Speech" mX="260" mY="132" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mTailLength>0</mTailLength>
+      <mTailRadius>0</mTailRadius>
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU1_4</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU1_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="180" mStyle="Thought" mX="129" mY="12" mWidth="241" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU1_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="50" mY="24" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU1_9</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Lamassu" mDuration="180" mStyle="Speech" mX="260" mY="132" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mTailLength>0</mTailLength>
+      <mTailRadius>0</mTailRadius>
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU1_10</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU1_11</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="180" mStyle="Thought" mX="180" mY="31" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU1_12</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="50" mY="24" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU1_13</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Thought" mX="50" mY="24" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU1_14</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Lamassu2" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>14</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="50" mY="24" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU2_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU2_13</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Lamassu" mDuration="180" mStyle="Speech" mX="252" mY="127" mWidth="167" mHeight="30" mSkipBreather="false">
+      <mTailLength>0</mTailLength>
+      <mTailRadius>0</mTailRadius>
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU2_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="180" mStyle="Thought" mX="254" mY="129" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU2_4</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU2_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="50" mY="24" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU2_7</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Lamassu" mDuration="180" mStyle="Speech" mX="252" mY="127" mWidth="167" mHeight="30" mSkipBreather="false">
+      <mTailLength>0</mTailLength>
+      <mTailRadius>0</mTailRadius>
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU2_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="180" mStyle="Thought" mX="259" mY="132" mWidth="158" mHeight="30" mSkipBreather="true">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU2_8</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU2_12</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="58" mY="61" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU2_9</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="180" mStyle="Thought" mX="180" mY="19" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU2_11</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Lamassu3" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>4</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="43" mY="34" mWidth="167" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU3_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Lamassu" mDuration="180" mStyle="Speech" mX="252" mY="127" mWidth="167" mHeight="30" mSkipBreather="false">
+      <mTailLength>0</mTailLength>
+      <mTailRadius>0</mTailRadius>
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU3_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="180" mStyle="Speech" mX="43" mY="34" mWidth="167" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU3_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Lamassu" mDuration="180" mStyle="Speech" mX="252" mY="127" mWidth="167" mHeight="30" mSkipBreather="false">
+      <mTailLength>0</mTailLength>
+      <mTailRadius>0</mTailRadius>
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LAMASSU3_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_GateBreakerEntry" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>10</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="0" mStyle="Thought" mX="183" mY="48" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKERENTRY_0</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKERENTRY_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="64" mY="136" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKERENTRY_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="0" mStyle="Thought" mX="183" mY="48" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKERENTRY_5</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKERENTRY_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="64" mY="136" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKERENTRY_9</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_GateBreaker" mProgressionType="PROMPT" mDelay="60">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mPauseHeroUpdateOnFinish>true</mPauseHeroUpdateOnFinish>
+    <mNextTextID>6</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="IndraPossessed" mDuration="0" mStyle="Speech" mX="133" mY="48" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="164" mY="79" mWidth="148" mHeight="54" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="IndraPossessed" mDuration="0" mStyle="Speech" mX="133" mY="48" mWidth="223" mHeight="32" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="IndraPossessed" mDuration="0" mStyle="Speech" mX="133" mY="48" mWidth="223" mHeight="32" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_GateBreaker2" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>1</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="198" mY="94" mWidth="94" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER2_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_GateBreaker3" mProgressionType="PROMPT" mDelay="20">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>15</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="148" mY="51" mWidth="161" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER3_0</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER3_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER3_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Thought" mX="29" mY="14" mWidth="161" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER3_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="148" mY="52" mWidth="161" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER3_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Thought" mX="29" mY="15" mWidth="161" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER3_6</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER3_7</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER3_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="148" mY="51" mWidth="161" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER3_9</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Damu" mDuration="0" mCharacterAnim="Shrug2" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Thought" mX="29" mY="15" mWidth="161" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER3_10</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER3_11</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER3_14</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="147" mY="26" mWidth="161" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_GATEBREAKER3_13</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_OracleTerminal1" mProgressionType="PROMPT" mDelay="30">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>16</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="20" mY="138" mWidth="161" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL1_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="188" mY="154" mWidth="200" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL1_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="20" mY="137" mWidth="184" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL1_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="188" mY="154" mWidth="200" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL1_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="12" mY="137" mWidth="184" mHeight="75" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL1_7</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL1_8</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL1_9</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="188" mY="154" mWidth="200" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL1_10</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="22" mY="138" mWidth="203" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL1_11</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="188" mY="154" mWidth="200" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL1_12</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="14" mY="136" mWidth="184" mHeight="44" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL1_13</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL1_14</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL1_15</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Ocean" mProgressionType="PROMPT" mDelay="30">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>3</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Thought" mX="143" mY="88" mWidth="161" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_OCEAN_0</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_OCEAN_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_OCEAN_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Drushka1" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>22</mNextTextID>
+    <THCutsceneCharMovementEventData mType="CHAR_MOVEMENT" mCharacter="Indra" mDuration="0" mDestX="3227" mDestY="2542" mSpeed="1" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Drushka" mDuration="0" mStyle="Speech" mX="218" mY="143" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA1_17</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="12" mY="21" mWidth="202" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA1_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA1_2</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA1_18</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Drushka" mDuration="0" mCharacterAnim="Talking" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Drushka" mDuration="0" mStyle="Speech" mX="217" mY="139" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA1_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="12" mY="42" mWidth="202" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA1_7</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Drushka" mDuration="0" mStyle="Speech" mX="217" mY="139" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA1_20</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA1_21</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="12" mY="27" mWidth="202" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA1_19</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Drushka" mDuration="0" mStyle="Speech" mX="180" mY="153" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA1_13</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA1_15</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA1_16</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Drushka2" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>19</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="18" mY="27" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA2_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Drushka" mDuration="0" mStyle="Speech" mX="214" mY="137" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA2_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA2_14</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="18" mY="27" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA2_4</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA2_15</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Drushka" mDuration="0" mCharacterAnim="Talking" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Drushka" mDuration="0" mStyle="Speech" mX="214" mY="137" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA2_16</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA2_18</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="18" mY="27" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA2_17</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Drushka" mDuration="0" mCharacterAnim="Talking" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Drushka" mDuration="0" mStyle="Speech" mX="214" mY="137" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA2_5</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA2_6</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA2_8</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA2_9</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA2_10</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Speech" mX="92" mY="142" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA2_12</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA2_13</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Drushka3" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>5</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="23" mY="47" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA3_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Drushka" mDuration="0" mStyle="Speech" mX="216" mY="140" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA3_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA3_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="18" mY="27" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_DRUSHKA3_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_ArmAnumanAcquire" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>2</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="180" mStyle="Thought" mX="260" mY="130" mWidth="158" mHeight="30" mSkipBreather="false">
+      <mFadeInDuration>20</mFadeInDuration>
+      <mFadeOutDuration>20</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMANUMANACQUIRE_0</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMANUMANACQUIRE_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_IndraApocalypse" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>9</mNextTextID>
+    <THCutsceneCharMovementEventData mType="CHAR_MOVEMENT" mCharacter="Indra" mDuration="0" mDestX="13944" mDestY="6383" mSpeed="2" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="IndraApocalypse" mDuration="0" mStyle="Speech" mX="203" mY="30" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="20" mY="56" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="IndraApocalypse" mDuration="0" mStyle="Speech" mX="212" mY="19" mWidth="213" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE_3</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="11" mY="53" mWidth="179" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="IndraApocalypse" mDuration="0" mStyle="Speech" mX="212" mY="12" mWidth="213" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE_6</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_IndraApocalypse2" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>3</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="IndraApocalypse" mDuration="0" mStyle="Speech" mX="203" mY="30" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE2_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="20" mY="56" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE2_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="IndraApocalypse" mDuration="0" mStyle="Speech" mX="203" mY="30" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE2_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_IndraApocalypse3" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>1</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="IndraApocalypse" mDuration="0" mStyle="Speech" mX="243" mY="17" mWidth="170" mHeight="45" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE3_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_IndraApocalypse4" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>18</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="92" mY="158" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE4_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Speech" mX="211" mY="20" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE4_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="127" mY="156" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE4_3</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE4_5</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE4_14</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Speech" mX="214" mY="11" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE4_7</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE4_8</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE4_15</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE4_16</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="103" mY="156" mWidth="215" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE4_9</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE4_10</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Speech" mX="215" mY="26" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_INDRAAPOCALYPSE4_11</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_OracleTerminal2" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>32</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="16" mY="154" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="223" mY="17" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="21" mY="146" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_3</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_5</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_16</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_17</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="214" mY="16" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="19" mY="144" mWidth="200" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_7</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_28</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_29</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="212" mY="150" mWidth="118" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="25" mY="153" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_9</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="212" mY="150" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_10</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="25" mY="153" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_30</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_31</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="212" mY="150" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_15</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="18" mY="152" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_22</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_23</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="212" mY="150" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_21</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="18" mY="152" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_20</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_24</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_25</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="212" mY="150" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_26</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="18" mY="152" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL2_27</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_OracleTerminal3" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>22</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="216" mY="156" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="26" mY="152" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="216" mY="156" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_6</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_13</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_20</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_21</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_RussianSurvivor1" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>11</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="RussianSurvivor" mDuration="0" mStyle="Speech" mX="187" mY="29" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANSURVIVOR_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="9" mY="29" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANSURVIVOR1_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="RussianSurvivor" mDuration="0" mStyle="Speech" mX="187" mY="29" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANSURVIVOR1_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="9" mY="29" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANSURVIVOR1_3</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANSURVIVOR1_10</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="RussianSurvivor" mDuration="0" mStyle="Speech" mX="194" mY="12" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANSURVIVOR1_4</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANSURVIVOR1_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="9" mY="29" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANSURVIVOR1_7</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="RussianSurvivor" mDuration="0" mStyle="Speech" mX="187" mY="27" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANSURVIVOR1_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="9" mY="29" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANSURVIVOR1_9</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_RussianSurvivor2" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>2</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="9" mY="29" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANSURVIVOR2_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="RussianSurvivor" mDuration="0" mStyle="Speech" mX="174" mY="29" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANSURVIVOR2_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_RussianSurvivorInfected" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>1</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="RussianSurvivor" mDuration="0" mStyle="Speech" mX="174" mY="29" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_RUSSIANSURVIVORINFECTED_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_EnterBunker" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>4</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="215" mY="44" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENTERBUNKER_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Damu" mDuration="0" mCharacterAnim="Gesture2" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Thought" mX="19" mY="36" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENTERBUNKER_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENTERBUNKER_2</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENTERBUNKER_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_TransferSourceRoom" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>11</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="46" mY="96" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TRANSFERSOURCEROOM_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Thought" mX="188" mY="72" mWidth="179" mHeight="29" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TRANSFERSOURCEROOM_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TRANSFERSOURCEROOM_2</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TRANSFERSOURCEROOM_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="46" mY="96" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TRANSFERSOURCEROOM_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Thought" mX="194" mY="60" mWidth="160" mHeight="29" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TRANSFERSOURCEROOM_6</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TRANSFERSOURCEROOM_7</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="46" mY="96" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TRANSFERSOURCEROOM_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Speech" mX="153" mY="57" mWidth="235" mHeight="28" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_TRANSFERSOURCEROOM_9</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Oracle1" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>34</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="80" mY="15" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharMovementEventData mType="CHAR_MOVEMENT" mCharacter="Indra" mDuration="0" mDestX="1530" mDestY="3744" mSpeed="1" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="120" mY="13" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_3</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_21</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_22</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="120" mY="13" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_23</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="26" mY="44" mWidth="172" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_24</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_25</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_26</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="26" mY="44" mWidth="172" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_27</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_28</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="26" mY="44" mWidth="172" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_29</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_30</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_31</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="26" mY="44" mWidth="172" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_32</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_33</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneEventData mType="PAUSE" mDuration="60" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="120" mY="13" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_6</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_7</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_8</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_17</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_9</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="120" mY="13" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_10</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_11</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneEventData mType="PAUSE" mDuration="90" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="120" mY="13" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_13</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneEventData mType="PAUSE" mDuration="90" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_16</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="118" mY="5" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_19</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE1_20</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Oracle2" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>9</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE2_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="210" mY="12" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE2_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE2_2</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE2_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE2_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="210" mY="12" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE2_7</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE2_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Oracle3" mProgressionType="PROMPT" mDelay="120">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>23</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="187" mY="11" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_2</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_12</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="187" mY="11" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_17</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneEventData mType="PAUSE" mDuration="60" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="26" mY="44" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="185" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_7</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="26" mY="44" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_15</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_16</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_18</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_14</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="26" mY="44" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="138" mY="156" mWidth="159" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_9</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneEventData mType="PAUSE" mDuration="0" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="194" mY="11" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_10</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="173" mY="157" mWidth="97" mHeight="33" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_11</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="194" mY="11" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_19</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_20</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="119" mY="152" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_21</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Oracle" mDuration="0" mStyle="Speech" mX="194" mY="11" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLE3_22</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_MeridianBasement1" mProgressionType="PROMPT" mDelay="60">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>4</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="69" mY="41" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_MERIDIANBASEMENT1_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Speech" mX="180" mY="18" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_MERIDIANBASEMENT1_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_MERIDIANBASEMENT1_2</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_MERIDIANBASEMENT1_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_RebirthRoom" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>4</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Speech" mX="180" mY="18" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_REBIRTHROOM_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="39" mY="45" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_REBIRTHROOM_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Speech" mX="179" mY="17" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_REBIRTHROOM_2</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_REBIRTHROOM_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_Note28Acquire" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>1</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="182" mY="78" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_NOTE28ACQUIRE_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_LostMeridianFound" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>2</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="LostMeridian" mDuration="0" mStyle="Speech" mX="124" mY="170" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LOSTMERIDIANFOUND_0</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LOSTMERIDIANFOUND_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_LostMeridian" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>26</mNextTextID>
+    <THCutsceneCharMovementEventData mType="CHAR_MOVEMENT" mCharacter="Indra" mDuration="0" mDestX="17310" mDestY="3983" mSpeed="1" />
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="IndraSleeping" mDuration="0" mCharacterAnim="LastWords1" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="IndraSleeping" mDuration="0" mStyle="Speech" mX="27" mY="74" mWidth="171" mHeight="34" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LOSTMERIDIAN_18</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LOSTMERIDIAN_19</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LOSTMERIDIAN_20</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LOSTMERIDIAN_21</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="IndraSleeping" mDuration="0" mCharacterAnim="LastWords2" />
+    <THCutsceneEventData mType="PAUSE" mDuration="120" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="168" mY="175" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LOSTMERIDIAN_2</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LOSTMERIDIAN_23</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LOSTMERIDIAN_24</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Speech" mX="108" mY="38" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LOSTMERIDIAN_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="169" mY="175" mWidth="208" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LOSTMERIDIAN_22</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LOSTMERIDIAN_25</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneEventData mType="PAUSE" mDuration="120" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Damu" mDuration="0" mStyle="Speech" mX="108" mY="38" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LOSTMERIDIAN_15</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="145" mY="160" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LOSTMERIDIAN_16</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_LOSTMERIDIAN_17</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_ArmTilharAcquire" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>4</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Tilhar" mDuration="0" mStyle="Speech" mX="25" mY="119" mWidth="200" mHeight="80" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMTILHARACQUIRE_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="117" mY="130" mWidth="200" mHeight="63" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMTILHARACQUIRE_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Tilhar" mDuration="0" mStyle="Speech" mX="25" mY="119" mWidth="200" mHeight="80" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ARMTILHARACQUIRE_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_OracleTerminal4" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>22</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="45" mY="29" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="253" mY="151" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="17" mY="33" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_3</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL4_21</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="253" mY="151" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="17" mY="33" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_7</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="253" mY="151" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="17" mY="33" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_9</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_10</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_11</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="253" mY="151" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_12</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="17" mY="24" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_14</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL4_20</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="253" mY="151" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_15</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="17" mY="24" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_16</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="253" mY="151" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_17</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_18</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="17" mY="24" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL3_19</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_MeridianAnsibleOn" mProgressionType="TIMED" mDelay="60">
+    <mEndCurrentCutscenes>false</mEndCurrentCutscenes>
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mPauseHeroInput>false</mPauseHeroInput>
+    <mNextTextID>1</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="600" mStyle="Thought" mX="112" mY="160" mWidth="226" mHeight="48" mSkipBreather="false">
+      <mDoTeletype>false</mDoTeletype>
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>120</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_MERIDIANANSIBLEON_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_MeridianAnsible" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>17</mNextTextID>
+    <THCutsceneCharMovementEventData mType="CHAR_MOVEMENT" mDuration="0" mDestX="19224" mDestY="2639" mSpeed="1" />
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="ToIdleKeyboard" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="IdleKeyboard" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Ansible" mX="135" mY="163" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="3" mCharsPerSoundBlip="2" mDuration="0">DLG_MERIDIANANSIBLE_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ansible" mDuration="0" mStyle="Ansible" mX="131" mY="25" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_MERIDIANANSIBLE_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Ansible" mX="110" mY="150" mWidth="217" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="3" mCharsPerSoundBlip="2" mDuration="0">DLG_MERIDIANANSIBLE_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ansible" mDuration="0" mStyle="Ansible" mX="131" mY="25" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_MERIDIANANSIBLE_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Ansible" mX="110" mY="150" mWidth="217" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="3" mCharsPerSoundBlip="2" mDuration="0">DLG_MERIDIANANSIBLE_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ansible" mDuration="0" mStyle="Ansible" mX="131" mY="25" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_MERIDIANANSIBLE_7</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_MERIDIANANSIBLE_14</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_MERIDIANANSIBLE_15</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_MERIDIANANSIBLE_16</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Ansible" mX="110" mY="150" mWidth="217" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="3" mCharsPerSoundBlip="2" mDuration="0">DLG_MERIDIANANSIBLE_9</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ansible" mDuration="0" mStyle="Ansible" mX="131" mY="25" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_MERIDIANANSIBLE_10</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Ansible" mX="110" mY="150" mWidth="217" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="3" mCharsPerSoundBlip="2" mDuration="0">DLG_MERIDIANANSIBLE_11</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Ansible" mDuration="0" mStyle="Ansible" mX="131" mY="25" mWidth="170" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_MERIDIANANSIBLE_13</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="FromIdleKeyboard" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Idle" />
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_OracleTerminal5" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>9</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="18" mY="15" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL4_0</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL4_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="216" mY="12" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL4_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="18" mY="15" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL4_3</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL4_4</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="202" mY="22" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL4_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="0" mStyle="Speech" mX="18" mY="15" mWidth="200" mHeight="35" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINAL4_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_EnterMeridianPortal" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>2</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="600" mStyle="Thought" mX="32" mY="151" mWidth="226" mHeight="48" mSkipBreather="false">
+      <mDoTeletype>false</mDoTeletype>
+      <mPlayTeletypeSound>false</mPlayTeletypeSound>
+      <mFadeInDuration>60</mFadeInDuration>
+      <mFadeOutDuration>60</mFadeOutDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENTERMERIDIANPORTAL_0</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENTERMERIDIANPORTAL_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_AmashilamaEnters" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>6</mNextTextID>
+    <THCutsceneEventData mType="PAUSE" mDuration="30" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="0" mStyle="Speech" mX="196" mY="172" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AMASHILAMAENTERS_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_AmashilamaMonologue" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>14</mNextTextID>
+    <THCutsceneEventData mType="PAUSE" mDuration="30" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="0" mStyle="Speech" mX="100" mY="172" mWidth="226" mHeight="47" mSkipBreather="false">
+      <mTailLength>0</mTailLength>
+      <mTailRadius>0</mTailRadius>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AMASHILAMAENTERS_7</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="100" mY="162" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AMASHILAMAENTERS_1</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="0" mStyle="Speech" mX="100" mY="172" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AMASHILAMAENTERS_2</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AMASHILAMAENTERS_8</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="100" mY="162" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AMASHILAMAENTERS_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="0" mStyle="Speech" mX="100" mY="162" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AMASHILAMAENTERS_4</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AMASHILAMAMONOLOGUE_12</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AMASHILAMAMONOLOGUE_13</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="100" mY="162" mWidth="226" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_AMASHILAMAENTERS_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_CageMonologue" mProgressionType="PROMPT" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>3</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="0" mStyle="Speech" mX="100" mY="172" mWidth="226" mHeight="47" mSkipBreather="false">
+      <mTailLength>0</mTailLength>
+      <mTailRadius>0</mTailRadius>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_CAGEMONOLOGUE_0</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_CAGEMONOLOGUE_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_CAGEMONOLOGUE_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneEventData mType="PAUSE" mDuration="69" />
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_StrangleDialogue" mProgressionType="PROMPT" mDelay="120">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mNextTextID>6</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="IndraOrig" mDuration="0" mStyle="Speech" mX="17" mY="106" mWidth="178" mHeight="28" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_STRANGLEDIALOGUE_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Amashilama" mDuration="0" mStyle="Speech" mX="270" mY="63" mWidth="102" mHeight="28" mSkipBreather="true">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_STRANGLEDIALOGUE_3</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="IndraOrig" mDuration="0" mStyle="Speech" mX="17" mY="106" mWidth="178" mHeight="28" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_STRANGLEDIALOGUE_4</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_STRANGLEDIALOGUE_5</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_OracleTerminalEscape" mProgressionType="TIMED" mDelay="0">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mPauseHeroInput>false</mPauseHeroInput>
+    <mNextTextID>1</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="OracleTerminal" mDuration="180" mStyle="Speech" mX="122" mY="54" mWidth="200" mHeight="35" mSkipBreather="false">
+      <mTailLength>0</mTailLength>
+      <mTailRadius>0</mTailRadius>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ORACLETERMINALESCAPE_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_EndingDamu0" mProgressionType="PROMPT" mDelay="0">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mPauseHeroInputOnFinish>true</mPauseHeroInputOnFinish>
+    <mNextTextID>2</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Narrator" mDuration="0" mStyle="Thought" mX="96" mY="90" mWidth="240" mHeight="60" mSkipBreather="false">
+      <mMusicTrack>AV2_TheAxiomEnding</mMusicTrack>
+      <mFadeInDuration>60</mFadeInDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="2" mCharsPerSoundBlip="2" mDuration="0">DLG_ENDINGDAMU0_0</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_EndingDamu1" mProgressionType="PROMPT" mDelay="120">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mPauseHeroInputOnFinish>true</mPauseHeroInputOnFinish>
+    <mNextTextID>6</mNextTextID>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="WakeUp" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="LookAround" />
+    <THCutsceneEventData mType="PAUSE" mDuration="300" />
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_EndingDamu2" mProgressionType="PROMPT" mDelay="60">
+    <mPauseRoomUpdate>false</mPauseRoomUpdate>
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mPauseHeroInputOnFinish>true</mPauseHeroInputOnFinish>
+    <mNextTextID>34</mNextTextID>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Damu" mDuration="0" mCharacterAnim="Idle" />
+    <THCutsceneEventData mType="PAUSE" mDuration="60" />
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Damu" mDuration="0" mCharacterAnim="ExcitedJump" />
+    <THCutsceneEventData mType="PAUSE" mDuration="120" />
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="WakeUp" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Idle" />
+    <THCutsceneEventData mType="PAUSE" mDuration="120" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Narrator" mDuration="0" mStyle="Thought" mX="96" mY="170" mWidth="240" mHeight="47" mSkipBreather="false">
+      <mMusicTrack />
+      <mFadeInDuration>60</mFadeInDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="2" mCharsPerSoundBlip="2" mDuration="0">DLG_ENDINGDAMU2_11</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="2" mCharsPerSoundBlip="2" mDuration="0">DLG_ENDINGDAMU2_12</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Gesture1" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Narrator" mDuration="0" mStyle="Thought" mX="96" mY="170" mWidth="240" mHeight="47" mSkipBreather="false">
+      <mMusicTrack />
+      <mFadeInDuration>60</mFadeInDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="2" mCharsPerSoundBlip="2" mDuration="0">DLG_ENDINGDAMU2_14</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="ShakeHead" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Idle" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Narrator" mDuration="0" mStyle="Thought" mX="96" mY="170" mWidth="240" mHeight="47" mSkipBreather="false">
+      <mMusicTrack />
+      <mFadeInDuration>60</mFadeInDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="2" mCharsPerSoundBlip="2" mDuration="0">DLG_ENDINGDAMU2_22</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="2" mCharsPerSoundBlip="2" mDuration="0">DLG_ENDINGDAMU2_23</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Gesture1" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Narrator" mDuration="0" mStyle="Thought" mX="96" mY="170" mWidth="240" mHeight="47" mSkipBreather="false">
+      <mMusicTrack />
+      <mFadeInDuration>60</mFadeInDuration>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="2" mCharsPerSoundBlip="2" mDuration="0">DLG_ENDINGDAMU2_30</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="2" mCharsPerSoundBlip="2" mDuration="0">DLG_ENDINGDAMU2_31</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="2" mCharsPerSoundBlip="2" mDuration="0">DLG_ENDINGDAMU2_32</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="2" mCharsPerSoundBlip="2" mDuration="0">DLG_ENDINGDAMU2_33</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharMovementEventData mType="CHAR_MOVEMENT" mCharacter="Indra" mDuration="0" mDestX="2140" mDestY="5759" mSpeed="2" />
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_EndingDrushka" mProgressionType="PROMPT" mDelay="180">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mPauseHeroInputOnFinish>true</mPauseHeroInputOnFinish>
+    <mNextTextID>22</mNextTextID>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Idle" />
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Drushka" mDuration="0" mCharacterAnim="Talking" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Drushka" mDuration="0" mStyle="Speech" mX="214" mY="153" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENDINGDRUSHKA_8</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENDINGDRUSHKA_13</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENDINGDRUSHKA_14</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Gesture1" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Idle" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="24" mY="24" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENDINGDRUSHKA_1</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENDINGDRUSHKA_15</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENDINGDRUSHKA_16</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Drushka" mDuration="0" mStyle="Speech" mX="221" mY="165" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENDINGDRUSHKA_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Gesture2" />
+    <THCutsceneCharAnimationEventData mType="CHAR_QUEUE_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Idle" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="24" mY="24" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENDINGDRUSHKA_4</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENDINGDRUSHKA_5</THCutscenePage>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENDINGDRUSHKA_6</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Drushka" mDuration="0" mCharacterAnim="Talking" />
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Drushka" mDuration="0" mStyle="Speech" mX="221" mY="165" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENDINGDRUSHKA_10</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="23" mY="45" mWidth="200" mHeight="47" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENDINGDRUSHKA_17</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="52" mY="145" mWidth="161" mHeight="31" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENDINGDRUSHKA_21</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mCharacter="Indra" mDuration="0" mStyle="Speech" mX="146" mY="150" mWidth="148" mHeight="31" mSkipBreather="false">
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="0">DLG_ENDINGDRUSHKA_20</THCutscenePage>
+    </THCutsceneDialogueEventData>
+  </THCutsceneData>
+  <THCutsceneData mName="DLG_EndingSamara" mProgressionType="TIMED" mDelay="120">
+    <mPauseHeroUpdate>false</mPauseHeroUpdate>
+    <mPauseHeroInputOnFinish>true</mPauseHeroInputOnFinish>
+    <mNextTextID>3</mNextTextID>
+    <THCutsceneDialogueEventData mType="DIALOGUE" mDuration="0" mStyle="Speech" mX="80" mY="168" mWidth="320" mHeight="80" mSkipBreather="false">
+      <mMusicTrack />
+      <mFadeInDuration>180</mFadeInDuration>
+      <mShowWindow>false</mShowWindow>
+      <THCutscenePage mAlign="Left" mFramesPerCharacter="1" mCharsPerSoundBlip="4" mDuration="45">DLG_ENDINGSAMARA_2</THCutscenePage>
+    </THCutsceneDialogueEventData>
+    <THCutsceneCharMovementEventData mType="CHAR_MOVEMENT" mCharacter="Indra" mDuration="0" mDestX="1314" mDestY="5294" mSpeed="0.5" />
+    <THCutsceneCharAnimationEventData mType="CHAR_PLAY_ANIM" mCharacter="Indra" mDuration="0" mCharacterAnim="Hug" />
+    <THCutsceneEventData mType="CHAR_HIDE" mCharacter="Samara" mDuration="0" />
+    <THCutsceneEventData mType="PAUSE" mDuration="300" />
+  </THCutsceneData>
+</THCutsceneXML>

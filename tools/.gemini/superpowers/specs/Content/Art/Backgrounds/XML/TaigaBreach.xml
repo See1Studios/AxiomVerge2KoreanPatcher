@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParallaxXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- #################################################################### -->
+  <!-- "FurryCavernsBrown" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="FurryCavernsBrown">
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/TaigaBreach/FurryCavernsBrown</mTextureName>
+      <mTechnique>OverlayBitmapTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mGradientData>
+        <mStartColor>
+          <R>153</R>
+          <G>136</G>
+          <B>160</B>
+          <A>0</A>
+        </mStartColor>
+        <mEndColor>
+          <R>153</R>
+          <G>136</G>
+          <B>160</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>20</mStartY>
+        <mEndY>120</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+      <mAnchor>BottomLeft</mAnchor>
+    </THParallaxData>
+
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mGradientStartColor>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>67</R>
+        <G>181</G>
+        <B>170</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>40</mGradientStartY>
+      <mGradientEndY>120</mGradientEndY>
+
+      <VignetteColor>
+        <R>97</R>
+        <G>201</G>
+        <B>201</B>
+        <A>128</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+
+  <!-- #################################################################### -->
+  <!-- "FurryVinesGreen" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="FurryVinesGreen">
+
+    <!-- Vines -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/TaigaBreach/FurryVinesGreen</mTextureName>
+      <mTechnique>OverlayBitmapTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mGradientData>
+        <mStartColor>
+          <R>150</R>
+          <G>165</G>
+          <B>255</B>
+          <A>0</A>
+        </mStartColor>
+        <mEndColor>
+          <R>150</R>
+          <G>165</G>
+          <B>255</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>20</mStartY>
+        <mEndY>120</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+      <mAnchor>BottomLeft</mAnchor>
+    </THParallaxData>
+
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mGradientStartColor>
+        <R>47</R>
+        <G>181</G>
+        <B>188</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>159</R>
+        <G>241</G>
+        <B>244</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>40</mGradientStartY>
+      <mGradientEndY>120</mGradientEndY>
+
+      <VignetteColor>
+        <R>173</R>
+        <G>144</G>
+        <B>209</B>
+        <A>128</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.06</mHueRange>
+      <mBeatsPerHueCycle>4</mBeatsPerHueCycle>
+
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- "FurryHillsGreen" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="FurryHillsGreen">
+
+    <!-- Vines -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/TaigaBreach/FurryHillsGreen</mTextureName>
+      <mTechnique>OverlayBitmapTechnique</mTechnique>
+      <mVelocity>
+        <X>0.0</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </mOffset>
+      <mGradientData>
+        <mStartColor>
+          <R>137</R>
+          <G>254</G>
+          <B>243</B>
+          <A>0</A>
+        </mStartColor>
+        <mEndColor>
+          <R>137</R>
+          <G>254</G>
+          <B>243</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>20</mStartY>
+        <mEndY>120</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+      <mAnchor>BottomLeft</mAnchor>
+    </THParallaxData>
+
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mGradientStartColor>
+        <R>189</R>
+        <G>240</G>
+        <B>236</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>46</R>
+        <G>202</G>
+        <B>189</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>0</mGradientStartY>
+      <mGradientEndY>120</mGradientEndY>
+
+      <VignetteColor>
+        <R>79</R>
+        <G>72</G>
+        <B>167</B>
+        <A>128</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- "BreachTaigaGreySky" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="BreachTaigaGreySky">
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mGradientStartColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>196</R>
+        <G>217</G>
+        <B>212</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>0</mGradientStartY>
+      <mGradientEndY>120</mGradientEndY>
+
+      <VignetteColor>
+        <R>211</R>
+        <G>211</G>
+        <B>211</B>
+        <A>128</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+  <!-- #################################################################### -->
+  <!-- "BreachTaigaRedSky" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="BreachTaigaRedSky">
+    <!-- Breach background colors-->
+    <mBreachEffectParams>
+      <mGradientStartColor>
+        <R>255</R>
+        <G>250</G>
+        <B>248</B>
+        <A>255</A>
+      </mGradientStartColor>
+      <mGradientEndColor>
+        <R>255</R>
+        <G>184</G>
+        <B>180</B>
+        <A>255</A>
+      </mGradientEndColor>
+      <mGradientStartY>0</mGradientStartY>
+      <mGradientEndY>120</mGradientEndY>
+
+      <VignetteColor>
+        <R>173</R>
+        <G>144</G>
+        <B>209</B>
+        <A>128</A>
+      </VignetteColor>
+      <mVignetteStart>0.4</mVignetteStart>
+      <mVignetteEnd>1.0</mVignetteEnd>
+      <mVignetteRadius>
+        <X>60</X>
+        <Y>40</Y>
+      </mVignetteRadius>
+
+      <mHueRange>0.1</mHueRange>
+      <mBeatsPerHueCycle>8</mBeatsPerHueCycle>
+
+    </mBreachEffectParams>
+  </THParallaxSetData>
+
+</THParallaxXML>

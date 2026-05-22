@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>FireFiend.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="FireFiendTexture">
+    <THSpriteAnimationData mName="Flip" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\FireFiend\Output\Flip.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-3" mY="0" mWidth="7" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="14" mHeight="37" mDelay="5" mOriginX="6" mOriginY="13" mU="0" mV="0" mUVWidth="14" mUVHeight="37" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FireFiend\Output\Flip0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="0" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="14" mHeight="37" mDelay="5" mOriginX="6" mOriginY="13" mU="16" mV="0" mUVWidth="14" mUVHeight="37" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FireFiend\Output\Flip0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="0" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="14" mHeight="37" mDelay="5" mOriginX="6" mOriginY="13" mU="32" mV="0" mUVWidth="14" mUVHeight="37" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FireFiend\Output\Flip0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="0" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="14" mHeight="37" mDelay="5" mOriginX="6" mOriginY="13" mU="48" mV="0" mUVWidth="14" mUVHeight="37" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FireFiend\Output\Flip0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="0" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="14" mHeight="37" mDelay="5" mOriginX="6" mOriginY="13" mU="64" mV="0" mUVWidth="14" mUVHeight="37" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FireFiend\Output\Flip0004.png" mFrameFlags="FIRE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="0" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="14" mHeight="37" mDelay="5" mOriginX="6" mOriginY="13" mU="80" mV="0" mUVWidth="14" mUVHeight="37" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FireFiend\Output\Flip0005.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="0" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="14" mHeight="37" mDelay="5" mOriginX="6" mOriginY="13" mU="96" mV="0" mUVWidth="14" mUVHeight="37" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FireFiend\Output\Flip0006.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="0" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\FireFiend\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-3" mY="0" mWidth="7" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="7" mHeight="24" mDelay="4" mOriginX="3" mOriginY="0" mU="112" mV="0" mUVWidth="7" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FireFiend\Output\Idle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="0" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="7" mHeight="24" mDelay="4" mOriginX="3" mOriginY="0" mU="112" mV="26" mUVWidth="7" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FireFiend\Output\Idle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="0" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="7" mHeight="24" mDelay="4" mOriginX="3" mOriginY="0" mU="0" mV="39" mUVWidth="7" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FireFiend\Output\Idle0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="0" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="7" mHeight="24" mDelay="4" mOriginX="3" mOriginY="0" mU="9" mV="39" mUVWidth="7" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\FireFiend\Output\Idle0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="0" mAngle="4.712389" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

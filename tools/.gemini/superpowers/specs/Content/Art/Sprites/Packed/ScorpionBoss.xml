@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>ScorpionBoss.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="ScorpionBossTexture">
+    <THSpriteAnimationData mName="ScorpionHeadIdle" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionHeadIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="63" mDelay="8" mOriginX="32" mOriginY="32" mU="201" mV="59" mUVWidth="64" mUVHeight="55" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionHeadIdle0000.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionNodeIdle" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionNodeIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="18" mHeight="18" mDelay="10" mOriginX="9" mOriginY="9" mU="128" mV="207" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="2" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionNodeIdle0000.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionWeakPoint" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionWeakPoint.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="50" mHeight="37" mDelay="10" mOriginX="25" mOriginY="18" mU="267" mV="152" mUVWidth="48" mUVHeight="35" mCropX="1" mCropY="1" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionWeakPoint0000.png" />
+      <THFrameData mWidth="50" mHeight="37" mDelay="10" mOriginX="25" mOriginY="18" mU="0" mV="189" mUVWidth="50" mUVHeight="37" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionWeakPoint0001.png" />
+      <THFrameData mWidth="50" mHeight="37" mDelay="10" mOriginX="25" mOriginY="18" mU="444" mV="0" mUVWidth="48" mUVHeight="35" mCropX="1" mCropY="1" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionWeakPoint0002.png" />
+      <THFrameData mWidth="50" mHeight="37" mDelay="10" mOriginX="25" mOriginY="18" mU="264" mV="189" mUVWidth="46" mUVHeight="33" mCropX="2" mCropY="2" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionWeakPoint0003.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionNodePulsate" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionNodePulsate.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="18" mHeight="18" mDelay="8" mOriginX="9" mOriginY="9" mU="91" mV="207" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="1" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionNodePulsate0000.png" />
+      <THFrameData mWidth="18" mHeight="18" mDelay="8" mOriginX="9" mOriginY="9" mU="52" mV="207" mUVWidth="18" mUVHeight="18" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionNodePulsate0001.png" />
+      <THFrameData mWidth="18" mHeight="18" mDelay="8" mOriginX="9" mOriginY="9" mU="72" mV="207" mUVWidth="17" mUVHeight="17" mCropX="0" mCropY="1" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionNodePulsate0002.png" />
+      <THFrameData mWidth="18" mHeight="18" mDelay="8" mOriginX="9" mOriginY="9" mU="110" mV="207" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="2" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionNodePulsate0003.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionHeadExpose" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionHeadExpose.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="63" mDelay="8" mOriginX="32" mOriginY="32" mU="267" mV="59" mUVWidth="64" mUVHeight="55" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionHeadExpose0000.png" />
+      <THFrameData mWidth="64" mHeight="63" mDelay="8" mOriginX="32" mOriginY="32" mU="198" mV="173" mUVWidth="64" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionHeadExpose0001.png" />
+      <THFrameData mWidth="64" mHeight="63" mDelay="8" mOriginX="32" mOriginY="32" mU="196" mV="0" mUVWidth="64" mUVHeight="57" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionHeadExpose0002.png" />
+      <THFrameData mWidth="64" mHeight="63" mDelay="8" mOriginX="32" mOriginY="32" mU="69" mV="77" mUVWidth="64" mUVHeight="63" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionHeadExpose0003.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionHeadExposed" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionHeadExposed.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="63" mDelay="8" mOriginX="32" mOriginY="32" mU="0" mV="124" mUVWidth="64" mUVHeight="63" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionHeadExposed0000.png" />
+      <THFrameData mWidth="64" mHeight="63" mDelay="8" mOriginX="32" mOriginY="32" mU="66" mV="142" mUVWidth="64" mUVHeight="63" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionHeadExposed0001.png" />
+      <THFrameData mWidth="64" mHeight="63" mDelay="8" mOriginX="32" mOriginY="32" mU="132" mV="142" mUVWidth="64" mUVHeight="63" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionHeadExposed0002.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionHeadRetract" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionHeadRetract.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="64" mHeight="63" mDelay="8" mOriginX="32" mOriginY="32" mU="135" mV="77" mUVWidth="64" mUVHeight="63" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionHeadRetract0000.png" />
+      <THFrameData mWidth="64" mHeight="63" mDelay="8" mOriginX="32" mOriginY="32" mU="262" mV="0" mUVWidth="64" mUVHeight="57" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionHeadRetract0001.png" />
+      <THFrameData mWidth="64" mHeight="63" mDelay="8" mOriginX="32" mOriginY="32" mU="328" mV="0" mUVWidth="64" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionHeadRetract0002.png" />
+      <THFrameData mWidth="64" mHeight="63" mDelay="8" mOriginX="32" mOriginY="32" mU="201" mV="116" mUVWidth="64" mUVHeight="55" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionHeadRetract0003.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionArm" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionArm.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="67" mHeight="46" mDelay="62" mOriginX="59" mOriginY="19" mU="0" mV="76" mUVWidth="67" mUVHeight="46" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionArm0000.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionBackCannon" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionBackCannon.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="50" mHeight="34" mDelay="62" mOriginX="25" mOriginY="17" mU="267" mV="116" mUVWidth="50" mUVHeight="34" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionBackCannon0000.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionBody" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionBody.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="106" mHeight="74" mDelay="62" mOriginX="53" mOriginY="37" mU="0" mV="0" mUVWidth="106" mUVHeight="74" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionBody0000.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionTailSeg" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionTailSeg.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="40" mHeight="50" mDelay="62" mOriginX="18" mOriginY="37" mU="364" mV="153" mUVWidth="40" mUVHeight="50" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionTailSeg0000.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionLegLB" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionLegLB.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="48" mHeight="96" mDelay="62" mOriginX="44" mOriginY="96" mU="394" mV="0" mUVWidth="48" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionLegLB0000.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionLegLF" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionLegLF.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="45" mHeight="82" mDelay="62" mOriginX="41" mOriginY="82" mU="444" mV="37" mUVWidth="45" mUVHeight="82" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionLegLF0000.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionLegRB" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionLegRB.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="48" mHeight="96" mDelay="62" mOriginX="3" mOriginY="96" mU="333" mV="55" mUVWidth="48" mUVHeight="96" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionLegRB0000.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionLegRF" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionLegRF.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="45" mHeight="82" mDelay="62" mOriginX="3" mOriginY="82" mU="317" mV="153" mUVWidth="45" mUVHeight="82" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionLegRF0000.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionStinger" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionStinger.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="52" mHeight="70" mDelay="62" mOriginX="40" mOriginY="35" mU="383" mV="98" mUVWidth="44" mUVHeight="44" mCropX="4" mCropY="19" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionStinger0000.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ScorpionStingerHousing" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Bosses\Scorpion\Output\ScorpionStingerHousing.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="88" mHeight="80" mDelay="62" mOriginX="71" mOriginY="67" mU="108" mV="0" mUVWidth="86" mUVHeight="75" mCropX="0" mCropY="0" mSourceImageName="..\Bosses\Scorpion\Output\ScorpionStingerHousing0000.png" />
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

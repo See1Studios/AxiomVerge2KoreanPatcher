@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>CarrierDrone.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="CarrierDroneTexture">
+    <THSpriteAnimationData mName="Fire" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\CarrierDrone\Output\Fire.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-28" mY="-24" mWidth="56" mHeight="48" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="63" mHeight="64" mDelay="6" mOriginX="30" mOriginY="28" mU="66" mV="0" mUVWidth="63" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\Fire0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle0" mX="23" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="63" mHeight="64" mDelay="6" mOriginX="30" mOriginY="28" mU="131" mV="0" mUVWidth="63" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\Fire0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="24" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="63" mHeight="64" mDelay="6" mOriginX="30" mOriginY="28" mU="0" mV="110" mUVWidth="63" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\Fire0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="25" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ForwardThrusters" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\CarrierDrone\Output\ForwardThrusters.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="68" mHeight="56" mDelay="6" mOriginX="30" mOriginY="28" mU="65" mV="228" mUVWidth="36" mUVHeight="13" mCropX="28" mCropY="36" mSourceImageName="..\Enemies\CarrierDrone\Output\ForwardThrusters0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="68" mHeight="56" mDelay="6" mOriginX="30" mOriginY="28" mU="65" mV="194" mUVWidth="43" mUVHeight="15" mCropX="24" mCropY="36" mSourceImageName="..\Enemies\CarrierDrone\Output\ForwardThrusters0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="68" mHeight="56" mDelay="6" mOriginX="30" mOriginY="28" mU="65" mV="211" mUVWidth="40" mUVHeight="15" mCropX="26" mCropY="35" mSourceImageName="..\Enemies\CarrierDrone\Output\ForwardThrusters0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="68" mHeight="56" mDelay="6" mOriginX="30" mOriginY="28" mU="195" mV="220" mUVWidth="36" mUVHeight="15" mCropX="29" mCropY="35" mSourceImageName="..\Enemies\CarrierDrone\Output\ForwardThrusters0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="FromFire" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\CarrierDrone\Output\FromFire.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-28" mY="-24" mWidth="56" mHeight="48" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="63" mHeight="64" mDelay="8" mOriginX="30" mOriginY="28" mU="0" mV="176" mUVWidth="63" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\FromFire0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle0" mX="25" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="63" mHeight="64" mDelay="8" mOriginX="30" mOriginY="28" mU="65" mV="132" mUVWidth="63" mUVHeight="60" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\FromFire0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="25" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="63" mHeight="64" mDelay="8" mOriginX="30" mOriginY="28" mU="131" mV="128" mUVWidth="63" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\FromFire0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="25" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="63" mHeight="64" mDelay="8" mOriginX="30" mOriginY="28" mU="326" mV="110" mUVWidth="63" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\FromFire0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="25" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="FromSpawn" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\CarrierDrone\Output\FromSpawn.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-28" mY="-24" mWidth="56" mHeight="48" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="63" mHeight="53" mDelay="8" mOriginX="30" mOriginY="28" mU="261" mV="165" mUVWidth="63" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\FromSpawn0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="63" mHeight="53" mDelay="8" mOriginX="30" mOriginY="28" mU="391" mV="0" mUVWidth="63" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\FromSpawn0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="63" mHeight="53" mDelay="8" mOriginX="30" mOriginY="28" mU="326" mV="55" mUVWidth="63" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\FromSpawn0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="63" mHeight="53" mDelay="8" mOriginX="30" mOriginY="28" mU="261" mV="110" mUVWidth="63" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\FromSpawn0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\CarrierDrone\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-28" mY="-24" mWidth="56" mHeight="48" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="68" mHeight="56" mDelay="6" mOriginX="30" mOriginY="28" mU="0" mV="55" mUVWidth="64" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\Idle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="68" mHeight="56" mDelay="6" mOriginX="30" mOriginY="28" mU="196" mV="165" mUVWidth="63" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\Idle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="68" mHeight="56" mDelay="6" mOriginX="30" mOriginY="28" mU="326" mV="0" mUVWidth="63" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\Idle0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="68" mHeight="56" mDelay="6" mOriginX="30" mOriginY="28" mU="0" mV="0" mUVWidth="64" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\Idle0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="RearThrusters" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\CarrierDrone\Output\RearThrusters.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="68" mHeight="56" mDelay="6" mOriginX="30" mOriginY="28" mU="233" mV="220" mUVWidth="12" mUVHeight="12" mCropX="17" mCropY="38" mSourceImageName="..\Enemies\CarrierDrone\Output\RearThrusters0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="68" mHeight="56" mDelay="6" mOriginX="30" mOriginY="28" mU="110" mV="194" mUVWidth="17" mUVHeight="17" mCropX="17" mCropY="38" mSourceImageName="..\Enemies\CarrierDrone\Output\RearThrusters0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="68" mHeight="56" mDelay="6" mOriginX="30" mOriginY="28" mU="107" mV="213" mUVWidth="17" mUVHeight="17" mCropX="18" mCropY="39" mSourceImageName="..\Enemies\CarrierDrone\Output\RearThrusters0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="68" mHeight="56" mDelay="6" mOriginX="30" mOriginY="28" mU="247" mV="220" mUVWidth="12" mUVHeight="12" mCropX="18" mCropY="39" mSourceImageName="..\Enemies\CarrierDrone\Output\RearThrusters0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ToFire" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\CarrierDrone\Output\ToFire.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-28" mY="-24" mWidth="56" mHeight="48" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="63" mHeight="64" mDelay="8" mOriginX="30" mOriginY="28" mU="261" mV="0" mUVWidth="63" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\ToFire0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle0" mX="25" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="63" mHeight="64" mDelay="8" mOriginX="30" mOriginY="28" mU="130" mV="186" mUVWidth="63" mUVHeight="56" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\ToFire0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="25" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="63" mHeight="64" mDelay="8" mOriginX="30" mOriginY="28" mU="131" mV="66" mUVWidth="63" mUVHeight="60" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\ToFire0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="25" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="63" mHeight="64" mDelay="8" mOriginX="30" mOriginY="28" mU="66" mV="66" mUVWidth="63" mUVHeight="64" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\ToFire0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle0" mX="25" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ToSpawn" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\CarrierDrone\Output\ToSpawn.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-28" mY="-24" mWidth="56" mHeight="48" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="63" mHeight="53" mDelay="8" mOriginX="30" mOriginY="28" mU="261" mV="55" mUVWidth="63" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\ToSpawn0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="63" mHeight="53" mDelay="8" mOriginX="30" mOriginY="28" mU="196" mV="0" mUVWidth="63" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\ToSpawn0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="63" mHeight="53" mDelay="8" mOriginX="30" mOriginY="28" mU="196" mV="55" mUVWidth="63" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\ToSpawn0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <THFrameData mWidth="63" mHeight="53" mDelay="8" mOriginX="30" mOriginY="28" mU="196" mV="110" mUVWidth="63" mUVHeight="53" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\ToSpawn0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="29" mY="-11" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="SpawnPos" mX="-19" mY="-15" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="false" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Turn" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\CarrierDrone\Output\Turn.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-28" mY="-24" mWidth="56" mHeight="48" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="56" mHeight="55" mDelay="8" mOriginX="30" mOriginY="28" mU="391" mV="55" mUVWidth="54" mUVHeight="55" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\Turn0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="14" mY="-8" mAngle="0.174532935" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SpawnPos" mX="-27" mY="-12" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <THFrameData mWidth="56" mHeight="55" mDelay="8" mOriginX="30" mOriginY="28" mU="456" mV="0" mUVWidth="54" mUVHeight="55" mCropX="2" mCropY="0" mSourceImageName="..\Enemies\CarrierDrone\Output\Turn0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="EyePos" mX="-19" mY="-7" mAngle="2.96705985" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="SpawnPos" mX="22" mY="-13" mAngle="3.926991" mSpriteIndex="0" mKeyFrame="true" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="EyePos">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="EyeMin">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="EyeMax">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Pivot0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="SpawnPos">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

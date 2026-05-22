@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THHackEffectSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- For enemies that have a signle action (like platforms), activates that action -->
+  <THHackEffectData mType="ACTIVATE" mDuration ="0" mBaseCost="0">
+  </THHackEffectData>
+
+  <!-- Enemy becomes your ally, actively fighting for you -->
+  <THHackEffectData mType="ALLEGIANCE" mDuration ="-1" mBaseCost="100">
+  </THHackEffectData>
+
+  <!-- Enemy attracts to other enemies-->
+  <THHackEffectData mType="ATTRACT" mDuration ="-1" mBaseCost="100">
+  </THHackEffectData>
+
+  <!-- Enemy attracts other enemies to it -->
+  <THHackEffectData mType="ATTRACTOR" mDuration ="-1" mBaseCost="50">
+  </THHackEffectData>
+
+  <!-- Enemy always faces backwards -->
+  <THHackEffectData mType="BACKWARDS" mDuration ="-1" mBaseCost="50">
+  </THHackEffectData>
+
+
+  <!-- Blinds the enemy-->
+  <THHackEffectData mType="BLIND" mDuration ="-1" mBaseCost="100">
+  </THHackEffectData>
+
+  <!-- Closes door -->
+  <THHackEffectData mType="CLOSE"  mDuration ="0" mBaseCost="0">
+  </THHackEffectData>
+
+  <!-- Enemy explodes (make a higher level if the enemy isn't a bomb or mine-->
+  <THHackEffectData mType="DETONATE" mDuration ="0" mBaseCost="100">
+  </THHackEffectData>
+
+  <!-- Prevents enemy from firing weapons-->
+  <THHackEffectData mType="DISABLE" mDuration ="-1" mBaseCost="100">
+  </THHackEffectData>
+  
+  <!-- Enemy's movement becomes erratic-->
+  <THHackEffectData mType="DISORIENT" mDuration ="-1" mBaseCost="50">
+  </THHackEffectData>
+
+  <!-- Enemy dispenses health rather than enemies -->
+  <THHackEffectData mType="DROPHEALTH" mDuration ="-1"  mBaseCost="0">
+  </THHackEffectData>
+
+  <!-- Makes the enemy follaow the hero at a safe distance-->
+  <THHackEffectData mType="FOLLOW"  mDuration ="-1"  mBaseCost="100">
+  </THHackEffectData>
+
+  <!-- Enemy aim becomes terrible AND damages other enemies-->
+  <THHackEffectData mType="FRIENDLYFIRE" mDuration ="-1"  mBaseCost="20">
+  </THHackEffectData>
+
+  <!-- Opposite of slow -->
+  <THHackEffectData mType="HASTE" mDuration ="-1" mBaseCost="20">
+  </THHackEffectData>
+
+  <!-- Enemy aim becomes terrible -->
+  <THHackEffectData mType="INTERFERENCE" mDuration ="-1" mBaseCost="20">
+  </THHackEffectData>
+
+  <!-- Power turns on and off at an inverval -->
+  <THHackEffectData mType="INTERVAL" mDuration ="-1" mBaseCost="20">
+  </THHackEffectData>
+
+  <!-- Sticks to enemies (or they become stuck to it if it's larger) -->
+  <THHackEffectData mType="MAGNETIC"  mDuration ="-1" mBaseCost="20">
+  </THHackEffectData>
+
+  <!-- Rotates to the next item (dispenser) -->
+  <THHackEffectData mType="NEXT"  mDuration ="0" mBaseCost="0">
+  </THHackEffectData>
+
+  <!-- Opens door -->
+  <THHackEffectData mType="OPEN"  mDuration ="0" mBaseCost="0">
+  </THHackEffectData>
+
+  <!-- Makes the enemy orbit the hero at a safe distance-->
+  <THHackEffectData mType="ORBIT"  mDuration ="-1" mBaseCost="50">
+  </THHackEffectData>
+
+  <!-- Causes damage to hunter drone guns -->
+  <THHackEffectData mType="OVERHEAT"  mDuration ="0"  mBaseCost="100">
+  </THHackEffectData>
+
+  <!-- Causes hunter drone cannons to inflict electricity damgae when they go off -->
+  <THHackEffectData mType="OVERLOAD"  mDuration ="-1"  mBaseCost="80">
+  </THHackEffectData>
+
+  <!-- Use to give Hammond permissions to the Filter -->
+  <THHackEffectData mType="PERMISSIONS" mDuration ="0" mBaseCost="0">
+  </THHackEffectData>
+
+  <!-- Makes the enemy stay in place until we detonate them -->
+  <THHackEffectData mType="PLANT"  mDuration ="-1"  mBaseCost="50">
+  </THHackEffectData>
+
+  <!-- Enemy can be stood upon-->
+  <THHackEffectData mType="PLATFORM"  mDuration ="-1"  mBaseCost="50">
+  </THHackEffectData>
+
+  <!-- Enemy gets shocked by its own power source for damage-->
+  <THHackEffectData mType="POWERSURGE" mDuration ="0" mBaseCost="50">
+  </THHackEffectData>
+
+  <!-- Enemy releases waht it is carrying-->
+  <THHackEffectData mType="RELEASE" mDuration ="-1"  mBaseCost="5">
+  </THHackEffectData>
+
+  <!-- Enemy repels other enemies-->
+  <THHackEffectData mType="REPEL" mDuration ="-1"  mBaseCost="50">
+  </THHackEffectData>
+ 
+
+  <!-- Cloaking enemies become revealed -->
+  <THHackEffectData mType="REVEAL" mDuration ="-1"  mBaseCost="50">
+  </THHackEffectData>
+
+  <!-- Cloaking enemies reveal themselves and others around them -->
+  <THHackEffectData mType="REVEALOTHERS" mDuration ="-1"  mBaseCost="50"> 
+  </THHackEffectData>
+
+  <!-- Turret freezes and is unable to aim -->
+  <THHackEffectData mType="SEIZE" mDuration ="-1"  mBaseCost="100">
+  </THHackEffectData>
+
+  <!-- Enemy follows you around and acts as a shield, absorbing damage until it dies -->
+  <THHackEffectData mType="SHIELD" mDuration ="-1"  mBaseCost="100">
+  </THHackEffectData>
+
+  <!-- Enemy slows down-->
+  <THHackEffectData mType="SLOW" mDuration ="-1" mBaseCost="50">
+  </THHackEffectData>
+
+ 
+
+  <!-- Camera follows the enemy (and fills in map as it does so) -->
+  <THHackEffectData mType="SPY" mDuration ="-1" mBaseCost="50">
+  </THHackEffectData>
+
+  <!-- Enemy freezes in place-->
+  <THHackEffectData mType="STASIS" mDuration ="-1" mBaseCost="100">
+  </THHackEffectData>
+
+  
+
+  <!-- Other enemies become stuck/stunned near the enemy-->
+  <THHackEffectData mType="STUNNING" mDuration ="-1" mBaseCost="50">
+  </THHackEffectData>
+
+  <!-- All enemies of this type take damage at the same time  -->
+  <THHackEffectData mType="SYMPATHY" mDuration ="-1" mBaseCost="50">
+  </THHackEffectData>
+
+  <!-- Enemy mimicks your actions  -->
+  <THHackEffectData mType="SYNCHRONIZE" mDuration ="-1" mBaseCost="50">
+  </THHackEffectData>
+
+  <!-- Used on Ice Drone to force it to submerge-->
+  <THHackEffectData mType="SUBMERGE" mDuration ="0" mBaseCost="25">
+  </THHackEffectData>
+  
+  <!-- USed on Ice Drone to force it to surface-->
+  <THHackEffectData mType="SURFACE" mDuration ="0" mBaseCost="25">
+  </THHackEffectData>
+
+  <!-- Used on Pollinators to make them swarm at enemies-->
+  <THHackEffectData mType="SWARM" mDuration ="-1" mBaseCost="25">
+  </THHackEffectData>
+
+  <!-- Use to turn switch on and off -->
+  <THHackEffectData mType="TOGGLE" mDuration ="0" mBaseCost="0">
+  </THHackEffectData>
+
+ 
+
+
+  <!-- Enemy transmits hacked attributes to others nearby-->
+  <THHackEffectData mType="VIRUS" mDuration ="-1" mBaseCost="50">
+  </THHackEffectData>
+
+  <!-- Enemy enters state where small impacts will make it detonate-->
+  <THHackEffectData mType="VOLATILE" mDuration ="-1" mBaseCost="25">
+  </THHackEffectData>
+
+  <!-- Reduces enemy's damage -->
+  <THHackEffectData mType="WEAKEN" mDuration ="300" mBaseCost="50">
+  </THHackEffectData>
+
+</THHackEffectSettings>

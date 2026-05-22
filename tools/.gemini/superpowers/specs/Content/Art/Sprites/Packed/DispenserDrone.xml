@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>DispenserDrone.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="DispenserDroneTexture">
+    <THSpriteAnimationData mName="DoorClose" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\UtilityDrones\DispenserDrone\Output\DoorClose.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="-13" mWidth="16" mHeight="16" mRadius="13" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="26" mHeight="26" mDelay="4" mOriginX="13" mOriginY="26" mU="66" mV="0" mUVWidth="26" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\DoorClose0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="26" mHeight="26" mDelay="4" mOriginX="13" mOriginY="26" mU="66" mV="28" mUVWidth="26" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\DoorClose0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="26" mHeight="26" mDelay="4" mOriginX="13" mOriginY="26" mU="94" mV="0" mUVWidth="26" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\DoorClose0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="26" mHeight="26" mDelay="4" mOriginX="13" mOriginY="26" mU="94" mV="28" mUVWidth="26" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\DoorClose0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="26" mHeight="26" mDelay="4" mOriginX="13" mOriginY="26" mU="0" mV="38" mUVWidth="26" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\DoorClose0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="26" mHeight="26" mDelay="4" mOriginX="13" mOriginY="26" mU="0" mV="66" mUVWidth="26" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\DoorClose0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="26" mHeight="26" mDelay="4" mOriginX="13" mOriginY="26" mU="28" mV="38" mUVWidth="26" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\DoorClose0006.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="DoorIdle" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\UtilityDrones\DispenserDrone\Output\DoorIdle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="-13" mWidth="16" mHeight="16" mRadius="13" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="26" mHeight="26" mDelay="4" mOriginX="13" mOriginY="26" mU="28" mV="66" mUVWidth="26" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\DoorIdle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="DoorOpen" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\UtilityDrones\DispenserDrone\Output\DoorOpen.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="-13" mWidth="16" mHeight="16" mRadius="13" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="26" mHeight="26" mDelay="4" mOriginX="13" mOriginY="26" mU="56" mV="56" mUVWidth="26" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\DoorOpen0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="26" mHeight="26" mDelay="4" mOriginX="13" mOriginY="26" mU="84" mV="56" mUVWidth="26" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\DoorOpen0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="26" mHeight="26" mDelay="4" mOriginX="13" mOriginY="26" mU="122" mV="0" mUVWidth="26" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\DoorOpen0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="26" mHeight="26" mDelay="4" mOriginX="13" mOriginY="26" mU="122" mV="28" mUVWidth="26" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\DoorOpen0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="26" mHeight="26" mDelay="4" mOriginX="13" mOriginY="26" mU="150" mV="0" mUVWidth="26" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\DoorOpen0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="26" mHeight="26" mDelay="4" mOriginX="13" mOriginY="26" mU="112" mV="56" mUVWidth="26" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\DoorOpen0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="26" mHeight="26" mDelay="4" mOriginX="13" mOriginY="26" mU="178" mV="0" mUVWidth="26" mUVHeight="26" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\DoorOpen0006.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\UtilityDrones\DispenserDrone\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-24" mY="-36" mWidth="48" mHeight="36" mRadius="8" mColFlags="0" />
+      </mCollisionList>
+      <THFrameData mWidth="64" mHeight="36" mDelay="10" mOriginX="32" mOriginY="36" mU="0" mV="0" mUVWidth="64" mUVHeight="36" mCropX="0" mCropY="0" mSourceImageName="..\UtilityDrones\DispenserDrone\Output\Idle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

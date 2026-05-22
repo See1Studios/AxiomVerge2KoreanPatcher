@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>Bumpr.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="BumprTexture">
+    <THSpriteAnimationData mName="Bump" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Bumpr\Output\Bump.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-8" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="12" mHeight="9" mDelay="2" mOriginX="6" mOriginY="9" mU="28" mV="42" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Bump0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="9" mDelay="2" mOriginX="6" mOriginY="9" mU="42" mV="39" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Bump0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="9" mDelay="2" mOriginX="6" mOriginY="9" mU="28" mV="53" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Bump0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="9" mDelay="2" mOriginX="6" mOriginY="9" mU="70" mV="0" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Bump0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="9" mDelay="2" mOriginX="6" mOriginY="9" mU="56" mV="0" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Bump0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="9" mDelay="2" mOriginX="6" mOriginY="9" mU="56" mV="11" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Bump0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="9" mDelay="2" mOriginX="6" mOriginY="9" mU="70" mV="22" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Bump0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="9" mDelay="2" mOriginX="6" mOriginY="9" mU="56" mV="22" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Bump0007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="9" mDelay="2" mOriginX="6" mOriginY="9" mU="70" mV="11" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Bump0008.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="9" mDelay="1" mOriginX="6" mOriginY="9" mU="84" mV="0" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Bump0009.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="9" mDelay="1" mOriginX="6" mOriginY="9" mU="56" mV="33" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Bump0010.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="9" mDelay="1" mOriginX="6" mOriginY="9" mU="42" mV="28" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Bump0011.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="9" mDelay="1" mOriginX="6" mOriginY="9" mU="42" mV="50" mUVWidth="12" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Bump0012.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="BumpSlope" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Bumpr\Output\BumpSlope.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-6" mY="-7" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="12" mHeight="12" mDelay="2" mOriginX="8" mOriginY="9" mU="14" mV="42" mUVWidth="12" mUVHeight="12" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\BumpSlope0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="12" mDelay="2" mOriginX="8" mOriginY="9" mU="28" mV="28" mUVWidth="12" mUVHeight="12" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\BumpSlope0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="12" mDelay="2" mOriginX="8" mOriginY="9" mU="14" mV="28" mUVWidth="12" mUVHeight="12" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\BumpSlope0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="12" mDelay="2" mOriginX="8" mOriginY="9" mU="0" mV="0" mUVWidth="12" mUVHeight="12" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\BumpSlope0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="12" mDelay="2" mOriginX="8" mOriginY="9" mU="0" mV="42" mUVWidth="12" mUVHeight="12" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\BumpSlope0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="12" mDelay="2" mOriginX="8" mOriginY="9" mU="0" mV="28" mUVWidth="12" mUVHeight="12" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\BumpSlope0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="12" mDelay="2" mOriginX="8" mOriginY="9" mU="42" mV="14" mUVWidth="12" mUVHeight="12" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\BumpSlope0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="12" mDelay="2" mOriginX="8" mOriginY="9" mU="42" mV="0" mUVWidth="12" mUVHeight="12" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\BumpSlope0007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="12" mDelay="2" mOriginX="8" mOriginY="9" mU="28" mV="14" mUVWidth="12" mUVHeight="12" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\BumpSlope0008.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="12" mDelay="1" mOriginX="8" mOriginY="9" mU="28" mV="0" mUVWidth="12" mUVHeight="12" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\BumpSlope0009.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="12" mDelay="1" mOriginX="8" mOriginY="9" mU="14" mV="14" mUVWidth="12" mUVHeight="12" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\BumpSlope0010.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="12" mDelay="1" mOriginX="8" mOriginY="9" mU="0" mV="14" mUVWidth="12" mUVHeight="12" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\BumpSlope0011.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="12" mDelay="1" mOriginX="8" mOriginY="9" mU="14" mV="0" mUVWidth="12" mUVHeight="12" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\BumpSlope0012.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Bumpr\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-4" mY="-8" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="10" mHeight="9" mDelay="6" mOriginX="5" mOriginY="9" mU="84" mV="23" mUVWidth="10" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Idle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="10" mHeight="9" mDelay="6" mOriginX="5" mOriginY="9" mU="96" mV="12" mUVWidth="10" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Idle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="10" mHeight="9" mDelay="6" mOriginX="5" mOriginY="9" mU="110" mV="0" mUVWidth="10" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Idle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="10" mHeight="9" mDelay="6" mOriginX="5" mOriginY="9" mU="68" mV="45" mUVWidth="10" mUVHeight="9" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\Idle0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="IdleSlope" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\Bumpr\Output\IdleSlope.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-6" mY="-7" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="10" mHeight="10" mDelay="6" mOriginX="7" mOriginY="8" mU="98" mV="0" mUVWidth="10" mUVHeight="10" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\IdleSlope0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="10" mHeight="10" mDelay="6" mOriginX="7" mOriginY="8" mU="56" mV="44" mUVWidth="10" mUVHeight="10" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\IdleSlope0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="10" mHeight="10" mDelay="6" mOriginX="7" mOriginY="8" mU="84" mV="11" mUVWidth="10" mUVHeight="10" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\IdleSlope0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="10" mHeight="10" mDelay="6" mOriginX="7" mOriginY="8" mU="70" mV="33" mUVWidth="10" mUVHeight="10" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\Bumpr\Output\IdleSlope0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

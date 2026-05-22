@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>TripWire.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="TripWireTexture">
+    <THSpriteAnimationData mName="DispenserIdle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\TripWire\Output\DispenserIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="16" mHeight="24" mDelay="62" mOriginX="8" mOriginY="32" mU="0" mV="0" mUVWidth="16" mUVHeight="24" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\TripWire\Output\DispenserIdle0000.png" mFrameFlags="NONE">
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-32" mWidth="16" mHeight="22" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-3" mY="-15" mWidth="7" mHeight="7" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WireIdle" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\TripWire\Output\WireIdle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-1" mY="0" mWidth="3" mHeight="16" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="16" mDelay="62" mOriginX="8" mOriginY="0" mU="18" mV="0" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\TripWire\Output\WireIdle0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="WireZap" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\TripWire\Output\WireZap.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-2" mY="0" mWidth="5" mHeight="16" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="16" mDelay="3" mOriginX="8" mOriginY="0" mU="36" mV="0" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\TripWire\Output\WireZap0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="3" mOriginX="8" mOriginY="0" mU="0" mV="26" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\TripWire\Output\WireZap0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="3" mOriginX="8" mOriginY="0" mU="18" mV="18" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\TripWire\Output\WireZap0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="3" mOriginX="8" mOriginY="0" mU="0" mV="44" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\TripWire\Output\WireZap0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="3" mOriginX="8" mOriginY="0" mU="18" mV="36" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\TripWire\Output\WireZap0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="16" mHeight="16" mDelay="3" mOriginX="8" mOriginY="0" mU="36" mV="18" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\TripWire\Output\WireZap0005.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

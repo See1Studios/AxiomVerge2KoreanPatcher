@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>2048</mMaxWidth>
+  <mMaxHeight>2048</mMaxHeight>
+  <mFileName>CinereousVulture.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="CinereousVultureTexture">
+    <THSpriteAnimationData mName="Carrion" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Animals\CinereousVulture\Output\Carrion.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="8" mHeight="3" mDelay="62" mOriginX="-3" mOriginY="3" mU="25" mV="25" mUVWidth="8" mUVHeight="3" mCropX="0" mCropY="0" mSourceImageName="..\Animals\CinereousVulture\Output\Carrion0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Feed" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Animals\CinereousVulture\Output\Feed.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="22" mHeight="19" mDelay="62" mOriginX="11" mOriginY="19" mU="96" mV="20" mUVWidth="22" mUVHeight="18" mCropX="0" mCropY="1" mSourceImageName="..\Animals\CinereousVulture\Output\Feed0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="19" mDelay="12" mOriginX="11" mOriginY="19" mU="96" mV="40" mUVWidth="22" mUVHeight="18" mCropX="0" mCropY="1" mSourceImageName="..\Animals\CinereousVulture\Output\Feed0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="19" mDelay="12" mOriginX="11" mOriginY="19" mU="0" mV="72" mUVWidth="22" mUVHeight="17" mCropX="0" mCropY="2" mSourceImageName="..\Animals\CinereousVulture\Output\Feed0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="19" mDelay="12" mOriginX="11" mOriginY="19" mU="0" mV="32" mUVWidth="22" mUVHeight="18" mCropX="0" mCropY="1" mSourceImageName="..\Animals\CinereousVulture\Output\Feed0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="19" mDelay="12" mOriginX="11" mOriginY="19" mU="91" mV="101" mUVWidth="19" mUVHeight="19" mCropX="2" mCropY="0" mSourceImageName="..\Animals\CinereousVulture\Output\Feed0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="19" mDelay="12" mOriginX="11" mOriginY="19" mU="24" mV="32" mUVWidth="22" mUVHeight="18" mCropX="0" mCropY="1" mSourceImageName="..\Animals\CinereousVulture\Output\Feed0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="19" mDelay="12" mOriginX="11" mOriginY="19" mU="24" mV="52" mUVWidth="22" mUVHeight="17" mCropX="0" mCropY="2" mSourceImageName="..\Animals\CinereousVulture\Output\Feed0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="19" mDelay="12" mOriginX="11" mOriginY="19" mU="0" mV="52" mUVWidth="22" mUVHeight="18" mCropX="0" mCropY="1" mSourceImageName="..\Animals\CinereousVulture\Output\Feed0007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="19" mDelay="12" mOriginX="11" mOriginY="19" mU="93" mV="80" mUVWidth="19" mUVHeight="19" mCropX="2" mCropY="0" mSourceImageName="..\Animals\CinereousVulture\Output\Feed0008.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="19" mDelay="12" mOriginX="11" mOriginY="19" mU="85" mV="0" mUVWidth="22" mUVHeight="18" mCropX="0" mCropY="1" mSourceImageName="..\Animals\CinereousVulture\Output\Feed0009.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="19" mDelay="12" mOriginX="11" mOriginY="19" mU="0" mV="91" mUVWidth="22" mUVHeight="17" mCropX="0" mCropY="2" mSourceImageName="..\Animals\CinereousVulture\Output\Feed0010.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="19" mDelay="12" mOriginX="11" mOriginY="19" mU="72" mV="20" mUVWidth="22" mUVHeight="18" mCropX="0" mCropY="1" mSourceImageName="..\Animals\CinereousVulture\Output\Feed0011.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="19" mDelay="12" mOriginX="11" mOriginY="19" mU="47" mV="86" mUVWidth="20" mUVHeight="19" mCropX="2" mCropY="0" mSourceImageName="..\Animals\CinereousVulture\Output\Feed0012.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="19" mDelay="12" mOriginX="11" mOriginY="19" mU="71" mV="80" mUVWidth="20" mUVHeight="19" mCropX="2" mCropY="0" mSourceImageName="..\Animals\CinereousVulture\Output\Feed0013.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="19" mDelay="12" mOriginX="11" mOriginY="19" mU="61" mV="0" mUVWidth="22" mUVHeight="18" mCropX="0" mCropY="1" mSourceImageName="..\Animals\CinereousVulture\Output\Feed0014.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Fly" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Animals\CinereousVulture\Output\Fly.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="30" mHeight="30" mDelay="7" mOriginX="14" mOriginY="26" mU="0" mV="15" mUVWidth="23" mUVHeight="15" mCropX="4" mCropY="9" mSourceImageName="..\Animals\CinereousVulture\Output\Fly0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="30" mHeight="30" mDelay="7" mOriginX="14" mOriginY="26" mU="32" mV="0" mUVWidth="27" mUVHeight="23" mCropX="2" mCropY="0" mSourceImageName="..\Animals\CinereousVulture\Output\Fly0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="30" mHeight="30" mDelay="7" mOriginX="14" mOriginY="26" mU="0" mV="0" mUVWidth="30" mUVHeight="13" mCropX="0" mCropY="8" mSourceImageName="..\Animals\CinereousVulture\Output\Fly0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="30" mHeight="30" mDelay="7" mOriginX="14" mOriginY="26" mU="69" mV="101" mUVWidth="20" mUVHeight="17" mCropX="5" mCropY="13" mSourceImageName="..\Animals\CinereousVulture\Output\Fly0003.png" mFrameFlags="FIRE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Animals\CinereousVulture\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-8" mY="-16" mWidth="16" mHeight="16" mRadius="8" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="22" mHeight="20" mDelay="286" mOriginX="11" mOriginY="20" mU="72" mV="40" mUVWidth="22" mUVHeight="18" mCropX="0" mCropY="2" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="8" mOriginX="11" mOriginY="20" mU="48" mV="66" mUVWidth="21" mUVHeight="18" mCropX="0" mCropY="2" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="102" mOriginX="11" mOriginY="20" mU="94" mV="60" mUVWidth="20" mUVHeight="18" mCropX="0" mCropY="2" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="8" mOriginX="11" mOriginY="20" mU="24" mV="92" mUVWidth="21" mUVHeight="18" mCropX="0" mCropY="2" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0003.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="223" mOriginX="11" mOriginY="20" mU="48" mV="25" mUVWidth="22" mUVHeight="18" mCropX="0" mCropY="2" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0004.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="8" mOriginX="11" mOriginY="20" mU="71" mV="60" mUVWidth="21" mUVHeight="18" mCropX="0" mCropY="2" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0005.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="8" mOriginX="11" mOriginY="20" mU="48" mV="45" mUVWidth="21" mUVHeight="19" mCropX="1" mCropY="1" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0006.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="234" mOriginX="11" mOriginY="20" mU="120" mV="22" mUVWidth="18" mUVHeight="20" mCropX="3" mCropY="0" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0007.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="12" mOriginX="11" mOriginY="20" mU="179" mV="0" mUVWidth="16" mUVHeight="20" mCropX="3" mCropY="0" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0008.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="119" mOriginX="11" mOriginY="20" mU="138" mV="44" mUVWidth="15" mUVHeight="20" mCropX="3" mCropY="0" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0009.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="12" mOriginX="11" mOriginY="20" mU="120" mV="44" mUVWidth="16" mUVHeight="20" mCropX="3" mCropY="0" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0010.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="119" mOriginX="11" mOriginY="20" mU="140" mV="0" mUVWidth="18" mUVHeight="20" mCropX="3" mCropY="0" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0011.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="12" mOriginX="11" mOriginY="20" mU="160" mV="0" mUVWidth="17" mUVHeight="20" mCropX="3" mCropY="0" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0012.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="171" mOriginX="11" mOriginY="20" mU="159" mV="22" mUVWidth="16" mUVHeight="20" mCropX="3" mCropY="0" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0013.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="12" mOriginX="11" mOriginY="20" mU="140" mV="22" mUVWidth="17" mUVHeight="20" mCropX="3" mCropY="0" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0014.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="286" mOriginX="11" mOriginY="20" mU="120" mV="0" mUVWidth="18" mUVHeight="20" mCropX="3" mCropY="0" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0015.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="22" mHeight="20" mDelay="8" mOriginX="11" mOriginY="20" mU="24" mV="71" mUVWidth="21" mUVHeight="19" mCropX="1" mCropY="1" mSourceImageName="..\Animals\CinereousVulture\Output\Idle0016.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THParallaxXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- #################################################################### -->
+  <!-- "AFterworld" -->
+  <!-- #################################################################### -->
+  <THParallaxSetData mName="Afterworld">
+
+
+    
+
+
+
+
+    <!--Top Clouds -->
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Clouds1</mTextureName>
+      <mVelocity>
+        <X>0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.9</X>
+        <Y>0.9</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-248</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Clouds2</mTextureName>
+      <mVelocity>
+        <X>0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.8</X>
+        <Y>0.8</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-264</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Clouds3</mTextureName>
+      <mVelocity>
+        <X>0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.7</X>
+        <Y>0.7</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-280</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/Clouds4</mTextureName>
+      <mVelocity>
+        <X>0.25</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.6</X>
+        <Y>0.6</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-288</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <!-- Bottom Clouds -->
+    
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/FGWhiteClouds1</mTextureName>
+      <mVelocity>
+        <X>0.125</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.75</X>
+        <Y>0.75</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-32</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <!--
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Beach/FGWhiteClouds2</mTextureName>
+      <mVelocity>
+        <X>0.125</X>
+        <Y>0.0</Y>
+      </mVelocity>
+      <mParallax>
+        <X>0.65</X>
+        <Y>0.65</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>-64</Y>
+      </mOffset>
+      <mAnchor>BottomLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>-->
+
+    <!-- Mountains -->
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Afterworld/MeadowHills</mTextureName>
+      <mParallax>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </mParallax>
+      <mOffset>
+        <X>224</X>
+        <Y>240</Y>
+      </mOffset>
+      <mAnchor>TopLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Afterworld/MeadowHills</mTextureName>
+      <mParallax>
+        <X>0.375</X>
+        <Y>0.375</Y>
+      </mParallax>
+      <mOffset>
+        <X>160</X>
+        <Y>176</Y>
+      </mOffset>
+      <mAnchor>TopLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+    
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Afterworld/MeadowHills</mTextureName>
+      <mParallax>
+        <X>0.25</X>
+        <Y>0.25</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>112</Y>
+      </mOffset>
+      <mAnchor>TopLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+    <THParallaxData>
+      <mTextureName>Art/Backgrounds/Afterworld/Mountains</mTextureName>
+      <mParallax>
+        <X>0.125</X>
+        <Y>0.125</Y>
+      </mParallax>
+      <mOffset>
+        <X>0</X>
+        <Y>32</Y>
+      </mOffset>
+      <mAnchor>TopLeft</mAnchor>
+      <mWrapX>true</mWrapX>
+    </THParallaxData>
+
+
+    <!-- Sky Gradient -->
+    <THParallaxData>
+      <mType>GRADIENT</mType>
+      <mGradientData>
+        <mStartColor>
+          <R>133</R>
+          <G>197</G>
+          <B>228</B>
+          <A>255</A>
+        </mStartColor>
+        <mEndColor>
+          <R>182</R>
+          <G>226</G>
+          <B>249</B>
+          <A>255</A>
+        </mEndColor>
+        <mStartY>0</mStartY>
+        <mEndY>48</mEndY>
+        <mParallax>
+          <X>0.0</X>
+          <Y>0.0</Y>
+        </mParallax>
+      </mGradientData>
+      <mAnchor>TopLeft</mAnchor>
+    </THParallaxData>
+
+
+  </THParallaxSetData>
+
+
+
+</THParallaxXML>

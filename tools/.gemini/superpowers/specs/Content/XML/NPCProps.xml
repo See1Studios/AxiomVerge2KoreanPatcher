@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<THNPCSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+  <!-- ######################################################################## -->
+  <!-- Lights-->
+  <!-- ######################################################################## -->
+  <THNPCData mName="AntarcticLight" mClass="THSpriteLight" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>Lights.xml</mSpriteSheet>
+
+    <mHackable>false</mHackable>
+    <mAdditionalSound mName="Death" mFileName="GlassBreak" mMaxInstances ="2" />
+    <mDeathShatter>LightBulbSpriteShatter</mDeathShatter>
+  </THNPCData>
+
+  <THNPCData mName="MiningLight" mClass="THSpriteLight" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>Lights.xml</mSpriteSheet>
+    <mAdditionalSound mName="Death" mFileName="GlassBreak" mMaxInstances ="2" />
+    <mDeathShatter>LightBulbSpriteShatter</mDeathShatter>
+    <mHackable>false</mHackable>
+  </THNPCData>
+
+  <THNPCData mName="GenericRadiusLight" mClass="THSpriteLight" mAllegiance="ALL" mHitPoints="1">
+    <mSpriteSheet>Lights.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+  </THNPCData>
+
+  <THNPCData mName="GenericConeLight" mClass="THSpriteLight" mAllegiance="ALL" mHitPoints="1">
+    <mSpriteSheet>Lights.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- Apocalypse Arm Urns-->
+  <!-- ######################################################################## -->
+  <THNPCData mName="ArmAmashilama" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>255</X>
+      <Y>56</Y>
+      <Z>103</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.25</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmBarash" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>194</X>
+      <Y>255</Y>
+      <Z>74</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.25</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmDun" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>217</X>
+      <Y>255</Y>
+      <Z>255</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.5</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+  
+  <THNPCData mName="ArmEskiri" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>255</X>
+      <Y>240</Y>
+      <Z>10</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.5</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmGudAnna" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>255</X>
+      <Y>0</Y>
+      <Z>255</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.5</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmHalam" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>0</X>
+      <Y>255</Y>
+      <Z>120</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.5</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmHas" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>255</X>
+      <Y>0</Y>
+      <Z>135</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.5</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmImdugBir" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>186</X>
+      <Y>186</Y>
+      <Z>255</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.5</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmKi" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>255</X>
+      <Y>0</Y>
+      <Z>84</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.5</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmLiru" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>44</X>
+      <Y>252</Y>
+      <Z>232</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.5</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmMushhus" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>255</X>
+      <Y>16</Y>
+      <Z>233</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.5</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmNinhursag" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>255</X>
+      <Y>176</Y>
+      <Z>34</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.5</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmRah" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>255</X>
+      <Y>181</Y>
+      <Z>140</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.5</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmSheshkala" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>255</X>
+      <Y>208</Y>
+      <Z>0</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.25</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmUman" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>153</X>
+      <Y>235</Y>
+      <Z>255</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.5</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmAnuman" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>255</X>
+      <Y>0</Y>
+      <Z>64</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>1.0</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmTilhar" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>214</X>
+      <Y>63</Y>
+      <Z>255</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.5</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmUsanRah" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>255</X>
+      <Y>0</Y>
+      <Z>51</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>1.0</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <THNPCData mName="ArmZaltu" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>255</X>
+      <Y>240</Y>
+      <Z>10</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.5</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- Apocalypse Nodes-->
+  <!-- ######################################################################## -->
+  <THNPCData mName="ApocalypseNode" mClass="THApocalypseUrn" mAllegiance="FOE" mHitPoints="1">
+    <mSpriteSheet>ItemSprites.xml</mSpriteSheet>
+    <mHackable>false</mHackable>
+    <mPulseColor>
+      <X>117</X>
+      <Y>255</Y>
+      <Z>240</Z>
+      <W>255</W>
+    </mPulseColor>
+    <mPulseRate>0.25</mPulseRate>
+    <mAdditionalSound mName="Death" mFileName="PotteryBreak" mMaxInstances ="2" />
+    <mDeathShatter>PotterySpriteShatter</mDeathShatter>
+    <mHealthDropChance>0.0</mHealthDropChance>
+  </THNPCData>
+
+  <!-- ######################################################################## -->
+  <!-- PROPS-->
+  <!-- ######################################################################## -->
+  <THNPCData mName="Ansible" mAllegiance="ALL" mHitPoints="400">
+    <mSpriteSheet>Ansible.xml</mSpriteSheet>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mHackable>false</mHackable>
+  </THNPCData>
+
+  <THNPCData mName="BlueThrowSwitch"  mClass="THGateBreakerSwitch" mAllegiance="ALL" mHitPoints="400">
+    <mSpriteSheet>Switches.xml</mSpriteSheet>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mHackable>false</mHackable>
+    <mAdditionalSound mName="PowerLever" mFileName="PowerLever" mMaxInstances ="2" />
+    <mAdditionalSound mName="PowerOn" mFileName="GateBreakerOn" mMaxInstances ="1" />
+  </THNPCData>
+  
+  <THNPCData mName="DayLight" mAllegiance="ALL" mHitPoints="1">
+    <mHackable>false</mHackable>
+  </THNPCData>
+
+  <!-- The postarctic station buildings. -->
+  <THNPCData mName="DemolishableBuilding" mAllegiance="FRIEND" mHitPoints="30">
+
+    <mThreatLevel>0.0</mThreatLevel>
+    <mHackable>false</mHackable>
+
+    <mHurtSound>StoneShatter</mHurtSound>
+
+    <mDamageImpact>WoodChips</mDamageImpact>
+  </THNPCData>
+
+  <THNPCData mName="FallingSlab" mClass="THCrate" mAllegiance="NONE" mHitPoints="150">
+    <mThreatLevel>0.0</mThreatLevel>
+    <mPersistent>true</mPersistent>
+    <mHackable>false</mHackable>
+    
+    <!-- Note that this is the hardness once it's fallen onto the ground.  When it's still suspsended, it has hardness 2-->
+    <mHardness>4</mHardness>
+
+    <mHurtSound>StoneCrack</mHurtSound>
+    <mAdditionalSound mName="Death" mFileName="StoneShatter" mMaxInstances ="2" />
+    <mAdditionalSound mName="Land" mFileName="Thud" />
+
+    <mDamageImpact>WoodChips</mDamageImpact>
+    <mDeathShatter>CollapsingSlabSpriteShatter</mDeathShatter>
+
+    <mHealthDropChance>0.0</mHealthDropChance>
+
+    <!-- Melee weapon, if it exists, causes damage while we're falling-->
+    <mMeleeWeapon mName="FallingSlabMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>200</mDamage>
+      <mHardness>2</mHardness>
+    </mMeleeWeapon>
+
+  </THNPCData>
+
+  <THNPCData mName="FallingSlabCrumbling" mClass="THCrate" mAllegiance="NONE" mHitPoints="150">
+    <mThreatLevel>0.0</mThreatLevel>
+    <mHackable>false</mHackable>
+    <mHardness>3</mHardness>
+
+    <mHurtSound>StoneCrack</mHurtSound>
+    <mAdditionalSound mName="Death" mFileName="StoneShatter" mMaxInstances ="2" />
+    <mAdditionalSound mName="Land" mFileName="Thud" />
+
+    <mDeathShatter>CollapsingSlabSpriteShatter</mDeathShatter>
+
+    <mHealthDropChance>0.0</mHealthDropChance>
+
+  </THNPCData>
+
+  <!-- Drushka's Submarine -->
+  <THNPCData mName="FishSub" mClass="THFishSub"  mAllegiance="ALL" mHitPoints="1000">
+    <mHackable>false</mHackable>
+    <mSpinePath>Content/Art/Sprites/Props/FishSub/Output/FishSub</mSpinePath>
+    <mSpineIsBinary>true</mSpineIsBinary>
+    <mHackable>false</mHackable>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mAdditionalSound mName="WaterStroke" mFileName="WaterStroke" mMaxInstances ="2" />
+  </THNPCData>
+
+  <!-- Nuclear fuel capsule -->
+  <THNPCData mName="FuelCapsule"  mClass="THNuclearFuelCapsule" mAllegiance="ALL" mHitPoints="400">
+    <mSpriteSheet>FuelCapsule.xml</mSpriteSheet>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mHackable>false</mHackable>
+    <mAdditionalSound mName="FuelDrain" mFileName="FuelDrain" mMaxInstances ="4" />
+  </THNPCData>
+
+  <!-- Nuclear fuel valve  -->
+  <THNPCData mName="FuelValve"  mClass="THSwitch" mAllegiance="ALL" mHitPoints="400">
+    <mSpriteSheet>Switches.xml</mSpriteSheet>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mHackable>true</mHackable>
+    <mAdditionalSound mName="PowerLever" mFileName="PressButton" mMaxInstances ="2" />
+    
+    <THNPCHackInfo mType="OPEN" mHackLevel="1"/>
+  </THNPCData>
+
+
+  <!-- The thing that plays the laser effect when you throw the gatebreaker switch.  -->
+  <THNPCData mName="GateBreaker"  mClass="THGateBreaker" mAllegiance="ALL" mHitPoints="400">
+    <mThreatLevel>0.0</mThreatLevel>
+    <mHackable>false</mHackable>
+  </THNPCData>
+
+
+  <THNPCData mName="GreenRedSwitch"  mClass="THSwitch" mAllegiance="ALL" mHitPoints="400">
+    <mSpriteSheet>Switches.xml</mSpriteSheet>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mHackable>false</mHackable>
+    <mAdditionalSound mName="PowerLever" mFileName="PressButton" mMaxInstances ="2" />
+  </THNPCData>
+  
+  <THNPCData mName="IndrasHeli" mAllegiance="FRIEND" mHitPoints="1000">
+    <mSpinePath>Content/Art/Sprites/Props/IndrasHeli/Output/IndrasHeli</mSpinePath>
+    <mHackable>false</mHackable>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mAdditionalSound mName="Helicopter" mFileName="Helicopter" mMaxInstances ="20" />
+    <mAdditionalSound mName="WheelHit" mFileName="DroneFootstepHeavy" mMaxInstances ="2" />
+    <mAdditionalSound mName="Door" mFileName="SlidingDoorOpen" mMaxInstances ="2" />
+    <mAdditionalSound mName="Footstep" mFileName="TraceFootStep" mMaxInstances ="4" />
+  </THNPCData>
+
+  <!-- The Nuke  -->
+  <THNPCData mName="Nuke"  mClass="THNuclearBomb" mAllegiance="ALL" mHitPoints="400">
+    <mSpriteSheet>Nuke.xml</mSpriteSheet>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mHackable>true</mHackable>
+    <THNPCHackInfo mType="DETONATE" mHackLevel="1" mCostOverride="0"/>
+    <mAdditionalSound mName="Alarm" mFileName="Alarm1" mMaxInstances ="2" />
+  </THNPCData>
+
+  <THNPCData mName="PowerLever" mClass="THSwitch" mAllegiance="ALL" mHitPoints="400">
+    <mSpriteSheet>Switches.xml</mSpriteSheet>
+
+    <mHackable>false</mHackable>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mAdditionalSound mName="PowerLever" mFileName="PowerLever" mMaxInstances ="2" />
+    <mAdditionalSound mName="PowerOn" mFileName="PowerOn" mMaxInstances ="1" />
+    <mAdditionalSound mName="PowerOff" mFileName="PowerOff" mMaxInstances ="1" />
+  </THNPCData>
+
+  <THNPCData mName="ElectricFloorLever" mClass="THSwitch" mAllegiance="ALL" mHitPoints="400">
+    <mSpriteSheet>Switches.xml</mSpriteSheet>
+
+    <mHackable>true</mHackable>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mAdditionalSound mName="PowerLever" mFileName="PowerLever" mMaxInstances ="2" />
+    <mAdditionalSound mName="PowerOn" mFileName="PowerOn" mMaxInstances ="1" />
+    <mAdditionalSound mName="PowerOff" mFileName="PowerOff" mMaxInstances ="1" />
+    <mAdditionalSound mName="TimerBeep" mFileName="MineBeep" mMaxInstances ="1" />
+
+    <THNPCHackInfo mType="INTERVAL" mHackLevel="2" mCostOverride="20"/>
+  </THNPCData>
+  
+
+  <!-- Base security terminal-->
+  <THNPCData mName="SecurityTerminal"  mClass="THSwitch"  mAllegiance="ALL" mHitPoints="400">
+    <mSpriteSheet>Switches.xml</mSpriteSheet>
+
+    <mHackable>true</mHackable>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mAdditionalSound mName="PowerLever" mFileName="PowerLever" mMaxInstances ="2" />
+    <THNPCHackInfo mType="OPEN" mHackLevel="1"/>
+    <THNPCHackInfo mType="CLOSE" mHackLevel="1"/>
+  </THNPCData>
+
+  <!-- Red security terminal-->
+  <THNPCData mName="SecurityTerminalRed"  mClass="THSwitch"  mAllegiance="ALL" mHitPoints="400">
+    <mSpriteSheet>Switches.xml</mSpriteSheet>
+    <mColorScheme>RedTerminal</mColorScheme>
+    <mHackable>true</mHackable>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mAdditionalSound mName="PowerLever" mFileName="PowerLever" mMaxInstances ="2" />
+    <THNPCHackInfo mType="OPEN" mHackLevel="2"/>
+    <THNPCHackInfo mType="CLOSE" mHackLevel="2"/>
+  </THNPCData>
+
+  <!-- Violet security terminal-->
+  <THNPCData mName="SecurityTerminalViolet"  mClass="THSwitch"  mAllegiance="ALL" mHitPoints="400">
+    <mSpriteSheet>Switches.xml</mSpriteSheet>
+    <mColorScheme>VioletTerminal</mColorScheme>
+    <mHackable>true</mHackable>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mAdditionalSound mName="PowerLever" mFileName="PowerLever" mMaxInstances ="2" />
+    <THNPCHackInfo mType="OPEN" mHackLevel="3"/>
+    <THNPCHackInfo mType="CLOSE" mHackLevel="3"/>
+  </THNPCData>
+
+  <!-- Gold security terminal-->
+  <THNPCData mName="SecurityTerminalGold"  mClass="THSwitch"  mAllegiance="ALL" mHitPoints="400">
+    <mSpriteSheet>Switches.xml</mSpriteSheet>
+    <mColorScheme>GoldTerminal</mColorScheme>
+    <mHackable>true</mHackable>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mAdditionalSound mName="PowerLever" mFileName="PowerLever" mMaxInstances ="2" />
+    <THNPCHackInfo mType="OPEN" mHackLevel="4"/>
+    <THNPCHackInfo mType="CLOSE" mHackLevel="4"/>
+  </THNPCData>
+  
+  
+  <THNPCData mName="SlidingDoor" mAllegiance="ALL" mHitPoints="30">
+
+    <mHackable>false</mHackable>
+
+  </THNPCData>
+
+  <!-- Steppe Stalactite  -->
+  <THNPCData mName="SteppeBrownStalactite" mClass="THStalactite" mAllegiance="NONE" mHitPoints="150">
+    <mSpriteSheet>Stalactites.xml</mSpriteSheet>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mHackable>false</mHackable>
+    <mHardness>2</mHardness>
+
+    <mHurtSound>StoneCrack</mHurtSound>
+    <mAdditionalSound mName="Death" mFileName="StoneShatter" mMaxInstances ="2" />
+    <mAdditionalSound mName="Land" mFileName="Thud" />
+
+    <mDamageImpact>WoodChips</mDamageImpact>
+    <mDeathShatter>StalactiteSpriteShatter</mDeathShatter>
+
+    <mHealthDropChance>0.0</mHealthDropChance>
+
+    <!-- Melee weapon, if it exists, causes damage while we're falling-->
+    <mMeleeWeapon mName="SteppeBrownStalactiteMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>200</mDamage>
+      <mHardness>3</mHardness>
+    </mMeleeWeapon>
+
+  </THNPCData>
+
+
+  <!-- Stalactite underwater  -->
+  <THNPCData mName="UnderwaterGreenStalactite" mClass="THStalactite" mAllegiance="NONE" mHitPoints="150">
+    <mSpriteSheet>Stalactites.xml</mSpriteSheet>
+    <mThreatLevel>0.0</mThreatLevel>
+    <mHackable>false</mHackable>
+    <mHardness>2</mHardness>
+
+    <mHurtSound>StoneCrack</mHurtSound>
+    <mAdditionalSound mName="Death" mFileName="StoneShatter" mMaxInstances ="2" />
+    <mAdditionalSound mName="Land" mFileName="Thud" />
+
+    <mDamageImpact>WoodChips</mDamageImpact>
+    <mDeathShatter>StalactiteSpriteShatter</mDeathShatter>
+
+    <mHealthDropChance>0.0</mHealthDropChance>
+
+    <!-- Melee weapon, if it exists, causes damage while we're falling-->
+    <mMeleeWeapon mName="UnderwaterGreenStalactiteMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>200</mDamage>
+      <mHardness>3</mHardness>
+    </mMeleeWeapon>
+
+  </THNPCData>
+
+
+  <THNPCData mName="WoodBridge" mClass="THCrate" mAllegiance="NONE" mHitPoints="150">
+    <mThreatLevel>0.0</mThreatLevel>
+    <mHackable>false</mHackable>
+    <mHardness>2</mHardness>
+
+    <mHurtSound>StoneCrack</mHurtSound>
+    <mAdditionalSound mName="Death" mFileName="StoneShatter" mMaxInstances ="2" />
+    <mAdditionalSound mName="Land" mFileName="Thud" />
+
+    <mDamageImpact>WoodChips</mDamageImpact>
+    <mDeathShatter>WoodCrateMediumHSpriteShatter</mDeathShatter>
+
+    <mHealthDropChance>0.0</mHealthDropChance>
+
+    <!-- Melee weapon, if it exists, causes damage while we're falling-->
+    <mMeleeWeapon mName="WoodBridgeMelee">
+
+      <THDamageType>PHYSICAL</THDamageType>
+      <mDamage>200</mDamage>
+      <mHardness>3</mHardness>
+    </mMeleeWeapon>
+
+  </THNPCData>
+
+
+  <THNPCData mName="WoodCrateSmallH" mClass="THCrate" mAllegiance="FOE" mHitPoints="50">
+
+    <mHackable>false</mHackable>
+
+    <mHurtSound>StoneCrack</mHurtSound>
+    <mAdditionalSound mName="Death" mFileName="StoneShatter" mMaxInstances ="2" />
+    <mAdditionalSound mName="Land" mFileName="Thud" />
+
+    <mDamageImpact>WoodChips</mDamageImpact>
+    <mDeathShatter>WoodCrateSmallHSpriteShatter</mDeathShatter>
+  </THNPCData>
+
+  <THNPCData mName="WoodCrateSmallV" mClass="THCrate" mAllegiance="FOE" mHitPoints="50">
+
+    <mHackable>false</mHackable>
+
+    <mHurtSound>StoneCrack</mHurtSound>
+    <mAdditionalSound mName="Death" mFileName="StoneShatter" mMaxInstances ="2" />
+    <mAdditionalSound mName="Land" mFileName="Thud" />
+
+    <mDamageImpact>WoodChips</mDamageImpact>
+    <mDeathShatter>WoodCrateSmallVSpriteShatter</mDeathShatter>
+  </THNPCData>
+
+  <THNPCData mName="WoodCrateMediumH" mClass="THCrate" mAllegiance="FOE" mHitPoints="75">
+
+    <mHackable>false</mHackable>
+
+    <mHurtSound>StoneCrack</mHurtSound>
+    <mAdditionalSound mName="Death" mFileName="StoneShatter" mMaxInstances ="2" />
+    <mAdditionalSound mName="Land" mFileName="Thud" />
+
+    <mDamageImpact>WoodChips</mDamageImpact>
+    <mDeathShatter>WoodCrateMediumHSpriteShatter</mDeathShatter>
+  </THNPCData>
+
+  <THNPCData mName="WoodCrateMediumV" mClass="THCrate" mAllegiance="FOE" mHitPoints="75">
+
+    <mHackable>false</mHackable>
+
+    <mHurtSound>StoneCrack</mHurtSound>
+    <mAdditionalSound mName="Death" mFileName="StoneShatter" mMaxInstances ="2" />
+    <mAdditionalSound mName="Land" mFileName="Thud" />
+
+    <mDamageImpact>WoodChips</mDamageImpact>
+    <mDeathShatter>WoodCrateMediumVSpriteShatter</mDeathShatter>
+  </THNPCData>
+
+  <THNPCData mName="WoodCrateLargeH" mClass="THCrate" mAllegiance="FOE" mHitPoints="100">
+
+    <mHackable>false</mHackable>
+
+    <mHurtSound>StoneCrack</mHurtSound>
+    <mAdditionalSound mName="Death" mFileName="StoneShatter" mMaxInstances ="2" />
+    <mAdditionalSound mName="Land" mFileName="Thud" />
+
+    <mDamageImpact>WoodChips</mDamageImpact>
+    <mDeathShatter>WoodCrateLargeVSpriteShatter</mDeathShatter>
+  </THNPCData>
+
+  <THNPCData mName="WoodCrateLargeV" mClass="THCrate" mAllegiance="FOE" mHitPoints="100">
+
+    <mHackable>false</mHackable>
+
+    <mHurtSound>StoneCrack</mHurtSound>
+    <mAdditionalSound mName="Death" mFileName="StoneShatter" mMaxInstances ="2" />
+    <mAdditionalSound mName="Land" mFileName="Thud" />
+
+    <mDamageImpact>WoodChips</mDamageImpact>
+    <mDeathShatter>WoodCrateLargeVSpriteShatter</mDeathShatter>
+  </THNPCData>
+
+
+
+
+</THNPCSettings>

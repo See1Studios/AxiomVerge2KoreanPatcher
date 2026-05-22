@@ -1,0 +1,10 @@
+{
+   "Name": "[CP] PAPASheep Korean font",
+   "Author": "ksheep0527",
+   "Description": "PAPASheep Korean font",
+   "Version": "1.0.0",
+   "MinimumGameVersion": "1.5",
+   "UniqueID": "PAPASheep.ksheep0527font",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"}
+}

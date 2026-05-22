@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>UdugMiteBreach.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="UdugMiteBreachTexture">
+    <THSpriteAnimationData mName="Idle" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\UdugMiteBreach\Output\Idle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-7" mY="-5" mWidth="15" mHeight="12" mRadius="8" mColFlags="0" />
+      </mCollisionList>
+      <THFrameData mWidth="17" mHeight="16" mDelay="12" mOriginX="8" mOriginY="6" mU="0" mV="0" mUVWidth="17" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugMiteBreach\Output\Idle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Tail" mX="0" mY="2" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="true" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-5" mWidth="15" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="2" mWidth="9" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="16" mDelay="12" mOriginX="8" mOriginY="6" mU="19" mV="0" mUVWidth="17" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugMiteBreach\Output\Idle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Tail" mX="0" mY="2" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-6" mWidth="15" mHeight="8" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="2" mWidth="9" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="16" mDelay="12" mOriginX="8" mOriginY="6" mU="38" mV="0" mUVWidth="17" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugMiteBreach\Output\Idle0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Tail" mX="0" mY="2" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-7" mY="-5" mWidth="15" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-4" mY="2" mWidth="9" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="17" mHeight="16" mDelay="12" mOriginX="8" mOriginY="6" mU="0" mV="18" mUVWidth="17" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugMiteBreach\Output\Idle0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Tail" mX="0" mY="2" mAngle="1.57079637" mSpriteIndex="0" mKeyFrame="false" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-8" mY="-5" mWidth="16" mHeight="7" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox1" mType="RECTANGLE" mX="-5" mY="2" mWidth="11" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="PincerAttack" mIsLooping="true" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\UdugMiteBreach\Output\PincerAttack.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-2" mY="0" mWidth="5" mHeight="5" mRadius="8" mColFlags="3" />
+      </mCollisionList>
+      <THFrameData mWidth="11" mHeight="6" mDelay="6" mOriginX="5" mOriginY="1" mU="0" mV="36" mUVWidth="11" mUVHeight="6" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugMiteBreach\Output\PincerAttack0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-2" mY="0" mWidth="5" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-2" mY="0" mWidth="5" mHeight="5" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="6" mDelay="6" mOriginX="5" mOriginY="1" mU="19" mV="18" mUVWidth="11" mUVHeight="6" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugMiteBreach\Output\PincerAttack0001.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-4" mY="0" mWidth="9" mHeight="4" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-4" mY="0" mWidth="9" mHeight="4" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="6" mDelay="6" mOriginX="5" mOriginY="1" mU="0" mV="44" mUVWidth="11" mUVHeight="6" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugMiteBreach\Output\PincerAttack0002.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-5" mY="-1" mWidth="11" mHeight="3" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="-1" mWidth="11" mHeight="3" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <THFrameData mWidth="11" mHeight="6" mDelay="6" mOriginX="5" mOriginY="1" mU="19" mV="26" mUVWidth="11" mUVHeight="6" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugMiteBreach\Output\PincerAttack0003.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-5" mY="0" mWidth="11" mHeight="5" mRadius="8" mColFlags="1" />
+        <mHurtbox mName="Hurtbox0" mType="RECTANGLE" mX="-5" mY="0" mWidth="11" mHeight="5" mRadius="8" mColFlags="3" />
+      </THFrameData>
+      <mUseHurtbox>true</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="PincerIdle" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\UdugMiteBreach\Output\PincerIdle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="RECTANGLE" mX="-2" mY="0" mWidth="5" mHeight="5" mRadius="8" mColFlags="3" />
+      </mCollisionList>
+      <THFrameData mWidth="5" mHeight="5" mDelay="12" mOriginX="2" mOriginY="0" mU="13" mV="36" mUVWidth="5" mUVHeight="5" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugMiteBreach\Output\PincerIdle0000.png" mFrameFlags="NONE">
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-2" mY="0" mWidth="5" mHeight="5" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="TentacleSeg" mIsLooping="false" mScaleX="2" mScaleY="2" mRenderType="Alpha">
+      <mCSVName>..\Enemies\UdugMiteBreach\Output\TentacleSeg.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="2" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="3" mHeight="3" mDelay="12" mOriginX="1" mOriginY="1" mU="32" mV="18" mUVWidth="3" mUVHeight="3" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\UdugMiteBreach\Output\TentacleSeg0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Tail">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Tail0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>

@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>true</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>GlitchBomb.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="GlitchBombTexture">
+    <THSpriteAnimationData mName="DiamondCA" mIsLooping="false" mRenderType="Additive">
+      <mCSVName>..\Effects\Glitches\GlitchBomb\Output\DiamondCA.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="118" mV="61" mUVWidth="1" mUVHeight="1" mCropX="29" mCropY="29" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0000.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="118" mV="114" mUVWidth="3" mUVHeight="3" mCropX="28" mCropY="28" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0001.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="141" mV="243" mUVWidth="5" mUVHeight="5" mCropX="27" mCropY="27" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0002.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="141" mV="218" mUVWidth="7" mUVHeight="7" mCropX="26" mCropY="26" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0003.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="234" mV="82" mUVWidth="9" mUVHeight="9" mCropX="25" mCropY="25" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0004.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="297" mV="132" mUVWidth="11" mUVHeight="11" mCropX="24" mCropY="24" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0005.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="86" mV="239" mUVWidth="13" mUVHeight="13" mCropX="23" mCropY="23" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0006.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="86" mV="222" mUVWidth="15" mUVHeight="15" mCropX="22" mCropY="22" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0007.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="411" mV="0" mUVWidth="17" mUVHeight="17" mCropX="21" mCropY="21" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0008.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="297" mV="111" mUVWidth="19" mUVHeight="19" mCropX="20" mCropY="20" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0009.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="272" mV="136" mUVWidth="21" mUVHeight="21" mCropX="19" mCropY="19" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0010.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="386" mV="0" mUVWidth="23" mUVHeight="23" mCropX="18" mCropY="18" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0011.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="245" mV="111" mUVWidth="25" mUVHeight="25" mCropX="17" mCropY="17" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0012.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="245" mV="82" mUVWidth="27" mUVHeight="27" mCropX="16" mCropY="16" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0013.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="351" mV="35" mUVWidth="29" mUVHeight="29" mCropX="15" mCropY="15" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0014.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="275" mV="78" mUVWidth="31" mUVHeight="31" mCropX="14" mCropY="14" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0015.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="314" mV="37" mUVWidth="33" mUVHeight="33" mCropX="13" mCropY="13" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0016.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="0" mOriginY="0" mU="104" mV="218" mUVWidth="35" mUVHeight="35" mCropX="12" mCropY="12" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0017.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="0" mOriginY="0" mU="275" mV="39" mUVWidth="37" mUVHeight="37" mCropX="11" mCropY="11" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0018.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="0" mOriginY="0" mU="234" mV="41" mUVWidth="39" mUVHeight="39" mCropX="10" mCropY="10" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0019.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="0" mOriginY="0" mU="153" mV="208" mUVWidth="41" mUVHeight="41" mCropX="9" mCropY="9" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0020.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="0" mOriginY="0" mU="200" mV="155" mUVWidth="43" mUVHeight="43" mCropX="8" mCropY="8" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0021.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="0" mOriginY="0" mU="153" mV="114" mUVWidth="45" mUVHeight="45" mCropX="7" mCropY="7" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0022.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="0" mOriginY="0" mU="104" mV="120" mUVWidth="47" mUVHeight="47" mCropX="6" mCropY="6" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0023.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="0" mOriginY="0" mU="53" mV="120" mUVWidth="49" mUVHeight="49" mCropX="5" mCropY="5" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0024.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="0" mOriginY="0" mU="0" mV="173" mUVWidth="51" mUVHeight="51" mCropX="4" mCropY="4" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0025.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="0" mOriginY="0" mU="179" mV="0" mUVWidth="53" mUVHeight="53" mCropX="3" mCropY="3" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0026.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="0" mOriginY="0" mU="122" mV="0" mUVWidth="55" mUVHeight="55" mCropX="2" mCropY="2" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0027.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="0" mOriginY="0" mU="0" mV="61" mUVWidth="57" mUVHeight="57" mCropX="1" mCropY="1" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0028.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="0" mOriginY="0" mU="61" mV="0" mUVWidth="59" mUVHeight="59" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCA0029.png" />
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="DiamondCAFilled" mIsLooping="false" mRenderType="Additive">
+      <mCSVName>..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="118" mV="64" mUVWidth="1" mUVHeight="1" mCropX="29" mCropY="29" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0000.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="123" mV="114" mUVWidth="3" mUVHeight="3" mCropX="28" mCropY="28" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0001.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="141" mV="236" mUVWidth="5" mUVHeight="5" mCropX="27" mCropY="27" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0002.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="141" mV="227" mUVWidth="7" mUVHeight="7" mCropX="26" mCropY="26" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0003.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="234" mV="93" mUVWidth="9" mUVHeight="9" mCropX="25" mCropY="25" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0004.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="356" mV="66" mUVWidth="11" mUVHeight="11" mCropX="24" mCropY="24" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0005.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="339" mV="89" mUVWidth="13" mUVHeight="13" mCropX="23" mCropY="23" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0006.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="339" mV="72" mUVWidth="15" mUVHeight="15" mCropX="22" mCropY="22" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0007.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="386" mV="25" mUVWidth="17" mUVHeight="17" mCropX="21" mCropY="21" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0008.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="245" mV="165" mUVWidth="19" mUVHeight="19" mCropX="20" mCropY="20" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0009.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="29" mV="226" mUVWidth="21" mUVHeight="21" mCropX="19" mCropY="19" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0010.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="272" mV="111" mUVWidth="23" mUVHeight="23" mCropX="18" mCropY="18" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0011.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="245" mV="138" mUVWidth="25" mUVHeight="25" mCropX="17" mCropY="17" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0012.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="0" mV="226" mUVWidth="27" mUVHeight="27" mCropX="16" mCropY="16" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0013.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="308" mV="78" mUVWidth="29" mUVHeight="29" mCropX="15" mCropY="15" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0014.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="53" mV="222" mUVWidth="31" mUVHeight="31" mCropX="14" mCropY="14" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0015.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="351" mV="0" mUVWidth="33" mUVHeight="33" mCropX="13" mCropY="13" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0016.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="314" mV="0" mUVWidth="35" mUVHeight="35" mCropX="12" mCropY="12" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0017.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="275" mV="0" mUVWidth="37" mUVHeight="37" mCropX="11" mCropY="11" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0018.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="234" mV="0" mUVWidth="39" mUVHeight="39" mCropX="10" mCropY="10" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0019.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="200" mV="200" mUVWidth="41" mUVHeight="41" mCropX="9" mCropY="9" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0020.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="200" mV="110" mUVWidth="43" mUVHeight="43" mCropX="8" mCropY="8" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0021.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="153" mV="161" mUVWidth="45" mUVHeight="45" mCropX="7" mCropY="7" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0022.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="104" mV="169" mUVWidth="47" mUVHeight="47" mCropX="6" mCropY="6" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0023.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="53" mV="171" mUVWidth="49" mUVHeight="49" mCropX="5" mCropY="5" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0024.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="0" mV="120" mUVWidth="51" mUVHeight="51" mCropX="4" mCropY="4" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0025.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="179" mV="55" mUVWidth="53" mUVHeight="53" mCropX="3" mCropY="3" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0026.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="122" mV="57" mUVWidth="55" mUVHeight="55" mCropX="2" mCropY="2" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0027.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="59" mV="61" mUVWidth="57" mUVHeight="57" mCropX="1" mCropY="1" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0028.png" />
+      <THFrameData mWidth="59" mHeight="59" mDelay="1" mOriginX="29" mOriginY="29" mU="0" mV="0" mUVWidth="59" mUVHeight="59" mCropX="0" mCropY="0" mSourceImageName="..\Effects\Glitches\GlitchBomb\Output\DiamondCAFilled0029.png" />
+    </THSpriteAnimationData>
+  </mSpriteData>
+</THSpriteSheetData>

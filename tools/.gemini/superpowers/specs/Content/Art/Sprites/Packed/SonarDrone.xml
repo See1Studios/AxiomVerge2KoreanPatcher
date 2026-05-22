@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<THSpriteSheetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mPow2>true</mPow2>
+  <mShrinkWrap>false</mShrinkWrap>
+  <mSquare>false</mSquare>
+  <mPadding>2</mPadding>
+  <mMaxWidth>1024</mMaxWidth>
+  <mMaxHeight>1024</mMaxHeight>
+  <mFileName>SonarDrone.xml</mFileName>
+  <mTextureExt>PNG</mTextureExt>
+  <THColorSchemeData mName="Default">
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <THColorSchemeData mName="Meta">
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>249</B>
+        <G>247</G>
+        <R>208</R>
+        <A>255</A>
+        <PackedValue>4294571984</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>213</B>
+        <G>197</G>
+        <R>254</R>
+        <A>255</A>
+        <PackedValue>4292199934</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>199</B>
+        <G>190</G>
+        <R>146</R>
+        <A>255</A>
+        <PackedValue>4291280530</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>181</B>
+        <G>167</G>
+        <R>216</R>
+        <A>255</A>
+        <PackedValue>4290095064</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>139</B>
+        <G>134</G>
+        <R>101</R>
+        <A>255</A>
+        <PackedValue>4287333989</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>155</B>
+        <G>111</G>
+        <R>166</R>
+        <A>255</A>
+        <PackedValue>4288376742</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>true</mEnable>
+      <mOrigColor>
+        <B>79</B>
+        <G>73</G>
+        <R>45</R>
+        <A>255</A>
+        <PackedValue>4283386157</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>52</B>
+        <G>34</G>
+        <R>83</R>
+        <A>255</A>
+        <PackedValue>4281606739</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <THReplaceColorData>
+      <mEnable>false</mEnable>
+      <mOrigColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mOrigColor>
+      <mReplaceColor>
+        <B>255</B>
+        <G>255</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294967295</PackedValue>
+      </mReplaceColor>
+    </THReplaceColorData>
+    <mHue>0</mHue>
+    <mSaturation>0</mSaturation>
+    <mValue>0</mValue>
+  </THColorSchemeData>
+  <mSpriteData mTextureName="SonarDroneTexture">
+    <THSpriteAnimationData mName="ExteriorChargeUp" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\SonarDrone\Output\ExteriorChargeUp.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="14" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="32" mHeight="52" mDelay="5" mOriginX="16" mOriginY="26" mU="0" mV="0" mUVWidth="32" mUVHeight="52" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SonarDrone\Output\ExteriorChargeUp0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-15" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="0" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos0" mX="16" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos1" mX="-16" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-4" mY="-19" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="-4" mY="9" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="52" mDelay="5" mOriginX="16" mOriginY="26" mU="34" mV="0" mUVWidth="32" mUVHeight="52" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SonarDrone\Output\ExteriorChargeUp0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-15" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="0" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos0" mX="16" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos1" mX="-16" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-4" mY="-19" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="-4" mY="9" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="52" mDelay="5" mOriginX="16" mOriginY="26" mU="68" mV="0" mUVWidth="32" mUVHeight="52" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SonarDrone\Output\ExteriorChargeUp0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-15" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="0" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos0" mX="16" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos1" mX="-16" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-6" mY="-19" mWidth="12" mHeight="8" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="-4" mY="9" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="52" mDelay="5" mOriginX="16" mOriginY="26" mU="0" mV="54" mUVWidth="32" mUVHeight="52" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SonarDrone\Output\ExteriorChargeUp0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-15" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="0" mY="14" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos0" mX="16" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos1" mX="-16" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-4" mY="-17" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="-4" mY="10" mWidth="8" mHeight="8" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="ExteriorIdle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\SonarDrone\Output\ExteriorIdle.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="14" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="32" mHeight="32" mDelay="5" mOriginX="16" mOriginY="16" mU="34" mV="54" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SonarDrone\Output\ExteriorIdle0000.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-15" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="Muzzle1" mX="0" mY="15" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos0" mX="16" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <THAttachmentPointData mName="EyePos1" mX="-16" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="true" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-3" mY="-17" mWidth="6" mHeight="6" mRadius="8" mColFlags="1" />
+        <mHitbox mName="Hitbox1" mType="RECTANGLE" mX="-3" mY="10" mWidth="6" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="32" mDelay="5" mOriginX="16" mOriginY="16" mU="34" mV="88" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SonarDrone\Output\ExteriorIdle0001.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-15" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="0" mY="15" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos0" mX="16" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos1" mX="-16" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-3" mY="-17" mWidth="6" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="32" mDelay="5" mOriginX="16" mOriginY="16" mU="68" mV="54" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SonarDrone\Output\ExteriorIdle0002.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-15" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="0" mY="15" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos0" mX="16" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos1" mX="-16" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-3" mY="-17" mWidth="6" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <THFrameData mWidth="32" mHeight="32" mDelay="5" mOriginX="16" mOriginY="16" mU="68" mV="88" mUVWidth="32" mUVHeight="32" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SonarDrone\Output\ExteriorIdle0003.png" mFrameFlags="NONE">
+        <THAttachmentPointData mName="Muzzle0" mX="0" mY="-15" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="Muzzle1" mX="0" mY="15" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos0" mX="16" mY="-1" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <THAttachmentPointData mName="EyePos1" mX="-16" mY="0" mAngle="0" mSpriteIndex="0" mKeyFrame="false" />
+        <mHitbox mName="Hitbox0" mType="RECTANGLE" mX="-3" mY="-17" mWidth="6" mHeight="6" mRadius="8" mColFlags="1" />
+      </THFrameData>
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>true</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="InteriorIdle" mIsLooping="true" mRenderType="Alpha">
+      <mCSVName>..\Enemies\SonarDrone\Output\InteriorIdle.csv</mCSVName>
+      <mCollisionList />
+      <THFrameData mWidth="12" mHeight="8" mDelay="5" mOriginX="6" mOriginY="4" mU="0" mV="108" mUVWidth="12" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SonarDrone\Output\InteriorIdle0000.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="8" mDelay="5" mOriginX="6" mOriginY="4" mU="0" mV="118" mUVWidth="12" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SonarDrone\Output\InteriorIdle0001.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="8" mDelay="5" mOriginX="6" mOriginY="4" mU="102" mV="18" mUVWidth="12" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SonarDrone\Output\InteriorIdle0002.png" mFrameFlags="NONE" />
+      <THFrameData mWidth="12" mHeight="8" mDelay="5" mOriginX="6" mOriginY="4" mU="14" mV="108" mUVWidth="12" mUVHeight="8" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SonarDrone\Output\InteriorIdle0003.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THSpriteAnimationData mName="Ring" mIsLooping="false" mRenderType="Alpha">
+      <mCSVName>..\Enemies\SonarDrone\Output\Ring.csv</mCSVName>
+      <mCollisionList>
+        <THSpriteCollisionData mName="Collision0" mType="CIRCLE" mX="0" mY="0" mWidth="16" mHeight="16" mRadius="14" mColFlags="1" />
+      </mCollisionList>
+      <THFrameData mWidth="16" mHeight="16" mDelay="5" mOriginX="8" mOriginY="8" mU="102" mV="0" mUVWidth="16" mUVHeight="16" mCropX="0" mCropY="0" mSourceImageName="..\Enemies\SonarDrone\Output\Ring0000.png" mFrameFlags="NONE" />
+      <mUseHurtbox>false</mUseHurtbox>
+      <mUseHitbox>false</mUseHitbox>
+    </THSpriteAnimationData>
+    <THAttachmentProperties mName="Muzzle0">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="Muzzle1">
+      <mColor>
+        <B>255</B>
+        <G>0</G>
+        <R>255</R>
+        <A>255</A>
+        <PackedValue>4294902015</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="EyePos0">
+      <mColor>
+        <B>255</B>
+        <G>255</G>
+        <R>0</R>
+        <A>255</A>
+        <PackedValue>4294967040</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+    <THAttachmentProperties mName="EyePos1">
+      <mColor>
+        <B>255</B>
+        <G>255</G>
+        <R>0</R>
+        <A>255</A>
+        <PackedValue>4294967040</PackedValue>
+      </mColor>
+    </THAttachmentProperties>
+  </mSpriteData>
+</THSpriteSheetData>
