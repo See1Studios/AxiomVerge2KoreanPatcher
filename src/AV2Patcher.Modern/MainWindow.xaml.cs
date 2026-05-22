@@ -34,7 +34,7 @@ public partial class MainWindow : Window
 {
     private Config _config = new();
     private string ConfigPath => Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.json");
-    private string CustomFontsDir => Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "CustomFonts");
+    private string CustomFontsDir => Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "KoreanFonts");
 
     public ObservableCollection<CustomFont> AvailableFonts { get; } = new();
     public ObservableCollection<FontMapping> Mappings { get; } = new();
@@ -115,7 +115,7 @@ public partial class MainWindow : Window
 
     private void EnsureFolders()
     {
-        foreach (var f in new[] { "Translations", "Tools", "BuiltFonts", "CustomFonts",
+        foreach (var f in new[] { "Translations", "Tools", "BuiltFonts", "KoreanFonts",
                                    Path.Combine("Originals", "Fonts"),
                                    Path.Combine("ExportPackage", "Fonts") })
             if (!Directory.Exists(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, f)))
