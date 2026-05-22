@@ -334,6 +334,8 @@ node_modules/
 **/Translations/Originals/
 # config.json은 사용자별 설정이므로 제외
 **/config.json
+# Antigravity CLI 작업 폴더
+.antigravitycli/
 
 *.ncb
 *.aps
