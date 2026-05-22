@@ -1,4 +1,4 @@
-﻿using System.IO;
+using System.IO;
 using System.Diagnostics;
 using System.Text.Json;
 using System.Text.Json.Nodes;
@@ -83,16 +83,18 @@ public static class FontBuilder
             string pngName  = Path.GetFileNameWithoutExtension(xnbName) + ".png";
 
             // 1. Identify and Unpack Template
-            string templateJsonPath = Path.Combine(gameDir, "Content", "Fonts_Original", jsonName);
-            string templatePngPath  = Path.Combine(gameDir, "Content", "Fonts_Original", pngName);
+            string originalsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Originals", "Fonts");
+            string templateJsonPath = Path.Combine(originalsDir, jsonName);
+            string templatePngPath  = Path.Combine(originalsDir, pngName);
 
             if (!File.Exists(templateJsonPath))
             {
-                string xnbToUnpack = Path.Combine(gameDir, "Content", "Fonts_Original", xnbName);
+                string xnbToUnpack = Path.Combine(originalsDir, xnbName);
                 if (!File.Exists(xnbToUnpack)) xnbToUnpack = Path.Combine(gameDir, "Content", "Fonts", xnbName);
 
                 log($"Unpacking template for {xnbName}...");
-                RunXnbCli($"unpack \"{xnbToUnpack}\" \"{Path.GetDirectoryName(templateJsonPath)}\"");
+                Directory.CreateDirectory(originalsDir);
+                RunXnbCli($"unpack \"{xnbToUnpack}\" \"{originalsDir}\"");
             }
 
             // 2. Load Original Metadata

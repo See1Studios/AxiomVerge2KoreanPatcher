@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
@@ -363,7 +363,7 @@ public partial class MainWindow : Window
 
         string gameDir = Path.GetDirectoryName(exe)!;
         string fontsDir = Path.Combine(gameDir, "Content", "Fonts");
-        string fontsOriginalDir = Path.Combine(gameDir, "Content", "Fonts_Original");
+        string fontsOriginalDir = OriginalFontsDir;
 
         if (Directory.Exists(fontsOriginalDir)) {
             foreach (var mapping in Mappings) {
