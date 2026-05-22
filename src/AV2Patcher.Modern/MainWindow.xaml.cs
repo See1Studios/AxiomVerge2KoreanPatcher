@@ -192,11 +192,6 @@ public partial class MainWindow : Window
         Log(">>> Patching started...");
 
         try {
-            // config.json 저장 직전 타임스탬프를 캐시 비교 기준으로 사용.
-            // SaveConfig() 호출 이후 timestamp를 쓰면 항상 캐시 미스가 발생하므로 선(先) 캡처.
-            var configSnapshotTime = File.Exists(ConfigPath)
-                ? File.GetLastWriteTime(ConfigPath)
-                : DateTime.MinValue;
             SaveConfig();
             await Task.Run(() => {
                 string gameDir = Path.GetDirectoryName(exe)!;
@@ -293,16 +288,7 @@ public partial class MainWindow : Window
 
 
 
-                    // 스마트 캐싱: 소스(PNG/FNT)와 저장 직전 config 시간보다 XNB가 더 최신이면 건너뜀.
-                    if (File.Exists(targetPath)) {
-                        var targetTime = File.GetLastWriteTime(targetPath);
-                        var pngTime    = File.GetLastWriteTime(font.PngPath);
-                        var fntTime    = File.GetLastWriteTime(font.FntPath);
-                        if (targetTime > pngTime && targetTime > fntTime && targetTime > configSnapshotTime) {
-                            Log($"{mapping.TargetXnb}: 캐시 유효 — 재빌드 건너뜀.");
-                            continue;
-                        }
-                    }
+
 
                     Log($"Queueing build for {mapping.TargetXnb}...");
                     font.Metadata.LastGamePath = exe;
