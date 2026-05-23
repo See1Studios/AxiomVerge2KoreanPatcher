@@ -1,4 +1,4 @@
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
 namespace AV2Patcher.Modern;
 
@@ -79,13 +79,6 @@ public class FontMapping : System.ComponentModel.INotifyPropertyChanged
         set { _selectedFontName = value; OnPropertyChanged(nameof(SelectedFontName)); }
     }
 
-    private string _buildMode = "Append";
-    public string BuildMode
-    {
-        get => _buildMode;
-        set { _buildMode = value; OnPropertyChanged(nameof(BuildMode)); }
-    }
-
     private int _yOffsetAdjust;
     /// <summary>수직 위치 조정 (px). 양수 = 아래로, 음수 = 위로.</summary>
     public int YOffsetAdjust { get => _yOffsetAdjust; set { _yOffsetAdjust = value; OnPropertyChanged(nameof(YOffsetAdjust)); } }
@@ -122,79 +115,32 @@ public class FontMapping : System.ComponentModel.INotifyPropertyChanged
         OriginalTextureWidth > 0
             ? $"원본: {OriginalTextureWidth}×{OriginalTextureHeight}px"
             : "원본 미추출";
-
-    private int _builtTextureWidth;
-    /// <summary>빌드된 한글 XNB 텍스처 가로 크기 (px). config.json에 저장하지 않음.</summary>
-    [JsonIgnore]
-    public int BuiltTextureWidth
-    {
-        get => _builtTextureWidth;
-        set { _builtTextureWidth = value; OnPropertyChanged(nameof(BuiltTextureWidth)); OnPropertyChanged(nameof(BuiltTextureSizeInfo)); }
-    }
-
-    private int _builtTextureHeight;
-    /// <summary>빌드된 한글 XNB 텍스처 세로 크기 (px). config.json에 저장하지 않음.</summary>
-    [JsonIgnore]
-    public int BuiltTextureHeight
-    {
-        get => _builtTextureHeight;
-        set { _builtTextureHeight = value; OnPropertyChanged(nameof(BuiltTextureHeight)); OnPropertyChanged(nameof(BuiltTextureSizeInfo)); }
-    }
-
-    /// <summary>UI 표시용 빌드된 텍스처 크기 문자열.</summary>
-    [JsonIgnore]
-    public string BuiltTextureSizeInfo =>
-        BuiltTextureWidth > 0
-            ? $"빌드본: {BuiltTextureWidth}×{BuiltTextureHeight}px"
-            : "";
 }
 
 public class Config
 {
     public string ExePath { get; set; } = "";
-    public string Theme { get; set; } = "System";
     public List<FontMapping> Mappings { get; set; } = new();
 
     public void InitializeDefaults()
     {
         var slots = new[]
         {
-            new { Xnb = "AV8ptMonogame.xnb",               Desc = "Speedrun Timer & UI (8pt)",        DefaultFont = "Galmuri9", DefaultY = 0 },
-            new { Xnb = "Hooge0655_8pt.xnb",               Desc = "Dialog Small & Standard UI (8pt)", DefaultFont = "Galmuri9", DefaultY = 0 },
-            new { Xnb = "NotoSansMonoCJKJpRegular12pt.xnb", Desc = "Main Dialogue & Hacking (12pt)",   DefaultFont = "Galmuri11 Regular", DefaultY = 3 },
-            new { Xnb = "NotoSansMonoCJKJpRegular16pt.xnb", Desc = "Main Large & Menu Title (16pt)",   DefaultFont = "NeoDunggeunmo", DefaultY = 4 }
+            new { Xnb = "Hooge0655_8pt.xnb",               Desc = "Dialog Small (8pt)" },
+            new { Xnb = "NotoSansMonoCJKJpRegular12pt.xnb", Desc = "Main Dialogue (12pt)" },
+            new { Xnb = "NotoSansMonoCJKJpRegular16pt.xnb", Desc = "Main Large (16pt)" },
+            new { Xnb = "Moire16pt.xnb",                    Desc = "Menu Title (16pt)" }
         };
 
-        // 패치 대상이 아닌 슬롯 제거 (Moire16pt 등)
+        // 패치 대상이 아닌 슬롯 제거 (AV8ptMonogame 등)
         var validXnbs = slots.Select(s => s.Xnb).ToHashSet();
         Mappings.RemoveAll(m => !validXnbs.Contains(m.TargetXnb));
 
         foreach (var s in slots)
         {
-            var mapping = Mappings.FirstOrDefault(m => m.TargetXnb == s.Xnb);
-            if (mapping == null)
+            if (!Mappings.Any(m => m.TargetXnb == s.Xnb))
             {
-                Mappings.Add(new FontMapping 
-                { 
-                    TargetXnb = s.Xnb, 
-                    Description = s.Desc, 
-                    SelectedFontName = s.DefaultFont,
-                    YOffsetAdjust = s.DefaultY,
-                    BuildMode = "Append"
-                });
-            }
-            else
-            {
-                mapping.Description = s.Desc;
-                if (string.IsNullOrEmpty(mapping.SelectedFontName))
-                {
-                    mapping.SelectedFontName = s.DefaultFont;
-                    mapping.YOffsetAdjust = s.DefaultY;
-                }
-                if (string.IsNullOrEmpty(mapping.BuildMode))
-                {
-                    mapping.BuildMode = "Append";
-                }
+                Mappings.Add(new FontMapping { TargetXnb = s.Xnb, Description = s.Desc });
             }
         }
     }
