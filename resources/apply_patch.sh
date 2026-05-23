@@ -15,9 +15,27 @@ set -e
 GAME_DIR="${1}"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+# SteamOS / Linux 기본 설치 경로 후보 목록
+DEFAULT_PATHS=(
+    "$HOME/.steam/steam/steamapps/common/Axiom Verge 2"
+    "$HOME/.local/share/Steam/steamapps/common/Axiom Verge 2"
+    "/run/media/mmcblk0p1/steamapps/common/Axiom Verge 2"
+)
+
+# 인수가 비어있다면 기본 경로 탐색
+if [ -z "$GAME_DIR" ]; then
+    for path in "${DEFAULT_PATHS[@]}"; do
+        if [ -d "$path" ]; then
+            GAME_DIR="$path"
+            echo "[정보] 기본 설치 경로가 감지되었습니다: $GAME_DIR"
+            break
+        fi
+    done
+fi
+
 # ── 인수 검증 ─────────────────────────────────────────────
 if [ -z "$GAME_DIR" ]; then
-    echo "오류: 게임 폴더 경로를 인수로 지정하세요."
+    echo "오류: 게임 폴더 경로가 감지되지 않았습니다. 인수로 직접 지정해 주세요."
     echo "사용법: $0 <게임_폴더_경로>"
     exit 1
 fi
@@ -59,25 +77,17 @@ fi
 
 # ── Step 2: 실행파일에 Content.zip 주입 ────────────────────
 echo "[2/2] 번역 데이터 주입 중..."
-# TODO: 실행파일 구조 확인 후 구현 필요
-#
-# Linux 실행파일 유형에 따라 아래 중 하나:
-#   A) .NET 6+ 단일 실행파일 (self-contained):
-#      dotnet 도구를 이용해 임베디드 리소스 교체
-#
-#   B) Mono 어셈블리 (AxiomVerge2.exe / AxiomVerge2.dll):
-#      mono / monodis 를 이용하거나
-#      dotnet-script + Mono.Cecil 로 처리
-#
-#   게임 폴더 구조를 확인 후 이 섹션을 완성하세요.
-#
-# 예시 (구조 파악 후 교체):
-# EXE=$(find "$GAME_DIR" -maxdepth 1 -name "AxiomVerge2*" -not -name "*.sh" | head -1)
-# echo "  대상 실행파일: $EXE"
-echo "  ⚠️  실행파일 주입은 아직 구현되지 않았습니다."
-echo "     게임 폴더 구조를 확인 후 스크립트를 완성하세요."
+CLI_TOOL="$SCRIPT_DIR/AV2Patcher.CLI"
+
+if [ -f "$CLI_TOOL" ]; then
+    chmod +x "$CLI_TOOL"
+    echo "  실행파일 주입 도구 실행 중..."
+    "$CLI_TOOL" "$GAME_DIR/AxiomVerge2.exe" "$CONTENT_ZIP"
+else
+    echo "오류: 실행파일 주입 도구가 없습니다: $CLI_TOOL"
+    exit 1
+fi
 
 echo ""
 echo "=== 완료 ==="
-echo "폰트 패치가 적용되었습니다."
-echo "번역 주입은 수동으로 완료해야 합니다 (위 TODO 참고)."
+echo "번역 데이터 및 폰트 패치가 성공적으로 적용되었습니다!"

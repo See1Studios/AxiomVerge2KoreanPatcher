@@ -35,24 +35,24 @@ OPTIONS_WEAPON_SELECT_LINEAR,Linear,Linéaire,Linear,Lineare,Linear,Lineal,Ли�
 OPTIONS_WEAPON_SELECT_RING,Ring,Radiale,Kreis,Circolare,Circular,Circular,Радиальный,링형,循环
 ,,,,,,,,,
 OPTIONS_LANGUAGE_TITLE,LANGUAGE,LANGUE,SPRACHE,LINGUA,IDIOMA,IDIOMA,ЯЗЫК,언어,语言
-OPTIONS_ENGLISH,English,English,English,English,English,English,English,영어,English
-OPTIONS_FRENCH,Français,Français,Français,Français,Français,Français,Français,프랑스어,Français
-OPTIONS_GERMAN,Deutsch,Deutsch,Deutsch,Deutsch,Deutsch,Deutsch,Deutsch,독일어,Deutsch
-OPTIONS_ITALIAN,Italiano,Italiano,Italiano,Italiano,Italiano,Italiano,Italiano,이탈리아어,Italiano
-OPTIONS_PORTUGUESE,Português,Português,Português,Português,Português,Portugués,Português,포르투갈어,Português
-OPTIONS_SPANISH,Español,Español,Español,Español,Español,Español,Español,스페인어,Español
-OPTIONS_RUSSIAN,Русский,Русский,Русский,Русский,Русский,Русский,Русский,러시아어,Русский
-OPTIONS_JAPANESE,日本語,日本語,日本語,日本語,日本語,日本語,日本語,한국어,日本語
-OPTIONS_CHINESE,简体中文,简体中文,简体中文,简体中文,简体中文,简体中文,简体中文,중국어(간체),简体中文
+OPTIONS_ENGLISH,English,English,English,English,English,English,English,English,English
+OPTIONS_FRENCH,Français,Français,Français,Français,Français,Français,Français,Français,Français
+OPTIONS_GERMAN,Deutsch,Deutsch,Deutsch,Deutsch,Deutsch,Deutsch,Deutsch,Deutsch,Deutsch
+OPTIONS_ITALIAN,Italiano,Italiano,Italiano,Italiano,Italiano,Italiano,Italiano,Italiano,Italiano
+OPTIONS_PORTUGUESE,Português,Português,Português,Português,Português,Portugués,Português,Português,Português
+OPTIONS_SPANISH,Español,Español,Español,Español,Español,Español,Español,Español,Español
+OPTIONS_RUSSIAN,Русский,Русский,Русский,Русский,Русский,Русский,Русский,Русский,Русский
+OPTIONS_JAPANESE,한국어,한국어,한국어,한국어,한국어,한국어,한국어,한국어,한국어
+OPTIONS_CHINESE,简体中文,简体中文,简体中文,简体中文,简体中文,简体中文,简体中文,简体中文,简体中文
 SPEEDRUN_TITLE,SPEEDRUN MODE,MODE SPEEDRUN,SCHNELLDURCHLAUF-MODUS,MODALITÀ SPEEDRUN,MODO SPEEDRUN,MODO CONTRARRELOJ,РЕЖИМ БЫСТРОГО ПРОХОЖДЕНИЯ,스피드런 모드,速通模式
 SPEEDRUN_GO,START NEW,NOUVELLE PARTIE,STARTE NEU,NUOVA PARTITA,INICIAR NOVO JOGO,EMPEZAR DE NUEVO,НАЧАТЬ ЗАНОВО,새로 시작,开始新游戏
 SPEEDRUN_CONTINUE,CONTINUE,CONTINUER,WEITER,CONTINUA,CONTINUAR,CONTINUAR,ПРОДОЛЖИТЬ,계속하기,继续游戏
 SPEEDRUN_DIFFICULTY,DIFFICULTY,DIFFICULTÉ,SCHWIERIGKEIT,DIFFICOLTÀ,DIFICULDADE,DIFICULTAD,СЛОЖНОСТЬ,난이도,难度
-SPEEDRUN_CHECKPOINTS,CHECKPOINT HUD,HUD POINT DE CONTRÔLE,CHECKPUNKT HUD,HUD CHECKPOINT,AVISO DE PONTO DE CONTROLE,INTERFAZ DE PUNTO DE CONTROL,ЗНАЧОК ЧЕКПОИНТА,CHECKPOINT HUD,检查点HUD
-ON,On,Oui,An,Sì,Ligado,Sí,Вкл.,On,开
-OFF,Off,Non,Aus,No,Desligado,No,Выкл.,Off,关
-SPEEDRUN_BEST_TIME,Best Time:,Meilleur temps :,Beste Zeit:,Tempo migliore:,Melhor tempo:,Mejor tiempo:,Лучшее время:,Best Time:,最短时间：
-SPEEDRUN_LAST_TIME,Last Time:,Dernier temps :,Neueste Zeit:,Ultimo tempo:,Último tempo:,Último tiempo:,Последнее время:,Last Time:,上一次的时间：
+SPEEDRUN_CHECKPOINTS,CHECKPOINT HUD,HUD POINT DE CONTRÔLE,CHECKPUNKT HUD,HUD CHECKPOINT,AVISO DE PONTO DE CONTROLE,INTERFAZ DE PUNTO DE CONTROL,ЗНАЧОК ЧЕКПОИНТА,체크포인트 HUD,检查点HUD
+ON,On,Oui,An,Sì,Ligado,Sí,Вкл.,켜기,开
+OFF,Off,Non,Aus,No,Desligado,No,Выкл.,끄기,关
+SPEEDRUN_BEST_TIME,Best Time:,Meilleur temps :,Beste Zeit:,Tempo migliore:,Melhor tempo:,Mejor tiempo:,Лучшее время:,최고 기록:,最短时间：
+SPEEDRUN_LAST_TIME,Last Time:,Dernier temps :,Neueste Zeit:,Ultimo tempo:,Último tempo:,Último tiempo:,Последнее время:,이전 기록:,上一次的时间：
 SPEEDRUN_DESCRIPTION,"Experts only!
  
 This is a special mode for competitive streamers who complete the game in a single sitting.
@@ -79,27 +79,27 @@ Elimina los diálogos, las escenas de historia y el contenido aleatorio, y agreg
  
 Это специальный соревновательный режим для стримеров, которые могут пройти игру за один заход.
  
-В нем отсутствуют диалоги, ролики и случайно распределяемый контент, а также здесь присутствует экранный таймер.","Experts only!
+В нем отсутствуют диалоги, ролики и случайно распределяемый контент, а также здесь присутствует экранный таймер.","전문가 전용!
  
-This is a special mode for competitive streamers who complete the game in a single sitting.
+게임을 한 번에 클리어하며 경쟁하는 스트리머들을 위한 특별 모드입니다.
  
-It eliminates dialogue, cutscenes, and randomized content, and provides an on-screen timer.","仅限高玩！
+대사, 컷신, 무작위 콘텐츠가 제외되며, 화면에 타이머가 표시됩니다.","仅限高玩！
 
 这个特殊模式专为富有竞技精神的主播设计，需要玩家一口气通关。
 
 这个模式没有对话、过场动画和随机内容，另外游戏画面内置了一个计时器。"
-SPEEDRUN_DESCRIPTION_PS4,Use the Share button to begin streaming your run!,Utilisez le bouton Partager pour commencer à diffuser votre run !,"Benutze die Teilen-Schaltfläche, um deinen Lauf zu streamen!",Usa il tasto Condividi per iniziare a trasmettere la tua corsa in streaming!,Use o botão Compartilhar para começar a transmitir seu jogo!,¡Usa el botón SHARE para transmitir tu partida!,"Используйте кнопку ""Поделиться"", чтобы начать стриминг вашего прохождения!",Use the Share button to begin streaming your run!,点击“分享”按钮，即可开始直播你的游戏过程！
-LEADERBOARDS_TITLE,Leaderboards,Classements,Bestenlisten,Classifiche,Placares,Tablas de clasificación,Таблицы рекордов,Leaderboards,排行榜
-LEADERBOARDS_GLOBAL,Global,Mondial,Global,Global,Global,Global,Весь мир,Global,全球前十
-LEADERBOARDS_GLOBAL_AROUND_USER,Global Around User,Global Around User,Global Around User,Global Around User,Global Around User,Global alrededor de ti,Локально,Global Around User,全球相邻排名
-LEADERBOARDS_FRIENDS_ONLY,Friends-Only,Amis uniquement,Nur Freunde,Solo amici,Apenas amigos,Solo amigos,Только друзья,Friends-Only,好友
-LEADERBOARDS_ANY_PERCENT,Any %,% indifférent,Beliebig %,Qualsiasi %,Qualquer %,Any%,Любой %,Any %,任意%
-LEADERBOARDS_100_PERCENT,100 %,100%,100 %,100%,100 %,100%,100 %,100 %,100%
-LEADERBOARDS_LOW_PERCENT,Low %,% faible,Niedrig %,Bassa %,Baixa %,Bajo%,Низкий %,Low %,最低%
-LEADERBOARDS_DEATHS,Deaths,Morts,Tode,Morti,Mortes,Muertes,Смерти,Deaths,死亡次数
-LEADERBOARDS_NAME,Name,Nom,Name,Nome,Nome,Nombre,Имя,Name,昵称
-LEADERBOARDS_PREVIOUS,Previous,Précédente,Vorherige,Precedente,Anterior,Anterior,Предыдущий,Previous,向前翻页
-LEADERBOARDS_NEXT,Next,Suivante,Nächste,Successiva,Próximo,Siguiente,Следующий,Next,向后翻页
+SPEEDRUN_DESCRIPTION_PS4,Use the Share button to begin streaming your run!,Utilisez le bouton Partager pour commencer à diffuser votre run !,"Benutze die Teilen-Schaltfläche, um deinen Lauf zu streamen!",Usa il tasto Condividi per iniziare a trasmettere la tua corsa in streaming!,Use o botão Compartilhar para começar a transmitir seu jogo!,¡Usa el botón SHARE para transmitir tu partida!,"Используйте кнопку ""Поделиться"", чтобы начать стриминг вашего прохождения!",공유(Share) 버튼을 눌러 스피드런 스트리밍을 시작하세요!,点击“分享”按钮，即可开始直播你的游戏过程！
+LEADERBOARDS_TITLE,Leaderboards,Classements,Bestenlisten,Classifiche,Placares,Tablas de clasificación,Таблицы рекордов,순위표,排行榜
+LEADERBOARDS_GLOBAL,Global,Mondial,Global,Global,Global,Global,Весь мир,글로벌,全球前十
+LEADERBOARDS_GLOBAL_AROUND_USER,Global Around User,Global Around User,Global Around User,Global Around User,Global Around User,Global alrededor de ti,Локально,내 주변 순위,全球相邻排名
+LEADERBOARDS_FRIENDS_ONLY,Friends-Only,Amis uniquement,Nur Freunde,Solo amici,Apenas amigos,Solo amigos,Только друзья,친구만,好友
+LEADERBOARDS_ANY_PERCENT,Any %,% indifférent,Beliebig %,Qualsiasi %,Qualquer %,Any%,Любой %,Any%,任意%
+LEADERBOARDS_100_PERCENT,100 %,100%,100 %,100%,100 %,100%,100 %,100%,100%
+LEADERBOARDS_LOW_PERCENT,Low %,% faible,Niedrig %,Bassa %,Baixa %,Bajo%,Низкий %,Low%,最低%
+LEADERBOARDS_DEATHS,Deaths,Morts,Tode,Morti,Mortes,Muertes,Смерти,사망 횟수,死亡次数
+LEADERBOARDS_NAME,Name,Nom,Name,Nome,Nome,Nombre,Имя,이름,昵称
+LEADERBOARDS_PREVIOUS,Previous,Précédente,Vorherige,Precedente,Anterior,Anterior,Предыдущий,이전,向前翻页
+LEADERBOARDS_NEXT,Next,Suivante,Nächste,Successiva,Próximo,Siguiente,Следующий,다음,向后翻页
 PS4_SAVE_CORRUPTED,"SAVE DATA CORRUPTED!
  
 Save games and settings are corrupted and cannot be loaded.
@@ -128,11 +128,11 @@ Usa el software del sistema PlayStation®4 para eliminar los datos corruptos y v
  
 Сохраненные игры и настройки повреждены и не могут быть загружены.
  
-Пожалуйста, используйте системные средства PlayStation®4, чтобы удалить поврежденные данные и начать сначала.","SAVE DATA CORRUPTED!
+Пожалуйста, используйте системные средства PlayStation®4, чтобы удалить поврежденные данные и начать сначала.","세이브 데이터 손상!
  
-Save games and settings are corrupted and cannot be loaded.
+저장된 게임 진행 상황과 설정이 손상되어 불러올 수 없습니다.
  
-Please use the PlayStation®4 system software to delete the corrupted save data and start over.","存档数据损坏！
+PlayStation®4 시스템 소프트웨어를 사용하여 손상된 세이브 데이터를 삭제하고 처음부터 다시 시작해 주십시오.","存档数据损坏！
 
 游戏存档和设置损坏，无法加载。
 
@@ -151,211 +151,211 @@ Utilize o software de sistema do PlayStation®4 para liberar espaço para os dad
   
 Usa el software del sistema PlayStation®4 para liberar espacio para los datos de guardado de Axiom Verge 2.","НЕДОСТАТОЧНО МЕСТА!
  
-Пожалуйста, используйте системные средства PlayStation®4, чтобы освободить место для сохранений Axiom Verge 2.","OUT OF SPACE!
+Пожалуйста, используйте системные средства PlayStation®4, чтобы освободить место для сохранений Axiom Verge 2.","저장 공간 부족!
  
-Please use the PlayStation®4 system software to free up space for Axiom Verge save data.","空间不足！
+PlayStation®4 시스템 소프트웨어를 사용하여 Axiom Verge 세이브 데이터를 위한 여유 공간을 확보해 주십시오.","空间不足！
 
 请使用PlayStation®4的系统软件腾出足够的空间，以便容纳《公理边缘2》的存档数据。"
-ACTION_UP,Up,Haut,Hoch,Su,Cima,Arriba,Вверх,Up,上
-ACTION_DOWN,Down,Bas,Runter,Giù,Baixo,Abajo,Вниз,Down,下
-ACTION_LEFT,Left,Gauche,Links,Sinistra,Esquerda,Izquierda,Влево,Left,左
-ACTION_RIGHT,Right,Droite,Rechts,Destra,Direita,Derecha,Вправо,Right,右
-ACTION_JUMP,Jump,Saut,Springen,Salta,Pular,Saltar,Прыжок,Jump,跳跃
-ACTION_FLASHLIGHT,Flashlight,Lampe torche,Taschenlampe,Torcia,Lanterna,Linterna,Фонарик,Flashlight,手电筒
-ACTION_ITEM1,Item 1,Objet 1,Gegenstand 1,Oggetto 1,Item 1,Objeto 1,Предмет 1,Item 1,物品1
-ACTION_ITEM2,Item 2,Objet 2,Gegenstand 2,Oggetto 2,Item 2,Objeto 2,Предмет 2,Item 2,物品2
-ACTION_ITEM3,Item 3,Objet 3,Gegenstand 3,Oggetto 3,Item 3,Objeto 3,Предмет 3,Item 3,物品3
-ACTION_ITEM4,Item 4,Objet 4,Gegenstand 4,Oggetto 4,Item 4,Objeto 4,Предмет 4,Item 4,物品4
-ACTION_ITEM5,Item 5,Objet 5,Gegenstand 5,Oggetto 5,Item 5,Objeto 5,Предмет 5,Item 5,物品5
-ACTION_MENU,Menu,Menu,Menü,Menu,Menu,Menú,Меню,Menu,菜单
-ACTION_MAP,Map,Carte,Karte,Mappa,Mapa,Mapa,Карта,Map,地图
-ACTION_GLITCHBOMB,Addr. Bomb,Bombe adr.,Anw.-Bombe,Bomba dir.,Bomba dir.,Dirección bomba,Направленная бомба,Addr. Bomb,地址炸弹
-ACTION_LOCKPOSITION,Lock Position,Verrouiller position,Position halten,Blocca posizione,Travar posiçäo,Fijar posición,Закрепить позицию,Lock Position,锁定位置
-ACTION_DRILL,Drill,Foreuse,Bohrer,Trivella,Furadeira,Taladro,Бур,Drill,钻
+ACTION_UP,Up,Haut,Hoch,Su,Cima,Arriba,Вверх,위,上
+ACTION_DOWN,Down,Bas,Runter,Giù,Baixo,Abajo,Вниз,아래,下
+ACTION_LEFT,Left,Gauche,Links,Sinistra,Esquerda,Izquierda,Влево,왼쪽,左
+ACTION_RIGHT,Right,Droite,Rechts,Destra,Direita,Derecha,Вправо,오른쪽,右
+ACTION_JUMP,Jump,Saut,Springen,Salta,Pular,Saltar,Прыжок,점프,跳跃
+ACTION_FLASHLIGHT,Flashlight,Lampe torche,Taschenlampe,Torcia,Lanterna,Linterna,Фонарик,손전등,手电筒
+ACTION_ITEM1,Item 1,Objet 1,Gegenstand 1,Oggetto 1,Item 1,Objeto 1,Предмет 1,아이템 1,物品1
+ACTION_ITEM2,Item 2,Objet 2,Gegenstand 2,Oggetto 2,Item 2,Objeto 2,Предмет 2,아이템 2,物品2
+ACTION_ITEM3,Item 3,Objet 3,Gegenstand 3,Oggetto 3,Item 3,Objeto 3,Предмет 3,아이템 3,物品3
+ACTION_ITEM4,Item 4,Objet 4,Gegenstand 4,Oggetto 4,Item 4,Objeto 4,Предмет 4,아이템 4,物品4
+ACTION_ITEM5,Item 5,Objet 5,Gegenstand 5,Oggetto 5,Item 5,Objeto 5,Предмет 5,아이템 5,物品5
+ACTION_MENU,Menu,Menu,Menü,Menu,Menu,Menú,Меню,메뉴,菜单
+ACTION_MAP,Map,Carte,Karte,Mappa,Mapa,Mapa,Карта,지도,地图
+ACTION_GLITCHBOMB,Addr. Bomb,Bombe adr.,Anw.-Bombe,Bomba dir.,Bomba dir.,Dirección bomba,Направленная бомба,어드레스 봄,地址炸弹
+ACTION_LOCKPOSITION,Lock Position,Verrouiller position,Position halten,Blocca posizione,Travar posiçäo,Fijar posición,Закрепить позицию,위치 고정,锁定位置
+ACTION_DRILL,Drill,Foreuse,Bohrer,Trivella,Furadeira,Taladro,Бур,드릴,钻
 ACTION_ITEMSELECT,Select Item,Sélectionner un objet,"Gegenstand
-auswählen",Seleziona oggetto,Selecionar item,Elegir objeto,Выбрать предмет,Select Item,选择物品
+auswählen",Seleziona oggetto,Selecionar item,Elegir objeto,Выбрать предмет,아이템 선택,选择物品
 ACTION_USESELECTED,Use Item,Utiliser l'objet,"Ausgewählten
 verwenden","Usa oggetto
 selezionato",Usar item,Usar selección,"Использовать 
-выбранное",Use Item,使用物品
-ACTION_INVENTORYLEFT,Menu L,Menu G,Menü L,Menu S,Menu E,Menú izq.,Меню слева,Menu L,菜单左
-ACTION_INVENTORYRIGHT,Menu R,Menu D,Menü R,Menu D,Menu D,Menú der.,Меню справа,Menu R,菜单右
-ACTION_MAPLEFT,Map L,Carte G,Karte L,Mappa S,Mapa E,Mapa izq.,Карта слева,Map L,地图左
-ACTION_MAPRIGHT,Map R,Carte D,Karte R,Mappa D,Mapa D,Mapa der.,Карта справа,Map R,地图右
-ACTION_OK,Confirm,Confirmer,Bestätigen,Conferma,Confirmar,Confirmar,Принять,Confirm,确认
-ACTION_CANCEL,Cancel,Annuler,Abbrechen,Annulla,Cancelar,Cancelar,Отмена,Cancel,取消
-ACTION_AIMUP,Aim Up,Viser vers le haut,Nach oben zielen,Mira Su,Mirar para cima,Apuntar arriba,Прицел вверх,Aim Up,向上瞄准
-ACTION_AIMDOWN,Aim Down,Viser vers le bas,Nach unten zielen,Mira Giù,Mirar para baixo,Apuntar abajo,Прицел вниз,Aim Down,向下瞄准
-ACTION_AIMLEFT,Aim Left,Viser vers la gauche,Nach links zielen,Mira Sinistra,Mirar para a esquerda,Apuntar izquierda,Прицел влево,Aim Left,向左瞄准
-ACTION_AIMRIGHT,Aim Right,Viser vers la droite,Nach rechts zielen,Mira Destra,Mirar para a direita,Apuntar derecha,Прицел вправо,Aim Right,向右瞄准
-ACTION_WEAPONQUICKSELECT1,QSelect 1,SélectionR 1,Schn.-Ausw. 1,SelRap 1,Sel. rápida 1,Elección rápida 1,Б. выбор 1,QSelect 1,快捷选择1
-ACTION_WEAPONQUICKSELECT2,QSelect 2,SélectionR 2,Schn.-Ausw. 2,SelRap 2,Sel. rápida 2,Elección rápida 2,Б. выбор 2,QSelect 2,快捷选择2
-ACTION_WEAPONQUICKSELECT3,QSelect 3,SélectionR 3,Schn.-Ausw. 3,SelRap 3,Sel. rápida 3,Elección rápida 3,Б. выбор 3,QSelect 3,快捷选择3
-ACTION_WEAPONQUICKSELECT4,QSelect 4,SélectionR 4,Schn.-Ausw. 4,SelRap 4,Sel. rápida 4,Elección rápida 4,Б. выбор 4,QSelect 4,快捷选择4
-ACTION_WEAPONQUICKSELECT5,QSelect 5,SélectionR 5,Schn.-Ausw. 5,SelRap 5,Sel. rápida 5,Elección rápida 5,Б. выбор 5,QSelect 5,快捷选择5
-ACTION_WEAPONQUICKSELECT6,QSelect 6,SélectionR 6,Schn.-Ausw. 6,SelRap 6,Sel. rápida 6,Elección rápida 6,Б. выбор 6,QSelect 6,快捷选择6
-ACTION_WEAPONQUICKSELECT7,QSelect 7,SélectionR 7,Schn.-Ausw. 7,SelRap 7,Sel. rápida 7,Elección rápida 7,Б. выбор 7,QSelect 7,快捷选择7
-ACTION_WEAPONQUICKSELECT8,QSelect 8,SélectionR 8,Schn.-Ausw. 8,SelRap 8,Sel. rápida 8,Elección rápida 8,Б. выбор 8,QSelect 8,快捷选择8
-ACTION_WEAPONQUICKSELECT9,QSelect 9,SélectionR 9,Schn.-Ausw. 9,SelRap 9,Sel. rápida 9,Elección rápida 9,Б. выбор 9,QSelect 9,快捷选择9
-ACTION_WEAPONQUICKSELECT10,QSelect 10,SélectionR 10,Schn.-Ausw. 10,SelRap 10,Sel. rápida 10,Elección rápida 10,Б. выбор 10,QSelect 10,快捷选择10
-ACTION_UNKNOWN_1,Unknown 1,Inconnu 1,Unbek. 1,Sconosciuto 1,Desconhecido 1,Desconocido 1,Неизвестно 1,Unknown 1,未知1
-ACTION_UNKNOWN_2,Unknown 2,Inconnu 2,Unbek. 2,Sconosciuto 2,Desconhecido 2,Desconocido 2,Неизвестно 2,Unknown 2,未知2
-ACTION_UNKNOWN_3,Cancel/Unknown 3,Annuler/Inconnu 3,Abbrechen/Unbek. 3,Annulla/Sconosciuto 3,Cancelar/Desconhecido 3,Cancelar/Desconocido 3,Отмена/Неизвестно 3,Cancel/Unknown 3,取消/未知3
-ACTION_UNKNOWN_4,Unknown 4,Inconnu 4,Unbek. 4,Sconosciuto 4,Desconhecido 4,Desconocido 4,Неизвестно 4,Unknown 4,未知4
-INPUT_TITLE,Input Config,Commandes,TASTENBELEGUNG,Configurazione comandi,Configuração de controle,Config. de controles,Настройки ввода,Input Config,键位设置
-INPUT_SAVE,Apply,Appliquer,Anwenden,Applica,Aplicar,Aplicar,Принять,Apply,应用
-INPUT_DEFAULTS,Defaults,Par défaut,Standard,Predefiniti,Padrão,Valores predeterminados,По умолчанию,Defaults,默认配置
-INPUT_CANCEL,Cancel,Annuler,Abbrechen,Annulla,Cancelar,Cancelar,Отмена,Cancel,取消
-INPUT_HELP_SAVE,Apply Changes and Continue,Appliquer les modifications et continuer,Änderungen anwenden und weiter,Applica le modifiche e continua,Aplicar as mudanças e continuar,Aplicar cambios y continuar,Принять изменения и продолжить,Apply Changes and Continue,应用变更，然后继续
-INPUT_HELP_DEFAULTS,Restore Defaults,Restaurer les paramètres par défaut,Standard wiederherstellen,Ripristina predefiniti,Restaurar padräo,Restaurar valores predeterminados,Вернуть по умолчанию,Restore Defaults,恢复默认配置
-INPUT_HELP_CANCEL,Revert to Previous Settings and Exit,Rétablir les anciens paramètres et quitter,Zu vorherigen Einstellungen und abbrechen,Torna alle impostazioni precedenti ed esci,Voltar para as configurações anteriores e sair,Revertir a la configuración anterior y salir,Вернуть предыдущие настройки и выйти,Revert to Previous Settings and Exit,恢复前一套配置，然后退出
-INPUT_HELP_MAP,Press the Button You Wish to Use,Appuyez sur la touche que vous souhaitez utiliser,"Drücke die Taste, die du verwenden möchtest",Premi il tasto che vuoi utilizzare,Aperte o botão que deseja usar,Oprime el botón que deseas usar,"Нажмите кнопку, которую хотите использовать",Press the Button You Wish to Use,按下你想设置的按键
-MB_OK,Ok,Ok,Ok,Ok,Ok,Aceptar,Ок,Ok,好
-MB_YES,Yes,Oui,Ja,Sì,Sim,Sí,Да,Yes,肯定
-MB_NO,No,Non,Nein,No,Não,No,Нет,No,否定
-MB_CANCEL,Cancel,Annuler,Abbrechen,Annulla,Cancelar,Cancelar,Отмена,Cancel,取消
-MAP_TITLE,Map,Carte,Karte,Mappa,Mapa,Mapa,Карта,Map,地图
-INVENTORY_TITLE,INVENTORY,INVENTAIRE,INVENTAR,INVENTARIO,INVENTÁRIO,INVENTARIO,ИНВЕНТАРЬ,INVENTORY,物品栏
-NOTES_TITLE,NOTES,NOTES,NOTIZEN,NOTE,ANOTAÇÕES,NOTAS,ЗАМЕТКИ,NOTES,文字记录
-PASSWORD_TITLE,PASSWORD,MOT DE PASSE,PASSWORT,PASSWORD,SENHA,CONTRASEÑA,ПАРОЛЬ,PASSWORD,密码
-CODES_TITLE,CODES,CODES,CODES,CODICI,CÓDIGOS,CÓDIGOS,КОДЫ,CODES,密码
-ENTER_PASSCODE_TITLE,ENTER PASSCODE,SAISIR MOT DE PASSE,PASSWORT EINGEBEN,INSERISCI PASSWORD,INSIRA A SENHA,ESCRIBIR CLAVE,ВВОД ПАРОЛЯ,ENTER PASSCODE,输入密码
-PASSWORD_ACTIVATE,Activate,Activer,Aktivieren,Attiva,Ativar,Activar,Активировать,Activate,启动
-PASSWORD_DEACTIVATE,Deactivate,Désactiver,Deaktivieren,Disattiva,Desativar,Desactivar,Деактивировать,Deactivate,关停
-PASSWORD_EDIT,Edit,Éditer,Bearbeiten,Modifica,Editar,Editar,Редактировать,Edit,编辑
-PASSWORD_CLEAR,Clear,Effacer,Löschen,Cancella,Limpar,Borrar,Очистить,Clear,清空
+выбранное",아이템 사용,使用物品
+ACTION_INVENTORYLEFT,Menu L,Menu G,Menü L,Menu S,Menu E,Menú izq.,Меню слева,메뉴 L,菜单左
+ACTION_INVENTORYRIGHT,Menu R,Menu D,Menü R,Menu D,Menu D,Menú der.,Меню справа,메뉴 R,菜单右
+ACTION_MAPLEFT,Map L,Carte G,Karte L,Mappa S,Mapa E,Mapa izq.,Карта слева,지도 L,地图左
+ACTION_MAPRIGHT,Map R,Carte D,Karte R,Mappa D,Mapa D,Mapa der.,Карта справа,지도 R,地图右
+ACTION_OK,Confirm,Confirmer,Bestätigen,Conferma,Confirmar,Confirmar,Принять,확인,确认
+ACTION_CANCEL,Cancel,Annuler,Abbrechen,Annulla,Cancelar,Cancelar,Отмена,취소,取消
+ACTION_AIMUP,Aim Up,Viser vers le haut,Nach oben zielen,Mira Su,Mirar para cima,Apuntar arriba,Прицел вверх,위쪽 조준,向上瞄准
+ACTION_AIMDOWN,Aim Down,Viser vers le bas,Nach unten zielen,Mira Giù,Mirar para baixo,Apuntar abajo,Прицел вниз,아래쪽 조준,向下瞄准
+ACTION_AIMLEFT,Aim Left,Viser vers la gauche,Nach links zielen,Mira Sinistra,Mirar para a esquerda,Apuntar izquierda,Прицел влево,왼쪽 조준,向左瞄准
+ACTION_AIMRIGHT,Aim Right,Viser vers la droite,Nach rechts zielen,Mira Destra,Mirar para a direita,Apuntar derecha,Прицел вправо,오른쪽 조준,向右瞄准
+ACTION_WEAPONQUICKSELECT1,QSelect 1,SélectionR 1,Schn.-Ausw. 1,SelRap 1,Sel. rápida 1,Elección rápida 1,Б. выбор 1,단축 선택 1,快捷选择1
+ACTION_WEAPONQUICKSELECT2,QSelect 2,SélectionR 2,Schn.-Ausw. 2,SelRap 2,Sel. rápida 2,Elección rápida 2,Б. выбор 2,단축 선택 2,快捷选择2
+ACTION_WEAPONQUICKSELECT3,QSelect 3,SélectionR 3,Schn.-Ausw. 3,SelRap 3,Sel. rápida 3,Elección rápida 3,Б. выбор 3,단축 선택 3,快捷选择3
+ACTION_WEAPONQUICKSELECT4,QSelect 4,SélectionR 4,Schn.-Ausw. 4,SelRap 4,Sel. rápida 4,Elección rápida 4,Б. выбор 4,단축 선택 4,快捷选择4
+ACTION_WEAPONQUICKSELECT5,QSelect 5,SélectionR 5,Schn.-Ausw. 5,SelRap 5,Sel. rápida 5,Elección rápida 5,Б. выбор 5,단축 선택 5,快捷选择5
+ACTION_WEAPONQUICKSELECT6,QSelect 6,SélectionR 6,Schn.-Ausw. 6,SelRap 6,Sel. rápida 6,Elección rápida 6,Б. выбор 6,단축 선택 6,快捷选择6
+ACTION_WEAPONQUICKSELECT7,QSelect 7,SélectionR 7,Schn.-Ausw. 7,SelRap 7,Sel. rápida 7,Elección rápida 7,Б. выбор 7,단축 선택 7,快捷选择7
+ACTION_WEAPONQUICKSELECT8,QSelect 8,SélectionR 8,Schn.-Ausw. 8,SelRap 8,Sel. rápida 8,Elección rápida 8,Б. выбор 8,단축 선택 8,快捷选择8
+ACTION_WEAPONQUICKSELECT9,QSelect 9,SélectionR 9,Schn.-Ausw. 9,SelRap 9,Sel. rápida 9,Elección rápida 9,Б. выбор 9,단축 선택 9,快捷选择9
+ACTION_WEAPONQUICKSELECT10,QSelect 10,SélectionR 10,Schn.-Ausw. 10,SelRap 10,Sel. rápida 10,Elección rápida 10,Б. выбор 10,단축 선택 10,快捷选择10
+ACTION_UNKNOWN_1,Unknown 1,Inconnu 1,Unbek. 1,Sconosciuto 1,Desconhecido 1,Desconocido 1,Неизвестно 1,알 수 없음 1,未知1
+ACTION_UNKNOWN_2,Unknown 2,Inconnu 2,Unbek. 2,Sconosciuto 2,Desconhecido 2,Desconocido 2,Неизвестно 2,알 수 없음 2,未知2
+ACTION_UNKNOWN_3,Cancel/Unknown 3,Annuler/Inconnu 3,Abbrechen/Unbek. 3,Annulla/Sconosciuto 3,Cancelar/Desconhecido 3,Cancelar/Desconocido 3,Отмена/Неизвестно 3,취소/알 수 없음 3,取消/未知3
+ACTION_UNKNOWN_4,Unknown 4,Inconnu 4,Unbek. 4,Sconosciuto 4,Desconhecido 4,Desconocido 4,Неизвестно 4,알 수 없음 4,未知4
+INPUT_TITLE,Input Config,Commandes,TASTENBELEGUNG,Configurazione comandi,Configuração de controle,Config. de controles,Настройки ввода,입력 설정,键位设置
+INPUT_SAVE,Apply,Appliquer,Anwenden,Applica,Aplicar,Aplicar,Принять,적용,应用
+INPUT_DEFAULTS,Defaults,Par défaut,Standard,Predefiniti,Padrão,Valores predeterminados,По умолчанию,기본 설정,默认配置
+INPUT_CANCEL,Cancel,Annuler,Abbrechen,Annulla,Cancelar,Cancelar,Отмена,취소,取消
+INPUT_HELP_SAVE,Apply Changes and Continue,Appliquer les modifications et continuer,Änderungen anwenden und weiter,Applica le modifiche e continua,Aplicar as mudanças e continuar,Aplicar cambios y continuar,Принять изменения и продолжить,변경 사항을 적용하고 계속합니다.,应用变更，然后继续
+INPUT_HELP_DEFAULTS,Restore Defaults,Restaurer les paramètres par défaut,Standard wiederherstellen,Ripristina predefiniti,Restaurar padräo,Restaurar valores predeterminados,Вернуть по умолчанию,기본값으로 복원합니다.,恢复默认配置
+INPUT_HELP_CANCEL,Revert to Previous Settings and Exit,Rétablir les anciens paramètres et quitter,Zu vorherigen Einstellungen und abbrechen,Torna alle impostazioni precedenti ed esci,Voltar para as configurações anteriores e sair,Revertir a la configuración anterior y salir,Вернуть предыдущие настройки и выйти,이전 설정으로 되돌리고 종료합니다.,恢复前一套配置，然后退出
+INPUT_HELP_MAP,Press the Button You Wish to Use,Appuyez sur la touche que vous souhaitez utiliser,"Drücke die Taste, die du verwenden möchtest",Premi il tasto che vuoi utilizzare,Aperte o botão que deseja usar,Oprime el botón que deseas usar,"Нажмите кнопку, которую хотите использовать",사용할 버튼을 누르십시오.,按下你想设置的按键
+MB_OK,Ok,Ok,Ok,Ok,Ok,Aceptar,Ок,확인,好
+MB_YES,Yes,Oui,Ja,Sì,Sim,Sí,Да,예,肯定
+MB_NO,No,Non,Nein,No,Não,No,Нет,아니요,否定
+MB_CANCEL,Cancel,Annuler,Abbrechen,Annulla,Cancelar,Cancelar,Отмена,취소,取消
+MAP_TITLE,Map,Carte,Karte,Mappa,Mapa,Mapa,Карта,지도,地图
+INVENTORY_TITLE,INVENTORY,INVENTAIRE,INVENTAR,INVENTARIO,INVENTÁRIO,INVENTARIO,ИНВЕНТАРЬ,인벤토리,物品栏
+NOTES_TITLE,NOTES,NOTES,NOTIZEN,NOTE,ANOTAÇÕES,NOTAS,ЗАМЕТКИ,노트,文字记录
+PASSWORD_TITLE,PASSWORD,MOT DE PASSE,PASSWORT,PASSWORD,SENHA,CONTRASEÑA,ПАРОЛЬ,패스워드,密码
+CODES_TITLE,CODES,CODES,CODES,CODICI,CÓDIGOS,CÓDIGOS,КОДЫ,코드,密码
+ENTER_PASSCODE_TITLE,ENTER PASSCODE,SAISIR MOT DE PASSE,PASSWORT EINGEBEN,INSERISCI PASSWORD,INSIRA A SENHA,ESCRIBIR CLAVE,ВВОД ПАРОЛЯ,패스코드 입력,输入密码
+PASSWORD_ACTIVATE,Activate,Activer,Aktivieren,Attiva,Ativar,Activar,Активировать,활성화,启动
+PASSWORD_DEACTIVATE,Deactivate,Désactiver,Deaktivieren,Disattiva,Desativar,Desactivar,Деактивировать,비활성화,关停
+PASSWORD_EDIT,Edit,Éditer,Bearbeiten,Modifica,Editar,Editar,Редактировать,편집,编辑
+PASSWORD_CLEAR,Clear,Effacer,Löschen,Cancella,Limpar,Borrar,Очистить,지우기,清空
 PASSWORD_EXIT,EXIT,QUITTER,BEENDEN,ESCI,SAIR,SALIR,ВЫХОД,종료,退出
-PASSWORD_END,SAVE,SAUVEGARDER,SPEICHERN,SALVA,SALVAR,GUARDAR,СОХРАНИТЬ,SAVE,保存
-PASSCODE_DISABLE_TROPHIES,This will disable your ability to collect trophies with this save. Continue?,Cela vous empêchera de débloquer des trophées avec cette sauvegarde. Continuer ?,"Dies schaltet die Möglichkeit ab, in diesem Spielstand Trophäen zu sammeln. Weiter?",Questo salvataggio disattiverà l'abilità di collezionare trofei. Continuare?,Esta ação desabilitará a obtenção de troféus neste jogo. Continuar?,No podrás obtener trofeos con esta partida. ¿Continuar?,Это отключит возможность получать призы с этим сохранением. Продолжить?,This will disable your ability to collect trophies with this save. Continue?,这个存档将无法收集奖杯，确定继续？
-ITEMS_TITLE,Items,Objets,Gegenstände,Oggetti,Itens,Objetos,Предметы,Items,物品
-EQUIPMENT_TITLE,Equipment,Équipement,Ausrüstung,Equipaggiamento,Equipamento,Equipo,Снаряжение,Equipment,装备
-EQUIPPED_TITLE,Equipped,Équipé,Ausgerüstet,Equipaggiato,Equipado,Equipado,Снаряжено,Equipped,现已装备
-WEAPONS_TITLE,Weapons,Armes,Waffen,Armi,Armas,Armas,Оружие,Weapons,武器
-TOOLS_TITLE,ITEMS,OBJETS,GEGENSTÄNDE,OGGETTI,ITENS,OBJETOS,ПРЕДМЕТЫ,ITEMS,物品
-UPGRADES_TITLE,Upgrades,Améliorations,Upgrades,Potenziamenti,Aprimoramentos,Mejoras,Улучшения,Upgrades,新的能力
-POWERUPS_TITLE,Powerups,Powerups,Powerups,Power-up,,Potencias,Прокачка,Powerups,属性强化
-EQUIP_LABEL,Equip,Équiper,Ausrüsten,Equipaggia,Equipar,Equipar,Снарядить,Equip,装备
-INSTRUCTIONS_LABEL,Instructions,Instructions,Anleitung,Istruzioni,Instruções,Instrucciones,Инструкции,Instructions,说明
-ASSIGN_ACTION,Select The Button To Equip To,Sélectionnez un bouton à équiper,Wähle die Taste zum Ausrüsten,Seleziona il tasto per equipaggiare,Escolha um botão para equipar,Elegir a qué botón equipar,Выбрать кнопку для назначения,Select The Button To Equip To,选择需要分配的按键
-WEAPON_QUICK_SELECT_HINT,Assigned to Quick Select,Assigné à Sélection Rapide,Schnell-Auswahl zuweisen,Assegnato a Selezione Rapida,Designado para seleção rápida,Asignado a Selección rápida,Назначено на Быстрый выбор,Assigned to Quick Select,现已分配给快捷选择1
-WEAPON_QUICK_SELECT_2_HINT,Assigned to Quick Select 2,Assigné à Sélection Rapide 2,Schnell-Auswahl 2 zuweisen,Assegnato a Selezione Rapida 2,Designado para seleção rápida 2,Asignado a Selección rápida 2,Назначено на Быстрый выбор 2,Assigned to Quick Select 2,现已分配给快捷选择2
-WEAPON_QUICK_SELECT_ASSIGN_HINT,Open Weapon Select First.,Ouvrez d'abord la sélection d'arme.,Öffne zuerst die Waffenauswahl,Apri prima Selezione Armi,Abra a seleção de armas primeiro.,Abrir selección de arma primero.,Сначала откройте Выбор оружия.,Open Weapon Select First.,首先打开武器选择界面。
-SKILLS_TITLE,SKILLS,COMPÉTENCES,FÄHIGKEITEN,ABILITÀ,HABILIDADES,HABILIDADES,УМЕНИЯ,SKILLS,技能
-SKILLS_PURCHASE,Purchase this skill?,Acheter cette compétence ?,Diese Fähigkeit kaufen?,Vuoi acquistare questa abilità?,Adquirir esta habilidade?,¿Desbloquear habilidad?,Приобрести умение?,Purchase this skill?,购买这项技能？
-MAP_OVERVIEW,Overview,Panoramique,Übersicht,Panoramica,Visão geral,Vista general,Общие сведения,Overview,概况
-MAP_LEFT_LABEL,Previous Map,Carte précédente,Vorherige Karte,Mappa precedente,Mapa anterior,Mapa anterior,Предыдущая карта,Previous Map,前一地图
-MAP_RIGHT_LABEL,Next Map,Carte suivante,Nächste Karte,Mappa successiva,Próximo mapa,Mapa siguiente,Следующая карта,Next Map,后一地图
-MAP_SET_REMINDER,Set Reminder,Établir rappel,Erinnerung setzen,Imposta promemoria,Definir Lembrete,Fijar recordatorio,Напоминание,Set Reminder,设置备忘标记
-MAP_CLEAR_REMINDER,Clear Current Reminder?,Efface le rappel actuel ?,Aktuelle Erinnerung löschen?,Cancellare promemoria attuale?,Remover lembrete atual?,¿Borrar recordatorio actual?,Очистить текущее напоминание?,Clear Current Reminder?,清除当前备忘标记？
-MAP_ZOOM,Zoom,Zoom,Zoomen,Zoom,Aproximar,Zoom,Приближение,Zoom,缩放
-MAP_FAST_TRAVEL,Fast Travel,Voyage rapide,Schnellreise,Spostamento Veloce,Viagem Rápida,Viaje rápido,Быстрое перемещение,Fast Travel,快速移动
-GAME_PAUSED,GAME PAUSED,PARTIE EN PAUSE,SPIEL PAUSIERT,PARTITA IN PAUSA,JOGO PAUSADO,JUEGO EN PAUSA,ПАУЗА,GAME PAUSED,游戏暂停
-GO_TO_MAP,Map,Carte,Karte,Mappa,Mapa,Mapa,Карта,Map,地图
-GO_TO_INVENTORY,Inventory,Inventaire,Inventar,Inventario,Inventário,Inventario,Инвентарь,Inventory,物品栏
-GO_TO_OPTIONS,Options,Options,Optionen,Opzioni,Opções,Opciones,Настройки,Options,游戏选项
-GO_TO_SKILLS,Skills,Compétences,Fähigkeiten,Abilità,Habilidades,Habilidades,Умения,Skills,技能
-GO_TO_CONTROLLER_CONFIG,Gamepad Config,Config. manette,Gamepad-Einst.,Configurazione gamepad,Configuração do controle,Configuración de control,Настройки контроллера,Gamepad Config,手柄键位设置
-GO_TO_KEYBOARD_CONFIG,Keyboard Config,Config. clavier,Tastatur-Einst.,Configurazione tastiera,Configuração do teclado,Configuración de teclado,Настройки клавиатуры,Keyboard Config,键盘键位设置
-BACK_TO_GAME,Resume Play,Reprendre la partie,Spiel fortsetzen,Riprendi partita,Continuar jogando,Seguir jugando,Вернуться в игру,Resume Play,继续游戏
-BACK_TO_TITLE,Back to Title,Retour à l'écran titre,Zurück zum Titel,Torna al menu principale,Voltar para a tela inicial,Volver al título,Вернуться в меню,Back to Title,返回主菜单
-EXIT_GAME,Exit Game,Quitter le jeu,Spiel beenden,Esci dal gioco,Sair do jogo,Salir del juego,Выйти из игры,Exit Game,退出游戏
-EXIT_SAVE,Would you like to save your current progress?,Souhaitez-vous sauvegarder votre progression actuelle ?,Willst du deinen Spielfortschritt speichern?,Vuoi salvare i tuoi progressi correnti?,Gostaria de salvar seu progresso atual?,¿Quieres guardar tu progreso actual?,Хотите сохранить ваш текущий прогресс?,Would you like to save your current progress?,希望保存当前进度？
-SKIP_CUTSCENE,Skip this cutscene?,Passer la cinématique ?,Diese Zwischensequenz überspringen?,Vuoi saltare questo filmato?,Pular esta cena?,¿Saltar esta cinemática?,Пропустить этот ролик?,Skip this cutscene?,跳过这段过场动画？
-NAME_INSIDE,Interior,Intérieur,Innenraum,Interno,Interior,Interior,Внутри,Interior,室内
-NAME_OUTSIDE,Overworld,Extérieur,Oberwelt,Oltremondo,,Exterior,Верхний мир,Overworld,室外
-NAME_BREACH,Breach,Brèche,Bruch,Breccia,Ruptura,Brecha,Разлом,Breach,隙界
-NAME_EMERGENCE,The Emergence,L'Émergence,Die Emergenz,Emergenza,A Emergência,La Emergencia,Явление,The Emergence,显现
-NAME_FILTER,The Filter,Le filtre,Der Filter,Il Filtro,O Filtro,El Filtro,Фильтр,The Filter,滤界
-NAME_ANTARCTICA,Antarctica,Antarctique,Antarktis,Antartide,Antártida,La Antártida,Антарктида,Antarctica,南极
-NAME_POSTARCTICA,The Glacier,Le glacier,Der Gletscher,Il Ghiacciaio,A Geleira,El Glaciar,Ледник,The Glacier,冰川
-NAME_POSTARCTICABREACH,The Glacier (Breach),Le glacier (Brèche),Der Gletscher (Bruch),Il Ghiacciaio (Breccia),A Geleira (Ruptura),El Glaciar (Brecha),Ледник (Разлом),The Glacier (Breach),冰川（隙界）
-NAME_TAIGA,Mount Ebih,Mont Ebih,Berg Ebih,Monte Ebih,Monte Ebih,Monte Ebih,Гора Эбих,Mount Ebih,埃比赫山
-NAME_TAIGABREACH,Mount Ebih (Breach),Mont Ebih (Brèche),Berg Ebih (Bruch),Monte Ebih (Breccia),Monte Ebih (Ruptura),Monte Ebih (Brecha),Гора Эбих (Разлом),Mount Ebih (Breach),埃比赫山（隙界）
-NAME_GLACIALLAKE,Lake Amagi,Lac Amagi,Amagi-See,Lago Amagi,Lago Amagi,Lago Amagi,Озеро Амаги,Lake Amagi,阿玛吉湖
-NAME_GLACIALLAKEBREACH,Lake Amagi (Breach),Lac Amagi (Brèche),Amagi-See (Bruch),Lago Amagi (Breccia),Lago Amagi (Ruptura),Lago Amagi (Brecha),Озеро Амаги (Разлом),Lake Amagi (Breach),阿玛吉湖（隙界）
-NAME_HIGHDESERT,Giguna Steppes,Steppes de Giguna,Giguna-Steppe,Steppe di Giguna,Estepe Giguna,Estepas de Giguna,Степи Гигуна,Giguna Steppes,吉古纳草原
-NAME_HIGHDESERTBREACH,Giguna Steppes (Breach),Steppes de Giguna (Brèche),Giguna-Steppe (Bruch),Steppe di Giguna (Breccia),Estepe Giguna (Ruptura),Estepas de Giguna (Brecha),Степи Гигуна (Разлом),Giguna Steppes (Breach),吉古纳草原（隙界）
-NAME_OASIS,Uhrum Valley,Vallée d'Uhrum,Uhrum-Tal,Valle di Uhrum,Vale Uhrum,Valle Uhrum,Долина Ухрума,Uhrum Valley,厄鲁姆谷
-NAME_OASISBREACH,Uhrum Valley (Breach),Vallée d'Uhrum (Brèche),Uhrum-Tal (Bruch),Valle di Uhrum (Breccia),Vale Uhrum (Ruptura),Valle Uhrum (Brecha),Долина Ухрума (Разлом),Uhrum Valley (Breach),厄鲁姆谷（隙界）
-NAME_BEACH,Irikar,Irikar,Irikar,Irikar,Irikar,Irikar,Ирикар,Irikar,伊利卡尔
-NAME_BEACHBREACH,Irikar (Breach),Irikar (Brèche),Irikar (Bruch),Irikar (Breccia),Irikar (Ruptura),Irikar (Brecha),Ирикар (Разлом),Irikar (Breach),伊利卡尔（隙界）
-NAME_CAVERNS,Anunna Gorge,Gorge d'Anunna,Die Brücke,Gola di Anunna,Desfiladeiro Anunna,La Garganta de Anunna,Ущелье Аннунаки,Anunna Gorge,阿奴恩纳峡谷
-NAME_CAVERNSBREACH,Anunna Gorge (Breach),Gorge d'Anunna (Brèche),Die Brücke (Bruch),Gola di Anunna (Breccia),Desfiladeiro Anunna (Ruptura),La Garganta de Anunna (Brecha),Ущелье Аннунаки (Разлом),Anunna Gorge (Breach),阿奴恩纳峡谷（隙界）
-NAME_BUNKER,House of Anunna,Maison d'Anunna,Haus von Anunna,Casa di Anunna,Casa de Anunna,Casa de Anunna,Дом Аннунаки,House of Anunna,阿奴恩纳之府
-NAME_BUNKERBREACH,House of Anunna (Breach),Maison d'Anunna (Brèche),Haus von Anunna (Bruch),Casa di Anunna (Breccia),Casa de Anunna (Ruptura),Casa de Anunna (Brecha),Дом Аннунаки (Разлом),House of Anunna (Breach),阿奴恩纳之府（隙界）
-NAME_AREA1,ERIBU,ERIBU,ERIBU,ERIBU,ERIBU,ERIBU,ЭРИБУ,ERIBU,埃厄里布
-NAME_AREA2,ABSU,ABSU,ABSU,ABSU,ABSU,ABSU,АБСУ,ABSU,阿布苏
-NAME_AREA3,ZI,ZI,ZI,ZI,ZI,ZI,ЗИ,ZI,齐
-NAME_AREA4,KUR,KUR,KUR,KUR,KUR,KUR,КУР,KUR,库尔
-NAME_AREA5,INDI,INDI,INDI,INDI,INDI,INDI,ИНДИ,INDI,因狄
-NAME_AREA6,UKKIN-NA,UKKIN-NA,UKKIN-NA,UKKIN-NA,UKKIN-NA,UKKIN-NA,УККИН-НА,UKKIN-NA,乌今纳
-NAME_AREA7,EDIN,EDIN,EDIN,EDIN,EDIN,EDIN,ЭДИН,EDIN,埃丁
-NAME_AREA8,E-KUR-MAH,E-KUR-MAH,E-KUR-MAH,E-KUR-MAH,E-KUR-MAH,E-KUR-MAH,Э-КУР-МАХ,E-KUR-MAH,埃库勒马赫
-NAME_AREA9,MAR-URU,MAR-URU,MAR-URU,MAR-URU,MAR-URU,MAR-URU,МАР-УРУ,MAR-URU,马勒乌卢
-FINAL_SCORE,FINAL STATS,STATS FINALES,FINALE STATS,STATISTICHE FINALI,ESTATÍSTICAS FINAIS,ESTADÍSTICAS FINALES,КОНЕЧНАЯ СТАТИСТИКА,FINAL STATS,最终数据
-FINAL_TIME,Total Time:,Temps total :,Gesamte Zeit:,Tempo totale:,Tempo total:,Tiempo total:,Общее время:,Total Time:,用时总计：
-FINAL_ITEM_PERCENT,Items:,Objets :,Gegenstände:,Oggetti:,Itens:,Objetos:,Предметы:,Items:,物品：
-FINAL_SCREEN_COUNT,Map:,Carte :,Karten:,Mappa:,Mapa:,Mapa:,Карта:,Map:,地图：
-FINAL_DEATH_COUNT,Death Count:,Nombre de morts :,Anzahl Tode:,Contatore morti:,Mortes:,Muertes:,Смерти:,Death Count:,死亡次数：
-FINAL_DIFFICULTY,Difficulty:,Difficulté :,Schwierigkeit:,Difficoltà:,Dificuldade:,Dificultad:,Сложность:,Difficulty:,难度：
-FINAL_CHEATS,Cheats:,Triches :,Cheats:,Trucchi:,Trapaças:,Trucos:,Читы:,Cheats:,作弊次数：
-NAME_SECURITYWORM,Xedur,Xedur,Xedur,Xedur,Xedur,Xedur,Зидур,Xedur,谢杜勒
-NAME_SECURITYWORMADVANCED,Xedur Hul,Xedur Hul,Xedur Hul,Xedur Hul,Xedur Hul,Xedur Hul,Зидур Хул,Xedur Hul,谢杜勒胡尔
-NAME_SOLDIERBOSS,Telal,Telal,Telal,Telal,Telal,Telal,Телал,Telal,忒拉尔
-NAME_SLUGBOSS,Uruku,Uruku,Uruku,Uruku,Uruku,Uruku,Уруку,Uruku,乌厄鲁库
-NAME_SCORPIONBOSS,Gir-Tab,Gir-Tab,Gir-Tab,Gir-Tab,Gir-Tab,Gir-Tab,Гир-Таб,Gir-Tab,基勒塔布
-NAME_MANTABOSS,Vision,Vision,Vision,Visione,Visão,Visión,Видение,Vision,幻想
-NAME_DEFORMEDTRACE,Clone,Clone,Clone,Clone,Clone,Clon,Клон,Clone,克隆
-NAME_SPITBUGBOSS,Ukhu,Ukhu,Ukhu,Ukhu,Ukhu,Ukhu,Уку,Ukhu,乌库
-NAME_SENTINEL,Sentinel,Sentinelle,Sentinel,Sentinella,Sentinela,Centinela,Страж,Sentinel,卫兵
-NAME_ATHETOS,Athetos,Athetos,Athetos,Athetos,Athetos,Athetos,Атетос,Athetos,阿塞托斯
-VIDEO_TITLE,VIDEO OPTIONS,OPTIONS VIDÉO,GRAFIKOPTIONEN,OPZIONI VIDEO,OPÇÕES DE VÍDEO,OPCIONES DE VIDEO,НАСТРОЙКИ ВИДЕО,VIDEO OPTIONS,画面选项
-VIDEO_WINDOWED_OR_FULLSCREEN,DISPLAY MODE,AFFICHAGE,ANZEIGEMODUS,MODALITÀ SCHERMO,MODO DE EXIBIÇÃO,MODO DE PANTALLA,РЕЖИМ ЭКРАНА,DISPLAY MODE,显示模式
-VIDEO_WINDOWED,Windowed,Fenêtré,Fenster,In finestra,Em janela,Modo ventana,Оконный,Windowed,窗口化
-VIDEO_FULLSCREEN,Fullscreen (Alt + Enter),Plein écran (Alt + Entrée),Vollbild (Alt + Eingabe),Schermo intero (Alt + Invio),Tela cheia (Alt + Enter),Pantalla completa (Alt + Enter),Полнноэкранный (Alt + Enter),Fullscreen (Alt + Enter),全屏（Alt+Enter）
-VIDEO_WINDOW_SCALE,Window Scale,Échelle fenêtre,Fenster-Vergrößerung,Scala finestra,Tamanho da janela,Escala de ventana,Размер окна,Window Scale,窗口缩放
-VIDEO_1X,1X,1X,1X,1X,1X,X1,1X,1X,1倍
-VIDEO_2X,2X,2X,2X,2X,2X,X2,2X,2X,2倍
-VIDEO_3X,3X,3X,3X,3X,3X,X3,3X,3X,3倍
-VIDEO_4X,4X,4X,4X,4X,4X,X4,4X,4X,4倍
-VIDEO_5X,5X,5X,5X,5X,5X,X5,5X,5X,5倍
-VIDEO_SCREEN_SCALE,SCREEN SCALING (When Docked),Échelle de l'écran (quand branché),BILDSCHIRMSKALIERUNG (wenn angedockt),Scala dello schermo (in modalità docked),ESCALA DE TELA (na base),ESCALA DE PANTALLA (en la base),МАСШТАБИРОВАНИЕ (в настольном режиме),SCREEN SCALING (When Docked),画面缩放（底座模式）
-VIDEO_SCREEN_FILL,Fill (Stretch),Remplir (étirer),Füllen (Strecken),Piena (stretchata),Preencher (Esticar),Rellenar (estirar),Заполнить (Растянуть),Fill (Stretch),填充（拉伸）
-VIDEO_SCREEN_EXACT,Exact (Black borders),Exact (bordures noires),Exakt (Schwarze Ränder),Esatta (bordi neri),Exata (Bordas pretas),Exacto (bordes negros),Оригинал (Черные рамки),Exact (Black borders),居中（黑边）
-VSYNC_TITLE,VSYNC,VSYNC,VSYNC,SINCRONIA VERTICALE,SINCRONIZAÇÃO VERTICAL,SINCRONIZACIÓN VERTICAL,ВЕРТ. СИНХРОНИЗАЦИЯ,VSYNC,垂直同步
-GRAPHICS_DETAIL_TITLE,GRAPHICS DETAIL,DÉTAILS GRAPHIQUES,GRAFIKDETAILS,DETTAGLIO GRAFICO,DETALHES GRÁFICOS,DETALLES GRÁFICOS,НАСТРОЙКИ ГРАФИКИ,GRAPHICS DETAIL,图像细节
-AUDIO_TITLE,AUDIO OPTIONS,OPTIONS AUDIO,AUDIO-OPTIONEN,OPZIONI AUDIO,OPÇÕES DE ÁUDIO,OPCIONES DE AUDIO,НАСТРОЙКИ АУДИО,AUDIO OPTIONS,声音选项
-AUDIO_SFX,SOUND EFFECT VOLUME,VOLUME DES EFFETS,SFX-LAUTSTÄRKE,VOLUME EFFETTI,VOLUME DOS EFEITOS SONOROS,VOLUMEN DE EFECTOS,ГРОМКОСТЬ ЭФФЕКТОВ,SOUND EFFECT VOLUME,声效音量
-AUDIO_MUSIC,MUSIC VOLUME,VOLUME DE LA MUSIQUE,MUSIK-LAUTSTÄRKE,VOLUME MUSICA,VOLUME DA MÚSICA,VOLUMEN DE MÚSICA,ГРОМКОСТЬ МУЗЫКИ,MUSIC VOLUME,音乐音量
-PROMPT_SAVE,Save,Sauvegarder,Speichern,Salva,Salvar,Guardar,Сохранить,Save,保存
-PROMPT_TAKE,Take,Prendre,Nehmen,Prendi,Pegar,Tomar,Взять,Take,捡起
-PROMPT_ENTER,Enter,Entrer,Betreten,Entra,Entrar,Entrar,Войти,Enter,进入
-PROMPT_EXIT,Exit,Sortir,Verlassen,Esci,Sair,Salir,Выйти,Exit,离开
-PROMPT_TURN_ON,Turn On,Allumer,Einschalten,Accendi,Ligar,Encender,Включить,Turn On,启动
-PROMPT_TURN_OFF,Turn Off,Éteindre,Ausschalten,Spegni,Desligar,Apagar,Выключить,Turn Off,关闭
-PROMPT_FLASHLIGHT,Flashlight,Lampe torche,Taschenlampe,Torcia,Lanterna,Linterna,Фонарик,Flashlight,手电筒
-ACCESSIBILITY_TITLE,Accessibility,Accessibilité,Barrierefreiheit,Accessibilità,Acessibilidade,Accesibilidad,Доступность,Accessibility,辅助功能
-ENEMY_DAMAGE_MULTIPLIER_TITLE,Enemy Damage Multiplier,Multiplicateur des dégâts ennemis,Feindes-Schadensmultiplikator,Moltiplicatore danno nemico,Multiplicador de dano dos inimigos,Multiplicador de daño enemigo,Коэффициент урона врагов,Enemy Damage Multiplier,敌方伤害乘数
-ENEMY_DAMAGE_MULTIPLIER_DESC,Multiplies the amount of damage enemies do to you.,Multiplie les dégâts que les ennemis vous infligent.,"Vervielfacht den Schaden, den Gegner dir zufügen.",Moltiplica la quantità di danno che i nemici ti infliggono.,Multiplica o dano que os inimigos causam a você.,Multiplica el daño que te infligen los enemigos.,"Регулирует количество урона, наносимого вам врагами.",Multiplies the amount of damage enemies do to you.,敌方实际对你造成的伤害等于敌人本身的伤害能力乘以这个数字。
-PLAYER_DAMAGE_MULTIPLIER_TITLE,Player Damage Multiplier,Multiplicateur des dégâts joueur,Spieler-Schadensmultiplikator,Moltiplicatore danno giocatore,Multiplicador de dano do jogador,Multiplicador de daño propio,Коэффициент урона игрока,Player Damage Multiplier,玩家伤害乘数
-PLAYER_DAMAGE_MULTIPLIER_DESC,Multiplies the amount of damage you do to enemies.,Multiplie les dégâts que vous infligez aux ennemis.,"Vervielfacht den Schaden, den du deinen Gegnern zufügst.",Moltiplica la quantità di danno che infliggi al nemico.,Multiplica o dano que você causa aos inimigos.,Multiplica el daño que infliges a los enemigos.,"Регулирует количество урона, наносимого вами врагам.",Multiplies the amount of damage you do to enemies.,你实际对敌方造成的伤害等于你本身的伤害能力乘以这个数字。
-GAME_SPEED_MULTIPLIER_TITLE,Game Speed Multiplier,Multiplicateur de vitesse de jeu,Spielgeschwindigkeitsmultiplikator,Moltiplicatore velocità di gioco,Multiplicador da velocidade do jogo,Multiplicador de velocidad,Коэффициент скорости игры,Game Speed Multiplier,游戏速度乘数
-GAME_SPEED_MULTIPLIER_DESC,Multiplies speed for the full game.,Multiplie la vitesse du jeu entier.,Vervielfacht die Geschwindigkeit für das gesamte Spiel.,Moltiplica la velocità del gioco completo.,Multiplica a velocidade de todo o jogo.,Multiplica la velocidad del juego.,Регулирует скорость всей игры.,Multiplies speed for the full game.,游戏全程速度相应加快或减缓。
-FLICKER_REDUCTION_TITLE,Flicker / Strobe Reduction,Clignotement/Réduction stroboscopique,FLACKERN/STROBOSKOP REDUZIEREN,RIDUZIONE SFARFALLIO/IMPULSI,REDUÇÃO DE CINTILAÇÃO / ESTROBOSCÓPICA,Reducción de parpadeo,Уменьшение мерцания / ряби,Flicker / Strobe Reduction,闪光效果减弱
-FLICKER_REDUCTION_DESC,Attempts to reduce flashing patterns displayed in game.,Tente de réduire les motifs clignotants affichés dans le jeu.,"Versucht, die im Spiel angezeigten Blinksignale zu reduzieren.",Prova a ridurre la quantità di luci lampeggianti mostrate nel gioco.,Tenta reduzir os padrões brilhantes exibidos no jogo.,Intenta reducir los patrones luminosos del juego.,"Призвано уменьшить мерцание элементов, представленных в игре.",Attempts to reduce flashing patterns displayed in game.,尽量减少游戏出现的闪光。
-PLATFORM_CONTRAST_TITLE,Platform Contrast,Contraste des plateformes,Plattform-Kontrast,Contrasto piattaforme,Contraste de plataformas,Contraste de plataformas,Контраст платформ,Platform Contrast,平台对比度增强
-PLATFORM_CONTRAST_DESC,Attempts to increase contrast of platforms versus the background.,Tente d'augmenter le contraste des plateformes par rapport à l'arrière-plan.,"Versucht, den Kontrast der Plattformen zum Hintergrund zu erhöhen.",Prova a aumentare il contrasto delle piattaforme rispetto allo sfondo.,Tenta aumentar o contraste da plataforma em relação ao plano de fundo.,Intenta aumentar el contraste entre las plataformas y el fondo.,Призвано увеличить контрастность платформ по сравнению с задниками.,Attempts to increase contrast of platforms versus the background.,尽量增强平台与背景的对比度。
-SPRITE_OUTLINE_TITLE,Sprite Outlines,Contours des sprites,Sprite-Umrisse,Contorni sprite,Contorno de sprites,Contornos delineados,Обводка спрайтов,Sprite Outlines,立绘轮廓
-SPRITE_OUTLINE_DESC,Outlines sprites to improve visibility.,Trace le contour des sprites pour améliorer la visibilité.,"Umrandet Sprites, um die Sichtbarkeit zu verbessern.",Aumenta il contorno degli sprite per migliorare la visibilità.,Adiciona contorno aos sprites para melhorar a visibilidade.,Repasa el contorno de los sprites para mayor visibilidad.,У спрайтов теперь есть контуры для улучшения видимости.,Outlines sprites to improve visibility.,立绘显示轮廓，以便玩家观察。
-ACTION_ZOOM,Zoom,Zoom,Zoomen,Zoom,Aproximar,Zoom,Приближение,Zoom,缩放
-DAMAGE_LABEL,Damage,Dégâts,Schaden,Danno,Dano,Daño,Урон,Damage,伤害
-PROJECTILE_SPEED_LABEL,Projectile Speed,Vitesse des projectiles,Projektil-Geschwindigkeit,Velocità del proiettile,Velocidade de projétil,Velocidad del proyectil,Скорость снаряда,Projectile Speed,投射速度
-COOLDOWN_LABEL,CoolDown,Temps de recharge,Abklingzeit,Tempo di ricarica,Recarga,Enfriamiento,Кулдаун,CoolDown,冷却
-VIDEO_SCREEN_SCALE_PS4,SCREEN SCALING,Échelle de l'écran,BILDSCHIRMSKALIERUNG,Scala dello schermo,ESCALA DE TELA,ESCALA DE PANTALLA,МАСШТАБИРОВАНИЕ,SCREEN SCALING,画面缩放
-OPTIONS_CONTROLLER_CONFIG_TITLE_PS4,INPUT CONFIGURATION,CONFIGURATION DES TOUCHES,TASTENBELEGUNG,CONFIGURAZIONE COMANDI,CONFIGURAÇÃO DO CONTROLE,CONFIGURACIÓN DE CONTROL,НАСТРОЙКИ КОНТРОЛЛЕРА,INPUT CONFIGURATION,手柄键位设置
-OPTIONS_CONTROLLER_CONFIG_TITLE_NSWITCH,INPUT CONFIGURATION,CONFIGURATION DES TOUCHES,TASTENBELEGUNG,CONFIGURAZIONE COMANDI,CONFIGURAÇÃO DO CONTROLE,CONFIGURACIÓN DE CONTROL,НАСТРОЙКИ КОНТРОЛЛЕРА,INPUT CONFIGURATION,手柄键位设置
-INPUT_ICON_STYLE,Icon Style,Icônes des boutons,Icon-Stil,Stile delle icone,Estilo de Ícone,Íconos de botones,Стиль иконки,Icon Style,图标样式
-INPUT_HELP_ICON_STYLE,Cycle button icon styles.,Changer les icônes des boutons.,Wechselt zwischen den Icon-Stilen der Tasten.,Cambia lo stile delle icone dei pulsanti.,Alterna o estilo de ícones dos botões.,Cambiar los íconos de los botones.,Стиль иконки кнопки прокрутки,Cycle button icon styles.,切换按钮图标样式
-INPUT_HELP_LEFT_ANALOG_MIRRORS_DPAD,Have the left stick mirror the directional pad.,Le stick gauche fonctionnera comme la croix directionnelle.,Lässt den linken stick das Steuerkreuz spiegeln.,La levetta sinistra funzionerà allo stesso modo del pad direzionale.,Faz o botão analógico esquerdo espelhar o direcional.,El palanca izquierdo funcionará igual que el pad direccional.,Левый мини-джойстик теперь дублирует кнопки направлений.,Have the left stick mirror the directional pad.,令L摇杆映射方向按键。
-INPUT_HELP_LEFT_ANALOG_MIRRORS_DPAD_NSWITCH,Have the left stick mirror the directional buttons.,Le stick gauche fonctionnera comme les boutons directionnels.,Lässt den linken stick das Richtungsknöpfe spiegeln.,La levetta sinistra funzionerà allo stesso modo dei pulsanti direzionali.,Faz o botão analógico esquerdo espelhar os botões direcionais.,El palanca izquierdo funcionará igual que los botones de dirección.,Левый мини-джойстик теперь дублирует кнопки направлений.,Have the left stick mirror the directional buttons.,令L摇杆映射方向键。
-AUDIO_TEXT_TO_SPEECH_DIALOGUE,Text to Speech (Dialogue),Synthèse vocale (Dialogue),Text-to-Speech (Dialog),Sintesi vocale (Dialogo),Texto para fala (diálogo),Texto a voz (diálogo),Преобразование текста в речь (диалог),Text to Speech (Dialogue),文本到语音（对话）
+PASSWORD_END,SAVE,SAUVEGARDER,SPEICHERN,SALVA,SALVAR,GUARDAR,СОХРАНИТЬ,저장,保存
+PASSCODE_DISABLE_TROPHIES,This will disable your ability to collect trophies with this save. Continue?,Cela vous empêchera de débloquer des trophées avec cette sauvegarde. Continuer ?,"Dies schaltet die Möglichkeit ab, in diesem Spielstand Trophäen zu sammeln. Weiter?",Questo salvataggio disattiverà l'abilità di collezionare trofei. Continuare?,Esta ação desabilitará a obtenção de troféus neste jogo. Continuar?,No podrás obtener trofeos con esta partida. ¿Continuar?,Это отключит возможность получать призы с этим сохранением. Продолжить?,이 패스코드를 사용하면 이 세이브 파일에서 도전 과제를 획득할 수 없게 됩니다. 계속하시겠습니까?,这个存档将无法收集奖杯，确定继续？
+ITEMS_TITLE,Items,Objets,Gegenstände,Oggetti,Itens,Objetos,Предметы,아이템,物品
+EQUIPMENT_TITLE,Equipment,Équipement,Ausrüstung,Equipaggiamento,Equipamento,Equipo,Снаряжение,장비,装备
+EQUIPPED_TITLE,Equipped,Équipé,Ausgerüstet,Equipaggiato,Equipado,Equipado,Снаряжено,장착됨,现已装备
+WEAPONS_TITLE,Weapons,Armes,Waffen,Armi,Armas,Armas,Оружие,무기,武器
+TOOLS_TITLE,ITEMS,OBJETS,GEGENSTÄNDE,OGGETTI,ITENS,OBJETOS,ПРЕДМЕТЫ,아이템,物品
+UPGRADES_TITLE,Upgrades,Améliorations,Upgrades,Potenziamenti,Aprimoramentos,Mejoras,Улучшения,업그레이드,新的能力
+POWERUPS_TITLE,Powerups,Powerups,Powerups,Power-up,,Potencias,Прокачка,파워업,属性强化
+EQUIP_LABEL,Equip,Équiper,Ausrüsten,Equipaggia,Equipar,Equipar,Снарядить,장착,装备
+INSTRUCTIONS_LABEL,Instructions,Instructions,Anleitung,Istruzioni,Instruções,Instrucciones,Инструкции,설명,说明
+ASSIGN_ACTION,Select The Button To Equip To,Sélectionnez un bouton à équiper,Wähle die Taste zum Ausrüsten,Seleziona il tasto per equipaggiare,Escolha um botão para equipar,Elegir a qué botón equipar,Выбрать кнопку для назначения,장착할 버튼을 선택하십시오.,选择需要分配的按键
+WEAPON_QUICK_SELECT_HINT,Assigned to Quick Select,Assigné à Sélection Rapide,Schnell-Auswahl zuweisen,Assegnato a Selezione Rapida,Designado para seleção rápida,Asignado a Selección rápida,Назначено на Быстрый выбор,단축 선택에 지정됨,现已分配给快捷选择1
+WEAPON_QUICK_SELECT_2_HINT,Assigned to Quick Select 2,Assigné à Sélection Rapide 2,Schnell-Auswahl 2 zuweisen,Assegnato a Selezione Rapida 2,Designado para seleção rápida 2,Asignado a Selección rápida 2,Назначено на Быстрый выбор 2,단축 선택 2에 지정됨,现已分配给快捷选择2
+WEAPON_QUICK_SELECT_ASSIGN_HINT,Open Weapon Select First.,Ouvrez d'abord la sélection d'arme.,Öffne zuerst die Waffenauswahl,Apri prima Selezione Armi,Abra a seleção de armas primeiro.,Abrir selección de arma primero.,Сначала откройте Выбор оружия.,먼저 무기 선택 창을 여십시오.,首先打开武器选择界面。
+SKILLS_TITLE,SKILLS,COMPÉTENCES,FÄHIGKEITEN,ABILITÀ,HABILIDADES,HABILIDADES,УМЕНИЯ,스킬,技能
+SKILLS_PURCHASE,Purchase this skill?,Acheter cette compétence ?,Diese Fähigkeit kaufen?,Vuoi acquistare questa abilità?,Adquirir esta habilidade?,¿Desbloquear habilidad?,Приобрести умение?,이 스킬을 습득하시겠습니까?,购买这项技能？
+MAP_OVERVIEW,Overview,Panoramique,Übersicht,Panoramica,Visão geral,Vista general,Общие сведения,전체 지도,概况
+MAP_LEFT_LABEL,Previous Map,Carte précédente,Vorherige Karte,Mappa precedente,Mapa anterior,Mapa anterior,Предыдущая карта,이전 지도,前一地图
+MAP_RIGHT_LABEL,Next Map,Carte suivante,Nächste Karte,Mappa successiva,Próximo mapa,Mapa siguiente,Следующая карта,다음 지도,后一地图
+MAP_SET_REMINDER,Set Reminder,Établir rappel,Erinnerung setzen,Imposta promemoria,Definir Lembrete,Fijar recordatorio,Напоминание,알림 설정,设置备忘标记
+MAP_CLEAR_REMINDER,Clear Current Reminder?,Efface le rappel actuel ?,Aktuelle Erinnerung löschen?,Cancellare promemoria attuale?,Remover lembrete atual?,¿Borrar recordatorio actual?,Очистить текущее напоминание?,현재 알림 설정을 지우시겠습니까?,清除当前备忘标记？
+MAP_ZOOM,Zoom,Zoom,Zoomen,Zoom,Aproximar,Zoom,Приближение,확대/축소,缩放
+MAP_FAST_TRAVEL,Fast Travel,Voyage rapide,Schnellreise,Spostamento Veloce,Viagem Rápida,Viaje rápido,Быстрое перемещение,빠른 이동,快速移动
+GAME_PAUSED,GAME PAUSED,PARTIE EN PAUSE,SPIEL PAUSIERT,PARTITA IN PAUSA,JOGO PAUSADO,JUEGO EN PAUSA,ПАУЗА,일시 정지,游戏暂停
+GO_TO_MAP,Map,Carte,Karte,Mappa,Mapa,Mapa,Карта,지도,地图
+GO_TO_INVENTORY,Inventory,Inventaire,Inventar,Inventario,Inventário,Inventario,Инвентарь,인벤토리,物品栏
+GO_TO_OPTIONS,Options,Options,Optionen,Opzioni,Opções,Opciones,Настройки,옵션,游戏选项
+GO_TO_SKILLS,Skills,Compétences,Fähigkeiten,Abilità,Habilidades,Habilidades,Умения,스킬,技能
+GO_TO_CONTROLLER_CONFIG,Gamepad Config,Config. manette,Gamepad-Einst.,Configurazione gamepad,Configuração do controle,Configuración de control,Настройки контроллера,게임패드 설정,手柄键位设置
+GO_TO_KEYBOARD_CONFIG,Keyboard Config,Config. clavier,Tastatur-Einst.,Configurazione tastiera,Configuração do teclado,Configuración de teclado,Настройки клавиатуры,키보드 설정,键盘键位设置
+BACK_TO_GAME,Resume Play,Reprendre la partie,Spiel fortsetzen,Riprendi partita,Continuar jogando,Seguir jugando,Вернуться в игру,게임 재개,继续游戏
+BACK_TO_TITLE,Back to Title,Retour à l'écran titre,Zurück zum Titel,Torna al menu principale,Voltar para a tela inicial,Volver al título,Вернуться в меню,타이틀로 돌아가기,返回主菜单
+EXIT_GAME,Exit Game,Quitter le jeu,Spiel beenden,Esci dal gioco,Sair do jogo,Salir del juego,Выйти из игры,게임 종료,退出游戏
+EXIT_SAVE,Would you like to save your current progress?,Souhaitez-vous sauvegarder votre progression actuelle ?,Willst du deinen Spielfortschritt speichern?,Vuoi salvare i tuoi progressi correnti?,Gostaria de salvar seu progresso atual?,¿Quieres guardar tu progreso actual?,Хотите сохранить ваш текущий прогресс?,현재 게임 진행 상황을 저장하시겠습니까?,希望保存当前进度？
+SKIP_CUTSCENE,Skip this cutscene?,Passer la cinématique ?,Diese Zwischensequenz überspringen?,Vuoi saltare questo filmato?,Pular esta cena?,¿Saltar esta cinemática?,Пропустить этот ролик?,컷신을 건너뛰시겠습니까?,跳过这段过场动画？
+NAME_INSIDE,Interior,Intérieur,Innenraum,Interno,Interior,Interior,Внутри,내부,室内
+NAME_OUTSIDE,Overworld,Extérieur,Oberwelt,Oltremondo,,Exterior,Верхний мир,지상 세계,室外
+NAME_BREACH,Breach,Brèche,Bruch,Breccia,Ruptura,Brecha,Разлом,브리치,隙界
+NAME_EMERGENCE,The Emergence,L'Émergence,Die Emergenz,Emergenza,A Emergência,La Emergencia,Явление,에머전스,显现
+NAME_FILTER,The Filter,Le filtre,Der Filter,Il Filtro,O Filtro,El Filtro,Фильтр,필터 구역,滤界
+NAME_ANTARCTICA,Antarctica,Antarctique,Antarktis,Antartide,Antártida,La Antártida,Антарктида,남극,南极
+NAME_POSTARCTICA,The Glacier,Le glacier,Der Gletscher,Il Ghiacciaio,A Geleira,El Glaciar,Ледник,빙하 지역,冰川
+NAME_POSTARCTICABREACH,The Glacier (Breach),Le glacier (Brèche),Der Gletscher (Bruch),Il Ghiacciaio (Breccia),A Geleira (Ruptura),El Glaciar (Brecha),Ледник (Разлом),빙하 지역 (브리치),冰川（隙界）
+NAME_TAIGA,Mount Ebih,Mont Ebih,Berg Ebih,Monte Ebih,Monte Ebih,Monte Ebih,Гора Эбих,에비흐 산,埃比赫山
+NAME_TAIGABREACH,Mount Ebih (Breach),Mont Ebih (Brèche),Berg Ebih (Bruch),Monte Ebih (Breccia),Monte Ebih (Ruptura),Monte Ebih (Brecha),Гора Эбих (Разлом),에비흐 산 (브리치),埃比赫山（隙界）
+NAME_GLACIALLAKE,Lake Amagi,Lac Amagi,Amagi-See,Lago Amagi,Lago Amagi,Lago Amagi,Озеро Амаги,아마기 호수,阿玛吉湖
+NAME_GLACIALLAKEBREACH,Lake Amagi (Breach),Lac Amagi (Brèche),Amagi-See (Bruch),Lago Amagi (Breccia),Lago Amagi (Ruptura),Lago Amagi (Brecha),Озеро Амаги (Разлом),아마기 호수 (브리치),阿玛吉湖（隙界）
+NAME_HIGHDESERT,Giguna Steppes,Steppes de Giguna,Giguna-Steppe,Steppe di Giguna,Estepe Giguna,Estepas de Giguna,Степи Гигуна,기구나 초원,吉古纳草原
+NAME_HIGHDESERTBREACH,Giguna Steppes (Breach),Steppes de Giguna (Brèche),Giguna-Steppe (Bruch),Steppe di Giguna (Breccia),Estepe Giguna (Ruptura),Estepas de Giguna (Brecha),Степи Гигуна (Разлом),기구나 초원 (브리치),吉古纳草原（隙界）
+NAME_OASIS,Uhrum Valley,Vallée d'Uhrum,Uhrum-Tal,Valle di Uhrum,Vale Uhrum,Valle Uhrum,Долина Ухрума,우흐룸 계곡,厄鲁姆谷
+NAME_OASISBREACH,Uhrum Valley (Breach),Vallée d'Uhrum (Brèche),Uhrum-Tal (Bruch),Valle di Uhrum (Breccia),Vale Uhrum (Ruptura),Valle Uhrum (Brecha),Долина Ухрума (Разлом),우흐룸 계곡 (브리치),厄鲁姆谷（隙界）
+NAME_BEACH,Irikar,Irikar,Irikar,Irikar,Irikar,Irikar,Ирикар,이리카르,伊利卡尔
+NAME_BEACHBREACH,Irikar (Breach),Irikar (Brèche),Irikar (Bruch),Irikar (Breccia),Irikar (Ruptura),Irikar (Brecha),Ирикар (Разлом),이리카르 (브리치),伊利卡尔（隙界）
+NAME_CAVERNS,Anunna Gorge,Gorge d'Anunna,Die Brücke,Gola di Anunna,Desfiladeiro Anunna,La Garganta de Anunna,Ущелье Аннунаки,아눈나 협곡,阿奴恩纳峡谷
+NAME_CAVERNSBREACH,Anunna Gorge (Breach),Gorge d'Anunna (Brèche),Die Brücke (Bruch),Gola di Anunna (Breccia),Desfiladeiro Anunna (Ruptura),La Garganta de Anunna (Brecha),Ущелье Аннунаки (Разлом),아눈나 협곡 (브리치),阿奴恩纳峡谷（隙界）
+NAME_BUNKER,House of Anunna,Maison d'Anunna,Haus von Anunna,Casa di Anunna,Casa de Anunna,Casa de Anunna,Дом Аннунаки,아눈나의 처소,阿奴恩纳之府
+NAME_BUNKERBREACH,House of Anunna (Breach),Maison d'Anunna (Brèche),Haus von Anunna (Bruch),Casa di Anunna (Breccia),Casa de Anunna (Ruptura),Casa de Anunna (Brecha),Дом Аннунаки (Разлом),아눈나의 처소 (브리치),阿奴恩纳之府（隙界）
+NAME_AREA1,ERIBU,ERIBU,ERIBU,ERIBU,ERIBU,ERIBU,ЭРИБУ,에리부,埃厄里布
+NAME_AREA2,ABSU,ABSU,ABSU,ABSU,ABSU,ABSU,АБСУ,압수,阿布苏
+NAME_AREA3,ZI,ZI,ZI,ZI,ZI,ZI,ЗИ,지,齐
+NAME_AREA4,KUR,KUR,KUR,KUR,KUR,KUR,КУР,쿠르,库尔
+NAME_AREA5,INDI,INDI,INDI,INDI,INDI,INDI,ИНДИ,인디,因狄
+NAME_AREA6,UKKIN-NA,UKKIN-NA,UKKIN-NA,UKKIN-NA,UKKIN-NA,UKKIN-NA,УККИН-НА,우킨나,乌今纳
+NAME_AREA7,EDIN,EDIN,EDIN,EDIN,EDIN,EDIN,ЭДИН,에딘,埃丁
+NAME_AREA8,E-KUR-MAH,E-KUR-MAH,E-KUR-MAH,E-KUR-MAH,E-KUR-MAH,E-KUR-MAH,Э-КУР-МАХ,에쿠르마,埃库勒马赫
+NAME_AREA9,MAR-URU,MAR-URU,MAR-URU,MAR-URU,MAR-URU,MAR-URU,МАР-УРУ,마루루,马勒乌卢
+FINAL_SCORE,FINAL STATS,STATS FINALES,FINALE STATS,STATISTICHE FINALI,ESTATÍSTICAS FINAIS,ESTADÍSTICAS FINALES,КОНЕЧНАЯ СТАТИСТИКА,최종 통계,最终数据
+FINAL_TIME,Total Time:,Temps total :,Gesamte Zeit:,Tempo totale:,Tempo total:,Tiempo total:,Общее время:,총 플레이 시간:,用时总计：
+FINAL_ITEM_PERCENT,Items:,Objets :,Gegenstände:,Oggetti:,Itens:,Objetos:,Предметы:,아이템:,物品：
+FINAL_SCREEN_COUNT,Map:,Carte :,Karten:,Mappa:,Mapa:,Mapa:,Карта:,지도:,地图：
+FINAL_DEATH_COUNT,Death Count:,Nombre de morts :,Anzahl Tode:,Contatore morti:,Mortes:,Muertes:,Смерти:,사망 횟수:,死亡次数：
+FINAL_DIFFICULTY,Difficulty:,Difficulté :,Schwierigkeit:,Difficoltà:,Dificuldade:,Dificultad:,Сложность:,난이도:,难度：
+FINAL_CHEATS,Cheats:,Triches :,Cheats:,Trucchi:,Trapaças:,Trucos:,Читы:,치트:,作弊次数：
+NAME_SECURITYWORM,Xedur,Xedur,Xedur,Xedur,Xedur,Xedur,Зидур,제더,谢杜勒
+NAME_SECURITYWORMADVANCED,Xedur Hul,Xedur Hul,Xedur Hul,Xedur Hul,Xedur Hul,Xedur Hul,Зидур Хул,제더 훌,谢杜勒胡尔
+NAME_SOLDIERBOSS,Telal,Telal,Telal,Telal,Telal,Telal,Телал,테랄,忒拉尔
+NAME_SLUGBOSS,Uruku,Uruku,Uruku,Uruku,Uruku,Uruku,Уруку,우루쿠,乌厄鲁库
+NAME_SCORPIONBOSS,Gir-Tab,Gir-Tab,Gir-Tab,Gir-Tab,Gir-Tab,Gir-Tab,Гир-Таб,기르타브,基勒塔布
+NAME_MANTABOSS,Vision,Vision,Vision,Visione,Visão,Visión,Видение,비전,幻想
+NAME_DEFORMEDTRACE,Clone,Clone,Clone,Clone,Clone,Clon,Клон,복제본,克隆
+NAME_SPITBUGBOSS,Ukhu,Ukhu,Ukhu,Ukhu,Ukhu,Ukhu,Уку,우쿠,乌库
+NAME_SENTINEL,Sentinel,Sentinelle,Sentinel,Sentinella,Sentinela,Centinela,Страж,센티널,卫兵
+NAME_ATHETOS,Athetos,Athetos,Athetos,Athetos,Athetos,Athetos,Атетос,아테토스,阿塞托斯
+VIDEO_TITLE,VIDEO OPTIONS,OPTIONS VIDÉO,GRAFIKOPTIONEN,OPZIONI VIDEO,OPÇÕES DE VÍDEO,OPCIONES DE VIDEO,НАСТРОЙКИ ВИДЕО,비디오 옵션,画面选项
+VIDEO_WINDOWED_OR_FULLSCREEN,DISPLAY MODE,AFFICHAGE,ANZEIGEMODUS,MODALITÀ SCHERMO,MODO DE EXIBIÇÃO,MODO DE PANTALLA,РЕЖИМ ЭКРАНА,디스플레이 모드,显示模式
+VIDEO_WINDOWED,Windowed,Fenêtré,Fenster,In finestra,Em janela,Modo ventana,Оконный,창 모드,窗口化
+VIDEO_FULLSCREEN,Fullscreen (Alt + Enter),Plein écran (Alt + Entrée),Vollbild (Alt + Eingabe),Schermo intero (Alt + Invio),Tela cheia (Alt + Enter),Pantalla completa (Alt + Enter),Полнноэкранный (Alt + Enter),전체 화면 (Alt + Enter),全屏（Alt+Enter）
+VIDEO_WINDOW_SCALE,Window Scale,Échelle fenêtre,Fenster-Vergrößerung,Scala finestra,Tamanho da janela,Escala de ventana,Размер окна,창 배율,窗口缩放
+VIDEO_1X,1X,1X,1X,1X,1X,X1,1X,1배,1倍
+VIDEO_2X,2X,2X,2X,2X,2X,X2,2X,2배,2倍
+VIDEO_3X,3X,3X,3X,3X,3X,X3,3X,3배,3倍
+VIDEO_4X,4X,4X,4X,4X,4X,X4,4X,4배,4倍
+VIDEO_5X,5X,5X,5X,5X,5X,X5,5X,5배,5倍
+VIDEO_SCREEN_SCALE,SCREEN SCALING (When Docked),Échelle de l'écran (quand branché),BILDSCHIRMSKALIERUNG (wenn angedockt),Scala dello schermo (in modalità docked),ESCALA DE TELA (na base),ESCALA DE PANTALLA (en la base),МАСШТАБИРОВАНИЕ (в настольном режиме),화면 배율 (독 연결 시),画面缩放（底座模式）
+VIDEO_SCREEN_FILL,Fill (Stretch),Remplir (étirer),Füllen (Strecken),Piena (stretchata),Preencher (Esticar),Rellenar (estirar),Заполнить (Растянуть),화면 채우기 (늘리기),填充（拉伸）
+VIDEO_SCREEN_EXACT,Exact (Black borders),Exact (bordures noires),Exakt (Schwarze Ränder),Esatta (bordi neri),Exata (Bordas pretas),Exacto (bordes negros),Оригинал (Черные рамки),원본 비율 (검은 테두리),居中（黑边）
+VSYNC_TITLE,VSYNC,VSYNC,VSYNC,SINCRONIA VERTICALE,SINCRONIZAÇÃO VERTICAL,SINCRONIZACIÓN VERTICAL,ВЕРТ. СИНХРОНИЗАЦИЯ,수직 동기화,垂直同步
+GRAPHICS_DETAIL_TITLE,GRAPHICS DETAIL,DÉTAILS GRAPHIQUES,GRAFIKDETAILS,DETTAGLIO GRAFICO,DETALHES GRÁFICOS,DETALLES GRÁFICOS,НАСТРОЙКИ ГРАФИКИ,그래픽 품질,图像细节
+AUDIO_TITLE,AUDIO OPTIONS,OPTIONS AUDIO,AUDIO-OPTIONEN,OPZIONI AUDIO,OPÇÕES DE ÁUDIO,OPCIONES DE AUDIO,НАСТРОЙКИ АУДИО,오디오 옵션,声音选项
+AUDIO_SFX,SOUND EFFECT VOLUME,VOLUME DES EFFETS,SFX-LAUTSTÄRKE,VOLUME EFFETTI,VOLUME DOS EFEITOS SONOROS,VOLUMEN DE EFECTOS,ГРОМКОСТЬ ЭФФЕКТОВ,효과음 음량,声效音量
+AUDIO_MUSIC,MUSIC VOLUME,VOLUME DE LA MUSIQUE,MUSIK-LAUTSTÄRKE,VOLUME MUSICA,VOLUME DA MÚSICA,VOLUMEN DE MÚSICA,ГРОМКОСТЬ МУЗЫКИ,배경음악 음량,音乐音量
+PROMPT_SAVE,Save,Sauvegarder,Speichern,Salva,Salvar,Guardar,Сохранить,저장,保存
+PROMPT_TAKE,Take,Prendre,Nehmen,Prendi,Pegar,Tomar,Взять,가져가기,捡起
+PROMPT_ENTER,Enter,Entrer,Betreten,Entra,Entrar,Entrar,Войти,들어가기,进入
+PROMPT_EXIT,Exit,Sortir,Verlassen,Esci,Sair,Salir,Выйти,나가기,离开
+PROMPT_TURN_ON,Turn On,Allumer,Einschalten,Accendi,Ligar,Encender,Включить,켜기,启动
+PROMPT_TURN_OFF,Turn Off,Éteindre,Ausschalten,Spegni,Desligar,Apagar,Выключить,끄기,关闭
+PROMPT_FLASHLIGHT,Flashlight,Lampe torche,Taschenlampe,Torcia,Lanterna,Linterna,Фонарик,손전등,手电筒
+ACCESSIBILITY_TITLE,Accessibility,Accessibilité,Barrierefreiheit,Accessibilità,Acessibilidade,Accesibilidad,Доступность,접근성,辅助功能
+ENEMY_DAMAGE_MULTIPLIER_TITLE,Enemy Damage Multiplier,Multiplicateur des dégâts ennemis,Feindes-Schadensmultiplikator,Moltiplicatore danno nemico,Multiplicador de dano dos inimigos,Multiplicador de daño enemigo,Коэффициент урона врагов,적 데미지 배율,敌方伤害乘数
+ENEMY_DAMAGE_MULTIPLIER_DESC,Multiplies the amount of damage enemies do to you.,Multiplie les dégâts que les ennemis vous infligent.,"Vervielfacht den Schaden, den Gegner dir zufügen.",Moltiplica la quantità di danno che i nemici ti infliggono.,Multiplica o dano que os inimigos causam a você.,Multiplica el daño que te infligen los enemigos.,"Регулирует количество урона, наносимого вам врагами.",적이 플레이어에게 주는 데미지 배율을 조절합니다.,敌方实际对你造成的伤害等于敌人本身的伤害能力乘以这个数字。
+PLAYER_DAMAGE_MULTIPLIER_TITLE,Player Damage Multiplier,Multiplicateur des dégâts joueur,Spieler-Schadensmultiplikator,Moltiplicatore danno giocatore,Multiplicador de dano do jogador,Multiplicador de daño propio,Коэффициент урона игрока,플레이어 데미지 배율,玩家伤害乘数
+PLAYER_DAMAGE_MULTIPLIER_DESC,Multiplies the amount of damage you do to enemies.,Multiplie les dégâts que vous infligez aux ennemis.,"Vervielfacht den Schaden, den du deinen Gegnern zufügst.",Moltiplica la quantità di danno che infliggi al nemico.,Multiplica o dano que você causa aos inimigos.,Multiplica el daño que infliges a los enemigos.,"Регулирует количество урона, наносимого вами врагам.",플레이어가 적에게 주는 데미지 배율을 조절합니다.,你实际对敌方造成的伤害等于你本身的伤害能力乘以这个数字。
+GAME_SPEED_MULTIPLIER_TITLE,Game Speed Multiplier,Multiplicateur de vitesse de jeu,Spielgeschwindigkeitsmultiplikator,Moltiplicatore velocità di gioco,Multiplicador da velocidade do jogo,Multiplicador de velocidad,Коэффициент скорости игры,게임 속도 배율,游戏速度乘数
+GAME_SPEED_MULTIPLIER_DESC,Multiplies speed for the full game.,Multiplie la vitesse du jeu entier.,Vervielfacht die Geschwindigkeit für das gesamte Spiel.,Moltiplica la velocità del gioco completo.,Multiplica a velocidade de todo o jogo.,Multiplica la velocidad del juego.,Регулирует скорость всей игры.,게임 전체의 진행 속도 배율을 조절합니다.,游戏全程速度相应加快或减缓。
+FLICKER_REDUCTION_TITLE,Flicker / Strobe Reduction,Clignotement/Réduction stroboscopique,FLACKERN/STROBOSKOP REDUZIEREN,RIDUZIONE SFARFALLIO/IMPULSI,REDUÇÃO DE CINTILAÇÃO / ESTROBOSCÓPICA,Reducción de parpadeo,Уменьшение мерцания / ряби,화면 깜빡임 감소,闪光效果减弱
+FLICKER_REDUCTION_DESC,Attempts to reduce flashing patterns displayed in game.,Tente de réduire les motifs clignotants affichés dans le jeu.,"Versucht, die im Spiel angezeigten Blinksignale zu reduzieren.",Prova a ridurre la quantità di luci lampeggianti mostrate nel gioco.,Tenta reduzir os padrões brilhantes exibidos no jogo.,Intenta reducir los patrones luminosos del juego.,"Призвано уменьшить мерцание элементов, представленных в игре.",게임 화면에 나타나는 급격한 점멸 및 깜빡임 패턴을 감소시킵니다.,尽量减少游戏出现的闪光。
+PLATFORM_CONTRAST_TITLE,Platform Contrast,Contraste des plateformes,Plattform-Kontrast,Contrasto piattaforme,Contraste de plataformas,Contraste de plataformas,Контраст платформ,발판 대비 향상,平台对比度增强
+PLATFORM_CONTRAST_DESC,Attempts to increase contrast of platforms versus the background.,Tente d'augmenter le contraste des plateformes par rapport à l'arrière-plan.,"Versucht, den Kontrast der Plattformen zum Hintergrund zu erhöhen.",Prova a aumentare il contrasto delle piattaforme rispetto allo sfondo.,Tenta aumentar o contraste da plataforma em relação ao plano de fundo.,Intenta aumentar el contraste entre las plataformas y el fondo.,Призвано увеличить контрастность платформ по сравнению с задниками.,배경과 대비하여 발판(플랫폼)의 시인성을 높입니다.,尽量增强平台与背景的对比度。
+SPRITE_OUTLINE_TITLE,Sprite Outlines,Contours des sprites,Sprite-Umrisse,Contorni sprite,Contorno de sprites,Contornos delineados,Обводка спрайтов,스프라이트 외곽선,立绘轮廓
+SPRITE_OUTLINE_DESC,Outlines sprites to improve visibility.,Trace le contour des sprites pour améliorer la visibilité.,"Umrandet Sprites, um die Sichtbarkeit zu verbessern.",Aumenta il contorno degli sprite per migliorare la visibilità.,Adiciona contorno aos sprites para melhorar a visibilidade.,Repasa el contorno de los sprites para mayor visibilidad.,У спрайтов теперь есть контуры для улучшения видимости.,캐릭터 및 사물의 외곽선을 표시하여 시인성을 높입니다.,立绘显示轮廓，以便玩家观察。
+ACTION_ZOOM,Zoom,Zoom,Zoomen,Zoom,Aproximar,Zoom,Приближение,확대/축소,缩放
+DAMAGE_LABEL,Damage,Dégâts,Schaden,Danno,Dano,Daño,Урон,데미지,伤害
+PROJECTILE_SPEED_LABEL,Projectile Speed,Vitesse des projectiles,Projektil-Geschwindigkeit,Velocità del proiettile,Velocidade de projétil,Velocidad del proyectil,Скорость снаряда,투사체 속도,投射速度
+COOLDOWN_LABEL,CoolDown,Temps de recharge,Abklingzeit,Tempo di ricarica,Recarga,Enfriamiento,Кулдаун,재사용 대기시간,冷却
+VIDEO_SCREEN_SCALE_PS4,SCREEN SCALING,Échelle de l'écran,BILDSCHIRMSKALIERUNG,Scala dello schermo,ESCALA DE TELA,ESCALA DE PANTALLA,МАСШТАБИРОВАНИЕ,화면 배율,画面缩放
+OPTIONS_CONTROLLER_CONFIG_TITLE_PS4,INPUT CONFIGURATION,CONFIGURATION DES TOUCHES,TASTENBELEGUNG,CONFIGURAZIONE COMANDI,CONFIGURAÇÃO DO CONTROLE,CONFIGURACIÓN DE CONTROL,НАСТРОЙКИ КОНТРОЛЛЕРА,입력 설정,手柄键位设置
+OPTIONS_CONTROLLER_CONFIG_TITLE_NSWITCH,INPUT CONFIGURATION,CONFIGURATION DES TOUCHES,TASTENBELEGUNG,CONFIGURAZIONE COMANDI,CONFIGURAÇÃO DO CONTROLE,CONFIGURACIÓN DE CONTROL,НАСТРОЙКИ КОНТРОЛЛЕРА,입력 설정,手柄键位设置
+INPUT_ICON_STYLE,Icon Style,Icônes des boutons,Icon-Stil,Stile delle icone,Estilo de Ícone,Íconos de botones,Стиль иконки,아이콘 스타일,图标样式
+INPUT_HELP_ICON_STYLE,Cycle button icon styles.,Changer les icônes des boutons.,Wechselt zwischen den Icon-Stilen der Tasten.,Cambia lo stile delle icone dei pulsanti.,Alterna o estilo de ícones dos botões.,Cambiar los íconos de los botones.,Стиль иконки кнопки прокрутки,버튼 조작 아이콘의 스타일을 전환합니다.,切换按钮图标样式
+INPUT_HELP_LEFT_ANALOG_MIRRORS_DPAD,Have the left stick mirror the directional pad.,Le stick gauche fonctionnera comme la croix directionnelle.,Lässt den linken stick das Steuerkreuz spiegeln.,La levetta sinistra funzionerà allo stesso modo del pad direzionale.,Faz o botão analógico esquerdo espelhar o direcional.,El palanca izquierdo funcionará igual que el pad direccional.,Левый мини-джойстик теперь дублирует кнопки направлений.,왼쪽 아날로그 스틱의 입력을 방향 패드(D-pad) 입력에 미러링합니다.,令L摇杆映射方向按键。
+INPUT_HELP_LEFT_ANALOG_MIRRORS_DPAD_NSWITCH,Have the left stick mirror the directional buttons.,Le stick gauche fonctionnera comme les boutons directionnels.,Lässt den linken stick das Richtungsknöpfe spiegeln.,La levetta sinistra funzionerà allo stesso modo dei pulsanti direzionali.,Faz o botão analógico esquerdo espelhar os botões direcionais.,El palanca izquierdo funcionará igual que los botones de dirección.,Левый мини-джойстик теперь дублирует кнопки направлений.,왼쪽 아날로그 스틱의 입력을 방향 버튼 입력에 미러링합니다.,令L摇杆映射方向键。
+AUDIO_TEXT_TO_SPEECH_DIALOGUE,Text to Speech (Dialogue),Synthèse vocale (Dialogue),Text-to-Speech (Dialog),Sintesi vocale (Dialogo),Texto para fala (diálogo),Texto a voz (diálogo),Преобразование текста в речь (диалог),텍스트 음성 변환 (대사),文本到语音（对话）

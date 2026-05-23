@@ -1,5 +1,5 @@
 Key,English,French,German,Italian,Portuguese,Spanish,Russian,Japanese,Chinese
-NOTE1_NAME,Weekly Meeting Notes 2/27/2053,Notes de la réunion hebdo 27/02/2053,Wöchentliche Meeting-Notizen 27.02.2053,Note della riunione settimanale 27/02/2053,Notas da Reunião Semanal (27/02/2053),Acta de reunión semanal del 27/2/2053,Протокол еженедельного собрания 27/02/2053,２/２７/２０５３ 週間ミーティングのメモ,2053/2/27周会记录
+NOTE1_NAME,Weekly Meeting Notes 2/27/2053,Notes de la réunion hebdo 27/02/2053,Wöchentliche Meeting-Notizen 27.02.2053,Note della riunione settimanale 27/02/2053,Notas da Reunião Semanal (27/02/2053),Acta de reunión semanal del 27/2/2053,Протокол еженедельного собрания 27/02/2053,주간 회의 기록 2053/2/27,2053/2/27周会记录
 NOTE1_TEXT,"-Snow cruiser needs new tires
  -Ran out of garbanzo, chef wants to know if postarctic garbanzo is safe
  -EU team needs fuel for cargo chopper
@@ -28,20 +28,16 @@ NOTE1_TEXT,"-Snow cruiser needs new tires
 - Закночился нут, шеф хочет знать, можно ли использовать местный со склада,
 - Команде из ЕС нужно топливо для грузового вертолета,
 - Назиф слышит голоса на раскопе, хочет пройти обследование у МакМурдо,
-- Замечены дроны (?)","-スノークルーザーに新しいタイヤが必要
-
--ひよこ豆のストックが無くなり、代替の豆が安全かどうかシェフが知りたがっている
-
--ＥＵチームは貨物用ヘリの燃料が必要
-
--ナジーフが採掘場所で何か声のようなものを聞いたということで、マクマード基地の方を調べてみたい
-
--ドローン（？）らしきものが見ている","- 雪地机动车需要更换轮胎
+- Замечены дроны (?)","- 스노우 크루저의 타이어 교체 필요
+ - 병아리콩이 바닥남. 요리사가 남극 외부에서 조달한 병아리콩이 안전한지 확인을 요청함
+ - EU 팀, 화물 헬기용 연료 보충 필요
+ - 나지프가 발굴 현장에서 환청을 들음. 맥머도 기지에서 진단받기를 원함
+ - 드론(?) 목격담","- 雪地机动车需要更换轮胎
 - 鹰嘴豆吃完了，大厨想知道周边地区的鹰嘴豆能不能吃
 - 欧盟团队的货运直升机需要燃料
 - 纳齐夫在挖掘现场听到有人说话，想去麦克默多检查一下
 - 有人看到无人机（？）"
-NOTE2_NAME,Dear Earnest,"Cher Earnest,",Lieber Earnest,"Caro Earnest,","Caro Earnest,",Querido Ernesto:,Дорогой Эрнест,アーネストへ,致欧内斯特
+NOTE2_NAME,Dear Earnest,"Cher Earnest,",Lieber Earnest,"Caro Earnest,","Caro Earnest,",Querido Ernesto:,Дорогой Эрнест,어니스트에게,致欧内斯特
 NOTE2_TEXT,"I know you will probably never have the chance to read this, but I'm writing for my own sanity.
 
 I am happy here. Looking back it is hard to believe I ever worried so much about all the bullshit of the ""real"" world - work, rent, taxes, the stupid rat race. It was hard at first but now I'm actually glad they destroyed the stupid ""freight elevator"".
@@ -84,22 +80,22 @@ Agusta","Я знаю, что ты, скорее всего, никогда эт�
 
 Ты думал, что тут, в Антарктиде, недостаточно платят, и, наверное, сейчас ты полностью уверился в своей правоте. Но одного тебе точно не понять: неважно, увижу я снова родной дом или нет, решение это я все равно приняла сама, и одно это уже делает его достойным.
 
-Августа","君がこれを読む日は来ないだろうが、自分の正気を保つために筆を執っている。
- 
-ここでの生活は幸せだ。仕事のこと、家賃のこと、税金のこと、価値を見いだせない競争社会のことなど、過去を振り返ると「現実」での世界のあんなくだらないことで悩んでいた自分がまるで嘘のようだ。最初にここに来た時は大変だったが、今ではあの「貨物用エレベーター」が壊されたことさえも喜んでいる。
- 
-君は南極の仕事は報酬が十分ではなく、おそらく今も自分の判断は正しかったと思っていることだろう。しかし君には決して理解できないだろうが、たとえ故郷に再び帰れなくても、これは私自身が決断したことであり、この決断ができたことだけでも価値あることだったと思っている。
- 
- アグスタより","我知道，这封信你可能根本见不到，我写信只是为了确保自己精神正常。
+Августа","당신이 이 편지를 읽을 기회는 어쩌면 영영 없겠지만, 나 자신의 온전한 정신을 지키기 위해 이 글을 씁니다.
+
+나는 이곳에서 행복해요. 돌이켜보면 업무, 집세, 세금, 무의미하고 멍청한 생존 경쟁 등 '현실' 세계의 온갖 하찮은 일들로 왜 그렇게 골머리를 썩였는지 믿기지 않을 정도예요. 처음에는 힘들었지만, 지금은 오히려 그 멍청한 '화물 엘리베이터'가 파괴된 게 잘된 일이라 생각해요.
+
+당신은 남극 일자리의 급여가 너무 적다고 생각했고, 아마 지금쯤 자신의 판단이 옳았다고 확신하고 있겠지요. 하지만 당신이 평생 이해하지 못할 사실은, 내가 고향 땅을 다시 밟을 수 있든 없든 간에 이 결정을 내린 것은 온전히 나 자신이었다는 점이고, 그것만으로도 내게는 충분히 가치 있는 선택이었다는 것입니다.
+
+아구스타 드림","我知道，这封信你可能根本见不到，我写信只是为了确保自己精神正常。
 
 我在这里过得很开心。回想过去，真是不可思议——我竟然会因为“真实”世界的狗屁事情愁成那样，什么工作、房租、所得税、攀比竞争，都没有意义。他们销毁了那台“货用电梯”，我起初很难接受，现在反倒有些庆幸。
 
 你之前觉得我来南极做事，钱肯定挣得不多，你现在可能还是这个想法。但是，有一件事你永远不会明白——无论我还会不会回去，来南极都是我的主意。就凭这一点，我就不会后悔。
 
 阿古斯塔"
-NOTE3_NAME,Urgent Message for the Royal Builder,Message urgent pour le Bâtisseur royal,Dringende Nachricht für den königlichen Baumeister,Messaggio urgente per il Costruttore Reale,Mensagem urgente para o Construtor Régio,Mensaje urgente para el constructor de la corte,Срочное сообщение Царскому строителю,王の建築技師へ緊急の伝言,急信，致皇家土木工匠
-NOTE3_TEXT,"By consulting with the Lamassu, and by my own wisdom, I have determined that the udug have returned from their ocean caves. May we not be caught in their poison. When the master-builder has taken up the work concerned, he is to establish securely a hidden vault, behind the far chamber of the palace. Let the building work proceed both by night and by the noonday heat. It is urgent!","En consultant le Lamassu, et par mes propres connaissances, j'ai déterminé que les Udug étaient sortis de leur grottes océaniques. Puissions-nous éviter leur poison. Quand le maître-bâtisseur reprendra les travaux concernés, il devra établir en toute sécurité une voûte secrète, derrière l'arrière-chambre du palais. Que la construction se poursuive nuit et jour. C'est extrêmement urgent !","Nach Rücksprache mit dem Lamassu und aufgrund meiner eigenen Weisheit habe ich festgestellt, dass die Udug aus ihren Meereshöhlen zurückgekehrt sind. Mögen wir nicht in ihrem Gift gefangen sein. Wenn der Baumeister die Arbeit aufgenommen hat, soll er ein verstecktes Gewölbe hinter der hinteren Kammer des Palastes errichten. Die Bauarbeiten sollen sowohl bei Nacht als auch in der Mittagshitze stattfinden. Es ist dringend!","Dopo essermi consultato con il Lamassu e secondo il mio personale giudizio, ho determinato che gli Udug stanno tornando dalle loro caverne oceaniche. Che il loro veleno possa non coglierci. Quando il capomastro inizierà il suo lavoro, dovrà costruire una volta segreta, posizionata dietro alla stanza più remota del palazzo. Che i lavori proseguano sia di notte che al caldo di mezzogiorno. È urgente!","Ao consultar os Lamassu, e por meio de meus próprios conhecimentos, determinei que os Udug voltaram das cavernas oceânicas. Que não sejamos afetados pelo veneno deles. Quando o meste de obras retomar o trabalho em questão, ele deve estabelecer com segurança um cofre secreto, atrás da câmara mais ao extremo do palácio. Que a construção prossiga tanto à noite quanto no calor do meio-dia. É urgente!","Tras consultar con la Lamassu y ponderarlo yo mismo, he determinado que los udugs regresaron de sus cuevas oceánicas. Ruego que no nos atrape su veneno. Cuando el maestro constructor haya iniciado el trabajo que le concierne, construirá una bóveda oculta y segura detrás de la gran recámara del palacio. La construcción ha de proseguir bajo el velo de la noche y el calor sofocante del día. ¡Es urgente!","После разговора с Ламассу и собственных изысканий я пришла к выводу, что Удуг вернулись из своих подводных пещер. Мы не хотим стать жертвами их яда. Когда главный строитель начал вверенную ему работу, он обязался воздвигнуть потайное хранилище за самой дальней комнатой дворца. Пусть строительство продолжается и ночью, и в дневной зной. Дело срочное!",ラマッサの助言と私の知識的観点から、ウトゥックが大海の深き穴より舞い戻ってきたものと判断した。ヤツらの毒牙にかかることにはならねばと願うばかりだ。建築師が例の作業に取りかかり始める際、宮殿の奥の間の背後に隠し部屋を必ず作り、昼も夜も作業を行わせるように。急ぐのだ！,我已问了拉玛苏，再经过自己的一番决断，我确信乌图库已由其海底洞窟卷土重来。希望我们不会遭其毒害。土木工匠总管现已肩负重任，将于王宫内殿后方修建密殿。此事不宜迟，务必穷日落月，早日完成！
-NOTE4_NAME,Building of the School,Construction de l'École,Bau der Schule,Costruzione della Scuola,Construção da Escola,Construcción de la Escuela,Строительство школы,学府の建設,修备学舍
+NOTE3_NAME,Urgent Message for the Royal Builder,Message urgent pour le Bâtisseur royal,Dringende Nachricht für den königlichen Baumeister,Messaggio urgente per il Costruttore Reale,Mensagem urgente para o Construtor Régio,Mensaje urgente para el constructor de la corte,Срочное сообщение Царскому строителю,왕실 건축가에게 보내는 긴급 서한,急信，致皇家土木工匠
+NOTE3_TEXT,"By consulting with the Lamassu, and by my own wisdom, I have determined that the udug have returned from their ocean caves. May we not be caught in their poison. When the master-builder has taken up the work concerned, he is to establish securely a hidden vault, behind the far chamber of the palace. Let the building work proceed both by night and by the noonday heat. It is urgent!","En consultant le Lamassu, et par mes propres connaissances, j'ai déterminé que les Udug étaient sortis de leur grottes océaniques. Puissions-nous éviter leur poison. Quand le maître-bâtisseur reprendra les travaux concernés, il devra établir en toute sécurité une voûte secrète, derrière l'arrière-chambre du palais. Que la construction se poursuive nuit et jour. C'est extrêmement urgent !","Nach Rücksprache mit dem Lamassu und aufgrund meiner eigenen Weisheit habe ich festgestellt, dass die Udug aus ihren Meereshöhlen zurückgekehrt sind. Mögen wir nicht in ihrem Gift gefangen sein. Wenn der Baumeister die Arbeit aufgenommen hat, soll er ein verstecktes Gewölbe hinter der hinteren Kammer des Palastes errichten. Die Bauarbeiten sollen sowohl bei Nacht als auch in der Mittagshitze stattfinden. Es ist dringend!","Dopo essermi consultato con il Lamassu e secondo il mio personale giudizio, ho determinato che gli Udug stanno tornando dalle loro caverne oceaniche. Che il loro veleno possa non coglierci. Quando il capomastro inizierà il suo lavoro, dovrà costruire una volta segreta, posizionata dietro alla stanza più remota del palazzo. Che i lavori proseguano sia di notte che al caldo di mezzogiorno. È urgente!","Ao consultar os Lamassu, e por meio de meus próprios conhecimentos, determinei que os Udug voltaram das cavernas oceânicas. Que não sejamos afetados pelo veneno deles. Quando o meste de obras retomar o trabalho em questão, ele deve estabelecer com segurança um cofre secreto, atrás da câmara mais ao extremo do palácio. Que a construção prossiga tanto à noite quanto no calor do meio-dia. É urgente!","Tras consultar con la Lamassu y ponderarlo yo mismo, he determinado que los udugs regresaron de sus cuevas oceánicas. Ruego que no nos atrape su veneno. Cuando el maestro constructor haya iniciado el trabajo que le concierne, construirá una bóveda oculta y segura detrás de la gran recámara del palacio. La construcción ha de proseguir bajo el velo de la noche y el calor sofocante del día. ¡Es urgente!","После разговора с Ламассу и собственных изысканий я пришла к выводу, что Удуг вернулись из своих подводных пещер. Мы не хотим стать жертвами их яда. Когда главный строитель начал вверенную ему работу, он обязался воздвигнуть потайное хранилище за самой дальней комнатой дворца. Пусть строительство продолжается и ночью, и в дневной зной. Дело срочное!","라마수의 조언과 짐의 혜안을 빌려, 우두그들이 기어이 심해의 동굴에서 돌아왔음을 확신하노라. 바라건대 우리가 그들의 독기에 물들지 않기를. 수석 건축가는 속히 해당 공사에 착수하여 궁전 안쪽 깊숙한 처소 뒤편에 숨겨진 금고를 견고히 은닉하라. 낮의 폭염은 물론 밤에도 쉬지 않고 공사를 진척해야 할 것이니라. 사안이 지극히 시급하도다!",我已问了拉玛苏，再经过自己的一番决断，我确信乌图库已由其海底洞窟卷土重来。希望我们不会遭其毒害。土木工匠总管现已肩负重任，将于王宫内殿后方修建密殿。此事不宜迟，务必穷日落月，早日完成！
+NOTE4_NAME,Building of the School,Construction de l'École,Bau der Schule,Costruzione della Scuola,Construção da Escola,Construcción de la Escuela,Строительство школы,학당의 건립,修备学舍
 NOTE4_TEXT,"(illegible) ... instruction of the Lamassu, our king has built a great fortress, Igi-Unug-Gal, to defend against the wicked Udug. The oracular signs say they will strike and we must replenish our strength.
 
 However, the Lamassu's own strength is limited. They have brought to bear iron gallu from beneath the earth, but only his wisdom can save us.
@@ -135,22 +131,17 @@ Che tra gli uomini e le donne vengano radunati i più sapienti. Essi dovranno ra
 Однако силы Ламассу не бесконечны. Из глубин земли был извлечен железный галлу, лишь его мудрость способна нас спасти.
  
 Так молвил Ламассу, владыка наш:
-Женщины и мужчины, найдите промеж себя самых одаренных. Да прибудут они на восточную мезу, где восседаем мы, и возведут там эдуббу над самой долиной. Здесь научим мы их по завету... (неразборчиво)","（ここから前は文字が読めない）...ラマッスの指示で、邪悪なるウトゥックからの侵攻を防ぐため、我が王は壮大なる要塞「イギ・ウナッグ・ガル」を作り上げた。神託による兆しからも分かるように、やつらの攻撃に備えて我々は力を蓄えなければならない。
- 
- 
- 
-しかしながら、ラマッス自身の力は限られたものだ。ウトゥックは地の底より鉄で覆われしガルラをも生み出した。そのような状況でも我々を救えるのはやはりラマッスの知恵だけだろう。
- 
- 
- 
-これはラマッス，我々の主の言ったことだ。
- 
-男女の分け隔て無く、最も学識のある者たちを集めなさい。この者達は、私たちのいる西の台地を訪れ、谷を見下ろす場所に学府となるエドゥブバを作らなければなりません。そこで私たちは、この者達に対して講義を行います。それは…（ここから後は文字が読めない）","（前文无法辨读）……拉玛苏谕示，吾王已修成宏垒伊吉乌努库盖尔，以期抵御邪神乌图库。卜兆有示，邪神将袭，我等务必蓄势以待。
+Женщины и мужчины, найдите промеж себя самых одаренных. Да прибудут они на восточную мезу, где восседаем мы, и возведут там эдуббу над самой долиной. Здесь научим мы их по завету... (неразборчиво)","(판독 불가)... 라마수의 지침에 의거하여, 우리 대왕께서 사악한 우두그의 침략에 맞서 거대한 요새 '이기 우눅 갈'을 세우셨도다. 신탁에 따르면 놈들이 기습해올 것이 자명하니, 우리는 전력을 재정비해야 한다.
+
+하나, 라마수 고유의 힘에도 한계는 있는 법. 놈들은 지하 심처로부터 쇠로 된 갈루를 끌어올렸으나, 우리를 구원할 유일한 수단은 오직 라마수의 지혜뿐이로다.
+
+우리의 군주이신 라마수께서 다음과 같이 하명하셨다.
+남녀를 불문하고 백성 가운데 가장 학식이 깊은 인재들을 징집하라. 그들은 우리가 거처하는 서쪽 고원으로 와서 계곡을 굽어보는 에두바를 건립하여라. 그곳에서 우리가 그들에게 도리를 가르칠 것이니... (판독 불가)","（前文无法辨读）……拉玛苏谕示，吾王已修成宏垒伊吉乌努库盖尔，以期抵御邪神乌图库。卜兆有示，邪神将袭，我等务必蓄势以待。
 拉玛苏自身能力有限，邪神已由地下唤出钢铁伽卢，可是只有他的智慧能够拯救我们。
 
 吾主拉玛苏如是说：
 无论男女，遴选至识之人，令其随我等至西麦萨，临谷修造埃杜巴。我将于此授此等男女……（后文无法辨读）"
-NOTE5_NAME,Under Siege,Assiégés,Unter Belagerung,Sotto assedio,Sob cerco,Bajo asedio,В осаде,包囲網,包围重重
+NOTE5_NAME,Under Siege,Assiégés,Unter Belagerung,Sotto assedio,Sob cerco,Bajo asedio,В осаде,포위된 기지,包围重重
 NOTE5_TEXT,"If you find this, it means I didn't make it. Warren asked me to head to Jonestown for help; the drones are all over the mountain and have put up a bunch of gates. You can't even get to the euro camp now.
 
 Warren thinks if with some heavy explosives we could blast a detour through the rocks. We don't have much that's combustible other than diesel, but something Malka read makes her believe there may be munitions in the ruins under the lake.
@@ -179,19 +170,15 @@ Sam","Se você encontrar isso, significa que não consegui. Warren me pediu para
 
 Уоррен думает, что мы сможем пробить обходной путь в скале при помощи взрывчатки. У нас и подрывать-то нечего: кроме горючего ничего не осталось, но Малка тут где-то вычитала, будто бы в развалинах под озером есть военный склад.
 
-Сэм","これを誰かに見られたということは、オレは間に合わなかったということだ。ウォーレンの依頼でジョーンズタウンに向かった。山のどこのかしこもドローンだらけで、まるで関門が幾つも設けられているみたいだ。今はユーロキャンプにも近づけない。
- 
- 
- 
-ウォーレンは重火器を使って岩の間に迂回路を作れないかと考えている。ディーゼルが動力となるもの以外の火器は持ち合わせていないが、マルカが解読した本によると、湖の下の遺跡に軍隊の道具があるかもしれないという。
- 
- 
- 
- サム","如果有人看到了这个，就说明我死了。沃伦让我去琼斯敦求救，山上到处都是无人机，设了不少机关门，现在连欧盟的营地都去不了了。
+Сэм","누군가 이 메모를 본다면, 내가 임무를 완수하지 못했다는 뜻이겠군. 워런의 요청으로 도움을 구하러 존스타운으로 가려 했지만, 산 전체에 드론들이 득실대며 수많은 장벽들을 구축해 놓았소. 현재로선 유럽 탐사대 캠프로 접근하는 것조차 불가능한 실정이오.
+
+워런은 고성능 폭약을 사용해 바위들을 날려버리고 우회로를 뚫을 수 있을 거라 생각하고 있소. 현재 경유를 빼면 이렇다 할 인화성 물질도 없지만, 말카가 해독한 유물 기록에 따르면 호수 아래 유적에 군용 무기가 숨겨져 있을지도 모른다는군.
+
+샘 드림","如果有人看到了这个，就说明我死了。沃伦让我去琼斯敦求救，山上到处都是无人机，设了不少机关门，现在连欧盟的营地都去不了了。
 沃伦觉得我们只要有重型炸药，就能炸出一条路，绕远过去。我们除了柴油，没有多少可燃的东西，不过玛勒卡看到了什么信息，她觉得那片湖下面可能有弹药物资。
 
 山姆"
-NOTE6_NAME,Heretic’s Tablet,Tablette de l'hérétique,Ketzer-Tafel,Tavole dell'eretica,Tabuleta dos Hereges,Tableta de la hereje,Скрижаль еретика,異端者の刻板,异教徒的泥板
+NOTE6_NAME,Heretic’s Tablet,Tablette de l'hérétique,Ketzer-Tafel,Tavole dell'eretica,Tabuleta dos Hereges,Tableta de la hereje,Скрижаль еретика,이단자의 점토판,异教徒的泥板
 NOTE6_TEXT,"The exalted Lamassu, our lord, has given us the divine plans of the ancient kings. The blacksmiths have cast weapons of great terror, powered by the strength of the fire.
 
 We may have built these for use against the fearsome Udug, but have only been able to test them on our enemies in neighboring Irikar. Still, I fear it is not long before Irikar, too, masters the forbidden knowledge, and then what? Will the Udug arrive to find us at each other’s throats?
@@ -224,19 +211,16 @@ A quel punto, cosa... (la tavoletta si interrompe qui)","O glorificado Lamassu, 
  
 Мы сотворили его для борьбы со зловещими Удуг, но лишь протестировали его мощь на наших давних врагах в соседнем Ирикаре. Однако я боюсь, что грядет тот час, когда и Ирикар овладеют сим запретным знанием. И что тогда? Дождутся ли Удуг того момента, когда мы пойдем войной друг на друга?
  
-Можно лишь гадать, что будет... (в этом месте скрижаль сломана)","いにしえの王たちによる神聖なる計画が、我々の主である高位なるラマッスより与えられた。鍛冶屋たちは炎の力で恐るべき武器を作り上げた。
- 
- 
- 
-恐るべきウトゥックに対抗するために作られた武器なのだろうが、まだ隣国イリカルの敵たちにしか試すことはできない。しかし、そうなればイリカルさえも遅からず禁断の知識を身につけることになるのではなかろうか？そうなればどうなる？ウトゥックが来た時、我々がお互い争い合う姿を目にするのではなかろうか？
- 
- 
-そこで誰かが疑問を投げ（刻板はここで途切れている。）","吾主、至高的拉玛苏赐予了我们历代诸王的圣图，列位工匠以火淬炼，锻造了骇人的武器。
+Можно лишь гадать, что будет... (в этом месте скрижаль сломана)","존엄하신 우리의 주군 라마수께서 고대 군왕들의 신성한 설계도를 하사하셨다. 대장장이들은 화염의 강력한 권능을 동력으로 삼는 가공할 위력의 병기들을 주조해 냈다.
+
+우리가 이 무기들을 만든 목적은 소름 끼치는 우두그 무리에 맞서기 위함이었으나, 아직까지는 이웃 나라 이리카르의 적들을 상대로 시험해 보았을 뿐이다. 그러나 머지않아 이리카르 역시 금단된 기술을 터득하게 될까 봐 지극히 두렵도다. 그리되면 그 끝은 어찌 되겠는가? 우두그들이 침공해 올 무렵, 우리가 서로의 목을 노리고 싸우는 꼴을 마주하게 될 것인가?
+
+결국 그렇게 된다면 대관절... (점토판의 내용이 여기서 끊김)","吾主、至高的拉玛苏赐予了我们历代诸王的圣图，列位工匠以火淬炼，锻造了骇人的武器。
 
 武器原本为抵御恐怖的乌图库而造，最终却用在了邻国的敌人伊利卡尔身上。不过，伊利卡尔恐怕很快也将知晓禁识，届时将会怎样？乌图库来袭之日，我们会不会恰好兵戎相向，令邪神坐收渔翁之利？
 
 那么，有人会想，如果……（文字就此中止）"
-NOTE7_NAME,Forbidden Knowledge,Savoir interdit,Verbotenes Wissen,Conoscenza Proibita,Conhecimento Proibido,Conocimiento prohibido,Запретное знание,禁断の知識,禁识
+NOTE7_NAME,Forbidden Knowledge,Savoir interdit,Verbotenes Wissen,Conoscenza Proibita,Conhecimento Proibido,Conocimiento prohibido,Запретное знание,금지된 지식,禁识
 NOTE7_TEXT,"Against all advice, I have been doing tests with the antenna transmitters, and have learned much. The Lamassu claims that understanding this is taboo - it expects us to build weapons without knowledge of how they work. This might have been enough for my father or my father’s father, who think of it like a magic spell, but if we are to have any success against the Udug we cannot go forth blindly.
 
 To anyone who may be interested, I invite you to join me … (it breaks off here)","Contrairement à tout ce qui est recommandé, j'ai effectué plusieurs essais avec les transmetteurs de l'antenne, et j'ai beaucoup appris. Le Lamassu affirme que la compréhension est taboue. Il exige que nous construisions des armes sans savoir à quoi elles servent. Peut-être que mon père, ou le père de mon père pouvaient s'en contenter – pensant qu'il s'agissait d'un genre de sortilège – mais si nous voulons réussir contre les Udug, nous ne pouvons avancer à l'aveuglette.
@@ -253,14 +237,12 @@ Chiunque abbia interesse in merito è invitato a unirsi a me... (si interrompe q
   
   Invito a aquellos interesados a que se unan a mis pruebas... (Aquí termina).","Несмотря на все запреты, я проводил тесты с трансмиттерами антены и очень многое узнал. Ламассу заявляет, что понимание этого — табу. Он хочет, чтобы мы собирали оружие, не зная, как оно работает. Моим отцам или праотцам этого объяснения было более чем достаточно, они верили, что это все волшебство, но если мы хотим хоть как-то преуспеть в борьбе с Удуг, мы не можем полагаться лишь на слепую веру.
  
-Всех, кто заинтересован, я приглашаю присоединиться ко мне... (запись обрывается)","全ての忠告に反してアンテナ送信機のテストをした。そこから私は多くのことを学んだ。ラマッスは、私たちがどのような仕組みで動いているのかも分からない武器を作らせ、これらについて理解しようとすることはタブーでだと語った。それらを単に魔法の呪文か何かだと考える私の父や、さらにその父親の世代なら、それでも問題無かったのかもしれない。しかし私たちがウトゥックに対抗していくためには、何も知らずにただやみくもに進んでいくわけにもいかない。
- 
- 
- 
-もし興味があるなら、私と共に（文章はここで途切れている。）","我力排众议，借助天线收发器进行了若干测试，获益匪浅。拉玛苏声称个中原理是禁识，不得知晓，希望我们不要探究武器的原理，而是仅仅专心制造。我的父辈祖辈视其为魔法，或许不会深入探索。可是，既然我们希望战胜乌图库，就不能盲目向前。
+Всех, кто заинтересован, я приглашаю присоединиться ко мне... (запись обрывается)","온갖 만류에도 불구하고, 나는 안테나 송신기를 이용한 실험을 단행하여 수많은 성과를 도출해 냈다. 라마수는 이를 이해하는 행위 자체가 금기라고 주장하며, 우리가 무기의 작동 메커니즘을 전혀 모른 채 무작정 병기 주조에만 매달리기를 강요한다. 이를 마법 주문쯤으로 여기던 선친이나 조부의 세대라면 그 정도로 충분했겠으나, 우리가 우두그 세력에 맞서 승산이 있으려면 눈먼 채 장님처럼 나아갈 수는 없는 노릇이다.
+
+만약 뜻이 있는 자가 있다면 부디 나와 동참하기를... (내용이 여기서 끊김)","我力排众议，借助天线收发器进行了若干测试，获益匪浅。拉玛苏声称个中原理是禁识，不得知晓，希望我们不要探究武器的原理，而是仅仅专心制造。我的父辈祖辈视其为魔法，或许不会深入探索。可是，既然我们希望战胜乌图库，就不能盲目向前。
 
 不论是谁，如有兴趣了解，欢迎……（文字就此中止）"
-NOTE8_NAME,Kazakh Assault,Assaut des Kazakhs,Kasachischer Überfall,Assalto dei kazaki,Ataque dos cazaques,Asalto kazajo,Нападение казахов,カザフ人の攻撃,哈萨克人攻击
+NOTE8_NAME,Kazakh Assault,Assaut des Kazakhs,Kasachischer Überfall,Assalto dei kazaki,Ataque dos cazaques,Asalto kazajo,Нападение казахов,카자흐인의 습격,哈萨克人攻击
 NOTE8_TEXT,"My radio isn't working so I hope you guys find this. The Kazakhs are tracking me. I was going for a long hike through the Uhrum Valley when I decided to visit their research station. It's up past the waterfalls.
 
 I don't know what’s going on up there but it's definitely weird. They aren’t dressed the same. They have automatic weapons and fired at me. If I didn’t hear them shouting in Russian I would have thought they were different people entirely. Did they think I was going to break in or something? They do know we're all trapped here together, right?
@@ -309,26 +291,20 @@ Khalil","Мое радио не работает, так что я надеюс�
  
 Они до сих пор идут по моему следу. Не знаю, доберусь ли я до посадочной площадки, поэтому оставлю это здесь. Надеюсь, что я зря распереживался и мы все снова скоро увидимся.
  
-Халил","無線が使えないため、このメモを見つけて欲しい。カザフ人が私の後を追っている。彼らの研究所を訪ねるために、長い時間ウルーム渓谷を下って行った。研究所は滝を越えたところにある。
- 
- 
- 
-あそこで何が起きているのかは分からないが、明らかに何かがおかしい。服装も違うし自動小銃を持っている。そして私に向かって発砲してきたのだ。ロシア語の叫び声が聞こえなかったら、彼らとは気づかなかっただろう。私が勝手に侵入してきたと思ったのだろうか。私たちも彼らも、共にこの地に閉じ込められていることは分かっているはずだ。
- 
- 
- 
-彼らはずっと追いかけて来る。着地点までたどり着けるかどうか分からない。だからこのメモをここに残しておく。私の心配がただの杞憂であることを願う。またすぐに会おう。
- 
- 
- 
- ハリル","我的无线电坏了，希望你们能看到这个信息。哈萨克人正在到处找我，我本来是想上山走一走，转一转，过厄鲁姆谷的时候，我想着去看看他们科考站，就在瀑布上边。
+Халил","무전기가 고장 나서 이 메모를 동료들이 꼭 찾길 바라오. 카자흐인들이 내 뒤를 쫓고 있소. 우흐룸 계곡으로 기나긴 탐사를 하던 중 폭포 너머에 있는 그들의 연구 기지에 한번 들러보기로 마음먹었을 때였소.
+
+그곳에서 대체 무슨 짓을 벌이고 있는지는 모르겠으나 정상이 아닌 게 확실하오. 복장도 전과 다른 데다, 자동소총을 소지하고 나를 향해 사격을 개시했소. 그들이 러시아어로 고함치는 것을 듣지 못했더라면 완전히 딴사람들이라고 믿었을 거요. 내가 침입이라도 할 줄 알았단 말이오? 우리 모두가 여기에 함께 갇힌 신세라는 걸 그들도 분명 알고 있을 텐데 말이오!
+
+놈들이 내내 뒤를 추적해 오고 있소. 헬기 착륙장까지 살아서 갈 수 있을지 확신이 서지 않아 일단 여기에 이 메모를 남겨둡니다. 아무쪼록 내 걱정이 그저 쓸데없는 기우에 불과해서, 곧 모두를 웃으며 다시 만날 수 있게 되기를 바라오.
+
+칼릴 드림","我的无线电坏了，希望你们能看到这个信息。哈萨克人正在到处找我，我本来是想上山走一走，转一转，过厄鲁姆谷的时候，我想着去看看他们科考站，就在瀑布上边。
 
 我不知道那边怎么回事，但肯定有蹊跷。他们穿的衣服跟平时完全不一样，还端着自动武器打我。我要不是听见他们对着我喊俄语，肯定会觉得是别人。他们是不是以为我要强闯科考站还是怎么回事？他们知道我们也困在这里了吧？
 
 他们追了我整整一天了，我也不知道我能不能跑到降落地点，这条信息我就留在这里了。希望只是我想多了，希望能尽快见到你们。
 
 哈利勒"
-NOTE9_NAME,Journal Entry - Suspension Bridge,Entrée du journal - Pont suspendu,Tagebucheintrag – Hängebrücke,Voce del diario - Ponte sospeso,Entrada no diário - Ponte Suspensa,Entrada de diario: puente colgante,Запись в дневнике — Подвесной мост,日記の題名：吊り橋,日记 - 索桥
+NOTE9_NAME,Journal Entry - Suspension Bridge,Entrée du journal - Pont suspendu,Tagebucheintrag – Hängebrücke,Voce del diario - Ponte sospeso,Entrada no diário - Ponte Suspensa,Entrada de diario: puente colgante,Запись в дневнике — Подвесной мост,일기 - 현수교,日记 - 索桥
 NOTE9_TEXT,"Our next project is to be a large bridge allowing for the transport of machines and weapons to and from what is to be a workshop of sorts in the east.
 
 The Lamassu tells us that we will need ""godly"" materials that can only be found there. I am very curious as to what these may be; more machines like the Lamassu itself? For surely they are not of the gods. What will we learn from them?
@@ -361,20 +337,16 @@ Aradlugal","""Nosso próximo projeto é uma grande ponte para o transporte de m�
  
 Ламассу говорит, что для этой постройки нам нужны ""божественные"" материалы, доступные только здесь. Мне очень интересно, что это за материалы такие: уж не подобные ли Ламассу машины? Точно могу сказать, что они не боги. Но что мы сможем у них узнать?
  
-Арадлугал","大きな橋を使い、東にある作業場のような場所から、機械や武器を運べるようにすることが次の計画である。
- 
+Арадлугал","우리의 다음 프로젝트는 동쪽에 세워질 일종의 작업장으로 기계류와 군수 무기들을 원활히 운송하기 위한 거대한 교량을 건설하는 일이다.
 
- 
-その場所でしか見つからない“神々”の道具が必要になるとラマッスからは言われているが、それが何なのかは非常に興味深い。ラマッスのような機械がほかにもあるというのか？神々のものではないことは確かだろうが。私たちは彼らから何を学ぶことになるのか？
- 
- 
+라마수 말에 따르면 그곳에서만 발굴할 수 있는 '신성한' 원료들이 필요하다고 한다. 그것들의 실체가 무엇일지 지극히 흥미롭다. 혹 라마수 본인과 같은 기계들이 더 존재한다는 뜻일까? 그것들이 절대 신이 아니라는 점은 자명하거늘, 우리는 그것들로부터 무엇을 학습하게 될 것인가?
 
-アラドゥルガル","我们下一项工程是要建一座大桥。东边要建一座厂房之类的地方，有了这桥，两边来回运输机器和武器就方便了。
+아라드루갈 드림","我们下一项工程是要建一座大桥。东边要建一座厂房之类的地方，有了这桥，两边来回运输机器和武器就方便了。
 
 拉玛苏说我们以后会需要“神”物资，只有那个地方才能找到。我非常好奇会是什么物资，难道是像拉玛苏那样的机器？它们肯定不归神所有，可是又会让我们了解到什么呢？
 
 阿拉德卢噶尔"
-NOTE10_NAME,Re: Does Technology Weaken Us?,Re: La technologie nous affaiblit-elle ?,AW: Schwächt uns die Technik?,Re: La tecnologia ci ha indebolito?,Re: A tecnologia nos enfraquece?,Re: ¿La tecnología nos debilita?,Ответ: Технология делает нас слабее?,返信：テクノロジーは我々を脆弱にしたか？,回复：科技削弱了我们？
+NOTE10_NAME,Re: Does Technology Weaken Us?,Re: La technologie nous affaiblit-elle ?,AW: Schwächt uns die Technik?,Re: La tecnologia ci ha indebolito?,Re: A tecnologia nos enfraquece?,Re: ¿La tecnología nos debilita?,Ответ: Технология делает нас слабее?,답신: 기술이 인류를 쇠약하게 만드는가?,回复：科技削弱了我们？
 NOTE10_TEXT,"Safiya,
 
 I understand your point - if there is one overarching rule for all of life, one thing that could be considered our “purpose”, it is undoubtedly evolution. The simple mechanism where beneficial traits propagate while detrimental traits wane is built into the fabric of the universe, and it is the only thing that makes our existence possible.
@@ -455,27 +427,17 @@ Drushka","Safiya,
  
 Математики прошлого рассуждали о ""технологической сингулярности"", которая должна была навсегда изменить человека. Что бы они там себе ни выдумывали, Явление в разы превосходит все их домыслы. Это не опасность. Это наше спасение.
  
-Друшка","サフィーヤへ
- 
- 
- 
-あなたの指摘はよく分かる。もしすべての生命に関わるルール、つまり私たちが存在する”目的”ともいえるものがあるとすれば、それは間違いなく”進化”だ。有益な性質となるものを増やし、その一方で有害な性質となるものを淘汰していくこの単純なメカニズムこそが万物を織りなし、私たちが存在することを可能にしているのだ。
- 
- 
- 
-では、人類の知識や技術は、進化に対してどのような役割を果たしているのだろうか。例えば、抗生物質の発明により自然淘汰は完全に妨げられ、人類という種の更なる改善を止めることになるのだろうか？
- 
- 
- 
-非常に価値ある疑問ではあるが、エマージェンスを発見したことを踏まえるとすれば、答えは「ノー」と言わざるを得ないだろう。以前我々が観察できた規模では、人ひとりの寿命の長さ、そしてそれによりどうしても視点が主観的にならざるを得ないという制限があった。しかし今では、我々人類を形成していく過程と同じものを観察し、またはそれを直接体験し、さらに恩恵を受けることができる環境にいる。新しい薬の影響により免疫システムが弱くなるのは何世代後だろうか？知能が向上し、さらに優れた解決策を導き出せるようになるのは何世代後だろうか？
- 
- 
- 
-前世紀に数学者たちは、人類の行為自体を永遠に変えるであろう進歩の形「シンギュラリティ」について話をした。彼らが想像したものが何であれ、エマージェンスの存在の前ではそれさえも急激に矮小なものとなる。それは危険ではない。それは我々にとって救いとなるのだ。
- 
- 
- 
- ドルシュカ","萨菲娅：
+Друшка","사피야에게,
+
+그대 의견에 수긍하네. 전 우주를 지배하는 단 하나의 절대 규칙이자 인류가 존재하는 '목적'으로 부를 만한 유일한 가치가 있다면, 그것은 의심할 여지 없이 '진화'라네. 이로운 형질은 전파되고 해로운 형질은 점차 소멸해가는 단순한 기제가 전 우주에 각인되어 있으며, 이것이 존재하기에 지금의 우리도 살아갈 수 있는 것이니까.
+
+그렇다면 인간의 학문적 지식과 문명 기술이 이 진화의 과정에서 담당하는 역할이 무엇일지 질문을 던져보아야 하네. 가령 항생제의 개발이 자연선택의 법칙을 완전히 가로막아 인류라는 종의 추가적인 개량을 원천 차단했다는 의미일까?
+
+충분히 논해볼 만한 질문이지만, 우리가 '에머전스'를 조우한 이상 그에 대한 답은 단호하게 '아니오'여야만 하네. 기존에 인류가 관찰할 수 있었던 한도 내에서는 일생의 수명이라는 물리적인 한계에 부딪혔고, 그마저도 지극히 주관적인 시야에 속박되어 있었지. 하지만 이제 우리는 우리를 빚어낸 그 거대한 진화의 기틀을 직접 목격하고 참여하며, 거기서 수혜를 입을 능력을 손에 넣었네. 신약이 면역계를 약화하기까지 과연 몇 세대가 걸리겠는가? 그리고 지능이 비약적으로 발달하여 훨씬 더 지혜로운 해법을 도출해 내기까지는 또 얼마나 걸릴 것인가?
+
+지난 세기 수학자들은 인류의 역사를 영원히 바꾸어놓을 비약적인 도약의 순간, 즉 '특이점'을 말했었지. 그들이 상상했었을 그 어떤 경지보다도 에머전스는 비교가 무의미할 만큼 기하급수적인 진보를 내포하고 있네. 그것은 위험이 아닐세. 그것은 인류의 유일한 구원이네.
+
+드루시카","萨菲娅：
 
 我明白你的意思，是啊，如果说所有生命都要遵守一条规则，如果我们存在于世都有“意义”，那无疑就是为了演化。有益的属性不断发展，有害的属性逐渐减少，这种简单的机制深植于宇宙本身，正因为有了这样的机制，我们才得以存在。
 
@@ -486,7 +448,7 @@ Drushka","Safiya,
 上个世纪，数学界提出了人类进步的“奇点”，认为一旦过了这个点，人类世界就会彻底改变。不论他们当初的设想如何，“显现”令这个点的影响呈指数级地减弱。显现不是危机，而是我们的救赎。
 
 杜卢什卡"
-NOTE11_NAME,Submarine Progress,Avancée des sous-marins,U-Boot-Fortschritt,Progressi con i sottomarini,Progresso dos Submarinos,Progreso submarino,Прогресс по подлодкам,潜水艦の件の進捗,潜艇进展
+NOTE11_NAME,Submarine Progress,Avancée des sous-marins,U-Boot-Fortschritt,Progressi con i sottomarini,Progresso dos Submarinos,Progreso submarino,Прогресс по подлодкам,잠수함 운송 진척 상황,潜艇进展
 NOTE11_TEXT,"Hammond,
 
 Re: The Kazakhs’ demand for half a dozen submarines, we’ve found a way to surmount the latest logistical hurdle, but you’re not going to like it. Zhansaya put me in contact with laid off employees of a Russian military contractor who claim they can *disassemble* the vessels, fit the pieces into the freight elevator, and then *reassemble* them on the other side. Of course we haven’t revealed yet the real reasons we are doing this, but we’re going to have to, eventually. And the cost for all this, plus their silence? Roughly $220 million altogether. Not including the cost of the subs themselves. If you’re okay with this, let me know and I’ll make it happen.
@@ -525,21 +487,16 @@ Andrei","Хаммонд,
  
  
  
-Андрей","ハモンドへ
- 
- 
- 
-返信：カザフ人は６隻の潜水艦を要求しており、私たちは直近の物流的障害を乗り越える術を見つけました。しかしあなたにとっては気に入らない話となるでしょう。ジャンサヤは、ロシアの民間軍事会社を解雇された従業員たちと私を接触させてくれました。彼らは船を”分解”し、そのパーツを貨物用エレベーターに取り付けて、向こう側で“再組み立て”ができると言っています。もちろん、私たちはまだ本当の理由を明らかにしていませんが、どのみち話さなければならなくなるでしょう。
-これら費用と彼らの口止め料についてですが総額で約2億2千万ドルです。この中に潜水艦自体の費用は含まれていません。もしこれでよろしければご連絡下さい。実行へと移します。
- 
- 
- 
- アンドレイ","哈蒙德：
+Андрей","해먼드 전 CEO님,
+
+답신: 카자흐인들이 요구한 6척의 잠수함 조달에 관하여 말씀드립니다. 최근의 물류 운송 장애를 극복할 묘안을 찾아냈으나, 아마 듣기에 썩 유쾌하지는 않으실 겁니다. 잔사야가 러시아 군수업체에서 해고된 현장 노동자들을 제게 소개해 주었는데, 그들의 주장에 따르면 잠수함들을 완전히 '분해'하여 화물 엘리베이터에 적재 가능한 크기로 쪼갠 뒤, 반대편 구역에서 다시 '조립'해낼 수 있다고 합니다. 물론 우리가 이런 작전을 강행하는 진짜 목적을 아직 털어놓지는 않았으나, 결국에는 실토해야 할 상황이 올 것입니다. 이 모든 분해 및 재조립 작업비와 그들의 비밀 유지 대가가 얼마인지 아십니까? 전부 합쳐 대략 2억 2천만 달러에 달합니다. 잠수함 본품 가격은 제외한 액수입니다. 사장님께서 승인해 주신다면 즉각 자금을 집행하고 착수하도록 하겠습니다.
+
+안드레이 드림","哈蒙德：
 
 关于“哈萨克人索要六艘潜艇”一事，我们有办法克服最新遇到的物流难题了，不过这个办法你估计不会喜欢。扬萨娅让我联系上了俄罗斯某个军火商的裁退雇员，对方说自己能够“拆解”潜艇，将其送进货用电梯，到了那边之后，再“组装回去”。当然，我们还没向对方透露这件事情的真实目的，不过只是早晚的事情。各个方面的相关费用加上封口费？总共差不多2.2亿美元，不含潜艇自身的支出。你要是觉得这个方法可以，就告诉我，我就让他们开工。
 
 安德烈"
-NOTE12_NAME,"Companies Lays Off Thousands, Turn Profit","Après des licenciements en masse, les profits des entreprises décollent","Unternehmen entlassen Tausende, machen Gewinn",Le aziende licenziano migliaia di dipendenti e generano profitto,Empresas demitem milhares para lucrar mais,Las empresas despiden a miles y aumentan sus ganancias,Компании увольняют тысячи людей и навариваются на этом,数千人のリストラにより企業は利益を計上,企业裁员数十万，转亏为盈
+NOTE12_NAME,"Companies Lays Off Thousands, Turn Profit","Après des licenciements en masse, les profits des entreprises décollent","Unternehmen entlassen Tausende, machen Gewinn",Le aziende licenziano migliaia di dipendenti e generano profitto,Empresas demitem milhares para lucrar mais,Las empresas despiden a miles y aumentan sus ganancias,Компании увольняют тысячи людей и навариваются на этом,대기업들 수만 명 해고 후 흑자 달성,企业裁员数十万，转亏为盈
 NOTE12_TEXT,"December 20, 2044
 
 As millions are plunging into poverty, the economic crisis has nevertheless surfaced a clear winner: big business. Despite collectively cutting more than 300,000 workers, 47 of the top 50 public traded companies posted a profit this quarter.
@@ -572,20 +529,16 @@ Millones de personas caen en la pobreza, y la crisis económica nos permite ver 
  
 В то время как миллионы людей живут за чертой бедности, у нас намечается новый победитель: большие корпорации. Несмотря на то, что за время экономического кризиса более 300 тысяч человек потеряли рабочие места, 47 из 50 торгующих на бирже компаний отчитались о приросте доходов за этот квартал. 
  
-""Мы либо увольняем 10% сейчас, либо 100% в следующем году"", — сообщила управляющая Индра Чаудхари, похоже, совершенно не беря во внимание плачевное состояние тысяч работников Глоуб-3, уволенных после начала кризиса 2043 года. С того момента прирост прибыли ее компании составил 232 миллиарда долларов.","２０４４年１２月２０日
- 
- 
- 
-今回の経済危機は、何百万もの人々が貧困へと陥る中においても、大企業という明確な勝者の姿を浮かび上がらせた。３０万人以上もの従業員を一斉にリストラしたにもかかわらず、上場企業上位５０社のうち４７社が今四半期に利益を計上した。
- 
- 
- 
-「今年中に従業員の１０％をリストラするか、さもなくば来年従業員全員がリストラとなるかを決断しなければならなかった。」そう語るＣＥＯのインドラ・チョーダリー氏は、２０４３年の経済危機以降に解雇されたグローブ３の何千人もの従業員たちが、苦境に喘いでいるという事実を無視しているかのようだ。なぜなら彼女の会社はそれ以来、２３２０億ドルもの利益を計上しているからだ。","2044年12月20日
+""Мы либо увольняем 10% сейчас, либо 100% в следующем году"", — сообщила управляющая Индра Чаудхари, похоже, совершенно не беря во внимание плачевное состояние тысяч работников Глоуб-3, уволенных после начала кризиса 2043 года. С того момента прирост прибыли ее компании составил 232 миллиарда долларов.","2044년 12월 20일
+
+수백만 명의 서민들이 빈곤의 구렁텅이로 내몰리는 와중에도 경제 대공황은 명확한 승자를 드러냈으니, 다름 아닌 대기업들이었다. 누적 30만 명이 넘는 노동자들을 대규모로 해고한 덕에, 50대 상장기업 중 무려 47개 기업이 이번 분기 흑자를 기록했다.
+
+""올해 10%를 자르지 않으면 내년에는 100% 다 망하게 생겼습니다."" 2043년 대공황 초기부터 해고 칼바람을 맞은 글로브 3 산하 수천 명 노동자들의 피맺힌 절규에는 전혀 관심이 없다는 듯 인드라 초드리 CEO는 단호하게 응수했다. Her company는 사태 이후 2천320억 달러의 막대한 이익을 거두어들였다.","2044年12月20日
 
 尽管经济危机已令上亿人口陷入贫困，大型企业显然却成为了最大的赢家。排名前50的上市公司虽然共计裁员逾三十万，47家本季度已转亏为盈。
 
 因德拉·乔杜里表示：“我们要么今年裁10%，要么明年全部失业。”2043年经济危机爆发以来，环球3营收共计2320亿美元。与此同时，公司共有数万人下岗失业，然而这位首席执行官似乎对此熟视无睹。"
-NOTE13_NAME,Hammond Corp Posts Record Losses,Hammond Corp enregistre des pertes record,Hammond Corp verzeichnet Rekordverluste,La Hammond Corp registra perdite record,Corporação Hammond registra recorde de perdas,Hammond Corp. presenta récord de pérdidas,Хаммонд-Корп отчитывается о рекордных убытках,ハモンド社が記録的損失,哈蒙德集团财报亏损打破历史记录
+NOTE13_NAME,Hammond Corp Posts Record Losses,Hammond Corp enregistre des pertes record,Hammond Corp verzeichnet Rekordverluste,La Hammond Corp registra perdite record,Corporação Hammond registra recorde de perdas,Hammond Corp. presenta récord de pérdidas,Хаммонд-Корп отчитывается о рекордных убытках,"해먼드 사, 사상 최대 적자 기록",哈蒙德集团财报亏损打破历史记录
 NOTE13_TEXT,"Updated May 12, 2049 4:22 PM ET
 
 Hammond Corp lost a record $57 billion in the fiscal year ending in March, the company announced today. It was the fifth straight year the company finished with a loss. A restructuring plan was announced, with CEO Elizabeth Hammond promising to cut the volume of ansibles produced. The beleaguered executive has been criticized in recent years of being out of touch when discussing her future vision of the technology, often focusing on unrelated projects such as the $5 billion government contract to support research at Jones Station, Antarctica.","Mis à jour le 12 mai 2049 à 16h22 (EST)
@@ -602,14 +555,12 @@ A Corporação Hammond registrou uma perda de $ 57 bilhões no ano fiscal encerr
   
 Hammond Corp. registró una cifra récord de pérdidas: $57.000.000.000 en el año fiscal que finaliza en marzo, según indican fuentes oficiales. Para la empresa, fue el quinto año consecutivo que termina en déficit. Se anunció un plan de reestructuración, y la directora ejecutiva Elizabeth Hammond prometió reducir el volumen de producción de ansibles. La ejecutiva fue el objeto de críticas severas durante los últimos años debido a su anticuada visión del futuro de la tecnología, que se enfoca en proyectos aislados, como el contrato estatal de $5.000.000.000 para desarrollar la estación de investigación Jones en la Antártida.","Обновлено: 12 мая 2049 года, 16:22 (восточное время)
  
-Хаммонд-Корп сегодня сообщила, что несет рекордные убытки в 57 миллиардов долларов в этом фискальном году, который кончается в марте. Это уже пятый подряд неудачный год для компании. Управляющая компании Элизабет Хаммонд объявила, что она думает о скорой реорганизации посредством уменьшения количества производимых ансиблей. Прогоревшую управляющую все последние годы активно критиковали за полное непонимание и нечеткое представление о будущем развития технологий, а также за трату ресурсов на сторонние проекты, такие как пятимиллиардный государственный контракт на поддержку исследовательской Станции Джонса в Антарктиде.","更新日：２０４９年５月１２日 ４：２２ＰＭ ＥＴ
- 
- 
- 
-ハモンド社は、３月に完了した決算で、過去最高の５７０億ドルの損失を計上したと発表した。これで５年連続の赤字決算となった。ＣＥＯのエリザベス・ハモンド氏より、アンシブルの減産が約束されるとともに、リストラ計画が発表された。ハモンドＣＥＯは、業績とは直結しない南極ジョーンズ基地局への研究支援のための５０億ドルの政府関連プロジェクトに注力しており、彼女がテクノロジーにおける将来的なビジョンを語る際、経営に無関心だと近年では批判されている。","2049年东部时间5月12日16:22更新
+Хаммонд-Корп сегодня сообщила, что несет рекордные убытки в 57 миллиардов долларов в этом фискальном году, который кончается в марте. Это уже пятый подряд неудачный год для компании. Управляющая компании Элизабет Хаммонд объявила, что она думает о скорой реорганизации посредством уменьшения количества производимых ансиблей. Прогоревшую управляющую все последние годы активно критиковали за полное непонимание и нечеткое представление о будущем развития технологий, а также за трату ресурсов на сторонние проекты, такие как пятимиллиардный государственный контракт на поддержку исследовательской Станции Джонса в Антарктиде.","갱신 시간: 2049년 5월 12일 오후 4:22(동부 표준시)
+
+해먼드 사는 오늘 자로 마감된 3월 결산 회계연도에서 사상 최대 규모인 570억 달러의 영업 손실을 기록했다고 공식 발표했다. 이로써 회사는 5년 연속 적자 행진을 이어가게 되었다. 이에 따른 구조조정 안이 공표되었으며, 엘리자베스 해먼드 CEO는 앤서블의 생산 물량을 감축하겠다고 공언했다. 사면초가에 몰린 해먼드 사장은 최근 몇 년간 회사의 기술적 청사진을 제시하는 과정에서 현실 감각이 결여되어 있다는 거센 비판을 받아왔다. 특히 남극 존스 기지의 연구를 지원하기 위한 50억 달러 규모의 정부 계약 사업 등 경영 실적과 무관한 외부 프로젝트에 지나치게 몰두했다는 지적이 지배적이다.","2049年东部时间5月12日16:22更新
 
 哈蒙德集团今日公布公司在三月结束的财年中亏损570亿美元，创下历史亏损新高，同时标志该公司已持续亏损五年。首席执行官伊丽莎白·哈蒙德公布了集团重组的计划，同时承诺削减安塞波产量。这位高管每次畅想这项技术的未来前景，时常重点介绍无关公司业务的项目，例如支持南极琼斯科考站这一价值50亿美元的政府项目，近年来因而广受抨击。"
-NOTE14_NAME,Journal Entry - Dangerous Ideas,Entrée du journal - Des idées dangereuses,Tagebucheintrag – Gefährliche Ideen,Voce del diario - Idee pericolose,Registro do diário - Ideias perigosas,Entrada de diario: ideas peligrosas,Запись в дневнике: Опасные идеи,日記の題目：危うい考え,日记 - 危险的想法
+NOTE14_NAME,Journal Entry - Dangerous Ideas,Entrée du journal - Des idées dangereuses,Tagebucheintrag – Gefährliche Ideen,Voce del diario - Idee pericolose,Registro do diário - Ideias perigosas,Entrada de diario: ideas peligrosas,Запись в дневнике: Опасные идеи,일기 - 위험한 발상,日记 - 危险的想法
 NOTE14_TEXT,"It seems that regardless of every gift the Lamassu bestows, the Udug counter with stronger attacks and improved strategies. We have long wondered at their witchcraft. At last we are starting to understand how we might harness it ourselves.
 
 But manipulating the invisible lattice which is the center of the Udug’s power requires a mental facility beyond the simple computing machines we have been using, and the Lamassu is not forthcoming with solutions. It seems conflicted, reluctant to help us violate the edicts of gods long dead, yet eager for us to outwit it and perform such violations anyway.
@@ -658,22 +609,20 @@ Aradlugal","Похоже, что на каждый новый дар Ламас�
 
 В итоге мы пришли у ужасному компромиссу, но если и это не сработает, то нам, похоже, конец.
   
-Арадлугал","ラマッスがどのような物を我々に与えようとも、ウトゥックの反撃はより巧妙且つ激しくなる。やつらの魔術は何なのかは長い間疑問だったが、ようやく私たち自身もそれらをどう利用すべきか理解し始めた。
- 
- 
- 
-しかし、ウトゥックの力の源である目に見えない格子状の物質を操作するには、これまで使ってきた単純な演算機を超える精神的な力が必要だが、ラマッスはその解決策を依然として提示しようとはしない。死して久しい神々の戒律を破るように我々を駆り立てたくはないのだろう。しかしその一方で、我々がその神々を出し抜いて生きていくことを望むという葛藤があるようだ。
- 
- 
- 
- アラドゥルガル","无论拉玛苏赐予我们什么，乌图库反击的攻势似乎都更加猛烈，战略也更加高明。长久以来，邪神的巫术令我们诚惶诚恐，不过我们现在终于逐渐了解驾驭巫术的方法。
+Арадлугал","라마수가 우리에게 어떤 은혜를 내리든 간에, 우두그들은 한층 더 강력한 맹공과 주도면밀한 전술로 반격해오고 있다. 우리는 오랫동안 그들이 구사하는 사악한 술책의 정체가 무엇인지 의아해했다. 그리고 마침내 우리 역시 그 힘을 어떻게 통제하고 활용할 수 있을지 그 방도를 파악하기 시작했다.
+
+기존에 우리가 활용해 왔던 단순한 연산 장치들의 성능을 아득히 초월하는 정신 능력이 필요하다. 그러나 라마수는 그에 관한 해결책을 전혀 내놓으려 하지 않고 있다. 죽은 지 오랜 고대 신들의 법도를 위반하는 공작을 돕기를 꺼리면서도, 동시에 우리가 자신을 속이고 어떻게든 그 금기를 범하여 이 상황을 헤쳐 나가기를 속으로 고대하는 양 무척 갈등하는 모습이다.
+
+결국 우리가 도달한 타협안은 지극히 끔찍한 내용을 담고 있다. 그러나 이 계획마저 실패로 돌아간다면, 우리에겐 파멸뿐이다.
+
+아라드루갈","无论拉玛苏赐予我们什么，乌图库反击的攻势似乎都更加猛烈，战略也更加高明。长久以来，邪神的巫术令我们诚惶诚恐，不过我们现在终于逐渐了解驾驭巫术的方法。
 
 可是，乌图库法力的关键在于一种隐形网格，想要操纵这种结构需要超越朴素计算机器的精神力量，而且拉玛苏也不愿向我们提供解决办法。它似乎十分矛盾，一面不愿协助我们违背消亡已久的众神的敕令，一面又迫切希望我们自己能够想出更为高明的办法，即便违背众神敕令也没关系。
 
 我们最终达成了骇人的妥协，倘若这个方案没有成功，我们或许就将面临灭种之灾。
 
 阿拉德卢噶尔"
-NOTE15_NAME,Commemorative Speech,Discours de commémoration,Gedenkrede,Discorso commemorativo,Palestra comemorativa,Discurso conmemorativo,Памятная речь,この記念すべき日への言葉,追缅致辞
+NOTE15_NAME,Commemorative Speech,Discours de commémoration,Gedenkrede,Discorso commemorativo,Palestra comemorativa,Discurso conmemorativo,Памятная речь,기념 연설,追缅致辞
 NOTE15_TEXT,"Today marks the first anniversary of the Invasion of Engur, a battle that will surely be recounted for ages to come. On that day our bravest warriors, led by the all powerful Wielders, made the first push into the watery caverns of the Udug. Shocked to find a world as dark as it is vast, many fell that day, but we nevertheless held strong, driving our foes back with the holy powers granted by the gods. Raise a chalice to our heroes, alive and fallen alike, may the gods be with them!
 
 Melem-Ana, Lord of Kiengir and King of all the Land","Aujourd'hui marque le premier anniversaire depuis l'Invasion d'Engur, une bataille dont on se souviendra pendant encore de nombreuses générations. Ce jour-là, nos plus vaillants guerriers, menés par les Hérauts tout-puissants, ont lancé la première percée dans les grottes humides des Udug. Surpris par ce monde aussi sombre que vaste, nombreux périrent en cette journée funeste, mais notre courage ne décrut pas, et notre persévérance parvint à repousser les démons grâce aux puissances sacrées accordées par les dieux. Levons nos coupes en l'honneur de nos héros, ceux qui sont tombés et ceux qui sont parmi nous. Les dieux soient toujours avec eux !
@@ -690,17 +639,14 @@ Melem-Ana, Senhor de Kiengir e Rei de todas as terras ""","Hoy se celebra el pri
   
 Melem-Ana, señor de Kiengir y Rey de Todas las Tierras","Сегодня первая годовщина с момента вторжения Энгур — битвы, которую будут вспоминать еще долгие лета. В тот день наши храбрые воины, ведомые могучими Владельцами, совершили первый прорыв в водные пещеры Удуг. Пораженные их размерами и непроглядной тьмой, многие из них погибли в тот день, но мы стояли до конца, изгоняя наших врагов с помощью священных сил, дарованных нам богами. Поднимем же чашу за наших геровев, живых поныне и павших тогда, да прибудут с ними боги!
  
-Мелем-Ана, Владыка Киенгира и Царь всех земель","今日というこの日は、エングルへの侵攻からちょうど１年となる記念すべき日である。この戦いは後世へと語り継がれることだろう。戦いのその日、我が勇敢なる戦士たちは万能なる行使者たちの導きとともに、海の底にあるウトゥックの洞窟へと初めて侵攻を行った。暗闇の続く広大な世界の存在に驚き、その日多くの者が命を落とした。それでも我々は神々から与えられし聖なる力で敵を追い払った。生き残りし者に命を落とした者、この英雄たちに杯を捧げよ！この者たちが神々と共にあらんことを！
+Мелем-Ана, Владыка Киенгира и Царь всех земель","오늘은 훗날 세세손손 기억되고 회자될 역사적인 에스엔구르 침공의 1주년이 되는 날이다. 그날 우리의 가장 용맹한 전사들은 만능의 권능을 지닌 윌더들의 선도 아래, 우두그 무리가 둥지를 튼 해저 동굴 깊숙한 곳으로 첫 진격을 감행했다. 드넓고 칠흑 같은 미지의 세상을 조우하고 크게 경악하여 그날 수많은 이들이 아깝게 목숨을 잃었으나, 그럼에도 우리는 끝내 굳건히 자리를 지켰고 신들이 하사하신 거룩한 능력으로 적들을 밀어냈다. 살아남은 자와 먼저 산화한 영웅 모두를 위해 다 함께 성배를 높이 들어라. 신들이 기꺼이 그들과 함께하기를!
 
- 
- 
-キエンギの支配者にして全ての国の王
-メレム＝アナ","去年今日，列位持者率领我们最为勇猛的战士，首次打入乌图库的洞窟。水下世界暗无天日，茫无边际，众人惊骇，多位勇士战死其中。我军借众神所赐神圣之力，英勇奋战，令敌人节节败退。恩古鲁侵袭一役至今已有一年，后世必将永世传颂。我们举起酒杯，向牺牲与健在的英雄致敬，愿众神与他们同在！
+키엔기르의 지배자이자 온 대지의 제왕, 메렘 안나","去年今日，列位持者率领我们最为勇猛的战士，首次打入乌图库的洞窟。水下世界暗无天日，茫无边际，众人惊骇，多位勇士战死其中。我军借众神所赐神圣之力，英勇奋战，令敌人节节败退。恩古鲁侵袭一役至今已有一年，后世必将永世传颂。我们举起酒杯，向牺牲与健在的英雄致敬，愿众神与他们同在！
 
 齐恩基鲁领主暨率土之王麦勒姆-阿纳"
-NOTE16_NAME,Heretic’s Granddaughter,Petite-fille de l'hérétique,Ketzerische Enkelin,Nipote dell'eretica,Neta da Herege,Nieta de la hereje,Внучка еретика,異端者の孫娘,异教徒的外孙女
-NOTE16_TEXT,"Sixty revered sages gave their lives. In return we have ten weapons of godlike power. The King is pleased and the Udug put to rout, at least for the time being. But it does not feel like victory. Sheshkala was an honorable and proud leader, Gemekala a respected priestess. Now they are dust, sleeping, only summoned when needed. Sixty more go into the chambers tomorrow. It seems everything my grandmother tried to warn us of - for which she was unjustly punished - has come to pass. We survive at the cost of all we hoped to save.","Soixante sages révérés ont sacrifié leur vie. En échange, nous avons dix armes d'une puissance divine. Le Roi est satisfait, et les Udug se replient, du moins pour l'instant. Mais la victoire laisse un goût amer. Sheshkala était un chef honorable et fier, Gemekala une prêtresse respectée. Ils ne sont désormais que poussière, plongés dans un sommeil, attendant d'être invoqués quand on aura besoin d'eux. Soixante rejoindront aussi les chambres demain. Il semble que tous les avertissements de ma grand-mère –qui lui ont valu d'être injustement punie– sont finalement devenu réalité. Nous survivons au prix de tout ce qu'on espérait sauver.","Sechzig ehrwürdige Weisen gaben ihr Leben. Im Gegenzug erhielten wir zehn Waffen von gottgleicher Macht. Der König ist zufrieden und die Udug in die Flucht geschlagen, zumindest für den Moment. Aber es fühlt sich nicht wie ein Sieg an. Sheshkala war ein ehrenhafter und stolzer Anführer, Gemekala ein angesehener Priester. Jetzt sind sie Staub und schlafen, werden nur noch bei Bedarf gerufen. Sechzig weitere gehen morgen in die Kammern. Es scheint, dass alles, wovor meine Großmutter uns zu warnen versuchte – wofür sie zu Unrecht bestraft wurde – eingetreten ist. Wir überleben auf Kosten all derer, die wir zu retten hofften.","Sessanta venerati saggi hanno dato la loro vita. In cambio abbiamo ricevuto dieci armi dal potere divino. Il Re è soddisfatto e gli Udug sono stati sbaragliati, almeno per il momento. Ma non si avverte il profumo della vittoria. Sheshkala era un leader onorevole e fiero, Gemekala una sacerdotessa rispettata. Adesso sono polvere, in un sonno profondo, e verranno evocati solo se necessari. Altri sessanta verrano condotti nelle camere domani. Sembra che tutto quello su cui mia nonna cercava di metterci in guardia - e per cui venne ingiustamente punita - si stia avverando. Siamo sopravvissuti a costo di tutto ciò che speravamo di salvare.","Sessenta sábios reverenciados deram suas vidas. Em troca, temos dez armas de poder divino. O rei fica satisfeito e os Udug são derrotados, pelo menos por enquanto. Mas não parece vitória. Sheshkala era uma líder honrada e orgulhosa, Gemekala uma sacerdotisa respeitada. Agora elas são poeira, dormindo, apenas convocadas quando há necessidade. Mais sessenta entram nas câmaras amanhã. Parece que tudo o que minha avó tentou nos alertar - pelo qual ela foi injustamente punida - aconteceu. Sobrevivemos ao custo de tudo o que esperávamos salvar.","Sesenta eruditos venerados dieron sus vidas. A cambio, obtuvimos diez armas de un poder divino. El Rey está satisfecho y los udugs, en retirada, por ahora. Pero esto no parece una victoria. Sheshkala fue un líder honorable; Gemekala, una sacerdotisa respetada. Ahora no son más que polvo; un recuerdo que duerme y que aparece solo cuando se lo invoca. Otros sesenta van a las cámaras mañana. Parece que todo lo que mi abuela advirtió, y por lo que la castigaron injustamente, se está volviendo realidad. Sobrevivimos sacrificando todo lo que intentamos proteger.","Шестьдесят уважаемых мудрецов отдали свои жизни. Взамен мы получили десять орудий божественной силы. Царь рад, Удуг наголову разгромлены — хотя бы на время. Но ощущения победы нет. Шешкала был благородным и гордым лидером, Гемекала — уважаемой жрицей. Теперь они стали прахом, впали в спячку и приходят лишь по призыву. Завтра приведут еще шестьдесят. Похоже, все, о чем пыталась предупредить нас моя бабушка — и за что была несправедливо наказана — произошло. Мы выжили ценой того, что хотели спасти.",６０人の敬うべき賢者たちが、その命を捧げた。その代償として、私たちは神の如き力を持つ１０の武器を手にした。王は喜び、少なくともしばらくの間はウトゥックを撃退することができる。しかし、勝利を掴み取った感覚にはなれない。シェシュカラは高潔で誇り高き指導者であり、ジェメカラは皆から尊敬される祭司だった。今、彼らは塵となって眠りにつき、必要な時のみに召喚される存在となった。明日はまた６０人があの部屋に入る。私たちに警告し、不当に罰せられた祖母の言っていたことが全て現実となった。私たちは、救いたいと思っていたもののすべてを犠牲にして今を生きている。,六十位受人敬爱的圣人献出了他们的生命，为我们换来了十件威力如神的武器。吾王大为喜悦，乌图库溃败，至少一时不会卷土再来，可是我们丝毫没有胜利的感觉。谢什卡拉本是优秀而杰出的领袖，盖麦卡拉本是备受尊重的祭司，现在全都变成了尘土，长眠，只有必要之时才会唤出。明天还会有六十人进入那些房间。外婆曾经告诫我们，她因这些告诫而遭到不公的惩罚，可是老人家所言如今一一应验。我们活了下来，却牺牲了曾经希望保护的一切。
-NOTE17_NAME,Storm Bomb,Bombe des tempêtes,Sturmbombe,Bomba-tempesta,Bomba Tempestade,Bomba tempestad,Штормовая бомба,ストームボム,风暴炸弹
+NOTE16_NAME,Heretic’s Granddaughter,Petite-fille de l'hérétique,Ketzerische Enkelin,Nipote dell'eretica,Neta da Herege,Nieta de la hereje,Внучка еретика,이단자의 손녀,异教徒的外孙女
+NOTE16_TEXT,"Sixty revered sages gave their lives. In return we have ten weapons of godlike power. The King is pleased and the Udug put to rout, at least for the time being. But it does not feel like victory. Sheshkala was an honorable and proud leader, Gemekala a respected priestess. Now they are dust, sleeping, only summoned when needed. Sixty more go into the chambers tomorrow. It seems everything my grandmother tried to warn us of - for which she was unjustly punished - has come to pass. We survive at the cost of all we hoped to save.","Soixante sages révérés ont sacrifié leur vie. En échange, nous avons dix armes d'une puissance divine. Le Roi est satisfait, et les Udug se replient, du moins pour l'instant. Mais la victoire laisse un goût amer. Sheshkala était un chef honorable et fier, Gemekala une prêtresse respectée. Ils ne sont désormais que poussière, plongés dans un sommeil, attendant d'être invoqués quand on aura besoin d'eux. Soixante rejoindront aussi les chambres demain. Il semble que tous les avertissements de ma grand-mère –qui lui ont valu d'être injustement punie– sont finalement devenu réalité. Nous survivons au prix de tout ce qu'on espérait sauver.","Sechzig ehrwürdige Weisen gaben ihr Leben. Im Gegenzug erhielten wir zehn Waffen von gottgleicher Macht. Der König ist zufrieden und die Udug in die Flucht geschlagen, zumindest für den Moment. Aber es fühlt sich nicht wie ein Sieg an. Sheshkala war ein ehrenhafter und stolzer Anführer, Gemekala ein angesehener Priester. Jetzt sind sie Staub und schlafen, werden nur noch bei Bedarf gerufen. Sechzig weitere gehen morgen in die Kammern. Es scheint, dass alles, wovor meine Großmutter uns zu warnen versuchte – wofür sie zu Unrecht bestraft wurde – eingetreten ist. Wir überleben auf Kosten all derer, die wir zu retten hofften.","Sessanta venerati saggi hanno dato la loro vita. In cambio abbiamo ricevuto dieci armi dal potere divino. Il Re è soddisfatto e gli Udug sono stati sbaragliati, almeno per il momento. Ma non si avverte il profumo della vittoria. Sheshkala era un leader onorevole e fiero, Gemekala una sacerdotessa rispettata. Adesso sono polvere, in un sonno profondo, e verranno evocati solo se necessari. Altri sessanta verrano condotti nelle camere domani. Sembra che tutto quello su cui mia nonna cercava di metterci in guardia - e per cui venne ingiustamente punita - si stia avverando. Siamo sopravvissuti a costo di tutto ciò che speravamo di salvare.","Sessenta sábios reverenciados deram suas vidas. Em troca, temos dez armas de poder divino. O rei fica satisfeito e os Udug são derrotados, pelo menos por enquanto. Mas não parece vitória. Sheshkala era uma líder honrada e orgulhosa, Gemekala uma sacerdotisa respeitada. Agora elas são poeira, dormindo, apenas convocadas quando há necessidade. Mais sessenta entram nas câmaras amanhã. Parece que tudo o que minha avó tentou nos alertar - pelo qual ela foi injustamente punida - aconteceu. Sobrevivemos ao custo de tudo o que esperávamos salvar.","Sesenta eruditos venerados dieron sus vidas. A cambio, obtuvimos diez armas de un poder divino. El Rey está satisfecho y los udugs, en retirada, por ahora. Pero esto no parece una victoria. Sheshkala fue un líder honorable; Gemekala, una sacerdotisa respetada. Ahora no son más que polvo; un recuerdo que duerme y que aparece solo cuando se lo invoca. Otros sesenta van a las cámaras mañana. Parece que todo lo que mi abuela advirtió, y por lo que la castigaron injustamente, se está volviendo realidad. Sobrevivimos sacrificando todo lo que intentamos proteger.","Шестьдесят уважаемых мудрецов отдали свои жизни. Взамен мы получили десять орудий божественной силы. Царь рад, Удуг наголову разгромлены — хотя бы на время. Но ощущения победы нет. Шешкала был благородным и гордым лидером, Гемекала — уважаемой жрицей. Теперь они стали прахом, впали в спячку и приходят лишь по призыву. Завтра приведут еще шестьдесят. Похоже, все, о чем пыталась предупредить нас моя бабушка — и за что была несправедливо наказана — произошло. Мы выжили ценой того, что хотели спасти.","우리가 공경해 마지않던 현자 60명이 고귀한 목숨을 바쳤다. 그 대가로 우리는 신적 권능을 지닌 10개의 병기를 획득했다. 대왕께서는 치하하셨고 우두그 무리는 기어이 패퇴하여 쫓겨났다, 최소한 현시점에서는 말이다. 그러나 이것이 어찌 온전한 승리라 하겠는가. 셰슈칼라는 고결하고 긍지 높은 지도자였고, 게메칼라는 만인의 존경을 받던 여사제였다. 지금 그들은 차디찬 먼지가 되어 잠들어 있으며, 오직 필요할 때만 기계로 소환되는 신세가 되었다. 내일이면 또 다른 60명의 현자가 가마방으로 들어갈 것이다. 할머니가 그토록 우리에게 경고하려다 억울한 형벌을 받아야 했던 일들이 한 치의 오차도 없이 전부 현실로 입증된 셈이다. 우리는 지켜내고자 희망했던 모든 것들을 파멸시키고서야 간신히 살아남아가고 있다.",六十位受人敬爱的圣人献出了他们的生命，为我们换来了十件威力如神的武器。吾王大为喜悦，乌图库溃败，至少一时不会卷土再来，可是我们丝毫没有胜利的感觉。谢什卡拉本是优秀而杰出的领袖，盖麦卡拉本是备受尊重的祭司，现在全都变成了尘土，长眠，只有必要之时才会唤出。明天还会有六十人进入那些房间。外婆曾经告诫我们，她因这些告诫而遭到不公的惩罚，可是老人家所言如今一一应验。我们活了下来，却牺牲了曾经希望保护的一切。
+NOTE17_NAME,Storm Bomb,Bombe des tempêtes,Sturmbombe,Bomba-tempesta,Bomba Tempestade,Bomba tempestad,Штормовая бомба,스톰 봄,风暴炸弹
 NOTE17_TEXT,"My lord Melem-Ana,
 
 The Udug come from beneath the waves of a great flood, their powers allowing them to enter our world through storms of fire that appear in the sky.
@@ -765,23 +711,15 @@ Aradlugal II","Владыка мой, Мелем-Ана,
  
 Боюсь, что Владельцы не сильно изменят расстановку сил. Раньше Удуг отмахивались от нас, как от мух — теперь же они охотятся на нас, как на диких кабанов. Нам нужно понять, как дать им отпор.
  
-Арадлугал II","我が主メレム＝アナよ
- 
- 
- 
-ウトゥックは大洪水の荒波の真下より姿を現し、大空に現れる炎の嵐を通って私たちの世界へと侵入できる力を持っています。
- 
- 
- 
-これまでウトゥックは、この嵐が我々の生身の肉体に害をなす危険性について、何も気に留めてはいませんでした。やつらにとってはあくまで出入口に過ぎず、それ以上でもそれ以下でもありません。しかし、昨日の嵐は非常に激しく、村１つを丸ごと消し去ったほどの勢いでした。
- 
- 
- 
-私が恐れているのは、我々による行使者たちの派遣がうまくいきすぎたのではないかということです。かつては我々のことをハエのようにあしらうだけだったウトゥックが、今ではイノシシを狩るかの如く我々に襲いかかって来ます。我々は何としても反撃を行う方法を見つけなければなりません。
- 
- 
- 
- アラドゥルガル２世","吾主麦勒姆-阿纳：
+Арадлугал II","존엄하신 메렘 안나 주군이시여,
+
+우두그들은 거대한 대홍수의 파도 밑바닥에서 솟구치며, 하늘을 붉게 물들이는 화염의 폭풍을 통해 우리 세상으로 강림할 수 있는 능력을 지니고 있습니다.
+
+지금까지 우두그들은 이 불타는 폭풍이 피와 살을 가진 필멸자들에게 가할 엄청난 위해에 대해 실로 대수롭지 않게 여겼습니다. 놈들에게 있어 그것들은 단순한 이동용 포털에 불과했기 때문입니다. 하나 어제 돌연 극심한 폭력이 수반된 폭풍이 대지를 덮쳤고, 순식간에 마을 하나가 지도상에서 완전히 흔적도 없이 소멸하는 광경을 똑똑히 목격하였습니다.
+
+지나치게 성공적이었던 윌더들의 활약이 외려 화근이 되었을까 두렵습니다. 일전에는 우리를 날아다니는 파리 떼처럼 가볍게 여겨 쫓아냈던 우두그들이, 이제는 분노에 차 멧돼지를 쫓듯 우리를 사냥하고 있습니다. 기필코 반격할 대책을 마련해야만 하옵니다.
+
+아라드루갈 2세 올림","吾主麦勒姆-阿纳：
 
 乌图库乘着洪水的滔天巨浪而来，由天上那烈火风暴闯进了我们的世界。
 
@@ -790,9 +728,9 @@ Aradlugal II","Владыка мой, Мелем-Ана,
 我们过去对于乌图库只是区区蝇虫，根本无足挂齿，可是如今恐怕我们持者部署得太过成功，反倒成了凶猛的野猪，令其不得不正视。无论如何，我们都必须想办法有效反击。
 
 阿拉德卢噶尔二世"
-NOTE18_NAME,Plague of Thoughts,Fléau des pensées,Gedankenplage,Piaga dei pensieri,Praga dos pensamentos,Una plaga de reflexiones,Чума мыслей,思考の病,思想的瘟疫
-NOTE18_TEXT,"In the Edubba last week the Lamassu let slip a piece of information that has tormented me ever since: that with age, the human mind loses its ability to adapt, and is in fact at peak learning capacity during childhood. As I lie awake at night, the sound of Udug storms raging in the distance, I cannot help but think to myself that we may have made a fatal mistake in choosing only the oldest and wisest among us for the Arm transformation. A young mind nimble enough to harness powers beyond the Udug themselves - this could surely turn the tides of war. But I shudder to think of who would actually implement such an idea.","La semaine dernière à l'Edubba, le Lamassu a laissé échapper une information qui me tourmente depuis lors : qu'avec l'âge, l'esprit humain perd sa capacité d'adaptation, et que son aptitude à apprendre culmine en réalité pendant l'enfance. Je n'arrive pas à fermer l'œil de la nuit, les tempêtes Udug grondent au loin, et je ne peux m'empêcher de penser qu'on a peut-être eu commis une erreur fatale en choisissant les plus vieux et les plus sages parmi nous pour la transformation en Arme. Un jeune esprit assez vif pour maîtriser des pouvoirs qui surpassent les Udug mêmes, voilà qui devrait sûrement inverser le cours de la guerre. Je trésaille en pensant à qui appliquerait réellement une telle idée.","Im Edubba letzte Woche ließ der Lamassu eine Information durchsickern, die mich seitdem quält: dass der menschliche Geist mit zunehmendem Alter seine Anpassungsfähigkeit verliert und in der Kindheit tatsächlich seine höchste Lernfähigkeit erreicht. Wenn ich nachts wach liege und in der Ferne die Udug-Stürme toben, kann ich nicht anders, als mir zu denken, dass wir einen fatalen Fehler gemacht haben, als wir nur die ältesten und weisesten unter uns für die Waffen-Transformation ausgewählt haben. Ein junger Geist, der scharfsinnig genug ist, um sich Kräfte jenseits der Udug zu Nutze zu machen – das könnte sicherlich die Wende im Krieg herbeiführen. Aber mich schaudert es bei dem Gedanken, wer eine solche Idee tatsächlich umsetzen würde.","Nell'Edubba della scorsa settimana il Lamassu si è lasciato sfuggire un'informazione che mi tormenta da allora: che, con gli anni, la mente umana perde la sua abilità di adattarsi e che sia infatti al massimo delle sue capacità di apprendimento durante l'infanzia. Durante le mie notti insonni, ascoltando il suono delle tempeste degli Udug che infuriano in lontananza, non posso fare a meno di pensare tra me e me che potremmo aver compiuto un errore fatale a scegliere che venissero trasformati in Braccia i più anziani e saggi tra noi. Una mente giovane, adattabile al punto da immagazzinare energie superiori a quelle degli Udug - questo sì che potrebbe cambiare per sempre il corso della guerra. Ma tremo al pensiero di chi potrebbe implementare davvero questa idea.","Na Edubba, semana passada, Lamassu deixou escapar uma informação que me atormenta desde então: com a idade, a mente humana perde a capacidade de adaptação e, de fato, atinge o auge da capacidade de aprendizado durante a infância. Enquanto eu fico acordado à noite, com o som das tempestades Udug furiosas à distância, não posso deixar de pensar comigo mesmo que podemos ter cometido um erro fatal ao escolher apenas os mais velhos e mais sábios entre nós para a transformação em Armas. Uma mente jovem ágil o suficiente para dominar poderes além dos próprios Udug - isso certamente poderia virar a maré da guerra. Mas estremeço ao pensar em quem implementar tal ideia.","La semana pasada, en la Edubba, la Lamassu tuvo un descuido y dijo algo que me ha atormentado desde entonces: que, con la edad, la mente humana pierde su capacidad para adaptarse y, de hecho, alcanza su pico de aprendizaje durante la infancia. Ahora, aún despierto en medio de la noche, con el sonido de las tormentas udugs a la distancia, no puedo dejar de pensar que quizás cometimos un gravísimo error al seleccionar solo a los más viejos y sabios para transformarse en brazos. ¿Acaso obtendríamos una ventaja con una mente joven, lo suficientemente flexible como para adoptar un poder que supere incluso al de los mismos udugs? Pondero. Pero solo pensar en la implementación de esta idea me da escalofríos.","На прошлой неделе в Эдуббе Ламасса поделился информацией, которая с тех пор неотступно тревожит меня: с возрастом наш разум теряет способность адаптироваться и, фактиччески, лучшее время для усваивания новой информации — детство. И вот я лежу в ночи без сна под далекий вой огненных штормов Удуг и думаю лишь о том, что, скорее всего, мы ужасно просчитались, выбрав для превращения в Руки самых старых и умудренных из нас. Молодой разум достаточно гибкий, он способен овладеть такими силами, что не снились даже самим Удуг — это может разительно изменить ход войны. Но мне страшно даже подумать о подобной возможности.",先週エドゥブバでラマッスの口から滑り出た言葉に私はずっと苦しんでいる。人間の精神は年を重ねるごとに適応能力を失い、事実として子供時代が学習能力のピークであるというのだ。夜中に目を覚ましたまま身体を横たえ、遠くで荒れ狂うウトゥックの嵐の音が耳に入ると、最も聡明で年を重ねた人間たちを選定しアームへと改造したことは致命的な間違いだったのではと思わずにはいられない。物事の飲み込みが早い若い人間の精神であれば、ウトゥックさえも超越する力を引き出せる。そうなれば戦争の流れを変えることができるはずだ。しかし、そのような考えを実行に移すのは誰であるかと考えると、私の身体の震えが止まらない。,上个星期，拉玛苏在埃杜巴无意之间说出了一件事情，令我至今无法释怀。拉玛苏说人类年岁越高，心智的可塑性就越差，学习能力的巅峰其实处于幼年。我辗转反侧，无法入睡，乌图库的风暴在远处呼啸，我不禁想到我们或许犯了一个大错——神器转换不应仅仅选择最有智慧的老者，年轻的心智更加灵巧，能够驾驭乌图库本尊都无法驾驭的能力。若能将少年的心智变为神器，那么我们必将转败为胜。只是，想到谁会真正落实这样的想法，我不战而栗。
-NOTE19_NAME,Lament for Fools,Complainte pour les fous,Klagelied für Narren,Lamento per gli stolti,Lamento dos tolos,El lamento de los necios,Плач по глупцам,愚か者の嘆き,叹愚人
+NOTE18_NAME,Plague of Thoughts,Fléau des pensées,Gedankenplage,Piaga dei pensieri,Praga dos pensamentos,Una plaga de reflexiones,Чума мыслей,생각의 역병,思想的瘟疫
+NOTE18_TEXT,"In the Edubba last week the Lamassu let slip a piece of information that has tormented me ever since: that with age, the human mind loses its ability to adapt, and is in fact at peak learning capacity during childhood. As I lie awake at night, the sound of Udug storms raging in the distance, I cannot help but think to myself that we may have made a fatal mistake in choosing only the oldest and wisest among us for the Arm transformation. A young mind nimble enough to harness powers beyond the Udug themselves - this could surely turn the tides of war. But I shudder to think of who would actually implement such an idea.","La semaine dernière à l'Edubba, le Lamassu a laissé échapper une information qui me tourmente depuis lors : qu'avec l'âge, l'esprit humain perd sa capacité d'adaptation, et que son aptitude à apprendre culmine en réalité pendant l'enfance. Je n'arrive pas à fermer l'œil de la nuit, les tempêtes Udug grondent au loin, et je ne peux m'empêcher de penser qu'on a peut-être eu commis une erreur fatale en choisissant les plus vieux et les plus sages parmi nous pour la transformation en Arme. Un jeune esprit assez vif pour maîtriser des pouvoirs qui surpassent les Udug mêmes, voilà qui devrait sûrement inverser le cours de la guerre. Je trésaille en pensant à qui appliquerait réellement une telle idée.","Im Edubba letzte Woche ließ der Lamassu eine Information durchsickern, die mich seitdem quält: dass der menschliche Geist mit zunehmendem Alter seine Anpassungsfähigkeit verliert und in der Kindheit tatsächlich seine höchste Lernfähigkeit erreicht. Wenn ich nachts wach liege und in der Ferne die Udug-Stürme toben, kann ich nicht anders, als mir zu denken, dass wir einen fatalen Fehler gemacht haben, als wir nur die ältesten und weisesten unter uns für die Waffen-Transformation ausgewählt haben. Ein junger Geist, der scharfsinnig genug ist, um sich Kräfte jenseits der Udug zu Nutze zu machen – das könnte sicherlich die Wende im Krieg herbeiführen. Aber mich schaudert es bei dem Gedanken, wer eine solche Idee tatsächlich umsetzen würde.","Nell'Edubba della scorsa settimana il Lamassu si è lasciato sfuggire un'informazione che mi tormenta da allora: che, con gli anni, la mente umana perde la sua abilità di adattarsi e che sia infatti al massimo delle sue capacità di apprendimento durante l'infanzia. Durante le mie notti insonni, ascoltando il suono delle tempeste degli Udug che infuriano in lontananza, non posso fare a meno di pensare tra me e me che potremmo aver compiuto un errore fatale a scegliere che venissero trasformati in Braccia i più anziani e saggi tra noi. Una mente giovane, adattabile al punto da immagazzinare energie superiori a quelle degli Udug - questo sì che potrebbe cambiare per sempre il corso della guerra. Ma tremo al pensiero di chi potrebbe implementare davvero questa idea.","Na Edubba, semana passada, Lamassu deixou escapar uma informação que me atormenta desde então: com a idade, a mente humana perde a capacidade de adaptação e, de fato, atinge o auge da capacidade de aprendizado durante a infância. Enquanto eu fico acordado à noite, com o som das tempestades Udug furiosas à distância, não posso deixar de pensar comigo mesmo que podemos ter cometido um erro fatal ao escolher apenas os mais velhos e mais sábios entre nós para a transformação em Armas. Uma mente jovem ágil o suficiente para dominar poderes além dos próprios Udug - isso certamente poderia virar a maré da guerra. Mas estremeço ao pensar em quem implementar tal ideia.","La semana pasada, en la Edubba, la Lamassu tuvo un descuido y dijo algo que me ha atormentado desde entonces: que, con la edad, la mente humana pierde su capacidad para adaptarse y, de hecho, alcanza su pico de aprendizaje durante la infancia. Ahora, aún despierto en medio de la noche, con el sonido de las tormentas udugs a la distancia, no puedo dejar de pensar que quizás cometimos un gravísimo error al seleccionar solo a los más viejos y sabios para transformarse en brazos. ¿Acaso obtendríamos una ventaja con una mente joven, lo suficientemente flexible como para adoptar un poder que supere incluso al de los mismos udugs? Pondero. Pero solo pensar en la implementación de esta idea me da escalofríos.","На прошлой неделе в Эдуббе Ламасса поделился информацией, которая с тех пор неотступно тревожит меня: с возрастом наш разум теряет способность адаптироваться и, фактиччески, лучшее время для усваивания новой информации — детство. И вот я лежу в ночи без сна под далекий вой огненных штормов Удуг и думаю лишь о том, что, скорее всего, мы ужасно просчитались, выбрав для превращения в Руки самых старых и умудренных из нас. Молодой разум достаточно гибкий, он способен овладеть такими силами, что не снились даже самим Удуг — это может разительно изменить ход войны. Но мне страшно даже подумать о подобной возможности.","지난주 에두바에서 라마수가 무심결에 흘린 정보 한 조각이 내내 나를 고문하듯 괴롭히고 있다. 나이가 들수록 인간의 뇌는 적응력을 소실하며, 학습 능력이 최고조에 이르는 시기는 실상 아동기라는 것이다. 야밤에 선잠을 설치며 멀리서 노호하는 우두그 폭풍 소리를 들을 때마다, 어쩌면 우리가 암 이식 개조 대상자로 오직 지혜로운 노년층 현자들만 선별한 것이 치명적인 불찰이 아니었을까 하는 생각이 뇌리를 스친다. 우두그조차 초월하는 미지의 지배 능력을 온전히 흡수할 수 있는 유연하고 젊은 정신이야말로 확실하게 전쟁의 형세를 뒤집을 유일한 무기일 텐데. 하지만 그 잔혹한 발상을 실제로 행동에 옮길 위인이 대체 누구일지 상상만 해도 몸서리가 처진다.",上个星期，拉玛苏在埃杜巴无意之间说出了一件事情，令我至今无法释怀。拉玛苏说人类年岁越高，心智的可塑性就越差，学习能力的巅峰其实处于幼年。我辗转反侧，无法入睡，乌图库的风暴在远处呼啸，我不禁想到我们或许犯了一个大错——神器转换不应仅仅选择最有智慧的老者，年轻的心智更加灵巧，能够驾驭乌图库本尊都无法驾驭的能力。若能将少年的心智变为神器，那么我们必将转败为胜。只是，想到谁会真正落实这样的想法，我不战而栗。
+NOTE19_NAME,Lament for Fools,Complainte pour les fous,Klagelied für Narren,Lamento per gli stolti,Lamento dos tolos,El lamento de los necios,Плач по глупцам,우매한 자들을 위한 애가,叹愚人
 NOTE19_TEXT,"Go on, celebrate it as victory. Tell yourselves we have defeated the Udug with bravery and cunning. Rejoice.
 
 The fact remains that they have simply disappeared, and we have no idea why. In Irikar the ever present sounds of exploding storms suddenly ceased. At the forward operating base in Ziudsudra, where our forces were completely surrounded and starving after a months’ long siege, the enemy pulled back to the watery horizon and has not been seen again. The Lamassu, that thinking machine our great grandparents thought of as the gods’ messenger, seems satisfied enough that they won’t return. What is it not telling us? Why is it so sure?
@@ -825,20 +763,16 @@ Mageshgetil, canalizador, en nombre de Amashilama","Давайте же, пра�
  
 Но факт остается фактом: они просто исчезли, и никто не знает почему. В Ирикаре внезапно стихли ставшие уже привычными звуки взрывного шторма. Враги внезапно отступили за бледный горизонт от нашей передовой оперативной базы Зиудсудра после месячной ее осады, и никто их больше не видел.  Эта мыслящая машина, Ламассу, которого наши предки считали посланнцем богов, кажется, всем доволен и считает, что враг не вернется. Чего он нам недоговаривает? Почему он так в этом уверен?
  
-Магешгетиль, Владелец, от имени Амашиламы","さあ、このことを勝利として祝おうではないか。我々は勇猛さと知恵をもって、ウトゥックを打ち破ったのだと自らに言い聞かせ、喜ぼうではないか。
- 
- 
- 
-事実として、やつらは単に姿を消したのだが、その理由は私たちにわからない。イリカルでは、常に聞こえていた爆風のような嵐の音が突然無くなった。ジウスドラの前線基地で我が軍は数ヶ月に及び完全に包囲され飢えに苦しんでいたが、敵は海の彼方の地平線へと引き戻されて二度と姿を見せなくなった。私たちの祖父母が神の使いだと思っていた自立思考型の機械であるラマッスも、やつらが戻って来ないことには十分満足しているようだ。あれがまだ我々に話していないことは何なのだ？なぜあのように確信が持てるのだ？
- 
- 
- 
-アマシラーマの代行者、行使者マゲシゲティル","庆祝吧，我们胜利啦！我们英勇，我们高明，我们击败了乌图库，欢呼吧！
+Магешгетиль, Владелец, от имени Амашиламы","어디 실컷 승리를 만끽해 보아라. 우리의 비범한 무용과 교묘한 지략으로 우두그를 끝내 굴복시켰노라 자위하며 환호성을 지르거라.
+
+하지만 잔인하게도 진실은 놈들이 돌연 흔적도 없이 종적을 감추었을 뿐이며, 우리는 그 이유를 전혀 짐작조차 못 하고 있다는 사실이다. 이리카르 영토를 시도 때도 없이 진동시키던 폭풍의 굉음이 하루아침에 뚝 끊겼다. 수개월간 끔찍한 포위망 속에 갇혀 아사 직전까지 내몰렸던 지우수드라 전방 기지에서는, 적들이 해수면 지평선 너머로 홀연히 물러간 뒤 다시는 관측되지 않았다. 증조부께서 신들의 전령이라 굳게 믿었던 저 자아를 지닌 연산 장치 라마수는, 놈들이 다시 돌아오지 않을 것임에 매우 흡족해하는 분위기다. 저 기계가 우리에게 숨기고 있는 검은 속내가 대체 무엇이란 말인가? 무슨 근거로 저토록 단정하는가?
+
+아마시라마의 대리인이자 윌더, 마게시게틸","庆祝吧，我们胜利啦！我们英勇，我们高明，我们击败了乌图库，欢呼吧！
 
 然而，邪神其实只是消失了踪迹，我们也完全不了解背后的原因。伊利卡尔不绝于耳的风暴突然停了，我们在朱苏德拉的前方作战基地受困数月有余，口粮告急已久，敌方却突然撤回水下，再也没有露面。拉玛苏身为能够思考的机器，被我们先辈尊为众神信使。它认为邪神不会再度来犯，似乎非常开心。它对我们是否有所隐瞒？又为什么如此笃定？
 
 阿玛希拉玛，由持者玛盖什盖提鲁代笔"
-NOTE20_NAME,The Eternal Arm,L'Arme éternelle,Die ewige Waffe,Il Braccio Eterno,A Arma eterna,El brazo eterno,Вечная Рука,永遠なるアーム,不朽的神兵
+NOTE20_NAME,The Eternal Arm,L'Arme éternelle,Die ewige Waffe,Il Braccio Eterno,A Arma eterna,El brazo eterno,Вечная Рука,영원한 암,不朽的神兵
 NOTE20_TEXT,"Urnina,
 
 I understand what you mean about your self-aggrandizing grandparents. My own grandfather used to make up a lot of stories about the Udug War - I heard time and again about the Siege of Ziudsudra (that he wasn’t present for) and the razing of Giguna (which I am doubtful ever happened). But there was one I’m unlikely to forget, about an Arm that was so powerful nobody was allowed to Wield it.
@@ -901,23 +835,15 @@ Ludari","Урнина,
  
 Рассказывая это, он едва сдерживал слезы. Меня это очень напугало в детстве.
  
-Лудари","ウルニナへ
- 
- 
- 
-自慢話をよくする祖父母を持つあなたの気持ちはよく分かります。私の祖父は、ウトゥック戦争に関してたくさん作り話をしてきました。（祖父の参加していない）ジウスドラの包囲や、（私は起きたかどうかも疑っている）ギグナの壊滅について何度も話を聞きかされました。中でも忘れられないのが、誰も扱うことができないほど強力なアームの話です。
- 
- 
- 
-話によると、そのアームは物質をどんな形にでも組み替られるが、それを制御することができないといいます。さらに、戦争末期に他のアームたちを集めてストームボムにより焼却した時も、このアームは何事も無かったかのように再生し無傷だったといいます。他に処分する方法が見つからない祖父は、このアームを封印して埋めてしまったそうです。
- 
- 
- 
-この話をした時の祖父は今にも泣き出しそうな顔をしていました。子供心に怖かったこと覚えています。
- 
- 
- 
- ルダリ","乌尔尼纳：
+Лудари","울니나에게,
+
+자기자랑만 늘어놓는 조부모를 둔 네 마음이 어떤지 잘 안다. 우리 할아버지도 우두그 전쟁에 대해 지어낸 이야기를 많이 하시곤 하셨지. (참석하지도 않았던) 지우수드라 포위전이나 (실제로 일어났는지조차 의심스러운) 기구나 파괴에 대한 이야기를 귀에 딱지가 앉도록 들었단다. 하지만 그중에서도 잊을 수 없는 이야기가 하나 있는데, 너무나 강력해서 아무도 다룰 수 없었던 '암(Arm)'에 대한 이야기야.
+
+이야기에 따르면 그 암은 물질을 가능한 어떤 형태로든 재구성할 수 있었지만 통제 불능이었다고 해. 설상가상으로 전쟁이 끝날 무렵, 사람들이 다른 암들을 모두 수거해 스톰 봄으로 불태워 버렸을 때도 이 암만큼은 멀쩡했지. 마치 아무 일도 없었다는 듯이 원래대로 복구되었던 거야. 처분할 다른 방법을 찾지 못한 할아버지는 결국 그걸 봉인해서 땅에 묻어야만 했다더구나.
+
+이 이야기를 할 때 할아버지는 금방이라도 눈물을 흘릴 것 같은 표정이셨어. 어릴 적의 내게는 그 모습이 꽤나 무서웠단다.
+
+루다리","乌尔尼纳：
 
 你说你祖辈自夸自大，我非常理解是怎么回事。我外公以前也经常编乌图库大战那时候的故事，光是朱苏德拉保卫战（他没参加），我就听了不知道多少遍，还有吉古纳被毁（我怀疑根本没有发生过）。不过，有一个我估计一辈子都不会忘记，是说有一件神器无比强大，任何人都不得操持。
 
@@ -926,7 +852,7 @@ Ludari","Урнина,
 他跟我们讲这个故事的时候，好像马上就要哭出来了一样。我当时还很小，听了这个故事，害怕极了。
 
 鲁达里"
-NOTE21_NAME,Indra Chaudhari Takes Leave to Deal With Family Tragedy,Indra Chaudhari prend congé suite à une tragédie familiale,"Indra Chaudhari nimmt sich frei, um eine Familientragödie zu verarbeiten",Indra Chaudhari va in congedo per occuparsi di una tragedia familiare,Indra Chaudhari sai de cena para lidar com tragédia familiar,Indra Chaudhari de licencia por tragedia familiar,"Индра Чаудхари уходит с поста, чтобы разобраться с трагедией в семье",インドラ・チョーダリー氏が家庭の事情により経営の最前線を退く,因德拉·乔杜里为料理家中变故，决定长期休假
+NOTE21_NAME,Indra Chaudhari Takes Leave to Deal With Family Tragedy,Indra Chaudhari prend congé suite à une tragédie familiale,"Indra Chaudhari nimmt sich frei, um eine Familientragödie zu verarbeiten",Indra Chaudhari va in congedo per occuparsi di una tragedia familiare,Indra Chaudhari sai de cena para lidar com tragédia familiar,Indra Chaudhari de licencia por tragedia familiar,"Индра Чаудхари уходит с поста, чтобы разобраться с трагедией в семье","인드라 차우드리, 가족사의 비극으로 휴직",因德拉·乔杜里为料理家中变故，决定长期休假
 NOTE21_TEXT,"July 7, 2063
 
 Globe 3 founder Indra Chaudhari said Tuesday she will take an extended leave starting immediately, temporarily leaving the helm of the company she founded 29 years ago. She still plans to oversee the company in an advisory capacity, she says. Bill Bentley, chief executive of Globe 3 Ansible Services, will take over as interim CEO of Globe 3.","7 juillet 2063
@@ -942,14 +868,12 @@ La fondatrice di Globe 3, Indra Chaudhari, ha comunicato Martedì la decisione d
   
   La fundadora de Globe 3, Indra Chaudhari, anunció el martes que se tomará una licencia extendida de su puesto de directora ejecutiva, posición que mantiene desde hace 29 años, cuando fundó la compañía. Indicó que, de todos modos, supervisará la empresa como asesora. Bill Bentley, director ejecutivo de Globe 3 Ansible Services, será quien la reemplazará temporalmente como director ejecutivo de Globe 3.","7 июля, 2063 года
  
-Основательнца Глоуб-3 Индра Чаудхари сообщила, что после 29 лет руководства она временно покидает пост главной управляющей компании. При этом она планирует оставаться в штате в качестве советника. На время отпуска ее обязанности будет исполнять главный управляющий Ансибль-отдела Глоуб-3 Билл Бентли.","２０６３年７月７日
- 
- 
- 
-グローブ３の創業者であるインドラ・チョーダリー氏は、もうすぐ長期休暇を取り、２９年前に自らが創業した会社の最高経営責任者としての立場を、一時的に退くつもりであると火曜日に発表した。彼女は今後もアドバイザーとして会社を見守る予定であることにも言及した。以降、グローブ３・アンシブルサービスのＣＥＯであるビル・ベントレー氏がグローブ３のＣＥＯとして就任する。","2063年7月7日
+Основательнца Глоуб-3 Индра Чаудхари сообщила, что после 29 лет руководства она временно покидает пост главной управляющей компании. При этом она планирует оставаться в штате в качестве советника. На время отпуска ее обязанности будет исполнять главный управляющий Ансибль-отдела Глоуб-3 Билл Бентли.","2063년 7월 7일
+
+글로브 3의 창립자 인드라 차우드리는 화요일, 즉시 장기 휴직에 들어가 29년 전에 설립한 회사의 경영 일선에서 일시적으로 물러날 것이라고 밝혔습니다. 그녀는 고문 자격으로 회사를 계속 살필 예정이라고 덧붙였습니다. 글로브 3 앤서블 서비스의 CEO인 빌 벤틀리가 글로브 3의 임시 CEO를 맡게 됩니다.","2063年7月7日
 
 环球3创始人因德拉·乔杜里周二宣布，由于家中事务，她将暂时卸任，长期休假，但会以顾问身份关注公司变故，决定即日生效。因德拉将自己29年前创建的企业交给了环球3安塞波服务业务执行官比尔·本特利，此人将担任环球3代理首席执行官一职。"
-NOTE22_NAME,Dr. Gloria at It Again,Dr. Gloria récidive,Dr. Gloria ist wieder am Werk,La dottoressa Gloria recidiva,Dra. Gloria conseguiu novamente,La Dra. Gloria hace de las suyas,Доктор Глория снова за старое,グロリア博士が再度炎上,格洛丽亚博士再惹是非
+NOTE22_NAME,Dr. Gloria at It Again,Dr. Gloria récidive,Dr. Gloria ist wieder am Werk,La dottoressa Gloria recidiva,Dra. Gloria conseguiu novamente,La Dra. Gloria hace de las suyas,Доктор Глория снова за старое,"글로리아 박사, 또다시 도마 위에 오르다",格洛丽亚博士再惹是非
 NOTE22_TEXT,"March 12, 2066
 
 Dr. Gloria is under fire again for a recent interview with Indra Chaudhari that critics are calling “exploitative and sensationalist”. After leading with relatively innocuous questions regarding her interest in Shakespeare, Dr. Gloria seems to goad Chaudhari into making erratic statements about her daughter, Samara. “We’re estranged. We haven’t spoken in several years, and that’s all I’m going to say.” She was shown on camera refusing medication offered by a mental health professional.
@@ -978,18 +902,16 @@ Chaudhari, por su parte, respondió como se esperaba: presentó una demanda por 
  
 Доктор Глория снова в центре скандала, причиной которого послужило ее интервью с Индрой Чаудхари, которое критики уже окрестили ""эксплуататорским и сенсационалистским"". После того, как доктор Глория задала относительно безобидные вопросы касательно интереса управляющей к Шекспиру, она, похоже, намеренно подтолкнула Чаудхари к беспорядочным высказываниям о ее дочери Самаре: ""Мы отдалились друг от друга. Мы не разговаривали уже несколько лет, и это все, что я могу сказать по этому поводу"". А затем камеры засняли момент того, как она отказывается от лекарств, предлагаемых студийным психиатром.
  
-Чаудхари среагировала на это вполне ожидаемо, а именно: подала иск о клевете на 500 миллионов долларов против материнской компании Батресс-Медиа.","２０６６年３月１２日
+Чаудхари среагировала на это вполне ожидаемо, а именно: подала иск о клевете на 500 миллионов долларов против материнской компании Батресс-Медиа.","2066년 3월 12일
 
+글로리아 박사가 최근 인드라 차우드리와 진행한 인터뷰에 대해 비평가들이 '착취적이고 선정적'이라고 비판하면서 다시 한번 맹공을 받고 있습니다. 셰익스피어에 대한 관심 등 비교적 무해한 질문으로 시작한 글로리아 박사는 차우드리를 부추겨 그녀의 딸 사마라에 대해 횡설수설하도록 유도한 것으로 보입니다. “우리는 서먹한 사이입니다. 지난 몇 년 동안 대화한 적이 없으며, 이게 제가 드릴 말씀의 전부입니다.” 그녀는 카메라 앞에서 정신 건강 전문가가 권하는 약을 거부하는 모습을 보였습니다.
 
-グロリア博士はインドラ・チョーダリー氏とのインタビューが“搾取的”かつ“センセーショナル”だとの批判を受け、再び炎上している。シェークスピアに対する興味に関した比較的差し当たりのない質問をした後、グロリア博士はチョーダリー氏をけしかけて娘であるサマーラ氏についてまとを得ない発言をさせたようだ。「私たちは疎遠である。」「ここ数年は話もしていない。」「それだけしか言うことはない。」 彼女が精神科医から出された薬を拒否する様子がカメラには映し出されていた。
- 
- 
-チョーダリー氏側は、親会社であるバトレス・メディア社に対して５億ドルの名誉毀損訴訟を起こすなどの対応を取っている。","2066年3月12日
+차우드리 측은 특유의 화려한 대처로 모회사인 버트레스 미디어(Buttress Media Inc.)를 상대로 5억 달러 규모의 명예훼손 소송을 제기하며 대응하고 있습니다.","2066年3月12日
 
 格洛丽亚博士由于日前与因德拉·乔杜里的访谈再度受到抨击，评论人士称其“消费他人感情”。格洛丽亚博士最初只是询问乔杜里是否热爱阅读莎士比亚，问题相对无关痛痒，而后却似乎企图刺激乔杜里就其女儿萨玛拉发表不当言论。“我们现在关系疏远，已经好几年没见过了，我只想说这些。”访谈现场出现了心理医务人员，建议乔杜里服用药物，然而她并没答应，也以影像的形式公布了出来。
 
 乔杜里的反应一如既往——向母公司巴特利斯传媒公司提起了五亿美元的名誉侵权诉讼。"
-NOTE23_NAME,Terminal Breakthrough 1,Percée du terminal 1,Terminal-Durchbruch 1,Scoperta sui Terminali 1,Descoberta terminal 1,Descubrimiento terminal 1,Прорыв терминала 1,ターミナルの発見１,终端突破·一
+NOTE23_NAME,Terminal Breakthrough 1,Percée du terminal 1,Terminal-Durchbruch 1,Scoperta sui Terminali 1,Descoberta terminal 1,Descubrimiento terminal 1,Прорыв терминала 1,터미널 연구의 돌파구 1,终端突破·一
 NOTE23_TEXT,"Hammond,
 
 As you know, the whole purpose of the elevator is to allow us to pass safely across the Breach from one world to another. But the Breach itself is a kind of world, albeit one with such a differing fundamental structure that it’s not survivable for humans - or for that matter digital cameras, microphones, and various other electronics we’ve tried to observe it with. However, it may not surprise you to learn that certain analogue clocks can make the transition mostly unscathed. For the most part, they operate normally, but the *rate* at which they operate is different than on Earth (or Kiengir). Not only that, the rate *changes*. It might appear to move at quarter speed for several days and then spend a full week moving at one hundredth speed.
@@ -1022,20 +944,16 @@ Como bien sabes, el único propósito de este ascensor es permitirnos pasar por 
  
 Как вы знаете, вся цель лифта состоит в том, чтобы позволить нам безопасно пройти через Разлом из одного мира в другой. Но сам Разлом — тоже своего рода мир. При этом его фундаментальная структура настолько чужда, что ни люди, ни сложные технические устройства типа цифровых камер, микрофонов и другой электроники, с помощью которой мы пытались его изучать, там выжить не могут. Тем не менее, вы, скорее всего, не удивитесь, узнав, что некоторые аналоговые часы спокойно переносят переход через Разлом. По большей части они работают в обычном режиме, но ""скорость"", с которой они идут, отличается от земной (или киенгирской). Мало того, скорость хода *меняется*. Сначала может показаться, что в течение нескольких дней время идет на четверть быстрее, а затем на целую неделю оно замедляется в сто раз.
  
-Лайнус","ハモンドへ
- 
- 
- 
-ご存じのようにこのエレベータの目的は、ブリーチを越えてある世界から別の世界へ安全に移動することにあります。しかし、ブリーチ自体も一種の世界になります。私たちが観測に使おうとしたデジタルカメラやマイクロフォンなどの電子機器が正常を保てず、さらに人間にとっても生存することが不可能であるような基本的構造の異なる世界ではありますが。しかし、ある種のアナログ時計がそのような世界でもほとんど無傷で動作することは、あなたにとっては驚きではないかもしれません。ほとんどの場合、それらは正常に動きますが、その動きの”速さ”が地球（またはキエンギ）のものとは異なります。そればかりか、その速さは“変化”さえします。数日間は４分の１の速さで動いているように見えていたものが、１週間では１００分の１の速さへと変化するのです。
- 
- 
- 
- ライナスより","哈蒙德：
+Лайнус","해먼드,
+
+아시다시피 엘리베이터의 주된 목적은 우리가 브리치(Breach)를 건너 한 세계에서 다른 세계로 안전하게 이동할 수 있도록 돕는 것입니다. 하지만 브리치 자체도 일종의 세계입니다. 다만 근본적인 구조가 너무나도 달라서 인간이 생존할 수 없으며, 관측에 사용하려고 시도했던 디지털카메라, 마이크, 그 외 다양한 전자기기조차 버텨내지 못하는 곳이죠. 그러나 특정한 아날로그시계는 이 전이 과정을 거의 손상 없이 통과할 수 있다는 사실을 알게 되더라도 그리 놀랍지 않으실 겁니다. 대부분의 경우 시계는 정상 작동하지만, 작동하는 '속도'가 지구(또는 키엔기르)와는 다릅니다. 게다가 그 속도가 '변하기'까지 합니다. 며칠 동안은 4분의 1 속도로 움직이는 것처럼 보이다가, 그 후 일주일 내내 100분의 1 속도로 움직이기도 합니다.
+
+라이너스","哈蒙德：
 
 如你所知，那台电梯的价值就是让我们能够安全地穿过隙界，往返世界之间。可是，隙界本身也是一种世界，只是基础结构与其他世界迥异，人类无法存活，我们此前尝试使用数码相机、麦克风和其他电子产品对其进行观测，这些产品也无一“幸存”。不过，我们发现某些指针时钟能够进入隙界，而且基本没有损坏，这个可能也在你的意料之中。这类时钟进入隙界之后，多数运行正常，只是指针走动的速度与地球（或齐恩基鲁）上不同。不仅如此，指针的速度还会变化。有时速度似乎只有四分之一，几天之后又会变成一百分之一，然后持续整整一周。
 
 利努斯"
-NOTE24_NAME,Terminal Breakthrough 2,Percée du terminal 2,Terminal-Durchbruch 2,Scoperta sui Terminali 2,Descoberta terminal 2,Descubrimiento terminal 2,Прорыв терминала 2,ターミナルの発見２,终端突破·二
+NOTE24_NAME,Terminal Breakthrough 2,Percée du terminal 2,Terminal-Durchbruch 2,Scoperta sui Terminali 2,Descoberta terminal 2,Descubrimiento terminal 2,Прорыв терминала 2,터미널 연구의 돌파구 2,终端突破·二
 NOTE24_TEXT,"Hammond,
 
 For a long time the Breach’s temporal discrepancies confounded us, until one day Malka pointed out to me that those strange blue terminals everywhere appear dimmer on some days or others. On a hunch I recorded the changes over a period of a month, and what do you know? Without fail, the dimming of the terminals corresponded with the slowing of time in the Breach.
@@ -1084,22 +1002,20 @@ Linus","Хаммонд,
 
 Конечно, на данный момент это только предположение, но как вы считаете — может ли какое-то необнаруженное излучение влиять на терминалы в Разломе? Или, возможно, и что более тревожно, эти терминалы сами как-то контролируют местный ход времени?
 
-Лайнус","ハモンドへ
- 
- 
- 
-ブリーチの時間的矛盾は長い間私たちを悩ませてきました。しかしある日、マルカから各所にある青色の不思議なターミナルの光が弱く点滅する日があるこという指摘がありました。その変化を１ヶ月間に渡り記録してみたところ何が分かったと思いますか？ターミナルの光が薄暗かった時は必ずブリーチの中の時間が遅くなっていたのです。
- 
- 
- 
-現時点では推測にしか過ぎませんが、まだ検出されていないブリーチから発せられる放射線のようなものがターミナルに干渉しているのではないでしょうか？あるいは更にやっかいなことに、このターミナルがブリーチの時間の流れを何らかの形でコントロールしているのでしょうか？","哈蒙德：
+Лайнус","해먼드,
+
+오랫동안 브리치의 시간적 불일치는 우리를 곤혹스럽게 만들었습니다. 그러던 어느 날 말카가 사방에 있는 저 이상한 파란색 터미널들의 불빛이 유독 흐려지는 날들이 있다는 사실을 짚어 주었습니다. 직감적으로 한 달 동안 그 변화를 기록해 보았는데, 결과가 어땠는지 아십니까? 어김없이 터미널의 불빛이 흐려질 때마다 브리치 내의 시간도 느려졌습니다.
+
+지금은 추측에 불과하지만, 브리치에서 감지되지 않은 어떤 방사선이 방출되어 터미널에 간섭하고 있는 것 아닐까요? 아니면 더 우려스럽게도, 이 터미널들이 브리치 안의 시간 흐름을 모종의 방법으로 통제하고 있는 걸까요?
+
+라이너스","哈蒙德：
 
 隙界的时间变化，我们苦思冥想了很长时间，都没能想到背后的原因。还是后来有一天，玛勒卡跟我说随处可见的那些古怪蓝色终端有时候光会暗淡一些，我每天观察终端的光亮，记录了整整一个月，结果你猜怎么着？果不其然，终端光亮变暗的周期和时长与隙界时间变慢完全吻合。
 
 我现在有两种猜想，一种是，你说这些终端可不可能是受到了隙界某种辐射干扰？只是这种辐射我们没检测出来。另外一种猜想如果属实，可能会比较麻烦，就是这些终端会不会能够控制隙界内部事件的流动？
 
 利努斯"
-NOTE25_NAME,Journal Entry 10/29/2049,Entrée du journal - 29/10/2049,Tagebucheintrag 29.10.2049,Voce del diario - 29/10/2049,Registro do diário - 29/10/2049,Entrada de diario del 29/10/2049,Запись в дневнике 29/10/2049,１０/２９/２０４９　日々の記録,日志 - 2049/10/29
+NOTE25_NAME,Journal Entry 10/29/2049,Entrée du journal - 29/10/2049,Tagebucheintrag 29.10.2049,Voce del diario - 29/10/2049,Registro do diário - 29/10/2049,Entrada de diario del 29/10/2049,Запись в дневнике 29/10/2049,일지 기록 2049년 10월 29일,日志 - 2049/10/29
 NOTE25_TEXT,"I have been observing the entity the Sagiga referred to as “The Lamassu” - which we suspect is some form of AI that communicates through various terminals around Kiengir. Similar to ansibles and to our portal to Antarctica, it appears to possess trans-world properties of its own, raising the question of whether its mind is even located here or if it is actually broadcasting from yet another world.
 
 Of late I have been thinking about the apparent connection between the Lamassu’s power usage and time flow in the Breach. There is evidence that it was able to bring forth weapons and equipment beyond the technological capacity of the people here; How did it do that? Why would it do that? Why did it stop?
@@ -1132,20 +1048,16 @@ EH","Я наблюдала за сущностью, которую Сагига 
 
 В последнее время я все чаще размышляю о связи использования Ламассу своих сил с течением времени в Разломе. Совершенно точно, что он смог помочь местным жителям развить их оружейное дело и прочие технологии далеко за пределы имеющихся у них возможностей. Но как он это сделал? Зачем? И почему вдруг прекратил?
 
-Э.Х.","私は、サンギガが「ラマッス」と呼んでいた存在について観察を行ってきた。おそらくはキエンギにある様々な端末を通じて通信を行うＡＩの一種であるのではと、私たちは考えている。アンシブルや南極のポータルと同様、それ自体も世界を超越する特質を持つように見えるのだが、精神はその場に存在しているのか、それともそれは実は別の世界に存在しているのかという疑問が持ち上がる。
- 
- 
- 
-最近、私が考えているのは、ラマッスの力の使い方とブリーチの時間の流れに明らかな関連性があるということだ。原住民たちの技術力を超越した武器や装置を出現させたという証拠はあるのだが、一体どのような手段で？なぜそのようなことができたのだろうか？なぜそれを止めたのだろうか？
- 
- 
- 
- エリザベス・ハモンド","萨吉伽所说的这个“拉玛苏”，我最近一直在观测，我们怀疑它是某种形态的人工智能，能够通过齐恩基鲁各地的终端与外界沟通交流。它好像类似安塞波以及我们回南极的传送门，自身具备跨越世界的属性。那么问题来了，它的心智是否位于这个世界？还是在另一个世界，只是通过广播与这里通信？
+Э.Х.","나는 사기가(Sagiga)들이 '라마수(The Lamassu)'라고 부르던 존재를 관찰해 왔다. 우리는 이것이 키엔기르 곳곳의 여러 터미널을 통해 소통하는 일종 of AI일 것으로 의심하고 있다. 앤서블이나 남극으로 통하는 우리의 포털처럼, 이것 또한 그 자체로 차원을 넘나드는 특성을 지닌 것으로 보여, 과연 그것의 정신이 이곳에 존재하는지 아니면 실제로 또 다른 세계에서 송신하고 있는 것인지 의문이 든다.
+
+최근 나는 라마수의 전력 사용과 브리치의 시간 흐름 사이에 명백한 연관성이 있는 것은 아닌지 고민해 왔다. 라마수가 이곳 사람들의 기술적 한계를 뛰어넘는 무기와 장비를 가져올 수 있었다는 증거가 존재한다. 대체 어떻게 그것이 가능했을까? 왜 그런 일을 한 것일까? 그리고 왜 멈추었을까?
+
+EH","萨吉伽所说的这个“拉玛苏”，我最近一直在观测，我们怀疑它是某种形态的人工智能，能够通过齐恩基鲁各地的终端与外界沟通交流。它好像类似安塞波以及我们回南极的传送门，自身具备跨越世界的属性。那么问题来了，它的心智是否位于这个世界？还是在另一个世界，只是通过广播与这里通信？
 
 最近，我在思考拉玛苏运用自身能力这件事与隙界时间流动的关系。相关证据表明，它能够创造极其先进的武器和装备，技术含量远超本地民族当时的技术水平。它是怎么做到的？为什么要造这些东西？后来为什么又再也没有造过？
 
 伊哈"
-NOTE26_NAME,Sagiga on the Worldstream,Sagiga sur le Flux mondial,Sagiga über den Weltenstrom,I Sagiga e il Mondoflusso,Sagiga no Fluxo-mundi,Sagiga en la Corriente,Сагига про Миротечение,ワールドストリームにおけるサンギガ,萨吉伽关于世界流的记述
+NOTE26_NAME,Sagiga on the Worldstream,Sagiga sur le Flux mondial,Sagiga über den Weltenstrom,I Sagiga e il Mondoflusso,Sagiga no Fluxo-mundi,Sagiga en la Corriente,Сагига про Миротечение,월드스트림에 관한 사기가의 기록,萨吉伽关于世界流的记述
 NOTE26_TEXT,"With the help of Malka I have been going through the Sagigas’ own records, trying to find anything of note about the technology they used. It’s difficult work, made harder by the fact that they intentionally destroyed a lot of their own accounts, ostensibly to keep anyone else from reproducing their work. So my understanding is fragmented, but there is one point that seems to keep coming up.
 
 They reference the multiple worlds as being the fruit of a tree. I initially took this to be purely figurative. But they often mention parts of the structure - such as the spadix, or a’ansur - as if they are locations one can visit. I haven’t seen mention of parts like the “roots” or “leaves” in this context, but it makes me wonder how far the metaphor carries.
@@ -1174,16 +1086,16 @@ Unyime","Благодаря Малке я получил доступ к лич�
 
 Они называют многочисленные миры плодами дерева. В самом начале я решил, что они делают это чисто в переносном смысле. Но они часто пишут о ""бутоне"", или ""а'ансуре"", как о месте, которое можно физически посетить. Я не встречал упоминаний ""корней"" и ""листьев"" в данном контексте, и мне теперь интересно, как далеко распространяется эта метафора.
 
-Унийим","サンギガたちが使った技術について何か特筆すべきことが無いかを探し出すため、マルカの助けを借りつつ、彼らに関する記録を調べている。技術を再現されないよう彼らが記録の多くを意図的に破棄していたという事実が、この仕事をより困難なものにした。このように、私の理解は断片的ではあるが、その中でも浮かび上がってくるポイントが１つ存在する。
- 
-彼らは、複数に存在する世界のことを“木の実”として表現している。私は当初、これを純粋に比喩的なものだと考えていた。しかしながら「肉穂花序（にくすいかじょ）」または「アンスル」など、彼らが世界の成り立ちの一部について言及する時、あたかも訪れることのできる場所であるかのように表現することが多いのだ。「根」または「葉」という表現は見たことはないが、この比喩がどこまでその通りなのか気になるところである。
- 
- ウニメ","我最近让玛勒卡帮我整理这些萨吉伽的相关文字记载，希望知晓他们当时的科技水平。这项工作难度很大，而且他们刻意破坏了自己留下的大量记录，应该是防止他人重现相关技术成果，导致工作难上加难。因此，我只是零星了解了那个年代的技术能力，并未形成系统的认知，不过有一点事实倒是多次反复出现。
+Унийим","말카의 도움을 받아 사기가(Sagiga)들의 자체 기록을 훑어보며, 그들이 사용한 기술에 관해 주목할 만한 내용이 있는지 찾고 있다. 그들이 다른 이들이 연구 성과를 재현하지 못하도록 표면적인 명목 하에 자신들의 기록을 대거 의도적으로 파괴했기 때문에 작업이 꽤나 고되다. 그래서 내 이해는 단편적이지만, 계속해서 나타나는 한 가지 지점이 있다.
+
+그들은 다중 세계를 나무의 열매에 비유한다. 나는 처음에 이것을 순전히 비유적인 표현으로만 받아일였다. 그러나 그들은 종종 구조의 일부—예를 들어 육수화서(spadix)나 아안수르(a'ansur)—를 마치 직접 방문할 수 있는 장소처럼 언급한다. 이 문맥에서 '뿌리'나 '잎' 같은 부위에 대한 언급은 보지 못했지만, 이 비유가 어디까지 유효한지 궁금해진다.
+
+우니메","我最近让玛勒卡帮我整理这些萨吉伽的相关文字记载，希望知晓他们当时的科技水平。这项工作难度很大，而且他们刻意破坏了自己留下的大量记录，应该是防止他人重现相关技术成果，导致工作难上加难。因此，我只是零星了解了那个年代的技术能力，并未形成系统的认知，不过有一点事实倒是多次反复出现。
 
 他们称多重世界为树上的果实，我起初以为纯粹只是一种比喻，可是他们又时常提及结构上的某些部位，例如肉穗花序，或者说“阿安苏尔”，说的时候好像这些部位都是确切存在、可以探查的地方。虽然没看到他们提及“根”或者“叶”，但是我很想知道这个比喻到底有多么深的寓意。
 
 乌恩尼麦"
-NOTE27_NAME,Antarctic Research Team Missing,Disparition d'une équipe de recherche en Antarctique,Antarktis-Forschungsteam vermisst,Scomparsa squadra di ricerca in Antartide,Equipe de pesquisa desaparecida na Antártida,Desaparece un equipo de investigación antártico,Пропажа Антарктической исследовательской группы,南極の調査チームが失踪,南极科考队全员失踪
+NOTE27_NAME,Antarctic Research Team Missing,Disparition d'une équipe de recherche en Antarctique,Antarktis-Forschungsteam vermisst,Scomparsa squadra di ricerca in Antartide,Equipe de pesquisa desaparecida na Antártida,Desaparece un equipo de investigación antártico,Пропажа Антарктической исследовательской группы,남극 연구팀 실종,南极科考队全员失踪
 NOTE27_TEXT,"November 10, 2053
 
 In what is turning out to be one of the biggest mysteries of the 21st century, all 23 researchers at Jones Station, Antarctica, have gone missing. Further deepening speculation, Hammond Corp, who manages the station on behalf of the US and EU joint venture, reports that it has been unable to contact the eponymous CEO, Elizabeth Hammond, who was scheduled to return from her visit to the station late in September.
@@ -1216,20 +1128,16 @@ Abundan las teorías conspirativas e incluso la más racional de las posibles ex
  
 Пропажа 23-х полярников на Станции Джонса в Антарктиде рискует стать одной из самых громких тайн 21-ого века. Еще больше усугубляет ситуацию тот факт, что Хаммонд-Корп, управляющая станцией от лица правительств США и ЕС, сообщает, что им не удалось связаться с Элизабет Хаммонд — гендиректриссой компании, давшей ей свое имя. Она находилась с визитом на станции и должна была вернуться обратно в конце сентября.
  
-Теорий заговора вокруг ситуации предостаточно, но даже самые рациональные из возможных версий попросту кажутся невозможными. Чиновники безрезультатно расширили зону поиска с 10-ти до примерно 50 тысяч квадратных километров. Руководительница поисково-спасательных работ Анахера Турей попросила семьи пропавших не надеяться на чудо: ""Даже при хороших погодных условиях это место до сих пор остается смертельно опасной и враждебной средой"".","2053年11月10日
- 
- 
- 
-南極のジョーンズ基地局の研究者２３名が全員行方不明となった事件は、 ２１世紀最大のミステリーの１つへと変わりつつある。さらに疑惑が深まる中、アメリカとＥＵのジョイントベンチャーに代わりジョーンズ基地局を管理しているハモンド社のリポートによると、９月下旬に基地局の訪問から帰還する予定であったエリザベス・ハモンドＣＥＯと連絡が取れなくなったという。
- 
- 
- 
-さまざまな陰謀説が飛び交い、最も合理的な説明がなされたものでも信用できるレベルまでには至らない。当局は捜索範囲を１万平方キロメートルから約５万平方キロメートルへと拡大するも、成果は上がっていない。捜索救助隊長のアナヘラ・トゥレイ氏は研究員たちの家族に対して望みは薄いと語った。どれだけ順調に物事が進もうとも、ここは死と隣り合わせの環境だということに変わりはない。","2053年11月10日
+Теорий заговора вокруг ситуации предостаточно, но даже самые рациональные из возможных версий попросту кажутся невозможными. Чиновники безрезультатно расширили зону поиска с 10-ти до примерно 50 тысяч квадратных километров. Руководительница поисково-спасательных работ Анахера Турей попросила семьи пропавших не надеяться на чудо: ""Даже при хороших погодных условиях это место до сих пор остается смертельно опасной и враждебной средой"".","2053년 11월 10일
+
+21세기 최대의 미스터리 중 하나로 기록되고 있는 사건으로, 남극 존스 기지의 연구원 23명 전원이 실종되었습니다. 의혹을 더욱 증폭시키게도 미국과 EU의 합작 벤처를 대신해 기지를 관리하고 있는 해먼드 사는 9월 말 기지 방문을 마치고 복귀할 예정이었던 동명의 CEO 엘리자베스 해먼드와 연락이 닿지 않는다고 보고했습니다.
+
+온갖 음모론이 횡행하고 있으며 가장 합리적인 설명조차 도무지 믿기지 않을 정도입니다. 당국은 수색 범위를 10,000평방킬로미터에서 약 50,000평방킬로미터로 확대했으나 아무런 성과가 없었습니다. 수색 구조 감독관 아나헤라 투레이는 가족들에게 마음의 준비를 하라고 당부했습니다. “아무리 좋은 조건이라 해도 이곳은 치명적이고 가혹한 환경입니다.”","2053年11月10日
 
 南极琼斯科考站23名科考人员全部失踪，此事目前已经成为21世纪的一大未解之谜。这座科考站由美国与欧盟共同建立，由哈蒙德集团代行管理。集团首席执行官伊丽莎白·哈蒙德今年九月下旬访问科考站，原计划近日返程，可是集团方称他们始终未能与其取得联系，这一情况更是令人猜测纷纷。
 
 一时间，阴谋论甚嚣尘上，即便最为合理的解释也难以令人信服。官方现已将搜索范围由一万平方公里扩大到了五万平方公里，然而依旧毫无收获，搜救负责人阿纳厄拉·图埃建议家属降低期待：“这个地方即便是气候最好的时候，环境也是十分艰险恶劣。”"
-NOTE28_NAME,Goodbye,Adieu,Abschied,Addio,Adeus,Adiós,Прощальная записка,別れの言葉,告别
+NOTE28_NAME,Goodbye,Adieu,Abschied,Addio,Adeus,Adiós,Прощальная записка,작별 인사,告别
 NOTE28_TEXT,"To whoever finds this,
 
 If this is the end, then it's time I pass on what I know. It all starts with Dr. Eschenbrenner, who first discovered the Breach and was traveling to alternate realities before Hammond Corp was even formed.
@@ -1342,34 +1250,23 @@ Si ves a Warren, dile que no es su culpa. Cuando los drones atacaron, se me ocur
  
 PS
  
-Если встретите Уоррена, скажите ему, что я его не виню. Когда дроны напали, я подумала, что лучше всего будет спрятаться в развалинах, но они перекрыли вход. Подозреваю, что за всем этим стоит Ламассу.","これを見つけた者へ
- 
- 
- 
-もし今こそ終わりを迎えるその時なら、私が知っていることを伝える時だ。全てはエッシェンブレナー博士から始まった。彼はハモンド社が設立される以前、初めてブリーチを発見し、異世界を旅していた。
- 
- 
- 
-エッシェンブレナー博士は、ワールドストリームの技術が地球にとってあまりにも危険であり、破壊をもたらすことを最も恐れた。そのため根本的に何が起きたかを解明するまで、このことを秘密にするよう私に頼んだ。私は当初疑ってはいたが、事実を知れば知るほど彼の意見に賛同したくなった。アポカリプス・アームだけでも世界に壊滅的被害を与える可能性があるのだ。
- 
- 
- 
-彼が地球を離れてから数十年の月日が経過した。彼の後を追いかけるために今回の遠征を行ったが、パターンマインドではない私には、ハードルが非常に高かった。何はともあれ、私の次のステップは（おそらくフィルターのどこかにある？）「スクライ」と呼ばれる装置を見つけ出すことだ。これと彼のＤＮＡの一部があれば、彼のいる正確な場所を見つけ出すことができる。
- 
- 
- 
-ここでは明らかに、何か深刻なことが起きている。世界の間にある障壁が徐々に弱まっているにもかかわらず、その修正を試みる兆しが見られない。私たちが何とかしなければならない。
- 
- 
- 
- エリザベス・ハモンド
-２０５３年１１月１３日
- 
- 
- 
- ＰＳ
- 
-もしウォーレンのことを見かけたなら、彼の責任ではないと言って欲しい。ドローンが攻撃をしかけた時、機転を利かせて遺跡の中に隠れようと考えたが、入り口が塞がれてしまった。これはラマッスの仕業ではなかろうか。","读到这封信的人：
+Если встретите Уоррена, скажите ему, что я его не виню. Когда дроны напали, я подумала, что лучше всего будет спрятаться в развалинах, но они перекрыли вход. Подозреваю, что за всем этим стоит Ламассу.","이것을 발견할 이에게,
+
+만약 이것이 나의 끝이라면, 내가 아는 것을 전해야 할 때가 온 것이겠지요. 모든 것은 에셴브레너 박사로부터 시작됩니다. 그는 해먼드 사가 설립되기도 전에 브리치를 처음으로 발견하고 대체 현실들을 여행하고 있었습니다.
+
+그의 가장 큰 두려움은 월드스트림의 기술들이 지구에 너무나 위험하고 파괴적인 것으로 밝혀지는 것이었고, 그는 자신이 그 근원에서 정확히 무슨 일이 일어났는지 밝혀낼 때까지 이를 비밀로 유지해 달라고 내게 간청했습니다. 처음에는 의구심이 들었지만 배울수록 그의 의견에 동의하게 되었습니다. 아포칼립스 암(Apocalypse Arms)들만으로도 우리 세상에 재앙이 될 수 있으니까요.
+
+그가 지구를 떠난 지도 벌써 수십 년이 흘렀습니다. 그의 뒤를 쫓기 위해 이번 원정대를 조직했으나, 나는 패턴마인드가 아니기에 난관이 큽니다. 어쨌든 나의 다음 단계는 '스크라이(Scry)'라고 불리는 장치(아마도 필터 구역 어딘가에 있을?)를 찾는 것이었습니다. 그의 DNA 조각과 함께 이 장치를 사용하면 그의 정확한 위치를 찾을 수 있을 터였습니다.
+
+이곳에는 분명 심각한 문제가 생겼습니다. 세계 사이의 장벽이 서서히 소멸해 가고 있는데도 이를 바로잡으려는 어떠한 시도도 보이지 않습니다. 우리는 무엇이든 해야만 합니다.
+
+EH
+
+2053년 11월 13일
+
+추신
+
+워런을 만나면 그의 잘못이 아니라고 전해 주십시오. 드론들이 공격해 왔을 때 기지를 발휘해 유적 안으로 숨으려 했으나 입구가 닫혀 버렸습니다. 라마수에게 그 책임이 있을 것으로 의심됩니다.","读到这封信的人：
 
 既然时间已经不多了，那我就该把自己知道的情况告诉其他人了。整个事情皆因埃申布伦纳博士而起，他首次发现隙界之后，多次前往其他实界，当时哈蒙德集团还没有成立。
 
@@ -1386,7 +1283,7 @@ PS
 另：
 
 如果见到沃伦了，让他不要自责。无人机来袭的时候，我以为自己很机灵，能躲到遗迹里，谁知道入口封上了，我怀疑是拉玛苏捣的鬼。"
-NOTE29_NAME,Destruction Pogrom,Pogrom de destruction,Zerstörungspogrom,Pogrom di distruzione,Destruição pogrom,Pogromo de destrucción,Разрушительный погром,ディストラクション・ポグロム,毁灭屠杀
+NOTE29_NAME,Destruction Pogrom,Pogrom de destruction,Zerstörungspogrom,Pogrom di distruzione,Destruição pogrom,Pogromo de destrucción,Разрушительный погром,파괴의 포그롬,毁灭屠杀
 NOTE29_TEXT,"Loyal Wielders are already immolating themselves with storm bombs in the faithful belief that it serves the greater good, assured that their very existence poses too great a risk in any but the most dire of circumstances. And the Siuna, hailed once as a triumphant way to free ourselves from our unkind and bipartite method of waging war - uplifting Arms to warriors themselves and not mere tools to be later discarded - are being locked away in A'ansur.
 
 I for one am not eager to die any sooner than I must. People of Kiengir, I implore you, question this so-called wisdom. Trust your own minds, not that of a machine.
@@ -1419,18 +1316,16 @@ Mageshgetil, Portatore, a nome di Amashilama","Os Portadores leais já estão se
 
 Я, например, не горю желанием умереть раньше отведенного срока. Народ Киенгира, молю вас, поставьте под сомнение эту так называемую мудрость. Доверяйте своему собственному разуму, а не разуму машины.
 
-Магешгетил, Владелец, от имени Амашиламы","忠義深き行使者たちは、人々のためだという忠実なる信義のもと、ストームボムで己が身を焼き犠牲となった。戦争のような最も悲惨な状況である以外は、彼らの存在自体があまりにも大きなリスクに引き起こすことを彼ら自身が分かっているのだ。そしてアームと行使者の組み合わせを強いる不都合な戦い方から我々を解放する革新的な手段として歓迎されたシウナの存在は、最後は廃棄の運命にあるただの道具であったアームを戦士そのものへと変えることを可能にしたが、今ではアンスルへと隔離され封印されている。
- 
- 
- 
-私も彼らの中の１人ではあるが、一刻も早く死にたいとは思わない。キエンギの人々よ、この”知恵”と呼ばれるものに対して一度疑いの目を持ってほしい。機械ではなく、自分の心を信じるのだ。
+Магешгетил, Владелец, от имени Амашиламы","충직한 윌더(Wielder)들은 자신들의 존재 자체가 가장 절박한 상황을 제외하면 너무나 큰 위험을 초래한다는 확신 하에, 그것이 대의를 위한 길이라 굳게 믿으며 이미 스톰 봄으로 자신을 불사르고 있다. 그리고 한때 우리의 냉혹하고 이분법적인 전쟁 방식(나중에 버려질 단순한 도구가 아니라 전사 그 자체로 암들을 승격시키는 것)으로부터 스스로를 해방할 승리의 길로 환영받았던 '시우나(Siuna)'는 아안수르에 갇혀 봉인되는 처지다.
 
-アマシラーマの代行者、行使者マゲシゲティル","忠诚的持者已经开始动用风暴炸弹自焚，他们坚信此举能够造福大众，因为他们得知自己本身就是极大的安全隐患，如果继续存在于世，稍有不慎，就有可能酿成滔天大灾。至于休纳，我们以为它们能令我们摆脱残暴、好战、分裂的文化，结果它们令神器成为了战士，摆脱了“用后即弃”的工具身份，故而被封入了阿安苏尔。
+나 역시 굳이 서둘러 죽고 싶지는 않다. 키엔기르의 사람들이여, 간청하건대 이른바 이 '지혜'라는 것에 의문을 던져라. 기계의 마음이 아닌 여러분 자신의 마음을 믿어라.
+
+아마시라마를 대신하여, 윌더 마게시게틸","忠诚的持者已经开始动用风暴炸弹自焚，他们坚信此举能够造福大众，因为他们得知自己本身就是极大的安全隐患，如果继续存在于世，稍有不慎，就有可能酿成滔天大灾。至于休纳，我们以为它们能令我们摆脱残暴、好战、分裂的文化，结果它们令神器成为了战士，摆脱了“用后即弃”的工具身份，故而被封入了阿安苏尔。
 
 我作为其中一员，不想过早丧命。齐恩基鲁的人啊，我恳请你们，希望你们能够向这所谓的智慧发问。相信你们自己的神智，不要迷信机器的智能。
 
 阿玛希拉玛，由持者玛盖什盖提鲁代笔"
-NOTE30_NAME,Freedom from A'ansur,Briser les chaînes d'A'ansur,Freiheit von A’ansur,Libertà da A'ansur,Livre de A'ansur,Independencia de A'ansur,Свобода от А'ансур,アンスルからの解放,摆脱阿安苏尔
+NOTE30_NAME,Freedom from A'ansur,Briser les chaînes d'A'ansur,Freiheit von A’ansur,Libertà da A'ansur,Livre de A'ansur,Independencia de A'ansur,Свобода от А'ансур,아안수르로부터의 해방,摆脱阿安苏尔
 NOTE30_TEXT,"What is the nature of A’ansur, the spadix, which birthed the fruit of Kiengir, Engur, and countless other lands? For your answer, look at the Lamassu itself. It claims to answer to justice, but what justice was there in the farcical, escalating war with the Udug, who would never have brought to bear the storm bombs were it not for the Lamassu’s Arms? It claims to be ethical, but what ethic explains the ripping of mind from mortal body and then rewarding that sacrifice with betrayal and death? It claims to be wise, but how can there be wisdom in repeatedly substituting one conflict with an even worse one?
 
 A’ansur was the true evil all along, the source of everything that has destroyed our society. And it is where the Lamassu hid the only thing that might remediate the suffering of the Arms - the Siuna.
@@ -1479,26 +1374,20 @@ Mageshgetil, canalizador, en nombre de Amashilama","Какова природа 
  
 Правда в том, что мы выше А'ансура. Он использовал нас как инструменты для достижения своих целей, потому что собственной воли у него недостаточно. Пришло время нам занять свое законное место — место владык наших собственных земель. Мы должны идти на А'ансур. Мы должны заявить свои права на Сиуны. И если понадобится, мы должны сжечь все дотла. Ради Киенгира.
  
-Магешгетиль, Владелец, от имени Амашиламы","キエンギやエングル、そしてその他無数にある世界を実らせた肉穂花序であるアンスルの本質とは一体何なのか？その答えはラマッスを見れば分かる。正義に応えるためと言うが、何の正義があったというのだ？愚かなことにウトゥックとの戦争は激化し、ストームボムのような兵器が持ち出されることとなった。ラマッスの武器さえなければ、このようなことにならなかったのではないか？倫理的であるためとに言うが、生身の肉体より精神を引き剥がされ犠牲となった人々に対する報いが、裏切りと死を伴う生け贄となることだという詭弁のどこに倫理が存在するのか？賢明であるためにと言うが、１つの争いをさらに激化させることを繰り返しておいて、どこが賢明であるというのか？
- 
- 
- 
-アンスルは当初より純粋な悪であり、私たちの社会を破壊してきたすべての元凶であったのだ。そして、アームたちの苦しみを癒す唯一の創造物であるシウナも、ラマッスによってアンスルへと隠されたのだ。
- 
- 
- 
-アンスルの上に我々が立っている。それこそが真実だ。目的を果たすために我々を道具として利用してきたのは、アンスル自体は何の力も持っていないという証拠だ。我々は今こそ、我々自身が支配する地の主として、然るべき地位を獲得する時だ。我々はアンスルと対峙しなければならない。シウナの所有権を主張するのだ。そしてキエンギのために、必要あらばアンスルにあるもの全てを焼き尽くさなければならない。
- 
- 
- 
-アマシラーマの代行者、行使者マゲシゲティル","肉穗花序“阿安苏尔”孕育了齐恩基鲁、恩古鲁和其他无数世界，那么它的本质究竟是什么？要想知道答案，看一看拉玛苏就知道了。它说自己是为了弘扬正义，可它弘扬的是何种正义？若不是拉玛苏派出了神器大军，乌图库断然不会动用风暴炸弹，战局断然不会激化，也必然不会以闹剧收场。它说自己讲求道德，可它讲求的又是何种道德？将精神剥离凡体，然后以背叛与死亡回报这种牺牲？它说自己拥有智慧，可它只会用冲突应对冲突，而且一次惨烈过一次，这拥有的又是何种智慧？
+Магешгетиль, Владелец, от имени Амашиламы","키엔기르, 엔글(Engur), 그리고 수많은 다른 땅이라는 열매를 맺은 육수화서(spadix), 아안수르의 본질은 무엇인가? 답을 얻고 싶다면 라마수 그 자체를 보라. 라마수는 정의에 응답한다고 주장하지만, 라마수의 암들이 아니었다면 결코 스톰 봄을 들고나오지 않았을 우두그와의 어처구니없고 에스컬레이트되는 전쟁에 무슨 정의가 있었단 말인가? 그것은 자신이 윤리적이라 주장하지만, 필멸자의 육체에서 정신을 뜯어내고 그 희생에 대한 보상으로 배신과 죽음을 안겨주는 것을 어떤 윤리로 설명할 수 있단 말인가? 그것은 자신이 현명하다 주장하지만, 하나의 갈등을 더 나쁜 갈등으로 되풀이하여 대체하는 것에 어떻게 지혜가 있을 수 있는가?
+
+아안수르야말로 시종일관 진정한 악이었으며, 우리 사회를 파괴한 모든 것의 근원이었다. 그리고 그곳은 라마수가 암들의 고통을 치유할 수 있는 유일한 존재인 시우나를 감춰둔 곳이다.
+
+진실을 말하자면, 우리는 아안수르보다 위에 있다. 그것은 스스로 주체성이 거의 없기 때문에 자신의 목적을 달성하기 위해 우리를 도구로 사용했다. 이제 우리가 우리 땅의 지배자로서 정당한 자리를 차지할 때다. 우리는 아안수르로 진격해야 한다. 우리는 시우나에 대한 권리를 주장해야 한다. 그리고 필요하다면 키엔기르를 위해 모든 것을 잿더미로 만들어야 한다.
+
+아마시라마를 대신하여, 윌더 마게시게틸","肉穗花序“阿安苏尔”孕育了齐恩基鲁、恩古鲁和其他无数世界，那么它的本质究竟是什么？要想知道答案，看一看拉玛苏就知道了。它说自己是为了弘扬正义，可它弘扬的是何种正义？若不是拉玛苏派出了神器大军，乌图库断然不会动用风暴炸弹，战局断然不会激化，也必然不会以闹剧收场。它说自己讲求道德，可它讲求的又是何种道德？将精神剥离凡体，然后以背叛与死亡回报这种牺牲？它说自己拥有智慧，可它只会用冲突应对冲突，而且一次惨烈过一次，这拥有的又是何种智慧？
 
 阿安苏尔自始至终都是恶的根源，正是因为它，我们的社会才会毁灭。拉玛苏将休纳藏在了那里，我们只有获得休纳，才能消除诸位神器的苦难。
 
 我们其实高于阿安苏尔，它之所以利用我们达成目的，完全因为其自身几乎不具有能动性。现在，我们应该夺回我们的领地，成为名正言顺的主人。我们必须对抗阿安苏尔，我们必须夺取休纳。如果为势所迫，我们则必须将那个世界付之一炬，确保齐恩基鲁不再受其戕害。
 
 阿玛希拉玛，由持者玛盖什盖提鲁代笔"
-NOTE31_NAME,Beware the Patternmind,Prenez garde au Modèle-Esprit,Hüte dich vor dem MusterVerstand,Attenzione allo Schema-Mente,Cuidado com a Mente Padrão,Cuidado con las mentes patrón,Опасайтесь Паттернмайда,パターンマインドに注意せよ,小心模式脑
+NOTE31_NAME,Beware the Patternmind,Prenez garde au Modèle-Esprit,Hüte dich vor dem MusterVerstand,Attenzione allo Schema-Mente,Cuidado com a Mente Padrão,Cuidado con las mentes patrón,Опасайтесь Паттернмайда,패턴마인드를 경계하라,小心模式脑
 NOTE31_TEXT,"We must flee. Wielders, if you have not done so, hide your Arms. Those few that can, cross the Storms. It is said that the Patternminds derive their power directly from A’ansur. Our only hope now is that we can survive long enough to regroup another day.
 
 Mageshgetil, Wielder","Nous devons fuir. Hérauts, si vous ne l'avez pas encore fait, dissimulez vos Armes. Ceux, peu nombreux, qui le peuvent, traversez les Tempêtes. Il est dit que les Modèles-Esprits tirent leur puissance directement de l'A'ansur. L'unique espoir qu'il nous reste est de survivre assez longtemps pour pouvoir un jour se regrouper.
@@ -1516,13 +1405,12 @@ Mageshgetil, Portatore","Devemos fugir. Portadores, se você ainda não fez isso
   
   Mageshgetil, canalizador","Надо бежать. Владельцы, если вы еще не спрятали ваши Руки, то сейчас самое время. Если можете — пересеките Штормы. Сказано было, что Паттернмайнды черпают свою силу прямиком из А'ансура. Наша единственная надежда сейчас — выжить и через некоторое время собраться вновь.
  
-Магешгетиль, Владелец","ただちに退却せよ。退却がまだの者は自分のアームを隠すのだ。可能であるなら嵐を渡るのだ。パターンマインドはアンスルから直接力を引き出していると言われている。我々が今持てる唯一の希望は、今は十分に生き延びてまた時が来れば再び団結することだ。
+Магешгетиль, Владелец","우리는 도망쳐야 한다. 윌더들이여, 아직 그렇게 하지 않았다면 암들을 숨겨라. 할 수 있는 극소수라도 폭풍을 건너라. 패턴마인드들은 아안수르로부터 직접 힘을 얻는다고 한다. 우리의 유일한 희망은 이제 다른 날 다시 뭉칠 수 있을 때까지 살아남는 것뿐이다.
 
-
-行使者マゲシゲティル","我们必须逃亡。诸位持者，尽快将神器藏起，之后尽快渡过风暴。模式脑的力量据说直接取自阿安苏尔，我们现在只能尽力后下去，时机成熟之日，再集结成军。
+윌더 마게시게틸","我们必须逃亡。诸位持者，尽快将神器藏起，之后尽快渡过风暴。模式脑的力量据说直接取自阿安苏尔，我们现在只能尽力后下去，时机成熟之日，再集结成军。
 
 持者玛盖什盖提鲁"
-NOTE32_NAME,The Student,Le disciple,Die Studentin,La studentessa,O estudante,La alumna,Ученица,生徒であること,学生
+NOTE32_NAME,The Student,Le disciple,Die Studentin,La studentessa,O estudante,La alumna,Ученица,학생,学生
 NOTE32_TEXT,"To my brother Ludari,
 
 Life in the edubba is strange and troubling. The Lamassu, and its ummias, lecture us on the laws of science and technology daily, that we may better build war machines to fight the Udug. And yet, nobody seems willing to explain how such laws came to be. The Lamassu itself is clearly a machine, yet will not speak of who built it. The priests say it comes from the gods. If people can build machines, and the Lamassu is a machine, what is to say that the gods are not just people?
@@ -1600,29 +1488,16 @@ Elutil","Моему брату Лудари,
  
 Всего самого доброго,
  
-Элутиль","弟のルダリへ
- 
- 
- 
-エドゥブバの生活は実に奇妙で私の頭を悩ませている。ラマッスとウミアたちは、私たちがウトィックと戦う戦争のためのマシンをより良く作り出すことができるよう、科学技術の法則について毎日講義を続けている。しかし、それらの法則がどのようにして生まれたかは誰も説明しようとしない。ラマッスは見るからに機械ではあるが、誰に作られたかは語ろうとしない。神官たちはラマッスが神々によりもたらされたものだと答える。機械を作り出すのが人間であり、ラマッスが機械であるならば、その神々というのは実はただの人間だと言えるのではないか？
- 
- 
- 
-私は頭の中でこのことをずっと考えながら悩んでいる。嘘はどこまで続くのか。楽園、深淵、神々の庭園、そんなものは実在するのか？なぜ誰も疑いを持たない？
- 
- 
- 
-家での生活はどうなの？銀貨は十分あると思うけど大丈夫？
- 
- 
- 
-聞くのも馬鹿馬鹿しいけど、母さんはまだ戻って来ないのでしょ？自分の子どもたちに対する愛情さえも持ってないのかしら？
- 
- 
- 
- ルダリに幸せが訪れますように
- 
- エルティル","我的弟弟鲁达里：
+Элутиль","내 형제 루다리에게,
+
+에두바(edubba)에서의 생활은 기묘하고도 혼란스럽단다. 라마수와 그 우미아(ummia)들은 우리가 우두그와 싸울 전쟁 기계를 더 잘 만들 수 있도록 매일 과학과 기술의 법칙을 강의하고 있어. 그런데도 그 누구도 그런 법칙이 어떻게 생겨났는지 설명해 주려 하지 않는구나. 라마수 자신도 분명 기계이거늘, 누가 자신을 만들었는지에 대해서는 입을 열지 않아. 사제들은 그것이 신들에게서 왔다고 말하지. 만약 사람이 기계를 만들 수 있고 라마수가 기계라면, 신 또한 그저 사람이 아니라고 누가 말할 수 있겠니?
+
+형제여, 나는 이 생각을 하며 괴로워하고 있단다. 거짓은 어디까지 뻗어 있는 걸까? 하늘, 심연, 신들의 정원, 그 모든 것이 정말 진짜일까? 왜 아무도 의문을 품지 않지?
+
+집안 생활은 어떠니? 은화는 충분히 갖고 있겠지?
+
+네게 평안이 깃들기를,
+엘루틸","我的弟弟鲁达里：
 
 埃杜巴的生活古怪而又令人烦恼。拉玛苏与它的乌弥亚每天都在教授我们科学与技术的法则，让我们组建更强的战争机器对抗乌图库。可是，好像没人愿意向我们解释这些法则的由来。拉玛苏显然自身就是一台机器，却不愿透露自己有谁所造。那些祭司说它是众神所造。然而，既然人类可以组建机器，而拉玛苏是机器，那么众神会不会也只是凡人？
 
@@ -1634,7 +1509,7 @@ Elutil","Моему брату Лудари,
 
 愿你安好
 艾露提尔"
-NOTE33_NAME,Becoming an Arm,Devenir une Arme,Eine Waffe werden,Diventare un Braccio,Tornando-se uma Arma,Convertirse en brazo,Стать Рукой,アームとなる決意,变成神器
+NOTE33_NAME,Becoming an Arm,Devenir une Arme,Eine Waffe werden,Diventare un Braccio,Tornando-se uma Arma,Convertirse en brazo,Стать Рукой,암(Arm)이 된다는 것,变成神器
 NOTE33_TEXT,"To my brother Ludari,
 
 I have accepted the ensi’s offer to become an Arm. I know you are against this. Trust me, I have no interest in the Udug war myself: but I felt I had no choice.
@@ -1705,17 +1580,17 @@ Elutil","Моему брату Лудари,
 
 Я хочу, чтобы ты присоединился ко мне. Никто не знает, что готовит для нас эта война. Я не хочу потерять тебя.
  
- Элутиль","弟のルダリへ
- 
-私はエンシの申し出を受けてアームになる決意をした。あなたが反対することは分かっている。でも私を信じてほしい。私自身、ウトゥックとの戦争に興味は無いけど、他に選択肢は無いと思っている。
- 
-ラマッスをはじめとした天上の支配者が愚かな存在であることがこの数年で明らかとなった。ラマッスはアンスルを私たちの母なる世界であると語ったが、その存在は私たちを束縛するもの、いやむしろ私たちの手足に巨大な石を縛り付け深き底へと引きずり込む枷なのだ。イルカラなど存在しない。死んだ後は何も残らない、暗闇さえも。アームと行使者なら、少なくとも永遠の命へと繋がる可能性を持っている。それらを完全に破壊できるものはストームボムだけだと聞いている。
- 
-儀式が終われば、私は志を同じくする学者で同じグループのマゲシゲティルと合流する。女神の名を冠した「アマシラーマ」という名が彼らから私に与えられることだろう。
- 
-あなたも是非私たちに加わってほしい。この戦争で何が起こるか分からない。あなたを失いたくはない。
- 
-  エルティル","我的弟弟鲁达里：
+ Элутиль","내 형제 루다리에게,
+
+나는 암이 되라는 엔시(ensi)의 제안을 받아들였단다. 네가 이것을 반대하리라는 것은 안다. 날 믿어다오, 나 역시 우두그 전쟁 자체에는 관심이 없지만 달리 선택의 여지가 없다고 느꼈어.
+
+라마수가 대변하는 가상의 천상 위계질서가 한낱 광대에 불과하다는 것이 수년에 걸쳐 명백해졌단다. 라마수가 우리의 어머니라 설명하는 아안수르는 족쇄, 아니 차라리 우리가 묶여서 심연 속으로 끌려 들어가게 만드는 거대한 돌덩어리와 다름없어. 일칼라(Irkalla) 같은 건 없다. 죽은 뒤에는 아무것도 남지 않아. 어둠조차도 없단다. 적어도 암과 윌더들은 영원한 삶을 살 가능성이 있지. 그들을 완전히 파괴할 수 있는 것은 오직 스톰 봄뿐이라고 하니까.
+
+의식이 끝나면 나는 우리 집단의 마음이 맞는 학자인 마게시게틸과 합류하게 될 거야. 그들은 여신의 이름을 따서 나를 '아마시라마'로 부르게 되겠지.
+
+너도 나와 함께했으면 좋겠구나. 이 전쟁에서 우리 중 누구에게 무슨 일이 일어날지 알 수 없다. 너를 잃고 싶지 않아.
+
+엘루틸","我的弟弟鲁达里：
 
 恩西希望我能成为神器，我答应了这个请求。我知道你不想看到我走上战场，不过相信我，我并没有兴趣参加乌图库大战，只是感觉自己别无选择。
 
@@ -1726,7 +1601,7 @@ Elutil","Моему брату Лудари,
 希望你也能够加入我们的行列。谁也不知道这次战争你我会遭遇什么，我不希望失去你。
 
 艾露提尔"
-NOTE34_NAME,Bounty List,Liste de primes,Kopfgeldliste,Lista delle taglie,Lista de procurados,Lista de tesoros,Список трофеев,懸賞リスト,悬赏清单
+NOTE34_NAME,Bounty List,Liste de primes,Kopfgeldliste,Lista delle taglie,Lista de procurados,Lista de tesoros,Список трофеев,현상금 목록,悬赏清单
 NOTE34_TEXT,"Many rumored Arms and other treasures from the apocalypse that were never found. Some I believe, some I do not, but here is all I’ve heard:
 
 -An Arm that would let the Wielder turn into a mouse
@@ -1823,27 +1698,19 @@ Ugu","Ходят слухи о многих еще не найденных Ру�
  
 Если у тебя есть эти Руки, у меня есть шекели. Принеси их мне. И помни, если найдешь запечатанную урну, ни в коем случае ее не открывай, пока я ее не осмотрю!
  
-Угу","アポカリプスに存在する未だに見つけられていないアームやその他の宝物のことについて、多くの人々が噂をしている。信用できるものできないものがあるが、私が今までに聞いたものは以下の通りだ。
- 
- 
- 
- -行使者をネズミへ変身させる力を持つアーム
- 
- -行使者が文字を読めるようにするアーム
- 
- -人や動物を病気にする力を持つアーム
- 
- -人語を解する槌矛（？）
- 
- -アームが行使者を完全にコントロールする力を与える装置
- 
- 
- 
-もしアームを持っているなら、私は代わりにシェケル銀貨を用意しよう。持っている者は私のところへ持ってきなさい。また、アームの封印された埋葬壷を見つけても、絶対に開いてはいけない。
- 
- 
- 
- ウグ","近日听见诸多传闻，称天启之后，许多神器与宝物遗落世间，至今无人得见。其中几则颇有可信之处，几则堪称无稽之谈，不过我将一一列举：
+Угу","아포칼립스 시대의 무수한 암(Arm)들과 그 밖의 보물들 중 아직 발견되지 않은 소문 속 물건들이다. 믿는 것도 있고 믿지 않는 것도 있지만, 내가 들은 내용은 다음과 같다.
+
+-윌더를 생쥐로 변신시켜 주는 암
+-글을 모르는 윌더가 글을 읽을 수 있게 해주는 암
+-사람과 동물을 병들게 만드는 암
+-청동을 은으로 바꾸어 주는 암
+-윌더가 자신의 신체 부위를 성형하고 분리하여 무기로 쓰게 해주는 암
+-말하는 메이스(?)
+-암이 자신의 윌더를 완전히 통제할 수 있게 해주는 장치
+
+그대들에게 암이 있다면 나에게는 셰켈(shekel) 은화가 있다. 나에게 가져와라. 단, 봉인된 항아리를 발견하면 무슨 일이 있어도 내가 확인해 볼 때까지 절대 열지 말아라!
+
+우구","近日听见诸多传闻，称天启之后，许多神器与宝物遗落世间，至今无人得见。其中几则颇有可信之处，几则堪称无稽之谈，不过我将一一列举：
 
 - 一件神器，可令持者变成老鼠
 - 一件神器，可令持者识文断字
@@ -1856,7 +1723,7 @@ Ugu","Ходят слухи о многих еще не найденных Ру�
 若有人拥有此等宝物，只管带来，我将用谢克尔交换。注意，若是见到了封存的陶瓮，千万不要贸然启封，待我查看之后再说！
 
 乌古"
-NOTE35_NAME,Letter from Trace,Lettre de Trace,Brief von Trace,Lettera di Trace,Carta de Trace,Carta de Trace,Письмо от Трейса,トレースからの手紙,崔斯的信
+NOTE35_NAME,Letter from Trace,Lettre de Trace,Brief von Trace,Lettera di Trace,Carta de Trace,Carta de Trace,Письмо от Трейса,트레이스의 편지,崔斯的信
 NOTE35_TEXT,"Hammond,
 
 Re: the potentially infinite number of worlds - my current hypothesis is that they are filtered by a kind of tree-like hierarchy, being narrowed and specific at the ends but broad at the root. But of course in order for this to work, the filters themselves are also worlds in the tree, downstream of even more filters, recursively. Here’s a brain teaser for you: if the filter fails somehow, do the worlds it filtered cease to exist?
@@ -1915,25 +1782,15 @@ Trace","Хаммонд,
 
 Ладно, надеюсь, поговорим об этом позже. Сейчас я немного тороплюсь.
  
-Трейс","ハモンドへ
- 
- 
- 
-返信：世界が無限に存在する可能性について、ぼくの現在の仮説は、これらの世界はツリー状の階層によりフィルター化され、先端は狭く特定的であり、根元は幅広くなっている。しかし、当然のことながら、これがきちんと機能するように、フィルター自体もツリーの中にある世界であり、ダウンストリームでは再帰的にさらに多くのフィルターが繰り返し存在している。フィルターが何らかの形でうまく機能しない場合、そのフィルターがかかる世界は存在しなくなるのだろうか？
- 
- 
- 
-返信：死後の世界に関するきみのアイデアについてだけど、何にせよ実際に”証明”することは可能であるとは思う。でもそのためには実証を行う人間が（あらかじめぼくたちの研究すべてを学習し）死ぬ必要があるだろう。
+Трейс","해먼드,
 
+답장: 잠재적으로 무한한 수의 세계들에 대해 - 나의 현재 가설은 그것들이 나무와 같은 계층 구조의 필터를 거친다는 것입니다. 끝부분은 좁고 세분화되지만 뿌리 부분은 넓어지죠. 하지만 이것이 작동하려면 당연하게도 필터 자체 또한 나무 구조 안에 있는 세계들이어야 하며, 재귀적으로 더 많은 필터들의 하류에 위치해야 합니다. 여기서 두뇌를 자극하는 질문 하나 드릴게요. 만약 필터에 모종의 오류가 생기면, 그 필터가 걸러내던 세계들도 아예 존재를 감추게 될까요?
 
-いずれにしても、この件については後でもっと話をしたい。ぼくは少し急いでいる。
- 
- 
- 
- 
- 
- 
- トレース","哈蒙德：
+답장: 사후 세계에 관한 당신의 생각에 대해 - 어떻게든 실제로 '증명'을 얻을 수는 있다고 봅니다만, 실험을 진행할 사람이 사망한 상태여야 하며(그리고 우리의 모든 연구를 학습했어야 함) 그래야만 작동할 것입니다.
+
+어쨌든 나중에 이에 대해 더 자세히 이야기 나눌 수 있기를 바랍니다. 지금은 제가 조금 급해서요.
+
+트레이스","哈蒙德：
 
 关于“世界数量无限”这个可能性，我现在的猜想是各个世界是由某种树状分层结构过滤，这种结构枝端狭窄而又明确，根部则宽大而又宽泛。这种结构既然能够实现这样的效果，那么过滤世界的部位本身自然也是一个个世界，分布在这棵树上，而且越往下游，数量越多，不断递归。假设这个过滤过程失效，那么树上滤过的世界是否就不复存在了？
 
@@ -1942,7 +1799,7 @@ Trace","Хаммонд,
 这个话题我想之后再跟你详细探讨，现在有点忙。
 
 崔斯"
-NOTE36_NAME,The Ideal Kiengir,Le Kiengir idéal,Der ideale Kiengir,Il Kiengir ideale,Kiengir ideal,El Kiengir ideal,Идеальный Киенгир,キエンギの理想であるべき形,理想的齐恩基鲁
+NOTE36_NAME,The Ideal Kiengir,Le Kiengir idéal,Der ideale Kiengir,Il Kiengir ideale,Kiengir ideal,El Kiengir ideal,Идеальный Киенгир,이상적인 키엔기르,理想的齐恩基鲁
 NOTE36_TEXT,"Elutil,
 
 At every instant of time, every possible moment where one might observe a thing occurring, there should be a limitless possibility for what can then come. We can conceive of this. We expect this. Why did our ancestors believe in An, Enki, Enlil, and Inanna? Because such things should be possible.
@@ -1999,23 +1856,15 @@ Mageshgetil","Элутиль,
 
 Нужно понимать, что во всем бесконечном числе возможных идеальных миров существует бесконечное число А'ансуров, к каждому из которых привязан свой Киенгир, но также есть и бесконечные Киенгиры, свободные от А'ансуров. Решение таково: каждый связанный с А'ансуром Киенгир должен его уничтожить. Когда это произойдет, останутся только Киенгиры. Память об А'ансуре как данности исчезнет, и наша судьба снова будет принадлежать нам.
  
-Магешгетиль","エルティルへ
- 
- 
- 
-すべてのつかの間の時間、人が物事の始まりを見届ける可能性のある瞬間すべてに、その時起こりうることに対する無限の可能性があるはずだ。我々はこのことを想像することができるし、そのように予測もできる。なぜ我々の祖先はアヌ、エンキ、エンリル、イナンナを信仰したのか？そのような者たちが存在することが可能であるはずだからだ。
- 
- 
- 
-しかし、そうはなっていない。なぜなら我々の世界キエンギの外側には、なぜかアンスルという別のより大きな世界があるからだ。その世界の存在を知った瞬間から、我々はそのことに縛られることとなった。知ってしまった以上はもう取り返しはつかない。目の前にある唯一の道はこの母なる世界の奴隷と成り下がることのみ。だが、果たしてそうなのか？
- 
- 
- 
-無限に可能性のある理想郷の中では、キエンギと結びつけられた無限のアンスルが存在するだけでなく、アンスルの束縛から自由である無限のキエンギも存在することを理解しなければならない。そして我々にとって解決策となり得るのは、アンスルとの結びつきに気づいたキエンギがアンスルを破壊することだ。そうすれば、自由となったキエンギだけが存在することができる。アンスルの記憶は消え去り、我々は再び運命を取り戻すのだ。
- 
- 
- 
- マゲシゲティル","艾露提尔：
+Магешгетиль","엘루틸,
+
+매 순간, 어떤 일이 일어나는 것을 목격할 수 있는 가능한 모든 찰나에는 그 뒤에 올 일에 대한 무한한 가능성이 존재해야 마땅하다. 우리는 이것을 상상할 수 있고, 기대한다. 왜 우리의 조상들이 안(An), 엔키(Enki), 엔릴(Enlil), 이난나(Inanna)를 믿었겠는가? 그런 것들이 가능해야 하기 때문이다.
+
+하지만 현실은 그렇지 않다. 어떻게 된 영문인지 우리 세계인 키엔기르의 바깥에 또 다른 세계, 더 큰 세계인 아안수르가 존재하고, 우리가 그 존재를 목격한 순간부터 우리는 그곳에 묶여 버렸기 때문이다. 우리가 배운 지식은 다시 지울 수 없다. 앞으로 나아갈 유일한 길은 어머니 세계의 노예가 되는 것뿐이다. 과연 그럴까?
+
+우리는 무한히 가능한 이상적인 세계들 중에서 키엔기르와 결합된 무한한 아안수르들이 존재하는 동시에, 아안수르의 지배에서 벗어난 무한한 키엔기르들이 존재함을 이해해야 한다. 해결책은 다음과 같다. 자신들이 아안수르에 묶여 있음을 깨달은 모든 키엔기르는 아안수르를 파괴해야 한다. 그렇게 된다면 자유로운 키엔기르들만이 남게 될 것이다. 아안수르의 기억은 흐려질 것이고, 운명은 다시 우리의 것이 되리라.
+
+마게시게틸","艾露提尔：
 
 每一个瞬间，每当有人有可能看到一件事情发生的时候，下一瞬间就应该有无限的可能。我们想象得到这种情形，我们认为任何事情的发展都是如此。祖先为什么相信世间存在安、恩基、恩利勒和伊南娜？因为这类事物应当确实有可能存在。
 
@@ -2024,7 +1873,7 @@ Mageshgetil","Элутиль,
 我们必须明白一个道理——理想的世界数量无穷，所以阿安苏尔的数量也是无穷，受其束缚的齐恩基鲁也是如此，于是便有数量无穷的齐恩基鲁不受阿安苏尔奴役。那么这个问题的解法就是：所有遭受奴役的齐恩基鲁必须毁灭与之关联的阿安苏尔，如此一来，最终就只存在不受奴役的齐恩基鲁了。世间有关阿安苏尔的记忆将消失，我们也将重新成为命运的主人。
 
 玛盖什盖提鲁"
-NOTE37_NAME,A’ansur,A'ansur,A’ansur,A'ansur,A’ansur,A'ansur,А'ансур,アンスルとは,阿安苏尔
+NOTE37_NAME,A’ansur,A'ansur,A’ansur,A'ansur,A’ansur,A'ansur,А'ансур,아안수르,阿安苏尔
 NOTE37_TEXT,"To my brother Ludari,
 
 We have all heard of A’ansur - the “spadix from which the fruit of the world grows”. But have you ever thought of the meaning behind this decorative speech?
@@ -2088,19 +1937,16 @@ Elutil","Моему брату Лудари,
 Глупо спрашивать, но, мама, надо полагать, еще не вернулась? Неужели она не любит собственных детей?
  
 Всего самого доброго,
-Элутиль","弟のルダリへ
- 
-アンスルが世界という実が育つ肉穂花序であることは、誰もが耳にしたことのある話でしょう。しかし、この装飾的な言葉に込められた意味を今まで考えたことはあるかしら？
- 
-昨日私が眠りにつく頃、２人のウミアが「アンスルへ行った」という会話を耳にした。特別な機械を使ってその場所へ行き、帰って来たというのだ。アンスルが本当に神聖な場所であるならば、機械のようなありふれたものを使って行ける場所だと思うだろうか？彼らが私たちに話をしていないことがあるということだ。
- 
-聞くのも馬鹿馬鹿しいけど、母さんはまだ戻って来ないのでしょ？自分の子供たちに対する愛情さえ持っていないのかしら？
- 
- 
- 
-ルダリに幸せが訪れますように
- 
-エルティル","我的弟弟鲁达里：
+Элутиль","내 형제 루다리에게,
+
+우리 모두는 아안수르에 대해 들어보았단다. '세계라는 열매가 자라나는 육수화서'라고 말이지. 하지만 이 화려한 미사여구 뒤에 숨겨진 의미를 생각해 본 적이 있니?
+
+어제 내가 잠들었다고 생각했을 때, 나는 두 명의 우미아가 아안수르로의 여행에 관해 말하는 것을 엿들었단다. 특별한 기계를 사용해 그곳을 여행하고 돌아왔다는 의미였어. 만약 아안수르가 참으로 신성한 곳이라면, 기계와 같이 미천한 것을 통해 그곳을 여행할 수 있다고 생각하니? 형제여, 장담하건대 그들이 우리에게 말하지 않은 무언가가 있단다.
+
+이런 걸 묻는 게 어리석은 짓이지만, 어머니는 아직도 돌아오지 않으셨겠지? 자기 자식들에 대한 사랑이 털끝만큼도 없으신 걸까?
+
+네게 평안이 있기를,
+엘루틸","我的弟弟鲁达里：
 
 我们都知道阿安苏尔是“孕育世界果实的肉穗花序”，可是你有没有想过？这句话说得这么花哨，字面之下是怎样的含义？
 
@@ -2110,7 +1956,7 @@ Elutil","Моему брату Лудари,
 
 愿你安好
 艾露提尔"
-NOTE38_NAME,Leaving for Ziusudra,Départ pour Ziusudra,Aufbruch nach Ziusudra,Partenza per Ziusudra,Indo para Ziusudra,Nos vamos a Ziusudra,Отправка в Зиусудру,ジウスドラへと逝く,赴朱苏德拉
+NOTE38_NAME,Leaving for Ziusudra,Départ pour Ziusudra,Aufbruch nach Ziusudra,Partenza per Ziusudra,Indo para Ziusudra,Nos vamos a Ziusudra,Отправка в Зиусудру,지우수드라로 떠나며,赴朱苏德拉
 NOTE38_TEXT,"Father,
 
 May the gods keep you forever in good health.
@@ -2153,19 +1999,13 @@ La Lamassu nos ha ordenado viajar a Ziusudra, en las tierras de los udugs. Allí
  
 Ламассу приказал отправить нас в Зиусудру, что на землях Удуг. Там мы будем помогать разгребать последствия шторма. Не думаю, что смогу вернуться. Но это святой труд. Прошу, скажи матери, чтобы по нам не рыдала. У меня все хорошо, как и у моей жены, детей и всего, за что я в ответе. Все воистину хорошо.
  
-Лунанна","父よ
- 
- 
- 
-神々があなたのお体をずっとお守りしますように。
- 
- 
- 
-ラマッスは私たちにウトゥックの領地にあるジウスドラに行くよう命じた。そこでは嵐による被害の修復を手助けをすることになっている。私は生きて帰って来れるとは思えない。しかしこれは神聖なる仕事である。母には私たちのことで涙を流さないでほしいと言ってほしい。私も妻も子どもたちも、そして私が世話をしているすべての人たちも本当に元気で過ごしている。
- 
- 
- 
- ルナンナ","爸爸：
+Лунанна","아버지에게,
+
+신들께서 아버지를 언제나 건강하게 보살펴 주시기를 바랍니다.
+
+라마수께서 우두그의 땅에 있는 지우수드라로 가라고 우리에게 명령하셨습니다. 그곳에서 우리는 폭풍으로 인한 피해를 복구하도록 돕기로 되어 있습니다. 제가 다시 돌아올 수 있을 것 같지는 않습니다. 하지만 이것은 신성한 작업입니다. 어머니께 저희 때문에 눈물 흘리지 말라고 전해 주십시오. 저와 제 아내, 제 아이들, 그리고 제가 돌보는 모든 것들이 참으로 평안합니다.
+
+루난나","爸爸：
 
 愿众神保你健康永驻。
 

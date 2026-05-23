@@ -70,7 +70,7 @@ public static class FontBuilder
     private static readonly string XnbCliPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Tools", "xnbcli.exe");
 
     public static void GenerateXnb(FontMetadata meta, string customPngPath, string outputXnbPath,
-        int yOffsetAdjust, int xOffsetAdjust, int xAdvanceAdjust, Action<string> log)
+        int yOffsetAdjust, int xOffsetAdjust, int xAdvanceAdjust, string buildMode, Action<string> log)
     {
         string tempDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Temp", $"AV2FontBuild_{Guid.NewGuid():N}");
         Directory.CreateDirectory(tempDir);
@@ -110,20 +110,59 @@ public static class FontBuilder
             using var imgOrig   = Image.FromFile(templatePngPath);
             using var imgCustom = Image.FromFile(customPngPath);
 
-            int finalWidth  = Math.Max(imgOrig.Width, imgCustom.Width);
-            int finalHeight = imgOrig.Height + imgCustom.Height;
+            int finalWidth;
+            int finalHeight;
+            bool fullReplace = buildMode.Equals("Replace", StringComparison.OrdinalIgnoreCase);
+
+            if (fullReplace)
+            {
+                finalWidth = imgCustom.Width;
+                finalHeight = imgCustom.Height;
+            }
+            else
+            {
+                finalWidth  = imgOrig.Width;
+                finalHeight = imgOrig.Height + imgCustom.Height;
+
+                if (imgCustom.Width != imgOrig.Width)
+                {
+                    log($"[WARNING] 커스텀 폰트 텍스처 가로폭 ({imgCustom.Width}px)이 원본 ({imgOrig.Width}px)과 다릅니다. 최종 가로폭을 원본 크기에 맞춰 고정합니다.");
+                }
+            }
 
             using var mergedImg = new Bitmap(finalWidth, finalHeight, PixelFormat.Format32bppArgb);
             using (var g = Graphics.FromImage(mergedImg))
             {
                 g.Clear(Color.Transparent);
-                g.DrawImage(imgOrig, 0, 0);
-                g.DrawImage(imgCustom, 0, imgOrig.Height);
+                
+                // 픽셀 아트 폰트의 정밀 복사(1:1 대응)를 위한 렌더링 옵션 설정
+                g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.NearestNeighbor;
+                g.PixelOffsetMode = System.Drawing.Drawing2D.PixelOffsetMode.Half;
+                g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
+                
+                // GDI+ 내부 DPI 자동 스케일링으로 인해 픽셀이 뭉개지거나 1~2px 삐져나가는 버그를 방지하기 위해 GraphicsUnit.Pixel을 명시하여 복사
+                if (fullReplace)
+                {
+                    g.DrawImage(imgCustom, new Rectangle(0, 0, imgCustom.Width, imgCustom.Height), 0, 0, imgCustom.Width, imgCustom.Height, GraphicsUnit.Pixel);
+                }
+                else
+                {
+                    g.DrawImage(imgOrig, new Rectangle(0, 0, imgOrig.Width, imgOrig.Height), 0, 0, imgOrig.Width, imgOrig.Height, GraphicsUnit.Pixel);
+                    g.DrawImage(imgCustom, new Rectangle(0, imgOrig.Height, imgCustom.Width, imgCustom.Height), 0, 0, imgCustom.Width, imgCustom.Height, GraphicsUnit.Pixel);
+                }
             }
 
             // 4. Smart Data Merge — BMFont 데이터를 원본 XNB에 병합
-            int yOffset = imgOrig.Height; // 커스텀 PNG가 원본 아래에 붙는 오프셋
+            int yOffset = fullReplace ? 0 : imgOrig.Height; // 커스텀 PNG가 시작되는 Y 오프셋
             int added   = 0;
+
+            if (fullReplace)
+            {
+                charMapList.Clear();
+                glyphsList.Clear();
+                croppingList.Clear();
+                kerningList.Clear();
+            }
 
             ValidateFontBuild(meta.ParsedChars.Count, finalWidth, finalHeight, log);
 
@@ -150,7 +189,8 @@ public static class FontBuilder
             {
                 // 공백(id=32)처럼 width=0인 특수 문자도 포함
                 string s = char.ConvertFromUtf32(codepoint);
-                if (charMapList.Contains(s)) continue; // 원본에 이미 존재하면 건너뜀
+                if (!fullReplace && charMapList.Contains(s)) continue; // 원본에 이미 존재하면 건너뜀 (완전 대체 모드에서는 이중 등록 방지만 수행)
+                if (fullReplace && charMapList.Contains(s)) continue; // 완전 대체 모드에서도 만에 하나 파싱 중 중복 문자 있는 경우 방지
 
                 // 커스텀 PNG 내 좌표 → 병합 이미지 내 절대 좌표로 변환
                 int absX = bm.X;
@@ -164,10 +204,12 @@ public static class FontBuilder
                     ["width"]  = bm.Width,
                     ["height"] = bm.Height,
                 });
+                int charCroppingY = fullReplace ? (bm.YOffset + yOffsetAdjust) : (finalCroppingY);
+
                 croppingList.Add(new JsonObject
                 {
                     ["x"]      = bm.XOffset + finalCroppingX,
-                    ["y"]      = finalCroppingY,
+                    ["y"]      = charCroppingY,
                     ["width"]  = bm.Width,
                     ["height"] = bm.Height,
                 });
@@ -197,6 +239,20 @@ public static class FontBuilder
             if (File.Exists(Path.Combine(packOutDir, "font.xnb")))
             {
                 File.Copy(Path.Combine(packOutDir, "font.xnb"), outputXnbPath, true);
+                try
+                {
+                    string outputPngPath = Path.ChangeExtension(outputXnbPath, ".png");
+                    mergedImg.Save(outputPngPath, ImageFormat.Png);
+
+                    // 또한 빌드본의 문자표 파일 저장
+                    string outputTxtPath = Path.Combine(Path.GetDirectoryName(outputXnbPath)!, Path.GetFileNameWithoutExtension(outputXnbPath) + "_charset.txt");
+                    var sortedChars = charMapList.OrderBy(c => c).ToList();
+                    File.WriteAllText(outputTxtPath, string.Concat(sortedChars), System.Text.Encoding.UTF8);
+                }
+                catch (Exception pex)
+                {
+                    log($"[WARNING] Failed to save built preview image or charset: {pex.Message}");
+                }
                 log($"Hybrid Merge Success: {xnbName} ({charMapList.Count} chars total, {added} added).");
             }
             else throw new Exception($"Failed to pack hybrid font for {xnbName}");

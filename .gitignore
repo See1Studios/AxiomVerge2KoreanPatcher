@@ -339,6 +339,12 @@ node_modules/
 # JetBrains IDE 설정
 .idea/
 
+# 게임 원본 및 백업 폴더 (대용량)
+Axiom Verge 2/
+*.origin
+*.bak
+
+
 *.ncb
 *.aps
 

@@ -10,6 +10,7 @@ using Microsoft.Win32;
 using Mono.Cecil;
 using System.Threading.Tasks;
 using System.Collections.ObjectModel;
+using System.Text;
 using Application = System.Windows.Application;
 
 namespace AV2Patcher.Modern;
@@ -33,6 +34,7 @@ public class FontInfoConverter : System.Windows.Data.IValueConverter
 public partial class MainWindow : Window
 {
     private Config _config = new();
+
     private string ConfigPath => Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.json");
     private string CustomFontsDir => Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts", "Korean");
 
@@ -46,10 +48,32 @@ public partial class MainWindow : Window
             Microsoft.Win32.OpenFileDialog ofd = new() { Filter = "Executable|AxiomVerge2.exe" };
             if (ofd.ShowDialog() == true) txtExePath.Text = ofd.FileName;
         };
+        txtExePath.TextChanged += (s, e) => ValidateExePath();
         btnPatch.Click += OnPatchClicked;
         btnRestore.Click += (s, e) => RestoreOriginal();
         btnExtract.Click += OnExtractClicked;
-        Loaded += (s, e) => { LoadConfig(); EnsureFolders(); RefreshAvailableFonts(); icFontMappings.ItemsSource = Mappings; TryLoadFontOriginalSizes(); };
+        Loaded += (s, e) => {
+            LoadConfig();
+            EnsureFolders();
+            RefreshAvailableFonts();
+            icFontMappings.ItemsSource = Mappings;
+            TryLoadFontOriginalSizes();
+            TryLoadFontBuiltSizes();
+            ValidateExePath();
+        };
+    }
+
+    private void ValidateExePath()
+    {
+        try {
+            string path = txtExePath.Text;
+            bool isValid = !string.IsNullOrWhiteSpace(path) && 
+                           File.Exists(path) && 
+                           Path.GetFileName(path).Equals("AxiomVerge2.exe", StringComparison.OrdinalIgnoreCase);
+            btnExtract.IsEnabled = isValid;
+        } catch {
+            btnExtract.IsEnabled = false;
+        }
     }
 
     // ── 오프셋 조정 버튼 핸들러 ─────────────────────────────────────────────
@@ -101,6 +125,80 @@ public partial class MainWindow : Window
             System.Windows.MessageBox.Show(
                 $"원본 텍스처가 없습니다.\n'Extract Originals' 버튼을 먼저 실행하세요.",
                 "미추출", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+    }
+
+    private void OnViewBuiltTexture(object sender, RoutedEventArgs e)
+    {
+        if (sender is not FrameworkElement { Tag: FontMapping mapping }) return;
+
+        string builtFontsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts");
+        string pngName = Path.GetFileNameWithoutExtension(mapping.TargetXnb) + ".png";
+        string pngPath = Path.Combine(builtFontsDir, pngName);
+
+        if (File.Exists(pngPath)) {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo {
+                FileName = pngPath, UseShellExecute = true
+            });
+        } else {
+            System.Windows.MessageBox.Show(
+                $"빌드된 폰트 이미지가 없습니다.\n먼저 Build 버튼을 클릭해 폰트를 빌드해 주세요.",
+                "미빌드", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+    }
+
+    private void OnViewOriginalCharset(object sender, RoutedEventArgs e)
+    {
+        if (sender is not FrameworkElement { Tag: FontMapping mapping }) return;
+
+        string originalsDir = OriginalFontsDir;
+        string txtName = Path.GetFileNameWithoutExtension(mapping.TargetXnb) + "_charset.txt";
+        string txtPath = Path.Combine(originalsDir, txtName);
+
+        if (!File.Exists(txtPath)) {
+            string jsonName = Path.GetFileNameWithoutExtension(mapping.TargetXnb) + ".json";
+            string jsonPath = Path.Combine(originalsDir, jsonName);
+            if (File.Exists(jsonPath)) {
+                try {
+                    var node = System.Text.Json.Nodes.JsonNode.Parse(File.ReadAllText(jsonPath));
+                    var charMap = node?["content"]?["characterMap"]?.AsArray();
+                    if (charMap != null) {
+                        var chars = charMap.Select(n => n!.ToString()).OrderBy(c => c).ToList();
+                        File.WriteAllText(txtPath, string.Concat(chars), System.Text.Encoding.UTF8);
+                    }
+                } catch (Exception ex) {
+                    Log($"Failed to generate charset: {ex.Message}");
+                }
+            }
+        }
+
+        if (File.Exists(txtPath)) {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo {
+                FileName = txtPath, UseShellExecute = true
+            });
+        } else {
+            System.Windows.MessageBox.Show(
+                $"원본 문자표가 없습니다.\n'Extract Originals' 버튼을 먼저 실행하세요.",
+                "미추출", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+    }
+
+    private void OnViewBuiltCharset(object sender, RoutedEventArgs e)
+    {
+        if (sender is not FrameworkElement { Tag: FontMapping mapping }) return;
+
+        string builtFontsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts");
+        string txtName = Path.GetFileNameWithoutExtension(mapping.TargetXnb) + "_charset.txt";
+        string txtPath = Path.Combine(builtFontsDir, txtName);
+
+        if (File.Exists(txtPath)) {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo {
+                FileName = txtPath, UseShellExecute = true
+            });
+        } else {
+            System.Windows.MessageBox.Show(
+                $"빌드된 문자표 파일이 없습니다.\n먼저 Build 버튼을 클릭해 폰트를 빌드해 주세요.",
+                "미빌드", MessageBoxButton.OK, MessageBoxImage.Information);
         }
     }
     // ────────────────────────────────────────────────────────────────────────
@@ -158,6 +256,7 @@ public partial class MainWindow : Window
 
     private void LoadConfig()
     {
+
         if (File.Exists(ConfigPath)) {
             _config = JsonSerializer.Deserialize<Config>(File.ReadAllText(ConfigPath)) ?? new();
             txtExePath.Text = _config.ExePath;
@@ -165,6 +264,9 @@ public partial class MainWindow : Window
         _config.InitializeDefaults();
         Mappings.Clear();
         foreach (var m in _config.Mappings) Mappings.Add(m);
+
+        ApplyLoadedTheme(_config.Theme);
+
     }
 
     private void SaveConfig()
@@ -247,19 +349,37 @@ public partial class MainWindow : Window
                     }
                 }
 
-                // Linux 패치 패키지용 Content.zip 저장
+                // Linux 패치 패키지용 Content.zip 및 스크립트/도구 저장
                 string exportZipPath = Path.Combine(ExportPackageDir, "Content.zip");
                 try { File.Copy(tempZipPath, exportZipPath, true); Log("ExportPackage: Content.zip 저장됨."); } catch { }
+
+                try {
+                    string srcScript = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Tools", "apply_patch.sh");
+                    string srcCli = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Tools", "AV2Patcher.CLI");
+
+                    if (File.Exists(srcScript)) {
+                        File.Copy(srcScript, Path.Combine(ExportPackageDir, "apply_patch.sh"), true);
+                        Log("ExportPackage: apply_patch.sh 복사 완료.");
+                    }
+                    if (File.Exists(srcCli)) {
+                        File.Copy(srcCli, Path.Combine(ExportPackageDir, "AV2Patcher.CLI"), true);
+                        Log("ExportPackage: AV2Patcher.CLI 복사 완료.");
+                    }
+                } catch (Exception ex) {
+                    Log($"ExportPackage 복사 중 오류: {ex.Message}");
+                }
 
                 // Clean up temp zip
                 try { File.Delete(tempZipPath); } catch { }
 
-                // 6. Build and Deploy Fonts (to Content/Fonts directory)
+                // 6. Deploy Pre-built Fonts (to Content/Fonts directory)
                 string builtFontsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts");
                 string fontsOriginalDir = OriginalFontsDir;
+                string exportFontsDir = Path.Combine(ExportPackageDir, "Fonts");
+                
+                Directory.CreateDirectory(exportFontsDir);
+                if (!Directory.Exists(builtFontsDir)) Directory.CreateDirectory(builtFontsDir);
                 if (!Directory.Exists(fontsOriginalDir)) Directory.CreateDirectory(fontsOriginalDir);
-
-                var fontTasks = new List<Task>();
 
                 foreach (var mapping in Mappings) {
                     if (string.IsNullOrEmpty(mapping.SelectedFontName)) continue;
@@ -275,69 +395,33 @@ public partial class MainWindow : Window
                         Log($"Backed up original font: {mapping.TargetXnb}");
                     }
 
-                    // "원본 유지" 선택 시 백업에서 원본을 복원
                     if (font.IsKeepOriginal) {
+                        // "원본 유지" 선택 시 백업에서 원본 복원 및 패키지 복사
                         if (File.Exists(originalPath)) {
                             File.Copy(originalPath, targetPath, true);
-                            Log($"{mapping.TargetXnb}: 원본 폰트를 복원했습니다.");
+                            try { File.Copy(originalPath, Path.Combine(exportFontsDir, mapping.TargetXnb), true); } catch { }
+                            Log($"{mapping.TargetXnb}: 원본 폰트를 복원 및 투입했습니다.");
                         } else {
-                            Log($"{mapping.TargetXnb}: 원본 백업이 없어 건너뜀니다.");
+                            Log($"{mapping.TargetXnb}: 원본 백업이 없어 복원을 건너뜁니다.");
                         }
-                        continue;
-                    }
-
-
-
-
-
-                    Log($"Queueing build for {mapping.TargetXnb}...");
-                    font.Metadata.LastGamePath = exe;
-                    var capturedMapping = mapping;
-                    var capturedFont = font;
-                    var capturedTargetPath = targetPath;
-                    fontTasks.Add(Task.Run(() => {
-                        try {
-                            FontBuilder.GenerateXnb(
-                                capturedFont.Metadata, capturedFont.PngPath, capturedTargetPath,
-                                capturedMapping.YOffsetAdjust,
-                                capturedMapping.XOffsetAdjust,
-                                capturedMapping.XAdvanceAdjust,
-                                Log);
-                        } catch (Exception ex) {
-                            Log($"ERROR building {capturedMapping.TargetXnb}: {ex.Message}");
-                            throw;
+                    } else {
+                        // 커스텀 폰트인 경우: 로컬 Fonts/ 폴더에 미리 빌드된 XNB 복사
+                        string localBuiltXnb = Path.Combine(builtFontsDir, mapping.TargetXnb);
+                        if (File.Exists(localBuiltXnb)) {
+                            File.Copy(localBuiltXnb, targetPath, true);
+                            try { File.Copy(localBuiltXnb, Path.Combine(exportFontsDir, mapping.TargetXnb), true); } catch { }
+                            Log($"{mapping.TargetXnb}: 이미 빌드된 한글 폰트를 투입했습니다.");
+                        } else {
+                            throw new Exception($"빌드된 폰트 파일이 없습니다: {mapping.TargetXnb}\n패치를 적용하려면 먼저 해당 폰트 항목 우측의 'Build' 버튼을 클릭하여 빌드를 완료해주세요.");
                         }
-                    }));
-                }
-
-                if (fontTasks.Count > 0) {
-                    Log($"Building {fontTasks.Count} fonts in parallel...");
-                    Task.WaitAll(fontTasks.ToArray());
-                }
-
-                // local Fonts/ 폴더 및 Linux 패치 패키지용 ExportPackage/Fonts/ 에 복사
-                string exportFontsDir = Path.Combine(ExportPackageDir, "Fonts");
-                Directory.CreateDirectory(exportFontsDir);
-                if (!Directory.Exists(builtFontsDir)) Directory.CreateDirectory(builtFontsDir);
-                foreach (var mapping in Mappings) {
-                    string builtXnb = Path.Combine(gameDir, "Content", "Fonts", mapping.TargetXnb);
-                    if (File.Exists(builtXnb)) {
-                        try { File.Copy(builtXnb, Path.Combine(builtFontsDir, mapping.TargetXnb), true); } catch { }
-                        try { File.Copy(builtXnb, Path.Combine(exportFontsDir, mapping.TargetXnb), true); } catch { }
                     }
                 }
-                Log("ExportPackage 및 로컬 Fonts 폴더 업데이트 완료.");
+                Log("ExportPackage 및 게임 내 Fonts 폴더 복사 완료.");
             });
             Log("PATCH SUCCESS! You can now run the game.");
-            string builtFontsDirFinal = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts");
-            var result = System.Windows.MessageBox.Show(
-                "패치 완료!\n\n'예'를 누르면 Fonts 폴더를 열어 결과물인 패치 폰트를 확인할 수 있습니다.",
-                "완료", MessageBoxButton.YesNo, MessageBoxImage.Information);
-            if (result == MessageBoxResult.Yes && Directory.Exists(builtFontsDirFinal)) {
-                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo {
-                    FileName = builtFontsDirFinal, UseShellExecute = true, Verb = "open"
-                });
-            }
+            System.Windows.MessageBox.Show(
+                "패치 완료!\n게임에 번역 및 폰트가 성공적으로 적용되었습니다.",
+                "완료", MessageBoxButton.OK, MessageBoxImage.Information);
         } catch (Exception ex) { Log($"ERROR: {ex.Message}"); System.Windows.MessageBox.Show(ex.Message, "Error"); }
         finally { btnPatch.IsEnabled = true; }
     }
@@ -467,7 +551,21 @@ public partial class MainWindow : Window
                     try {
                         var (w, h) = FontBuilder.UnpackFontXnb(backupXnbPath, fontsOriginalDir, Log);
                         fontSizes.Add((mapping.TargetXnb, w, h));
-                        Log($"  {mapping.TargetXnb}: {w}\u00d7{h}px");
+                        Log($"  {mapping.TargetXnb}: {w}×{h}px");
+
+                        // 원본 문자표(.txt)를 비동기로 미리 생성
+                        try {
+                            string jsonPath = Path.Combine(fontsOriginalDir, Path.GetFileNameWithoutExtension(mapping.TargetXnb) + ".json");
+                            string txtPath = Path.Combine(fontsOriginalDir, Path.GetFileNameWithoutExtension(mapping.TargetXnb) + "_charset.txt");
+                            if (File.Exists(jsonPath)) {
+                                var node = System.Text.Json.Nodes.JsonNode.Parse(File.ReadAllText(jsonPath));
+                                var charMap = node?["content"]?["characterMap"]?.AsArray();
+                                if (charMap != null) {
+                                    var chars = charMap.Select(n => n!.ToString()).OrderBy(c => c).ToList();
+                                    File.WriteAllText(txtPath, string.Concat(chars), System.Text.Encoding.UTF8);
+                                }
+                            }
+                        } catch { }
                     } catch (Exception ex) {
                         fontErrors.Add($"{mapping.TargetXnb}: {ex.Message}");
                     }
@@ -494,7 +592,7 @@ public partial class MainWindow : Window
             Log($"ERROR: {ex.Message}");
             System.Windows.MessageBox.Show(ex.Message, "Error");
         } finally {
-            btnExtract.IsEnabled = true;
+            ValidateExePath();
         }
     }
 
@@ -563,6 +661,32 @@ public partial class MainWindow : Window
     }
 
     /// <summary>
+    /// 앱 시작 시, 또는 빌드 완료 후 호출. Fonts/ 의 빌드된 PNG를 읽어 각 슬롯 빌드 크기 반영.
+    /// </summary>
+    private void TryLoadFontBuiltSizes()
+    {
+        string fontsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts");
+        if (!Directory.Exists(fontsDir)) return;
+
+        foreach (var mapping in Mappings) {
+            string pngPath = Path.Combine(fontsDir, Path.GetFileNameWithoutExtension(mapping.TargetXnb) + ".png");
+            if (File.Exists(pngPath)) {
+                try {
+                    using var img = System.Drawing.Image.FromFile(pngPath);
+                    mapping.BuiltTextureWidth  = img.Width;
+                    mapping.BuiltTextureHeight = img.Height;
+                } catch { 
+                    mapping.BuiltTextureWidth  = 0;
+                    mapping.BuiltTextureHeight = 0;
+                }
+            } else {
+                mapping.BuiltTextureWidth  = 0;
+                mapping.BuiltTextureHeight = 0;
+            }
+        }
+    }
+
+    /// <summary>
     /// 단계 표시 pill 색상을 추출 완료 여부에 따라 업데이트.
     /// </summary>
     private void UpdateStepIndicator()
@@ -612,5 +736,124 @@ public partial class MainWindow : Window
             return false;
         }
         return true;
+    }
+
+    // ── Translation Editor ──────────────────────────────────────────────
+    private static readonly string[] CsvFilesList = new[] {
+        "Dialogue.csv", "Hacks.csv", "Items.csv", "Messages.csv", "Notes.csv", "NPCs.csv", "Skills.csv", "UI.csv"
+    };
+
+    private void OnOpenEditorClicked(object sender, RoutedEventArgs e)
+    {
+        string originalsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Translations", "Originals");
+        bool extracted = Directory.Exists(originalsDir) && 
+                         CsvFilesList.All(f => File.Exists(Path.Combine(originalsDir, f)));
+
+        if (!extracted)
+        {
+            System.Windows.MessageBox.Show(
+                "번역 에디터를 실행하려면 먼저 'Extract Originals'를 실행하여 원본 리소스를 추출해야 합니다.",
+                "추출 필요", MessageBoxButton.OK, MessageBoxImage.Warning);
+            return;
+        }
+
+        var editorWin = new TranslationEditorWindow();
+        editorWin.Owner = this;
+        editorWin.ShowDialog();
+    }
+
+    private void ApplyLoadedTheme(string themeStr)
+    {
+        switch (themeStr)
+        {
+            case "Light":
+                ModernWpf.ThemeManager.Current.ApplicationTheme = ModernWpf.ApplicationTheme.Light;
+                break;
+            case "Dark":
+                ModernWpf.ThemeManager.Current.ApplicationTheme = ModernWpf.ApplicationTheme.Dark;
+                break;
+            default:
+                ModernWpf.ThemeManager.Current.ApplicationTheme = null;
+                break;
+        }
+    }
+
+    private async void OnBuildFontClicked(object sender, RoutedEventArgs e)
+    {
+        if (sender is not System.Windows.Controls.Button btn) return;
+        if (btn.DataContext is not FontMapping mapping) return;
+
+        string exe = txtExePath.Text;
+        if (!File.Exists(exe)) { Log("EXE 경로를 먼저 설정하세요."); return; }
+
+        if (string.IsNullOrEmpty(mapping.SelectedFontName) || mapping.SelectedFontName == CustomFont.KeepOriginalName)
+        {
+            Log($"{mapping.TargetXnb}: 원본 유지 상태이거나 폰트가 선택되지 않아 빌드할 필요가 없습니다.");
+            return;
+        }
+
+        var font = AvailableFonts.FirstOrDefault(f => f.Name == mapping.SelectedFontName);
+        if (font == null) { Log($"{mapping.TargetXnb}: 선택된 폰트 정보를 찾을 수 없습니다."); return; }
+
+        btn.IsEnabled = false;
+        Log($">>> {mapping.TargetXnb} 폰트 개별 빌드 시작...");
+
+        try
+        {
+            string originalsDir = OriginalFontsDir;
+            string jsonName = Path.GetFileNameWithoutExtension(mapping.TargetXnb) + ".json";
+            string templateJsonPath = Path.Combine(originalsDir, jsonName);
+
+            if (!File.Exists(templateJsonPath))
+            {
+                string backupXnbPath = Path.Combine(originalsDir, mapping.TargetXnb);
+                string liveXnbPath = Path.Combine(Path.GetDirectoryName(exe)!, "Content", "Fonts", mapping.TargetXnb);
+
+                if (!File.Exists(backupXnbPath))
+                {
+                    if (File.Exists(liveXnbPath))
+                    {
+                        File.Copy(liveXnbPath, backupXnbPath);
+                        Log($"  원본 백업: {mapping.TargetXnb}");
+                    }
+                    else
+                    {
+                        throw new Exception("게임 폴더에서 원본 XNB를 찾을 수 없습니다. 'Extract Originals'를 먼저 실행해 주세요.");
+                    }
+                }
+            }
+
+            string builtFontsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts");
+            if (!Directory.Exists(builtFontsDir)) Directory.CreateDirectory(builtFontsDir);
+            string outputXnbPath = Path.Combine(builtFontsDir, mapping.TargetXnb);
+
+            font.Metadata.LastGamePath = exe;
+
+            string buildMode = string.IsNullOrEmpty(mapping.BuildMode) ? "Append" : mapping.BuildMode;
+            await Task.Run(() =>
+            {
+                FontBuilder.GenerateXnb(
+                    font.Metadata, font.PngPath, outputXnbPath,
+                    mapping.YOffsetAdjust,
+                    mapping.XOffsetAdjust,
+                    mapping.XAdvanceAdjust,
+                    buildMode,
+                    Log
+                );
+            });
+
+            Log($"SUCCESS: {mapping.TargetXnb} 폰트 빌드 완료!");
+            TryLoadFontBuiltSizes();
+            System.Windows.MessageBox.Show($"{mapping.TargetXnb} 한글 폰트가 성공적으로 빌드되었습니다.\n\n빌드된 리소스는 패처 폴더의 Fonts/ 에 저장되었으며, 'Apply Patch' 실행 시 게임에 투입됩니다.", "빌드 성공", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+        catch (Exception ex)
+        {
+            Log($"ERROR building {mapping.TargetXnb}: {ex.Message}");
+            System.Windows.MessageBox.Show($"폰트 빌드 중 실패:\n{ex.Message}", "에러", MessageBoxButton.OK, MessageBoxImage.Error);
+        }
+        finally
+        {
+            btn.IsEnabled = true;
+        }
     }
 }

@@ -1,11 +1,11 @@
-﻿<Window x:Class="AV2Patcher.Modern.MainWindow"
+<Window x:Class="AV2Patcher.Modern.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:ui="http://schemas.modernwpf.com/2019"
         xmlns:local="clr-namespace:AV2Patcher.Modern"
         ui:WindowHelper.UseModernWindowStyle="True"
-        Title="Axiom Verge 2 Korean Patcher" Height="490" Width="580"
-        Background="{DynamicResource SystemControlBackgroundAltHighBrush}"
+        Title="Axiom Verge 2 Korean Patcher" Height="480" Width="600"
+        Background="{DynamicResource SystemControlPageBackgroundChromeLowBrush}"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <local:FontInfoConverter x:Key="FontInfoConverter"/>
@@ -19,210 +19,320 @@
             <Setter Property="VerticalContentAlignment" Value="Center"/>
             <Setter Property="HorizontalContentAlignment" Value="Center"/>
         </Style>
+
+        <!-- 기본 TextBlock 스타일: 글자 대비 완화 -->
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="{DynamicResource SystemControlForegroundBaseMediumHighBrush}"/>
+        </Style>
     </Window.Resources>
 
     <Grid Margin="10">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="60"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
 
-        <!-- Step Indicator -->
-        <Border Grid.Row="0" Margin="0,0,0,6" Padding="8,5"
-                Background="{DynamicResource SystemControlBackgroundChromeMediumLowBrush}"
-                CornerRadius="3">
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <Border x:Name="pillStep1" CornerRadius="10" Padding="8,2"
-                        Background="#FF6B9DE8">
-                    <TextBlock x:Name="tbStep1" Text="① Extract Originals" FontSize="8.5"
-                               FontWeight="SemiBold" Foreground="White"/>
+                <!-- Step Indicator -->
+                <Border Grid.Row="0" Margin="0,0,0,6" Padding="8,5"
+                        Background="{DynamicResource SystemControlBackgroundChromeMediumLowBrush}"
+                        CornerRadius="3">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Border x:Name="pillStep1" CornerRadius="10" Padding="8,2"
+                                Background="#FF6B9DE8">
+                            <TextBlock x:Name="tbStep1" Text="① Extract Originals" FontSize="8.5"
+                                       FontWeight="SemiBold" Foreground="White"/>
+                        </Border>
+                        <TextBlock Text="  →  " FontSize="9" Foreground="Gray" VerticalAlignment="Center"/>
+                        <Border x:Name="pillStep2" CornerRadius="10" Padding="8,2"
+                                Background="Transparent">
+                            <TextBlock x:Name="tbStep2" Text="② 번역 / 폰트 제작" FontSize="8.5"
+                                       FontWeight="SemiBold" Foreground="Gray"/>
+                        </Border>
+                        <TextBlock Text="  →  " FontSize="9" Foreground="Gray" VerticalAlignment="Center"/>
+                        <Border x:Name="pillStep3" CornerRadius="10" Padding="8,2"
+                                Background="Transparent">
+                            <TextBlock x:Name="tbStep3" Text="③ Apply Patch" FontSize="8.5"
+                                       FontWeight="SemiBold" Foreground="Gray"/>
+                        </Border>
+                    </StackPanel>
                 </Border>
-                <TextBlock Text="  →  " FontSize="9" Foreground="Gray" VerticalAlignment="Center"/>
-                <Border x:Name="pillStep2" CornerRadius="10" Padding="8,2"
-                        Background="Transparent">
-                    <TextBlock x:Name="tbStep2" Text="② 번역 / 폰트 제작" FontSize="8.5"
-                               FontWeight="SemiBold" Foreground="Gray"/>
-                </Border>
-                <TextBlock Text="  →  " FontSize="9" Foreground="Gray" VerticalAlignment="Center"/>
-                <Border x:Name="pillStep3" CornerRadius="10" Padding="8,2"
-                        Background="Transparent">
-                    <TextBlock x:Name="tbStep3" Text="③ Apply Patch" FontSize="8.5"
-                               FontWeight="SemiBold" Foreground="Gray"/>
-                </Border>
-            </StackPanel>
-        </Border>
 
-        <!-- Path Selection -->
-        <Grid Grid.Row="1" Margin="0,0,0,8">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="Auto"/>
-            </Grid.ColumnDefinitions>
-            <TextBox x:Name="txtExePath" Height="26" FontSize="11"
-                     ui:ControlHelper.PlaceholderText="Select AxiomVerge2.exe path..."/>
-            <Button Grid.Column="1" Content="Browse" Height="26" FontSize="11"
-                    Margin="6,0,0,0" x:Name="btnBrowse"/>
-        </Grid>
+                <!-- Path Selection -->
+                <Grid Grid.Row="1" Margin="0,0,0,8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="txtExePath" Height="26" FontSize="11"
+                             ui:ControlHelper.PlaceholderText="Select AxiomVerge2.exe path..."/>
+                    <Button Grid.Column="1" Content="Browse" Height="26" FontSize="11"
+                            Margin="6,0,0,0" x:Name="btnBrowse"/>
+                    <Button Grid.Column="2" Content="Extract Originals" Height="26" FontSize="11"
+                            Margin="6,0,0,0" x:Name="btnExtract" IsEnabled="False"
+                            ToolTip="AxiomVerge2.exe 원본 실행 파일에서 번역 데이터(CSV) 및 원본 폰트 텍스처를 추출합니다."/>
+                </Grid>
 
-        <!-- Font Mappings -->
-        <Border Grid.Row="2" BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}"
-                BorderThickness="1" CornerRadius="4" Padding="2" Margin="0,0,0,8">
-            <ScrollViewer VerticalScrollBarVisibility="Auto">
-                <ItemsControl x:Name="icFontMappings">
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <Border BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}"
-                                    BorderThickness="0,0,0,1" Padding="4,5">
-                                <StackPanel>
+                <!-- Font Mappings -->
+                <Border Grid.Row="2" BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}"
+                        BorderThickness="1" CornerRadius="4" Padding="2" Margin="0,0,0,8">
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <ItemsControl x:Name="icFontMappings">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}"
+                                            BorderThickness="0,0,0,1" Padding="4,8">
+                                        <StackPanel>
+                                            <!-- 첫 번째 행: 슬롯 설명 & 폰트 선택 드롭다운 & 폰트 정보 + 원본/빌드본 링크 -->
+                                            <Grid Margin="0,0,0,6">
+                                                <Grid.ColumnDefinitions>
+                                                     <ColumnDefinition Width="200"/>
+                                                     <ColumnDefinition Width="*"/>
+                                                     <ColumnDefinition Width="Auto"/>
+                                                </Grid.ColumnDefinitions>
+                                                
+                                                <!-- 슬롯 설명 (왼쪽 200px 고정) -->
+                                                <StackPanel VerticalAlignment="Center">
+                                                    <TextBlock Text="{Binding Description}"
+                                                               FontWeight="SemiBold" FontSize="11"/>
+                                                    <TextBlock Text="{Binding TargetXnb}"
+                                                               Foreground="Gray" FontSize="8.5" Margin="0,1,0,0"/>
+                                                </StackPanel>
 
-                                    <!-- 메인 행: 슬롯명 | 폰트 선택 | 인라인 오프셋 조정 -->
-                                    <Grid VerticalAlignment="Center">
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="110"/>
-                                            <ColumnDefinition Width="*"/>
-                                            <ColumnDefinition Width="Auto"/>
-                                        </Grid.ColumnDefinitions>
+                                                <!-- 폰트 선택 드롭다운 -->
+                                                <ComboBox Grid.Column="1" VerticalAlignment="Center" Height="26" FontSize="11"
+                                                          ItemsSource="{Binding RelativeSource={RelativeSource AncestorType=Window}, Path=AvailableFonts}"
+                                                          SelectedValue="{Binding SelectedFontName, Mode=TwoWay}"
+                                                          SelectedValuePath="Name"
+                                                          DisplayMemberPath="Name"
+                                                          ui:ControlHelper.PlaceholderText="Select Korean font for this slot..."/>
+                                                
+                                                <!-- 선택된 폰트 상세 정보 및 링크 (드롭다운 우측) -->
+                                                <StackPanel Grid.Column="2" VerticalAlignment="Center" Margin="10,0,0,0">
+                                                    <!-- 선택된 폰트 상세 정보 -->
+                                                    <TextBlock FontSize="9.5" Foreground="{DynamicResource SystemControlForegroundBaseMediumBrush}"
+                                                               Text="{Binding SelectedFontName, Converter={StaticResource FontInfoConverter}}"/>
+                                                    
+                                                    <!-- 이미지 및 문자표 링크들 -->
+                                                    <StackPanel Orientation="Horizontal" Margin="0,3,0,0">
+                                                        <!-- 원본 텍스처 열기 -->
+                                                        <Button Tag="{Binding}" Click="OnViewOriginalTexture"
+                                                                Background="Transparent" BorderThickness="0" Padding="0"
+                                                                Cursor="Hand" Margin="0,0,4,0"
+                                                                ToolTip="클릭하면 원본 폰트 텍스처 PNG를 이미지 뷰어로 열어줍니다">
+                                                            <TextBlock FontSize="9" FontWeight="SemiBold"
+                                                                       Foreground="#FF8DB4D4"
+                                                                       TextDecorations="Underline"
+                                                                       Text="{Binding OrigTextureSizeInfo}"/>
+                                                        </Button>
 
-                                        <!-- 슬롯 설명 -->
-                                        <StackPanel VerticalAlignment="Center">
-                                            <TextBlock Text="{Binding Description}"
-                                                       FontWeight="SemiBold" FontSize="10.5"/>
-                                            <TextBlock Text="{Binding TargetXnb}"
-                                                       Foreground="Gray" FontSize="8.5"/>
+                                                        <!-- 원본 문자표 열기 -->
+                                                        <Button Tag="{Binding}" Click="OnViewOriginalCharset"
+                                                                Background="Transparent" BorderThickness="0" Padding="0"
+                                                                Cursor="Hand" Margin="0,0,12,0"
+                                                                ToolTip="클릭하면 원본 폰트에 포함된 문자 목록을 텍스트 파일로 열어줍니다">
+                                                            <Button.Style>
+                                                                <Style TargetType="Button">
+                                                                    <Setter Property="Visibility" Value="Visible"/>
+                                                                    <Style.Triggers>
+                                                                        <DataTrigger Binding="{Binding OriginalTextureWidth}" Value="0">
+                                                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                                                        </DataTrigger>
+                                                                    </Style.Triggers>
+                                                                </Style>
+                                                            </Button.Style>
+                                                            <TextBlock FontSize="9" FontWeight="SemiBold"
+                                                                       Foreground="#FF8DB4D4"
+                                                                       TextDecorations="Underline"
+                                                                       Text="[문자표]"/>
+                                                        </Button>
+
+                                                        <!-- 빌드본 텍스처 열기 -->
+                                                        <Button Tag="{Binding}" Click="OnViewBuiltTexture"
+                                                                Background="Transparent" BorderThickness="0" Padding="0"
+                                                                Cursor="Hand" Margin="0,0,4,0"
+                                                                ToolTip="클릭하면 빌드된 한글 폰트 텍스처 PNG를 이미지 뷰어로 열어줍니다">
+                                                            <Button.Style>
+                                                                <Style TargetType="Button">
+                                                                    <Setter Property="Visibility" Value="Visible"/>
+                                                                    <Style.Triggers>
+                                                                        <DataTrigger Binding="{Binding BuiltTextureSizeInfo}" Value="">
+                                                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                                                        </DataTrigger>
+                                                                    </Style.Triggers>
+                                                                </Style>
+                                                            </Button.Style>
+                                                            <TextBlock FontSize="9" FontWeight="SemiBold"
+                                                                       Foreground="#FF8DE4D4"
+                                                                       TextDecorations="Underline"
+                                                                       Text="{Binding BuiltTextureSizeInfo}"/>
+                                                        </Button>
+
+                                                        <!-- 빌드본 문자표 열기 -->
+                                                        <Button Tag="{Binding}" Click="OnViewBuiltCharset"
+                                                                Background="Transparent" BorderThickness="0" Padding="0"
+                                                                Cursor="Hand"
+                                                                ToolTip="클릭하면 빌드된 한글 폰트에 포함된 문자 목록을 텍스트 파일로 열어줍니다">
+                                                            <Button.Style>
+                                                                <Style TargetType="Button">
+                                                                    <Setter Property="Visibility" Value="Visible"/>
+                                                                    <Style.Triggers>
+                                                                        <DataTrigger Binding="{Binding BuiltTextureSizeInfo}" Value="">
+                                                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                                                        </DataTrigger>
+                                                                    </Style.Triggers>
+                                                                </Style>
+                                                            </Button.Style>
+                                                            <TextBlock FontSize="9" FontWeight="SemiBold"
+                                                                       Foreground="#FF8DE4D4"
+                                                                       TextDecorations="Underline"
+                                                                       Text="[문자표]"/>
+                                                        </Button>
+                                                    </StackPanel>
+                                                </StackPanel>
+                                            </Grid>
+
+                                            <!-- 두 번째 행: 조절점들 | 빌드 버튼 -->
+                                            <Grid Height="28">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>    <!-- 조절점들 (왼쪽 정렬) -->
+                                                    <ColumnDefinition Width="Auto"/> <!-- 빌드 버튼 -->
+                                                </Grid.ColumnDefinitions>
+
+                                                <!-- 1. 조절점들 (원본 유지 선택 시 숨김) -->
+                                                <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                                    <StackPanel.Style>
+                                                        <Style TargetType="StackPanel">
+                                                            <Setter Property="Visibility" Value="Visible"/>
+                                                            <Style.Triggers>
+                                                                <DataTrigger Binding="{Binding SelectedFontName}"
+                                                                             Value="{x:Static local:CustomFont.KeepOriginalName}">
+                                                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                                                </DataTrigger>
+                                                            </Style.Triggers>
+                                                        </Style>
+                                                    </StackPanel.Style>
+
+                                                    <!-- 빌드 방식 선택 -->
+                                                    <TextBlock Text="방식" FontSize="9" FontWeight="SemiBold"
+                                                               Foreground="#FF6B9DE8" VerticalAlignment="Center"
+                                                               Margin="0,0,4,0"
+                                                               ToolTip="폰트 빌드 방식: 원본 병합(한글만 추가) 또는 완전 대체(영문/기호 포함 전체 교체)"/>
+                                                    <ComboBox Height="22" FontSize="9.5" Width="85" VerticalAlignment="Center" Margin="0,0,12,0"
+                                                              SelectedValue="{Binding BuildMode, Mode=TwoWay}"
+                                                              SelectedValuePath="Tag"
+                                                              Padding="4,0" MinHeight="20"
+                                                              VerticalContentAlignment="Center">
+                                                        <ComboBoxItem Content="원본 병합" Tag="Append" ToolTip="한글만 사용자 폰트에서 가져오고, 영문/기호는 원본 게임 폰트를 유지합니다."/>
+                                                        <ComboBoxItem Content="완전 대체" Tag="Replace" ToolTip="모든 글자를 사용자 폰트에서 가져와 덮어씁니다 (사용자 폰트 세트에 영어/기호 등이 포함되어야 함)."/>
+                                                    </ComboBox>
+
+                                                    <!-- Y Offset -->
+                                                    <TextBlock Text="높이(Y)" FontSize="9" FontWeight="SemiBold"
+                                                               Foreground="#FF6B9DE8" VerticalAlignment="Center"
+                                                               Margin="0,0,4,0"
+                                                               ToolTip="글자의 상하 위치 보정 (px) — 양수=아래, 음수=위"/>
+                                                    <Button Content="-" Style="{StaticResource SpinBtn}"
+                                                            Tag="{Binding}" Click="OnYOffsetDown"/>
+                                                    <Border Width="28" Height="20" Margin="1,0"
+                                                            BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}"
+                                                            BorderThickness="1" CornerRadius="2">
+                                                        <TextBlock Text="{Binding YOffsetAdjust}"
+                                                                   TextAlignment="Center" FontSize="10"
+                                                                   VerticalAlignment="Center"/>
+                                                    </Border>
+                                                    <Button Content="+" Style="{StaticResource SpinBtn}"
+                                                            Tag="{Binding}" Click="OnYOffsetUp"/>
+
+                                                    <!-- X Offset -->
+                                                    <TextBlock Text="좌우(X)" FontSize="9" FontWeight="SemiBold"
+                                                               Foreground="#FF6B9DE8" VerticalAlignment="Center"
+                                                               Margin="12,0,4,0"
+                                                               ToolTip="글자의 좌우 위치 보정 (px) — 양수=오른쪽, 음수=왼쪽"/>
+                                                    <Button Content="-" Style="{StaticResource SpinBtn}"
+                                                            Tag="{Binding}" Click="OnXOffsetDown"/>
+                                                    <Border Width="28" Height="20" Margin="1,0"
+                                                            BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}"
+                                                            BorderThickness="1" CornerRadius="2">
+                                                        <TextBlock Text="{Binding XOffsetAdjust}"
+                                                                   TextAlignment="Center" FontSize="10"
+                                                                   VerticalAlignment="Center"/>
+                                                    </Border>
+                                                    <Button Content="+" Style="{StaticResource SpinBtn}"
+                                                            Tag="{Binding}" Click="OnXOffsetUp"/>
+
+                                                    <!-- X Advance -->
+                                                    <TextBlock Text="자간(A)" FontSize="9" FontWeight="SemiBold"
+                                                               Foreground="#FF6B9DE8" VerticalAlignment="Center"
+                                                               Margin="12,0,4,0"
+                                                               ToolTip="글자 사이의 간격 보정 (px) — 양수=더 넓게, 음수=더 좁게"/>
+                                                    <Button Content="-" Style="{StaticResource SpinBtn}"
+                                                            Tag="{Binding}" Click="OnXAdvanceDown"/>
+                                                    <Border Width="28" Height="20" Margin="1,0"
+                                                            BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}"
+                                                            BorderThickness="1" CornerRadius="2">
+                                                        <TextBlock Text="{Binding XAdvanceAdjust}"
+                                                                   TextAlignment="Center" FontSize="10"
+                                                                   VerticalAlignment="Center"/>
+                                                    </Border>
+                                                    <Button Content="+" Style="{StaticResource SpinBtn}"
+                                                            Tag="{Binding}" Click="OnXAdvanceUp"/>
+                                                </StackPanel>
+
+                                                <!-- 2. 빌드 버튼 (오른쪽 하단) -->
+                                                <Button Grid.Column="1" Content="Build" Width="60" Height="22"
+                                                        Padding="0" FontSize="10.5" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                                                        Tag="{Binding}" Click="OnBuildFontClicked"
+                                                        ToolTip="선택된 폰트로 이 슬롯의 한글 폰트를 미리 빌드합니다.">
+                                                    <Button.Style>
+                                                        <Style TargetType="Button" BasedOn="{StaticResource AccentButtonStyle}">
+                                                            <Setter Property="Visibility" Value="Visible"/>
+                                                            <Style.Triggers>
+                                                                <DataTrigger Binding="{Binding SelectedFontName}"
+                                                                             Value="{x:Static local:CustomFont.KeepOriginalName}">
+                                                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                                                </DataTrigger>
+                                                            </Style.Triggers>
+                                                        </Style>
+                                                    </Button.Style>
+                                                </Button>
+                                            </Grid>
                                         </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </Border>
 
-                                        <!-- 폰트 선택 -->
-                                        <ComboBox Grid.Column="1" Margin="6,0,6,0"
-                                                  VerticalAlignment="Center" Height="24" FontSize="10.5"
-                                                  ItemsSource="{Binding RelativeSource={RelativeSource AncestorType=Window}, Path=AvailableFonts}"
-                                                  SelectedValue="{Binding SelectedFontName, Mode=TwoWay}"
-                                                  SelectedValuePath="Name"
-                                                  DisplayMemberPath="Name"
-                                                  ui:ControlHelper.PlaceholderText="Font..."/>
+                <!-- Log Area -->
+                <TextBox Grid.Row="3" x:Name="txtLog" IsReadOnly="True" VerticalScrollBarVisibility="Auto"
+                         AcceptsReturn="True" FontFamily="Consolas" FontSize="8.5" Margin="0,0,0,8"
+                         Background="{DynamicResource SystemControlBackgroundChromeMediumLowBrush}"/>
 
-                                        <!-- 인라인 오프셋 스피너 (Y / X / XAdv) — 원본 유지 선택 시 숨김 -->
-                                        <StackPanel Grid.Column="2" Orientation="Horizontal"
-                                                    VerticalAlignment="Center">
-                                            <StackPanel.Style>
-                                                <Style TargetType="StackPanel">
-                                                    <Setter Property="Visibility" Value="Visible"/>
-                                                    <Style.Triggers>
-                                                        <DataTrigger Binding="{Binding SelectedFontName}"
-                                                                     Value="{x:Static local:CustomFont.KeepOriginalName}">
-                                                            <Setter Property="Visibility" Value="Collapsed"/>
-                                                        </DataTrigger>
-                                                    </Style.Triggers>
-                                                </Style>
-                                            </StackPanel.Style>
-
-                                            <!-- Y Offset -->
-                                            <TextBlock Text="Y" FontSize="8.5" FontWeight="SemiBold"
-                                                       Foreground="#FF6B9DE8" VerticalAlignment="Center"
-                                                       Margin="0,0,2,0"
-                                                       ToolTip="수직 위치 보정 (px) — 양수=아래, 음수=위"/>
-                                            <Button Content="-" Style="{StaticResource SpinBtn}"
-                                                    Tag="{Binding}" Click="OnYOffsetDown"/>
-                                            <Border Width="26" Height="20" Margin="1,0"
-                                                    BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}"
-                                                    BorderThickness="1" CornerRadius="2">
-                                                <TextBlock Text="{Binding YOffsetAdjust}"
-                                                           TextAlignment="Center" FontSize="10"
-                                                           VerticalAlignment="Center"/>
-                                            </Border>
-                                            <Button Content="+" Style="{StaticResource SpinBtn}"
-                                                    Tag="{Binding}" Click="OnYOffsetUp"/>
-
-                                            <!-- X Offset -->
-                                            <TextBlock Text="X" FontSize="8.5" FontWeight="SemiBold"
-                                                       Foreground="#FF6B9DE8" VerticalAlignment="Center"
-                                                       Margin="6,0,2,0"
-                                                       ToolTip="수평 위치 보정 (px) — 양수=오른쪽, 음수=왼쪽"/>
-                                            <Button Content="-" Style="{StaticResource SpinBtn}"
-                                                    Tag="{Binding}" Click="OnXOffsetDown"/>
-                                            <Border Width="26" Height="20" Margin="1,0"
-                                                    BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}"
-                                                    BorderThickness="1" CornerRadius="2">
-                                                <TextBlock Text="{Binding XOffsetAdjust}"
-                                                           TextAlignment="Center" FontSize="10"
-                                                           VerticalAlignment="Center"/>
-                                            </Border>
-                                            <Button Content="+" Style="{StaticResource SpinBtn}"
-                                                    Tag="{Binding}" Click="OnXOffsetUp"/>
-
-                                            <!-- X Advance -->
-                                            <TextBlock Text="A" FontSize="8.5" FontWeight="SemiBold"
-                                                       Foreground="#FF6B9DE8" VerticalAlignment="Center"
-                                                       Margin="6,0,2,0"
-                                                       ToolTip="글자 간격 보정 (px) — 양수=더 넓게, 음수=더 좁게"/>
-                                            <Button Content="-" Style="{StaticResource SpinBtn}"
-                                                    Tag="{Binding}" Click="OnXAdvanceDown"/>
-                                            <Border Width="26" Height="20" Margin="1,0"
-                                                    BorderBrush="{DynamicResource SystemControlForegroundBaseLowBrush}"
-                                                    BorderThickness="1" CornerRadius="2">
-                                                <TextBlock Text="{Binding XAdvanceAdjust}"
-                                                           TextAlignment="Center" FontSize="10"
-                                                           VerticalAlignment="Center"/>
-                                            </Border>
-                                            <Button Content="+" Style="{StaticResource SpinBtn}"
-                                                    Tag="{Binding}" Click="OnXAdvanceUp"/>
-                                        </StackPanel>
-                                    </Grid>
-
-                                    <!-- 폰트 정보 (하단 소형 표시: 원본 크기 클릭→PNG 열기 + 선택된 폰트 정보) -->
-                                    <Grid Margin="113,2,0,0">
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="Auto"/>
-                                            <ColumnDefinition Width="*"/>
-                                        </Grid.ColumnDefinitions>
-                                        <Button Tag="{Binding}" Click="OnViewOriginalTexture"
-                                                Background="Transparent" BorderThickness="0" Padding="0"
-                                                Cursor="Hand"
-                                                ToolTip="클릭하면 원본 폰트 텍스처 PNG를 이미지 뷰어로 열어줍니다">
-                                            <TextBlock FontSize="8" FontWeight="SemiBold"
-                                                       Foreground="#FF8DB4D4"
-                                                       TextDecorations="Underline"
-                                                       Text="{Binding OrigTextureSizeInfo}"/>
-                                        </Button>
-                                        <TextBlock Grid.Column="1" Margin="8,0,0,0" FontSize="8"
-                                                   Foreground="{DynamicResource SystemControlForegroundBaseMediumBrush}"
-                                                   Text="{Binding SelectedFontName, Converter={StaticResource FontInfoConverter}}"/>
-                                    </Grid>
-
-                                </StackPanel>
-                            </Border>
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
-            </ScrollViewer>
-        </Border>
-
-        <!-- Log Area -->
-        <TextBox Grid.Row="3" x:Name="txtLog" IsReadOnly="True" VerticalScrollBarVisibility="Auto"
-                 AcceptsReturn="True" FontFamily="Consolas" FontSize="8.5" Margin="0,0,0,8"
-                 Background="{DynamicResource SystemControlBackgroundChromeMediumLowBrush}"/>
-
-        <!-- Buttons -->
-        <Grid Grid.Row="4">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="Auto"/>
-            </Grid.ColumnDefinitions>
-            <Button Content="Restore Original" Grid.Column="0" Margin="0,0,4,0"
-                    x:Name="btnRestore" Height="28" FontSize="10" HorizontalAlignment="Stretch"/>
-            <Button Content="Extract Originals" Grid.Column="1" Margin="4,0,4,0"
-                    x:Name="btnExtract" Height="28" FontSize="10" HorizontalAlignment="Stretch"/>
-            <Button Content="Apply Patch" Grid.Column="2" Margin="4,0,4,0"
-                    x:Name="btnPatch" Style="{StaticResource AccentButtonStyle}"
-                    Height="28" FontSize="10" HorizontalAlignment="Stretch"/>
-            <Button Content="📦 Linux" Grid.Column="3" Margin="0,0,0,0"
-                    Height="28" FontSize="10" Width="70"
-                    Click="OnOpenExportPackage"
-                    ToolTip="패치 패키지 폴더 열기 (Content.zip + Fonts) — Linux 적용용"/>
-        </Grid>
-    </Grid>
+                <!-- Buttons -->
+                <Grid Grid.Row="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Content="Restore Original" Grid.Column="0" Margin="0,0,4,0"
+                            x:Name="btnRestore" Height="28" FontSize="10" HorizontalAlignment="Stretch"/>
+                    <Button Content="Translate Editor" Grid.Column="1" Margin="4,0,4,0"
+                            x:Name="btnOpenEditor" Height="28" FontSize="10" HorizontalAlignment="Stretch"
+                            Click="OnOpenEditorClicked"/>
+                    <Button Content="Apply Patch" Grid.Column="2" Margin="4,0,4,0"
+                            x:Name="btnPatch" Style="{StaticResource AccentButtonStyle}"
+                            Height="28" FontSize="10" HorizontalAlignment="Stretch"/>
+                    <Button Content="📦 Linux" Grid.Column="3" Margin="0,0,0,0"
+                            Height="28" FontSize="10" Width="70"
+                            Click="OnOpenExportPackage"
+                            ToolTip="패치 패키지 폴더 열기 (Content.zip + Fonts) — Linux 적용용"/>
+                </Grid>
+            </Grid>
 </Window>
