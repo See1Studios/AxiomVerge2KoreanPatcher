@@ -859,23 +859,20 @@ public partial class MainWindow : Window
         
         try
         {
-            // 1. 리포지토리 루트 찾기
-            string repoRoot = AppDomain.CurrentDomain.BaseDirectory;
-            while (!string.IsNullOrEmpty(repoRoot) && !File.Exists(Path.Combine(repoRoot, "AxiomVerge2KoreanPatcher.sln")))
-            {
-                repoRoot = Path.GetDirectoryName(repoRoot) ?? "";
-            }
- 
-            if (string.IsNullOrEmpty(repoRoot))
-            {
-                throw new Exception("솔루션 파일(AxiomVerge2KoreanPatcher.sln)을 찾을 수 없어 빌드를 진행할 수 없습니다.");
-            }
- 
-            // 1.1 템플릿 경로 탐색 (1순위: Tool의 빌드/실행 디렉토리 내 Templates, 2순위: 리포지토리 resources/Templates)
+            // 1. 템플릿 경로 탐색 (1순위: Tool의 빌드/실행 디렉토리 내 Templates, 2순위: 리포지토리 resources/Templates)
             string templatesDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Templates");
             if (!Directory.Exists(templatesDir))
             {
-                templatesDir = Path.Combine(repoRoot, "resources", "Templates");
+                // 리포지토리 루트 찾기 (개발 환경 폴백용)
+                string repoRoot = AppDomain.CurrentDomain.BaseDirectory;
+                while (!string.IsNullOrEmpty(repoRoot) && !File.Exists(Path.Combine(repoRoot, "AxiomVerge2KoreanPatcher.sln")))
+                {
+                    repoRoot = Path.GetDirectoryName(repoRoot) ?? "";
+                }
+                if (!string.IsNullOrEmpty(repoRoot))
+                {
+                    templatesDir = Path.Combine(repoRoot, "resources", "Templates");
+                }
             }
  
             string winTemplate = Path.Combine(templatesDir, "AV2Patcher.Patcher.exe");
@@ -887,6 +884,8 @@ public partial class MainWindow : Window
             }
  
             Log("패치 데이터 빌드 및 인젝션 준비 중...");
+ 
+            string outputReleaseDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Release");
  
             await Task.Run(() =>
             {
@@ -923,8 +922,8 @@ public partial class MainWindow : Window
                 byte[] zipBytes = File.ReadAllBytes(tempZipPath);
                 try { File.Delete(tempZipPath); } catch { }
  
-                string outWinDir = Path.Combine(repoRoot, "Release", "Windows");
-                string outLinuxDir = Path.Combine(repoRoot, "Release", "Linux");
+                string outWinDir = Path.Combine(outputReleaseDir, "Windows");
+                string outLinuxDir = Path.Combine(outputReleaseDir, "Linux");
  
                 Directory.CreateDirectory(outWinDir);
                 Directory.CreateDirectory(outLinuxDir);
@@ -942,8 +941,19 @@ public partial class MainWindow : Window
             });
 
             Log("SUCCESS: Windows 및 Linux 원클릭 패처 주입 패키징이 성공적으로 완료되었습니다!");
+            Log($"생성 경로: {outputReleaseDir}");
+
+            // 생성 폴더 탐색기 열기
+            try
+            {
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo {
+                    FileName = outputReleaseDir, UseShellExecute = true, Verb = "open"
+                });
+            }
+            catch { }
+
             System.Windows.MessageBox.Show(
-                "Windows 및 Linux용 원클릭 패처가 성공적으로 생성되었습니다!\nRelease/ 폴더를 확인해 주세요.",
+                $"Windows 및 Linux용 원클릭 패처가 성공적으로 생성되었습니다!\n\n저장 경로:\n{outputReleaseDir}",
                 "생성 완료", MessageBoxButton.OK, MessageBoxImage.Information);
         }
         catch (Exception ex)
@@ -961,20 +971,21 @@ public partial class MainWindow : Window
     {
         try
         {
-            string payloadDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Payload");
-            string zipSourcePath = Path.Combine(payloadDir, "Content.zip");
-            bool isReady = File.Exists(zipSourcePath);
+            string path = txtExePath.Text;
+            bool isValid = !string.IsNullOrWhiteSpace(path) && 
+                           File.Exists(path) && 
+                           Path.GetFileName(path).Equals("AxiomVerge2.exe", StringComparison.OrdinalIgnoreCase);
             
             Dispatcher.Invoke(() =>
             {
-                btnBuildPatcher.IsEnabled = isReady;
-                if (isReady)
+                btnBuildPatcher.IsEnabled = isValid;
+                if (isValid)
                 {
-                    btnBuildPatcher.ToolTip = "한글 패치 데이터를 포함한 원클릭 패처 실행 파일을 생성합니다.";
+                    btnBuildPatcher.ToolTip = "한글 패치 데이터를 실시간 패키징하여 단일 파일 원클릭 패처를 빌드합니다.";
                 }
                 else
                 {
-                    btnBuildPatcher.ToolTip = "패치용 리소스가 준비되지 않았습니다. 먼저 'Apply Patch'를 실행해 리소스를 빌드해 주세요.";
+                    btnBuildPatcher.ToolTip = "AxiomVerge2.exe 파일 경로가 지정되어야 패치 데이터를 추출하여 빌드할 수 있습니다.";
                 }
             });
         }
