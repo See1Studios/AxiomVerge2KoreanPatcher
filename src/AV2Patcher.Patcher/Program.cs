@@ -18,7 +18,32 @@ class Program
         Console.WriteLine("============================================================");
         Console.WriteLine();
 
-        // 1. Confirm Patch Application
+        // 1. Extract and Validate Overlay Resource
+        string overlayError;
+        byte[] zipBytes = ExtractOverlayResource(out overlayError);
+
+        if (zipBytes == null)
+        {
+            Console.WriteLine("============================================================");
+            Console.WriteLine("[ERROR] 패치 리소스를 불러올 수 없습니다.");
+            Console.WriteLine("------------------------------------------------------------");
+            Console.WriteLine("이 파일은 한글 패치 데이터가 주입되지 않은 '빈 패처 템플릿'이거나");
+            Console.WriteLine("바이너리 데이터가 손상된 상태입니다.");
+            Console.WriteLine();
+            Console.WriteLine("일반 사용자분들은 제작자가 배포한 최종 한글 패치 파일(예: AV2Patcher.Patcher.exe)을");
+            Console.WriteLine("다운로드 받아 실행해 주세요.");
+            Console.WriteLine();
+            Console.WriteLine("(제작자용 안내):");
+            Console.WriteLine("이 템플릿을 동작시키려면 개발자 GUI 툴(AV2Patcher.Tool)을 실행한 후,");
+            Console.WriteLine("1. 'Apply Patch'를 실행하여 리소스를 동기화한 다음");
+            Console.WriteLine("2. 'Build Patcher' 버튼을 눌러 패치 데이터가 주입된 실행 파일을 생성해 배포해야 합니다.");
+            Console.WriteLine("============================================================");
+            Console.WriteLine("엔터 키를 누르면 종료합니다.");
+            Console.ReadLine();
+            return 1;
+        }
+
+        // 2. Confirm Patch Application
         Console.Write("Axiom Verge 2 한국어 패치를 적용하시겠습니까? (Y/N): ");
         string? confirm = Console.ReadLine()?.Trim();
         if (!string.Equals(confirm, "Y", StringComparison.OrdinalIgnoreCase))
@@ -26,18 +51,6 @@ class Program
             Console.WriteLine("패치를 중단합니다. 엔터 키를 누르면 종료합니다.");
             Console.ReadLine();
             return 0;
-        }
-
-        // 2. Extract and Validate Overlay Resource
-        string overlayError;
-        byte[] zipBytes = ExtractOverlayResource(out overlayError);
-
-        if (zipBytes == null)
-        {
-            Console.WriteLine($"[ERROR] 패치 리소스를 불러올 수 없습니다: {overlayError}");
-            Console.WriteLine("엔터 키를 누르면 종료합니다.");
-            Console.ReadLine();
-            return 1;
         }
 
         // 3. Auto-detect Game Directory

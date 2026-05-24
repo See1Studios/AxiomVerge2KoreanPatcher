@@ -60,6 +60,7 @@ public partial class MainWindow : Window
             TryLoadFontOriginalSizes();
             TryLoadFontBuiltSizes();
             ValidateExePath();
+            UpdateBuildButtonStatus();
         };
     }
 
@@ -440,6 +441,7 @@ public partial class MainWindow : Window
                 }
                 Log("ExportPackage 및 게임 내 Fonts 폴더 복사 완료.");
             });
+            UpdateBuildButtonStatus();
             Log("PATCH SUCCESS! You can now run the game.");
             System.Windows.MessageBox.Show(
                 "패치 완료!\n게임에 번역 및 폰트가 성공적으로 적용되었습니다.",
@@ -977,7 +979,54 @@ public partial class MainWindow : Window
         }
         finally
         {
-            btnBuildPatcher.IsEnabled = true;
+            UpdateBuildButtonStatus();
+        }
+    }
+
+    private void UpdateBuildButtonStatus()
+    {
+        try
+        {
+            string repoRoot = AppDomain.CurrentDomain.BaseDirectory;
+            while (!string.IsNullOrEmpty(repoRoot) && !File.Exists(Path.Combine(repoRoot, "AxiomVerge2KoreanPatcher.sln")))
+            {
+                repoRoot = Path.GetDirectoryName(repoRoot) ?? "";
+            }
+
+            if (!string.IsNullOrEmpty(repoRoot))
+            {
+                string payloadDir = Path.Combine(repoRoot, "resources", "Payload");
+                string zipSourcePath = Path.Combine(payloadDir, "Content.zip");
+                bool isReady = File.Exists(zipSourcePath);
+                
+                Dispatcher.Invoke(() =>
+                {
+                    btnBuildPatcher.IsEnabled = isReady;
+                    if (isReady)
+                    {
+                        btnBuildPatcher.ToolTip = "한글 패치 데이터를 포함한 원클릭 패처 실행 파일을 생성합니다.";
+                    }
+                    else
+                    {
+                        btnBuildPatcher.ToolTip = "패치용 리소스가 준비되지 않았습니다. 먼저 'Apply Patch'를 실행해 리소스를 빌드해 주세요.";
+                    }
+                });
+            }
+            else
+            {
+                Dispatcher.Invoke(() =>
+                {
+                    btnBuildPatcher.IsEnabled = false;
+                    btnBuildPatcher.ToolTip = "리포지토리 루트 폴더를 찾을 수 없습니다.";
+                });
+            }
+        }
+        catch
+        {
+            Dispatcher.Invoke(() =>
+            {
+                btnBuildPatcher.IsEnabled = false;
+            });
         }
     }
 
