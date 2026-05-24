@@ -17,7 +17,7 @@
 - 빌드된 폰트 텍스처 미리보기
 - 원본 / 빌드본 문자표(charset) 뷰어
 - 번역 편집기 내장
-- Linux 버전 패치용 패키지 내보내기 (개발 중)
+- Linux(SteamOS) 버전 패치용 패키지 내보내기
 
 ---
 
@@ -80,7 +80,7 @@ AxiomVerge2KoreanPatcher/
     │   └── Korean/                 # 커스텀 한국어 폰트 (.fnt + .png)
     ├── Tools/                      # xnbcli (XNB 언팩 도구)
     ├── Translations/               # 번역 CSV
-    └── apply_patch.sh              # Linux 패치 스크립트 (WIP)
+    └── apply_patch.sh              # Linux(SteamOS) 패치 스크립트
 ```
 
 ---
