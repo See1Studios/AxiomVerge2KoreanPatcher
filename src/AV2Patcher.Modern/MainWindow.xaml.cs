@@ -355,6 +355,24 @@ public partial class MainWindow : Window
                 string exportLinuxFontsDir = Path.Combine(exportLinuxDir, "Fonts");
                 string exportWindowsFontsDir = Path.Combine(exportWindowsDir, "Fonts");
 
+                // 리포지토리 루트 찾기 (원클릭 패치 빌드용 소스 자동 동기화)
+                string repoRoot = AppDomain.CurrentDomain.BaseDirectory;
+                while (!string.IsNullOrEmpty(repoRoot) && !File.Exists(Path.Combine(repoRoot, "AxiomVerge2KoreanPatcher.sln")))
+                {
+                    repoRoot = Path.GetDirectoryName(repoRoot) ?? "";
+                }
+                string? oneClickAssetsDir = null;
+                string? oneClickFontsDir = null;
+                if (!string.IsNullOrEmpty(repoRoot))
+                {
+                    oneClickAssetsDir = Path.Combine(repoRoot, "resources", "OneClickAssets");
+                    oneClickFontsDir = Path.Combine(oneClickAssetsDir, "Fonts");
+                    try {
+                        Directory.CreateDirectory(oneClickAssetsDir);
+                        Directory.CreateDirectory(oneClickFontsDir);
+                    } catch { }
+                }
+
                 try {
                     Directory.CreateDirectory(exportLinuxFontsDir);
                     Directory.CreateDirectory(exportWindowsFontsDir);
@@ -362,6 +380,9 @@ public partial class MainWindow : Window
                     // Content.zip 복사
                     File.Copy(tempZipPath, Path.Combine(exportLinuxDir, "Content.zip"), true);
                     File.Copy(tempZipPath, Path.Combine(exportWindowsDir, "Content.zip"), true);
+                    if (!string.IsNullOrEmpty(oneClickAssetsDir)) {
+                        File.Copy(tempZipPath, Path.Combine(oneClickAssetsDir, "Content.zip"), true);
+                    }
                     Log("ExportPackage: Content.zip 저장됨.");
 
                     // Linux용 도구 및 스크립트 복사
@@ -422,6 +443,9 @@ public partial class MainWindow : Window
                             try { 
                                 File.Copy(originalPath, Path.Combine(exportLinuxFontsDir, mapping.TargetXnb), true); 
                                 File.Copy(originalPath, Path.Combine(exportWindowsFontsDir, mapping.TargetXnb), true); 
+                                if (!string.IsNullOrEmpty(oneClickFontsDir)) {
+                                    File.Copy(originalPath, Path.Combine(oneClickFontsDir, mapping.TargetXnb), true);
+                                }
                             } catch { }
                             Log($"{mapping.TargetXnb}: 원본 폰트를 복원 및 투입했습니다.");
                         } else {
@@ -435,6 +459,9 @@ public partial class MainWindow : Window
                             try { 
                                 File.Copy(localBuiltXnb, Path.Combine(exportLinuxFontsDir, mapping.TargetXnb), true); 
                                 File.Copy(localBuiltXnb, Path.Combine(exportWindowsFontsDir, mapping.TargetXnb), true); 
+                                if (!string.IsNullOrEmpty(oneClickFontsDir)) {
+                                    File.Copy(localBuiltXnb, Path.Combine(oneClickFontsDir, mapping.TargetXnb), true);
+                                }
                             } catch { }
                             Log($"{mapping.TargetXnb}: 이미 빌드된 한글 폰트를 투입했습니다.");
                         } else {

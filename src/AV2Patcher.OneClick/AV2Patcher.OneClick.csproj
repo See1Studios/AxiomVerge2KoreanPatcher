@@ -15,26 +15,12 @@
     <PackageReference Include="Mono.Cecil" Version="0.11.6" />
   </ItemGroup>
 
-  <!-- Embed compiled assets from WPF output folder (checks Release first, falls back to Debug) -->
   <ItemGroup>
-    <!-- Release Assets -->
-    <EmbeddedResource Include="..\AV2Patcher.Modern\bin\Release\net10.0-windows\ExportPackage\Windows\Content.zip" 
+    <EmbeddedResource Include="..\..\resources\OneClickAssets\Content.zip" 
                       Link="Resources\Content.zip" 
-                      LogicalName="Content.zip" 
-                      Condition="Exists('..\AV2Patcher.Modern\bin\Release\net10.0-windows\ExportPackage\Windows\Content.zip')" />
-    <EmbeddedResource Include="..\AV2Patcher.Modern\bin\Release\net10.0-windows\ExportPackage\Windows\Fonts\*.xnb" 
+                      LogicalName="Content.zip" />
+    <EmbeddedResource Include="..\..\resources\OneClickAssets\Fonts\*.xnb" 
                       Link="Resources\Fonts\%(Filename)%(Extension)" 
-                      LogicalName="Fonts\%(Filename)%(Extension)" 
-                      Condition="Exists('..\AV2Patcher.Modern\bin\Release\net10.0-windows\ExportPackage\Windows\Fonts')" />
-    
-    <!-- Debug Assets (Fallback) -->
-    <EmbeddedResource Include="..\AV2Patcher.Modern\bin\Debug\net10.0-windows\ExportPackage\Windows\Content.zip" 
-                      Link="Resources\Content.zip" 
-                      LogicalName="Content.zip" 
-                      Condition="!Exists('..\AV2Patcher.Modern\bin\Release\net10.0-windows\ExportPackage\Windows\Content.zip') And Exists('..\AV2Patcher.Modern\bin\Debug\net10.0-windows\ExportPackage\Windows\Content.zip')" />
-    <EmbeddedResource Include="..\AV2Patcher.Modern\bin\Debug\net10.0-windows\ExportPackage\Windows\Fonts\*.xnb" 
-                      Link="Resources\Fonts\%(Filename)%(Extension)" 
-                      LogicalName="Fonts\%(Filename)%(Extension)" 
-                      Condition="!Exists('..\AV2Patcher.Modern\bin\Release\net10.0-windows\ExportPackage\Windows\Fonts') And Exists('..\AV2Patcher.Modern\bin\Debug\net10.0-windows\ExportPackage\Windows\Fonts')" />
+                      LogicalName="Fonts\%(Filename)%(Extension)" />
   </ItemGroup>
 </Project>
