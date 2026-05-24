@@ -331,7 +331,6 @@ node_modules/
 # AV2Patcher - 런타임 생성 폴더 및 파일 (빌드 출력 내부)
 **/Fonts/Originals/
 **/Fonts/*.xnb
-resources/Payload/
 resources/Templates/
 **/Translations/Originals/
 # config.json은 사용자별 설정이므로 제외

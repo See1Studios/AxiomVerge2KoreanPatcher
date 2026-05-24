@@ -359,26 +359,19 @@ public partial class MainWindow : Window
                 {
                     repoRoot = Path.GetDirectoryName(repoRoot) ?? "";
                 }
-                string? payloadDir = null;
-                string? payloadFontsDir = null;
-                if (!string.IsNullOrEmpty(repoRoot))
-                {
-                    payloadDir = Path.Combine(repoRoot, "resources", "Payload");
-                    payloadFontsDir = Path.Combine(payloadDir, "Fonts");
-                    try {
-                        Directory.CreateDirectory(payloadDir);
-                        Directory.CreateDirectory(payloadFontsDir);
-                    } catch { }
-                }
+                string payloadDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Payload");
+                string payloadFontsDir = Path.Combine(payloadDir, "Fonts");
+                try {
+                    Directory.CreateDirectory(payloadDir);
+                    Directory.CreateDirectory(payloadFontsDir);
+                } catch { }
  
                 try {
                     Directory.CreateDirectory(exportFontsDir);
  
                     // Content.zip 복사
                     File.Copy(tempZipPath, Path.Combine(ExportPackageDir, "Content.zip"), true);
-                    if (!string.IsNullOrEmpty(payloadDir)) {
-                        File.Copy(tempZipPath, Path.Combine(payloadDir, "Content.zip"), true);
-                    }
+                    File.Copy(tempZipPath, Path.Combine(payloadDir, "Content.zip"), true);
                     Log("ExportPackage: Content.zip 저장됨.");
                 } catch (Exception ex) {
                     Log($"ExportPackage 복사 중 오류: {ex.Message}");
@@ -414,9 +407,7 @@ public partial class MainWindow : Window
                             File.Copy(originalPath, targetPath, true);
                             try { 
                                 File.Copy(originalPath, Path.Combine(exportFontsDir, mapping.TargetXnb), true); 
-                                if (!string.IsNullOrEmpty(payloadFontsDir)) {
-                                    File.Copy(originalPath, Path.Combine(payloadFontsDir, mapping.TargetXnb), true);
-                                }
+                                File.Copy(originalPath, Path.Combine(payloadFontsDir, mapping.TargetXnb), true);
                             } catch { }
                             Log($"{mapping.TargetXnb}: 원본 폰트를 복원 및 투입했습니다.");
                         } else {
@@ -429,9 +420,7 @@ public partial class MainWindow : Window
                             File.Copy(localBuiltXnb, targetPath, true);
                             try { 
                                 File.Copy(localBuiltXnb, Path.Combine(exportFontsDir, mapping.TargetXnb), true); 
-                                if (!string.IsNullOrEmpty(payloadFontsDir)) {
-                                    File.Copy(localBuiltXnb, Path.Combine(payloadFontsDir, mapping.TargetXnb), true);
-                                }
+                                File.Copy(localBuiltXnb, Path.Combine(payloadFontsDir, mapping.TargetXnb), true);
                             } catch { }
                             Log($"{mapping.TargetXnb}: 이미 빌드된 한글 폰트를 투입했습니다.");
                         } else {
@@ -915,8 +904,8 @@ public partial class MainWindow : Window
                 throw new Exception($"패처 템플릿 파일이 존재하지 않습니다.\n경로를 확인해 주세요:\n- {winTemplate}\n- {linuxTemplate}");
             }
 
-            // 2. resources/Payload 가 준비되어 있는지 확인
-            string payloadDir = Path.Combine(repoRoot, "resources", "Payload");
+            // 2. Payload가 준비되어 있는지 확인
+            string payloadDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Payload");
             string zipSourcePath = Path.Combine(payloadDir, "Content.zip");
             if (!File.Exists(zipSourcePath))
             {
@@ -987,39 +976,22 @@ public partial class MainWindow : Window
     {
         try
         {
-            string repoRoot = AppDomain.CurrentDomain.BaseDirectory;
-            while (!string.IsNullOrEmpty(repoRoot) && !File.Exists(Path.Combine(repoRoot, "AxiomVerge2KoreanPatcher.sln")))
+            string payloadDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Payload");
+            string zipSourcePath = Path.Combine(payloadDir, "Content.zip");
+            bool isReady = File.Exists(zipSourcePath);
+            
+            Dispatcher.Invoke(() =>
             {
-                repoRoot = Path.GetDirectoryName(repoRoot) ?? "";
-            }
-
-            if (!string.IsNullOrEmpty(repoRoot))
-            {
-                string payloadDir = Path.Combine(repoRoot, "resources", "Payload");
-                string zipSourcePath = Path.Combine(payloadDir, "Content.zip");
-                bool isReady = File.Exists(zipSourcePath);
-                
-                Dispatcher.Invoke(() =>
+                btnBuildPatcher.IsEnabled = isReady;
+                if (isReady)
                 {
-                    btnBuildPatcher.IsEnabled = isReady;
-                    if (isReady)
-                    {
-                        btnBuildPatcher.ToolTip = "한글 패치 데이터를 포함한 원클릭 패처 실행 파일을 생성합니다.";
-                    }
-                    else
-                    {
-                        btnBuildPatcher.ToolTip = "패치용 리소스가 준비되지 않았습니다. 먼저 'Apply Patch'를 실행해 리소스를 빌드해 주세요.";
-                    }
-                });
-            }
-            else
-            {
-                Dispatcher.Invoke(() =>
+                    btnBuildPatcher.ToolTip = "한글 패치 데이터를 포함한 원클릭 패처 실행 파일을 생성합니다.";
+                }
+                else
                 {
-                    btnBuildPatcher.IsEnabled = false;
-                    btnBuildPatcher.ToolTip = "리포지토리 루트 폴더를 찾을 수 없습니다.";
-                });
-            }
+                    btnBuildPatcher.ToolTip = "패치용 리소스가 준비되지 않았습니다. 먼저 'Apply Patch'를 실행해 리소스를 빌드해 주세요.";
+                }
+            });
         }
         catch
         {
