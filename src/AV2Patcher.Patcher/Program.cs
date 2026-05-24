@@ -1,8 +1,10 @@
 using System;
 using System.IO;
+using System.IO.Compression;
 using System.Linq;
 using System.Reflection;
 using Mono.Cecil;
+
 
 namespace AV2Patcher.Patcher;
 
@@ -92,9 +94,41 @@ class Program
             string originPath = exePath + ".origin";
 
             // 5. Inject Embedded Content.zip
-            Console.WriteLine("[1/1] 번역 데이터 주입 중...");
+            Console.WriteLine("[1/1] 번역 및 폰트 데이터 주입 중...");
             string tempZipPath = Path.Combine(Path.GetTempPath(), $"AV2ContentTemp_{Guid.NewGuid():N}.zip");
             File.WriteAllBytes(tempZipPath, zipBytes);
+
+            // 5.1 폰트 파일이 zip 내부에 존재하면 Content/Fonts 폴더로 추출
+            try
+            {
+                using (var archive = ZipFile.OpenRead(tempZipPath))
+                {
+                    foreach (var entry in archive.Entries)
+                    {
+                        if (entry.FullName.StartsWith("Fonts/", StringComparison.OrdinalIgnoreCase) && !string.IsNullOrEmpty(entry.Name))
+                        {
+                            string destFile = Path.Combine(gameDir, "Content", "Fonts", entry.Name);
+                            Directory.CreateDirectory(Path.GetDirectoryName(destFile)!);
+                            entry.ExtractToFile(destFile, true);
+                            Console.WriteLine($"  ✓ 폰트 설치 완료: {entry.Name}");
+                        }
+                    }
+                }
+
+                // 5.2 게임 어셈블리 리소스 크기 최적화를 위해 임시 zip에서 Fonts 폴더 제거
+                using (var archive = ZipFile.Open(tempZipPath, ZipArchiveMode.Update))
+                {
+                    var fontEntries = archive.Entries.Where(e => e.FullName.StartsWith("Fonts/", StringComparison.OrdinalIgnoreCase)).ToList();
+                    foreach (var entry in fontEntries)
+                    {
+                        entry.Delete();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[WARNING] 폰트 파일을 설치하는 동안 경고가 발생했습니다: {ex.Message}");
+            }
 
             // Create initial baseline (.origin) if not exists
             if (!File.Exists(originPath))

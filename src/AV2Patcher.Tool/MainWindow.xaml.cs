@@ -915,11 +915,31 @@ public partial class MainWindow : Window
                 throw new Exception("원클릭 패처용 리소스가 준비되지 않았습니다. 먼저 'Apply Patch'를 실행하여 리소스를 동기화해 주세요.");
             }
 
-            Log("템플릿 바이너리에 한글 패치 데이터를 인젝션하는 중...");
+            Log("템플릿 바이너리에 한글 패치 및 폰트 데이터를 인젝션하는 중...");
 
             await Task.Run(() =>
             {
-                byte[] zipBytes = File.ReadAllBytes(zipSourcePath);
+                // CSV 번역 zip 파일과 폰트 파일들을 하나의 임시 zip 파일로 병합
+                string tempZipPath = Path.Combine(Path.GetTempPath(), $"AV2OneClickZip_{Guid.NewGuid():N}.zip");
+                File.Copy(zipSourcePath, tempZipPath, true);
+
+                string oneClickFontsDir = Path.Combine(oneClickAssetsDir, "Fonts");
+                if (Directory.Exists(oneClickFontsDir))
+                {
+                    using (ZipArchive archive = ZipFile.Open(tempZipPath, ZipArchiveMode.Update))
+                    {
+                        foreach (var fontFile in Directory.GetFiles(oneClickFontsDir, "*.xnb"))
+                        {
+                            string entryName = "Fonts/" + Path.GetFileName(fontFile);
+                            var entry = archive.GetEntry(entryName);
+                            if (entry != null) entry.Delete();
+                            archive.CreateEntryFromFile(fontFile, entryName);
+                        }
+                    }
+                }
+
+                byte[] zipBytes = File.ReadAllBytes(tempZipPath);
+                try { File.Delete(tempZipPath); } catch { }
 
                 string outWinDir = Path.Combine(repoRoot, "Release", "Windows");
                 string outLinuxDir = Path.Combine(repoRoot, "Release", "Linux");
