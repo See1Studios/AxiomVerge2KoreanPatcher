@@ -31,12 +31,11 @@ class Program
         var resourceNames = currentAssembly.GetManifestResourceNames();
 
         bool hasZip = resourceNames.Contains("Content.zip");
-        var fontResources = resourceNames.Where(n => n.StartsWith("Fonts\\") || n.StartsWith("Fonts/")).ToList();
 
-        if (!hasZip || fontResources.Count == 0)
+        if (!hasZip)
         {
-            Console.WriteLine("[ERROR] 패치에 필요한 리소스가 내장되어 있지 않습니다.");
-            Console.WriteLine("먼저 번역 및 폰트를 빌드(Apply Patch)한 후 이 프로그램을 다시 빌드해야 합니다.");
+            Console.WriteLine("[ERROR] 패치에 필요한 리소스(Content.zip)가 내장되어 있지 않습니다.");
+            Console.WriteLine("먼저 번역을 빌드(Apply Patch)한 후 이 프로그램을 다시 빌드해야 합니다.");
             Console.WriteLine("엔터 키를 누르면 종료합니다.");
             Console.ReadLine();
             return 1;
@@ -95,36 +94,8 @@ class Program
             string exePath = Path.Combine(gameDir, "AxiomVerge2.exe");
             string originPath = exePath + ".origin";
 
-            // 5. Apply Font Patch
-            string gameFontsDir = Path.Combine(gameDir, "Content", "Fonts");
-            if (!Directory.Exists(gameFontsDir))
-            {
-                Directory.CreateDirectory(gameFontsDir);
-            }
-
-            Console.WriteLine("[1/2] 한글 폰트 적용 중...");
-            foreach (var fontRes in fontResources)
-            {
-                string fontFileName = fontRes.Replace("Fonts\\", "").Replace("Fonts/", "");
-                string targetFontPath = Path.Combine(gameFontsDir, fontFileName);
-
-                // Backup original font (first time only)
-                if (!File.Exists(targetFontPath + ".original") && File.Exists(targetFontPath))
-                {
-                    File.Copy(targetFontPath, targetFontPath + ".original", true);
-                }
-
-                // Write embedded font to disk
-                using (var resStream = currentAssembly.GetManifestResourceStream(fontRes))
-                using (var fileStream = new FileStream(targetFontPath, FileMode.Create, FileAccess.Write))
-                {
-                    resStream!.CopyTo(fileStream);
-                }
-                Console.WriteLine($"  ✓ {fontFileName}");
-            }
-
-            // 6. Inject Embedded Content.zip
-            Console.WriteLine("[2/2] 번역 데이터 주입 중...");
+            // 5. Inject Embedded Content.zip
+            Console.WriteLine("[1/1] 번역 데이터 주입 중...");
             string tempZipPath = Path.Combine(Path.GetTempPath(), $"AV2ContentTemp_{Guid.NewGuid():N}.zip");
             using (var resStream = currentAssembly.GetManifestResourceStream("Content.zip"))
             using (var fileStream = new FileStream(tempZipPath, FileMode.Create, FileAccess.Write))

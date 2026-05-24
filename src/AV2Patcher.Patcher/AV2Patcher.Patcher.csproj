@@ -19,8 +19,5 @@
     <EmbeddedResource Include="..\..\resources\OneClickAssets\Content.zip" 
                       Link="Resources\Content.zip" 
                       LogicalName="Content.zip" />
-    <EmbeddedResource Include="..\..\resources\OneClickAssets\Fonts\*.xnb" 
-                      Link="Resources\Fonts\%(Filename)%(Extension)" 
-                      LogicalName="Fonts\%(Filename)%(Extension)" />
   </ItemGroup>
 </Project>
