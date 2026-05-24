@@ -343,6 +343,7 @@ node_modules/
 Axiom Verge 2/
 *.origin
 *.bak
+ReleasePublish/
 
 
 *.ncb
