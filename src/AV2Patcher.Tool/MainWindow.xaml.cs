@@ -13,7 +13,7 @@ using System.Collections.ObjectModel;
 using System.Text;
 using Application = System.Windows.Application;
 
-namespace AV2Patcher.Modern;
+namespace AV2Patcher.Tool;
 
 public class FontInfoConverter : System.Windows.Data.IValueConverter
 {

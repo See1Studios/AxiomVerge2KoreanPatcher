@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace AV2Patcher.Modern
+namespace AV2Patcher.Tool
 {
     public partial class TranslationEditorWindow : Window
     {

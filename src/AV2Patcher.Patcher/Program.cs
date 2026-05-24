@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using Mono.Cecil;
 
-namespace AV2Patcher.OneClick;
+namespace AV2Patcher.Patcher;
 
 class Program
 {

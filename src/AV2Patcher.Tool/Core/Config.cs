@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace AV2Patcher.Modern;
+namespace AV2Patcher.Tool;
 
 /// <summary>
 /// BMFont 텍스트 형식(.fnt)의 개별 문자 데이터
@@ -159,10 +159,10 @@ public class Config
     {
         var slots = new[]
         {
-            new { Xnb = "Uni0553_6pt.xnb",                  Desc = "Speedrun Description (6pt)",       DefaultFont = "",                 DefaultY = 0 },
-            new { Xnb = "Hooge0655_8pt.xnb",               Desc = "Dialog Small & Standard UI (8pt)", DefaultFont = "Galmuri9",        DefaultY = 0 },
-            new { Xnb = "NotoSansMonoCJKJpRegular12pt.xnb", Desc = "Main Dialogue & Hacking (12pt)",   DefaultFont = "Galmuri11 Regular", DefaultY = 3 },
-            new { Xnb = "NotoSansMonoCJKJpRegular16pt.xnb", Desc = "Main Large & Menu Title (16pt)",   DefaultFont = "NeoDunggeunmo",    DefaultY = 4 }
+            new { Xnb = "Uni0553_6pt.xnb",                  Desc = "Speedrun Description (6pt)",       DefaultFont = "Galmuri7",                 DefaultY = 1 },
+            new { Xnb = "Hooge0655_8pt.xnb",               Desc = "Dialog & Standard UI (8pt)", DefaultFont = "Galmuri9",        DefaultY = 2 },
+            new { Xnb = "NotoSansMonoCJKJpRegular12pt.xnb", Desc = "Ansible & Hacking (12pt)",   DefaultFont = "Galmuri11", DefaultY = 2 },
+            new { Xnb = "NotoSansMonoCJKJpRegular16pt.xnb", Desc = "Menu Title (16pt)",   DefaultFont = "BoldDungGeunMo16",    DefaultY = 8 }
         };
 
         // 패치 대상이 아닌 슬롯 제거 (AV8ptMonogame, Moire16pt 등)

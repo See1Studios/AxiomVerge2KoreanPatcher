@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AV2Patcher.Modern", "src\AV2Patcher.Modern\AV2Patcher.Modern.csproj", "{57BCD09E-F292-433B-9AF6-4FB7EF544C53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AV2Patcher.Tool", "src\AV2Patcher.Tool\AV2Patcher.Tool.csproj", "{57BCD09E-F292-433B-9AF6-4FB7EF544C53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AV2Patcher.CLI", "src\AV2Patcher.CLI\AV2Patcher.CLI.csproj", "{8191B199-1401-4429-85D9-00D46B684E7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AV2Patcher.OneClick", "src\AV2Patcher.OneClick\AV2Patcher.OneClick.csproj", "{D902A453-A2F4-481D-9FA0-6ACFFA13C5F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AV2Patcher.Patcher", "src\AV2Patcher.Patcher\AV2Patcher.Patcher.csproj", "{D902A453-A2F4-481D-9FA0-6ACFFA13C5F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -64,5 +64,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8191B199-1401-4429-85D9-00D46B684E7F} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{D902A453-A2F4-481D-9FA0-6ACFFA13C5F6} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{57BCD09E-F292-433B-9AF6-4FB7EF544C53} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal
