@@ -878,4 +878,92 @@ public partial class MainWindow : Window
             btn.IsEnabled = true;
         }
     }
+
+    private async void OnBuildPatcherClicked(object sender, RoutedEventArgs e)
+    {
+        btnBuildPatcher.IsEnabled = false;
+        Log(">>> 원클릭 패처 빌드 프로세스 시작...");
+        
+        try
+        {
+            // 1. 리포지토리 루트 찾기
+            string repoRoot = AppDomain.CurrentDomain.BaseDirectory;
+            while (!string.IsNullOrEmpty(repoRoot) && !File.Exists(Path.Combine(repoRoot, "AxiomVerge2KoreanPatcher.sln")))
+            {
+                repoRoot = Path.GetDirectoryName(repoRoot) ?? "";
+            }
+
+            if (string.IsNullOrEmpty(repoRoot))
+            {
+                throw new Exception("솔루션 파일(AxiomVerge2KoreanPatcher.sln)을 찾을 수 없어 빌드를 진행할 수 없습니다.");
+            }
+
+            string projectPath = Path.Combine(repoRoot, "src", "AV2Patcher.Patcher", "AV2Patcher.Patcher.csproj");
+            if (!File.Exists(projectPath))
+            {
+                throw new Exception($"원클릭 패처 프로젝트 파일을 찾을 수 없습니다: {projectPath}");
+            }
+
+            // 2. resources/OneClickAssets 가 준비되어 있는지 확인
+            string oneClickAssetsDir = Path.Combine(repoRoot, "resources", "OneClickAssets");
+            if (!File.Exists(Path.Combine(oneClickAssetsDir, "Content.zip")))
+            {
+                throw new Exception("원클릭 패처용 리소스가 준비되지 않았습니다. 먼저 'Apply Patch'를 실행하여 리소스를 동기화해 주세요.");
+            }
+
+            Log("원클릭 패처 빌드를 시작합니다. 이 프로세스는 약 15~30초 정도 소요됩니다...");
+
+            await Task.Run(() =>
+            {
+                // 3. 빌드 작업 실행 (Windows & Linux)
+                RunDotnetPublish(projectPath, "win-x64", Path.Combine(repoRoot, "Release", "Windows"));
+                RunDotnetPublish(projectPath, "linux-x64", Path.Combine(repoRoot, "Release", "Linux"));
+
+                // 4. .pdb 파일 삭제
+                try { File.Delete(Path.Combine(repoRoot, "Release", "Windows", "AV2Patcher.Patcher.pdb")); } catch {}
+                try { File.Delete(Path.Combine(repoRoot, "Release", "Linux", "AV2Patcher.Patcher.pdb")); } catch {}
+            });
+
+            Log("BUILD SUCCESS: Windows 및 Linux 원클릭 패처 빌드가 성공적으로 완료되었습니다!");
+            System.Windows.MessageBox.Show(
+                "Windows 및 Linux용 원클릭 패처 빌드가 완료되었습니다!\nRelease/ 폴더를 확인해 주세요.",
+                "빌드 완료", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+        catch (Exception ex)
+        {
+            Log($"[BUILD ERROR] 빌드 중 오류 발생: {ex.Message}");
+            System.Windows.MessageBox.Show(ex.Message, "빌드 실패", MessageBoxButton.OK, MessageBoxImage.Error);
+        }
+        finally
+        {
+            btnBuildPatcher.IsEnabled = true;
+        }
+    }
+
+    private void RunDotnetPublish(string projectPath, string runtime, string outputDir)
+    {
+        Log($"  [{runtime}] 빌드 및 게시 중...");
+        var startInfo = new System.Diagnostics.ProcessStartInfo
+        {
+            FileName = "dotnet",
+            Arguments = $"publish \"{projectPath}\" -c Release -r {runtime} --self-contained -o \"{outputDir}\" -p:PublishSingleFile=true -p:PublishTrimmed=true",
+            UseShellExecute = false,
+            CreateNoWindow = true,
+            RedirectStandardOutput = true,
+            RedirectStandardError = true
+        };
+
+        using var process = System.Diagnostics.Process.Start(startInfo);
+        if (process == null) throw new Exception("dotnet 프로세스를 시작할 수 없습니다. .NET SDK가 설치되어 있는지 확인하세요.");
+
+        string output = process.StandardOutput.ReadToEnd();
+        string error = process.StandardError.ReadToEnd();
+        process.WaitForExit();
+
+        if (process.ExitCode != 0)
+        {
+            throw new Exception($"dotnet publish ({runtime}) 실패 (코드 {process.ExitCode}):\n{error}\n{output}");
+        }
+        Log($"  ✓ [{runtime}] 빌드 완료 ➡️ {outputDir}");
+    }
 }

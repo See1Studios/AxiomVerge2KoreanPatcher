@@ -319,6 +319,7 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="Auto"/>
                     </Grid.ColumnDefinitions>
                     <Button Content="Restore Original" Grid.Column="0" Margin="0,0,4,0"
@@ -329,7 +330,11 @@
                     <Button Content="Apply Patch" Grid.Column="2" Margin="4,0,4,0"
                             x:Name="btnPatch" Style="{StaticResource AccentButtonStyle}"
                             Height="28" FontSize="10" HorizontalAlignment="Stretch"/>
-                    <Button Content="📦 Export" Grid.Column="3" Margin="0,0,0,0"
+                    <Button Content="🔨 Build Patcher" Grid.Column="3" Margin="4,0,4,0"
+                            x:Name="btnBuildPatcher" Height="28" FontSize="10" HorizontalAlignment="Stretch"
+                            Click="OnBuildPatcherClicked"
+                            ToolTip="Windows 및 Linux용 원클릭 패처(단일 파일)를 빌드합니다. (dotnet SDK 설치 필요)"/>
+                    <Button Content="📦 Export" Grid.Column="4" Margin="0,0,0,0"
                             Height="28" FontSize="10" Width="70"
                             Click="OnOpenExportPackage"
                             ToolTip="패키징된 패치 리소스 폴더 열기 (Content.zip + Fonts)"/>
