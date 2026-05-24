@@ -5,13 +5,19 @@
 
 ## 스크린샷
 
-| 타이틀 화면 | 옵션 설정 |
-| :---: | :---: |
-| ![타이틀 화면](imgs/0_title.png) | ![옵션 설정](imgs/1_option.png) |
+### 타이틀 화면
+![타이틀 화면](imgs/0_title.png)
 
-| 프롤로그 | 인게임 대사 | 스피드런 설명 |
-| :---: | :---: | :---: |
-| ![프롤로그](imgs/3_prologue.png) | ![인게임 대사](imgs/4_ingame.png) | ![스피드런 설명](imgs/2_speedrun.png) |
+### 옵션 설정
+![옵션 설정](imgs/1_option.png)
+
+### 프롤로그 및 대사
+![프롤로그](imgs/3_prologue.png)
+
+![인게임 대사](imgs/4_ingame.png)
+
+### 스피드런 설명
+![스피드런 설명](imgs/2_speedrun.png)
 
 ---
 
