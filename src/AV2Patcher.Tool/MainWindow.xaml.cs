@@ -898,7 +898,13 @@ public partial class MainWindow : Window
                 throw new Exception("솔루션 파일(AxiomVerge2KoreanPatcher.sln)을 찾을 수 없어 빌드를 진행할 수 없습니다.");
             }
 
-            string templatesDir = Path.Combine(repoRoot, "resources", "Templates");
+            // 1.1 템플릿 경로 탐색 (1순위: Tool의 빌드/실행 디렉토리 내 Templates, 2순위: 리포지토리 resources/Templates)
+            string templatesDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Templates");
+            if (!Directory.Exists(templatesDir))
+            {
+                templatesDir = Path.Combine(repoRoot, "resources", "Templates");
+            }
+
             string winTemplate = Path.Combine(templatesDir, "AV2Patcher.Patcher.exe");
             string linuxTemplate = Path.Combine(templatesDir, "AV2Patcher.Patcher");
 
@@ -919,20 +925,20 @@ public partial class MainWindow : Window
 
             await Task.Run(() =>
             {
-                // CSV 번역 zip 파일과 폰트 파일들을 하나의 임시 zip 파일로 병합
-                string tempZipPath = Path.Combine(Path.GetTempPath(), $"AV2OneClickZip_{Guid.NewGuid():N}.zip");
-                File.Copy(zipSourcePath, tempZipPath, true);
-
-                string payloadFontsDir = Path.Combine(payloadDir, "Fonts");
-                if (Directory.Exists(payloadFontsDir))
+                // 이중 ZIP 구조: 하나의 임시 아우터 ZIP 컨테이너 생성 후 Content.zip 및 폰트 파일들을 내장함
+                string tempZipPath = Path.Combine(Path.GetTempPath(), $"AV2PayloadContainer_{Guid.NewGuid():N}.zip");
+                using (ZipArchive archive = ZipFile.Open(tempZipPath, ZipArchiveMode.Create))
                 {
-                    using (ZipArchive archive = ZipFile.Open(tempZipPath, ZipArchiveMode.Update))
+                    // 1. 순수한 번역 Content.zip을 컨테이너 안에 추가
+                    archive.CreateEntryFromFile(zipSourcePath, "Content.zip");
+
+                    // 2. 폰트 xnb 파일들을 Fonts/ 폴더 하위에 추가
+                    string payloadFontsDir = Path.Combine(payloadDir, "Fonts");
+                    if (Directory.Exists(payloadFontsDir))
                     {
                         foreach (var fontFile in Directory.GetFiles(payloadFontsDir, "*.xnb"))
                         {
                             string entryName = "Fonts/" + Path.GetFileName(fontFile);
-                            var entry = archive.GetEntry(entryName);
-                            if (entry != null) entry.Delete();
                             archive.CreateEntryFromFile(fontFile, entryName);
                         }
                     }

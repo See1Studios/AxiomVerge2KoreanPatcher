@@ -30,5 +30,22 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+
+  <!-- 템플릿 빌드 자동화: 빌드 시점에 templates 폴더가 없으면 AV2Patcher.Patcher 프로젝트를 자동으로 퍼블리시하여 적재 -->
+  <Target Name="BuildPatcherTemplates" BeforeTargets="Build" Condition="!Exists('$(TargetDir)Templates\AV2Patcher.Patcher.exe') Or !Exists('$(TargetDir)Templates\AV2Patcher.Patcher')">
+    <Message Text="[AV2Patcher] Building Patcher Templates..." Importance="high" />
+    <Exec Command="dotnet publish &quot;$(MSBuildThisFileDirectory)..\AV2Patcher.Patcher\AV2Patcher.Patcher.csproj&quot; -c Release -r win-x64 --self-contained -o &quot;$(TargetDir)Templates&quot; -p:PublishSingleFile=true -p:PublishTrimmed=true -p:DebugType=None -p:DebugSymbols=false" />
+    <Exec Command="dotnet publish &quot;$(MSBuildThisFileDirectory)..\AV2Patcher.Patcher\AV2Patcher.Patcher.csproj&quot; -c Release -r linux-x64 --self-contained -o &quot;$(TargetDir)Templates&quot; -p:PublishSingleFile=true -p:PublishTrimmed=true -p:DebugType=None -p:DebugSymbols=false" />
+    <Delete Files="$(TargetDir)Templates\AV2Patcher.Patcher.pdb" />
+  </Target>
+
+  <!-- 퍼블리시 자동화: 툴 퍼블리시 시점에 빌드된 templates 폴더도 자동으로 포함시킴 -->
+  <Target Name="CopyTemplatesToPublish" AfterTargets="Publish" Condition="'$(PublishDir)' != ''">
+    <Message Text="[AV2Patcher] Copying Patcher Templates to Publish directory..." Importance="high" />
+    <ItemGroup>
+      <TemplateFiles Include="$(TargetDir)Templates\**\*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(TemplateFiles)" DestinationFolder="$(PublishDir)Templates\%(RecursiveDir)" SkipUnchangedFiles="true" />
+  </Target>
 </Project>
 

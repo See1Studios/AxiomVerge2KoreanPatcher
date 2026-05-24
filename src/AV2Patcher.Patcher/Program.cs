@@ -95,14 +95,16 @@ class Program
 
             // 5. Inject Embedded Content.zip
             Console.WriteLine("[1/1] 번역 및 폰트 데이터 주입 중...");
-            string tempZipPath = Path.Combine(Path.GetTempPath(), $"AV2ContentTemp_{Guid.NewGuid():N}.zip");
-            File.WriteAllBytes(tempZipPath, zipBytes);
+            string outerZipPath = Path.Combine(Path.GetTempPath(), $"AV2PayloadOuter_{Guid.NewGuid():N}.zip");
+            string cleanZipPath = Path.Combine(Path.GetTempPath(), $"AV2ContentClean_{Guid.NewGuid():N}.zip");
+            File.WriteAllBytes(outerZipPath, zipBytes);
 
-            // 5.1 폰트 파일이 zip 내부에 존재하면 Content/Fonts 폴더로 추출
+            // 5.1 폰트 파일 및 내부 Content.zip 추출
             try
             {
-                using (var archive = ZipFile.OpenRead(tempZipPath))
+                using (var archive = ZipFile.OpenRead(outerZipPath))
                 {
+                    // 폰트 파일 추출
                     foreach (var entry in archive.Entries)
                     {
                         if (entry.FullName.StartsWith("Fonts/", StringComparison.OrdinalIgnoreCase) && !string.IsNullOrEmpty(entry.Name))
@@ -113,21 +115,22 @@ class Program
                             Console.WriteLine($"  ✓ 폰트 설치 완료: {entry.Name}");
                         }
                     }
-                }
 
-                // 5.2 게임 어셈블리 리소스 크기 최적화를 위해 임시 zip에서 Fonts 폴더 제거
-                using (var archive = ZipFile.Open(tempZipPath, ZipArchiveMode.Update))
-                {
-                    var fontEntries = archive.Entries.Where(e => e.FullName.StartsWith("Fonts/", StringComparison.OrdinalIgnoreCase)).ToList();
-                    foreach (var entry in fontEntries)
+                    // 내장된 clean Content.zip 추출
+                    var contentZipEntry = archive.GetEntry("Content.zip");
+                    if (contentZipEntry != null)
                     {
-                        entry.Delete();
+                        contentZipEntry.ExtractToFile(cleanZipPath, true);
+                    }
+                    else
+                    {
+                        throw new Exception("패키지 내에서 Content.zip 데이터를 찾을 수 없습니다.");
                     }
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"[WARNING] 폰트 파일을 설치하는 동안 경고가 발생했습니다: {ex.Message}");
+                Console.WriteLine($"[WARNING] 패치 리소스 추출 중 경고가 발생했습니다: {ex.Message}");
             }
 
             // Create initial baseline (.origin) if not exists
@@ -147,7 +150,7 @@ class Program
                 if (oldRes != null)
                 {
                     assembly.MainModule.Resources.Remove(oldRes);
-                    assembly.MainModule.Resources.Add(new EmbeddedResource(resName, oldRes.Attributes, File.ReadAllBytes(tempZipPath)));
+                    assembly.MainModule.Resources.Add(new EmbeddedResource(resName, oldRes.Attributes, File.ReadAllBytes(cleanZipPath)));
                     assembly.Write(exePath);
                 }
                 else
@@ -156,8 +159,9 @@ class Program
                 }
             }
 
-            // Clean up temp zip
-            try { File.Delete(tempZipPath); } catch { }
+            // Clean up temp files
+            try { File.Delete(outerZipPath); } catch { }
+            try { File.Delete(cleanZipPath); } catch { }
 
             Console.WriteLine();
             Console.WriteLine("============================================================");

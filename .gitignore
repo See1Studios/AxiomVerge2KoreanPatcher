@@ -332,6 +332,7 @@ node_modules/
 **/Fonts/Originals/
 **/Fonts/*.xnb
 resources/Payload/
+resources/Templates/
 **/Translations/Originals/
 # config.json은 사용자별 설정이므로 제외
 **/config.json
