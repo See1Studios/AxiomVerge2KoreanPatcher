@@ -75,6 +75,7 @@ public partial class MainWindow : Window
         } catch {
             btnExtract.IsEnabled = false;
         }
+        UpdateBuildButtonStatus();
     }
 
     // ── 오프셋 조정 버튼 핸들러 ─────────────────────────────────────────────
@@ -271,141 +272,47 @@ public partial class MainWindow : Window
         if (!File.Exists(exe)) { Log("EXE not found."); return; }
         btnPatch.IsEnabled = false;
 
-        // 전제 조건 확인: 폰트를 패치하려면 Extract Originals 먼저 실행 필요
-        if (!CheckExtractionPrerequisites(Path.GetDirectoryName(exe)!))
-        {
-            btnPatch.IsEnabled = true;
-            return;
-        }
-
         Log(">>> Patching started...");
 
         try {
             SaveConfig();
             await Task.Run(() => {
                 string gameDir = Path.GetDirectoryName(exe)!;
-                string originPath = exe + ".origin";
-                
-                // 1. Ensure Baseline (.origin) & Sync check
-                bool currentExeIsPure = IsPureOriginalExe(exe, gameDir);
-                if (currentExeIsPure) {
-                    Log("Current EXE is pure original. Setting up/refreshing baseline (.origin)...");
-                    File.Copy(exe, originPath, true);
-                } else if (!File.Exists(originPath)) {
-                    Log("Creating initial baseline (.origin)...");
-                    File.Copy(exe, originPath);
-                }
+                string payloadDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Payload");
+                string payloadFontsDir = Path.Combine(payloadDir, "Fonts");
 
-                // 2. Extract embedded Content.zip from pure baseline (.origin)
-                Log("Extracting Content.zip from clean baseline...");
-                byte[]? zipBytes = ExtractEmbeddedZip(originPath, gameDir);
-                if (zipBytes == null) {
-                    throw new Exception("Could not find embedded Content.zip resource in baseline EXE.");
-                }
+                // 1. Generate Payload
+                Log("실시간 패치 리소스 빌드 중...");
+                GeneratePayloadInternal(exe, payloadDir, payloadFontsDir);
 
-                // 3. Write temp Content.zip to merge CSVs
-                string tempZipPath = Path.Combine(Path.GetTempPath(), $"AV2ContentTemp_{Guid.NewGuid():N}.zip");
-                File.WriteAllBytes(tempZipPath, zipBytes);
-
-                // 4. Update Temp Zip with CSVs
-                using (ZipArchive archive = ZipFile.Open(tempZipPath, ZipArchiveMode.Update)) {
-                    foreach (var csvFile in Directory.GetFiles(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Translations"), "*.csv")) {
-                        if (csvFile.Contains("Originals", StringComparison.OrdinalIgnoreCase)) continue;
-                        
-                        string entryName = "Text/" + Path.GetFileName(csvFile);
-                        var entry = archive.GetEntry(entryName);
-                        if (entry != null) entry.Delete();
-                        archive.CreateEntryFromFile(csvFile, entryName);
-                        Log($"Injected CSV: {entryName}");
-                    }
-                }
-
-                // 5. Inject Modified Zip into EXE (using .origin as base assembly source)
+                // 2. Inject Payload Content.zip into Game EXE
+                Log("게임 실행 파일(EXE) 리소스 업데이트 중...");
                 var resolver = new DefaultAssemblyResolver();
                 resolver.AddSearchDirectory(gameDir);
+                string originPath = exe + ".origin";
                 using (var assembly = AssemblyDefinition.ReadAssembly(originPath, new ReaderParameters { AssemblyResolver = resolver })) {
                     var resName = "OuterBeyond.EmbeddedContent.Content.zip";
                     var oldRes = assembly.MainModule.Resources.OfType<EmbeddedResource>().FirstOrDefault(r => r.Name == resName);
                     if (oldRes != null) {
                         assembly.MainModule.Resources.Remove(oldRes);
-                        assembly.MainModule.Resources.Add(new EmbeddedResource(resName, oldRes.Attributes, File.ReadAllBytes(tempZipPath)));
+                        assembly.MainModule.Resources.Add(new EmbeddedResource(resName, oldRes.Attributes, File.ReadAllBytes(Path.Combine(payloadDir, "Content.zip"))));
                         assembly.Write(exe);
-                        Log("EXE Resources Successfully Updated.");
+                        Log("EXE 리소스 업데이트 완료.");
                     } else {
-                        throw new Exception("Failed to locate target embedded resource in assembly.");
+                        throw new Exception("어셈블리 내 대상 내장 리소스를 찾지 못했습니다.");
                     }
                 }
 
-                // 리포지토리 루트 찾기 (원클릭 패치 빌드용 소스 자동 동기화)
-                string repoRoot = AppDomain.CurrentDomain.BaseDirectory;
-                while (!string.IsNullOrEmpty(repoRoot) && !File.Exists(Path.Combine(repoRoot, "AxiomVerge2KoreanPatcher.sln")))
+                // 3. Deploy Fonts to Game Content/Fonts directory
+                Log("게임 Fonts 폴더에 폰트 복사 중...");
+                foreach (var fontFile in Directory.GetFiles(payloadFontsDir, "*.xnb"))
                 {
-                    repoRoot = Path.GetDirectoryName(repoRoot) ?? "";
+                    string destFile = Path.Combine(gameDir, "Content", "Fonts", Path.GetFileName(fontFile));
+                    Directory.CreateDirectory(Path.GetDirectoryName(destFile)!);
+                    File.Copy(fontFile, destFile, true);
+                    Log($"  ✓ 게임 폰트 반영: {Path.GetFileName(fontFile)}");
                 }
-                string payloadDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Payload");
-                string payloadFontsDir = Path.Combine(payloadDir, "Fonts");
-                try {
-                    Directory.CreateDirectory(payloadDir);
-                    Directory.CreateDirectory(payloadFontsDir);
-                } catch { }
- 
-                try {
-                    // Content.zip 복사
-                    File.Copy(tempZipPath, Path.Combine(payloadDir, "Content.zip"), true);
-                } catch (Exception ex) {
-                    Log($"Payload 복사 중 오류: {ex.Message}");
-                }
- 
-                // Clean up temp zip
-                try { File.Delete(tempZipPath); } catch { }
- 
-                // 6. Deploy Pre-built Fonts (to Content/Fonts directory)
-                string builtFontsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts");
-                string fontsOriginalDir = OriginalFontsDir;
-                
-                if (!Directory.Exists(builtFontsDir)) Directory.CreateDirectory(builtFontsDir);
-                if (!Directory.Exists(fontsOriginalDir)) Directory.CreateDirectory(fontsOriginalDir);
- 
-                foreach (var mapping in Mappings) {
-                    if (string.IsNullOrEmpty(mapping.SelectedFontName)) continue;
-                    var font = AvailableFonts.FirstOrDefault(f => f.Name == mapping.SelectedFontName);
-                    if (font == null) continue;
- 
-                    string targetPath = Path.Combine(gameDir, "Content", "Fonts", mapping.TargetXnb);
-                    string originalPath = Path.Combine(fontsOriginalDir, mapping.TargetXnb);
- 
-                    // 최초 패치 시 원본 폰트 자동 백업
-                    if (!File.Exists(originalPath) && File.Exists(targetPath)) {
-                        File.Copy(targetPath, originalPath);
-                        Log($"Backed up original font: {mapping.TargetXnb}");
-                    }
- 
-                    if (font.IsKeepOriginal) {
-                        // "원본 유지" 선택 시 백업에서 원본 복원 및 패키지 복사
-                        if (File.Exists(originalPath)) {
-                            File.Copy(originalPath, targetPath, true);
-                            try { 
-                                File.Copy(originalPath, Path.Combine(payloadFontsDir, mapping.TargetXnb), true);
-                            } catch { }
-                            Log($"{mapping.TargetXnb}: 원본 폰트를 복원 및 투입했습니다.");
-                        } else {
-                            Log($"{mapping.TargetXnb}: 원본 백업이 없어 복원을 건너뜁니다.");
-                        }
-                    } else {
-                        // 커스텀 폰트인 경우: 로컬 Fonts/ 폴더에 미리 빌드된 XNB 복사
-                        string localBuiltXnb = Path.Combine(builtFontsDir, mapping.TargetXnb);
-                        if (File.Exists(localBuiltXnb)) {
-                            File.Copy(localBuiltXnb, targetPath, true);
-                            try { 
-                                File.Copy(localBuiltXnb, Path.Combine(payloadFontsDir, mapping.TargetXnb), true);
-                            } catch { }
-                            Log($"{mapping.TargetXnb}: 이미 빌드된 한글 폰트를 투입했습니다.");
-                        } else {
-                            throw new Exception($"빌드된 폰트 파일이 없습니다: {mapping.TargetXnb}\n패치를 적용하려면 먼저 해당 폰트 항목 우측의 'Build' 버튼을 클릭하여 빌드를 완료해주세요.");
-                        }
-                    }
-                }
-                Log("Payload 및 게임 내 Fonts 폴더 복사 완료.");
+                Log("게임 내 폰트 복사 완료.");
             });
             UpdateBuildButtonStatus();
             Log("PATCH SUCCESS! You can now run the game.");
@@ -414,6 +321,95 @@ public partial class MainWindow : Window
                 "완료", MessageBoxButton.OK, MessageBoxImage.Information);
         } catch (Exception ex) { Log($"ERROR: {ex.Message}"); System.Windows.MessageBox.Show(ex.Message, "Error"); }
         finally { btnPatch.IsEnabled = true; }
+    }
+
+    private void GeneratePayloadInternal(string exe, string payloadDir, string payloadFontsDir)
+    {
+        string gameDir = Path.GetDirectoryName(exe)!;
+        string originPath = exe + ".origin";
+        
+        // 1. Ensure baseline exists
+        if (!File.Exists(originPath))
+        {
+            if (IsPureOriginalExe(exe, gameDir))
+            {
+                Log("기존 원본 EXE로부터 백업(.origin)을 생성합니다...");
+                File.Copy(exe, originPath, true);
+            }
+            else
+            {
+                throw new Exception("순수한 원본 백업 파일(.origin)이 존재하지 않고, 현재 지정된 EXE도 이미 패치된 파일입니다. 'Extract Originals' 또는 게임 무결성 검사를 먼저 완료해 주세요.");
+            }
+        }
+
+        // 2. Extract embedded Content.zip from pure baseline
+        Log("원본 백업에서 Content.zip 리소스를 추출하는 중...");
+        byte[]? zipBytes = ExtractEmbeddedZip(originPath, gameDir);
+        if (zipBytes == null)
+        {
+            throw new Exception("원본 백업 EXE에서 Content.zip을 추출할 수 없습니다.");
+        }
+
+        // 3. Write and update Content.zip directly in Payload folder
+        Directory.CreateDirectory(payloadDir);
+        string payloadZipPath = Path.Combine(payloadDir, "Content.zip");
+        File.WriteAllBytes(payloadZipPath, zipBytes);
+
+        Log("Content.zip에 번역된 CSV 데이터 주입 중...");
+        using (ZipArchive archive = ZipFile.Open(payloadZipPath, ZipArchiveMode.Update))
+        {
+            foreach (var csvFile in Directory.GetFiles(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Translations"), "*.csv"))
+            {
+                if (csvFile.Contains("Originals", StringComparison.OrdinalIgnoreCase)) continue;
+
+                string entryName = "Text/" + Path.GetFileName(csvFile);
+                var entry = archive.GetEntry(entryName);
+                if (entry != null) entry.Delete();
+                archive.CreateEntryFromFile(csvFile, entryName);
+                Log($"  ✓ 주입: {entryName}");
+            }
+        }
+
+        // 4. Copy built fonts to Payload Fonts folder
+        Log("패처 패키징용 폰트 복사 중...");
+        Directory.CreateDirectory(payloadFontsDir);
+        string builtFontsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts");
+        foreach (var mapping in Mappings)
+        {
+            if (string.IsNullOrEmpty(mapping.SelectedFontName)) continue;
+            var font = AvailableFonts.FirstOrDefault(f => f.Name == mapping.SelectedFontName);
+            if (font == null) continue;
+
+            string targetFilename = mapping.TargetXnb;
+            string payloadFontPath = Path.Combine(payloadFontsDir, targetFilename);
+
+            if (font.IsKeepOriginal)
+            {
+                string originalPath = Path.Combine(OriginalFontsDir, targetFilename);
+                if (File.Exists(originalPath))
+                {
+                    File.Copy(originalPath, payloadFontPath, true);
+                    Log($"  ✓ 폰트(원본 유지): {targetFilename}");
+                }
+                else
+                {
+                    Log($"  ⚠ 경고: {targetFilename} 원본 백업이 없습니다.");
+                }
+            }
+            else
+            {
+                string localBuiltXnb = Path.Combine(builtFontsDir, targetFilename);
+                if (File.Exists(localBuiltXnb))
+                {
+                    File.Copy(localBuiltXnb, payloadFontPath, true);
+                    Log($"  ✓ 폰트(빌드본): {targetFilename}");
+                }
+                else
+                {
+                    throw new Exception($"빌드된 폰트 파일이 없습니다: {targetFilename}\n패처를 빌드하기 전 해당 폰트의 'Build' 버튼을 클릭해 주세요.");
+                }
+            }
+        }
     }
 
     private void RestoreOriginal() {
@@ -849,6 +845,15 @@ public partial class MainWindow : Window
 
     private async void OnBuildPatcherClicked(object sender, RoutedEventArgs e)
     {
+        string exe = txtExePath.Text;
+        if (!File.Exists(exe)) { Log("EXE 경로를 먼저 설정하세요."); return; }
+        
+        // 폰트가 추출되어 있는지 전제 조건 확인
+        if (!CheckExtractionPrerequisites(Path.GetDirectoryName(exe)!))
+        {
+            return;
+        }
+
         btnBuildPatcher.IsEnabled = false;
         Log(">>> 원클릭 패처 패키징 시작...");
         
@@ -860,67 +865,70 @@ public partial class MainWindow : Window
             {
                 repoRoot = Path.GetDirectoryName(repoRoot) ?? "";
             }
-
+ 
             if (string.IsNullOrEmpty(repoRoot))
             {
                 throw new Exception("솔루션 파일(AxiomVerge2KoreanPatcher.sln)을 찾을 수 없어 빌드를 진행할 수 없습니다.");
             }
-
+ 
             // 1.1 템플릿 경로 탐색 (1순위: Tool의 빌드/실행 디렉토리 내 Templates, 2순위: 리포지토리 resources/Templates)
             string templatesDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Templates");
             if (!Directory.Exists(templatesDir))
             {
                 templatesDir = Path.Combine(repoRoot, "resources", "Templates");
             }
-
+ 
             string winTemplate = Path.Combine(templatesDir, "AV2Patcher.Patcher.exe");
             string linuxTemplate = Path.Combine(templatesDir, "AV2Patcher.Patcher");
-
+ 
             if (!File.Exists(winTemplate) || !File.Exists(linuxTemplate))
             {
                 throw new Exception($"패처 템플릿 파일이 존재하지 않습니다.\n경로를 확인해 주세요:\n- {winTemplate}\n- {linuxTemplate}");
             }
-
-            // 2. Payload가 준비되어 있는지 확인
-            string payloadDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Payload");
-            string zipSourcePath = Path.Combine(payloadDir, "Content.zip");
-            if (!File.Exists(zipSourcePath))
-            {
-                throw new Exception("원클릭 패처용 리소스가 준비되지 않았습니다. 먼저 'Apply Patch'를 실행하여 리소스를 동기화해 주세요.");
-            }
-
-            Log("템플릿 바이너리에 한글 패치 및 폰트 데이터를 인젝션하는 중...");
-
+ 
+            Log("패치 데이터 빌드 및 인젝션 준비 중...");
+ 
             await Task.Run(() =>
             {
+                string payloadDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Payload");
+                string payloadFontsDir = Path.Combine(payloadDir, "Fonts");
+                Directory.CreateDirectory(payloadDir);
+                Directory.CreateDirectory(payloadFontsDir);
+
+                // 2. 실시간 Payload(Content.zip 및 폰트 파일들) 동적 생성
+                Log("실시간 패치 리소스 패키징 중...");
+                GeneratePayloadInternal(exe, payloadDir, payloadFontsDir);
+
+                string zipSourcePath = Path.Combine(payloadDir, "Content.zip");
+                if (!File.Exists(zipSourcePath))
+                {
+                    throw new Exception("원클릭 패처용 Content.zip 생성에 실패했습니다.");
+                }
+
                 // 이중 ZIP 구조: 하나의 임시 아우터 ZIP 컨테이너 생성 후 Content.zip 및 폰트 파일들을 내장함
                 string tempZipPath = Path.Combine(Path.GetTempPath(), $"AV2PayloadContainer_{Guid.NewGuid():N}.zip");
                 using (ZipArchive archive = ZipFile.Open(tempZipPath, ZipArchiveMode.Create))
                 {
                     // 1. 순수한 번역 Content.zip을 컨테이너 안에 추가
                     archive.CreateEntryFromFile(zipSourcePath, "Content.zip");
-
+ 
                     // 2. 폰트 xnb 파일들을 Fonts/ 폴더 하위에 추가
-                    string payloadFontsDir = Path.Combine(payloadDir, "Fonts");
-                    if (Directory.Exists(payloadFontsDir))
+                    foreach (var fontFile in Directory.GetFiles(payloadFontsDir, "*.xnb"))
                     {
-                        foreach (var fontFile in Directory.GetFiles(payloadFontsDir, "*.xnb"))
-                        {
-                            string entryName = "Fonts/" + Path.GetFileName(fontFile);
-                            archive.CreateEntryFromFile(fontFile, entryName);
-                        }
+                        string entryName = "Fonts/" + Path.GetFileName(fontFile);
+                        archive.CreateEntryFromFile(fontFile, entryName);
                     }
                 }
-
+ 
                 byte[] zipBytes = File.ReadAllBytes(tempZipPath);
                 try { File.Delete(tempZipPath); } catch { }
-
+ 
                 string outWinDir = Path.Combine(repoRoot, "Release", "Windows");
                 string outLinuxDir = Path.Combine(repoRoot, "Release", "Linux");
-
+ 
                 Directory.CreateDirectory(outWinDir);
                 Directory.CreateDirectory(outLinuxDir);
-
+ 
                 string outWinExe = Path.Combine(outWinDir, "AV2Patcher.Patcher.exe");
                 string outLinuxExe = Path.Combine(outLinuxDir, "AV2Patcher.Patcher");
 
