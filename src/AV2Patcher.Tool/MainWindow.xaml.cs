@@ -208,27 +208,13 @@ public partial class MainWindow : Window
     private static string OriginalFontsDir =>
         Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts", "Originals");
 
-    /// <summary>Linux 패치용 패키지 내보내기 폴더 — Content.zip + 빌드된 폰트 XNB.</summary>
-    private static string ExportPackageDir =>
-        Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ExportPackage");
-
     private void EnsureFolders()
     {
         foreach (var f in new[] { "Translations", "Tools", "Fonts",
                                    Path.Combine("Fonts", "Originals"),
-                                   Path.Combine("Fonts", "Korean"),
-                                   Path.Combine("ExportPackage", "Fonts") })
+                                   Path.Combine("Fonts", "Korean") })
             if (!Directory.Exists(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, f)))
                 Directory.CreateDirectory(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, f));
-    }
-
-    private void OnOpenExportPackage(object sender, RoutedEventArgs e)
-    {
-        string dir = ExportPackageDir;
-        if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
-        System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo {
-            FileName = dir, UseShellExecute = true, Verb = "open"
-        });
     }
 
     private void RefreshAvailableFonts()
@@ -350,9 +336,6 @@ public partial class MainWindow : Window
                     }
                 }
 
-                // ExportPackage 폴더 레이아웃 구성
-                string exportFontsDir = Path.Combine(ExportPackageDir, "Fonts");
- 
                 // 리포지토리 루트 찾기 (원클릭 패치 빌드용 소스 자동 동기화)
                 string repoRoot = AppDomain.CurrentDomain.BaseDirectory;
                 while (!string.IsNullOrEmpty(repoRoot) && !File.Exists(Path.Combine(repoRoot, "AxiomVerge2KoreanPatcher.sln")))
@@ -367,14 +350,10 @@ public partial class MainWindow : Window
                 } catch { }
  
                 try {
-                    Directory.CreateDirectory(exportFontsDir);
- 
                     // Content.zip 복사
-                    File.Copy(tempZipPath, Path.Combine(ExportPackageDir, "Content.zip"), true);
                     File.Copy(tempZipPath, Path.Combine(payloadDir, "Content.zip"), true);
-                    Log("ExportPackage: Content.zip 저장됨.");
                 } catch (Exception ex) {
-                    Log($"ExportPackage 복사 중 오류: {ex.Message}");
+                    Log($"Payload 복사 중 오류: {ex.Message}");
                 }
  
                 // Clean up temp zip
@@ -406,7 +385,6 @@ public partial class MainWindow : Window
                         if (File.Exists(originalPath)) {
                             File.Copy(originalPath, targetPath, true);
                             try { 
-                                File.Copy(originalPath, Path.Combine(exportFontsDir, mapping.TargetXnb), true); 
                                 File.Copy(originalPath, Path.Combine(payloadFontsDir, mapping.TargetXnb), true);
                             } catch { }
                             Log($"{mapping.TargetXnb}: 원본 폰트를 복원 및 투입했습니다.");
@@ -419,7 +397,6 @@ public partial class MainWindow : Window
                         if (File.Exists(localBuiltXnb)) {
                             File.Copy(localBuiltXnb, targetPath, true);
                             try { 
-                                File.Copy(localBuiltXnb, Path.Combine(exportFontsDir, mapping.TargetXnb), true); 
                                 File.Copy(localBuiltXnb, Path.Combine(payloadFontsDir, mapping.TargetXnb), true);
                             } catch { }
                             Log($"{mapping.TargetXnb}: 이미 빌드된 한글 폰트를 투입했습니다.");
@@ -428,7 +405,7 @@ public partial class MainWindow : Window
                         }
                     }
                 }
-                Log("ExportPackage 및 게임 내 Fonts 폴더 복사 완료.");
+                Log("Payload 및 게임 내 Fonts 폴더 복사 완료.");
             });
             UpdateBuildButtonStatus();
             Log("PATCH SUCCESS! You can now run the game.");
