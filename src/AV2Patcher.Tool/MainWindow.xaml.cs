@@ -349,12 +349,9 @@ public partial class MainWindow : Window
                     }
                 }
 
-                // ExportPackage 폴더 레이아웃 구성 (Linux 및 Windows 개별 패키지)
-                string exportLinuxDir = Path.Combine(ExportPackageDir, "Linux");
-                string exportWindowsDir = Path.Combine(ExportPackageDir, "Windows");
-                string exportLinuxFontsDir = Path.Combine(exportLinuxDir, "Fonts");
-                string exportWindowsFontsDir = Path.Combine(exportWindowsDir, "Fonts");
-
+                // ExportPackage 폴더 레이아웃 구성
+                string exportFontsDir = Path.Combine(ExportPackageDir, "Fonts");
+ 
                 // 리포지토리 루트 찾기 (원클릭 패치 빌드용 소스 자동 동기화)
                 string repoRoot = AppDomain.CurrentDomain.BaseDirectory;
                 while (!string.IsNullOrEmpty(repoRoot) && !File.Exists(Path.Combine(repoRoot, "AxiomVerge2KoreanPatcher.sln")))
@@ -372,77 +369,50 @@ public partial class MainWindow : Window
                         Directory.CreateDirectory(oneClickFontsDir);
                     } catch { }
                 }
-
+ 
                 try {
-                    Directory.CreateDirectory(exportLinuxFontsDir);
-                    Directory.CreateDirectory(exportWindowsFontsDir);
-
+                    Directory.CreateDirectory(exportFontsDir);
+ 
                     // Content.zip 복사
-                    File.Copy(tempZipPath, Path.Combine(exportLinuxDir, "Content.zip"), true);
-                    File.Copy(tempZipPath, Path.Combine(exportWindowsDir, "Content.zip"), true);
+                    File.Copy(tempZipPath, Path.Combine(ExportPackageDir, "Content.zip"), true);
                     if (!string.IsNullOrEmpty(oneClickAssetsDir)) {
                         File.Copy(tempZipPath, Path.Combine(oneClickAssetsDir, "Content.zip"), true);
                     }
                     Log("ExportPackage: Content.zip 저장됨.");
-
-                    // Linux용 도구 및 스크립트 복사
-                    string srcLinuxScript = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Tools", "apply_patch.sh");
-                    string srcLinuxCli = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Tools", "AV2Patcher.CLI");
-                    if (File.Exists(srcLinuxScript)) {
-                        File.Copy(srcLinuxScript, Path.Combine(exportLinuxDir, "apply_patch.sh"), true);
-                        Log("ExportPackage: Linux/apply_patch.sh 복사 완료.");
-                    }
-                    if (File.Exists(srcLinuxCli)) {
-                        File.Copy(srcLinuxCli, Path.Combine(exportLinuxDir, "AV2Patcher.CLI"), true);
-                        Log("ExportPackage: Linux/AV2Patcher.CLI 복사 완료.");
-                    }
-
-                    // Windows용 도구 및 스크립트 복사
-                    string srcWindowsScript = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Tools", "apply_patch.bat");
-                    string srcWindowsCli = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Tools", "AV2Patcher.CLI.exe");
-                    if (File.Exists(srcWindowsScript)) {
-                        File.Copy(srcWindowsScript, Path.Combine(exportWindowsDir, "apply_patch.bat"), true);
-                        Log("ExportPackage: Windows/apply_patch.bat 복사 완료.");
-                    }
-                    if (File.Exists(srcWindowsCli)) {
-                        File.Copy(srcWindowsCli, Path.Combine(exportWindowsDir, "AV2Patcher.CLI.exe"), true);
-                        Log("ExportPackage: Windows/AV2Patcher.CLI.exe 복사 완료.");
-                    }
                 } catch (Exception ex) {
                     Log($"ExportPackage 복사 중 오류: {ex.Message}");
                 }
-
+ 
                 // Clean up temp zip
                 try { File.Delete(tempZipPath); } catch { }
-
+ 
                 // 6. Deploy Pre-built Fonts (to Content/Fonts directory)
                 string builtFontsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Fonts");
                 string fontsOriginalDir = OriginalFontsDir;
                 
                 if (!Directory.Exists(builtFontsDir)) Directory.CreateDirectory(builtFontsDir);
                 if (!Directory.Exists(fontsOriginalDir)) Directory.CreateDirectory(fontsOriginalDir);
-
+ 
                 foreach (var mapping in Mappings) {
                     if (string.IsNullOrEmpty(mapping.SelectedFontName)) continue;
                     var font = AvailableFonts.FirstOrDefault(f => f.Name == mapping.SelectedFontName);
                     if (font == null) continue;
-
+ 
                     string targetPath = Path.Combine(gameDir, "Content", "Fonts", mapping.TargetXnb);
                     string originalPath = Path.Combine(fontsOriginalDir, mapping.TargetXnb);
-
+ 
                     // 최초 패치 시 원본 폰트 자동 백업
                     if (!File.Exists(originalPath) && File.Exists(targetPath)) {
                         File.Copy(targetPath, originalPath);
                         Log($"Backed up original font: {mapping.TargetXnb}");
                     }
-
+ 
                     if (font.IsKeepOriginal) {
                         // "원본 유지" 선택 시 백업에서 원본 복원 및 패키지 복사
                         if (File.Exists(originalPath)) {
                             File.Copy(originalPath, targetPath, true);
                             try { 
-                                File.Copy(originalPath, Path.Combine(exportLinuxFontsDir, mapping.TargetXnb), true); 
-                                File.Copy(originalPath, Path.Combine(exportWindowsFontsDir, mapping.TargetXnb), true); 
+                                File.Copy(originalPath, Path.Combine(exportFontsDir, mapping.TargetXnb), true); 
                                 if (!string.IsNullOrEmpty(oneClickFontsDir)) {
                                     File.Copy(originalPath, Path.Combine(oneClickFontsDir, mapping.TargetXnb), true);
                                 }
@@ -457,8 +427,7 @@ public partial class MainWindow : Window
                         if (File.Exists(localBuiltXnb)) {
                             File.Copy(localBuiltXnb, targetPath, true);
                             try { 
-                                File.Copy(localBuiltXnb, Path.Combine(exportLinuxFontsDir, mapping.TargetXnb), true); 
-                                File.Copy(localBuiltXnb, Path.Combine(exportWindowsFontsDir, mapping.TargetXnb), true); 
+                                File.Copy(localBuiltXnb, Path.Combine(exportFontsDir, mapping.TargetXnb), true); 
                                 if (!string.IsNullOrEmpty(oneClickFontsDir)) {
                                     File.Copy(localBuiltXnb, Path.Combine(oneClickFontsDir, mapping.TargetXnb), true);
                                 }
