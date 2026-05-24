@@ -329,10 +329,10 @@
                     <Button Content="Apply Patch" Grid.Column="2" Margin="4,0,4,0"
                             x:Name="btnPatch" Style="{StaticResource AccentButtonStyle}"
                             Height="28" FontSize="10" HorizontalAlignment="Stretch"/>
-                    <Button Content="📦 Linux" Grid.Column="3" Margin="0,0,0,0"
+                    <Button Content="📦 Export" Grid.Column="3" Margin="0,0,0,0"
                             Height="28" FontSize="10" Width="70"
                             Click="OnOpenExportPackage"
-                            ToolTip="패치 패키지 폴더 열기 (Content.zip + Fonts) — Linux 적용용"/>
+                            ToolTip="패키징된 패치 리소스 폴더 열기 (Content.zip + Fonts)"/>
                 </Grid>
             </Grid>
 </Window>
