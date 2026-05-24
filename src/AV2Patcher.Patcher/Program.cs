@@ -26,16 +26,13 @@ class Program
             return 0;
         }
 
-        // 2. Validate Embedded Resources Exist
-        var currentAssembly = Assembly.GetExecutingAssembly();
-        var resourceNames = currentAssembly.GetManifestResourceNames();
+        // 2. Extract and Validate Overlay Resource
+        string overlayError;
+        byte[] zipBytes = ExtractOverlayResource(out overlayError);
 
-        bool hasZip = resourceNames.Contains("Content.zip");
-
-        if (!hasZip)
+        if (zipBytes == null)
         {
-            Console.WriteLine("[ERROR] 패치에 필요한 리소스(Content.zip)가 내장되어 있지 않습니다.");
-            Console.WriteLine("먼저 번역을 빌드(Apply Patch)한 후 이 프로그램을 다시 빌드해야 합니다.");
+            Console.WriteLine($"[ERROR] 패치 리소스를 불러올 수 없습니다: {overlayError}");
             Console.WriteLine("엔터 키를 누르면 종료합니다.");
             Console.ReadLine();
             return 1;
@@ -97,11 +94,7 @@ class Program
             // 5. Inject Embedded Content.zip
             Console.WriteLine("[1/1] 번역 데이터 주입 중...");
             string tempZipPath = Path.Combine(Path.GetTempPath(), $"AV2ContentTemp_{Guid.NewGuid():N}.zip");
-            using (var resStream = currentAssembly.GetManifestResourceStream("Content.zip"))
-            using (var fileStream = new FileStream(tempZipPath, FileMode.Create, FileAccess.Write))
-            {
-                resStream!.CopyTo(fileStream);
-            }
+            File.WriteAllBytes(tempZipPath, zipBytes);
 
             // Create initial baseline (.origin) if not exists
             if (!File.Exists(originPath))
@@ -220,5 +213,57 @@ class Program
         }
 
         return string.Empty;
+    }
+
+    private static byte[] ExtractOverlayResource(out string errorMessage)
+    {
+        errorMessage = "";
+        try
+        {
+            string selfPath = Environment.ProcessPath;
+            if (string.IsNullOrEmpty(selfPath) || !File.Exists(selfPath))
+            {
+                errorMessage = "실행 파일 경로를 찾을 수 없습니다.";
+                return null;
+            }
+
+            using (var fs = new FileStream(selfPath, FileMode.Open, FileAccess.Read, FileShare.Read))
+            {
+                if (fs.Length < 8)
+                {
+                    errorMessage = "실행 파일 크기가 너무 작습니다.";
+                    return null;
+                }
+
+                // Seek to last 8 bytes: [4-byte length][4-byte magic]
+                fs.Seek(-8, SeekOrigin.End);
+                using (var br = new BinaryReader(fs))
+                {
+                    int length = br.ReadInt32();
+                    uint magic = br.ReadUInt32();
+
+                    if (magic != 0x4B325641) // "AV2K" magic signature
+                    {
+                        errorMessage = "패치 리소스가 인젝션되지 않은 템플릿 파일이거나 손상되었습니다.";
+                        return null;
+                    }
+
+                    if (length <= 0 || length > fs.Length - 8)
+                    {
+                        errorMessage = "패치 리소스 크기 정보가 올바르지 않습니다.";
+                        return null;
+                    }
+
+                    // Seek backwards by (8 + length)
+                    fs.Seek(-(8 + length), SeekOrigin.End);
+                    return br.ReadBytes(length);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"리소스 추출 중 예외 발생: {ex.Message}";
+            return null;
+        }
     }
 }

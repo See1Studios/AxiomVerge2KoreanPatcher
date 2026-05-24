@@ -882,7 +882,7 @@ public partial class MainWindow : Window
     private async void OnBuildPatcherClicked(object sender, RoutedEventArgs e)
     {
         btnBuildPatcher.IsEnabled = false;
-        Log(">>> 원클릭 패처 빌드 프로세스 시작...");
+        Log(">>> 원클릭 패처 패키징 시작...");
         
         try
         {
@@ -898,41 +898,56 @@ public partial class MainWindow : Window
                 throw new Exception("솔루션 파일(AxiomVerge2KoreanPatcher.sln)을 찾을 수 없어 빌드를 진행할 수 없습니다.");
             }
 
-            string projectPath = Path.Combine(repoRoot, "src", "AV2Patcher.Patcher", "AV2Patcher.Patcher.csproj");
-            if (!File.Exists(projectPath))
+            string templatesDir = Path.Combine(repoRoot, "resources", "Templates");
+            string winTemplate = Path.Combine(templatesDir, "AV2Patcher.Patcher.exe");
+            string linuxTemplate = Path.Combine(templatesDir, "AV2Patcher.Patcher");
+
+            if (!File.Exists(winTemplate) || !File.Exists(linuxTemplate))
             {
-                throw new Exception($"원클릭 패처 프로젝트 파일을 찾을 수 없습니다: {projectPath}");
+                throw new Exception($"패처 템플릿 파일이 존재하지 않습니다.\n경로를 확인해 주세요:\n- {winTemplate}\n- {linuxTemplate}");
             }
 
             // 2. resources/OneClickAssets 가 준비되어 있는지 확인
             string oneClickAssetsDir = Path.Combine(repoRoot, "resources", "OneClickAssets");
-            if (!File.Exists(Path.Combine(oneClickAssetsDir, "Content.zip")))
+            string zipSourcePath = Path.Combine(oneClickAssetsDir, "Content.zip");
+            if (!File.Exists(zipSourcePath))
             {
                 throw new Exception("원클릭 패처용 리소스가 준비되지 않았습니다. 먼저 'Apply Patch'를 실행하여 리소스를 동기화해 주세요.");
             }
 
-            Log("원클릭 패처 빌드를 시작합니다. 이 프로세스는 약 15~30초 정도 소요됩니다...");
+            Log("템플릿 바이너리에 한글 패치 데이터를 인젝션하는 중...");
 
             await Task.Run(() =>
             {
-                // 3. 빌드 작업 실행 (Windows & Linux)
-                RunDotnetPublish(projectPath, "win-x64", Path.Combine(repoRoot, "Release", "Windows"));
-                RunDotnetPublish(projectPath, "linux-x64", Path.Combine(repoRoot, "Release", "Linux"));
+                byte[] zipBytes = File.ReadAllBytes(zipSourcePath);
 
-                // 4. .pdb 파일 삭제
-                try { File.Delete(Path.Combine(repoRoot, "Release", "Windows", "AV2Patcher.Patcher.pdb")); } catch {}
-                try { File.Delete(Path.Combine(repoRoot, "Release", "Linux", "AV2Patcher.Patcher.pdb")); } catch {}
+                string outWinDir = Path.Combine(repoRoot, "Release", "Windows");
+                string outLinuxDir = Path.Combine(repoRoot, "Release", "Linux");
+
+                Directory.CreateDirectory(outWinDir);
+                Directory.CreateDirectory(outLinuxDir);
+
+                string outWinExe = Path.Combine(outWinDir, "AV2Patcher.Patcher.exe");
+                string outLinuxExe = Path.Combine(outLinuxDir, "AV2Patcher.Patcher");
+
+                // Windows 패쳐 인젝션
+                InjectOverlay(winTemplate, outWinExe, zipBytes);
+                Log("  ✓ Windows 패처 생성 완료");
+
+                // Linux 패쳐 인젝션
+                InjectOverlay(linuxTemplate, outLinuxExe, zipBytes);
+                Log("  ✓ Linux 패처 생성 완료");
             });
 
-            Log("BUILD SUCCESS: Windows 및 Linux 원클릭 패처 빌드가 성공적으로 완료되었습니다!");
+            Log("SUCCESS: Windows 및 Linux 원클릭 패처 주입 패키징이 성공적으로 완료되었습니다!");
             System.Windows.MessageBox.Show(
-                "Windows 및 Linux용 원클릭 패처 빌드가 완료되었습니다!\nRelease/ 폴더를 확인해 주세요.",
-                "빌드 완료", MessageBoxButton.OK, MessageBoxImage.Information);
+                "Windows 및 Linux용 원클릭 패처가 성공적으로 생성되었습니다!\nRelease/ 폴더를 확인해 주세요.",
+                "생성 완료", MessageBoxButton.OK, MessageBoxImage.Information);
         }
         catch (Exception ex)
         {
-            Log($"[BUILD ERROR] 빌드 중 오류 발생: {ex.Message}");
-            System.Windows.MessageBox.Show(ex.Message, "빌드 실패", MessageBoxButton.OK, MessageBoxImage.Error);
+            Log($"[BUILD ERROR] 생성 중 오류 발생: {ex.Message}");
+            System.Windows.MessageBox.Show(ex.Message, "생성 실패", MessageBoxButton.OK, MessageBoxImage.Error);
         }
         finally
         {
@@ -940,30 +955,18 @@ public partial class MainWindow : Window
         }
     }
 
-    private void RunDotnetPublish(string projectPath, string runtime, string outputDir)
+    private void InjectOverlay(string templatePath, string outputPath, byte[] zipBytes)
     {
-        Log($"  [{runtime}] 빌드 및 게시 중...");
-        var startInfo = new System.Diagnostics.ProcessStartInfo
+        // 1. Copy template to output path
+        File.Copy(templatePath, outputPath, true);
+
+        // 2. Append zip bytes, length, and magic signature (AV2K = 0x4B325641)
+        using (var fs = new FileStream(outputPath, FileMode.Append, FileAccess.Write))
+        using (var bw = new BinaryWriter(fs))
         {
-            FileName = "dotnet",
-            Arguments = $"publish \"{projectPath}\" -c Release -r {runtime} --self-contained -o \"{outputDir}\" -p:PublishSingleFile=true -p:PublishTrimmed=true",
-            UseShellExecute = false,
-            CreateNoWindow = true,
-            RedirectStandardOutput = true,
-            RedirectStandardError = true
-        };
-
-        using var process = System.Diagnostics.Process.Start(startInfo);
-        if (process == null) throw new Exception("dotnet 프로세스를 시작할 수 없습니다. .NET SDK가 설치되어 있는지 확인하세요.");
-
-        string output = process.StandardOutput.ReadToEnd();
-        string error = process.StandardError.ReadToEnd();
-        process.WaitForExit();
-
-        if (process.ExitCode != 0)
-        {
-            throw new Exception($"dotnet publish ({runtime}) 실패 (코드 {process.ExitCode}):\n{error}\n{output}");
+            bw.Write(zipBytes);
+            bw.Write(zipBytes.Length);
+            bw.Write(0x4B325641); // "AV2K" magic signature
         }
-        Log($"  ✓ [{runtime}] 빌드 완료 ➡️ {outputDir}");
     }
 }
