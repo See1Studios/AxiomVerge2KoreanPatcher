@@ -31,7 +31,7 @@ class Program
         var resourceNames = currentAssembly.GetManifestResourceNames();
 
         bool hasZip = resourceNames.Contains("Content.zip");
-        var fontResources = resourceNames.Where(n => n.StartsWith("Fonts/")).ToList();
+        var fontResources = resourceNames.Where(n => n.StartsWith("Fonts\\") || n.StartsWith("Fonts/")).ToList();
 
         if (!hasZip || fontResources.Count == 0)
         {
@@ -105,7 +105,7 @@ class Program
             Console.WriteLine("[1/2] 한글 폰트 적용 중...");
             foreach (var fontRes in fontResources)
             {
-                string fontFileName = fontRes.Substring("Fonts/".Length);
+                string fontFileName = fontRes.Replace("Fonts\\", "").Replace("Fonts/", "");
                 string targetFontPath = Path.Combine(gameFontsDir, fontFileName);
 
                 // Backup original font (first time only)
