@@ -358,15 +358,15 @@ public partial class MainWindow : Window
                 {
                     repoRoot = Path.GetDirectoryName(repoRoot) ?? "";
                 }
-                string? oneClickAssetsDir = null;
-                string? oneClickFontsDir = null;
+                string? payloadDir = null;
+                string? payloadFontsDir = null;
                 if (!string.IsNullOrEmpty(repoRoot))
                 {
-                    oneClickAssetsDir = Path.Combine(repoRoot, "resources", "OneClickAssets");
-                    oneClickFontsDir = Path.Combine(oneClickAssetsDir, "Fonts");
+                    payloadDir = Path.Combine(repoRoot, "resources", "Payload");
+                    payloadFontsDir = Path.Combine(payloadDir, "Fonts");
                     try {
-                        Directory.CreateDirectory(oneClickAssetsDir);
-                        Directory.CreateDirectory(oneClickFontsDir);
+                        Directory.CreateDirectory(payloadDir);
+                        Directory.CreateDirectory(payloadFontsDir);
                     } catch { }
                 }
  
@@ -375,8 +375,8 @@ public partial class MainWindow : Window
  
                     // Content.zip 복사
                     File.Copy(tempZipPath, Path.Combine(ExportPackageDir, "Content.zip"), true);
-                    if (!string.IsNullOrEmpty(oneClickAssetsDir)) {
-                        File.Copy(tempZipPath, Path.Combine(oneClickAssetsDir, "Content.zip"), true);
+                    if (!string.IsNullOrEmpty(payloadDir)) {
+                        File.Copy(tempZipPath, Path.Combine(payloadDir, "Content.zip"), true);
                     }
                     Log("ExportPackage: Content.zip 저장됨.");
                 } catch (Exception ex) {
@@ -413,8 +413,8 @@ public partial class MainWindow : Window
                             File.Copy(originalPath, targetPath, true);
                             try { 
                                 File.Copy(originalPath, Path.Combine(exportFontsDir, mapping.TargetXnb), true); 
-                                if (!string.IsNullOrEmpty(oneClickFontsDir)) {
-                                    File.Copy(originalPath, Path.Combine(oneClickFontsDir, mapping.TargetXnb), true);
+                                if (!string.IsNullOrEmpty(payloadFontsDir)) {
+                                    File.Copy(originalPath, Path.Combine(payloadFontsDir, mapping.TargetXnb), true);
                                 }
                             } catch { }
                             Log($"{mapping.TargetXnb}: 원본 폰트를 복원 및 투입했습니다.");
@@ -428,8 +428,8 @@ public partial class MainWindow : Window
                             File.Copy(localBuiltXnb, targetPath, true);
                             try { 
                                 File.Copy(localBuiltXnb, Path.Combine(exportFontsDir, mapping.TargetXnb), true); 
-                                if (!string.IsNullOrEmpty(oneClickFontsDir)) {
-                                    File.Copy(localBuiltXnb, Path.Combine(oneClickFontsDir, mapping.TargetXnb), true);
+                                if (!string.IsNullOrEmpty(payloadFontsDir)) {
+                                    File.Copy(localBuiltXnb, Path.Combine(payloadFontsDir, mapping.TargetXnb), true);
                                 }
                             } catch { }
                             Log($"{mapping.TargetXnb}: 이미 빌드된 한글 폰트를 투입했습니다.");
@@ -907,9 +907,9 @@ public partial class MainWindow : Window
                 throw new Exception($"패처 템플릿 파일이 존재하지 않습니다.\n경로를 확인해 주세요:\n- {winTemplate}\n- {linuxTemplate}");
             }
 
-            // 2. resources/OneClickAssets 가 준비되어 있는지 확인
-            string oneClickAssetsDir = Path.Combine(repoRoot, "resources", "OneClickAssets");
-            string zipSourcePath = Path.Combine(oneClickAssetsDir, "Content.zip");
+            // 2. resources/Payload 가 준비되어 있는지 확인
+            string payloadDir = Path.Combine(repoRoot, "resources", "Payload");
+            string zipSourcePath = Path.Combine(payloadDir, "Content.zip");
             if (!File.Exists(zipSourcePath))
             {
                 throw new Exception("원클릭 패처용 리소스가 준비되지 않았습니다. 먼저 'Apply Patch'를 실행하여 리소스를 동기화해 주세요.");
@@ -923,12 +923,12 @@ public partial class MainWindow : Window
                 string tempZipPath = Path.Combine(Path.GetTempPath(), $"AV2OneClickZip_{Guid.NewGuid():N}.zip");
                 File.Copy(zipSourcePath, tempZipPath, true);
 
-                string oneClickFontsDir = Path.Combine(oneClickAssetsDir, "Fonts");
-                if (Directory.Exists(oneClickFontsDir))
+                string payloadFontsDir = Path.Combine(payloadDir, "Fonts");
+                if (Directory.Exists(payloadFontsDir))
                 {
                     using (ZipArchive archive = ZipFile.Open(tempZipPath, ZipArchiveMode.Update))
                     {
-                        foreach (var fontFile in Directory.GetFiles(oneClickFontsDir, "*.xnb"))
+                        foreach (var fontFile in Directory.GetFiles(payloadFontsDir, "*.xnb"))
                         {
                             string entryName = "Fonts/" + Path.GetFileName(fontFile);
                             var entry = archive.GetEntry(entryName);
