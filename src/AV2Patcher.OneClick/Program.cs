@@ -188,7 +188,28 @@ class Program
             return currentDir;
         }
 
-        // 2. Read Steam path from registry
+        // 2. Linux / SteamOS Default Paths
+        if (!System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(System.Runtime.InteropServices.OSPlatform.Windows))
+        {
+            string homeDir = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+            string[] linuxPaths = new[]
+            {
+                Path.Combine(homeDir, ".steam", "steam", "steamapps", "common", "Axiom Verge 2"),
+                Path.Combine(homeDir, ".local", "share", "Steam", "steamapps", "common", "Axiom Verge 2"),
+                "/run/media/mmcblk0p1/steamapps/common/Axiom Verge 2"
+            };
+
+            foreach (var path in linuxPaths)
+            {
+                if (File.Exists(Path.Combine(path, "AxiomVerge2.exe")))
+                {
+                    return path;
+                }
+            }
+            return string.Empty;
+        }
+
+        // 3. Windows: Read Steam path from registry
         string? steamPath = null;
         try
         {
@@ -216,7 +237,7 @@ class Program
             }
         }
 
-        // 3. Check common drive letters
+        // 4. Windows: Check common drive letters
         string[] drives = { "C", "D", "E", "F", "G", "H" };
         foreach (var drive in drives)
         {
