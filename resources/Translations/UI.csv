@@ -88,7 +88,7 @@ Elimina los diálogos, las escenas de historia y el contenido aleatorio, y agreg
 这个特殊模式专为富有竞技精神的主播设计，需要玩家一口气通关。
 
 这个模式没有对话、过场动画和随机内容，另外游戏画面内置了一个计时器。"
-SPEEDRUN_DESCRIPTION_PS4,Use the Share button to begin streaming your run!,Utilisez le bouton Partager pour commencer à diffuser votre run !,"Benutze die Teilen-Schaltfläche, um deinen Lauf zu streamen!",Usa il tasto Condividi per iniziare a trasmettere la tua corsa in streaming!,Use o botão Compartilhar para começar a transmitir seu jogo!,¡Usa el botón SHARE para transmitir tu partida!,"Используйте кнопку ""Поделиться"", чтобы начать стриминг вашего прохождения!",공유(Share) 버튼을 눌러 스피드런 스트리밍을 시작하세요!,点击“分享”按钮，即可开始直播你的游戏过程！
+SPEEDRUN_DESCRIPTION_PS4,Use the Share button to begin streaming your run!,Utilisez le bouton Partager pour commencer à diffuser votre run !,"Benutze die Teilen-Schaltfläche, um deinen Lauf zu streamen!",Usa il tasto Condividi per iniziare a trasmettere la tua corsa in streaming!,Use o botão Compartilhar para começar a transmitir seu jogo!,¡Usa el botón SHARE para transmitir tu partida!,"Используйте кнопку ""Поделиться"", чтобы начать стриминг вашего прохождения!",SHARE 버튼을 눌러 스피드런 스트리밍을 시작하세요!,点击“分享”按钮，即可开始直播你的游戏过程！
 LEADERBOARDS_TITLE,Leaderboards,Classements,Bestenlisten,Classifiche,Placares,Tablas de clasificación,Таблицы рекордов,순위표,排行榜
 LEADERBOARDS_GLOBAL,Global,Mondial,Global,Global,Global,Global,Весь мир,글로벌,全球前十
 LEADERBOARDS_GLOBAL_AROUND_USER,Global Around User,Global Around User,Global Around User,Global Around User,Global Around User,Global alrededor de ti,Локально,내 주변 순위,全球相邻排名
@@ -305,7 +305,7 @@ NAME_SOLDIERBOSS,Telal,Telal,Telal,Telal,Telal,Telal,Телал,테랄,忒拉尔
 NAME_SLUGBOSS,Uruku,Uruku,Uruku,Uruku,Uruku,Uruku,Уруку,우루쿠,乌厄鲁库
 NAME_SCORPIONBOSS,Gir-Tab,Gir-Tab,Gir-Tab,Gir-Tab,Gir-Tab,Gir-Tab,Гир-Таб,기르타브,基勒塔布
 NAME_MANTABOSS,Vision,Vision,Vision,Visione,Visão,Visión,Видение,비전,幻想
-NAME_DEFORMEDTRACE,Clone,Clone,Clone,Clone,Clone,Clon,Клон,복제본,克隆
+NAME_DEFORMEDTRACE,Clone,Clone,Clone,Clone,Clone,Clon,Клон,클론,克隆
 NAME_SPITBUGBOSS,Ukhu,Ukhu,Ukhu,Ukhu,Ukhu,Ukhu,Уку,우쿠,乌库
 NAME_SENTINEL,Sentinel,Sentinelle,Sentinel,Sentinella,Sentinela,Centinela,Страж,센티널,卫兵
 NAME_ATHETOS,Athetos,Athetos,Athetos,Athetos,Athetos,Athetos,Атетос,아테토스,阿塞托斯

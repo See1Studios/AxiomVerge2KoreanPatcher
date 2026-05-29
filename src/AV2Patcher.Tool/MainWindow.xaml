@@ -20,9 +20,16 @@
             <Setter Property="HorizontalContentAlignment" Value="Center"/>
         </Style>
 
-        <!-- 기본 TextBlock 스타일: 글자 대비 완화 -->
-        <Style TargetType="TextBlock">
-            <Setter Property="Foreground" Value="{DynamicResource SystemControlForegroundBaseMediumHighBrush}"/>
+        <!-- 초록색 빌드 버튼 스타일 (비활성화 시 회색 처리) -->
+        <Style x:Key="GreenButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#FF2E7D32"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Style.Triggers>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Background" Value="#FF555555"/>
+                    <Setter Property="Foreground" Value="#FFAAAAAA"/>
+                </Trigger>
+            </Style.Triggers>
         </Style>
     </Window.Resources>
 

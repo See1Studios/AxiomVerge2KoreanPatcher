@@ -1,0 +1,1869 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Axiom Verge 2 한국어 번역 위키 & 윤색 에디터</title>
+  <meta name="description" content="Axiom Verge 2 한국어 패치 제작용 통합 번역 위키 및 대사/기록물 윤색 웹 에디터입니다. 서버 없이 브라우저 단독으로 실행되며, 용어 사전 및 실시간 내보내기를 지원합니다.">
+  <meta name="keywords" content="Axiom Verge 2, 엑시옴 버지 2, 한국어 패치, 한글 패치, 번역, 윤색, 에디터, 위키, Glossary">
+  <meta name="author" content="Axiom Verge 2 Korean Translation Team">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Axiom Verge 2 한국어 번역 위키 & 윤색 에디터">
+  <meta property="og:description" content="Axiom Verge 2 한국어 패치 제작용 통합 번역 위키 및 대사/기록물 윤색 웹 에디터">
+  <!-- Google Fonts: Outfit & Noto Sans KR -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <!-- Feather Icons CDN -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  <!-- Marked.js CDN (Markdown Parser) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- WIKI_DATA Load -->
+  <script src="wiki_data.js"></script>
+
+  <style>
+    :root {
+      --bg-color: #0d0f14;
+      --card-bg: rgba(20, 24, 33, 0.7);
+      --card-hover: rgba(28, 33, 46, 0.85);
+      --sidebar-bg: #11141d;
+      --border-color: rgba(255, 255, 255, 0.07);
+      
+      --color-primary: #00ffd0; /* 차원의 균열 네온 민트 */
+      --color-primary-dark: #00b392;
+      --color-primary-glow: rgba(0, 255, 208, 0.15);
+      
+      --color-accent: #ffd700; /* 수메르 황금 유적 */
+      --color-accent-glow: rgba(255, 215, 0, 0.2);
+      
+      --color-purple: #c77dff; /* 브리치 포털 보라색 */
+      --color-purple-glow: rgba(199, 125, 255, 0.2);
+
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --text-accent: #ffd700;
+
+      --font-outfit: 'Outfit', 'Noto Sans KR', sans-serif;
+      --font-noto: 'Noto Sans KR', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: var(--font-noto);
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Scrollbar Styling */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(0, 255, 208, 0.35); /* 가시성 극대화를 위해 네온 민트 컬러 적용 */
+      border-radius: 4px;
+      border: 1px solid rgba(0, 255, 208, 0.1);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(0, 255, 208, 0.6);
+    }
+
+    /* Header styling */
+    header {
+      background: rgba(17, 20, 29, 0.95);
+      border-bottom: 1px solid var(--border-color);
+      padding: 0 24px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      backdrop-filter: blur(10px);
+      z-index: 100;
+      flex-shrink: 0;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-icon {
+      color: var(--color-primary);
+      filter: drop-shadow(0 0 8px var(--color-primary-glow));
+    }
+
+    .logo-title {
+      font-family: var(--font-outfit);
+      font-weight: 800;
+      font-size: 20px;
+      letter-spacing: 1px;
+      background: linear-gradient(45deg, #ffffff, var(--color-primary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .logo-badge {
+      font-size: 11px;
+      background: rgba(199, 125, 255, 0.15);
+      border: 1px solid rgba(199, 125, 255, 0.3);
+      color: var(--color-purple);
+      padding: 2px 8px;
+      border-radius: 20px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 16px;
+      height: 100%;
+      align-items: center;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-weight: 500;
+      font-size: 15px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-main);
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .tab-btn.active {
+      color: var(--color-primary);
+      background: rgba(0, 255, 208, 0.08);
+      border: 1px solid rgba(0, 255, 208, 0.2);
+      text-shadow: 0 0 10px rgba(0, 255, 208, 0.2);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn {
+      background: var(--color-primary);
+      color: #0b0c10;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #ffffff;
+      box-shadow: 0 0 15px var(--color-primary-glow);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-main);
+      border: 1px solid var(--border-color);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: none;
+    }
+
+    /* Main Container layout */
+    .app-container {
+      display: flex;
+      flex: 1;
+      height: calc(100vh - 70px); /* 헤더 70px을 제외한 영역 강제 제한 */
+      max-height: calc(100vh - 70px);
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Sidebar Styling */
+    .sidebar {
+      width: 320px;
+      height: 100%; /* 부모 높이 100% 강제 고정 */
+      max-height: 100%;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      min-height: 0;
+      overflow: hidden; /* 헤더와 리스트가 삐져나가지 않도록 강제 */
+      transition: width 0.3s ease;
+    }
+
+    .sidebar-header {
+      padding: 16px;
+      border-bottom: 1px solid var(--border-color);
+      flex-shrink: 0; /* 플렉스 레이아웃 상에서 검색바 축소 방지 */
+    }
+
+    .search-wrapper {
+      position: relative;
+      width: 100%;
+    }
+
+    .search-input {
+      width: 100%;
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid var(--border-color);
+      padding: 10px 12px 10px 38px;
+      border-radius: 8px;
+      color: var(--text-main);
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.3s ease;
+    }
+
+    .search-input:focus {
+      border-color: var(--color-primary);
+      box-shadow: 0 0 10px rgba(0, 255, 208, 0.1);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+      width: 16px;
+      height: 16px;
+    }
+
+    .category-filter {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border-color);
+      flex-shrink: 0; /* 플렉스 레이아웃 상에서 카테고리/화자 필터 축소 방지 */
+      max-height: 120px;
+      overflow-y: auto;
+    }
+
+    .cat-badge {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 4px 10px;
+      font-size: 12px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .cat-badge:hover {
+      color: var(--text-main);
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .cat-badge.active {
+      background: rgba(255, 215, 0, 0.1);
+      border-color: var(--color-accent);
+      color: var(--color-accent);
+    }
+
+    .list-container {
+      flex: 1;
+      min-height: 0; /* 부모 크기 안에서 자식 리스트가 수축 스크롤되도록 보증 */
+      height: auto;
+      overflow-y: auto;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .list-item {
+      background: rgba(255, 255, 255, 0.01);
+      border: 1px solid transparent;
+      padding: 12px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .list-item:hover {
+      background: rgba(255, 255, 255, 0.03);
+      border-color: var(--border-color);
+    }
+
+    .list-item.active {
+      background: rgba(0, 255, 208, 0.04);
+      border-color: rgba(0, 255, 208, 0.2);
+    }
+
+    .list-item-title {
+      font-weight: 600;
+      font-size: 14px;
+      color: var(--text-main);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .list-item.active .list-item-title {
+      color: var(--color-primary);
+    }
+
+    .list-item-subtitle {
+      font-size: 12px;
+      color: var(--text-muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Content Area Styling */
+    .content-area {
+      flex: 1;
+      height: 100%; /* 수직 영역 고정으로 레이아웃 축 파괴 방지 */
+      max-height: 100%;
+      background: radial-gradient(circle at top right, rgba(0, 255, 208, 0.02), transparent 40%),
+                  radial-gradient(circle at bottom left, rgba(199, 125, 255, 0.02), transparent 40%),
+                  #0d0f14;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      padding: 40px;
+    }
+
+    /* View Structures */
+    .term-view {
+      max-width: 900px;
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .term-header {
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 20px;
+    }
+
+    .term-title-wrapper {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .term-title-eng {
+      font-family: var(--font-outfit);
+      font-weight: 800;
+      font-size: 36px;
+      color: #ffffff;
+      letter-spacing: 0.5px;
+    }
+
+    .term-title-kor {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--color-accent);
+    }
+
+    .term-meta {
+      display: flex;
+      gap: 16px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+    }
+
+    .meta-pill {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+    }
+
+    .meta-pill-accent {
+      color: var(--color-primary);
+      border-color: rgba(0, 255, 208, 0.2);
+      background: rgba(0, 255, 208, 0.03);
+    }
+
+    .meta-label {
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .term-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #ffffff;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 10px;
+    }
+
+    .card-title i {
+      color: var(--color-accent);
+    }
+
+    .term-analysis {
+      line-height: 1.8;
+      font-size: 15px;
+      color: rgba(243, 244, 246, 0.9);
+    }
+
+    .term-analysis p {
+      margin-bottom: 16px;
+    }
+
+    .term-analysis h3 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 24px;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+
+    /* Dialogue Polishing Editor View */
+    .editor-view {
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .editor-intro {
+      background: rgba(0, 255, 208, 0.03);
+      border: 1px solid rgba(0, 255, 208, 0.15);
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+
+    .editor-intro-icon {
+      color: var(--color-primary);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .editor-intro-content h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 4px;
+    }
+
+    .editor-intro-content p {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* Dialogue Scene Grouping Layout */
+    .scene-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+      position: relative;
+    }
+
+    .scene-card.modified {
+      border-color: rgba(0, 255, 208, 0.2);
+    }
+
+    .scene-card.modified::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: var(--color-primary);
+      border-top-left-radius: 16px;
+      border-bottom-left-radius: 16px;
+    }
+
+    .scene-header {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 16px;
+    }
+
+    .scene-title-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .scene-title {
+      font-family: var(--font-outfit);
+      font-weight: 800;
+      font-size: 20px;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .scene-speakers {
+      font-size: 12.5px;
+      color: var(--text-muted);
+    }
+
+    .scene-speakers span {
+      color: var(--color-primary);
+      font-weight: 600;
+    }
+
+    .scene-memo-box {
+      background: rgba(199, 125, 255, 0.03);
+      border: 1px solid rgba(199, 125, 255, 0.1);
+      border-radius: 10px;
+      padding: 14px 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .scene-memo-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--color-purple);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .scene-memo-input {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 10px 12px;
+      color: #ffffff;
+      font-size: 13.5px;
+      outline: none;
+      transition: all 0.3s ease;
+      font-family: var(--font-noto);
+    }
+
+    .scene-memo-input:focus {
+      border-color: var(--color-purple);
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    /* Dialogue list inside scene */
+    .scene-dialogue-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .dialogue-item-row {
+      background: rgba(0, 0, 0, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.02);
+      border-radius: 8px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .dialogue-item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12.5px;
+    }
+
+    .item-key {
+      color: var(--text-muted);
+      font-family: var(--font-outfit);
+    }
+
+    .item-speaker {
+      font-weight: 700;
+      color: var(--color-accent);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .item-speaker-empty {
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    .dialogue-workspace {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    @media (max-width: 768px) {
+      .dialogue-workspace {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .workspace-left {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .workspace-block {
+      background: rgba(0, 0, 0, 0.15);
+      padding: 10px 14px;
+      border-radius: 6px;
+    }
+
+    .block-label {
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .eng-text {
+      font-size: 14.5px;
+      line-height: 1.5;
+      color: #ffffff;
+    }
+
+    .draft-text {
+      font-size: 14px;
+      line-height: 1.5;
+      color: rgba(243, 244, 246, 0.8);
+    }
+
+    .workspace-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      height: 100%;
+    }
+
+    .polish-input-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--color-primary);
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      flex-shrink: 0; /* 라벨이 축소되지 않도록 설정 */
+    }
+
+    .polish-textbox {
+      width: 100%;
+      flex: 1; /* 남은 수직 높이를 상하로 100% 꽉 채우도록 설정 */
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 12px 14px;
+      color: #ffffff;
+      font-size: 14.5px;
+      line-height: 1.6;
+      font-family: var(--font-noto);
+      resize: vertical;
+      min-height: 120px;
+      outline: none;
+      transition: all 0.3s ease;
+    }
+
+    .polish-textbox:focus {
+      border-color: var(--color-primary);
+      background: rgba(0, 0, 0, 0.45);
+    }
+
+    /* Keyword highlight styling */
+    .term-highlight {
+      border-bottom: 1.5px dotted var(--color-primary);
+      color: var(--color-primary);
+      cursor: help;
+      position: relative;
+    }
+
+    .term-highlight .tooltip {
+      visibility: hidden;
+      width: 220px;
+      background-color: #171d28;
+      color: var(--text-main);
+      text-align: left;
+      border-radius: 8px;
+      padding: 12px;
+      border: 1px solid var(--color-primary);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+      position: absolute;
+      z-index: 10;
+      bottom: 125%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.2s ease, transform 0.2s ease;
+      font-size: 12px;
+      line-height: 1.5;
+      font-family: var(--font-noto);
+      pointer-events: none;
+    }
+
+    .term-highlight:hover .tooltip {
+      visibility: visible;
+      opacity: 1;
+      transform: translate(-50%, -5px);
+    }
+
+    .tooltip-header {
+      font-weight: 700;
+      color: var(--color-accent);
+      margin-bottom: 4px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .tooltip-body {
+      color: var(--text-muted);
+    }
+
+    /* Editor Controls */
+    .editor-navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      border-top: 1px solid var(--border-color);
+      padding-top: 20px;
+    }
+
+    .navigation-stats {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    .empty-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 20px;
+      text-align: center;
+      color: var(--text-muted);
+      background: var(--card-bg);
+      border: 1px dashed var(--border-color);
+      border-radius: 16px;
+    }
+
+    .empty-state i {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 16px;
+      color: var(--color-purple);
+    }
+
+    .empty-state h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #171d28;
+      border: 1px solid var(--color-primary);
+      box-shadow: 0 10px 30px rgba(0, 255, 208, 0.15);
+      border-radius: 8px;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      z-index: 1000;
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    .toast-icon {
+      color: var(--color-primary);
+    }
+
+    .toast-msg {
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header>
+    <div class="logo-container">
+      <i data-feather="cpu" class="logo-icon"></i>
+      <span class="logo-title">Axiom Verge 2</span>
+      <span class="logo-badge">KOREAN WIKI & EDITOR</span>
+    </div>
+    
+    <div class="tabs">
+      <button class="tab-btn active" id="btn-tab-glossary" onclick="switchTab('glossary')">
+        <i data-feather="book-open"></i>용어집 사전
+      </button>
+      <button class="tab-btn" id="btn-tab-notes" onclick="switchTab('notes')">
+        <i data-feather="file-text"></i>아이템/기록물 에디터
+      </button>
+      <button class="tab-btn" id="btn-tab-editor" onclick="switchTab('editor')">
+        <i data-feather="edit-3"></i>대사 윤색기 (Dialogue)
+      </button>
+    </div>
+
+    <div class="header-actions">
+      <button class="btn btn-secondary" onclick="resetAll()">
+        <i data-feather="rotate-ccw"></i>초기화
+      </button>
+      <button class="btn" id="btn-export" onclick="exportCsv()">
+        <i data-feather="download"></i>Dialogue.csv 내보내기
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Area -->
+  <div class="app-container">
+    
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="search-wrapper">
+          <i data-feather="search" class="search-icon"></i>
+          <input type="text" id="search-box" class="search-input" placeholder="실시간 검색..." oninput="handleSearch()">
+        </div>
+      </div>
+      
+      <!-- Filters (Category / Speakers) in Sidebar -->
+      <div class="category-filter" id="sidebar-filters">
+        <!-- Dynamic Filters -->
+      </div>
+      
+      <!-- Scrolling List -->
+      <div class="list-container" id="sidebar-list">
+        <!-- Dynamic list items -->
+      </div>
+    </aside>
+
+    <!-- Main Dynamic Content Area -->
+    <main class="content-area" id="main-content">
+      <!-- Detailed views rendered here -->
+    </main>
+
+  </div>
+
+  <!-- Toast Message -->
+  <div class="toast" id="toast">
+    <i data-feather="check-circle" class="toast-icon"></i>
+    <span class="toast-msg" id="toast-text">변경사항이 저장되었습니다.</span>
+  </div>
+
+  <script>
+    // System state
+    let activeTab = 'glossary'; // 'glossary' | 'notes' | 'editor'
+    let searchKeyword = '';
+    
+    // Glossary selections
+    let selectedTermId = null;
+    let selectedCategory = 'ALL';
+    
+    // Notes selections
+    let selectedNoteKey = null;
+    let selectedCsv = 'Notes.csv'; // Active CSV in the generalized text editor tab
+    
+    function changeSelectedCsv(val) {
+      selectedCsv = val;
+      selectedNoteKey = null;
+      
+      const items = WIKI_DATA.dialogues.filter(d => d.file === selectedCsv);
+      if (items.length > 0) {
+        selectedNoteKey = items[0].key;
+      }
+      
+      const exportBtn = document.getElementById('btn-export');
+      exportBtn.innerHTML = `<i data-feather="download"></i>${selectedCsv} 내보내기`;
+      
+      renderNotesFilters();
+      renderSidebarList();
+      renderMainContent();
+      feather.replace();
+    }
+    
+    // Editor selections (Grouped Scenes)
+    let selectedSceneId = null;
+    let selectedSpeaker = 'ALL';
+
+    // ScrollSpy and smooth scrolling state
+    let isAutoScrolling = false;
+    let autoScrollTimeout = null;
+
+    function scrollToCard(id) {
+      const cardEl = document.getElementById(id);
+      if (cardEl) {
+        isAutoScrolling = true;
+        if (autoScrollTimeout) clearTimeout(autoScrollTimeout);
+
+        // Highlight the sidebar item
+        document.querySelectorAll('#sidebar-list .list-item').forEach(el => el.classList.remove('active'));
+        const sidebarItem = document.querySelector(`#sidebar-list .list-item[data-id="${id}"]`);
+        if (sidebarItem) {
+          sidebarItem.classList.add('active');
+          sidebarItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        // Scroll to card
+        cardEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        
+        // Apply temporary scale & shadow effect
+        cardEl.style.transform = 'scale(1.005)';
+        cardEl.style.filter = 'drop-shadow(0 0 15px var(--color-primary-glow))';
+        setTimeout(() => {
+          cardEl.style.transform = '';
+          cardEl.style.filter = '';
+        }, 1500);
+
+        autoScrollTimeout = setTimeout(() => {
+          isAutoScrolling = false;
+        }, 1000);
+      }
+    }
+
+    // Local storage persistence
+    let localData = {
+      polished: {}, // { [dialogue_key]: text }
+      context: {}   // { [scene_id]: context_memo }
+    };
+
+    // Load from localStorage
+    function loadLocalData() {
+      const stored = localStorage.getItem('av2_polish_data');
+      if (stored) {
+        try {
+          localData = JSON.parse(stored);
+        } catch (e) {
+          console.error("LocalData parsing error, reset to default", e);
+        }
+      }
+    }
+
+    // Save to localStorage
+    function saveLocalData() {
+      localStorage.setItem('av2_polish_data', JSON.stringify(localData));
+    }
+
+    // Initialize application
+    window.addEventListener('DOMContentLoaded', () => {
+      loadLocalData();
+      feather.replace();
+      switchTab('glossary');
+
+      // Set up ScrollSpy on #main-content
+      const mainContent = document.getElementById('main-content');
+      mainContent.addEventListener('scroll', handleScrollSpy);
+    });
+
+    function handleScrollSpy() {
+      if (isAutoScrolling) return;
+
+      const container = document.getElementById('main-content');
+      const containerTop = container.getBoundingClientRect().top;
+      
+      let cardSelector = '';
+      if (activeTab === 'glossary') {
+        cardSelector = '.term-card-wrapper';
+      } else if (activeTab === 'notes') {
+        cardSelector = '.note-card-wrapper';
+      } else {
+        cardSelector = '.scene-card';
+      }
+      
+      const cards = container.querySelectorAll(cardSelector);
+      let activeCardId = null;
+
+      for (let card of cards) {
+        const rect = card.getBoundingClientRect();
+        if (rect.top - containerTop <= 120) {
+          activeCardId = card.id;
+        } else {
+          break;
+        }
+      }
+
+      if (!activeCardId && cards.length > 0) {
+        activeCardId = cards[0].id;
+      }
+
+      if (activeCardId) {
+        const sidebarItems = document.querySelectorAll('#sidebar-list .list-item');
+        let matchedItem = null;
+        
+        sidebarItems.forEach(item => {
+          const itemId = item.getAttribute('data-id');
+          if (itemId === activeCardId) {
+            matchedItem = item;
+          }
+        });
+
+        if (matchedItem && !matchedItem.classList.contains('active')) {
+          sidebarItems.forEach(el => el.classList.remove('active'));
+          matchedItem.classList.add('active');
+          matchedItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          
+          if (activeTab === 'glossary') {
+            selectedTermId = activeCardId.replace('term-', '');
+          } else if (activeTab === 'notes') {
+            selectedNoteKey = activeCardId.replace('note-', '');
+          } else {
+            selectedSceneId = activeCardId.replace('scene-', '');
+          }
+        }
+      }
+    }
+
+    // Switch Tabs
+    function switchTab(tab) {
+      activeTab = tab;
+      
+      // Update UI active buttons
+      document.getElementById('btn-tab-glossary').classList.toggle('active', tab === 'glossary');
+      document.getElementById('btn-tab-notes').classList.toggle('active', tab === 'notes');
+      document.getElementById('btn-tab-editor').classList.toggle('active', tab === 'editor');
+      
+      // Reset filter states
+      searchKeyword = '';
+      document.getElementById('search-box').value = '';
+
+      // Scroll content area back to top
+      document.getElementById('main-content').scrollTop = 0;
+
+      const exportBtn = document.getElementById('btn-export');
+      
+      if (tab === 'glossary') {
+        exportBtn.style.display = 'none';
+        selectedCategory = 'ALL';
+        renderGlossaryFilters();
+        if (WIKI_DATA.terms.length > 0) {
+          selectedTermId = WIKI_DATA.terms[0].english;
+        }
+        renderSidebarList();
+        renderMainContent();
+      } else if (tab === 'notes') {
+        exportBtn.style.display = 'flex';
+        exportBtn.innerHTML = `<i data-feather="download"></i>${selectedCsv} 내보내기`;
+        // Auto-select first item of the selected CSV
+        const items = WIKI_DATA.dialogues.filter(d => d.file === selectedCsv);
+        if (items.length > 0) {
+          selectedNoteKey = items[0].key;
+        }
+        renderNotesFilters();
+        renderSidebarList();
+        renderMainContent();
+      } else {
+        // Editor Tab (Dialogue.csv only)
+        exportBtn.style.display = 'flex';
+        exportBtn.innerHTML = `<i data-feather="download"></i>Dialogue.csv 내보내기`;
+        selectedSpeaker = 'ALL';
+        
+        // Group dialogues into scenes
+        const scenes = getGroupedScenes();
+        if (scenes.length > 0) {
+          selectedSceneId = scenes[0].id;
+        }
+        
+        renderEditorFilters();
+        renderSidebarList();
+        renderMainContent();
+      }
+      feather.replace();
+    }
+
+    // Toast show helper
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      document.getElementById('toast-text').innerText = msg;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 2500);
+    }
+
+    // 1. GLOASSARY TABS RENDERING
+    function renderGlossaryFilters() {
+      const categories = ['ALL'];
+      WIKI_DATA.terms.forEach(t => {
+        const cat = t.category || 'General';
+        if (!categories.includes(cat)) {
+          categories.push(cat);
+        }
+      });
+
+      const container = document.getElementById('sidebar-filters');
+      container.innerHTML = categories.map(cat => `
+        <span class="cat-badge ${selectedCategory === cat ? 'active' : ''}" onclick="selectCategory('${cat}')">${cat}</span>
+      `).join('');
+    }
+
+    function selectCategory(cat) {
+      selectedCategory = cat;
+      renderGlossaryFilters();
+      const filtered = getFilteredTerms();
+      selectedTermId = filtered.length > 0 ? filtered[0].english : null;
+      renderSidebarList();
+      renderMainContent();
+    }
+
+    function getFilteredTerms() {
+      return WIKI_DATA.terms.filter(t => {
+        const cat = t.category || 'General';
+        const matchesCategory = selectedCategory === 'ALL' || cat === selectedCategory;
+        const matchesKeyword = searchKeyword === '' || 
+          t.english.toLowerCase().includes(searchKeyword.toLowerCase()) || 
+          t.korean.toLowerCase().includes(searchKeyword.toLowerCase());
+        return matchesCategory && matchesKeyword;
+      });
+    }
+
+    // Helper to resolve actual Key in Notes.csv for title/name and text
+    function getNotePartKey(baseKey, suffix) {
+      if (suffix === 'TEXT') {
+        return `${baseKey}_TEXT`;
+      }
+      const hasTitle = WIKI_DATA.csvRaw.notes.some(row => row.Key === `${baseKey}_TITLE`);
+      if (hasTitle) return `${baseKey}_TITLE`;
+      
+      const hasName = WIKI_DATA.csvRaw.notes.some(row => row.Key === `${baseKey}_NAME`);
+      if (hasName) return `${baseKey}_NAME`;
+
+      return `${baseKey}_TITLE`;
+    }
+
+    // 2. NOTES (REFERENCE) TAB RENDERING
+    function renderNotesFilters() {
+      const container = document.getElementById('sidebar-filters');
+      container.innerHTML = `
+        <div style="font-size:11px; font-weight:700; color:var(--text-muted); margin-bottom:6px; width:100%;">대상 CSV 파일 선택:</div>
+        <select id="csv-select" onchange="changeSelectedCsv(this.value)" style="width:100%; background:rgba(0,0,0,0.3); border:1px solid var(--border-color); color:var(--text-main); padding:8px; border-radius:6px; font-family:var(--font-noto); font-size:13.5px; outline:none; cursor:pointer;">
+          <option value="Notes.csv" ${selectedCsv === 'Notes.csv' ? 'selected' : ''}>Notes.csv (기록물)</option>
+          <option value="Items.csv" ${selectedCsv === 'Items.csv' ? 'selected' : ''}>Items.csv (아이템)</option>
+          <option value="Skills.csv" ${selectedCsv === 'Skills.csv' ? 'selected' : ''}>Skills.csv (기술)</option>
+          <option value="Hacks.csv" ${selectedCsv === 'Hacks.csv' ? 'selected' : ''}>Hacks.csv (해킹/기타)</option>
+        </select>
+      `;
+    }
+
+    function getFilteredNotes() {
+      return WIKI_DATA.dialogues.filter(d => {
+        if (d.file !== selectedCsv) return false;
+        
+        return searchKeyword === '' || 
+          (d.key && d.key.toLowerCase().includes(searchKeyword.toLowerCase())) ||
+          (d.title_eng && d.title_eng.toLowerCase().includes(searchKeyword.toLowerCase())) ||
+          (d.text_eng && d.text_eng.toLowerCase().includes(searchKeyword.toLowerCase())) ||
+          (d.title_kor && d.title_kor.toLowerCase().includes(searchKeyword.toLowerCase())) ||
+          (d.text_kor && d.text_kor.toLowerCase().includes(searchKeyword.toLowerCase()));
+      });
+    }
+
+    // 3. EDITOR (DIALOGUE.CSV SCENE GROUPING) RENDERING
+    function getGroupedScenes() {
+      const dialogueList = WIKI_DATA.dialogues.filter(d => d.file === 'Dialogue.csv');
+      
+      const scenes = [];
+      let currentScene = null;
+
+      dialogueList.forEach(d => {
+        // Extract Prefix e.g., DLG_INTROFLIGHT
+        const match = d.key.match(/^(.+)_\d+$/);
+        const sceneId = match ? match[1] : d.key;
+
+        if (!currentScene || currentScene.id !== sceneId) {
+          currentScene = {
+            id: sceneId,
+            title: sceneId.replace(/^DLG_/, ''),
+            dialogues: [],
+            speakerList: new Set()
+          };
+          scenes.push(currentScene);
+        }
+        currentScene.dialogues.push(d);
+        if (d.speaker) currentScene.speakerList.add(d.speaker);
+      });
+
+      return scenes;
+    }
+
+    function getFilteredScenes() {
+      const scenes = getGroupedScenes();
+      return scenes.filter(scene => {
+        // Filter by speaker
+        const matchesSpeaker = selectedSpeaker === 'ALL' || scene.speakerList.has(selectedSpeaker);
+        
+        // Filter by keyword search inside dialogues of this scene
+        const matchesKeyword = searchKeyword === '' || 
+          scene.id.toLowerCase().includes(searchKeyword.toLowerCase()) ||
+          scene.dialogues.some(d => 
+            (d.key && d.key.toLowerCase().includes(searchKeyword.toLowerCase())) ||
+            (d.text_eng && d.text_eng.toLowerCase().includes(searchKeyword.toLowerCase())) ||
+            (d.text_kor && d.text_kor.toLowerCase().includes(searchKeyword.toLowerCase()))
+          );
+          
+        return matchesSpeaker && matchesKeyword;
+      });
+    }
+
+    function renderEditorFilters() {
+      // Collect all speakers in Dialogue.csv
+      const speakers = ['ALL'];
+      WIKI_DATA.dialogues.forEach(d => {
+        if (d.file === 'Dialogue.csv' && d.speaker && !speakers.includes(d.speaker)) {
+          speakers.push(d.speaker);
+        }
+      });
+
+      const container = document.getElementById('sidebar-filters');
+      let html = `<div style="font-size:11px; font-weight:700; color:var(--text-muted); margin-bottom:6px; width:100%;">대화 참여 화자 필터:</div>`;
+      html += speakers.map(sp => `
+        <span class="cat-badge ${selectedSpeaker === sp ? 'active' : ''}" onclick="selectSpeaker('${sp}')">${sp}</span>
+      `).join('');
+      container.innerHTML = html;
+    }
+
+    function selectSpeaker(sp) {
+      selectedSpeaker = sp;
+      renderEditorFilters();
+      renderSidebarList();
+      renderMainContent();
+    }
+
+    // 4. SIDEBAR SCROLLING LIST RENDERER
+    function renderSidebarList() {
+      const container = document.getElementById('sidebar-list');
+      container.innerHTML = '';
+
+      if (activeTab === 'glossary') {
+        const filtered = getFilteredTerms();
+        if (filtered.length === 0) {
+          container.innerHTML = `<div style="text-align:center; padding: 20px; color: var(--text-muted); font-size: 13px;">일치하는 용어가 없습니다.</div>`;
+          return;
+        }
+        filtered.forEach(t => {
+          const item = document.createElement('div');
+          item.className = `list-item ${selectedTermId === t.english ? 'active' : ''}`;
+          item.setAttribute('data-id', `term-${t.english}`);
+          item.onclick = () => {
+            selectedTermId = t.english;
+            scrollToCard(`term-${t.english}`);
+          };
+          item.innerHTML = `
+            <div class="list-item-title">${t.english} <i data-feather="chevron-right" style="width: 14px; height: 14px;"></i></div>
+            <div class="list-item-subtitle">${t.korean}</div>
+          `;
+          container.appendChild(item);
+        });
+      } 
+      else if (activeTab === 'notes') {
+        const filtered = getFilteredNotes();
+        if (filtered.length === 0) {
+          container.innerHTML = `<div style="text-align:center; padding: 20px; color: var(--text-muted); font-size: 13px;">일치하는 항목이 없습니다.</div>`;
+          return;
+        }
+        filtered.forEach(n => {
+          let isModified = false;
+          if (selectedCsv === 'Notes.csv') {
+            const titleKey = getNotePartKey(n.key, 'TITLE');
+            const textKey = getNotePartKey(n.key, 'TEXT');
+            isModified = localData.polished[titleKey] !== undefined || localData.polished[textKey] !== undefined;
+          } else {
+            isModified = localData.polished[n.key] !== undefined;
+          }
+
+          const item = document.createElement('div');
+          item.className = `list-item ${selectedNoteKey === n.key ? 'active' : ''}`;
+          item.setAttribute('data-id', `note-${n.key}`);
+          item.onclick = () => {
+            selectedNoteKey = n.key;
+            scrollToCard(`note-${n.key}`);
+          };
+          
+          const displayTitle = n.key;
+          const displaySubtitle = n.title_eng ? n.title_eng : n.text_eng;
+          
+          item.innerHTML = `
+            <div class="list-item-title">${displayTitle} 
+              ${isModified ? '<span style="width:6px; height:6px; border-radius:50%; background:var(--color-primary); display:inline-block;" title="윤색됨"></span>' : ''}
+              <i data-feather="chevron-right" style="width: 14px; height: 14px;"></i>
+            </div>
+            <div class="list-item-subtitle">${displaySubtitle}</div>
+          `;
+          container.appendChild(item);
+        });
+      }
+      else {
+        // Editor Tab - Grouped Scene List
+        const filtered = getFilteredScenes();
+        if (filtered.length === 0) {
+          container.innerHTML = `<div style="text-align:center; padding: 20px; color: var(--text-muted); font-size: 13px;">일치하는 씬이 없습니다.</div>`;
+          return;
+        }
+
+        filtered.forEach(scene => {
+          const isModified = scene.dialogues.some(d => localData.polished[d.key] !== undefined) || localData.context[scene.id];
+          
+          const item = document.createElement('div');
+          item.className = `list-item ${selectedSceneId === scene.id ? 'active' : ''}`;
+          item.setAttribute('data-id', `scene-${scene.id}`);
+          item.onclick = () => {
+            selectedSceneId = scene.id;
+            scrollToCard(`scene-${scene.id}`);
+          };
+
+          item.innerHTML = `
+            <div class="list-item-title" style="font-family: var(--font-outfit);">
+              ${scene.title}
+              ${isModified ? '<span style="width:6px; height:6px; border-radius:50%; background:var(--color-primary); display:inline-block;" title="윤색됨"></span>' : ''}
+            </div>
+            <div class="list-item-subtitle">${Array.from(scene.speakerList).join(', ') || '지문'} (${scene.dialogues.length}개 대사)</div>
+          `;
+          container.appendChild(item);
+        });
+      }
+      feather.replace();
+    }
+
+    function handleSearch() {
+      searchKeyword = document.getElementById('search-box').value;
+      if (activeTab === 'glossary') {
+        const filtered = getFilteredTerms();
+        selectedTermId = filtered.length > 0 ? filtered[0].english : null;
+      } else if (activeTab === 'notes') {
+        const filtered = getFilteredNotes();
+        selectedNoteKey = filtered.length > 0 ? filtered[0].key : null;
+      } else {
+        const filtered = getFilteredScenes();
+        selectedSceneId = filtered.length > 0 ? filtered[0].id : null;
+      }
+      renderSidebarList();
+      renderMainContent();
+    }
+
+    // 5. MAIN CONTENT RENDERING
+    function renderMainContent() {
+      const container = document.getElementById('main-content');
+      container.innerHTML = '';
+
+      if (activeTab === 'glossary') {
+        const filtered = getFilteredTerms();
+        if (filtered.length === 0) {
+          container.innerHTML = `<div class="empty-state"><i data-feather="info"></i><h3>용어가 없습니다</h3></div>`;
+          feather.replace();
+          return;
+        }
+
+        let html = '<div class="term-view" style="display:flex; flex-direction:column; gap:40px;">';
+        filtered.forEach(term => {
+          const htmlDescription = marked.parse(term.details || "_세부 내용이 없습니다._");
+          html += `
+            <div class="term-card-wrapper" id="term-${term.english}" style="scroll-margin-top: 20px; transition: all 0.3s ease;">
+              <div class="term-header">
+                <div class="term-title-wrapper">
+                  <span class="term-title-eng">${term.english}</span>
+                  <span class="term-title-kor">${term.korean}</span>
+                </div>
+                <div class="term-meta">
+                  <span class="meta-pill meta-pill-accent"><span class="meta-label">분류:</span> ${term.category || 'General'}</span>
+                  <span class="meta-pill"><span class="meta-label">어원:</span> ${term.origin}</span>
+                  <span class="meta-pill"><span class="meta-label">맥락:</span> ${term.context}</span>
+                </div>
+              </div>
+              
+              <div class="term-card" style="margin-top: 16px;">
+                <div class="card-title"><i data-feather="file-text"></i>용어 분석 및 번역 지침</div>
+                <div class="term-analysis">${htmlDescription}</div>
+              </div>
+            </div>
+          `;
+        });
+        html += '</div>';
+        container.innerHTML = html;
+      } 
+      else if (activeTab === 'notes') {
+        const filtered = getFilteredNotes();
+        if (filtered.length === 0) {
+          container.innerHTML = `<div class="empty-state"><i data-feather="info"></i><h3>항목이 없습니다</h3></div>`;
+          feather.replace();
+          return;
+        }
+
+        let html = '<div class="editor-view" style="display:flex; flex-direction:column; gap:40px;">';
+        filtered.forEach(note => {
+          if (selectedCsv === 'Notes.csv') {
+            const titleKey = getNotePartKey(note.key, 'TITLE');
+            const textKey = getNotePartKey(note.key, 'TEXT');
+
+            const hasTitle = note.title_eng || note.title_kor;
+            const hasText = note.text_eng || note.text_kor;
+
+            const polishedTitle = localData.polished[titleKey] !== undefined ? localData.polished[titleKey] : (note.title_kor || '');
+            const polishedText = localData.polished[textKey] !== undefined ? localData.polished[textKey] : (note.text_kor || '');
+
+            let titleWorkspaceHtml = '';
+            if (hasTitle) {
+              titleWorkspaceHtml = `
+                <div class="dialogue-item-row" style="margin-bottom: 20px;">
+                  <div class="dialogue-item-header">
+                    <span class="item-key">${titleKey}</span>
+                    <span class="item-speaker" style="color: var(--color-purple);">
+                      <i data-feather="bookmark" style="width:13px; height:13px;"></i>문서 제목
+                    </span>
+                  </div>
+                  <div class="dialogue-workspace">
+                    <div class="workspace-left">
+                      <div class="workspace-block">
+                        <div class="block-label">English Title</div>
+                        <div class="eng-text">${highlightTerms(note.title_eng || '')}</div>
+                      </div>
+                      <div class="workspace-block">
+                        <div class="block-label">현재 번역 한국어 제목</div>
+                        <div class="draft-text">${note.title_kor || ''}</div>
+                      </div>
+                    </div>
+                    <div class="workspace-right">
+                      <div class="polish-input-label">
+                        <i data-feather="edit-3" style="width:13px; height:13px;"></i>한국어 제목 윤색안
+                      </div>
+                      <input type="text" class="scene-memo-input" style="width:100%; height: auto;"
+                        placeholder="윤색할 제목을 입력하세요..."
+                        value="${escapeHtml(polishedTitle)}"
+                        oninput="updatePolished('${titleKey}', this.value, '${note.key}')">
+                    </div>
+                  </div>
+                </div>
+              `;
+            }
+
+            let textWorkspaceHtml = '';
+            if (hasText) {
+              textWorkspaceHtml = `
+                <div class="dialogue-item-row">
+                  <div class="dialogue-item-header">
+                    <span class="item-key">${textKey}</span>
+                    <span class="item-speaker" style="color: var(--color-primary);">
+                      <i data-feather="file-text" style="width:13px; height:13px;"></i>문서 본문
+                    </span>
+                  </div>
+                  <div class="dialogue-workspace">
+                    <div class="workspace-left">
+                      <div class="workspace-block">
+                        <div class="block-label">English Text</div>
+                        <div class="eng-text">${highlightTerms(note.text_eng || '')}</div>
+                      </div>
+                      <div class="workspace-block">
+                        <div class="block-label">현재 번역 한국어 본문</div>
+                        <div class="draft-text">${(note.text_kor || '').replace(/\n/g, '<br>')}</div>
+                      </div>
+                    </div>
+                    <div class="workspace-right">
+                      <div class="polish-input-label">
+                        <i data-feather="edit-3" style="width:13px; height:13px;"></i>한국어 본문 윤색안
+                      </div>
+                      <textarea class="polish-textbox" 
+                        placeholder="윤색할 본문을 입력하세요..."
+                        oninput="updatePolished('${textKey}', this.value, '${note.key}')">${polishedText}</textarea>
+                    </div>
+                  </div>
+                </div>
+              `;
+            }
+
+            html += `
+              <div class="note-card-wrapper" id="note-${note.key}" style="scroll-margin-top: 20px; transition: all 0.3s ease;">
+                <div class="term-header" style="border-bottom: 2px solid var(--border-color); padding-bottom: 20px; margin-bottom: 20px;">
+                  <div class="term-title-wrapper">
+                    <span class="term-title-eng" style="font-size:24px;">기록문서 윤색: ${note.key}</span>
+                  </div>
+                  <div class="term-meta">
+                    <span class="meta-pill meta-pill-accent"><i data-feather="file" style="width:14px; height:14px;"></i>Notes.csv 에디터</span>
+                    ${note.speaker ? `<span class="meta-pill"><i data-feather="user" style="width:14px; height:14px;"></i>작성자: ${note.speaker}</span>` : ''}
+                  </div>
+                </div>
+                
+                <div class="scene-card">
+                  <div class="scene-dialogue-list">
+                    ${titleWorkspaceHtml}
+                    ${textWorkspaceHtml}
+                  </div>
+                </div>
+              </div>
+            `;
+          } else {
+            // General flat CSV files (Hacks, Items, Skills)
+            const polishedText = localData.polished[note.key] !== undefined ? localData.polished[note.key] : (note.text_kor || '');
+
+            html += `
+              <div class="note-card-wrapper" id="note-${note.key}" style="scroll-margin-top: 20px; transition: all 0.3s ease;">
+                <div class="term-header" style="border-bottom: 2px solid var(--border-color); padding-bottom: 20px; margin-bottom: 20px;">
+                  <div class="term-title-wrapper">
+                    <span class="term-title-eng" style="font-size:24px;">항목 윤색: ${note.key}</span>
+                  </div>
+                  <div class="term-meta">
+                    <span class="meta-pill meta-pill-accent"><i data-feather="file" style="width:14px; height:14px;"></i>${selectedCsv} 에디터</span>
+                  </div>
+                </div>
+                
+                <div class="scene-card">
+                  <div class="scene-dialogue-list">
+                    <div class="dialogue-item-row">
+                      <div class="dialogue-item-header">
+                        <span class="item-key">${note.key}</span>
+                      </div>
+                      <div class="dialogue-workspace">
+                        <div class="workspace-left">
+                          <div class="workspace-block">
+                            <div class="block-label">English Source</div>
+                            <div class="eng-text">${highlightTerms(note.text_eng || '')}</div>
+                          </div>
+                          <div class="workspace-block">
+                            <div class="block-label">현재 번역 한국어</div>
+                            <div class="draft-text">${(note.text_kor || '').replace(/\n/g, '<br>')}</div>
+                          </div>
+                        </div>
+                        <div class="workspace-right">
+                          <div class="polish-input-label">
+                            <i data-feather="edit-3" style="width:13px; height:13px;"></i>한국어 번역 윤색안
+                          </div>
+                          <textarea class="polish-textbox" 
+                            placeholder="윤색할 번역을 입력하세요..."
+                            oninput="updatePolished('${note.key}', this.value, '${note.key}')">${polishedText}</textarea>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            `;
+          }
+        });
+        html += '</div>';
+        container.innerHTML = html;
+      } 
+      else {
+        // Dialogue Editor Tab (Grouped Scene-based UI)
+        const filtered = getFilteredScenes();
+        if (filtered.length === 0) {
+          container.innerHTML = `<div class="empty-state"><i data-feather="edit-2"></i><h3>대사가 없습니다</h3></div>`;
+          feather.replace();
+          return;
+        }
+
+        const editorWrapper = document.createElement('div');
+        editorWrapper.className = 'editor-view';
+        
+        editorWrapper.innerHTML = `
+          <div class="editor-intro">
+            <i data-feather="info" class="editor-intro-icon"></i>
+            <div class="editor-intro-content">
+              <h3>대화 흐름(Scene) 단위 번역 윤색 (Dialogue.csv)</h3>
+              <p>대사 키의 접두사를 분석해 하나의 대화 흐름(Scene)으로 자동 묶어 나열했습니다. 
+              해당 씬 전체의 **컨텍스트 상황과 인물의 말투 지침**을 하나의 씬 메모로 관리하고, 대화의 시간적 맥락에 집중하여 대사별 윤색안을 작성해 보세요.</p>
+            </div>
+          </div>
+        `;
+
+        filtered.forEach(scene => {
+          const isModified = scene.dialogues.some(d => localData.polished[d.key] !== undefined) || localData.context[scene.id];
+          const currentMemo = localData.context[scene.id] || '';
+          
+          const sceneCard = document.createElement('div');
+          sceneCard.className = `scene-card ${isModified ? 'modified' : ''}`;
+          sceneCard.id = `scene-${scene.id}`;
+          sceneCard.style.scrollMarginTop = '20px';
+          sceneCard.style.transition = 'all 0.3s ease';
+          
+          // Render each dialogue item in this scene
+          let dialoguesHtml = '';
+          scene.dialogues.forEach(d => {
+            const draftText = d.text_kor || '';
+            const polishedText = localData.polished[d.key] !== undefined ? localData.polished[d.key] : draftText;
+            
+            dialoguesHtml += `
+              <div class="dialogue-item-row" id="item-${d.key}">
+                <div class="dialogue-item-header">
+                  <span class="item-key">${d.key}</span>
+                  <span class="item-speaker">
+                    <i data-feather="message-square" style="width:13px; height:13px;"></i>
+                    ${d.speaker ? d.speaker : '<span class="item-speaker-empty">지문 / 해설</span>'}
+                  </span>
+                </div>
+                
+                <div class="dialogue-workspace">
+                  <div class="workspace-left">
+                    <div class="workspace-block">
+                      <div class="block-label">English Source</div>
+                      <div class="eng-text">${highlightTerms(d.text_eng)}</div>
+                    </div>
+                    <div class="workspace-block">
+                      <div class="block-label">현재 번역 한국어</div>
+                      <div class="draft-text">${draftText.replace(/\n/g, '<br>')}</div>
+                    </div>
+                  </div>
+                  
+                  <div class="workspace-right">
+                    <div class="polish-input-label">
+                      <i data-feather="edit-3" style="width:13px; height:13px;"></i>한국어 번역 윤색안
+                    </div>
+                    <textarea class="polish-textbox" 
+                      placeholder="윤색할 번역문을 입력하세요..."
+                      oninput="updatePolished('${d.key}', this.value, '${scene.id}')">${polishedText}</textarea>
+                  </div>
+                </div>
+              </div>
+            `;
+          });
+
+          sceneCard.innerHTML = `
+            <div class="scene-header">
+              <div class="scene-title-wrapper">
+                <span class="scene-title"><i data-feather="film" style="color:var(--color-primary);"></i>SCENE: ${scene.title}</span>
+                <span class="scene-speakers">참여 화자: <span>${Array.from(scene.speakerList).join(', ') || '없음'}</span></span>
+              </div>
+            </div>
+            
+            <!-- Shared Scene Context Memo -->
+            <div class="scene-memo-box">
+              <label class="scene-memo-label">
+                <i data-feather="message-circle" style="width:14px; height:14px;"></i>
+                이 대화 씬(Scene)의 상황 컨텍스트 / 등장인물 감정 & 말투 메모
+              </label>
+              <input type="text" class="scene-memo-input" 
+                placeholder="예: 인드라가 처음으로 동료를 대면하여 의심스러워하고 경계하는 컨텍스트. 딱딱한 말투." 
+                value="${escapeHtml(currentMemo)}"
+                oninput="updateSceneContext('${scene.id}', this.value)">
+            </div>
+            
+            <!-- Dialogues List in this Scene -->
+            <div class="scene-dialogue-list">
+              ${dialoguesHtml}
+            </div>
+          `;
+          
+          editorWrapper.appendChild(sceneCard);
+        });
+
+        container.appendChild(editorWrapper);
+      }
+      feather.replace();
+    }
+
+    // Helper: Escape HTML
+    function escapeHtml(text) {
+      if (!text) return '';
+      return text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    // Helper: Highlight terms in English dialog text
+    function highlightTerms(text) {
+      if (!text) return '';
+      let result = text;
+      
+      const sortedTerms = [...WIKI_DATA.terms].sort((a, b) => b.english.length - a.english.length);
+      
+      sortedTerms.forEach(t => {
+        const regex = new RegExp(`\\b(${t.english})\\b`, 'gi');
+        result = result.replace(regex, (match) => {
+          return `
+            <span class="term-highlight">${match}
+              <span class="tooltip">
+                <span class="tooltip-header">
+                  <span>${t.english}</span>
+                  <span>${t.korean}</span>
+                </span>
+                <span class="tooltip-body">어원: ${t.origin}<br>맥락: ${t.context}</span>
+              </span>
+            </span>
+          `;
+        });
+      });
+      return result;
+    }
+
+    // Live State updates
+    function updatePolished(key, value, sceneId) {
+      localData.polished[key] = value;
+      saveLocalData();
+      
+      const sceneCard = document.getElementById(`scene-${sceneId}`);
+      if (sceneCard) {
+        sceneCard.classList.add('modified');
+      }
+    }
+
+    function updateSceneContext(sceneId, value) {
+      localData.context[sceneId] = value;
+      saveLocalData();
+      
+      const sceneCard = document.getElementById(`scene-${sceneId}`);
+      if (sceneCard) {
+        sceneCard.classList.add('modified');
+      }
+    }
+
+    // Export CSV logic for selected CSVs
+    function exportCsv() {
+      if (activeTab === 'notes') {
+        if (selectedCsv === 'Notes.csv') {
+          exportGenericCsv('Notes.csv', WIKI_DATA.csvRaw.notes);
+        } else if (selectedCsv === 'Items.csv') {
+          exportGenericCsv('Items.csv', WIKI_DATA.csvRaw.items);
+        } else if (selectedCsv === 'Skills.csv') {
+          exportGenericCsv('Skills.csv', WIKI_DATA.csvRaw.skills);
+        } else if (selectedCsv === 'Hacks.csv') {
+          exportGenericCsv('Hacks.csv', WIKI_DATA.csvRaw.hacks);
+        }
+      } else {
+        exportGenericCsv('Dialogue.csv', WIKI_DATA.csvRaw.dialogues);
+      }
+    }
+
+    function exportGenericCsv(filename, rawData) {
+      if (!rawData || rawData.length === 0) {
+        alert(`${filename} 원본 데이터가 존재하지 않습니다.`);
+        return;
+      }
+
+      showToast(`최종 ${filename} 빌드 중...`);
+
+      const updatedRows = rawData.map(row => {
+        const key = row.Key;
+        let newKorean = row.Japanese;
+
+        const polishedVal = localData.polished[key];
+        if (polishedVal !== undefined && polishedVal.trim() !== '') {
+          newKorean = polishedVal;
+        }
+
+        return {
+          Key: row.Key, English: row.English, French: row.French, German: row.German, Italian: row.Italian,
+          Portuguese: row.Portuguese, Spanish: row.Spanish, Russian: row.Russian, Japanese: newKorean, Chinese: row.Chinese
+        };
+      });
+
+      const headers = ["Key", "English", "French", "German", "Italian", "Portuguese", "Spanish", "Russian", "Japanese", "Chinese"];
+      let csvContent = headers.join(",") + "\r\n";
+
+      updatedRows.forEach(row => {
+        const line = headers.map(header => {
+          let cellValue = row[header] === null || row[header] === undefined ? '' : row[header].toString();
+          if (cellValue.includes(',') || cellValue.includes('"') || cellValue.includes('\n') || cellValue.includes('\r')) {
+            cellValue = '"' + cellValue.replace(/"/g, '""') + '"';
+          }
+          return cellValue;
+        }).join(",");
+        csvContent += line + "\r\n";
+      });
+
+      const blob = new Blob([new Uint8Array([0xEF, 0xBB, 0xBF]), csvContent], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.setAttribute("href", url);
+      link.setAttribute("download", filename);
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      showToast(`${filename} 다운로드가 시작되었습니다.`);
+    }
+
+    // Reset local data
+    function resetAll() {
+      if (confirm("모든 윤색 번역안과 컨텍스트 메모가 삭제되고 초기화됩니다. 계속하시겠습니까?")) {
+        localStorage.removeItem('av2_polish_data');
+        localData = { polished: {}, context: {} };
+        renderMainContent();
+        renderSidebarList();
+        showToast("초기화되었습니다.");
+      }
+    }
+  </script>
+</body>
+</html>

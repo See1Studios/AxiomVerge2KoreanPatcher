@@ -211,7 +211,7 @@ class Program
             {
                 Path.Combine(homeDir, ".steam", "steam", "steamapps", "common", "Axiom Verge 2"),
                 Path.Combine(homeDir, ".local", "share", "Steam", "steamapps", "common", "Axiom Verge 2"),
-                "/run/media/mmcblk0p1/steamapps/common/Axiom Verge 2"
+                "/run/media/mmcblk0p1/SteamLibrary/steamapps/common/Axiom Verge 2"
             };
 
             foreach (var path in linuxPaths)

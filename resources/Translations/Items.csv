@@ -1,4 +1,4 @@
-Key,English,French,German,Italian,Portuguese,Spanish,Russian,Japanese,Chinese
+﻿Key,English,French,German,Italian,Portuguese,Spanish,Russian,Japanese,Chinese
 ANGISHRU_NAME,An Gishru,An Gishru,An Gishru,An Gishru,An Gishru,An Gishru,Ан Гишру,안 기슈루,安吉什鲁
 ANGISHRU_DESCRIPTION,Remote Controlled Gishru,Gishru télécommandé,Ferngesteuerter Gishru,Gishru telecomandato,Gishru controlado remotamente,Gishru con control remoto,Радиоуправляемый Гишру,원격 조종이 가능한 기슈루.,可以远程控制吉什鲁
 BREACHATTRACTOR_NAME,Breach Attractor,Attracteur de brèche,Bruch-Attraktor,Attrattore di breccia,Atrator de Ruptura,Imán de la Brecha,Притягиватель разломов,브리치 어트랙터,隙界吸引装置
@@ -43,12 +43,13 @@ ULGISHRU_NAME,Ul Gishru,Interface Gishru,Ul Gishru,Interfaccia Gishru,lU Gishru,
 ULGISHRU_DESCRIPTION,Connects with melee attacks for additional damage.,Se connecte aux attaques en mêlée pour plus de dégâts.,Verbindet sich mit Nahkampfangriffen für zusätzlichen Schaden.,Si associa agli attacchi in mischia per generare danno aggiuntivo.,"Quando o bumerangue está no ar, apertar o botão de ataque o faz lançar um raio que causa dano adicional.",Se activa con los ataques cuerpo a cuerpo para infligir más daño.,В связке с ближними атаками дает дополнительный урон.,근접 공격과 연계되어 추가 피해를 입칩니다.,掷出之后，按下近战攻击按钮，能够造成额外的伤害。
 ARMANUMAN_NAME,Anuman,Anuman,Anuman,Anuman,Anuman,Anuman,Ануман,아누만,阿努曼
 ARMANUMAN_DESCRIPTION,Allows you to transform from drone to humanoid and back.,Permet de passer entre les formes drone et humanoïde.,Erlaubt dir die Verwandlung von einer Drohne zu einem Humanoiden und zurück.,Ti consente di trasformarti da drone a umanoide e viceversa.,Permite transformar-se de drone para humanoide e vice-versa.,Te permite cambiar de forma entre dron y humanoide.,Позволяет превращаться в дрона и обратно.,드론과 인간형 간의 상호 변신을 가능케 합니다.,令你能够在无人机形态和人形之间切换。
-ARMAMASHILAMA_NAME,Amashilama,Amashilama,Amashilama,Amashilama,Amashilama,Amashilama,Амашилама,아마시라마,阿玛希拉玛
+ARMAMASHILAMA_NAME,Amashilama,Amashilama,Amashilama,Amashilama,Amashilama,Amashilama,Амашилама,아마실라마,阿玛希拉玛
 ARMAMASHILAMA_DESCRIPTION,An intelligent entity that has healed you and now lives inside your head.,Une entité intelligence qui vous a prodigué des soins et qui vit désormais dans votre esprit.,"Ein intelligentes Wesen, das dich geheilt hat und nun in deinem Kopf lebt.",Un'entità intelligente che ti ha curato e ora vive dentro la tua testa.,Uma entidade inteligente que vive em sua cabeça após ter curado você.,Una entidad inteligente que te curó y ahora vive en tu cabeza.,"Разумное существо, вылечившее вас и поселившееся у вас в голове.",당신의 신체를 치료하고 현재 당신의 머릿속에 공존하고 있는 지성체입니다.,一个具备智能的存在，治好了你的伤病，如今活在你的脑中。
 ARMBARASH_NAME,Barash,Barash,Barash,Barash,Barash,Barash,Бараш,바라시,巴拉什
 ARMBARASH_DESCRIPTION,Your drone can hover by pressing and holding jump in in the air.,Votre drone peut voler en maintenant appuyé sur saut dans les airs.,"Deine Drohne kann schweben, indem du in der Luft Springen drückst und gedrückt hältst.",Il tuo drone può volare mantenendo premuto il tasto 'salto' in aria.,Seu drone pode flutuar ao pressionar e segurar o botão de pulo quando estiver no ar.,Tu dron puede planear al oprimir y mantener el botón de salto en el aire.,Ваш дрон может парить при удерживании кнопки прыжка после самого прыжка.,공중에서 점프 버튼을 누르고 있으면 드론이 부유 이동할 수 있습니다.,你的无人机在空中时，按住跳跃按钮，它就能悬浮在空中。
 ARMDUN_NAME,Dun,Dun,Dun,Dun,Dun,Dun,Дун,둔,敦
-ARMDUN_DESCRIPTION,Allows fast travel to save points (use the Map screen),Permet de voyager rapidement vers les points de sauvegarde (utiliser la Carte),Erlaubt Schnellreisen zu Speicherpunkten (benutze den Kartenbildschirm),Permette di spostarsi rapidamente verso i punti di salvataggio (usando la mappa),Permite realizar viagens rápidas aos pontos de salvamento (use a tela do Mapa),Permite el viaje rápido entre puntos de guardado (en la interfaz del mapa).,Позволяет быстро перемещаться к безопасным зонам (с помощью Карты).,세이브 포인트로 즉시 이동할 수 있습니다. (지도 화면에서 사용 가능),能够让你在各个存档点之间快速移动（需要打开地图界面）
+ARMDUN_DESCRIPTION,Allows fast travel to save points (use the Map screen),Permet de voyager rapidement vers les points de sauvegarde (utiliser la Carte),Erlaubt Schnellreisen zu Speicherpunkten (benutze den Kartenbildschirm),Permette di spostarsi rapidamente verso i punti di salvataggio (usando la mappa),Permite realizar viagens rápidas aos pontos de salvamento (use a tela do Mapa),Permite el viaje rápido entre puntos de guardado (en la interfaz del mapa).,Позволяет быстро перемещаться к безопасным зонам (с помощью Карты).,"세이브 포인트로 즉시 이동할 수 있습니다.
+(지도 화면에서 사용 가능)",能够让你在各个存档点之间快速移动（需要打开地图界面）
 ARMESKIRI_NAME,Eskiri,Eskiri,Eskiri,Eskiri,Eskiri,Eskiri,Эскири,에스키리,埃斯基利
 ARMESKIRI_DESCRIPTION,Your drone fires a hook that can slingshot it over unreachable ledges.,Votre drone tire un crochet qu'il peut catapulter par-dessus les rebords inaccessibles.,"Deine Drohne feuert einen Haken ab, der sie über unerreichbare Vorsprünge schleudern kann.",Il tuo drone spara un gancio che lo può catapultare su sporgenze altrimenti irraggiungibili.,Seu drone dispara um gancho que pode lançá-lo a lugares inalcançáveis.,Tu dron dispara un gancho que puede lanzarlo hasta cornisas inalcanzables.,"Ваш дрон выпускает крюк, способный перенести его через необъятные пропасти.",드론이 훅을 발사해 닿지 않는 절벽 너머로 날아갈 수 있게 해줍니다.,你的无人机能够发射抓钩，从而到达原本无法到达的地方。
 ARMGUDANNA_NAME,Gud An-Na,Gud An-Na,Gud An-Na,Gud An-Na,Gud An-Na,Gud An-Na,Гуд Ан-На,구드 안나,古得安纳
@@ -82,8 +83,9 @@ COMPASS_DESCRIPTION,"A lapis lazuli pendant that is lit up on one side, as if po
 FLASHLIGHT_NAME,Flashlight,Lampe torche,Taschenlampe,Torcia elettrica,Lanterna,Linterna,Фонарик,플래시라이트,手电筒
 FLASHLIGHT_DESCRIPTION,A wearable flashlight.,Une torche de poche.,Eine tragbare Taschenlampe.,Una torcia elettrica portatile.,Uma lanterna portátil.,Una linterna que puedes llevar colgada.,Обычный карманный фонарик.,몸에 부착할 수 있는 플래시라이트.,可穿戴手电筒。
 PASSWORDTOOL_NAME,Passcode Tool,Outil décrypteur,Durchgangscode-Werkzeug,Dispositivo di decrittazione,Dispositivo de código de acesso,Herramienta de claves,Пульт управления паролями,패스코드 도구,密码工具
-PASSWORDTOOL_DESCRIPTION,Manipulate reality with encoded strings (use menu).,Manipule la réalité grâce à des séquences cryptées (utiliser le menu).,Manipuliert die Realität mit verschlüsselten Zeichenketten (Menü benutzen).,Manipola la realtà con stringhe codificate (usa il menu).,Manipule a realidade usando linhas de código (use o menu).,Manipula la realidad con cadenas codificadas (usa el menú).,Изменяет реальность с помощью закодированных строк (используйте меню).,부호화된 문자열을 통해 현실을 개조합니다. (메뉴에서 사용 가능),利用加密字符串操纵现实（需要打开菜单界面）。
-APOCALYPSE_NODE_XL_NAME,Apocalypse Flask (XL),Fiole d'Apocalypse (XL),Apokalypse-Flasche (XL),Fiala dell'Apocalisse (XL),Garrafa do Apocalipse (XG),Frasco del Apocalipsis (XL),Фляжка Апокалипсиса (XL),아포칼립스 플라스크(XL),天启溶液（超大瓶）
+PASSWORDTOOL_DESCRIPTION,Manipulate reality with encoded strings (use menu).,Manipule la réalité grâce à des séquences cryptées (utiliser le menu).,Manipuliert die Realität mit verschlüsselten Zeichenketten (Menü benutzen).,Manipola la realtà con stringhe codificate (usa il menu).,Manipule a realidade usando linhas de código (use o menu).,Manipula la realidad con cadenas codificadas (usa el menú).,Изменяет реальность с помощью закодированных строк (используйте меню).,"부호화된 문자열을 통해 현실을 개조합니다.
+(메뉴에서 사용 가능)",利用加密字符串操纵现实（需要打开菜单界面）。
+APOCALYPSE_NODE_XL_NAME,Apocalypse Flask (XL),Fiole d'Apocalypse (XL),Apokalypse-Flasche (XL),Fiala dell'Apocalisse (XL),Garrafa do Apocalipse (XG),Frasco del Apocalipsis (XL),Фляжка Апокалипсиса (XL),아포칼립스 플라스크(특대),天启溶液（超大瓶）
 APOCALYPSE_NODE_XL_DESCRIPTION,"Augment your powers and abilities by 6 points.
  
 Apply within the skills menu.","Augmente de 6 points vos pouvoirs et compétences.
@@ -98,12 +100,11 @@ Use no menu de habilidades.","Potencia tus poderes y habilidades en 6 puntos.
   
   Úsalo en el menú de habilidades.","Увеличивает вашу силу и способности на 6 единиц.
 
-Выбирается из меню умений.","당신의 능력과 역량을 6포인트만큼 확장합니다.
- 
+Выбирается из меню умений.","당신의 능력과 역량을 6포인트만큼 확장합니다. 
 스킬 메뉴에서 직접 배분하십시오.","令你的属性增强6点。
 
 需要前往技能界面使用。"
-APOCALYPSE_NODE_L_NAME,Apocalypse Flask (L),Fiole d'Apocalypse (L),Apokalypse-Flasche (L),Fiala dell'Apocalisse (L),Garrafa do Apocalipse (G),Frasco del Apocalipsis (L),Фляжка Апокалипсиса (L),아포칼립스 플라스크(L),天启溶液（大瓶）
+APOCALYPSE_NODE_L_NAME,Apocalypse Flask (L),Fiole d'Apocalypse (L),Apokalypse-Flasche (L),Fiala dell'Apocalisse (L),Garrafa do Apocalipse (G),Frasco del Apocalipsis (L),Фляжка Апокалипсиса (L),아포칼립스 플라스크(대),天启溶液（大瓶）
 APOCALYPSE_NODE_L_DESCRIPTION,"Augment your powers and abilities by 4 points.
  
 Apply within the skills menu.","Augmente de 4 points vos pouvoirs et compétences.
@@ -119,8 +120,7 @@ Use no menu de habilidades.","Potencia tus poderes y habilidades en 4 puntos.
   
   Úsalo en el menú de habilidades.","Увеличивает вашу силу и способности на 4 единицы.
 
-Выбирается из меню умений.","당신의 능력과 역량을 4포인트만큼 확장합니다.
- 
+Выбирается из меню умений.","당신의 능력과 역량을 4포인트만큼 확장합니다. 
 스킬 메뉴에서 직접 배분하십시오.","令你的属性增强4点。
 
 需要前往技能界面使用。"
@@ -140,8 +140,7 @@ Use no menu de habilidades.","Potencia tus poderes y habilidades en 2 puntos.
   
   Úsalo en el menú de habilidades.","Увеличивает вашу силу и способности на 2 единицы.
 
-Выбирается из меню умений.","당신의 능력과 역량을 2포인트만큼 확장합니다.
- 
+Выбирается из меню умений.","당신의 능력과 역량을 2포인트만큼 확장합니다. 
 스킬 메뉴에서 직접 배분하십시오.","令你的属性增强2点。
 
 需要前往技能界面使用。"
@@ -161,8 +160,7 @@ Use no menu de habilidades.","Potencia tus poderes y habilidades en 1 punto.
   
   Úsalo en el menú de habilidades.","Увеличивает вашу силу и способности на 1 единицу.
 
-Выбирается из меню умений.","당신의 능력과 역량을 1포인트만큼 확장합니다.
- 
+Выбирается из меню умений.","당신의 능력과 역량을 1포인트만큼 확장합니다. 
 스킬 메뉴에서 직접 배분하십시오.","令你的属性增强1点。
 
 需要前往技能界面使用。"
@@ -179,7 +177,8 @@ POWER_NODE_DESCRIPTION,Permanently increases weapon and item damage.,Augmente d�
 POWER_NODE_FRAGMENT_NAME,Power Node Fragment,Fragment de Nodule de puissance,Energie-Knotenpunkt-Fragment,Frammento di nodo energetico,Fragmento de Nódulo de Força,Fragmento de nodo de poder,Фрагмент узла мощности,파워 노드 파편,威力之珠碎片
 POWER_NODE_FRAGMENT_DESCRIPTION,Combine 6 to permanently increase your weapon and item damage.,Combinez-en 6 pour augmenter définitivement les dégâts des armes et des objets.,"Kombiniere 6 davon, um Waffen- und Gegenstands-Schaden dauerhaft zu erhöhen.",Combinane 6 per aumentare i danni di armi e oggetti in modo permanente.,Junte 6 para aumentar permanentemente o dano das armas e itens.,Combina 6 fragmentos para aumentar el daño que infliges con armas y objetos.,"Соберите 6 фрагментов, чтобы навсегда увеличить повреждения оружия и предметов.",6개를 모으면 무기와 아이템의 공격력을 영구히 증가시킵니다.,集齐6块即可永久提升一次武器和物品的伤害。
 RANGE_NODE_NAME,Range Node,Nodule de portée,Reichweiten-Knotenpunkt,Nodo di portata,Módulo de alcance,Nodo de alcance,Узел дальности,사거리 노드,射程之珠
-RANGE_NODE_DESCRIPTION,Permanently increases weapon range (where applicable).,Augmente définitivement la portée des armes (si applicable).,Erhöht die Waffenreichweite dauerhaft (in geeigneten Fällen).,Aumenta la portata delle armi (ove applicabile) in modo permanente.,Aumenta permanentemente o alcance da arma (quando aplicável).,Aumenta el alcance de las armas a distancia (si corresponde) de manera permanente.,Навсегда увеличивает дальность вашего оружия (когда применимо).,무기의 사거리를 영구히 증가시킵니다. (적용 가능한 무기에 한함),永久提升相应武器的射程。
+RANGE_NODE_DESCRIPTION,Permanently increases weapon range (where applicable).,Augmente définitivement la portée des armes (si applicable).,Erhöht die Waffenreichweite dauerhaft (in geeigneten Fällen).,Aumenta la portata delle armi (ove applicabile) in modo permanente.,Aumenta permanentemente o alcance da arma (quando aplicável).,Aumenta el alcance de las armas a distancia (si corresponde) de manera permanente.,Навсегда увеличивает дальность вашего оружия (когда применимо).,"무기의 사거리를 영구히 증가시킵니다.
+(적용 가능한 무기에 한함)",永久提升相应武器的射程。
 HEALTH_NODE_NAME,Health Node,Nodule de vie,Gesundheits-Knotenpunkt,Nodo della salute,Módulo de saúde,Nodo de salud,Узел здоровья,체력 노드,生命之珠
 HEALTH_NODE_DESCRIPTION,Increases max health by 1 bar.,Augmente les points de vie max de 50 points.,Erhöht die maximale Gesundheit um 50 Punkte.,Aumenta la salute massima di 50 punti.,Aumenta a saúde máxima em 50 pontos.,Aumenta la salud máxima 50 puntos.,Увеличивает максимальный запас здоровья на 50.,최대 체력을 1칸 증가시킵니다.,令生命上限提升50点。
 HEALTH_NODE_FRAGMENT_NAME,Health Node Fragment,Fragment de Nodule de vie,Gesundheits-Knotenpunkt-Fragment,Frammento di nodo della salute,Fragmento de nódulo de saúde,Fragmento de nodo de salud,Фрагмент узла здоровья,체력 노드 파편,生命之珠碎片
@@ -200,7 +199,8 @@ OEMQUOTES,',,,,,,,',
 COPPERDAGGER_NAME,Royal Dagger,Dague royale,Königsdolch,Daga reale,Adaga Régia,Daga real,Царский кинжал,왕실 단검,皇家匕首
 COPPERDAGGER_DESCRIPTION,Made of arsenical copper and lapis lazuli.,Faite de cuivre à l'arsénique et de lapis-lazuli.,Hergestellt aus arsenhaltigem Kupfer und Lapislazuli.,Realizzata con rame arsenicale e lapislazzuli.,Feita de cobre arsênico e lápis-lazuli.,Una cuchilla de cobre arsénical y lapislázuli.,Сделан из мышьяковистой меди и ляпис-лазури.,비소동과 청라석으로 제작되었습니다.,材质为砷铜与紫金石。
 ARMRAH_NAME,Rah,Rah,Rah,Rah,Rah,Rah,Ра,라,拉
-ARMRAH_DESCRIPTION,Allows you to charge up melee weapon attacks (hold down the attack button).,Permet de charger des attaques d'armes de mêlée (maintenez enfoncé le bouton d'attaque).,"Ermöglicht es dir, Nahkampfwaffenangriffe aufzuladen (halte die Angriffstaste gedrückt).",Ti permette di caricare attacchi con armi da mischia (tenendo premuto il tasto di attacco).,Permite carregar ataques com armas corpo a corpo (segure o botão de ataque).,Te permite cargar los ataques con las armas cuerpo a cuerpo (mantén pulsado el botón).,Позволяет усиливать атаки оружием ближнего боя (удерживайте кнопку атаки).,근접 무기 공격을 모으기할 수 있게 해줍니다. (공격 버튼을 길게 누름),你的近战武器能够蓄力攻击（按住攻击按钮）。
+ARMRAH_DESCRIPTION,Allows you to charge up melee weapon attacks (hold down the attack button).,Permet de charger des attaques d'armes de mêlée (maintenez enfoncé le bouton d'attaque).,"Ermöglicht es dir, Nahkampfwaffenangriffe aufzuladen (halte die Angriffstaste gedrückt).",Ti permette di caricare attacchi con armi da mischia (tenendo premuto il tasto di attacco).,Permite carregar ataques com armas corpo a corpo (segure o botão de ataque).,Te permite cargar los ataques con las armas cuerpo a cuerpo (mantén pulsado el botón).,Позволяет усиливать атаки оружием ближнего боя (удерживайте кнопку атаки).,"근접 무기 공격을 모으기할 수 있게 해줍니다.
+(공격 버튼을 길게 누름)",你的近战武器能够蓄力攻击（按住攻击按钮）。
 CARNELIANRING_NAME,Carnelian Ring,Bague de cornaline,Karneol-Ring,Anello con corniola,Anel de Cornalina,Anillo de cornalina,Сердоликовое кольцо,카넬리언 반지,红玉髓戒指
 CARNELIANRING_DESCRIPTION,Charge attacks cause the Bronze Axe to fire a projectile.,La Hache de bronze lance un projectile avec les attaques chargées.,"Aufladungsangriffe bewirken, dass die Bronzeaxt ein Projektil abfeuert.","Con gli attacchi caricati, l'ascia di bronzo spara un proiettile.",Ataques carregados com o Machado de Bronze lançam projéteis.,Cargar un ataque con el Hacha de bronce disparará un proyectil.,Усиленные атаки заставляют Бронзовую секиру выстреливать снарядом.,청동 도끼로 모으기 공격 시 투사체를 발사합니다.,蓄力攻击会令青铜斧发出斧气。
 ROYALRING_NAME,Royal Ring,Anneau royal,Königsring,Anello reale,Anel Régio,Anillo real,Царское кольцо,왕실 반지,皇家戒指
@@ -212,7 +212,8 @@ EYERING_DESCRIPTION,Allows you to see in the dark without the use of a flashligh
 COMPASSGEM_NAME,Diviner's Gem,Gemme divinatoire,Edelstein des Wahrsagers,Gemma divinatoria,Gema da Adivinhação,Gema de la Adivinación,Камень предсказателя,점술가의 보석,卜士宝石
 COMPASSGEM_DESCRIPTION,Chalcedony gemstone that fits perfectly within the compass.,Fragment de calcédoine qui s'encastre parfaitement dans la boussole.,"Chalcedon-Edelstein, der perfekt in den Kompass passt.",Una gemma di calcedonio che si adatta perfettamente alla bussola.,Uma gema de calcedônia que se encaixa perfeitamente na bússola.,Una calcedonia que calza a la perfección en la brújula.,"Драгоценный камень халцедон, который идеально встраивается в компас.",나침반에 꼭 들어맞는 옥수 원석입니다.,这颗玉髓宝石刚好能够嵌入罗盘，严丝合缝，分毫不差。
 ARMUSANRAH_NAME,Usan Rah,Usan Rah,Usan Rah,Usan Rah,Usan Rah,Usan Rah,Усан Рах,우산 라,乌桑拉
-ARMUSANRAH_DESCRIPTION,Allows you to charge up drone attacks (hold down the attack button).,Vous permet de charger les attaques du drone (maintenir le bouton d'attaque).,"Ermöglicht es dir, Drohnenangriffe aufzuladen (halte die Angriffstaste gedrückt).",Ti permette di caricare gli attacchi del drone (tenendo premuto il tasto d'attacco).,Permite carregar os ataques do seu drone (segure o botão de ataque).,Te permite cargar los ataques de tu dron (mantén oprimido el botón de ataque).,Позволяет заряжать атаки дрона (удерживайте кнопку атаки).,드론 공격을 모으기할 수 있게 해줍니다. (공격 버튼을 길게 누름),你的无人机可以蓄力攻击（长按攻击按钮）。
+ARMUSANRAH_DESCRIPTION,Allows you to charge up drone attacks (hold down the attack button).,Vous permet de charger les attaques du drone (maintenir le bouton d'attaque).,"Ermöglicht es dir, Drohnenangriffe aufzuladen (halte die Angriffstaste gedrückt).",Ti permette di caricare gli attacchi del drone (tenendo premuto il tasto d'attacco).,Permite carregar os ataques do seu drone (segure o botão de ataque).,Te permite cargar los ataques de tu dron (mantén oprimido el botón de ataque).,Позволяет заряжать атаки дрона (удерживайте кнопку атаки).,"드론 공격을 모으기할 수 있게 해줍니다.
+(공격 버튼을 길게 누름)",你的无人机可以蓄力攻击（长按攻击按钮）。
 HALUSAN_NAME,Halusan,Halusan,Halusan,Halusan,Halusan,Halusan,Халусан,할루산,哈鲁桑
 HALUSAN_DESCRIPTION,Charge attacks cause your drone to fire a rolling projectile.,Les attaques chargées permettent à votre drone de tirer un projectile roulant.,"Aufladungsangriffe bewirken, dass deine Drohne ein rollendes Projektil abfeuert.",Gli attacchi caricati permettono al tuo drone di sparare un proiettile rotante.,Carregar ataques faz seu drone disparar um projétil rolante.,Los ataques cargados hacen que tu dron dispare un proyectil que rueda.,Заряженные атаки позволяют дрону стрелять вращающимся зарядом.,모으기 공격 시 드론이 회전 투사체를 사출합니다.,蓄力攻击会令你的无人机发出滚动的投射物。
 ARMTILHARDRONE_NAME,Tilhar,Tilhar,Tilhar,Tilhar,Tilhar,Tilhar,Тилхар,틸하르,提尔哈
